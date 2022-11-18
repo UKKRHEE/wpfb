@@ -17,5 +17,13 @@ spriteTypes = {
 		texturefile = "gfx/KOR_Lee_Moon_Sae1_album_art.dds"
 		noOfFrames = 2
 	}
+	spriteType = {
+		name = "GFX_frontend_logo_TLE_2"
+		texturefile = "gfx/interface/NEW_TLE_logo_game.png"
+	}
+	spriteType = {
+		name = "GFX_frontend_logo_TLE_2"
+		texturefile = "gfx/interface/NEW_TLE_logo_game.png"
+	}
 
 }
