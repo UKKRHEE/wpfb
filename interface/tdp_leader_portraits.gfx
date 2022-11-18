@@ -1,0 +1,148 @@
+spriteTypes = {
+
+	#############
+	### 대한제국 ###
+	#############
+	
+	### 한국 지도자 ###
+	spriteType = {
+		name = "GFX_portrait_KOR_yi_dong_hwi"
+		texturefile = "gfx/leaders/KOR/Portrait_KOR_Yi_Dong_hwi.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_KOR_lyuh_woon_hyung"
+		texturefile = "gfx/leaders/KOR/Portrait_KOR_Lyuh_Woon_hyung.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_KOR_lee_beom_seok"
+		texturefile = "gfx/leaders/KOR/Portrait_KOR_Lee_Beom_seok.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_KOR_yi_won"
+		texturefile = "gfx/leaders/KOR/Portrait_KOR_Yi_Won.png"
+	}
+	
+	### 한국 정치인 ###
+	spriteType = {
+		name = "GFX_portrait_KOR_pak_hon_yong"
+		texturefile = "gfx/leaders/KOR/Portrait_KOR_Pak_Hon_yong.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_KOR_ahn_chang_ho"
+		texturefile = "gfx/leaders/KOR/Portrait_KOR_Ahn_Chang_ho.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_KOR_kim_kyu_sik"
+		texturefile = "gfx/leaders/KOR/Portrait_KOR_Kim_Kyu_sik.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_KOR_syngman_rhee"
+		texturefile = "gfx/leaders/KOR/Portrait_KOR_Syngman_Rhee.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_KOR_kim_koo"
+		texturefile = "gfx/leaders/KOR/Portrait_KOR_Kim_Koo.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_KOR_yi_sang_sul"
+		texturefile = "gfx/leaders/KOR/Portrait_KOR_Yi_Sang_sul.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_KOR_sin_chae_ho"
+		texturefile = "gfx/leaders/KOR/Portrait_KOR_Sin_Chae_ho.png"
+	}
+	
+	### 한국 원수 ###
+	spriteType = {
+		name = "GFX_portrait_KOR_yi_kang"
+		texturefile = "gfx/leaders/KOR/Portrait_KOR_Yi_Kang.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_KOR_ahn_jung_geun"
+		texturefile = "gfx/leaders/KOR/Portrait_KOR_Ahn_Jung_geun.png"
+	}
+	
+	### 한국 장성 ###
+	spriteType = {
+		name = "GFX_portrait_KOR_kim_chwa_chin"
+		texturefile = "gfx/leaders/KOR/Portrait_KOR_Kim_Chwa_chin.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_KOR_yu_dong_yeol"
+		texturefile = "gfx/leaders/KOR/Portrait_KOR_Yu_Dong_yeol.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_KOR_shin_pal_gyun"
+		texturefile = "gfx/leaders/KOR/Portrait_KOR_Shin_Pal_gyun.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_KOR_song_ho_seong"
+		texturefile = "gfx/leaders/KOR/Portrait_KOR_Song_Ho_seong.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_KOR_ji_cheong_cheon"
+		texturefile = "gfx/leaders/KOR/Portrait_KOR_Ji_Cheong_cheon.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_KOR_kim_hong_il"
+		texturefile = "gfx/leaders/KOR/Portrait_KOR_Kim_Hong_il.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_KOR_kim_won_bong"
+		texturefile = "gfx/leaders/KOR/Portrait_KOR_Kim_Won_bong.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_KOR_kim_suk_won"
+		texturefile = "gfx/leaders/KOR/Portrait_KOR_Kim_Suk_won.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_KOR_kim_kyung_cheon"
+		texturefile = "gfx/leaders/KOR/Portrait_KOR_Kim_Kyung_cheon.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_KOR_hong_sa_ik"
+		texturefile = "gfx/leaders/KOR/Portrait_KOR_Hong_Sa_ik.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_KOR_lee_eung_jun"
+		texturefile = "gfx/leaders/KOR/Portrait_KOR_Lee_Eung_jun.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_KOR_oh_dong_jin"
+		texturefile = "gfx/leaders/KOR/Portrait_KOR_Oh_Dong_jin.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_KOR_hwang_byeong_gil"
+		texturefile = "gfx/leaders/KOR/Portrait_KOR_Hwang_Byeong_gil.png"
+	}
+	
+	### 한국 제독 ###
+	spriteType = {
+		name = "GFX_portrait_KOR_sin_sun_sung"
+		texturefile = "gfx/leaders/KOR/Portrait_KOR_Sin_Sun_sung.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_KOR_yi_kyu_gap"
+		texturefile = "gfx/leaders/KOR/Portrait_KOR_Yi_Kyu_gap.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_KOR_park_ok_kyu"
+		texturefile = "gfx/leaders/KOR/Portrait_KOR_Park_Ok_kyu.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_KOR_choi_sung_hak"
+		texturefile = "gfx/leaders/KOR/Portrait_KOR_Choi_Sung_hak.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_KOR_sohn_won_yil"
+		texturefile = "gfx/leaders/KOR/Portrait_KOR_Sohn_Won_yil.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_KOR_yi_jae_gak"
+		texturefile = "gfx/leaders/KOR/Portrait_KOR_Yi_Jae_gak.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_KOR_shin_sung_mo"
+		texturefile = "gfx/leaders/KOR/Portrait_KOR_Shin_Sung_mo.png"
+	}
+}
