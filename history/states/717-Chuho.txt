@@ -2,7 +2,6 @@
 state={
 	id=717
 	name="STATE_717"
-	local_supplies=0.0 
 
 	history={
 		owner = KOR
@@ -19,21 +18,22 @@ state={
 
 		}
 		victory_points = {
-			11906 3
+			11906 3 
 		}
 		victory_points = {
-			3815 1
+			3815 1 
 		}
 		victory_points = {
-			9623 5
+			9623 5 
 		}
 
 	}
 
 	provinces={
-		1571 3791 3815 4551 6811 6863 7569 7670 9623 9798 10215 10376 10463 10503 10519 10521 11893 11906 12342 12355 12443 12482 12500 13257
+		1571 3815 6863 7569 7670 9623 9798 10215 10463 10503 10519 12342 12355 12443 12482 12500 13257 
 	}
 	manpower=2324174
 	buildings_max_level_factor=1.000
 	state_category=pastoral
+	local_supplies=0.000
 }
