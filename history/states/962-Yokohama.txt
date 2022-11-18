@@ -14,7 +14,7 @@ state={
 				naval_base = 8
 			}
 		}
-		owner = USA
+		owner = JAP
 		add_core_of = JAP
 		#add_core_of = USA
 	}

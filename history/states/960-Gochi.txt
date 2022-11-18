@@ -13,7 +13,7 @@ state={
 			}
 
 		}
-		owner = FRA
+		owner = JAP
 		add_core_of = JAP
 		#add_core_of = FRA
 
