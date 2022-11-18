@@ -16,7 +16,7 @@ state={
 			}
 		}
 		owner = ENG
-		add_core_of = DKG
+		add_core_of = JAP
 		#add_core_of = ENG
 	}
 }

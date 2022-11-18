@@ -41,7 +41,7 @@ state={
 			set_demilitarized_zone = yes
 		}
 		1938.10.25 = {
-			DKG = {
+			JAP = {
 				set_province_controller = 4196
 				set_province_controller = 7071
 

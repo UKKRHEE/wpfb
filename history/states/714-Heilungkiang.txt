@@ -8,9 +8,9 @@ state={
 
 	local_supplies=0.0 
 	history={
-		owner = KMN
+		owner = QIN
 		add_core_of = CHI
-		add_core_of = KMN
+		add_core_of = QIN
 		add_core_of = KOR
 		add_core_of = PRC
 		buildings = {

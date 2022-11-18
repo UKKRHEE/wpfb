@@ -5,9 +5,9 @@ state={
 		1024 1165 7169 
 	}
 	history={
-		owner = SDJ
-		add_core_of = SDJ
-		add_core_of = DKG
+		owner = JAP
+		add_core_of = JAP
+		add_core_of = JAP
 		buildings = {
 			arms_factory = 1
 			industrial_complex = 1

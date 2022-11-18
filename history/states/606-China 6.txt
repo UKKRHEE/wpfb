@@ -20,7 +20,7 @@ state={
 			7222 1 
 		}
 		1938.10.25 = {
-			controller = DKG
+			controller = JAP
 			buildings = {
 				industrial_complex = 3
 				infrastructure = 6

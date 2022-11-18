@@ -8,10 +8,10 @@ state={
 	}
 
 	history={
-		owner = KKS
-		add_core_of = KKS
+		owner = JAP
+		add_core_of = JAP
 		add_claim_by = KOR
-		add_core_of = DKG
+		add_core_of = JAP
 		buildings = {
 			infrastructure = 3
 			air_base = 3

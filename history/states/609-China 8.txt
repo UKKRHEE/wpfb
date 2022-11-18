@@ -8,9 +8,8 @@ state={
 		add_core_of = ZLC
 		add_core_of = CHI
 		add_core_of = PRC
-		add_core_of = KMN
-		add_core_of = KOR
 		add_core_of = QIN
+		add_core_of = KOR
 		buildings = {
 			infrastructure = 1
 			arms_factory = 1
@@ -34,7 +33,7 @@ state={
 
 		}
 		1936.8.1 = {
-			controller = DKG
+			controller = JAP
 
 		}
 

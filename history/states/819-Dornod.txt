@@ -15,13 +15,6 @@ state={
 		}
 		add_core_of = MON
 		add_core_of = MEN
-		1935.12.6 = {		
-			MON = {
-				set_province_controller = 12533
-				set_province_controller = 7823
-				set_province_controller = 7885
-			} 			
-		}
 	}
 	manpower=88250
 	buildings_max_level_factor=1.000

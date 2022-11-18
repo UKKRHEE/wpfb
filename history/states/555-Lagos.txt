@@ -8,9 +8,9 @@ state={
 
 	local_supplies=0.0 
 	history={
-		owner = KOR
-		add_core_of = KOR
-		#add_core_of = DKG
+		owner = JAP
+		add_core_of = JAP
+		#add_core_of = JAP
 		add_claim_by = SOV # Removed because of too much aggression
 		buildings = {
 			infrastructure = 2

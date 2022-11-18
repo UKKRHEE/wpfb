@@ -19,7 +19,7 @@ state={
 			4190 3 
 		}
 		1938.10.25 = {
-			controller = DKG
+			controller = JAP
 
 		}
 

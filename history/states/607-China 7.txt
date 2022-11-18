@@ -24,7 +24,7 @@ state={
 				arms_factory = 2
 
 			}
-			DKG = {
+			JAP = {
 				set_province_controller = 1004
 				set_province_controller = 1139
 				set_province_controller = 4010

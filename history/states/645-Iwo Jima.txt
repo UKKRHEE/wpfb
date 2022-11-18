@@ -9,7 +9,7 @@ state=
 	{
 		owner = KOR
 		add_core_of = KOR
-		add_claim_by = DKG
+		add_claim_by = JAP
 		buildings = {
 			infrastructure = 1
 			air_base = 1
