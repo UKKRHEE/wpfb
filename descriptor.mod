@@ -3,4 +3,4 @@ tags={
 	"Alternative History"
 }
 name="오얏꽃 필 무렵"
-supported_version="1.12.5"
+supported_version="1.12.*"
