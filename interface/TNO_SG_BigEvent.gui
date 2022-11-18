@@ -1,0 +1,1609 @@
+guiTypes = {
+
+	containerWindowType = {
+		name = "TNO_SG_big_event_korea_the_yi_kang"
+		size = { width = 580 height = 128 }
+		position = { x=0 y=-210 }
+		Orientation = center
+		Origo = center
+		clipping = no
+
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_window_1b_no_border"
+		}
+
+		instantTextBoxType = {
+			name = "Title"
+			position = { x = 0 y = 18 }
+			font = "aldrich_24_outline"
+			borderSize = {x = 0 y = 0}
+			text = "TNO_SG_big_event_korea_the_yi_kang_T"
+			maxWidth = 580
+			maxHeight = 24
+			format = centre
+		}
+
+		iconType = {
+			name ="image"
+			spriteType = "GFX_superevent_korea_the_yi_kang"
+			position = { x= -286 y = -18 }
+			Orientation = center
+			alwaystransparent = yes
+		}
+
+	}
+
+	containerWindowType = {
+		name = "TNO_SG_big_event_frame_korea_the_yi_kang"
+		size = { width = 588 height = 465 }
+		position = { x=0 y=0 }
+		Orientation = center
+		Origo = center
+		clipping = no
+
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_window_bigevent_border"
+		}
+
+		buttonType = {
+			name = "Option"
+			text = "TNO_SG_big_event_korea_the_yi_kang_A"
+			shortcut = "ESCAPE"
+			position = { x = -110 y = 183 }
+			quadTextureSprite ="GFX_button_221x34"
+			buttonFont = "Bomb_24"
+			Orientation = center
+		}
+
+		iconType = {
+			name ="underlay"
+			spriteType = "GFX_superevent_text_underlay"
+			position = { x= 30 y = -200 }
+			Orientation = lower_left
+			alwaystransparent = yes
+		}
+
+		instantTextBoxType = {
+			name = "text"
+			position = {  x= 120 y = -195 }
+			font = "Bomb_24"
+			text = "TNO_SG_big_event_korea_the_yi_kang_D"
+			maxWidth = 455
+			maxHeight = 173
+			fixedsize = yes
+			format = right
+			Orientation = lower_left
+		}
+	}
+	
+#####################
+	containerWindowType = {
+		name = "TNO_SG_big_event_korea_ww_china"
+		size = { width = 580 height = 128 }
+		position = { x=0 y=-210 }
+		Orientation = center
+		Origo = center
+		clipping = no
+
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_window_1b_no_border"
+		}
+
+		instantTextBoxType = {
+			name = "Title"
+			position = { x = 0 y = 18 }
+			font = "aldrich_24_outline"
+			borderSize = {x = 0 y = 0}
+			text = "TNO_SG_big_event_korea_ww_china_T"
+			maxWidth = 580
+			maxHeight = 24
+			format = centre
+		}
+
+		iconType = {
+			name ="image"
+			spriteType = "GFX_superevent_korea_ww_china"
+			position = { x= -286 y = -18 }
+			Orientation = center
+			alwaystransparent = yes
+		}
+
+	}
+
+	containerWindowType = {
+		name = "TNO_SG_big_event_frame_korea_ww_china"
+		size = { width = 588 height = 465 }
+		position = { x=0 y=0 }
+		Orientation = center
+		Origo = center
+		clipping = no
+
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_window_bigevent_border"
+		}
+
+		buttonType = {
+			name = "Option"
+			text = "TNO_SG_big_event_korea_ww_china_A"
+			shortcut = "ESCAPE"
+			position = { x = -110 y = 183 }
+			quadTextureSprite ="GFX_button_221x34"
+			buttonFont = "Bomb_24"
+			Orientation = center
+		}
+
+		iconType = {
+			name ="underlay"
+			spriteType = "GFX_superevent_text_underlay"
+			position = { x= 30 y = -200 }
+			Orientation = lower_left
+			alwaystransparent = yes
+		}
+
+		instantTextBoxType = {
+			name = "text"
+			position = {  x= 120 y = -195 }
+			font = "Bomb_24"
+			text = "TNO_SG_big_event_korea_ww_china_D"
+			maxWidth = 455
+			maxHeight = 173
+			fixedsize = yes
+			format = right
+			Orientation = lower_left
+		}
+	}
+#####################
+	containerWindowType = {
+		name = "TNO_SG_big_event_korea_war_with_usa"
+		size = { width = 580 height = 128 }
+		position = { x=0 y=-210 }
+		Orientation = center
+		Origo = center
+		clipping = no
+
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_window_1b_no_border"
+		}
+
+		instantTextBoxType = {
+			name = "Title"
+			position = { x = 0 y = 18 }
+			font = "aldrich_24_outline"
+			borderSize = {x = 0 y = 0}
+			text = "TNO_SG_big_event_korea_war_with_usa_T"
+			maxWidth = 580
+			maxHeight = 24
+			format = centre
+		}
+
+		iconType = {
+			name ="image"
+			spriteType = "GFX_korea_war_with_usa"
+			position = { x= -286 y = -18 }
+			Orientation = center
+			alwaystransparent = yes
+		}
+
+	}
+
+	containerWindowType = {
+		name = "TNO_SG_big_event_frame_korea_war_with_usa"
+		size = { width = 588 height = 465 }
+		position = { x=0 y=0 }
+		Orientation = center
+		Origo = center
+		clipping = no
+
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_window_bigevent_border"
+		}
+
+		buttonType = {
+			name = "Option"
+			text = "TNO_SG_big_event_korea_war_with_usa_A"
+			shortcut = "ESCAPE"
+			position = { x = -110 y = 183 }
+			quadTextureSprite ="GFX_button_221x34"
+			buttonFont = "Bomb_24"
+			Orientation = center
+		}
+
+		iconType = {
+			name ="underlay"
+			spriteType = "GFX_superevent_text_underlay"
+			position = { x= 30 y = -200 }
+			Orientation = lower_left
+			alwaystransparent = yes
+		}
+
+		instantTextBoxType = {
+			name = "text"
+			position = {  x= 120 y = -195 }
+			font = "Bomb_24"
+			text = "TNO_SG_big_event_korea_war_with_usa_D"
+			maxWidth = 455
+			maxHeight = 173
+			fixedsize = yes
+			format = right
+			Orientation = lower_left
+		}
+	}
+	#####################
+	containerWindowType = {
+		name = "TNO_SG_big_event_empire_of_japan"
+		size = { width = 580 height = 128 }
+		position = { x=0 y=-210 }
+		Orientation = center
+		Origo = center
+		clipping = no
+
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_window_1b_no_border"
+		}
+
+		instantTextBoxType = {
+			name = "Title"
+			position = { x = 0 y = 18 }
+			font = "aldrich_24_outline"
+			borderSize = {x = 0 y = 0}
+			text = "TNO_SG_big_event_empire_of_japan_T"
+			maxWidth = 580
+			maxHeight = 24
+			format = centre
+		}
+
+		iconType = {
+			name ="image"
+			spriteType = "GFX_superevent_empire_of_japan"
+			position = { x= -286 y = -18 }
+			Orientation = center
+			alwaystransparent = yes
+		}
+
+	}
+
+	containerWindowType = {
+		name = "TNO_SG_big_event_frame_empire_of_japan"
+		size = { width = 588 height = 465 }
+		position = { x=0 y=0 }
+		Orientation = center
+		Origo = center
+		clipping = no
+
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_window_bigevent_border"
+		}
+
+		buttonType = {
+			name = "Option"
+			text = "TNO_SG_big_event_empire_of_japan_A"
+			shortcut = "ESCAPE"
+			position = { x = -110 y = 183 }
+			quadTextureSprite ="GFX_button_221x34"
+			buttonFont = "Bomb_24"
+			Orientation = center
+		}
+
+		iconType = {
+			name ="underlay"
+			spriteType = "GFX_superevent_text_underlay"
+			position = { x= 30 y = -200 }
+			Orientation = lower_left
+			alwaystransparent = yes
+		}
+
+		instantTextBoxType = {
+			name = "text"
+			position = {  x= 120 y = -195 }
+			font = "Bomb_24"
+			text = "TNO_SG_big_event_empire_of_japan_D"
+			maxWidth = 455
+			maxHeight = 173
+			fixedsize = yes
+			format = right
+			Orientation = lower_left
+		}
+	}
+	######
+	containerWindowType = {
+		name = "TNO_SG_big_event_russia_attack_korea"
+		size = { width = 580 height = 128 }
+		position = { x=0 y=-210 }
+		Orientation = center
+		Origo = center
+		clipping = no
+
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_window_1b_no_border"
+		}
+
+		instantTextBoxType = {
+			name = "Title"
+			position = { x = 0 y = 18 }
+			font = "aldrich_24_outline"
+			borderSize = {x = 0 y = 0}
+			text = "TNO_SG_big_event_russia_attack_korea_T"
+			maxWidth = 580
+			maxHeight = 24
+			format = centre
+		}
+
+		iconType = {
+			name ="image"
+			spriteType = "GFX_russia_attack_korea"
+			position = { x= -286 y = -18 }
+			Orientation = center
+			alwaystransparent = yes
+		}
+
+	}
+
+	containerWindowType = {
+		name = "TNO_SG_big_event_frame_russia_attack_korea"
+		size = { width = 588 height = 465 }
+		position = { x=0 y=0 }
+		Orientation = center
+		Origo = center
+		clipping = no
+
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_window_bigevent_border"
+		}
+
+		buttonType = {
+			name = "Option"
+			text = "TNO_SG_big_event_russia_attack_korea_A"
+			shortcut = "ESCAPE"
+			position = { x = -110 y = 183 }
+			quadTextureSprite ="GFX_button_221x34"
+			buttonFont = "Bomb_24"
+			Orientation = center
+		}
+
+		iconType = {
+			name ="underlay"
+			spriteType = "GFX_superevent_text_underlay"
+			position = { x= 30 y = -200 }
+			Orientation = lower_left
+			alwaystransparent = yes
+		}
+
+		instantTextBoxType = {
+			name = "text"
+			position = {  x= 120 y = -195 }
+			font = "Bomb_24"
+			text = "TNO_SG_big_event_russia_attack_korea_D"
+			maxWidth = 455
+			maxHeight = 173
+			fixedsize = yes
+			format = right
+			Orientation = lower_left
+		}
+	}
+	######
+	containerWindowType = {
+		name = "TNO_SG_big_event_fall_of_korea"
+		size = { width = 580 height = 128 }
+		position = { x=0 y=-210 }
+		Orientation = center
+		Origo = center
+		clipping = no
+
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_window_1b_no_border"
+		}
+
+		instantTextBoxType = {
+			name = "Title"
+			position = { x = 0 y = 18 }
+			font = "aldrich_24_outline"
+			borderSize = {x = 0 y = 0}
+			text = "TNO_SG_big_event_fall_of_korea_T"
+			maxWidth = 580
+			maxHeight = 24
+			format = centre
+		}
+
+		iconType = {
+			name ="image"
+			spriteType = "GFX_fall_of_korea"
+			position = { x= -286 y = -18 }
+			Orientation = center
+			alwaystransparent = yes
+		}
+
+	}
+
+	containerWindowType = {
+		name = "TNO_SG_big_event_frame_fall_of_korea"
+		size = { width = 588 height = 465 }
+		position = { x=0 y=0 }
+		Orientation = center
+		Origo = center
+		clipping = no
+
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_window_bigevent_border"
+		}
+
+		buttonType = {
+			name = "Option"
+			text = "TNO_SG_big_event_fall_of_korea_A"
+			shortcut = "ESCAPE"
+			position = { x = -110 y = 183 }
+			quadTextureSprite ="GFX_button_221x34"
+			buttonFont = "Bomb_24"
+			Orientation = center
+		}
+
+		iconType = {
+			name ="underlay"
+			spriteType = "GFX_superevent_text_underlay"
+			position = { x= 30 y = -200 }
+			Orientation = lower_left
+			alwaystransparent = yes
+		}
+
+		instantTextBoxType = {
+			name = "text"
+			position = {  x= 120 y = -195 }
+			font = "Bomb_24"
+			text = "TNO_SG_big_event_fall_of_korea_D"
+			maxWidth = 455
+			maxHeight = 173
+			fixedsize = yes
+			format = right
+			Orientation = lower_left
+		}
+	}
+
+	#일본 내전#
+	containerWindowType = {
+		name = "TNO_SG_big_event_japan_cw_0"
+		size = { width = 580 height = 128 }
+		position = { x=0 y=-190 }
+		Orientation = center
+		Origo = center
+		clipping = no
+
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_window_1b_no_border"
+		}
+
+		instantTextBoxType = {
+			name = "Title"
+			position = { x = 0 y = 20 }
+			font = "aldrich_24_outline"
+			borderSize = {x = 0 y = 0}
+			text = "TNO_SG_big_event_japan_cw_T"
+			maxWidth = 580
+			maxHeight = 24
+			format = centre
+		}
+
+		#iconType = {
+		#	name ="image"
+		#	spriteType = "GFX_japan_cw"
+		#	position = { x= -286 y = -18 }
+		#	Orientation = center
+		#	alwaystransparent = yes
+		#}
+
+	}
+	containerWindowType = {
+		name = "TNO_SG_big_event_japan_cw_1"
+		size = { width = 580 height = 128 }
+		position = { x=-12	y=-130 }
+		Orientation = center
+		Origo = center
+		clipping = no
+
+		background = {
+			name = "Background"
+			quadTextureSprite ="TLE_superevent_jap_1"
+            alwaystransparent = yes
+		}
+
+	}
+	containerWindowType = {
+		name = "TNO_SG_big_event_japan_cw_2"
+		size = { width = 580 height = 128 }
+		position = { x=88	y=-130 }
+		Orientation = center
+		Origo = center
+		clipping = no
+
+		background = {
+			name = "Background"
+			quadTextureSprite ="TLE_superevent_jap_2"
+            alwaystransparent = yes
+		}
+
+	}
+	containerWindowType = {
+		name = "TNO_SG_big_event_japan_cw_3"
+		size = { width = 580 height = 128 }
+		position = { x=188	y=-130 }
+		Orientation = center
+		Origo = center
+		clipping = no
+
+		background = {
+			name = "Background"
+			quadTextureSprite ="TLE_superevent_jap_3"
+            alwaystransparent = yes
+		}
+
+	}
+	containerWindowType = {
+		name = "TNO_SG_big_event_japan_cw_4"
+		size = { width = 580 height = 128 }
+		position = { x=288	y=-130 }
+		Orientation = center
+		Origo = center
+		clipping = no
+
+		background = {
+			name = "Background"
+			quadTextureSprite ="TLE_superevent_jap_4"
+            alwaystransparent = yes
+		}
+
+	}
+	containerWindowType = {
+		name = "TNO_SG_big_event_japan_cw_5"
+		size = { width = 580 height = 128 }
+		position = { x=388	y=-130 }
+		Orientation = center
+		Origo = center
+		clipping = no
+
+		background = {
+			name = "Background"
+			quadTextureSprite ="TLE_superevent_jap_5"
+            alwaystransparent = yes
+		}
+
+	}
+	containerWindowType = {
+		name = "TNO_SG_big_event_japan_cw_6"
+		size = { width = 580 height = 128 }
+		position = { x=488	y=-130 }
+		Orientation = center
+		Origo = center
+		clipping = no
+
+		background = {
+			name = "Background"
+			quadTextureSprite ="TLE_superevent_jap_6"
+            alwaystransparent = yes
+		}
+
+	}
+	
+	#################
+
+	containerWindowType = {
+		name = "TNO_SG_big_event_frame_japan_cw"
+		size = { width = 610 height = 400 }
+		position = { x=0 y=0 }
+		Orientation = center
+		Origo = center
+		clipping = no
+
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_window_bigevent_border"
+		}
+
+		buttonType = {
+			name = "Option"
+			text = "TNO_SG_big_event_japan_cw_A"
+			shortcut = "ESCAPE"
+			position = { x = -110 y = 145 }
+			quadTextureSprite ="GFX_button_221x34"
+			buttonFont = "Bomb_24"
+			Orientation = center
+		}
+
+		iconType = {
+			name ="underlay"
+			spriteType = "GFX_superevent_text_underlay"
+			position = { x= 50 y = -200 }
+			Orientation = lower_left
+			alwaystransparent = yes
+		}
+
+		instantTextBoxType = {
+			name = "text"
+			position = {  x= 140 y = -195 }
+			font = "Bomb_24"
+			text = "TNO_SG_big_event_japan_cw_D"
+			maxWidth = 455
+			maxHeight = 173
+			fixedsize = yes
+			format = right
+			Orientation = lower_left
+		}
+	}
+	
+	#2차 북벌
+	containerWindowType = {
+		name = "TNO_SG_big_event_2nd_northattack"
+		size = { width = 580 height = 128 }
+		position = { x=0 y=-210 }
+		Orientation = center
+		Origo = center
+		clipping = no
+
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_window_1b_no_border"
+		}
+
+		instantTextBoxType = {
+			name = "Title"
+			position = { x = 0 y = 18 }
+			font = "aldrich_24_outline"
+			borderSize = {x = 0 y = 0}
+			text = "TNO_SG_big_event_2nd_northattack_T"
+			maxWidth = 580
+			maxHeight = 24
+			format = centre
+		}
+
+		iconType = {
+			name ="image"
+			spriteType = "GFX_2nd_northattack"
+			position = { x= -286 y = -18 }
+			Orientation = center
+			alwaystransparent = yes
+		}
+
+	}
+
+	containerWindowType = {
+		name = "TNO_SG_big_event_frame_2nd_northattack"
+		size = { width = 588 height = 465 }
+		position = { x=0 y=0 }
+		Orientation = center
+		Origo = center
+		clipping = no
+
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_window_bigevent_border"
+		}
+
+		buttonType = {
+			name = "Option"
+			text = "TNO_SG_big_event_2nd_northattack_A"
+			shortcut = "ESCAPE"
+			position = { x = -110 y = 183 }
+			quadTextureSprite ="GFX_button_221x34"
+			buttonFont = "Bomb_24"
+			Orientation = center
+		}
+
+		iconType = {
+			name ="underlay"
+			spriteType = "GFX_superevent_text_underlay"
+			position = { x= 30 y = -200 }
+			Orientation = lower_left
+			alwaystransparent = yes
+		}
+
+		instantTextBoxType = {
+			name = "text"
+			position = {  x= 120 y = -195 }
+			font = "Bomb_24"
+			text = "TNO_SG_big_event_2nd_northattack_D"
+			maxWidth = 455
+			maxHeight = 173
+			fixedsize = yes
+			format = right
+			Orientation = lower_left
+		}
+	}
+	
+	#대아전쟁 승리
+	containerWindowType = {
+		name = "TNO_SG_big_event_won_in_china"
+		size = { width = 580 height = 128 }
+		position = { x=0 y=-210 }
+		Orientation = center
+		Origo = center
+		clipping = no
+
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_window_1b_no_border"
+		}
+
+		instantTextBoxType = {
+			name = "Title"
+			position = { x = 0 y = 18 }
+			font = "aldrich_24_outline"
+			borderSize = {x = 0 y = 0}
+			text = "TNO_SG_big_event_won_in_china_T"
+			maxWidth = 580
+			maxHeight = 24
+			format = centre
+		}
+
+		iconType = {
+			name ="image"
+			spriteType = "GFX_won_in_china"
+			position = { x= -286 y = -18 }
+			Orientation = center
+			alwaystransparent = yes
+		}
+
+	}
+
+	containerWindowType = {
+		name = "TNO_SG_big_event_frame_won_in_china"
+		size = { width = 588 height = 465 }
+		position = { x=0 y=0 }
+		Orientation = center
+		Origo = center
+		clipping = no
+
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_window_bigevent_border"
+		}
+
+		buttonType = {
+			name = "Option"
+			text = "TNO_SG_big_event_won_in_china_A"
+			shortcut = "ESCAPE"
+			position = { x = -110 y = 183 }
+			quadTextureSprite ="GFX_button_221x34"
+			buttonFont = "Bomb_24"
+			Orientation = center
+		}
+
+		iconType = {
+			name ="underlay"
+			spriteType = "GFX_superevent_text_underlay"
+			position = { x= 30 y = -200 }
+			Orientation = lower_left
+			alwaystransparent = yes
+		}
+
+		instantTextBoxType = {
+			name = "text"
+			position = {  x= 120 y = -195 }
+			font = "Bomb_24"
+			text = "TNO_SG_big_event_won_in_china_D"
+			maxWidth = 455
+			maxHeight = 173
+			fixedsize = yes
+			format = right
+			Orientation = lower_left
+		}
+	}
+	#독일의 패망
+	containerWindowType = {
+		name = "TNO_SG_big_event_fall_of_germany"
+		size = { width = 580 height = 128 }
+		position = { x=0 y=-210 }
+		Orientation = center
+		Origo = center
+		clipping = no
+
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_window_1b_no_border"
+		}
+
+		instantTextBoxType = {
+			name = "Title"
+			position = { x = 0 y = 18 }
+			font = "aldrich_24_outline"
+			borderSize = {x = 0 y = 0}
+			text = "TNO_SG_big_event_fall_of_germany_T"
+			maxWidth = 580
+			maxHeight = 24
+			format = centre
+		}
+
+		iconType = {
+			name ="image"
+			spriteType = "GFX_fall_of_germany"
+			position = { x= -286 y = -18 }
+			Orientation = center
+			alwaystransparent = yes
+		}
+
+	}
+
+	containerWindowType = {
+		name = "TNO_SG_big_event_frame_fall_of_germany"
+		size = { width = 588 height = 465 }
+		position = { x=0 y=0 }
+		Orientation = center
+		Origo = center
+		clipping = no
+
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_window_bigevent_border"
+		}
+
+		buttonType = {
+			name = "Option"
+			text = "TNO_SG_big_event_fall_of_germany_A"
+			shortcut = "ESCAPE"
+			position = { x = -110 y = 183 }
+			quadTextureSprite ="GFX_button_221x34"
+			buttonFont = "Bomb_24"
+			Orientation = center
+		}
+
+		iconType = {
+			name ="underlay"
+			spriteType = "GFX_superevent_text_underlay"
+			position = { x= 30 y = -200 }
+			Orientation = lower_left
+			alwaystransparent = yes
+		}
+
+		instantTextBoxType = {
+			name = "text"
+			position = {  x= 120 y = -195 }
+			font = "Bomb_24"
+			text = "TNO_SG_big_event_fall_of_germany_D"
+			maxWidth = 455
+			maxHeight = 173
+			fixedsize = yes
+			format = right
+			Orientation = lower_left
+		}
+	}
+	
+	#소련의 패망
+	containerWindowType = {
+		name = "TNO_SG_big_event_fall_of_soviet"
+		size = { width = 580 height = 128 }
+		position = { x=0 y=-210 }
+		Orientation = center
+		Origo = center
+		clipping = no
+
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_window_1b_no_border"
+		}
+
+		instantTextBoxType = {
+			name = "Title"
+			position = { x = 0 y = 18 }
+			font = "aldrich_24_outline"
+			borderSize = {x = 0 y = 0}
+			text = "TNO_SG_big_event_fall_of_soviet_T"
+			maxWidth = 580
+			maxHeight = 24
+			format = centre
+		}
+
+		iconType = {
+			name ="image"
+			spriteType = "GFX_fall_of_soviet"
+			position = { x= -286 y = -18 }
+			Orientation = center
+			alwaystransparent = yes
+		}
+
+	}
+
+	containerWindowType = {
+		name = "TNO_SG_big_event_frame_fall_of_soviet"
+		size = { width = 588 height = 465 }
+		position = { x=0 y=0 }
+		Orientation = center
+		Origo = center
+		clipping = no
+
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_window_bigevent_border"
+		}
+
+		buttonType = {
+			name = "Option"
+			text = "TNO_SG_big_event_fall_of_soviet_A"
+			shortcut = "ESCAPE"
+			position = { x = -110 y = 183 }
+			quadTextureSprite ="GFX_button_221x34"
+			buttonFont = "Bomb_24"
+			Orientation = center
+		}
+
+		iconType = {
+			name ="underlay"
+			spriteType = "GFX_superevent_text_underlay"
+			position = { x= 30 y = -200 }
+			Orientation = lower_left
+			alwaystransparent = yes
+		}
+
+		instantTextBoxType = {
+			name = "text"
+			position = {  x= 120 y = -195 }
+			font = "Bomb_24"
+			text = "TNO_SG_big_event_fall_of_soviet_D"
+			maxWidth = 455
+			maxHeight = 173
+			fixedsize = yes
+			format = right
+			Orientation = lower_left
+		}
+	}
+	
+	#독일의 승전
+	containerWindowType = {
+		name = "TNO_SG_big_event_germany_win"
+		size = { width = 580 height = 128 }
+		position = { x=0 y=-210 }
+		Orientation = center
+		Origo = center
+		clipping = no
+
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_window_1b_no_border"
+		}
+
+		instantTextBoxType = {
+			name = "Title"
+			position = { x = 0 y = 18 }
+			font = "aldrich_24_outline"
+			borderSize = {x = 0 y = 0}
+			text = "TNO_SG_big_event_germany_win_T"
+			maxWidth = 580
+			maxHeight = 24
+			format = centre
+		}
+
+		iconType = {
+			name ="image"
+			spriteType = "GFX_germany_win"
+			position = { x= -286 y = -18 }
+			Orientation = center
+			alwaystransparent = yes
+		}
+
+	}
+
+	containerWindowType = {
+		name = "TNO_SG_big_event_frame_germany_win"
+		size = { width = 588 height = 465 }
+		position = { x=0 y=0 }
+		Orientation = center
+		Origo = center
+		clipping = no
+
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_window_bigevent_border"
+		}
+
+		buttonType = {
+			name = "Option"
+			text = "TNO_SG_big_event_germany_win_A"
+			shortcut = "ESCAPE"
+			position = { x = -110 y = 183 }
+			quadTextureSprite ="GFX_button_221x34"
+			buttonFont = "Bomb_24"
+			Orientation = center
+		}
+
+		iconType = {
+			name ="underlay"
+			spriteType = "GFX_superevent_text_underlay"
+			position = { x= 30 y = -200 }
+			Orientation = lower_left
+			alwaystransparent = yes
+		}
+
+		instantTextBoxType = {
+			name = "text"
+			position = {  x= 120 y = -195 }
+			font = "Bomb_24"
+			text = "TNO_SG_big_event_germany_win_D"
+			maxWidth = 455
+			maxHeight = 173
+			fixedsize = yes
+			format = right
+			Orientation = lower_left
+		}
+	}
+	
+	#강명유신
+	containerWindowType = {
+		name = "TNO_SG_big_event_kangmyong_yushin"
+		size = { width = 580 height = 128 }
+		position = { x=0 y=-210 }
+		Orientation = center
+		Origo = center
+		clipping = no
+
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_window_1b_no_border"
+		}
+
+		instantTextBoxType = {
+			name = "Title"
+			position = { x = 0 y = 18 }
+			font = "aldrich_24_outline"
+			borderSize = {x = 0 y = 0}
+			text = "TNO_SG_big_event_kangmyong_yushin_T"
+			maxWidth = 580
+			maxHeight = 24
+			format = centre
+		}
+
+		iconType = {
+			name ="image"
+			spriteType = "GFX_kangmyong_yushin"
+			position = { x= -286 y = -18 }
+			Orientation = center
+			alwaystransparent = yes
+		}
+
+	}
+
+	containerWindowType = {
+		name = "TNO_SG_big_event_frame_kangmyong_yushin"
+		size = { width = 588 height = 465 }
+		position = { x=0 y=0 }
+		Orientation = center
+		Origo = center
+		clipping = no
+
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_window_bigevent_border"
+		}
+
+		buttonType = {
+			name = "Option"
+			text = "TNO_SG_big_event_kangmyong_yushin_A"
+			shortcut = "ESCAPE"
+			position = { x = -110 y = 183 }
+			quadTextureSprite ="GFX_button_221x34"
+			buttonFont = "Bomb_24"
+			Orientation = center
+		}
+
+		iconType = {
+			name ="underlay"
+			spriteType = "GFX_superevent_text_underlay"
+			position = { x= 30 y = -200 }
+			Orientation = lower_left
+			alwaystransparent = yes
+		}
+
+		instantTextBoxType = {
+			name = "text"
+			position = {  x= 120 y = -195 }
+			font = "Bomb_24"
+			text = "TNO_SG_big_event_kangmyong_yushin_D"
+			maxWidth = 455
+			maxHeight = 173
+			fixedsize = yes
+			format = right
+			Orientation = lower_left
+		}
+	}
+	
+	#한일전쟁
+	containerWindowType = {
+		name = "TNO_SG_big_event_korean_japanese_war"
+		size = { width = 580 height = 128 }
+		position = { x=0 y=-210 }
+		Orientation = center
+		Origo = center
+		clipping = no
+
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_window_1b_no_border"
+		}
+
+		instantTextBoxType = {
+			name = "Title"
+			position = { x = 0 y = 18 }
+			font = "aldrich_24_outline"
+			borderSize = {x = 0 y = 0}
+			text = "TNO_SG_big_event_korean_japanese_war_T"
+			maxWidth = 580
+			maxHeight = 24
+			format = centre
+		}
+
+		iconType = {
+			name ="image"
+			spriteType = "GFX_korean_japanese_war"
+			position = { x= -286 y = -18 }
+			Orientation = center
+			alwaystransparent = yes
+		}
+
+	}
+
+	containerWindowType = {
+		name = "TNO_SG_big_event_frame_korean_japanese_war"
+		size = { width = 588 height = 465 }
+		position = { x=0 y=0 }
+		Orientation = center
+		Origo = center
+		clipping = no
+
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_window_bigevent_border"
+		}
+
+		buttonType = {
+			name = "Option"
+			text = "TNO_SG_big_event_korean_japanese_war_A"
+			shortcut = "ESCAPE"
+			position = { x = -110 y = 183 }
+			quadTextureSprite ="GFX_button_221x34"
+			buttonFont = "Bomb_24"
+			Orientation = center
+		}
+
+		iconType = {
+			name ="underlay"
+			spriteType = "GFX_superevent_text_underlay"
+			position = { x= 30 y = -200 }
+			Orientation = lower_left
+			alwaystransparent = yes
+		}
+
+		instantTextBoxType = {
+			name = "text"
+			position = {  x= 120 y = -195 }
+			font = "Bomb_24"
+			text = "TNO_SG_big_event_korean_japanese_war_D"
+			maxWidth = 455
+			maxHeight = 173
+			fixedsize = yes
+			format = right
+			Orientation = lower_left
+		}
+	}
+	
+	#미국 패배
+	containerWindowType = {
+		name = "TNO_SG_big_event_surrender_of_usa"
+		size = { width = 580 height = 128 }
+		position = { x=0 y=-210 }
+		Orientation = center
+		Origo = center
+		clipping = no
+
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_window_1b_no_border"
+		}
+
+		instantTextBoxType = {
+			name = "Title"
+			position = { x = 0 y = 18 }
+			font = "aldrich_24_outline"
+			borderSize = {x = 0 y = 0}
+			text = "TNO_SG_big_event_surrender_of_usa_T"
+			maxWidth = 580
+			maxHeight = 24
+			format = centre
+		}
+
+		iconType = {
+			name ="image"
+			spriteType = "GFX_surrender_of_usa"
+			position = { x= -286 y = -18 }
+			Orientation = center
+			alwaystransparent = yes
+		}
+
+	}
+
+	containerWindowType = {
+		name = "TNO_SG_big_event_frame_surrender_of_usa"
+		size = { width = 588 height = 465 }
+		position = { x=0 y=0 }
+		Orientation = center
+		Origo = center
+		clipping = no
+
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_window_bigevent_border"
+		}
+
+		buttonType = {
+			name = "Option"
+			text = "TNO_SG_big_event_surrender_of_usa_A"
+			shortcut = "ESCAPE"
+			position = { x = -110 y = 183 }
+			quadTextureSprite ="GFX_button_221x34"
+			buttonFont = "Bomb_24"
+			Orientation = center
+		}
+
+		iconType = {
+			name ="underlay"
+			spriteType = "GFX_superevent_text_underlay"
+			position = { x= 30 y = -200 }
+			Orientation = lower_left
+			alwaystransparent = yes
+		}
+
+		instantTextBoxType = {
+			name = "text"
+			position = {  x= 120 y = -195 }
+			font = "Bomb_24"
+			text = "TNO_SG_big_event_surrender_of_usa_D"
+			maxWidth = 455
+			maxHeight = 173
+			fixedsize = yes
+			format = right
+			Orientation = lower_left
+		}
+	}
+
+###########################################################
+
+	containerWindowType = {
+		name = "TNO_SG_big_event_operation_barbarossa"
+		size = { width = 580 height = 128 }
+		position = { x=0 y=-210 }
+		Orientation = center
+		Origo = center
+		clipping = no
+
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_window_1b_no_border"
+		}
+
+		instantTextBoxType = {
+			name = "Title"
+			position = { x = 0 y = 18 }
+			font = "aldrich_24_outline"
+			borderSize = {x = 0 y = 0}
+			text = "TNO_SG_big_event_operation_barbarossa_T"
+			maxWidth = 580
+			maxHeight = 24
+			format = centre
+		}
+
+		iconType = {
+			name ="image"
+			spriteType = "GFX_operation_barbarossa"
+			position = { x= -286 y = -18 }
+			Orientation = center
+			alwaystransparent = yes
+		}
+
+	}
+
+	containerWindowType = {
+		name = "TNO_SG_big_event_frame_operation_barbarossa"
+		size = { width = 588 height = 465 }
+		position = { x=0 y=0 }
+		Orientation = center
+		Origo = center
+		clipping = no
+
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_window_bigevent_border"
+		}
+
+		buttonType = {
+			name = "Option"
+			text = "TNO_SG_big_event_operation_barbarossa_A"
+			shortcut = "ESCAPE"
+			position = { x = -110 y = 183 }
+			quadTextureSprite ="GFX_button_221x34"
+			buttonFont = "Bomb_24"
+			Orientation = center
+		}
+
+		iconType = {
+			name ="underlay"
+			spriteType = "GFX_superevent_text_underlay"
+			position = { x= 30 y = -200 }
+			Orientation = lower_left
+			alwaystransparent = yes
+		}
+
+		instantTextBoxType = {
+			name = "text"
+			position = {  x= 120 y = -195 }
+			font = "Bomb_24"
+			text = "TNO_SG_big_event_operation_barbarossa_D"
+			maxWidth = 455
+			maxHeight = 173
+			fixedsize = yes
+			format = right
+			Orientation = lower_left
+		}
+	}
+###########################################################
+
+	containerWindowType = {
+		name = "TNO_SG_big_event_korean_civilwar"
+		size = { width = 580 height = 128 }
+		position = { x=0 y=-210 }
+		Orientation = center
+		Origo = center
+		clipping = no
+
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_window_1b_no_border"
+		}
+
+		instantTextBoxType = {
+			name = "Title"
+			position = { x = 0 y = 18 }
+			font = "aldrich_24_outline"
+			borderSize = {x = 0 y = 0}
+			text = "TNO_SG_big_event_korean_civilwar_T"
+			maxWidth = 580
+			maxHeight = 24
+			format = centre
+		}
+
+		iconType = {
+			name ="image"
+			spriteType = "GFX_korean_civilwar"
+			position = { x= -286 y = -18 }
+			Orientation = center
+			alwaystransparent = yes
+		}
+
+	}
+
+	containerWindowType = {
+		name = "TNO_SG_big_event_frame_korean_civilwar"
+		size = { width = 588 height = 465 }
+		position = { x=0 y=0 }
+		Orientation = center
+		Origo = center
+		clipping = no
+
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_window_bigevent_border"
+		}
+
+		buttonType = {
+			name = "Option"
+			text = "TNO_SG_big_event_korean_civilwar_A"
+			shortcut = "ESCAPE"
+			position = { x = -110 y = 183 }
+			quadTextureSprite ="GFX_button_221x34"
+			buttonFont = "Bomb_24"
+			Orientation = center
+		}
+
+		iconType = {
+			name ="underlay"
+			spriteType = "GFX_superevent_text_underlay"
+			position = { x= 30 y = -200 }
+			Orientation = lower_left
+			alwaystransparent = yes
+		}
+
+		instantTextBoxType = {
+			name = "text"
+			position = {  x= 120 y = -195 }
+			font = "Bomb_24"
+			text = "TNO_SG_big_event_korean_civilwar_D"
+			maxWidth = 455
+			maxHeight = 173
+			fixedsize = yes
+			format = right
+			Orientation = lower_left
+		}
+	}
+###########################################################
+
+	containerWindowType = {
+		name = "TNO_SG_big_event_world_war_ii"
+		size = { width = 580 height = 128 }
+		position = { x=0 y=-210 }
+		Orientation = center
+		Origo = center
+		clipping = no
+
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_window_1b_no_border"
+		}
+
+		instantTextBoxType = {
+			name = "Title"
+			position = { x = 0 y = 18 }
+			font = "aldrich_24_outline"
+			borderSize = {x = 0 y = 0}
+			text = "TNO_SG_big_event_world_war_ii_T"
+			maxWidth = 580
+			maxHeight = 24
+			format = centre
+		}
+
+		iconType = {
+			name ="image"
+			spriteType = "GFX_world_war_ii"
+			position = { x= -286 y = -18 }
+			Orientation = center
+			alwaystransparent = yes
+		}
+
+	}
+
+	containerWindowType = {
+		name = "TNO_SG_big_event_frame_world_war_ii"
+		size = { width = 588 height = 465 }
+		position = { x=0 y=0 }
+		Orientation = center
+		Origo = center
+		clipping = no
+
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_window_bigevent_border"
+		}
+
+		buttonType = {
+			name = "Option"
+			text = "TNO_SG_big_event_world_war_ii_A"
+			shortcut = "ESCAPE"
+			position = { x = -110 y = 183 }
+			quadTextureSprite ="GFX_button_221x34"
+			buttonFont = "Bomb_24"
+			Orientation = center
+		}
+
+		iconType = {
+			name ="underlay"
+			spriteType = "GFX_superevent_text_underlay"
+			position = { x= 30 y = -200 }
+			Orientation = lower_left
+			alwaystransparent = yes
+		}
+
+		instantTextBoxType = {
+			name = "text"
+			position = {  x= 120 y = -195 }
+			font = "Bomb_24"
+			text = "TNO_SG_big_event_world_war_ii_D"
+			maxWidth = 455
+			maxHeight = 173
+			fixedsize = yes
+			format = right
+			Orientation = lower_left
+		}
+	}
+###########################################################
+
+	containerWindowType = {
+		name = "TNO_SG_big_event_korean_state"
+		size = { width = 580 height = 128 }
+		position = { x=0 y=-210 }
+		Orientation = center
+		Origo = center
+		clipping = no
+
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_window_1b_no_border"
+		}
+
+		instantTextBoxType = {
+			name = "Title"
+			position = { x = 0 y = 18 }
+			font = "aldrich_24_outline"
+			borderSize = {x = 0 y = 0}
+			text = "TNO_SG_big_event_korean_state_T"
+			maxWidth = 580
+			maxHeight = 24
+			format = centre
+		}
+
+		iconType = {
+			name ="image"
+			spriteType = "GFX_korean_state"
+			position = { x= -286 y = -18 }
+			Orientation = center
+			alwaystransparent = yes
+		}
+
+	}
+
+	containerWindowType = {
+		name = "TNO_SG_big_event_frame_korean_state"
+		size = { width = 588 height = 465 }
+		position = { x=0 y=0 }
+		Orientation = center
+		Origo = center
+		clipping = no
+
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_window_bigevent_border"
+		}
+
+		buttonType = {
+			name = "Option"
+			text = "TNO_SG_big_event_korean_state_A"
+			shortcut = "ESCAPE"
+			position = { x = -110 y = 183 }
+			quadTextureSprite ="GFX_button_221x34"
+			buttonFont = "Bomb_24"
+			Orientation = center
+		}
+
+		iconType = {
+			name ="underlay"
+			spriteType = "GFX_superevent_text_underlay"
+			position = { x= 30 y = -200 }
+			Orientation = lower_left
+			alwaystransparent = yes
+		}
+
+		instantTextBoxType = {
+			name = "text"
+			position = {  x= 75 y = -195 }
+			font = "Bomb_24"
+			text = "TNO_SG_big_event_korean_state_D"
+			maxWidth = 500
+			maxHeight = 173
+			fixedsize = yes
+			format = right
+			Orientation = lower_left
+		}
+	}
+	
+	containerWindowType = {
+		name = "higuchi_gatcha_01"
+		position = { x=-290	y=-230 }
+		Orientation = center
+		Origo = center
+		clipping = no
+
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_portrait_GER_adolf_hitler"
+            alwaystransparent = yes
+		}
+
+	}
+
+	##USE SUPER_EVENT_MAKER_GUI IN USEFUL PYTHON PROGRAMS TO MAKE NEW SUPER EVENTS##
+}
+
+	

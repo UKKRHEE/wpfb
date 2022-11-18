@@ -1,0 +1,61 @@
+
+state={
+	id=595
+	name="STATE_595"
+
+	history={
+		owner = WZC
+		add_core_of = WZC
+		add_core_of = CHI
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+			7071 = {
+				naval_base = 1
+				coastal_bunker = 1
+				bunker = 1
+
+			}
+			4196 = {
+				naval_base = 3
+				coastal_bunker = 1
+				bunker = 1
+
+			}
+
+		}
+		victory_points = {
+			1193 1 
+		}
+		victory_points = {
+			10010 1 
+		}
+		victory_points = {
+			4196 3 
+		}
+		victory_points = {
+			7071 1 
+		}
+		1929.6.21 = {
+			set_demilitarized_zone = yes
+		}
+		1938.10.25 = {
+			DKG = {
+				set_province_controller = 4196
+				set_province_controller = 7071
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		1138 1193 4070 4113 10012 10042 10084 
+	}
+	manpower=7755600
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

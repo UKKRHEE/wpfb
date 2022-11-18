@@ -1,0 +1,102 @@
+spriteTypes = {
+	corneredTileSpriteType = {
+		name = "GFX_tiled_window_bigevent_border"
+		size= { x=192 y=243 }
+		textureFile = "gfx//interface//tiles//tiled_window_bigevent_border.dds"
+		borderSize = { x=64 y=71 }
+		tilingCenter = yes
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+
+	corneredTileSpriteType = {
+		name = "GFX_tiled_window_1b_no_border"
+		size= { x=192 y=192 }
+		textureFile = "gfx/interface/tiles/tiled_bg2.dds"
+		borderSize = { x=64 y=64 }
+		tilingCenter = yes
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+	spriteType = {
+		name = "GFX_superevent_text_underlay"
+		textureFile = "gfx//interface//superevent_text_underlay.dds"
+	}
+	
+	
+	###sp
+	spriteType = {
+		name = "GFX_superevent_korea_the_yi_kang"
+		textureFile = "gfx/superevent_pictures/yikangs_election.png"
+	}
+	spriteType = {
+		name = "GFX_superevent_korea_ww_china"
+		textureFile = "gfx/superevent_pictures/korea_ww_china.dds"
+	}
+	spriteType = {
+		name = "GFX_superevent_empire_of_japan"
+		textureFile = "gfx/superevent_pictures/empire_of_japan.png"
+	}
+	spriteType = {
+		name = "GFX_russia_attack_korea"
+		textureFile = "gfx/superevent_pictures/russia_attack_korea.dds"
+	}
+	spriteType = {
+		name = "GFX_korea_war_with_usa"
+		textureFile = "gfx/superevent_pictures/korea_war_with_usa.dds"
+	}
+	spriteType = {
+		name = "GFX_fall_of_korea"
+		textureFile = "gfx/superevent_pictures/fall_of_korea.dds"
+	}
+	spriteType = {
+		name = "GFX_japan_cw"
+		textureFile = "gfx/superevent_pictures/japan_cw.png"
+	} 
+	spriteType = {
+		name = "GFX_won_in_china"
+		textureFile = "gfx/superevent_pictures/won_in_china.png"
+	}
+	spriteType = {
+		name = "GFX_2nd_northattack"
+		textureFile = "gfx/superevent_pictures/2nd_northattack.png"
+	}
+	spriteType = {
+		name = "GFX_fall_of_germany"
+		textureFile = "gfx/superevent_pictures/fall_of_germany.png"
+	}
+	spriteType = {
+		name = "GFX_fall_of_soviet"
+		textureFile = "gfx/superevent_pictures/fall_of_soviet.png"
+	}
+	spriteType = {
+		name = "GFX_germany_win"
+		textureFile = "gfx/superevent_pictures/germany_win.png"
+	}
+	spriteType = {
+		name = "GFX_kangmyong_yushin"
+		textureFile = "gfx/superevent_pictures/kangmyong_yushin.png"
+	}
+	spriteType = {
+		name = "GFX_korean_japanese_war"
+		textureFile = "gfx/superevent_pictures/korean_japanese_war.png"
+	}
+	spriteType = {
+		name = "GFX_surrender_of_usa"
+		textureFile = "gfx/superevent_pictures/surrender_of_usa.png"
+	}
+	spriteType = {
+		name = "GFX_operation_barbarossa"
+		textureFile = "gfx/superevent_pictures/operation_barbarossa.png"
+	}
+	spriteType = {
+		name = "GFX_korean_civilwar"
+		textureFile = "gfx/superevent_pictures/korean_civilwar.png"
+	}
+	spriteType = {
+		name = "GFX_world_war_ii"
+		textureFile = "gfx/superevent_pictures/world_war_ii.png"
+	}
+	spriteType = {
+		name = "GFX_korean_state"
+		textureFile = "gfx/superevent_pictures/korean_state.png"
+	}
+}

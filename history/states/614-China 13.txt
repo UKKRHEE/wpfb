@@ -1,0 +1,36 @@
+
+state={
+	id=614
+	name="STATE_614"
+
+	history={
+		owner = ZLC
+		add_core_of = ZLC
+		add_core_of = CHI
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			4032 5 
+		}
+		victory_points = {
+			4190 3 
+		}
+		1938.10.25 = {
+			controller = DKG
+
+		}
+
+	}
+
+	provinces={
+		4032 7109 10003 10022 10119 11944 11980 11996 
+	}
+	manpower=6434900
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

@@ -1,0 +1,30 @@
+
+state={
+	id=943
+	name="STATE_943"
+
+	local_supplies=0.0 
+	history={
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+		owner = ZLC
+		add_core_of = ZLC
+		add_core_of = CHI
+		add_core_of = PRC
+		buildings = {
+
+		}
+
+	}
+
+	provinces={
+		1036 4619 4631 12467 
+	}
+	manpower=1522000
+	buildings_max_level_factor=1.000
+	state_category=city
+}

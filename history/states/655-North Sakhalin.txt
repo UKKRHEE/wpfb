@@ -1,0 +1,23 @@
+
+state={
+	id=655
+	name="STATE_655"
+	manpower = 94759
+	
+	local_supplies=0.0 
+	state_category = pastoral
+	history={
+		owner = KOR
+		add_core_of = KOR
+		add_claim_by = SOV
+		add_core_of = KYH
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+		}
+	}
+
+	provinces={
+		855 1742 1755 
+	}
+}

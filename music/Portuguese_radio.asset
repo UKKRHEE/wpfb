@@ -1,0 +1,96 @@
+
+music = {
+	name = "POR1"
+	file = "christmars/alotlikechristmas.ogg"
+	volume = 1.0
+}
+music = {
+	name = "POR2"
+	file = "christmars/itstheholiday.ogg"
+	volume = 1.0
+}
+music = {
+	name = "POR3"
+	file = "christmars/lastchristmas.ogg"
+	volume = 1.0
+}
+music = {
+	name = "POR4"
+	file = "christmars/somewhere.ogg"
+	volume = 1.0
+}
+music = {
+	name = "POR5"
+	file = "christmars/whitechristmas.ogg"
+	volume = 1.0
+}
+music = {
+	name = "POR6"
+	file = "christmars/idlike.ogg"
+	volume = 1.0
+}
+music = {
+	name = "POR7"
+	file = "christmars/jingle.ogg"
+	volume = 1.0
+}
+music = {
+	name = "POR8"
+	file = "christmars/winterwonder.ogg"
+	volume = 1.0
+}
+music = {
+	name = "POR9"
+	file = "christmars/silent.ogg"
+	volume = 1.0
+}
+music = {
+	name = "POR10"
+	file = "christmars/haveyour.ogg"
+	volume = 1.0
+}
+music = {
+	name = "POR11"
+	file = "christmars/itsthe.ogg"
+	volume = 1.0
+}
+music = {
+	name = "POR12"
+	file = "christmars/letitsnow.ogg"
+	volume = 1.0
+}
+music = {
+	name = "POR13"
+	file = "christmars/sleigh.ogg"
+	volume = 1.0
+}
+music = {
+	name = "POR14"
+	file = "christmars/rockin.ogg"
+	volume = 1.0
+}
+music = {
+	name = "POR15"
+	file = "christmars/jinglerock.ogg"
+	volume = 1.0
+}
+music = {
+	name = "POR16"
+	file = "christmars/christsong.ogg"
+	volume = 1.0
+}
+music = {
+	name = "POR17"
+	file = "christmars/feliz.ogg"
+	volume = 1.0
+}
+music = {
+	name = "POR18"
+	file = "christmars/fairy.ogg"
+	volume = 1.0
+}
+music = {
+	name = "POR19"
+	file = "christmars/rudolf.ogg"
+	volume = 1.0
+}
