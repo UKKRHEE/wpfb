@@ -21,7 +21,7 @@ state={
 			4572 3 
 		}
 		1936.5.1 = {
-			owner = KOR
+			owner = JAP
 
 		}
 		victory_points = {

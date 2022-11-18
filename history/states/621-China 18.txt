@@ -25,7 +25,7 @@ state={
 
 			}
 			owner = PRC
-			controller = KOR
+			controller = JAP
 
 		}
 

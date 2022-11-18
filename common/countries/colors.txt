@@ -916,8 +916,8 @@ SZY = { #쑹저위안
 	color_ui = rgb { 250 200 153 }
 }
 QIN = {
-	color = rgb { 51 172 123 }
-	color_ui = rgb { 51 172 123 }
+	color = rgb { 8 99 156 }
+	color_ui = rgb { 8 99 156 }
 }
 
 PRC = {

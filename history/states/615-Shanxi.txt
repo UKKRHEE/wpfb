@@ -23,7 +23,7 @@ state={
 		}
 		1938.10.25 = {
 			owner = PRC
-			controller = KOR
+			controller = JAP
 			PRC = {
 				set_province_controller = 1034
 				set_province_controller = 1531
