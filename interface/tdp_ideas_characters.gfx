@@ -64,7 +64,6 @@ spriteTypes = {
 		name = "GFX_idea_KOR_sin_chae_ho"
 		texturefile = "gfx/interface/ideas/KOR/idea_KOR_sin_chae_ho.png"
 	}
-	
 	spriteType = {
 		name = "GFX_idea_KOR_yi_hae_chang"
 		texturefile = "gfx/interface/ideas/KOR/idea_KOR_yi_hae_chang.png"
@@ -112,10 +111,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_KOR_ahn_jung_geun"
 		texturefile = "gfx/interface/ideas/KOR/idea_KOR_ahn_jung_geun.png"
-	}
-	spriteType = {
-		name = "GFX_idea_KOR_kim_suk_won"
-		texturefile = "gfx/interface/ideas/KOR/idea_KOR_kim_suk_won.png"
 	}
 	
 	### 한국 해군참모총장 ###
