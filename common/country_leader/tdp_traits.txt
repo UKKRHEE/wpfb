@@ -1,0 +1,51 @@
+leader_traits = {
+
+	emperor_geonheung = {
+		random = no
+		stability_factor = 0.3
+		drift_defence_factor = 0.9
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	daemagliji = {
+		random = no
+		fascism_acceptance = 75
+		war_support_factor = 0.25
+		air_chief_cost_factor = -0.25
+		army_chief_cost_factor = -0.25
+		navy_chief_cost_factor = -0.25
+		high_command_cost_factor = -0.25
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	### 정치고문 ###
+	three_equalities = {
+		random = no
+		sprite = 13
+
+		research_speed_factor = 0.03
+		stability_factor = 0.03
+		consumer_goods_factor = -0.03
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	ilminist = {
+		random = no
+		sprite = 13
+
+		stability_factor = 0.10
+		drift_defence_factor = 0.10
+		fascism_drift = 0.10
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

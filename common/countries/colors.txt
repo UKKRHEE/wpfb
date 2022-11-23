@@ -898,6 +898,6 @@ WZC = { #오얏꽃/오성연군
 	color_ui = rgb { 255 198 0 }
 }
 HNC = { #오얏꽃/호남군벌
-	color = rgb { 161 103 33 }
-	color_ui = rgb { 161 103 33 }
+	color = rgb { 80 135 224 }
+	color_ui = rgb { 249 126 98 }
 }

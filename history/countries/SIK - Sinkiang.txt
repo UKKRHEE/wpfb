@@ -7,27 +7,46 @@ set_technology = {
 	
 }
 
+### 지도자 ###
 recruit_character = SIK_sheng_shicai
-recruit_character = SIK_chiang_yufen
-recruit_character = SIK_kwong_jin
-recruit_character = SIK_luo_wei
-recruit_character = SIK_liang_jiang
-recruit_character = SIK_piotr_orlov
-recruit_character = SIK_kwong_tian
-recruit_character = SIK_yu_wei
-recruit_character = SIK_deng_tian
-recruit_character = SIK_xie_peng
-recruit_character = SIK_yang_tian
-recruit_character = SIK_cheng_fang
-recruit_character = SIK_ma_wei
-recruit_character = SIK_yol_bars
-recruit_character = SIK_gao_jiang
-recruit_character = SIK_mao_wu
-recruit_character = SIK_sa_zhenbing
-recruit_character = SIK_tan_ma
-recruit_character = SIK_zhang_xiliang
-recruit_character = SIK_habibullah_huseinov
-recruit_character = SIK_isa_yusuf_alptekin
+recruit_character = SIK_isa_alptekin
+recruit_character = SIK_jin_shuren
+recruit_character = SIK_yang_zengxin
+
+### 정치고문 ###
+recruit_character = SIK_huashengmu
+recruit_character = SIK_guanglu
+recruit_character = SIK_burhan_shahidi
+recruit_character = SIK_masud_sabri
+recruit_character = SIK_muhammad_amin_bughra
+recruit_character = SIK_nasir
+
+### 이론가 ###
+recruit_character = SIK_xinjiang_army_research
+recruit_character = SIK_xinjiang_navy_research
+recruit_character = SIK_xinjiang_air_research
+
+### 육군참모총장 ###
+recruit_character = SIK_yulbars_khan
+recruit_character = SIK_timur_beg
+recruit_character = SIK_sabit_damulla_abdulbaki
+
+### 해군참모총장 ###
+recruit_character = SIK_xinjiang_navy_department
+
+### 공군참모총장 ###
+recruit_character = SIK_xinjiang_air_department
+
+### 최고사령부 ###
+recruit_character = SIK_xinjiang_infantry
+recruit_character = SIK_xinjiang_artillery
+recruit_character = SIK_xinjiang_cavalry
+recruit_character = SIK_hoja_niyaz_haji
+recruit_character = SIK_abdullah_bughra
+recruit_character = SIK_nur_ahmadjan_bughra
+
+### 육군 장성 ###
+recruit_character = SIK_ma_shaowu
 
 if = {
 	limit = {

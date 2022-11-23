@@ -1,0 +1,775 @@
+characters={
+	### 지도자 ###
+	SIK_sheng_shicai={
+		name=SIK_sheng_shicai
+		portraits={
+			civilian={
+				large=GFX_portrait_SIK_sheng_shicai
+				small=GFX_idea_SIK_sheng_shicai
+			}
+		}
+		country_leader={
+			ideology=stalinism
+			traits={ }
+			expire="1960.1.1.1"
+			id=-1
+		}
+		advisor={
+			slot = army_chief
+			idea_token = sheng_shicai
+	    	allowed = {
+	    		original_tag = SIK
+	    	}
+			available = {
+				has_country_leader = {
+					character = SIK_sheng_shicai
+					ruling_only = yes 
+				}
+			}
+	    	traits = {
+				army_chief_organizational_1
+			}
+	    	ai_will_do = {
+	    		factor = 1
+	    	}
+		}
+		corps_commander={
+			traits = {
+				politically_connected
+				trickster
+			}
+			skill = 2
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+	SIK_isa_alptekin={
+		name=SIK_isa_alptekin
+		portraits={
+			civilian={
+				large=GFX_portrait_SIK_isa_alptekin
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			traits={ }
+			expire="1960.1.1.1"
+			id=-1
+		}
+	}
+	SIK_jin_shuren={
+		name=SIK_jin_shuren
+		portraits={
+			civilian={
+				large=GFX_portrait_SIK_jin_shuren
+				small=GFX_idea_SIK_jin_shuren
+			}
+		}
+		country_leader={
+			ideology=fascism_ideology
+			traits={ }
+			expire="1960.1.1.1"
+			id=-1
+		}
+		advisor={
+			slot = army_chief
+			idea_token = jin_shuren
+	    	allowed = {
+	    		original_tag = SIK
+	    	}
+			available = {
+				has_country_leader = {
+					character = SIK_jin_shuren
+					ruling_only = yes 
+				}
+			}
+	    	traits = {
+				army_chief_offensive_1
+			}
+	    	ai_will_do = {
+	    		factor = 1
+	    	}
+		}
+		field_marshal={
+			traits = {
+				old_guard
+				substance_abuser
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id=-1
+		}
+	}
+	SIK_yang_zengxin={
+		name=SIK_yang_zengxin
+		portraits={
+			civilian={
+				large=GFX_portrait_SIK_yang_zengxin
+				small=GFX_idea_SIK_yang_zengxin
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={ }
+			expire="1960.1.1.1"
+			id=-1
+		}
+		advisor={
+			slot = army_chief
+			idea_token = yang_zengxin
+	    	allowed = {
+	    		original_tag = SIK
+	    	}
+			available = {
+				has_country_leader = {
+					character = SIK_yang_zengxin
+					ruling_only = yes 
+				}
+			}
+	    	traits = {
+				army_chief_defensive_1
+			}
+	    	ai_will_do = {
+	    		factor = 1
+	    	}
+		}
+		field_marshal={
+			traits = {
+				old_guard
+				politically_connected
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id=-1
+		}
+	}
+	
+	### 정치고문 ###
+	SIK_huashengmu={
+		name=SIK_huashengmu
+		portraits={
+			civilian={
+				small=GFX_idea_SIK_huashengmu
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = huashengmu
+			allowed = {
+				original_tag = SIK
+			}
+			traits = {
+				education_reformer
+			}
+		}
+	}
+	SIK_guanglu={
+		name=SIK_guanglu
+		portraits={
+			civilian={
+				small=GFX_idea_SIK_guanglu
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = guanglu
+			allowed = {
+				original_tag = SIK
+			}
+			traits = {
+				smooth_talking_charmer
+			}
+		}
+	}
+	SIK_burhan_shahidi={
+		name=SIK_burhan_shahidi
+		portraits={
+			civilian={
+				large=GFX_portrait_SIK_burhan_shahidi
+				small=GFX_idea_SIK_burhan_shahidi
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = burhan_shahidi
+			allowed = {
+				original_tag = SIK
+			}
+			traits = {
+				master_of_politics
+			}
+		}
+		corps_commander={
+			traits = {
+				cavalry_officer
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 1
+			legacy_id=-1
+		}
+	}
+	SIK_masud_sabri={
+		name=SIK_masud_sabri
+		portraits={
+			civilian={
+				small=GFX_idea_SIK_masud_sabri
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = masud_sabri
+			allowed = {
+				original_tag = SIK
+			}
+			available = {
+				NOT = {
+					has_country_leader = {
+						character = SIK_jin_shuren
+						ruling_only = yes 
+					}
+				}
+			}
+			traits = {
+				silent_workhorse
+			}
+		}
+	}
+	SIK_muhammad_amin_bughra={
+		name=SIK_muhammad_amin_bughra
+		portraits={
+			civilian={
+				large=GFX_portrait_SIK_muhammad_amin_bughra
+				small=GFX_idea_SIK_muhammad_amin_bughra
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = muhammad_amin_bughra
+			allowed = {
+				original_tag = SIK
+			}
+			available = {
+				NOT = {
+					has_country_leader = {
+						character = SIK_jin_shuren
+						ruling_only = yes 
+					}
+				}
+			}
+			traits = {
+				ideological_crusader
+			}
+		}
+		corps_commander={
+			traits = {
+				trait_reckless
+				politically_connected
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id=-1
+		}
+	}
+	SIK_nasir={
+		name=SIK_nasir
+		portraits={
+			civilian={
+				large=GFX_portrait_SIK_nasir
+				small=GFX_idea_SIK_nasir
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = nasir
+			allowed = {
+				original_tag = SIK
+			}
+			available = {
+				NOT = {
+					OR = {
+						has_country_leader = {
+							character = SIK_sheng_shicai
+							ruling_only = yes 
+						}
+						has_country_leader = {
+							character = SIK_jin_shuren
+							ruling_only = yes 
+						}
+					}
+				}
+			}
+			traits = {
+				the_legitimist
+			}
+		}
+	}
+	
+	### 이론가 ###
+	SIK_xinjiang_army_research = {
+		name=SIK_xinjiang_army_research
+		portraits={
+			army={
+				small=GFX_idea_Joint_army_research
+			}
+		}
+		advisor={
+			cost = 100
+			slot = theorist
+			idea_token = xinjiang_army_research
+			ledger = army
+		    allowed = {
+		    	original_tag = SIK
+		    }
+		    traits = {
+				military_theorist
+			}
+		}
+	}
+	SIK_xinjiang_navy_research={
+		name=SIK_xinjiang_navy_research
+		portraits={
+			army={
+				small=GFX_idea_Joint_navy_research
+			}
+		}
+		advisor={
+			cost = 100
+			slot = theorist
+			idea_token = xinjiang_navy_research
+			ledger = navy
+			allowed = {
+				original_tag = SIK
+			}
+			traits = {
+				naval_theorist
+			}
+		}
+	}
+	SIK_xinjiang_air_research={
+		name=SIK_xinjiang_air_research
+		portraits={
+			army={
+				small=GFX_idea_Joint_air_research
+			}
+		}
+		advisor={
+			cost = 100
+			slot = theorist
+			idea_token = xinjiang_air_research
+			ledger = air
+			allowed = {
+				original_tag = SIK
+			}
+			traits = {
+				air_warfare_theorist
+			}
+		}
+	}
+	
+	### 육군참모총장 ###
+	SIK_yulbars_khan={
+		name=SIK_yulbars_khan
+		portraits={
+			army={
+				large=GFX_portrait_SIK_yulbars_khan
+				small=GFX_idea_SIK_yulbars_khan
+			}
+		}
+		advisor={
+			cost = 100
+			slot = army_chief
+			idea_token = yulbars_khan
+	    	allowed = {
+	    		original_tag = SIK
+	    	}
+			available = {
+				NOT = {
+					OR = {
+						has_country_leader = {
+							character = SIK_sheng_shicai
+							ruling_only = yes 
+						}
+						has_country_leader = {
+							character = SIK_jin_shuren
+							ruling_only = yes 
+						}
+					}
+				}
+			}
+	    	traits = {
+				army_chief_offensive_2
+			}
+	    	ai_will_do = {
+	    		factor = 1
+	    	}
+		}
+		field_marshal={
+			traits = {
+				cavalry_officer
+				politically_connected
+			}
+			skill = 2
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+	SIK_timur_beg={
+		name=SIK_timur_beg
+		portraits={
+			army={
+				large=GFX_portrait_SIK_timur_beg
+				small=GFX_idea_SIK_timur_beg
+			}
+		}
+		advisor={
+			slot = army_chief
+			idea_token = timur_beg
+	    	allowed = {
+	    		original_tag = SIK
+	    	}
+			available = {
+				NOT = {
+					has_country_leader = {
+						character = SIK_jin_shuren
+						ruling_only = yes
+					}
+				}
+			}
+	    	traits = {
+				army_chief_offensive_1
+			}
+	    	ai_will_do = {
+	    		factor = 1
+	    	}
+		}
+		corps_commander={
+			traits = {
+				infantry_officer
+				politically_connected
+				trickster
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 1
+			legacy_id=-1
+		}
+	}
+	SIK_sabit_damulla_abdulbaki={
+		name=SIK_sabit_damulla_abdulbaki
+		portraits={
+			army={
+				large=GFX_portrait_SIK_sabit_damulla_abdulbaki
+				small=GFX_idea_SIK_sabit_damulla_abdulbaki
+			}
+		}
+		advisor={
+			slot = army_chief
+			idea_token = sabit_damulla_abdulbaki
+	    	allowed = {
+	    		original_tag = SIK
+	    	}
+			available = {
+				NOT = {
+					has_country_leader = {
+						character = SIK_jin_shuren
+						ruling_only = yes
+					}
+				}
+			}
+	    	traits = {
+				army_chief_offensive_1
+			}
+	    	ai_will_do = {
+	    		factor = 1
+	    	}
+		}
+		field_marshal={
+			traits = {
+				infantry_officer
+				war_hero
+				inspirational_leader
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 1
+			legacy_id=-1
+		}
+	}
+	
+	### 해군참모총장 ###
+	SIK_xinjiang_navy_department = {
+		name=SIK_xinjiang_navy_department
+		portraits={
+			army={
+				small=GFX_idea_Joint_navy_department
+			}
+		}
+		advisor={
+			slot = navy_chief
+			idea_token = xinjiang_navy_department
+		    allowed = {
+		    	original_tag = SIK
+	    	}
+		    traits = {
+				navy_chief_reform_1
+			}
+		    ai_will_do = {
+		    	factor = 1
+		    }
+		}
+	}
+	
+	### 공군참모총장 ###
+	SIK_xinjiang_air_department = {
+		name=SIK_xinjiang_air_department
+		portraits={
+			army={
+				small=GFX_idea_Joint_air_department
+			}
+		}
+		advisor={
+			slot = air_chief
+			idea_token = xinjiang_air_department
+			
+	    	allowed = {
+		    	original_tag = SIK
+		    }
+		    traits = {
+				air_chief_safety_1
+			}
+		    ai_will_do = {
+		    	factor = 1
+		    }
+		}
+	}
+	
+	### 최고사령부 ###
+	SIK_xinjiang_infantry = {
+		name=SIK_xinjiang_infantry
+		portraits={
+			army={
+				small=GFX_idea_Joint_infantry
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = xinjiang_infantry
+			ledger = army
+		    allowed = {
+		    	original_tag = SIK
+		    }
+		    traits = {
+				army_infantry_1
+			}
+		}
+	}
+	SIK_xinjiang_artillery = {
+		name=SIK_xinjiang_artillery
+		portraits={
+			army={
+				small=GFX_idea_Joint_artillery
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = xinjiang_artillery
+			ledger = army
+		    allowed = {
+		    	original_tag = SIK
+		    }
+		    traits = {
+				army_artillery_1
+			}
+		}
+	}
+	SIK_xinjiang_cavalry = {
+		name=SIK_xinjiang_cavalry
+		portraits={
+			army={
+				small=GFX_idea_Joint_cavalry
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = xinjiang_cavalry
+			ledger = army
+		    allowed = {
+		    	original_tag = SIK
+		    }
+		    traits = {
+				army_cavalry_1
+			}
+		}
+	}
+	SIK_hoja_niyaz_haji = {
+		name=SIK_hoja_niyaz_haji
+		portraits={
+			army={
+				large=GFX_portrait_SIK_hoja_niyaz_haji
+				small=GFX_idea_SIK_hoja_niyaz_haji
+			}
+		}
+		advisor={
+			cost = 100
+			slot = high_command
+			idea_token = hoja_niyaz_haji
+			ledger = army
+		    allowed = {
+		    	original_tag = SIK
+		    }
+			available = {
+				NOT = {
+					OR = {
+						has_country_leader = {
+							character = SIK_sheng_shicai
+							ruling_only = yes 
+						}
+						has_country_leader = {
+							character = SIK_jin_shuren
+							ruling_only = yes 
+						}
+					}
+				}
+			}
+		    traits = {
+				army_regrouping_2
+			}
+		}
+		corps_commander={
+			traits = {
+				politically_connected
+				trickster
+			}
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 1
+			legacy_id=-1
+		}
+	}
+	SIK_nur_ahmadjan_bughra = {
+		name=SIK_nur_ahmadjan_bughra
+		portraits={
+			army={
+				large=GFX_portrait_SIK_nur_ahmadjan_bughra
+				small=GFX_idea_SIK_nur_ahmadjan_bughra
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = nur_ahmadjan_bughra
+			ledger = army
+		    allowed = {
+		    	original_tag = SIK
+		    }
+			available = {
+				NOT = {
+					has_country_leader = {
+						character = SIK_jin_shuren
+						ruling_only = yes
+					}
+				}
+			}
+		    traits = {
+				army_regrouping_1
+			}
+		}
+		corps_commander={
+			traits = {
+				politically_connected
+				organizer
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id=-1
+		}
+	}
+	SIK_abdullah_bughra = {
+		name=SIK_abdullah_bughra
+		portraits={
+			army={
+				large=GFX_portrait_SIK_abdullah_bughra
+				small=GFX_idea_SIK_abdullah_bughra
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = abdullah_bughra
+			ledger = army
+		    allowed = {
+		    	original_tag = SIK
+		    }
+			available = {
+				NOT = {
+					has_country_leader = {
+						character = SIK_jin_shuren
+						ruling_only = yes
+					}
+				}
+			}
+		    traits = {
+				army_commando_1
+			}
+		}
+		corps_commander={
+			traits = {
+				politically_connected
+				trait_mountaineer
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id=-1
+		}
+	}
+	
+	### 육군 장성 ###
+	SIK_ma_shaowu = {
+		name=SIK_ma_shaowu
+		portraits={
+			army={
+				large=GFX_portrait_SIK_ma_shaowu
+			}
+		}
+		corps_commander={
+			traits = {
+				politically_connected
+				old_guard
+			}
+			skill = 2
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+}

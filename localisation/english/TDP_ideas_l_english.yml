@@ -13,19 +13,23 @@
  KOR_kim_koo:0 "김구"
  KOR_yi_sang_sul:0 "이상설"
  KOR_lee_beom_seok:0 "이범석"
+ daemagliji:0 "대막리지"
  KOR_sin_chae_ho:0 "신채호"
  KOR_yi_won:0 "이원"
+ emperor_geonheung:0 "건흥제"
  
  ### 한국 정치고문 ###
  KOR_hyeon_jun_ho:0 "현준호"
  KOR_park_heung_sik:0 "박흥식"
  KOR_yun_il_zung:0 "윤일중"
  KOR_jo_so_ang:0 "조소앙"
+ three_equalities:0 "삼균주의자"
  KOR_kim_du_bong:0 "김두봉"
  KOR_alexandra_kim:0 "김알렉산드라"
  KOR_cho_bong_am:0 "조봉암"
  KOR_gang_se_hyeong:0 "강세형"
  KOR_ahn_ho_sang:0 "안호상"
+ ilminist:0 "일민주의자"
  KOR_yi_hae_chang:0 "이해창"
  KOR_yi_kyu_wan:0 "이규완"
  KOR_min_young_hwan:0 "민영환"
@@ -162,3 +166,48 @@
  MON_urzhin_garmaev:0 "가르마인 우르진"
  MON_darijaya:0 "다리자야"
  MON_zhamyangiyn_lhagvasuren:0 "자먄기인 락바수렌"
+ 
+ #############
+ ### 신강군벌 ###
+ #############
+ 
+ ### 신강 지도자 ###
+ SIK_sheng_shicai:0 "성스차이"
+ SIK_isa_alptekin:0 "이사 알프테킨"
+ SIK_jin_shuren:0 "진수런"
+ SIK_yang_zengxin:0 "양쩡신"
+ 
+ ### 신강 정치고문 ###
+ SIK_huashengmu:0 "화성무"
+ SIK_guanglu:0 "광루"
+ SIK_burhan_shahidi:0 "부르한 샤히드"
+ SIK_masud_sabri:0 "마수드 사브리"
+ SIK_muhammad_amin_bughra:0 "무함마드 아민 부그라"
+ SIK_nasir:0 "나시르 샤"
+ 
+ ### 신강 이론가 ###
+ SIK_xinjiang_army_research:0 "육군이론연구소"
+ SIK_xinjiang_navy_research:0 "해군이론연구소"
+ SIK_xinjiang_air_research:0 "공군이론연구소"
+ 
+ ### 신강 육군참모총장 ###
+ SIK_yulbars_khan:0 "율바르스 칸"
+ SIK_timur_beg:0 "티무르 베그"
+ SIK_sabit_damulla_abdulbaki:0 "사비트 다물라 압둘바키"
+ 
+ ### 신강 해군참모총장 ###
+ SIK_xinjiang_navy_department:0 "해군부"
+ 
+ ### 신강 공군참모총장 ###
+ SIK_xinjiang_air_department:0 "공군부"
+ 
+ ### 신강 최고사령부 ###
+ SIK_xinjiang_infantry:0 "보병 장교단"
+ SIK_xinjiang_artillery:0 "포병 장교단"
+ SIK_xinjiang_cavalry:0 "기병 장교단"
+ SIK_hoja_niyaz_haji:0 "호자 니야즈 하지"
+ SIK_abdullah_bughra:0 "압둘라 부그라"
+ SIK_nur_ahmadjan_bughra:0 "누르 아흐마드잔 부그라"
+ 
+ ### 신강 육군 장성 ###
+ SIK_ma_shaowu:0 "마사오우"

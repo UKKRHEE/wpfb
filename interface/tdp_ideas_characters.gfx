@@ -372,4 +372,74 @@ spriteTypes = {
 		name = "GFX_idea_MON_zhamyangiyn_lhagvasuren"
 		texturefile = "gfx/interface/ideas/MON/idea_MON_zhamyangiyn_lhagvasuren.png"
 	}
+	
+	#############
+	### 신강군벌 ###
+	#############
+	
+	### 신강 정치고문 ###
+	spriteType = {
+		name = "GFX_idea_SIK_huashengmu"
+		texturefile = "gfx/interface/ideas/SIK/idea_SIK_huashengmu.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SIK_guanglu"
+		texturefile = "gfx/interface/ideas/SIK/idea_SIK_guanglu.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SIK_burhan_shahidi"
+		texturefile = "gfx/interface/ideas/SIK/idea_SIK_burhan_shahidi.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SIK_masud_sabri"
+		texturefile = "gfx/interface/ideas/SIK/idea_SIK_masud_sabri.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SIK_muhammad_amin_bughra"
+		texturefile = "gfx/interface/ideas/SIK/idea_SIK_muhammad_amin_bughra.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SIK_nasir"
+		texturefile = "gfx/interface/ideas/SIK/idea_SIK_nasir.png"
+	}
+	
+	### 신강 육군참모총장 ###
+	spriteType = {
+		name = "GFX_idea_SIK_sheng_shicai"
+		texturefile = "gfx/interface/ideas/SIK/idea_SIK_sheng_shicai.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SIK_jin_shuren"
+		texturefile = "gfx/interface/ideas/SIK/idea_SIK_jin_shuren.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SIK_yang_zengxin"
+		texturefile = "gfx/interface/ideas/SIK/idea_SIK_yang_zengxin.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SIK_yulbars_khan"
+		texturefile = "gfx/interface/ideas/SIK/idea_SIK_yulbars_khan.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SIK_timur_beg"
+		texturefile = "gfx/interface/ideas/SIK/idea_SIK_timur_beg.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SIK_sabit_damulla_abdulbaki"
+		texturefile = "gfx/interface/ideas/SIK/idea_SIK_sabit_damulla_abdulbaki.png"
+	}
+	
+	### 신강 최고사령부 ###
+	spriteType = {
+		name = "GFX_idea_SIK_hoja_niyaz_haji"
+		texturefile = "gfx/interface/ideas/SIK/idea_SIK_hoja_niyaz_haji.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SIK_abdullah_bughra"
+		texturefile = "gfx/interface/ideas/SIK/idea_SIK_abdullah_bughra.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SIK_nur_ahmadjan_bughra"
+		texturefile = "gfx/interface/ideas/SIK/idea_SIK_nur_ahmadjan_bughra.png"
+	}
 }

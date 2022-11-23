@@ -296,6 +296,72 @@ spriteTypes = {
 		texturefile = "gfx/leaders/MON/Portrait_MON_Darijaya.png"
 	}
 	
+	#############
+	### 신강군벌 ###
+	#############
+	
+	### 신강 지도자 ###
+	spriteType = {
+		name = "GFX_portrait_SIK_sheng_shicai"
+		texturefile = "gfx/leaders/SIK/Portrait_SIK_Sheng_Shicai.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_SIK_isa_alptekin"
+		texturefile = "gfx/leaders/SIK/Portrait_SIK_Isa_Alptekin.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_SIK_jin_shuren"
+		texturefile = "gfx/leaders/SIK/Portrait_SIK_Jin_Shuren.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_SIK_yang_zengxin"
+		texturefile = "gfx/leaders/SIK/Portrait_SIK_Yang_Zengxin.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_SIK_burhan_shahidi"
+		texturefile = "gfx/leaders/SIK/Portrait_SIK_Burhan_Shahidi.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_SIK_nasir"
+		texturefile = "gfx/leaders/SIK/Portrait_SIK_Nasir.png"
+	}
+	
+	### 신강 원수 ###
+	spriteType = {
+		name = "GFX_portrait_SIK_yulbars_khan"
+		texturefile = "gfx/leaders/SIK/Portrait_SIK_Yulbars_Khan.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_SIK_sabit_damulla_abdulbaki"
+		texturefile = "gfx/leaders/SIK/Portrait_SIK_Sabit_Damulla_Abdulbaki.png"
+	}
+	
+	### 신강 장성 ###
+	spriteType = {
+		name = "GFX_portrait_SIK_timur_beg"
+		texturefile = "gfx/leaders/SIK/Portrait_SIK_Timur_Beg.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_SIK_ma_shaowu"
+		texturefile = "gfx/leaders/SIK/Portrait_SIK_Ma_Shaowu.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_SIK_hoja_niyaz_haji"
+		texturefile = "gfx/leaders/SIK/Portrait_SIK_Hoja_Niyaz_Haji.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_SIK_abdullah_bughra"
+		texturefile = "gfx/leaders/SIK/Portrait_SIK_Abdullah_Bughra.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_SIK_nur_ahmadjan_bughra"
+		texturefile = "gfx/leaders/SIK/Portrait_SIK_Nur_Ahmadjan_Bughra.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_SIK_muhammad_amin_bughra"
+		texturefile = "gfx/leaders/SIK/Portrait_SIK_Muhammad_Amin_Bughra.png"
+	}
+	
 	#spriteType = {
 	#	name = "GFX_portrait_"
 	#	texturefile = "gfx/leaders//Portrait_.png"
