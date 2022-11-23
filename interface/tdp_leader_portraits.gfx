@@ -145,4 +145,159 @@ spriteTypes = {
 		name = "GFX_portrait_KOR_shin_sung_mo"
 		texturefile = "gfx/leaders/KOR/Portrait_KOR_Shin_Sung_mo.png"
 	}
+	
+	#############
+	### 대청제국 ###
+	#############
+	
+	### 청국 지도자 ###
+	spriteType = {
+		name = "GFX_portrait_QIN_chen_duxiu"
+		texturefile = "gfx/leaders/QIN/Portrait_QIN_Chen_Duxiu.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_QIN_liang_qichao"
+		texturefile = "gfx/leaders/QIN/Portrait_QIN_Liang_Qichao.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_QIN_zhang_zuolin"
+		texturefile = "gfx/leaders/QIN/Portrait_QIN_Zhang_Zuolin.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_QIN_puyi"
+		texturefile = "gfx/leaders/QIN/Portrait_QIN_Puyi.png"
+	}
+	
+	### 청국 원수 ###
+	spriteType = {
+		name = "GFX_portrait_QIN_aisin_gioro_pujie"
+		texturefile = "gfx/leaders/QIN/Portrait_QIN_Pujie.png"
+	}
+	
+	### 청국 장성 ###
+	spriteType = {
+		name = "GFX_portrait_QIN_aisin_gioro_xiqia"
+		texturefile = "gfx/leaders/QIN/Portrait_QIN_Xiqia.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_QIN_aisin_gioro_zaitao"
+		texturefile = "gfx/leaders/QIN/Portrait_QIN_Zaitao.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_QIN_zhang_xueliang"
+		texturefile = "gfx/leaders/QIN/Portrait_QIN_Zhang_Xueliang.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_QIN_yang_yuting"
+		texturefile = "gfx/leaders/QIN/Portrait_QIN_Yang_Yuting.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_QIN_ma_zhanshan"
+		texturefile = "gfx/leaders/QIN/Portrait_QIN_Ma_Zhanshan.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_QIN_gobulo_runqi"
+		texturefile = "gfx/leaders/QIN/Portrait_QIN_Gobulo_Runqi.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_QIN_li_bingzhi"
+		texturefile = "gfx/leaders/QIN/Portrait_QIN_Li_Bingzhi.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_QIN_aisin_gioro_xianyu"
+		texturefile = "gfx/leaders/QIN/Portrait_QIN_Xianyu.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_QIN_zhang_zuoxiang"
+		texturefile = "gfx/leaders/QIN/Portrait_QIN_Zhang_Zuoxiang.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_QIN_zhang_haipeng"
+		texturefile = "gfx/leaders/QIN/Portrait_QIN_Zhang_Haipeng.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_QIN_zhang_jinghui"
+		texturefile = "gfx/leaders/QIN/Portrait_QIN_Zhang_Jinghui.png"
+	}
+	
+	### 청국 제독 ###
+	spriteType = {
+		name = "GFX_portrait_QIN_sa_zhenbing"
+		texturefile = "gfx/leaders/QIN/Portrait_QIN_Sa_Zhenbing.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_QIN_wu_renli"
+		texturefile = "gfx/leaders/QIN/Portrait_QIN_Wu_Renli.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_QIN_du_xigui"
+		texturefile = "gfx/leaders/QIN/Portrait_QIN_Du_Xigui.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_QIN_shen_honglie"
+		texturefile = "gfx/leaders/QIN/Portrait_QIN_Shen_Honglie.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_QIN_yin_zuoqian"
+		texturefile = "gfx/leaders/QIN/Portrait_QIN_Yin_Zuoqian.png"
+	}
+	
+	#############
+	### 대몽골국 ###
+	#############
+	
+	### 몽골 지도자 ###
+	spriteType = {
+		name = "GFX_portrait_MON_khorloogiin_choibalsan"
+		texturefile = "gfx/leaders/MON/Portrait_MON_Khorloogiin_Choibalsan.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_MON_unenbayan"
+		texturefile = "gfx/leaders/MON/Portrait_MON_Unenbayan.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_MON_7th_changkya_khutukhtu"
+		texturefile = "gfx/leaders/MON/Portrait_MON_7th_Changkya_Khutukhtu.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_MON_demchugdongrub"
+		texturefile = "gfx/leaders/MON/Portrait_MON_Demchugdongrub.png"
+	}
+	
+	### 몽골 원수 ###
+	spriteType = {
+		name = "GFX_portrait_MON_manlaibaatar_damdinsuren"
+		texturefile = "gfx/leaders/MON/Portrait_MON_Manlaibaatar_Damdinsuren.png"
+	}
+	
+	### 몽골 장성 ###
+	spriteType = {
+		name = "GFX_portrait_MON_khatanbaatar_magsarjav"
+		texturefile = "gfx/leaders/MON/Portrait_MON_Khatanbaatar_Magsarjav.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_MON_urzhin_garmaev"
+		texturefile = "gfx/leaders/MON/Portrait_MON_Urzhin_Garmaev.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_MON_li_shouxin"
+		texturefile = "gfx/leaders/MON/Portrait_MON_Li_Shouxin.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_MON_altanochir"
+		texturefile = "gfx/leaders/MON/Portrait_MON_Altanochir.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_MON_zhamyangiyn_lhagvasuren"
+		texturefile = "gfx/leaders/MON/Portrait_MON_Zhamyangiyn_Lhagvasuren.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_MON_darijaya"
+		texturefile = "gfx/leaders/MON/Portrait_MON_Darijaya.png"
+	}
+	
+	#spriteType = {
+	#	name = "GFX_portrait_"
+	#	texturefile = "gfx/leaders//Portrait_.png"
+	#}
 }

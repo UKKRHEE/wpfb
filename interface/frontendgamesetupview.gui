@@ -923,36 +923,36 @@ guiTypes = {
 			Orientation = "UPPER_LEFT"
 		}
 		instantTextBoxType = {
-			name = "TLE_country_name_ITA"
+			name = "TLE_country_name_KOR"
 			position = { x = 920 y = 292 }
 			font = "hoi_20b"
 			maxWidth = 140
 			maxHeight = 30
 			fixedsize = yes
 			format = center
-			text="이탈리아 왕국"
+			text="대한제국"
 			Orientation = "UPPER_LEFT"
 		}
 		instantTextBoxType = {
-			name = "TLE_country_name_DKG"
+			name = "TLE_country_name_JAP"
 			position = { x = 770 y = 292 }
 			font = "hoi_20b"
 			maxWidth = 140
 			maxHeight = 30
 			fixedsize = yes
 			format = center
-			text="일본국"
+			text="일본 제국"
 			Orientation = "UPPER_LEFT"
 		}
 		instantTextBoxType = {
-			name = "TLE_country_name_KOR"
+			name = "TLE_country_name_ITA"
 			position = { x = 620 y = 292 }
 			font = "hoi_20b"
 			maxWidth = 140
 			maxHeight = 30
 			fixedsize = yes
 			format = center
-			text="대한제국"
+			text="이탈리아 왕국"
 			Orientation = "UPPER_LEFT"
 		}
 		instantTextBoxType = {

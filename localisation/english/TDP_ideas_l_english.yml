@@ -43,7 +43,7 @@
  
  ### 한국 해군참모총장 ###
  KOR_sin_sun_sung:0 "신순성"
- KOR_yi_kyu_gap:0 "신순성"
+ KOR_yi_kyu_gap:0 "이규갑"
  
  ### 한국 공군참모총장 ###
  KOR_no_baek_rin:0 "노백린"
@@ -73,3 +73,92 @@
  KOR_sohn_won_yil:0 "손원일"
  KOR_yi_jae_gak:0 "이재각"
  KOR_shin_sung_mo:0 "신성모"
+ 
+ #############
+ ### 대청제국 ###
+ #############
+ 
+ ### 청국 지도자 ###
+ QIN_chen_duxiu:0 "천두슈"
+ QIN_liang_qichao:0 "량치차오"
+ QIN_aisin_gioro_puyi:0 "아이신기오로 푸이"
+ 
+ ### 청국 정치고문 ###
+ QIN_aisin_gioro_pujie:0 "아이신기오로 푸제"
+ QIN_aisin_gioro_zaizhen:0 "아이신기오로 짜이전"
+ QIN_xie_jieshi:0 "셰제스"
+ QIN_luo_zhenyu:0 "뤄전위"
+ QIN_feng_hanqing:0 "펑한칭"
+ QIN_kang_tongbi:0 "캉통비"
+ QIN_yu_zhishan:0 "위즈산"
+ 
+ ### 청국 이론가 ###
+ QIN_qing_army_research:0 "육군이론연구소"
+ QIN_qing_navy_research:0 "해군이론연구소"
+ QIN_qing_air_research:0 "공군이론연구소"
+ 
+ ### 청국 육군참모총장 ###
+ QIN_aisin_gioro_xiqia:0 "아이신기오로 시치아"
+ QIN_zhang_zuolin:0 "장쭤린"
+ 
+ ### 청국 해군참모총장 ###
+ QIN_sa_zhenbing:0 "싸전빙"
+ QIN_wu_renli:0 "우런리"
+ 
+ ### 청국 공군참모총장 ###
+ QIN_gao_zhihang:0 "가오즈항"
+ 
+ ### 청국 최고사령부 ###
+ QIN_aisin_gioro_zaitao:0 "아이신기오로 짜이타오"
+ QIN_zhang_xueliang:0 "장쉐량"
+ QIN_yang_yuting:0 "양위팅"
+ QIN_ma_zhanshan:0 "마잔산"
+ QIN_gobulo_runqi:0 "궈부뤄룬치"
+ QIN_li_bingzhi:0 "리빙즈"
+ 
+ ### 청국 육군 장성 ###
+ QIN_aisin_gioro_xianyu:0 "아이신기오로 셴위"
+ QIN_zhang_zuoxiang:0 "장쭤샹"
+ QIN_zhang_jinghui:0 "장징후이" 
+ QIN_zhang_haipeng:0 "장하이펑"
+ 
+ ### 청국 해군 제독 ###
+ QIN_du_xigui:0 "두시구이"
+ QIN_shen_honglie:0 "선훙례"
+ QIN_yin_zuoqian:0 "인쭤첸"
+ 
+ #############
+ ### 대몽골국 ###
+ #############
+ 
+ ### 몽골 지도자 ###
+ MON_khorloogiin_choibalsan:0 "허를러깅 처이발상"
+ MON_unenbayan:0 "우넨바얀"
+ MON_7th_changkya_khutukhtu:0 "제7대 창캬 후툭투"
+ MON_demchugdongrub:0 "데므치그돈로브"
+ 
+ ### 몽골 정치고문 ###
+ MON_altanochir:0 "알탄오치르"
+ MON_jamsrangiin_tseveen:0 "잠스랑긴 체베엔"
+ MON_davizavyn_losol:0 "다비자빈 로솔"
+ MON_anandyn_amar:0 "아난딘 아므르"
+ 
+ ### 몽골 이론가 ###
+ MON_mongolia_army_research:0 "육군이론연구소"
+ MON_mongolia_navy_research:0 "해군이론연구소"
+ MON_mongolia_air_research:0 "공군이론연구소"
+ 
+ ### 몽골 육군참모총장 ###
+ MON_manlaibaatar_damdinsuren:0 "마늘라이바타르 담딘쉬렌"
+ MON_khatanbaatar_magsarjav:0 "하탄바타르 마그사르자브"
+ 
+ ### 몽골 해군참모총장 ###
+ MON_mongolia_navy_department:0 "해군부"
+ 
+ ### 몽골 공군참모총장 ###
+ MON_li_shouxin:0 "리서우신"
+ 
+ ### 몽골 최고사령부 ###
+ MON_urzhin_garmaev:0 "가르마인 우르진"
+ MON_darijaya:0 "다리자야"
+ MON_zhamyangiyn_lhagvasuren:0 "자먄기인 락바수렌"

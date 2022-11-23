@@ -954,209 +954,31 @@ SWI_helvetic_republic = {
 	color_ui = rgb { 140 140 140 }
 }
 
-ITA = {
-	color = rgb { 67 127 63 }
-	color_ui = rgb { 87 165 82 }
+#############
+### 오얏꽃ㅡ ###
+#############
+
+KOR_republic = {
+	color = rgb { 0 0 220 }
+	color_ui = rgb { 0 0 220 }	
 }
 
-RUS = {
-	color = rgb { 104 152 83 }
-	color_ui = rgb { 135 198 108 }
-}
-KOR_socialist_empire = { #사회주의 제국
+KOR_republic_communism = {
 	color = rgb { 204 0 0 }
 	color_ui = rgb { 204 0 0 }
 }
-KOR_revolutionary = { #
-	color = rgb { 204 0 0 }
-	color_ui = rgb { 204 0 0 }
-}
-KOR_PPK = { #
-	color = rgb { 161 174 219 }
-	color_ui = rgb { 161 174 219 }
-}
-CHI = { #
-	color = rgb { 51 102 153 }
-	color_ui = rgb { 51 102 153 }
-}
-ZLC = { #
-	color = rgb { 51 102 153 }
-	color_ui = rgb { 51 102 153 }
-}
-SHX_ZLC = { #
-	color = rgb { 161 103 33 }
-	color_ui = rgb { 161 103 33 }
-}
-CHI_PRC = { #
-	color = rgb { 0  51  153 }
-	color_ui = rgb { 0  51  153 }
-}
-KOR_FJP = { #한국
-	color = rgb { 36  7  126 }
-	color_ui = rgb { 36  7  126 }
-}
-KOR_TBJ = { #한국
-	color = rgb { 36  7  126 }
-	color_ui = rgb { 36  7  126 }
-}
-KOR_DKG = { #한국
-	color = rgb { 36  7  126 }
-	color_ui = rgb { 36  7  126 }
-}
-KOR_NBJ = { #한국
-	color = rgb { 36  7  126 }
-	color_ui = rgb { 36  7  126 }
-}
-KMN_REP = { #한국
-	color = rgb { 66  135  129 }
-	color_ui = rgb { 66  135  129 }
+
+QIN_communism = {
+	color = rgb { 255 120 71 }
+	color_ui = rgb { 255 120 71 }
 }
 
-GXC_KOR = { #한국
-	color = rgb { 46  60  126 }
-	color_ui = rgb { 46  60  126 }
+QIN_puppet = {
+	color = rgb { 8 99 156 }
+	color_ui = rgb { 8 99 156 }
 }
-GDC_KOR = { #한국
-	color = rgb { 46  60  126 }
-	color_ui = rgb { 46  60  126 }
-}
-SZC_KOR = { #한국
-	color = rgb { 46  60  126 }
-	color_ui = rgb { 46  60  126 }
-}
-SHX_KOR = { #한국
-	color = rgb { 46  60  126 }
-	color_ui = rgb { 46  60  126 }
-}
-XSM_KOR = { #한국
-	color = rgb { 46  60  126 }
-	color_ui = rgb { 46  60  126 }
-}
-YUN_KOR = { #한국
-	color = rgb { 46  60  126 }
-	color_ui = rgb { 46  60  126 }
-}
-HNC_KOR = { #한국
-	color = rgb { 46  60  126 }
-	color_ui = rgb { 46  60  126 }
-}
-QIN_KOR = { #한국
-	color = rgb { 52  39  126 }
-	color_ui = rgb { 52  39  126 }
-}
-CHI_KOR = { #한국
-	color = rgb { 53  56  126 }
-	color_ui = rgb { 53  56  126 }
-}
-KOR_GHQ = { #한국
-	color = rgb { 20 133 237 }
-	color_ui = rgb { 20 133 237 }
-}
-KHK_IND = { #한국
-	color = rgb { 140 175 199 }
-	color_ui = rgb { 140 175 199 }
-}
-KKS_IND = { #한국
-	color = rgb { 199 147 147 }
-	color_ui = rgb { 199 147 147 }
-}
-KYH_IND = { #한국
-	color = rgb { 79 110 90 }
-	color_ui = rgb { 79 110 90 }
-}
-KMN_IND = {
-	color = rgb { 36  0  126 }
-	color_ui = rgb { 36  0  126 }
-}
-EOK_PROV = {
-	color = rgb { 53  56  126 }
-	color_ui = rgb { 53  56  126 }
-}
-JAP_great_japan = {
-	color = rgb { 130 19 46 }
-	color_ui = rgb { 130 19 46 }
-}
-SOV_perm_government = {
-	color = rgb { 155  10  10 }
-	color_ui = rgb { 163 17 31 }
-}
-TMS_TWR = {
-    color = rgb { 165 78 78 }
-    color_ui = rgb { 165 78 78 }
-}
-VGE_TWR = {
-	color = rgb { 21 150 118 }
-	color_ui = rgb { 21 150 118 }
-}
-KHI_TWR = {
-	color = rgb { 140 8 8 }
-	color_ui = rgb { 140 8 8 }
-}
-BUK_TWR = {
-	color = rgb { 178 34 34 }
-	color_ui = rgb { 178 34 34 }
-}
-BYA_TWR = {
-	color = rgb { 53 103 75 }
-	color_ui = rgb { 53 103 75 }
-}
-TAY_TWR = {
-	color = rgb { 81  13  0 }
-	color_ui = rgb { 81  13  0 }
-}
-D75_TWR = {
-	color = rgb { 156 11 11 }
-	color_ui = rgb { 156 11 11 }
-}
-D74_TWR = {
-	color = rgb { 152 130 191 }
-	color_ui = rgb { 198 169 248 }
-}
-SOV_japan_win = {
-	color = rgb { 156 11 11 }
-	color_ui = rgb { 156 11 11 }
-}
-DEN_reichskommissariat = {
-	color = rgb { 115 115 115 }
-	color_ui = rgb { 122 145 93 }
-}
-SWE_reichskommissariat = {
-	color = rgb { 115 115 115 }
-	color_ui = rgb { 122 145 93 }
-}
-ICE_reichskommissariat = {
-	color = rgb { 115 115 115 }
-	color_ui = rgb { 122 145 93 }
-}
-SOV_reichskommissariat = {
-	color = rgb { 115 115 115 }
-	color_ui = rgb { 122 145 93 }
-}
-D15_reichskommissariat = {
-	color = rgb { 115 115 115 }
-	color_ui = rgb { 122 145 93 }
-}
-GEO_reichskommissariat = {
-	color = rgb { 115 115 115 }
-	color_ui = rgb { 122 145 93 }
-}
-KAZ_reichskommissariat = {
-	color = rgb { 115 115 115 }
-	color_ui = rgb { 122 145 93 }
-}
-TMS_reichskommissariat = {
-	color = rgb { 115 115 115 }
-	color_ui = rgb { 122 145 93 }
-}
-TAN_reichskommissariat = {
-	color = rgb { 115 115 115 }
-	color_ui = rgb { 122 145 93 }
-}
-CZE_reichskommissariat = {
-	color = rgb { 115 115 115 }
-	color_ui = rgb { 122 145 93 }
-}
-POL_reichskommissariat = {
-	color = rgb { 115 115 115 }
-	color_ui = rgb { 122 145 93 }
+
+QIN_puppet_communism = {
+	color = rgb { 255 120 71 }
+	color_ui = rgb { 255 120 71 }
 }

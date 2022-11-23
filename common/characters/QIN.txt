@@ -1,0 +1,776 @@
+characters={
+	### 지도자 ###
+	QIN_chen_duxiu={
+		name=QIN_chen_duxiu
+		portraits={
+			civilian={
+				large=GFX_portrait_QIN_chen_duxiu
+			}
+		}
+		country_leader={
+			ideology=marxism
+			traits={ }
+			expire="1960.1.1.1"
+			id=-1
+		}
+	}
+	QIN_liang_qichao={
+		name=QIN_liang_qichao
+		portraits={
+			civilian={
+				large=GFX_portrait_QIN_liang_qichao
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			traits={ }
+			expire="1960.1.1.1"
+			id=-1
+		}
+	}
+	QIN_zhang_zuolin={
+		name=QIN_zhang_zuolin
+		portraits={
+			army={
+				large=GFX_portrait_QIN_zhang_zuolin
+				small=GFX_idea_QIN_zhang_zuolin
+			}
+		}
+		country_leader={
+			ideology=fascism_ideology
+			traits={ }
+			expire="1960.1.1.1"
+			id=-1
+		}
+		advisor={
+			cost = 200
+			slot = army_chief
+			idea_token = zhang_zuolin
+	    	allowed = {
+	    		original_tag = QIN
+	    	}
+	    	traits = {
+				army_chief_maneuver_3
+			}
+	    	ai_will_do = {
+	    		factor = 1
+	    	}
+		}
+		field_marshal={
+			traits = {
+				old_guard
+				organizer
+				skilled_staffer
+				logistics_wizard
+			}
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 4
+			legacy_id=-1
+		}
+	}
+	QIN_aisin_gioro_puyi={
+		name=QIN_aisin_gioro_puyi
+		portraits={
+			civilian={
+				large=GFX_portrait_QIN_puyi
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={ warrior_code }
+			expire="1960.1.1.1"
+			id=-1
+		}
+	}
+	
+	### 정치고문 ###
+	QIN_aisin_gioro_pujie={
+		name=QIN_aisin_gioro_pujie
+		portraits={
+			civilian={
+				large=GFX_portrait_QIN_aisin_gioro_pujie
+				small=GFX_idea_QIN_aisin_gioro_pujie
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = aisin_gioro_pujie
+			allowed = {
+				original_tag = QIN
+			}
+			traits = {
+				staunch_monarchist
+			}
+		}
+		field_marshal={
+			traits = {
+				trait_reckless
+				politically_connected
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id=-1
+		}
+	}
+	QIN_aisin_gioro_zaizhen={
+		name=QIN_aisin_gioro_zaizhen
+		portraits={
+			civilian={
+				small=GFX_idea_QIN_aisin_gioro_zaizhen
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = aisin_gioro_zaizhen
+			allowed = {
+				original_tag = QIN
+			}
+			traits = {
+				captain_of_industry
+			}
+		}
+	}
+	QIN_xie_jieshi={
+		name=QIN_xie_jieshi
+		portraits={
+			civilian={
+				small=GFX_idea_QIN_xie_jieshi
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = xie_jieshi
+			allowed = {
+				original_tag = QIN
+			}
+			traits = {
+				smooth_talking_charmer
+			}
+		}
+	}
+	QIN_luo_zhenyu={
+		name=QIN_luo_zhenyu
+		portraits={
+			civilian={
+				small=GFX_idea_QIN_luo_zhenyu
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = luo_zhenyu
+			allowed = {
+				original_tag = QIN
+			}
+			traits = {
+				gentle_scholar
+			}
+		}
+	}
+	QIN_feng_hanqing={
+		name=QIN_feng_hanqing
+		portraits={
+			civilian={
+				small=GFX_idea_QIN_feng_hanqing
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = feng_hanqing
+			allowed = {
+				original_tag = QIN
+			}
+			traits = {
+				silent_workhorse
+			}
+		}
+	}
+	QIN_kang_tongbi={
+		name=QIN_kang_tongbi
+		portraits={
+			civilian={
+				small=GFX_idea_QIN_kang_tongbi
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = kang_tongbi
+			available = {
+				has_government = democratic
+			}
+			allowed = {
+				original_tag = QIN
+			}
+			traits = {
+				womens_rights_activist
+			}
+		}
+	}
+	QIN_yu_zhishan={
+		name=QIN_yu_zhishan
+		portraits={
+			civilian={
+				small=GFX_idea_QIN_yu_zhishan
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = yu_zhishan
+			allowed = {
+				original_tag = QIN
+				has_dlc = "La Resistance" 
+			}
+			traits = {
+				head_of_intelligence
+			}
+		}
+	}
+	
+	### 이론가 ###
+	QIN_qing_army_research = {
+		name=QIN_qing_army_research
+		portraits={
+			army={
+				small=GFX_idea_Joint_army_research
+			}
+		}
+		advisor={
+			cost = 100
+			slot = theorist
+			idea_token = qing_army_research
+			ledger = army
+		    allowed = {
+		    	original_tag = QIN
+		    }
+		    traits = {
+				military_theorist
+			}
+		}
+	}
+	QIN_qing_navy_research={
+		name=QIN_qing_navy_research
+		portraits={
+			army={
+				small=GFX_idea_Joint_navy_research
+			}
+		}
+		advisor={
+			cost = 100
+			slot = theorist
+			idea_token = qing_navy_research
+			ledger = navy
+			allowed = {
+				original_tag = QIN
+			}
+			traits = {
+				naval_theorist
+			}
+		}
+	}
+	QIN_qing_air_research={
+		name=QIN_qing_air_research
+		portraits={
+			army={
+				small=GFX_idea_Joint_air_research
+			}
+		}
+		advisor={
+			cost = 100
+			slot = theorist
+			idea_token = qing_air_research
+			ledger = air
+			allowed = {
+				original_tag = QIN
+			}
+			traits = {
+				air_warfare_theorist
+			}
+		}
+	}
+	
+	### 육군참모총장 ###
+	QIN_aisin_gioro_xiqia={
+		name=QIN_aisin_gioro_xiqia
+		portraits={
+			army={
+				large=GFX_portrait_QIN_aisin_gioro_xiqia
+				small=GFX_idea_QIN_aisin_gioro_xiqia
+			}
+		}
+		advisor={
+			slot = army_chief
+			idea_token = aisin_gioro_xiqia
+	    	allowed = {
+	    		original_tag = QIN
+	    	}
+	    	traits = {
+				army_chief_organizational_1
+			}
+	    	ai_will_do = {
+	    		factor = 1
+	    	}
+		}
+		corps_commander={
+			traits = {
+				cavalry_officer
+				politically_connected
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 4
+			legacy_id=-1
+		}
+	}
+	
+	### 해군참모총장 ###
+	QIN_sa_zhenbing = {
+		name=QIN_sa_zhenbing
+		portraits={
+			army={
+				large=GFX_portrait_QIN_sa_zhenbing
+				small=GFX_idea_QIN_sa_zhenbing
+			}
+		}
+		advisor={
+			cost = 100
+			slot = navy_chief
+			idea_token = sa_zhenbing
+		    allowed = {
+		    	original_tag = QIN
+	    	}
+		    traits = {
+				navy_chief_decisive_battle_2
+			}
+		    ai_will_do = {
+		    	factor = 1
+		    }
+		}
+		navy_leader={
+			traits = {
+				gentlemanly
+				navy_career_officer
+				battleship_adherent
+				naval_lineage
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			maneuvering_skill = 2
+			coordination_skill = 3
+			legacy_id=-1
+		}
+	}
+	QIN_wu_renli = {
+		name=QIN_wu_renli
+		portraits={
+			army={
+				large=GFX_portrait_QIN_wu_renli
+				small=GFX_idea_QIN_wu_renli
+			}
+		}
+		advisor={
+			cost = 100
+			slot = navy_chief
+			idea_token = wu_renli
+		    allowed = {
+		    	original_tag = QIN
+	    	}
+		    traits = {
+				navy_chief_reform_2
+			}
+		    ai_will_do = {
+		    	factor = 1
+		    }
+		}
+		navy_leader={
+			traits = {
+				navy_career_officer
+				superior_tactician
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			maneuvering_skill = 2
+			coordination_skill = 1
+			legacy_id=-1
+		}
+	}
+	
+	### 공군참모총장 ###
+	QIN_gao_zhihang = {
+		name=QIN_gao_zhihang
+		portraits={
+			army={
+				small=GFX_idea_QIN_gao_zhihang
+			}
+		}
+		advisor={
+			cost = 100
+			slot = air_chief
+			idea_token = gao_zhihang
+			
+	    	allowed = {
+		    	original_tag = QIN
+		    }
+		    traits = {
+				air_chief_reform_2
+			}
+		    ai_will_do = {
+		    	factor = 1
+		    }
+		}
+	}
+	
+	### 최고사령부 ###
+	QIN_aisin_gioro_zaitao = {
+		name=QIN_aisin_gioro_zaitao
+		portraits={
+			army={
+				large=GFX_portrait_QIN_aisin_gioro_zaitao
+				small=GFX_idea_QIN_aisin_gioro_zaitao
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = aisin_gioro_zaitao
+			ledger = army
+		    allowed = {
+		    	original_tag = QIN
+		    }
+		    traits = {
+				army_cavalry_1
+			}
+		}
+		corps_commander={
+			traits = {
+				cavalry_officer
+				politically_connected
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id=-1
+		}
+	}
+	QIN_zhang_xueliang = {
+		name=QIN_zhang_xueliang
+		portraits={
+			army={
+				large=GFX_portrait_QIN_zhang_xueliang
+				small=GFX_idea_QIN_zhang_xueliang
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = zhang_xueliang
+			ledger = army
+		    allowed = {
+		    	original_tag = QIN
+		    }
+		    traits = {
+				army_artillery_1
+			}
+		}
+		corps_commander={
+			traits = {
+				trait_engineer
+				politically_connected
+				substance_abuser
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+	QIN_yang_yuting = {
+		name=QIN_yang_yuting
+		portraits={
+			army={
+				large=GFX_portrait_QIN_yang_yuting
+				small=GFX_idea_QIN_yang_yuting
+			}
+		}
+		advisor={
+			cost = 100
+			slot = high_command
+			idea_token = yang_yuting
+			ledger = army
+		    allowed = {
+		    	original_tag = QIN
+		    }
+		    traits = {
+				army_logistics_2
+			}
+		}
+		corps_commander={
+			traits = {
+				career_officer
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+	QIN_ma_zhanshan = {
+		name=QIN_ma_zhanshan
+		portraits={
+			army={
+				large=GFX_portrait_QIN_ma_zhanshan
+				small=GFX_idea_QIN_ma_zhanshan
+			}
+		}
+		advisor={
+			cost = 100
+			slot = high_command
+			idea_token = ma_zhanshan
+			ledger = army
+		    allowed = {
+		    	original_tag = QIN
+		    }
+		    traits = {
+				army_commando_2
+			}
+		}
+		corps_commander={
+			traits = {
+				commando
+				trait_reckless
+				trickster
+			}
+			skill = 3
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 1
+			legacy_id=-1
+		}
+	}
+	QIN_gobulo_runqi = {
+		name=QIN_gobulo_runqi
+		portraits={
+			army={
+				large=GFX_portrait_QIN_gobulo_runqi
+				small=GFX_idea_QIN_gobulo_runqi
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = gobulo_runqi
+			ledger = army
+		    allowed = {
+		    	original_tag = QIN
+		    }
+		    traits = {
+				army_armored_1
+			}
+		}
+		corps_commander={
+			traits = {
+				media_personality
+				trait_reckless
+				armor_officer
+				politically_connected
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id=-1
+		}
+	}
+	QIN_li_bingzhi = {
+		name=QIN_li_bingzhi
+		portraits={
+			army={
+				large=GFX_portrait_QIN_li_bingzhi
+				small=GFX_idea_QIN_li_bingzhi
+			}
+		}
+		advisor={
+			cost = 100
+			slot = high_command
+			idea_token = li_bingzhi
+			ledger = army
+		    allowed = {
+		    	original_tag = QIN
+		    }
+		    traits = {
+				army_concealment_2
+			}
+		}
+		corps_commander={
+			traits = {
+				career_officer
+				politically_connected
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 3
+			legacy_id=-1
+		}
+	}
+	
+	### 육군 장성 ###
+	QIN_aisin_gioro_xianyu={
+		name=QIN_aisin_gioro_xianyu
+		portraits={
+			army={
+				large=GFX_portrait_QIN_aisin_gioro_xianyu
+			}
+		}
+		gender = female
+		corps_commander={
+			traits = { 
+				cavalry_officer
+				politically_connected
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id=-1
+		}
+	}
+	QIN_zhang_zuoxiang = {
+		name=QIN_zhang_zuoxiang
+		portraits={
+			army={
+				large=GFX_portrait_QIN_zhang_zuoxiang
+			}
+		}
+		corps_commander={
+			traits = {
+				old_guard
+				career_officer
+			}
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+	QIN_zhang_haipeng = {
+		name=QIN_zhang_haipeng
+		portraits={
+			army={
+				large=GFX_portrait_QIN_zhang_haipeng
+			}
+		}
+		corps_commander={
+			traits = {
+				old_guard
+				cavalry_officer
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 1
+			legacy_id=-1
+		}
+	}
+	QIN_zhang_jinghui = {
+		name=QIN_zhang_jinghui
+		portraits={
+			army={
+				large=GFX_portrait_QIN_zhang_jinghui
+			}
+		}
+		corps_commander={
+			traits = {
+				old_guard
+				career_officer
+				politically_connected
+			}
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 4
+			legacy_id=-1
+		}
+	}
+	
+	### 해군 제독 ###
+	QIN_du_xigui = {
+		name=QIN_du_xigui
+		portraits={
+			army={
+				large=GFX_portrait_QIN_du_xigui
+			}
+		}
+		navy_leader={
+			traits = {
+				old_guard_navy
+				navy_career_officer
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+			legacy_id=-1
+		}
+	}
+	QIN_shen_honglie = {
+		name=QIN_shen_honglie
+		portraits={
+			army={
+				large=GFX_portrait_QIN_shen_honglie
+			}
+		}
+		navy_leader={
+			traits = {
+				old_guard_navy
+				navy_career_officer
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			maneuvering_skill = 2
+			coordination_skill = 3
+			legacy_id=-1
+		}
+	}
+	QIN_yin_zuoqian = {
+		name=QIN_yin_zuoqian
+		portraits={
+			army={
+				large=GFX_portrait_QIN_yin_zuoqian
+			}
+		}
+		navy_leader={
+			traits = {
+				cuts_corners
+				spotter
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			maneuvering_skill = 2
+			coordination_skill = 1
+			legacy_id=-1
+		}
+	}
+}

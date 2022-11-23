@@ -10,7 +10,6 @@ state={
 		owner = KOR
 		add_core_of = CHI
 		add_core_of = KOR
-		add_core_of = FNG
 		add_core_of = PRC
 		buildings = {
 			infrastructure = 2

@@ -5,8 +5,7 @@ state={
 
 	local_supplies=0.0 
 	history={
-		owner = SND
-		add_core_of = SND
+		owner = ZLC
 		add_core_of = ZLC
 		add_core_of = CHI
 		add_core_of = PRC

@@ -143,6 +143,10 @@ CAN = {
 	color = rgb { 233  59  59 }
 	color_ui = rgb { 155 62 51 }
 }
+CHI = { #오얏꽃
+	color = rgb { 51 102 153 }
+	color_ui = rgb { 51 102 153 }
+}
 CHL = {
 	color = rgb { 155 101 107 }
 	color_ui = rgb { 202 131 139 }
@@ -247,9 +251,25 @@ VEN = {
 	color = rgb { 171 190 152 }
 	color_ui = rgb { 222 247 198 }
 }
+YUN = { #오얏꽃
+	color = rgb { 143 20 20 }
+	color_ui = rgb { 143 40 40 }
+}
 USA = {
 	color = rgb { 20 133 237 }
 	color_ui = rgb { 87 160 255 }
+}
+MON = {
+	color = hsv { 0.18 0.6 0.9 } #255 244 190
+	color_ui = hsv { 0.18 0.3 0.9 }
+}
+MEN = {	
+	color = rgb { 185  255  152 }	
+	color_ui = rgb { 165  230  132 }	
+}	
+TAN = {	
+	color = rgb { 152 130 191 }	
+	color_ui = rgb { 198 169 248 }	
 }
 PAR = {
 	color = rgb { 57 113 228 }
@@ -292,6 +312,21 @@ CRO = {
 PRC = {
 	color = rgb { 245 12 55 }
 	color_ui = rgb { 178 34 60 }
+}
+
+GXC = { #오얏꽃
+	color = rgb { 227 207 142 }
+	color_ui = rgb { 255 255 155 }
+}
+
+SHX = { #오얏꽃
+	color = rgb { 42 96 59 }
+	color_ui = rgb { 42 96 59 }
+}
+
+XSM = { #오얏꽃
+	color = rgb { 105 69 85 }
+	color_ui = rgb { 115 80 82 }
 }
 
 LBA = {
@@ -428,6 +463,10 @@ WGR = {
 DDR = {
     color = rgb { 245 49 49 }
     color_ui = rgb { 245 49 49 }
+}
+KOR = { #오얏꽃
+	color = rgb { 36  7  126 }
+	color_ui = rgb { 36  7  126 }
 }
 ISR = {
 	color = rgb { 152  130  191 }
@@ -838,164 +877,27 @@ TTS = {
 	color_ui = rgb { 179 179 0 }
 }
 
+#############
+### 추가사항 ###
+#############
 
-PRK = { #북괴
-	color = rgb { 204  51  64 }
-	color_ui = rgb { 204  51  64 }
-}
-KOR = { #한국
-	color = rgb { 36  7  126 }
-	color_ui = rgb { 36  7  126 }
-}
-KKS = { #한국
-	color = rgb { 36  7  126 }
-	color_ui = rgb { 36  7  126 }
-}
-KHK = { #한국
-	color = rgb { 36  7  126 }
-	color_ui = rgb { 36  7  126 }
-}
-KMN = { #
-	color = rgb { 36  7  126 }
-	color_ui = rgb { 36  7  126 }
-}
-YUN = {
-	color = rgb { 143 20 20 }
-	color_ui = rgb { 143 40 40 }
-}
-MON = {
-	color = hsv { 0.18 0.6 0.9 } #255 244 190
-	color_ui = hsv { 0.18 0.3 0.9 }
-}
-MEN = {
-	color = rgb { 38  44  145 }
-	color_ui = rgb { 38  44  145 }
-}
-TAN = {
-	color = rgb { 125 13 24 }
-	color_ui = rgb { 163 17 31 }
-}
-FNG = { #봉천 군벌
-	color = rgb { 189 113 33 }
-	color_ui = rgb { 189 113 33 }
-}
-SND = { #산둥군벌
-	color = rgb { 161 103 33 }
-	color_ui = rgb { 161 103 33 }
-}
-SZC = { #사천 군벌
-	color = rgb { 154 115 56 }
-	color_ui = rgb { 149 123 56 }
-}
-GDC = { #광동군벌
-	color = rgb { 71 113 97 }
-	color_ui = rgb { 71 113 97 }
-}
-ETS = { #동튀르케스탄
-	color = rgb { 71 178 224 }
-	color_ui = rgb { 71 178 224 }
-}
-KMK = { #쿠물 칸국
-	color = rgb { 160 82 45 }
-	color_ui = rgb { 160 82 45 }
-}
-MHB = { #마홍빈
-	color = rgb { 191 110 62 }
-	color_ui = rgb { 191 110 62 }
-}
-MHX = { #마후샨
-	color = rgb { 55 108 158 }
-	color_ui = rgb { 55 108 158 }
-}
-AHC = { #안휘군벌
-	color = rgb { 191 110 62 }
-	color_ui = rgb { 191 110 62 }
-}
-SZY = { #쑹저위안
-	color = rgb { 250 200 153 }
-	color_ui = rgb { 250 200 153 }
-}
-QIN = {
+QIN = { #오얏꽃/청나라
 	color = rgb { 8 99 156 }
 	color_ui = rgb { 8 99 156 }
 }
-
-PRC = {
-	color = rgb { 245 12 55 }
-	color_ui = rgb { 178 34 60 }
+SZC = { #오얏꽃/사천군벌
+	color = rgb { 154 115 56 }
+	color_ui = rgb { 149 123 56 }
 }
-
-GXC = {
-	color = rgb { 227 207 142 }
-	color_ui = rgb { 255 255 155 }
-}
-
-SHX = {
-	color = rgb { 42 96 59 }
-	color_ui = rgb { 42 96 59 }
-}
-
-XSM = {
-	color = rgb { 105 69 85 }
-	color_ui = rgb { 115 80 82 }
-}
-KPL = {
-	color = rgb { 204 204 204 }
-	color_ui = rgb { 204 204 204 }
-}
-KYH = {
-	color = rgb { 36  7  126 }
-	color_ui = rgb { 36  7  126 }
-}
-TWC = {
-    color = rgb { 18  7  116 }
-    color_ui = rgb { 18  7  116 }
-}
-RYU = {
-    color = rgb { 51  0  124 }
-    color_ui = rgb { 51  0  124 }
-}
-ZLC = { #직예
+ZLC = { #오얏꽃/북양정부
 	color = rgb { 161 103 33 }
 	color_ui = rgb { 161 103 33 }
 }
-WZC = { #오성연군
+WZC = { #오얏꽃/오성연군
 	color = rgb { 248 198 0 }
 	color_ui = rgb { 255 198 0 }
 }
-HNC = { #호남
+HNC = { #오얏꽃/호남군벌
 	color = rgb { 161 103 33 }
 	color_ui = rgb { 161 103 33 }
-}
-EJP = { #호남
-	color = rgb { 230 230 230 }
-	color_ui = rgb { 230 230 230 }
-}
-FJP = { #호남
-	color = rgb { 230 230 230 }
-	color_ui = rgb { 230 230 230 }
-}
-DKG = { #호남
-	color = rgb { 230 230 230 }
-	color_ui = rgb { 230 230 230 }
-}
-NBJ = { #호남
-	color = rgb { 230 230 230 }
-	color_ui = rgb { 230 230 230 }
-}
-SDJ = { #호남
-	color = rgb { 230 230 230 }
-	color_ui = rgb { 230 230 230 }
-}
-KGJ = { #호남
-	color = rgb { 230 230 230 }
-	color_ui = rgb { 230 230 230 }
-}
-GJJ = { #호남
-	color = rgb { 230 230 230 }
-	color_ui = rgb { 230 230 230 }
-}
-TBJ = { #호남
-	color = rgb { 230 230 230 }
-	color_ui = rgb { 230 230 230 }
 }

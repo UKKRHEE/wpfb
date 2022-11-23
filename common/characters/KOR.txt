@@ -1,5 +1,4 @@
-characters={
-	characters={
+characters = {
 	### 지도자 ###
 	KOR_yi_dong_hwi={
 		name=KOR_yi_dong_hwi
@@ -120,7 +119,7 @@ characters={
 		}
 		country_leader={
 			expire = "1965.1.1"
-			ideology = fascism_ideology
+			ideology = oligarchism
 			traits = {
 				emperor_geonheung
 			}
@@ -527,7 +526,7 @@ characters={
 		corps_commander={
 			traits = {
 				brilliant_strategist
-				organizer
+				trickster
 			}
 			skill = 3
 			attack_skill = 3
@@ -794,6 +793,7 @@ characters={
 			legacy_id=-1
 		}
 	}
+	
 	### 공군참모총장 ###
 	KOR_no_baek_rin = {
 		name=KOR_no_baek_rin
@@ -907,6 +907,7 @@ characters={
 				trait_reckless
 				infantry_officer
 				career_officer
+				infantry_leader
 			}
 			skill = 3
 			attack_skill = 4
@@ -1127,7 +1128,7 @@ characters={
 		corps_commander={
 			traits = {
 				trait_reckless
-				commando
+				guerilla_fighter
 			}
 			skill = 3
 			attack_skill = 4
@@ -1147,7 +1148,7 @@ characters={
 		corps_commander={
 			traits = {
 				trait_reckless
-				commando
+				organizer
 			}
 			skill = 3
 			attack_skill = 2
@@ -1167,7 +1168,7 @@ characters={
 		corps_commander={
 			traits = {
 				trait_reckless
-				commando
+				trait_mountaineer
 			}
 			skill = 3
 			attack_skill = 3
