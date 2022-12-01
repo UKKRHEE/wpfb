@@ -106,11 +106,11 @@
  QIN_zhang_zuolin:0 "장쭤린"
  
  ### 청국 해군참모총장 ###
- QIN_sa_zhenbing:0 "싸전빙"
- QIN_wu_renli:0 "우런리"
+ QIN_shen_honglie:0 "선훙례"
+ QIN_yin_zuoqian:0 "인쭤첸"
  
  ### 청국 공군참모총장 ###
- QIN_gao_zhihang:0 "가오즈항"
+ QIN_tong_yanbo:0 "퉁옌보"
  
  ### 청국 최고사령부 ###
  QIN_aisin_gioro_zaitao:0 "아이신기오로 짜이타오"
@@ -125,11 +125,6 @@
  QIN_zhang_zuoxiang:0 "장쭤샹"
  QIN_zhang_jinghui:0 "장징후이" 
  QIN_zhang_haipeng:0 "장하이펑"
- 
- ### 청국 해군 제독 ###
- QIN_du_xigui:0 "두시구이"
- QIN_shen_honglie:0 "선훙례"
- QIN_yin_zuoqian:0 "인쭤첸"
  
  #############
  ### 대몽골국 ###
@@ -211,3 +206,205 @@
  
  ### 신강 육군 장성 ###
  SIK_ma_shaowu:0 "마사오우"
+ 
+ #############
+ ### 티베트 ###
+ #############
+ 
+ ### 티베트 지도자 ###
+ TIB_ccp:0 "티베트 자치인민위원회"
+ TIB_tsipon_lungshar:0 "Tsipon Lungshar"
+ TIB_5th_reting_rinpoche:0 "제5대 레팅 린포체"
+ 
+ ### 티베트 정치고문 ###
+ TIB_lhalu_tsewang_dorje:0 "Lhalu Tsewang Dorji"
+ TIB_lonchen_yapshi_langdun_kung:0 "Lonchen Yapshi Langdun Kung"
+ TIB_rigzin_dorje_ringang:0 "Rigzin Dorji Ringang"
+ TIB_norbhu_dhondhup:0 "Norbhu Dhondhup"
+ TIB_tsepon_wangchuk_shakabpa:0 "체폰 왕축 샤캅파"
+ TIB_lukhangpa:0 "Lukhangpa"
+ 
+ ### 티베트 이론가 ###
+ TIB_tibet_army_research:0 "육군이론연구소"
+ TIB_tibet_navy_research:0 "해군이론연구소"
+ TIB_tibet_air_research:0 "공군이론연구소"
+ 
+ ### 티베트 육군참모총장 ###
+ TIB_tsarong_dzasa:0 "Tsarong Dzasa"
+ TIB_changra:0 "찬그라"
+ 
+ ### 티베트 해군참모총장 ###
+ TIB_tibet_navy_department:0 "해군부"
+ 
+ ### 티베트 공군참모총장 ###
+ TIB_tibet_air_department:0 "공군부"
+ 
+ ### 티베트 최고사령부 ###
+ TIB_trimon:0 "트리묀"
+ TIB_ngapoi_ngawang_jigme:0 "응아푀 응아왕 지그메"
+ TIB_dingja:0 "동자"
+ TIB_mondro:0 "묀드로"
+ 
+ ### 티베트 장성 ###
+ TIB_bondong:0 "뵌동"
+ 
+ #############
+ ### 북양정부 ###
+ #############
+ 
+ ### 북양정부 지도자 ###
+ ZLC_ccp:0 "인민위원회"
+ ZLC_hu_shih:0 "후스"
+ ZLC_wu_peifu:0 "우페이푸"
+ ZLC_cao_kun:0 "차오쿤"
+ 
+ ### 북양정부 정치고문 ###
+ ZLC_li_linsi:0 "리린쓰"
+ ZLC_wellington_koo:0 "구웨이쥔"
+ ZLC_diao_zuoqian:0 "댜오쭤첸"
+ ZLC_yu_xuezhong:0 "위쉐쭝"
+ 
+ ### 북양정부 이론가 ###
+ ZLC_zhili_army_research:0 "육군이론연구소"
+ ZLC_zhili_navy_research:0 "해군이론연구소"
+ ZLC_zhili_air_research:0 "공군이론연구소"
+ 
+ ### 북양정부 육군참모총장 ###
+ ZLC_jiang_baili:0 "장바이리"
+ ZLC_liu_menggeng:0 "류멍겅"
+ 
+ ### 북양정부 해군참모총장 ###
+ ZLC_sa_zhenbing:0 "싸전빙"
+ ZLC_wu_renli:0 "우런리"
+ 
+ ### 북양정부 공군참모총장 ###
+ ZLC_gao_zhihang:0 "가오즈항"
+ 
+ ### 북양정부 최고사령부 ###
+ ZLC_cai_chengxun:0 "차이청쉰"
+ ZLC_zhang_qihuang:0 "장치황"
+ ZLC_zhang_shaozeng:0 "장사오쩡"
+ ZLC_wang_lingyun:0 "왕링원"
+ ZLC_du_xigui:0 "두시구이"
+ 
+ ### 북양정부 육군 장성 ###
+ ZLC_guo_jijiao:0 "궈지자오"
+ ZLC_xiao_yaonan:0 "샤오야오난"
+ ZLC_du_xijun:0 "두시쥔" 
+ ZLC_cao_shijie:0 "차오스제"
+ 
+ #############
+ ### 오성연군 ###
+ #############
+ 
+ ### 오성연군 지도자 ###
+ NJC_ccp:0 "인민위원회"
+ NJC_wang_kemin:0 "왕커민"
+ NJC_sun_chuanfang:0 "쑨촨팡"
+ 
+ ### 오성연군 정치고문 ###
+ NJC_yin_jukeng:0 "인루겅"
+ NJC_tang_erhe:0 "탕얼허"
+ NJC_liang_hongzhi:0 "량훙즈"
+ NJC_wen_tsungyao:0 "원쭝야오"
+ NJC_ding_mocun:0 "딩모춘"
+ 
+ ### 오성연군 이론가 ###
+ NJC_nanjing_army_research:0 "육군이론연구소"
+ NJC_nanjing_navy_research:0 "해군이론연구소"
+ NJC_nanjing_air_research:0 "공군이론연구소"
+ 
+ ### 오성연군 육군참모총장 ###
+ NJC_qi_xieyuan:0 "치셰위안"
+ 
+ ### 오성연군 해군참모총장 ###
+ NJC_ren_yuandao:0 "런위안다오"
+ 
+ ### 오성연군 공군참모총장 ###
+ NJC_chen_zuchang:0 "천주창"
+ 
+ ### 오성연군 최고사령부 ###
+ NJC_deng_ruzuo:0 "덩루쭤"
+ NJC_xuai_shuxuan:0 "샤오슈쉬안"
+ NJC_zhou_yinren:0 "저우인런"
+ 
+ ### 오성연군 육군 장성 ###
+ NJC_zhou_fengqi:0 "저우펑치"
+ NJC_shi_yousan:0 "스여우싼"
+ 
+ #############
+ ### 호남군벌 ###
+ #############
+ 
+ ### 호남군벌 지도자 ###
+ HNC_ccp:0 "인민위원회"
+ HNC_chen_jiongming:0 "천중밍"
+ HNC_zhao_hengti:0 "자오헝티"
+ 
+ ### 호남군벌 정치고문 ###
+ HNC_chen_yansheng:0 "천옌성"
+ HNC_hu_shuhua:0 "후수화"
+ HNC_cao_bowen:0 "차오보원"
+ HNC_yi_peiji:0 "이페이지"
+ HNC_wang_zhi:0 "왕즈"
+ 
+ ### 호남군벌 이론가 ###
+ HNC_hunan_army_research:0 "육군이론연구소"
+ HNC_hunan_navy_research:0 "해군이론연구소"
+ HNC_hunan_air_research:0 "공군이론연구소"
+ 
+ ### 호남군벌 육군참모총장 ###
+ HNC_tang_shengzhi:0 "탕성즈"
+ 
+ ### 호남군벌 해군참모총장 ###
+ HNC_hunan_navy_department:0 "해군부"
+ 
+ ### 호남군벌 공군참모총장 ###
+ HNC_liu_zhesheng:0 "류저성"
+ 
+ ### 호남군벌 최고사령부 ###
+ HNC_he_yaozu:0 "허야오쭈"
+ HNC_he_jian:0 "허젠"
+ HNC_chen_mingren:0 "천밍런"
+ 
+ ### 호남군벌 육군 장성 ###
+ HNC_tang_shengming:0 "탕성밍"
+ 
+ #############
+ ### 사천군벌 ###
+ #############
+ 
+ ### 사천군벌 지도자 ###
+ SCC_ccp:0 "인민위원회"
+ SCC_zhang_lan:0 "장란"
+ SCC_yang_sen:0 "양썬"
+ 
+ ### 사천군벌 정치고문 ###
+ SCC_shen_junru:0 "선쥔루"
+ SCC_ba_jin:0 "바진"
+ SCC_lu_zuofu:0 "Lu Zuofu"
+ SCC_sichuan_finance:0 "재무부"
+ SCC_sichuan_education:0 "학무부"
+ SCC_sichuan_security:0 "정보부"
+ 
+ ### 사천군벌 이론가 ###
+ SCC_sichuan_army_research:0 "육군이론연구소"
+ SCC_sichuan_navy_research:0 "해군이론연구소"
+ SCC_sichuan_air_research:0 "공군이론연구소"
+ 
+ ### 사천군벌 육군참모총장 ###
+ SCC_wang_zuanxu:0 "왕쫜쉬"
+ 
+ ### 사천군벌 해군참모총장 ###
+ SCC_sichuan_navy_department:0 "해군부"
+ 
+ ### 사천군벌 공군참모총장 ###
+ SCC_zheng_shaoyu:0 "Zhean Shaoyu"
+ 
+ ### 사천군벌 최고사령부 ###
+ SCC_wang_lingji:0 "왕링지"
+ SCC_zhou_daogang:0 "저우다오강"
+ SCC_he_guoguang:0 "허궈광"
+ 
+ ### 사천군벌 육군 장성 ###
+ SCC_fan_shaozeng:0 "판사오쩡"

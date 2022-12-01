@@ -122,11 +122,11 @@ recruit_character = QIN_aisin_gioro_xiqia
 recruit_character = QIN_zhang_zuolin
 
 ### 해군참모총장 ###
-recruit_character = QIN_sa_zhenbing
-recruit_character = QIN_wu_renli
+recruit_character = QIN_shen_honglie
+recruit_character = QIN_yin_zuoqian
 
 ### 공군참모총장 ###
-recruit_character = QIN_gao_zhihang
+recruit_character = QIN_tong_yanbo
 
 ### 최고사령부 ###
 recruit_character = QIN_aisin_gioro_zaitao
@@ -141,11 +141,6 @@ recruit_character = QIN_aisin_gioro_xianyu
 recruit_character = QIN_zhang_zuoxiang
 recruit_character = QIN_zhang_jinghui
 recruit_character = QIN_zhang_haipeng
-
-### 해군 제독 ###
-recruit_character = QIN_du_xigui
-recruit_character = QIN_shen_honglie
-recruit_character = QIN_yin_zuoqian
 
 if = {
 	limit = {

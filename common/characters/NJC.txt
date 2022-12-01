@@ -1,0 +1,493 @@
+characters={
+	### 지도자 ###
+	NJC_ccp={
+		name=NJC_ccp
+		portraits={
+			civilian={
+				large=GFX_portrait_China_ccp
+			}
+		}
+		country_leader={
+			ideology=marxism
+			traits={ }
+			expire="1960.1.1.1"
+			id=-1
+		}
+	}
+	NJC_wang_kemin={
+		name=NJC_wang_kemin
+		portraits={
+			civilian={
+				large=GFX_portrait_NJC_wang_kemin
+				small=GFX_idea_NJC_wang_kemin
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			traits={ }
+			expire="1960.1.1.1"
+			id=-1
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = wang_kemin
+			available = {
+				NOT = {
+					has_country_leader = {
+						ruling_only = yes 
+						character = NJC_wang_kemin
+					}
+				}
+			}
+			allowed = {
+				original_tag = NJC
+			}
+			traits = {
+				backroom_backstabber
+			}
+		}
+	}
+	NJC_sun_chuanfang={
+		name=NJC_sun_chuanfang
+		portraits={
+			army={
+				large=GFX_portrait_NJC_sun_chuanfang
+				small=GFX_idea_NJC_sun_chuanfang
+			}
+		}
+		country_leader={
+			ideology=fascism_ideology
+			traits={ }
+			expire="1960.1.1.1"
+			id=-1
+		}
+		country_leader={
+			ideology=despotism
+			traits={ }
+			expire="1960.1.1.1"
+			id=-1
+		}
+		advisor={
+			cost = 100
+			slot = army_chief
+			idea_token = sun_chuanfang
+	    	available = {
+				has_country_leader = {
+					ruling_only = yes 
+					character = NJC_sun_chuanfang
+				}
+			}
+			allowed = {
+	    		original_tag = NJC
+	    	}
+	    	traits = {
+				army_chief_planning_2
+			}
+	    	ai_will_do = {
+	    		factor = 1
+	    	}
+		}
+		field_marshal={
+			traits = {
+				old_guard
+				trait_cautious
+				politically_connected
+				substance_abuser
+				organizer
+				fast_planner
+			}
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+	
+	### 정치고문 ###
+	NJC_yin_jukeng={
+		name=NJC_yin_jukeng
+		portraits={
+			civilian={
+				small=GFX_idea_NJC_yin_jukeng
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = yin_jukeng
+			allowed = {
+				original_tag = NJC
+			}
+			traits = {
+				eager_collaborator
+			}
+		}
+	}
+	NJC_tang_erhe={
+		name=NJC_tang_erhe
+		portraits={
+			civilian={
+				small=GFX_idea_NJC_tang_erhe
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = tang_erhe
+			allowed = {
+				original_tag = NJC
+			}
+			traits = {
+				gallant_doctor
+			}
+		}
+	}
+	NJC_liang_hongzhi={
+		name=NJC_liang_hongzhi
+		portraits={
+			civilian={
+				small=GFX_idea_NJC_liang_hongzhi
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = liang_hongzhi
+			allowed = {
+				original_tag = NJC
+			}
+			traits = {
+				ideological_crusader
+			}
+		}
+	}
+	NJC_wen_tsungyao={
+		name=NJC_wen_tsungyao
+		portraits={
+			civilian={
+				small=GFX_idea_NJC_wen_tsungyao
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = wen_tsungyao
+			allowed = {
+				original_tag = NJC
+			}
+			traits = {
+				silent_workhorse
+			}
+		}
+	}
+	NJC_ding_mocun={
+		name=NJC_ding_mocun
+		portraits={
+			civilian={
+				small=GFX_idea_NJC_ding_mocun
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = ding_mocun
+			available = {
+				has_intelligence_agency = yes
+			}
+			allowed = {
+				original_tag = NJC
+				has_dlc = "La Resistance" 
+			}
+			traits = {
+				head_of_intelligence
+			}
+		}
+	}
+	
+	### 이론가 ###
+	NJC_nanjing_army_research = {
+		name=NJC_nanjing_army_research
+		portraits={
+			army={
+				small=GFX_idea_Joint_army_research
+			}
+		}
+		advisor={
+			cost = 100
+			slot = theorist
+			idea_token = nanjing_army_research
+			ledger = army
+		    allowed = {
+		    	original_tag = NJC
+		    }
+		    traits = {
+				military_theorist
+			}
+		}
+	}
+	NJC_nanjing_navy_research={
+		name=NJC_nanjing_navy_research
+		portraits={
+			army={
+				small=GFX_idea_Joint_navy_research
+			}
+		}
+		advisor={
+			cost = 100
+			slot = theorist
+			idea_token = nanjing_navy_research
+			ledger = navy
+			allowed = {
+				original_tag = NJC
+			}
+			traits = {
+				naval_theorist
+			}
+		}
+	}
+	NJC_nanjing_air_research={
+		name=NJC_nanjing_air_research
+		portraits={
+			army={
+				small=GFX_idea_Joint_air_research
+			}
+		}
+		advisor={
+			cost = 100
+			slot = theorist
+			idea_token = nanjing_air_research
+			ledger = air
+			allowed = {
+				original_tag = NJC
+			}
+			traits = {
+				air_warfare_theorist
+			}
+		}
+	}
+	
+	### 육군참모총장 ###
+	NJC_qi_xieyuan={
+		name=NJC_qi_xieyuan
+		portraits={
+			army={
+				large=GFX_portrait_NJC_qi_xieyuan
+				small=GFX_idea_NJC_qi_xieyuan
+			}
+		}
+		advisor={
+			cost = 100
+			slot = army_chief
+			idea_token = qi_xieyuan
+	    	allowed = {
+	    		original_tag = NJC
+	    	}
+	    	traits = {
+				army_chief_offensive_2
+			}
+	    	ai_will_do = {
+	    		factor = 1
+	    	}
+		}
+		corps_commander={
+			traits = {
+				old_guard
+				trait_cautious
+				politically_connected
+				substance_abuser
+				organizer
+			}
+			skill = 3
+			attack_skill = 4
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 3
+			legacy_id=-1
+		}
+	}
+	
+	### 해군참모총장 ###
+	NJC_ren_yuandao = {
+		name=NJC_ren_yuandao
+		portraits={
+			army={
+				large=GFX_portrait_NJC_ren_yuandao
+				small=GFX_idea_NJC_ren_yuandao
+			}
+		}
+		advisor={
+			slot = navy_chief
+			idea_token = ren_yuandao
+		    allowed = {
+		    	original_tag = NJC
+	    	}
+		    traits = {
+				navy_chief_reform_1
+			}
+		    ai_will_do = {
+		    	factor = 1
+		    }
+		}
+		navy_leader={
+			traits = {
+				#
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 2
+			legacy_id=-1
+		}
+	}
+	
+	### 공군참모총장 ###
+	NJC_chen_zuchang = {
+		name=NJC_chen_zuchang
+		portraits={
+			army={
+				small=GFX_idea_generic_air_asia_2
+			}
+		}
+		advisor={
+			slot = air_chief
+			idea_token = chen_zuchang
+			
+	    	allowed = {
+		    	original_tag = NJC
+		    }
+		    traits = {
+				air_chief_reform_1
+			}
+		    ai_will_do = {
+		    	factor = 1
+		    }
+		}
+	}
+	
+	### 최고사령부 ###
+	NJC_deng_ruzuo = {
+		name=NJC_deng_ruzuo
+		portraits={
+			army={
+				large=GFX_portrait_NJC_deng_ruzuo
+				small=GFX_idea_NJC_deng_ruzuo
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = deng_ruzuo
+			ledger = army
+		    allowed = {
+		    	original_tag = NJC
+		    }
+		    traits = {
+				army_infantry_1
+			}
+		}
+		corps_commander={
+			traits = {
+				infantry_officer
+				politically_connected
+				trait_engineer
+				fortress_buster
+			}
+			skill = 2
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+	NJC_xuai_shuxuan = {
+		name=NJC_xuai_shuxuan
+		portraits={
+			army={
+				small=GFX_idea_NJC_xuai_shuxuan
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = xuai_shuxuan
+			ledger = army
+		    allowed = {
+		    	original_tag = NJC
+		    }
+		    traits = {
+				army_chief_drill_1
+			}
+		}
+	}
+	NJC_zhou_yinren = {
+		name=NJC_zhou_yinren
+		portraits={
+			army={
+				large=GFX_portrait_NJC_zhou_yinren
+				small=GFX_idea_NJC_zhou_yinren
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = zhou_yinren
+			ledger = army
+		    allowed = {
+		    	original_tag = NJC
+		    }
+		    traits = {
+				army_artillery_1
+			}
+		}
+		corps_commander={
+			traits = {
+				old_guard
+				career_officer
+				substance_abuser
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+	
+	### 육군 장성 ###
+	NJC_zhou_fengqi={
+		name=NJC_zhou_fengqi
+		portraits={
+			army={
+				large=GFX_portrait_NJC_zhou_fengqi
+			}
+		}
+		corps_commander={
+			traits = { 
+				politically_connected
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+	NJC_shi_yousan = {
+		name=NJC_shi_yousan
+		portraits={
+			army={
+				large=GFX_portrait_NJC_shi_yousan
+			}
+		}
+		corps_commander={
+			traits = {
+				politically_connected
+				substance_abuser
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+}

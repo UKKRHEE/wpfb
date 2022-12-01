@@ -1,0 +1,465 @@
+characters={
+	### 지도자 ###
+	SCC_ccp={
+		name=SCC_ccp
+		portraits={
+			civilian={
+				large=GFX_portrait_China_ccp
+			}
+		}
+		country_leader={
+			ideology=marxism
+			traits={ }
+			expire="1960.1.1.1"
+			id=-1
+		}
+	}
+	SCC_zhang_lan={
+		name=SCC_zhang_lan
+		portraits={
+			civilian={
+				large=GFX_portrait_SCC_zhang_lan
+			}
+		}
+		country_leader={
+			ideology=socialism
+			traits={ }
+			expire="1960.1.1.1"
+			id=-1
+		}
+	}
+	SCC_yang_sen={
+		name=SCC_yang_sen
+		portraits={
+			army={
+				large=GFX_portrait_SCC_yang_sen
+				small=GFX_idea_SCC_yang_sen
+			}
+		}
+		country_leader={
+			ideology=fascism_ideology
+			traits={ }
+			expire="1960.1.1.1"
+			id=-1
+		}
+		country_leader={
+			ideology=despotism
+			traits={ }
+			expire="1960.1.1.1"
+			id=-1
+		}
+		advisor={
+			cost = 100
+			slot = army_chief
+			idea_token = yang_sen
+			allowed = {
+	    		original_tag = SCC
+	    	}
+	    	traits = {
+				army_chief_defensive_2
+			}
+	    	ai_will_do = {
+	    		factor = 1
+	    	}
+		}
+		field_marshal={
+			traits = {
+				inflexible_strategist
+				politically_connected
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+	
+	### 정치고문 ###
+	SCC_shen_junru={
+		name=SCC_shen_junru
+		portraits={
+			civilian={
+				small=GFX_idea_SCC_shen_junru
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = shen_junru
+			available = {
+				has_government = democratic
+			}
+			allowed = {
+				original_tag = SCC
+			}
+			traits = {
+				social_reformer
+			}
+		}
+	}
+	SCC_ba_jin={
+		name=SCC_ba_jin
+		portraits={
+			civilian={
+				small=GFX_idea_SCC_ba_jin
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = ba_jin
+			available = {
+				has_government = communism
+			}
+			allowed = {
+				original_tag = SCC
+			}
+			traits = {
+				socialist_novelist
+			}
+		}
+	}
+	SCC_lu_zuofu={
+		name=SCC_lu_zuofu
+		portraits={
+			civilian={
+				small=GFX_idea_SCC_lu_zuofu
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = lu_zuofu
+			allowed = {
+				original_tag = SCC
+			}
+			traits = {
+				industry_reformer
+			}
+		}
+	}
+	SCC_sichuan_finance={
+		name=SCC_sichuan_finance
+		portraits={
+			civilian={
+				small=GFX_idea_Joint_finance
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = sichuan_finance
+			allowed = {
+				original_tag = SCC
+			}
+			traits = {
+				economic_reformer
+			}
+		}
+	}
+	SCC_sichuan_education={
+		name=SCC_sichuan_education
+		portraits={
+			civilian={
+				small=GFX_idea_Joint_education
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = sichuan_education
+			allowed = {
+				original_tag = SCC
+			}
+			traits = {
+				education_reformer
+			}
+		}
+	}
+	SCC_sichuan_security={
+		name=SCC_sichuan_security
+		portraits={
+			civilian={
+				small=GFX_idea_Joint_security
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = sichuan_security
+			available = {
+				has_intelligence_agency = yes
+			}
+			allowed = {
+				original_tag = SCC
+				has_dlc = "La Resistance" 
+			}
+			traits = {
+				head_of_intelligence
+			}
+		}
+	}
+	
+	### 이론가 ###
+	SCC_sichuan_army_research = {
+		name=SCC_sichuan_army_research
+		portraits={
+			army={
+				small=GFX_idea_Joint_army_research
+			}
+		}
+		advisor={
+			cost = 100
+			slot = theorist
+			idea_token = sichuan_army_research
+			ledger = army
+		    allowed = {
+		    	original_tag = SCC
+		    }
+		    traits = {
+				military_theorist
+			}
+		}
+	}
+	SCC_sichuan_navy_research={
+		name=SCC_sichuan_navy_research
+		portraits={
+			army={
+				small=GFX_idea_Joint_navy_research
+			}
+		}
+		advisor={
+			cost = 100
+			slot = theorist
+			idea_token = sichuan_navy_research
+			ledger = navy
+			allowed = {
+				original_tag = SCC
+			}
+			traits = {
+				naval_theorist
+			}
+		}
+	}
+	SCC_sichuan_air_research={
+		name=SCC_sichuan_air_research
+		portraits={
+			army={
+				small=GFX_idea_Joint_air_research
+			}
+		}
+		advisor={
+			cost = 100
+			slot = theorist
+			idea_token = sichuan_air_research
+			ledger = air
+			allowed = {
+				original_tag = SCC
+			}
+			traits = {
+				air_warfare_theorist
+			}
+		}
+	}
+	
+	### 육군참모총장 ###
+	SCC_wang_zuanxu={
+		name=SCC_wang_zuanxu
+		portraits={
+			army={
+				large=GFX_portrait_SCC_wang_zuanxu
+				small=GFX_idea_SCC_wang_zuanxu
+			}
+		}
+		advisor={
+			slot = army_chief
+			idea_token = wang_zuanxu
+	    	allowed = {
+	    		original_tag = SCC
+	    	}
+	    	traits = {
+				army_chief_organizational_1
+			}
+	    	ai_will_do = {
+	    		factor = 1
+	    	}
+		}
+		corps_commander={
+			traits = {
+				trait_reckless
+				harsh_leader
+				politically_connected
+			}
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 3
+			legacy_id=-1
+		}
+	}
+	
+	### 해군참모총장 ###
+	SCC_sichuan_navy_department = {
+		name=SCC_sichuan_navy_department
+		portraits={
+			army={
+				small=GFX_idea_Joint_navy_department
+			}
+		}
+		advisor={
+			slot = navy_chief
+			idea_token = sichuan_navy_department
+		    allowed = {
+		    	original_tag = SCC
+	    	}
+		    traits = {
+				navy_chief_reform_1
+			}
+		    ai_will_do = {
+		    	factor = 1
+		    }
+		}
+	}
+	
+	### 공군참모총장 ###
+	SCC_zheng_shaoyu = {
+		name=SCC_zheng_shaoyu
+		portraits={
+			army={
+				small=GFX_idea_SCC_zheng_shaoyu
+			}
+		}
+		advisor={
+			cost = 100
+			slot = air_chief
+			idea_token = zheng_shaoyu
+			
+	    	allowed = {
+		    	original_tag = SCC
+		    }
+		    traits = {
+				air_chief_reform_2
+			}
+		    ai_will_do = {
+		    	factor = 1
+		    }
+		}
+	}
+	
+	### 최고사령부 ###
+	SCC_wang_lingji = {
+		name=SCC_wang_lingji
+		portraits={
+			army={
+				large=GFX_portrait_SCC_wang_lingji
+				small=GFX_idea_SCC_wang_lingji
+			}
+		}
+		advisor={
+			cost = 100
+			slot = high_command
+			idea_token = wang_lingji
+			ledger = army
+		    allowed = {
+		    	original_tag = SCC
+		    }
+		    traits = {
+				army_infantry_2
+			}
+		}
+		corps_commander={
+			traits = {
+				brilliant_strategist
+				infantry_officer
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 1
+			legacy_id=-1
+		}
+	}
+	SCC_zhou_daogang = {
+		name=SCC_zhou_daogang
+		portraits={
+			army={
+				large=GFX_portrait_SCC_zhou_daogang
+				small=GFX_idea_SCC_zhou_daogang
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = zhou_daogang
+			ledger = army
+		    allowed = {
+		    	original_tag = SCC
+		    }
+		    traits = {
+				army_chief_drill_1
+			}
+		}
+		corps_commander={
+			traits = {
+				old_guard
+				politically_connected
+			}
+			skill = 2
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 1
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+	SCC_he_guoguang = {
+		name=SCC_he_guoguang
+		portraits={
+			army={
+				large=GFX_portrait_SCC_he_guoguang
+				small=GFX_idea_SCC_he_guoguang
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = he_guoguang
+			ledger = army
+		    allowed = {
+		    	original_tag = SCC
+		    }
+		    traits = {
+				army_cavalry_1
+			}
+		}
+		corps_commander={
+			traits = {
+				old_guard
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id=-1
+		}
+	}
+	
+	### 육군 장성 ###
+	SCC_fan_shaozeng={
+		name=SCC_fan_shaozeng
+		portraits={
+			army={
+				large=GFX_portrait_SCC_fan_shaozeng
+			}
+		}
+		corps_commander={
+			traits = {
+				old_guard
+				substance_abuser
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id=-1
+		}
+	}
+}

@@ -1,0 +1,490 @@
+characters={
+	### 지도자 ###
+	TIB_ccp={
+		name=TIB_ccp
+		portraits={
+			civilian={
+				large=GFX_portrait_China_ccp
+			}
+		}
+		country_leader={
+			ideology=marxism
+			traits={ }
+			expire="1960.1.1.1"
+			id=-1
+		}
+	}
+	TIB_tsipon_lungshar={
+		name=TIB_tsipon_lungshar
+		portraits={
+			civilian={
+				large=GFX_portrait_TIB_tsipon_lungshar
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			traits={ }
+			expire="1960.1.1.1"
+			id=-1
+		}
+	}
+	TIB_5th_reting_rinpoche={
+		name=TIB_5th_reting_rinpoche
+		portraits={
+			civilian={
+				large=GFX_portrait_Jamphel_Yeshe_Gyaltsen
+			}
+		}
+		country_leader={
+			ideology=fascism_ideology
+			traits={ }
+			expire="1965.1.1.1"
+			id=-1
+		}
+		country_leader={
+			ideology=despotism
+			traits={ }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	
+	### 정치고문 ###
+	TIB_lhalu_tsewang_dorje={
+		name=TIB_lhalu_tsewang_dorje
+		portraits={
+			civilian={
+				small=GFX_idea_TIB_lhalu_tsewang_dorje
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = lhalu_tsewang_dorje
+			allowed = {
+				original_tag = TIB
+			}
+			traits = {
+				ideological_crusader
+			}
+		}
+	}
+	TIB_lonchen_yapshi_langdun_kung={
+		name=TIB_lonchen_yapshi_langdun_kung
+		portraits={
+			civilian={
+				small=GFX_idea_TIB_lonchen_yapshi_langdun_kung
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = lonchen_yapshi_langdun_kung
+			allowed = {
+				original_tag = TIB
+			}
+			traits = {
+				silent_workhorse
+			}
+		}
+	}
+	TIB_rigzin_dorje_ringang={
+		name=TIB_rigzin_dorje_ringang
+		portraits={
+			civilian={
+				small=GFX_idea_TIB_rigzin_dorje_ringang
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = rigzin_dorje_ringang
+			allowed = {
+				original_tag = TIB
+			}
+			traits = {
+				technocrat
+			}
+		}
+	}
+	TIB_norbhu_dhondhup={
+		name=TIB_norbhu_dhondhup
+		portraits={
+			civilian={
+				small=GFX_idea_TIB_norbhu_dhondhup
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = norbhu_dhondhup
+			allowed = {
+				original_tag = TIB
+			}
+			traits = {
+				smooth_talking_charmer
+			}
+		}
+	}
+	TIB_tsepon_wangchuk_shakabpa={
+		name=TIB_tsepon_wangchuk_shakabpa
+		portraits={
+			civilian={
+				small=GFX_idea_TIB_tsepon_wangchuk_shakabpa
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = tsepon_wangchuk_shakabpa
+			allowed = {
+				original_tag = TIB
+			}
+			traits = {
+				economist
+			}
+		}
+	}
+	TIB_lukhangpa={
+		name=TIB_lukhangpa
+		portraits={
+			civilian={
+				small=GFX_idea_TIB_lukhangpa
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = lukhangpa
+			allowed = {
+				original_tag = TIB
+			}
+			traits = {
+				minister_of_finance_deressa
+			}
+		}
+	}
+	
+	### 이론가 ###
+	TIB_tibet_army_research = {
+		name=TIB_tibet_army_research
+		portraits={
+			army={
+				small=GFX_idea_Joint_army_research
+			}
+		}
+		advisor={
+			cost = 100
+			slot = theorist
+			idea_token = tibet_army_research
+			ledger = army
+		    allowed = {
+		    	original_tag = TIB
+		    }
+		    traits = {
+				military_theorist
+			}
+		}
+	}
+	TIB_tibet_navy_research={
+		name=TIB_tibet_navy_research
+		portraits={
+			army={
+				small=GFX_idea_Joint_navy_research
+			}
+		}
+		advisor={
+			cost = 100
+			slot = theorist
+			idea_token = tibet_navy_research
+			ledger = navy
+			allowed = {
+				original_tag = TIB
+			}
+			traits = {
+				naval_theorist
+			}
+		}
+	}
+	TIB_tibet_air_research={
+		name=TIB_tibet_air_research
+		portraits={
+			army={
+				small=GFX_idea_Joint_air_research
+			}
+		}
+		advisor={
+			cost = 100
+			slot = theorist
+			idea_token = tibet_air_research
+			ledger = air
+			allowed = {
+				original_tag = TIB
+			}
+			traits = {
+				air_warfare_theorist
+			}
+		}
+	}
+	
+	### 육군참모총장 ###
+	TIB_tsarong_dzasa={
+		name=TIB_tsarong_dzasa
+		portraits={
+			army={
+				large=GFX_portrait_TIB_tsarong_dsaza
+				small=GFX_idea_TIB_tsarong_dzasa
+			}
+		}
+		advisor={
+			slot = army_chief
+			idea_token = tsarong_dzasa
+	    	allowed = {
+	    		original_tag = TIB
+	    	}
+	    	traits = {
+				army_chief_organizational_1
+			}
+	    	ai_will_do = {
+	    		factor = 1
+	    	}
+		}
+		field_marshal={
+			traits = {
+				war_hero
+				politically_connected
+			}
+			skill = 2
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+	TIB_changra={
+		name=TIB_changra
+		portraits={
+			army={
+				large=GFX_portrait_TIB_changra
+				small=GFX_idea_TIB_changra
+			}
+		}
+		advisor={
+			slot = army_chief
+			idea_token = changra
+	    	allowed = {
+	    		original_tag = TIB
+	    	}
+	    	traits = {
+				army_chief_planning_1
+			}
+	    	ai_will_do = {
+	    		factor = 1
+	    	}
+		}
+		field_marshal={
+			traits = {
+				old_guard
+				inflexible_strategist
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
+			legacy_id=-1
+		}
+	}
+	
+	### 해군참모총장 ###
+	TIB_tibet_navy_department = {
+		name=TIB_tibet_navy_department
+		portraits={
+			army={
+				small=GFX_idea_Joint_navy_department
+			}
+		}
+		advisor={
+			slot = navy_chief
+			idea_token = tibet_navy_department
+		    allowed = {
+		    	original_tag = TIB
+	    	}
+		    traits = {
+				navy_chief_reform_1
+			}
+		    ai_will_do = {
+		    	factor = 1
+		    }
+		}
+	}
+	
+	### 공군참모총장 ###
+	TIB_tibet_air_department = {
+		name=TIB_tibet_air_department
+		portraits={
+			army={
+				small=GFX_idea_Joint_air_department
+			}
+		}
+		advisor={
+			slot = air_chief
+			idea_token = tibet_air_department
+			
+	    	allowed = {
+		    	original_tag = TIB
+		    }
+		    traits = {
+				air_chief_safety_1
+			}
+		    ai_will_do = {
+		    	factor = 1
+		    }
+		}
+	}
+	
+	### 최고사령부 ###
+	TIB_trimon = {
+		name=TIB_trimon
+		portraits={
+			army={
+				large=GFX_portrait_TIB_trimon
+				small=GFX_idea_TIB_trimon
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = trimon
+			ledger = army
+		    allowed = {
+		    	original_tag = TIB
+		    }
+		    traits = {
+				army_chief_defensive_1
+			}
+		}
+		corps_commander={
+			traits = {
+				old_guard
+				substance_abuser
+			}
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+	TIB_ngapoi_ngawang_jigme = {
+		name=TIB_ngapoi_ngawang_jigme
+		portraits={
+			army={
+				large=GFX_portrait_TIB_ngapoi_ngawang_jigme
+				small=GFX_idea_TIB_ngapoi_ngawang_jigme
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = ngapoi_ngawang_jigme
+			ledger = army
+		    allowed = {
+		    	original_tag = TIB
+		    }
+		    traits = {
+				army_logistics_1
+			}
+		}
+		corps_commander={
+			traits = {
+				trait_mountaineer
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+	TIB_dingja = {
+		name=TIB_dingja
+		portraits={
+			army={
+				large=GFX_portrait_TIB_dingja
+				small=GFX_idea_TIB_dingja
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = dingja
+			ledger = army
+		    allowed = {
+		    	original_tag = TIB
+		    }
+		    traits = {
+				army_infantry_1
+			}
+		}
+		corps_commander={
+			traits = {
+				politically_connected
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id=-1
+		}
+	}
+	TIB_mondro = {
+		name=TIB_mondro
+		portraits={
+			army={
+				large=GFX_portrait_TIB_mondro
+				small=GFX_idea_TIB_mondro
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = dingja
+			ledger = army
+		    allowed = {
+		    	original_tag = TIB
+		    }
+		    traits = {
+				army_regrouping_1
+			}
+		}
+		corps_commander={
+			traits = {
+				organizer
+				skilled_staffer
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id=-1
+		}
+	}
+	
+	### 육군 장성 ###
+	TIB_bondong = {
+		name=TIB_bondong
+		portraits={
+			army={
+				large=GFX_portrait_TIB_bondong
+			}
+		}
+		corps_commander={
+			traits = {
+				trait_cautious
+				hill_fighter
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id=-1
+		}
+	}
+}

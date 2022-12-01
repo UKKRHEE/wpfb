@@ -885,17 +885,17 @@ QIN = { #오얏꽃/청나라
 	color = rgb { 8 99 156 }
 	color_ui = rgb { 8 99 156 }
 }
-SZC = { #오얏꽃/사천군벌
-	color = rgb { 154 115 56 }
-	color_ui = rgb { 149 123 56 }
-}
 ZLC = { #오얏꽃/북양정부
 	color = rgb { 161 103 33 }
 	color_ui = rgb { 161 103 33 }
 }
-WZC = { #오얏꽃/오성연군
+NJC = { #오얏꽃/오성연군
 	color = rgb { 248 198 0 }
 	color_ui = rgb { 255 198 0 }
+}
+SCC = { #오얏꽃/사천군벌
+	color = rgb { 154 115 56 }
+	color_ui = rgb { 149 123 56 }
 }
 HNC = { #오얏꽃/호남군벌
 	color = rgb { 80 135 224 }

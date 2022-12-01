@@ -1,0 +1,430 @@
+characters={
+	### 지도자 ###
+	HNC_ccp={
+		name=HNC_ccp
+		portraits={
+			civilian={
+				large=GFX_portrait_China_ccp
+			}
+		}
+		country_leader={
+			ideology=marxism
+			traits={ }
+			expire="1960.1.1.1"
+			id=-1
+		}
+	}
+	HNC_chen_jiongming={
+		name=HNC_chen_jiongming
+		portraits={
+			civilian={
+				large=GFX_portrait_HNC_chen_jiongming
+			}
+		}
+		country_leader={
+			ideology=socialism
+			traits={ }
+			expire="1960.1.1.1"
+			id=-1
+		}
+	}
+	HNC_zhao_hengti={
+		name=HNC_zhao_hengti
+		portraits={
+			army={
+				large=GFX_portrait_HNC_zhao_hengti
+				small=GFX_idea_HNC_zhao_hengti
+			}
+		}
+		country_leader={
+			ideology=fascism_ideology
+			traits={ }
+			expire="1960.1.1.1"
+			id=-1
+		}
+		country_leader={
+			ideology=despotism
+			traits={ }
+			expire="1960.1.1.1"
+			id=-1
+		}
+		advisor={
+			cost = 100
+			slot = army_chief
+			idea_token = zhao_hengti
+			allowed = {
+	    		original_tag = HNC
+	    	}
+	    	traits = {
+				army_chief_defensive_2
+			}
+	    	ai_will_do = {
+	    		factor = 1
+	    	}
+		}
+		field_marshal={
+			traits = {
+				old_guard
+				politically_connected
+			}
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+	
+	### 정치고문 ###
+	HNC_chen_yansheng={
+		name=HNC_chen_yansheng
+		portraits={
+			civilian={
+				small=GFX_idea_HNC_chen_yansheng
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = chen_yansheng
+			allowed = {
+				original_tag = HNC
+			}
+			traits = {
+				silent_workhorse
+			}
+		}
+	}
+	HNC_hu_shuhua={
+		name=HNC_hu_shuhua
+		portraits={
+			civilian={
+				small=GFX_idea_HNC_hu_shuhua
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = hu_shuhua
+			allowed = {
+				original_tag = HNC
+			}
+			traits = {
+				war_industrialist
+			}
+		}
+	}
+	HNC_cao_bowen={
+		name=HNC_cao_bowen
+		portraits={
+			civilian={
+				small=GFX_idea_HNC_cao_bowen
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = cao_bowen
+			allowed = {
+				original_tag = HNC
+			}
+			traits = {
+				ideological_crusader
+			}
+		}
+	}
+	HNC_yi_peiji={
+		name=HNC_yi_peiji
+		portraits={
+			civilian={
+				small=GFX_idea_HNC_yi_peiji
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = yi_peiji
+			allowed = {
+				original_tag = HNC
+			}
+			traits = {
+				education_reformer
+			}
+		}
+	}
+	HNC_wang_zhi={
+		name=HNC_wang_zhi
+		portraits={
+			civilian={
+				small=GFX_idea_HNC_wang_zhi
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = wang_zhi
+			available = {
+				has_intelligence_agency = yes
+			}
+			allowed = {
+				original_tag = HNC
+				has_dlc = "La Resistance" 
+			}
+			traits = {
+				head_of_intelligence
+			}
+		}
+	}
+	
+	### 이론가 ###
+	HNC_hunan_army_research = {
+		name=HNC_hunan_army_research
+		portraits={
+			army={
+				small=GFX_idea_Joint_army_research
+			}
+		}
+		advisor={
+			cost = 100
+			slot = theorist
+			idea_token = hunan_army_research
+			ledger = army
+		    allowed = {
+		    	original_tag = HNC
+		    }
+		    traits = {
+				military_theorist
+			}
+		}
+	}
+	HNC_hunan_navy_research={
+		name=HNC_hunan_navy_research
+		portraits={
+			army={
+				small=GFX_idea_Joint_navy_research
+			}
+		}
+		advisor={
+			cost = 100
+			slot = theorist
+			idea_token = hunan_navy_research
+			ledger = navy
+			allowed = {
+				original_tag = HNC
+			}
+			traits = {
+				naval_theorist
+			}
+		}
+	}
+	HNC_hunan_air_research={
+		name=HNC_hunan_air_research
+		portraits={
+			army={
+				small=GFX_idea_Joint_air_research
+			}
+		}
+		advisor={
+			cost = 100
+			slot = theorist
+			idea_token = hunan_air_research
+			ledger = air
+			allowed = {
+				original_tag = HNC
+			}
+			traits = {
+				air_warfare_theorist
+			}
+		}
+	}
+	
+	### 육군참모총장 ###
+	HNC_tang_shengzhi={
+		name=HNC_tang_shengzhi
+		portraits={
+			army={
+				large=GFX_portrait_HNC_tang_shengzhi
+				small=GFX_idea_HNC_tang_shengzhi
+			}
+		}
+		advisor={
+			cost = 100
+			slot = army_chief
+			idea_token = tang_shengzhi
+	    	allowed = {
+	    		original_tag = HNC
+	    	}
+	    	traits = {
+				army_chief_planning_2
+			}
+	    	ai_will_do = {
+	    		factor = 1
+	    	}
+		}
+		corps_commander={
+			traits = {
+				media_personality
+				politically_connected
+				trait_reckless
+				inflexible_strategist
+			}
+			skill = 3
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 4
+			logistics_skill = 4
+			legacy_id=-1
+		}
+	}
+	
+	### 해군참모총장 ###
+	HNC_hunan_navy_department = {
+		name=HNC_hunan_navy_department
+		portraits={
+			army={
+				small=GFX_idea_Joint_navy_department
+			}
+		}
+		advisor={
+			slot = navy_chief
+			idea_token = hunan_navy_department
+		    allowed = {
+		    	original_tag = HNC
+	    	}
+		    traits = {
+				navy_chief_reform_1
+			}
+		    ai_will_do = {
+		    	factor = 1
+		    }
+		}
+	}
+	
+	### 공군참모총장 ###
+	HNC_liu_zhesheng = {
+		name=HNC_liu_zhesheng
+		portraits={
+			army={
+				small=GFX_idea_HNC_liu_zhesheng
+			}
+		}
+		advisor={
+			slot = air_chief
+			idea_token = liu_zhesheng
+			
+	    	allowed = {
+		    	original_tag = HNC
+		    }
+		    traits = {
+				air_chief_reform_1
+			}
+		    ai_will_do = {
+		    	factor = 1
+		    }
+		}
+	}
+	
+	### 최고사령부 ###
+	HNC_he_yaozu = {
+		name=HNC_he_yaozu
+		portraits={
+			army={
+				large=GFX_portrait_HNC_he_yaozu
+				small=GFX_idea_HNC_he_yaozu
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = he_yaozu
+			ledger = army
+		    allowed = {
+		    	original_tag = HNC
+		    }
+		    traits = {
+				army_infantry_1
+			}
+		}
+		corps_commander={
+			traits = {
+				infantry_officer
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id=-1
+		}
+	}
+	HNC_he_jian = {
+		name=HNC_he_jian
+		portraits={
+			army={
+				large=GFX_portrait_HNC_he_jian
+				small=GFX_idea_HNC_he_jian
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = he_jian
+			ledger = army
+		    allowed = {
+		    	original_tag = HNC
+		    }
+		    traits = {
+				army_commando_1
+			}
+		}
+		corps_commander={
+			traits = {
+				career_officer
+				trait_reckless
+				politically_connected
+				trickster
+				guerilla_fighter
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id=-1
+		}
+	}
+	HNC_chen_mingren = {
+		name=HNC_chen_mingren
+		portraits={
+			army={
+				small=GFX_idea_HNC_chen_mingren
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = chen_mingren
+			ledger = army
+		    allowed = {
+		    	original_tag = HNC
+		    }
+		    traits = {
+				army_regrouping_1
+			}
+		}
+	}
+	
+	### 육군 장성 ###
+	HNC_tang_shengming={
+		name=HNC_tang_shengming
+		portraits={
+			army={
+				large=GFX_portrait_HNC_tang_shengming
+			}
+		}
+		corps_commander={
+			traits = { 
+				politically_connected
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+}

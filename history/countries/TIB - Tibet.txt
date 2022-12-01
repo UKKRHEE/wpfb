@@ -7,26 +7,42 @@ set_technology = {
 	infantry_weapons = 1
 }
 
-recruit_character = TIB_jamphel_yeshe_gyaltsen
-recruit_character = TIB_namgang_rinpoche
-recruit_character = TIB_penor_tashi
-recruit_character = TIB_tsepon_shatra
-recruit_character = TIB_gyato_wangdu
-recruit_character = TIB_lobsang_tenzin
-recruit_character = TIB_sampo_tsewang_rigzin
-recruit_character = TIB_chama_samphe
+### 지도자 ###
+recruit_character = TIB_ccp
+recruit_character = TIB_tsipon_lungshar
+recruit_character = TIB_5th_reting_rinpoche
+
+### 정치고문 ###
 recruit_character = TIB_lhalu_tsewang_dorje
-recruit_character = TIB_chodak_karma
-recruit_character = TIB_tenpa_jamyang
-recruit_character = TIB_sogyal_rinpoche
-recruit_character = TIB_bapa_yeshe
-recruit_character = TIB_jampal_rabgye_rinpoche
-recruit_character = TIB_chaghoe_namgyal_dorje
-recruit_character = TIB_jamyang_rabten
-recruit_character = TIB_khemey_sonam_wangdi
-recruit_character = TIB_jigme_taring
-recruit_character = TIB_reting_rimpoche
-recruit_character = TIB_taktra_rinpoche
+recruit_character = TIB_lonchen_yapshi_langdun_kung
+recruit_character = TIB_rigzin_dorje_ringang
+recruit_character = TIB_norbhu_dhondhup
+recruit_character = TIB_tsepon_wangchuk_shakabpa
+recruit_character = TIB_lukhangpa
+
+### 이론가 ###
+recruit_character = TIB_tibet_army_research
+recruit_character = TIB_tibet_navy_research
+recruit_character = TIB_tibet_air_research
+
+### 육군참모총장 ###
+recruit_character = TIB_tsarong_dzasa
+recruit_character = TIB_changra
+
+### 해군참모총장 ###
+recruit_character = TIB_tibet_navy_department
+
+### 공군참모총장 ###
+recruit_character = TIB_tibet_air_department
+
+### 티베트 최고사령부 ###
+recruit_character = TIB_trimon
+recruit_character = TIB_ngapoi_ngawang_jigme
+recruit_character = TIB_dingja
+recruit_character = TIB_mondro
+
+### 티베트 장성 ###
+recruit_character = TIB_bondong
 
 1939.1.1 = {
 

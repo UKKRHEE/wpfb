@@ -5,9 +5,9 @@ state={
 
 	local_supplies=0.0 
 	history={
-		owner = WZC
+		owner = NJC
 		add_core_of = CHI
-		add_core_of = WZC
+		add_core_of = NJC
 		add_core_of = PRC
 		buildings = {
 			infrastructure = 1

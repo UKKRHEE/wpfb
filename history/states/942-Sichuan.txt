@@ -8,8 +8,8 @@ state={
 
 	local_supplies=0.0 
 	history={
-		owner = SZC
-		add_core_of = SZC
+		owner = SCC
+		add_core_of = SCC
 		add_core_of = CHI
 		add_core_of = PRC
 		buildings = {

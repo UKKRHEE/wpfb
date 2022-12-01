@@ -221,6 +221,9 @@ characters={
 		advisor={
 			slot = political_advisor
 			idea_token = yu_zhishan
+			available = {
+				has_intelligence_agency = yes
+			}
 			allowed = {
 				original_tag = QIN
 				has_dlc = "La Resistance" 
@@ -330,18 +333,18 @@ characters={
 	}
 	
 	### 해군참모총장 ###
-	QIN_sa_zhenbing = {
-		name=QIN_sa_zhenbing
+	QIN_shen_honglie = {
+		name=QIN_shen_honglie
 		portraits={
 			army={
-				large=GFX_portrait_QIN_sa_zhenbing
-				small=GFX_idea_QIN_sa_zhenbing
+				large=GFX_portrait_QIN_shen_honglie
+				small=GFX_idea_QIN_shen_honglie
 			}
 		}
 		advisor={
 			cost = 100
 			slot = navy_chief
-			idea_token = sa_zhenbing
+			idea_token = shen_honglie
 		    allowed = {
 		    	original_tag = QIN
 	    	}
@@ -354,10 +357,8 @@ characters={
 		}
 		navy_leader={
 			traits = {
-				gentlemanly
+				old_guard_navy
 				navy_career_officer
-				battleship_adherent
-				naval_lineage
 			}
 			skill = 3
 			attack_skill = 3
@@ -367,23 +368,23 @@ characters={
 			legacy_id=-1
 		}
 	}
-	QIN_wu_renli = {
-		name=QIN_wu_renli
+	QIN_yin_zuoqian = {
+		name=QIN_yin_zuoqian
 		portraits={
 			army={
-				large=GFX_portrait_QIN_wu_renli
-				small=GFX_idea_QIN_wu_renli
+				large=GFX_portrait_QIN_yin_zuoqian
+				small=GFX_idea_QIN_yin_zuoqian
 			}
 		}
 		advisor={
 			cost = 100
 			slot = navy_chief
-			idea_token = wu_renli
+			idea_token = yin_zuoqian
 		    allowed = {
 		    	original_tag = QIN
 	    	}
 		    traits = {
-				navy_chief_reform_2
+				navy_chief_commerce_raiding_2
 			}
 		    ai_will_do = {
 		    	factor = 1
@@ -391,8 +392,8 @@ characters={
 		}
 		navy_leader={
 			traits = {
-				navy_career_officer
-				superior_tactician
+				cuts_corners
+				spotter
 			}
 			skill = 2
 			attack_skill = 2
@@ -404,23 +405,23 @@ characters={
 	}
 	
 	### 공군참모총장 ###
-	QIN_gao_zhihang = {
-		name=QIN_gao_zhihang
+	QIN_tong_yanbo = {
+		name=QIN_tong_yanbo
 		portraits={
 			army={
-				small=GFX_idea_QIN_gao_zhihang
+				small=GFX_idea_QIN_tong_yanbo
 			}
 		}
 		advisor={
 			cost = 100
 			slot = air_chief
-			idea_token = gao_zhihang
+			idea_token = tong_yanbo
 			
 	    	allowed = {
 		    	original_tag = QIN
 		    }
 		    traits = {
-				air_chief_reform_2
+				air_chief_ground_support_1
 			}
 		    ai_will_do = {
 		    	factor = 1
@@ -708,68 +709,6 @@ characters={
 			defense_skill = 2
 			planning_skill = 2
 			logistics_skill = 4
-			legacy_id=-1
-		}
-	}
-	
-	### 해군 제독 ###
-	QIN_du_xigui = {
-		name=QIN_du_xigui
-		portraits={
-			army={
-				large=GFX_portrait_QIN_du_xigui
-			}
-		}
-		navy_leader={
-			traits = {
-				old_guard_navy
-				navy_career_officer
-			}
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			maneuvering_skill = 1
-			coordination_skill = 1
-			legacy_id=-1
-		}
-	}
-	QIN_shen_honglie = {
-		name=QIN_shen_honglie
-		portraits={
-			army={
-				large=GFX_portrait_QIN_shen_honglie
-			}
-		}
-		navy_leader={
-			traits = {
-				old_guard_navy
-				navy_career_officer
-			}
-			skill = 3
-			attack_skill = 3
-			defense_skill = 2
-			maneuvering_skill = 2
-			coordination_skill = 3
-			legacy_id=-1
-		}
-	}
-	QIN_yin_zuoqian = {
-		name=QIN_yin_zuoqian
-		portraits={
-			army={
-				large=GFX_portrait_QIN_yin_zuoqian
-			}
-		}
-		navy_leader={
-			traits = {
-				cuts_corners
-				spotter
-			}
-			skill = 2
-			attack_skill = 2
-			defense_skill = 2
-			maneuvering_skill = 2
-			coordination_skill = 1
 			legacy_id=-1
 		}
 	}
