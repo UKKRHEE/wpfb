@@ -1,0 +1,480 @@
+characters={
+	### 지도자 ###
+	GXC_ccp={
+		name=GXC_ccp
+		portraits={
+			civilian={
+				large=GFX_portrait_China_ccp
+			}
+		}
+		country_leader={
+			ideology=marxism
+			traits={ }
+			expire="1960.1.1.1"
+			id=-1
+		}
+	}
+	GXC_li_zongren={
+		name=GXC_li_zongren
+		portraits={
+			civilian={
+				large=GFX_portrait_GXC_li_zongren
+			}
+			army={
+				small=GFX_portrait_GXC_li_zongren_small
+				large="GFX_portrait_li_zongren"
+			}
+		}
+		country_leader={
+			ideology=socialism
+			traits={ }
+			expire="1960.1.1.1"
+			id=-1
+		}
+		country_leader={
+			ideology=fascism_ideology
+			traits={ }
+			expire="1960.1.1.1"
+			id=-1
+		}
+		country_leader={
+			ideology=despotism
+			expire="1965.1.1.1"
+			id=-1
+		}
+		advisor={
+			cost = 200
+			slot = army_chief
+			idea_token = li_zongren
+	    	allowed = {
+	    		original_tag = GXC
+	    	}
+	    	traits = {
+				army_chief_organizational_3
+			}
+	    	ai_will_do = {
+	    		factor = 1
+	    	}
+		}
+		field_marshal={
+			traits = {
+				inspirational_leader
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id=-1
+		}
+	}
+	
+	### 정치고문 ###
+	GXC_huang_xuchu={
+		name=GXC_huang_xuchu
+		portraits={
+			civilian={
+				small=GFX_idea_GXC_huang_xuchu
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = huang_xuchu
+			allowed  = {
+				original_tag = GXC
+			}
+			traits  = {
+				popular_figurehead
+			}
+		}
+	}
+	GXC_lei_peihong={
+		name=GXC_lei_peihong
+		portraits={
+			civilian={
+				small=GFX_idea_GXC_lei_peihong
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = lei_peihong
+			allowed  = {
+				original_tag = GXC
+			}
+			traits  = {
+				education_reformer
+			}
+		}
+	}
+	GXC_lei_yin={
+		name=GXC_lei_yin
+		portraits={
+			civilian={
+				small=GFX_idea_GXC_lei_yin
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = lei_yin
+			allowed = {
+				original_tag = GXC
+			}
+			traits = {
+				silent_workhorse
+			}
+		}
+	}
+	GXC_huang_zhongyue={
+		name=GXC_huang_zhongyue
+		portraits={
+			civilian={
+				small=GFX_idea_GXC_huang_zhongyue
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = huang_zhongyue
+			allowed = {
+				original_tag = GXC
+			}
+			traits = {
+				financial_expert
+			}
+		}
+	}
+	GXC_guangxi_security={
+		name=GXC_guangxi_security
+		portraits={
+			civilian={
+				small=GFX_idea_Joint_security
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = guangxi_security
+			available = {
+				has_intelligence_agency = yes
+			}
+			allowed = {
+				original_tag = GXC
+				has_dlc = "La Resistance" 
+			}
+			traits = {
+				head_of_intelligence
+			}
+		}
+	}
+	
+	### 이론가 ###
+	GXC_liu_shiyi = {
+		name=GXC_liu_shiyi
+		portraits={
+			army={
+				small=GFX_idea_GXC_liu_shiyi
+			}
+		}
+		advisor={
+			cost = 100
+			slot = theorist
+			idea_token = liu_shiyi
+			ledger = army
+		    allowed = {
+		    	original_tag = GXC
+		    }
+		    traits = {
+				military_theorist
+			}
+		}
+	}
+	GXC_guangxi_navy_research={
+		name=GXC_guangxi_navy_research
+		portraits={
+			army={
+				small=GFX_idea_Joint_navy_research
+			}
+		}
+		advisor={
+			cost = 100
+			slot = theorist
+			idea_token = guangxi_navy_research
+			ledger = navy
+			allowed = {
+				original_tag = GXC
+			}
+			traits = {
+				naval_theorist
+			}
+		}
+	}
+	GXC_guangxi_air_research={
+		name=GXC_guangxi_air_research
+		portraits={
+			army={
+				small=GFX_idea_Joint_air_research
+			}
+		}
+		advisor={
+			cost = 100
+			slot = theorist
+			idea_token = guangxi_air_research
+			ledger = air
+			allowed = {
+				original_tag = GXC
+			}
+			traits = {
+				air_warfare_theorist
+			}
+		}
+	}
+	
+	### 육군참모총장 ###
+	GXC_bai_chongxi={
+		name=GXC_bai_chongxi
+		portraits={
+			army={
+				small=GFX_idea_GXC_bai_chongxi
+				large=GFX_portrait_GXC_bai_chongxi
+			}
+		}
+		advisor={
+			cost = 200
+			slot = army_chief
+			idea_token = bai_chongxi
+	    	allowed = {
+	    		original_tag = GXC
+	    	}
+	    	traits = {
+				army_chief_planning_3
+			}
+	    	ai_will_do = {
+	    		factor = 1
+	    	}
+		}
+		field_marshal={
+			traits = {
+				brilliant_strategist
+				organizer
+				organisational_leader
+			}
+			skill = 4
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id=-1
+		}
+	}
+	
+	### 해군참모총장 ###
+	GXC_guangxi_navy_department = {
+		name=GXC_guangxi_navy_department
+		portraits={
+			army={
+				small=GFX_idea_Joint_navy_department
+			}
+		}
+		advisor={
+			slot = navy_chief
+			idea_token = guangxi_navy_department
+		    allowed = {
+		    	original_tag = GXC
+	    	}
+		    traits = {
+				navy_chief_reform_1
+			}
+		    ai_will_do = {
+		    	factor = 1
+		    }
+		}
+	}
+	
+	### 공군참모총장 ###
+	GXC_lin_weicheng={
+		name=GXC_lin_weicheng
+		portraits={
+			army={
+				small=GFX_idea_GXC_lin_weicheng
+			}
+		}
+		advisor={		
+			slot = air_chief
+			idea_token = lin_weicheng
+			allowed = {
+				original_tag = GXC
+			}
+			traits = {
+				air_chief_reform_1
+			}
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+	
+	### 최고사령부 ###
+	GXC_li_pinxian = {
+		name=GXC_li_pinxian
+		portraits={
+			army={
+				large=GFX_portrait_GXC_li_pinxian
+				small=GFX_idea_GXC_li_pinxian
+			}
+		}
+		advisor={
+			cost = 100
+			slot = high_command
+			idea_token = li_pinxian
+			ledger = army
+		    allowed = {
+		    	original_tag = GXC
+		    }
+		    traits = {
+				army_infantry_2
+			}
+		}
+		corps_commander={
+			traits = {
+				infantry_officer
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+	GXC_liao_lei = {
+		name=GXC_liao_lei
+		portraits={
+			army={
+				large=GFX_portrait_GXC_liao_lei
+				small=GFX_idea_GXC_liao_lei
+			}
+		}
+		advisor={
+			cost = 100
+			slot = high_command
+			idea_token = liao_lei
+			ledger = army
+		    allowed = {
+		    	original_tag = GXC
+		    }
+		    traits = {
+				army_logistics_2
+			}
+		}
+		corps_commander={
+			traits = {
+				#
+			}
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 3
+			legacy_id=-1
+		}
+	}
+	GXC_xia_wei = {
+		name=GXC_xia_wei
+		portraits={
+			army={
+				large=GFX_portrait_GXC_xia_wei
+				small=GFX_idea_GXC_xia_wei
+			}
+		}
+		advisor={
+			cost = 100
+			slot = high_command
+			idea_token = xia_wei
+			ledger = army
+		    allowed = {
+		    	original_tag = GXC
+		    }
+		    traits = {
+				army_regrouping_2
+			}
+		}
+		corps_commander={
+			traits = {
+				#
+			}
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+	GXC_zhang_gan = {
+		name=GXC_zhang_gan
+		portraits={
+			army={
+				large=GFX_portrait_GXC_zhang_gan
+				small=GFX_idea_GXC_zhang_gan
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = zhang_gan
+			ledger = army
+		    allowed = {
+		    	original_tag = GXC
+		    }
+		    traits = {
+				army_artillery_1
+			}
+		}
+		corps_commander={
+			traits = {
+				#
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+	GXC_wei_yunshong = {
+		name=GXC_wei_yunshong
+		portraits={
+			army={
+				small=GFX_idea_GXC_wei_yunshong
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = wei_yunshong
+			ledger = army
+		    allowed = {
+		    	original_tag = GXC
+		    }
+		    traits = {
+				army_concealment_1
+			}
+		}
+	}
+	GXC_zhou_zuhuang = {
+		name=GXC_zhou_zuhuang
+		portraits={
+			army={
+				small=GFX_idea_GXC_zhou_zuhuang
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = zhou_zuhuang
+			ledger = army
+		    allowed = {
+		    	original_tag = GXC
+		    }
+		    traits = {
+				army_entrenchment_1
+			}
+		}
+	}
+}

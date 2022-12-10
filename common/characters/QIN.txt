@@ -368,23 +368,22 @@ characters={
 			legacy_id=-1
 		}
 	}
-	QIN_yin_zuoqian = {
-		name=QIN_yin_zuoqian
+	QIN_aisin_gioro_zaixun = {
+		name=QIN_aisin_gioro_zaixun
 		portraits={
 			army={
-				large=GFX_portrait_QIN_yin_zuoqian
-				small=GFX_idea_QIN_yin_zuoqian
+				large=GFX_portrait_QIN_aisin_gioro_zaixun
+				small=GFX_idea_QIN_aisin_gioro_zaixun
 			}
 		}
 		advisor={
-			cost = 100
 			slot = navy_chief
-			idea_token = yin_zuoqian
+			idea_token = aisin_gioro_zaixun
 		    allowed = {
 		    	original_tag = QIN
 	    	}
 		    traits = {
-				navy_chief_commerce_raiding_2
+				navy_chief_reform_1
 			}
 		    ai_will_do = {
 		    	factor = 1
@@ -392,36 +391,35 @@ characters={
 		}
 		navy_leader={
 			traits = {
-				cuts_corners
-				spotter
+				#
 			}
-			skill = 2
-			attack_skill = 2
-			defense_skill = 2
-			maneuvering_skill = 2
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 1
 			coordination_skill = 1
 			legacy_id=-1
 		}
 	}
 	
 	### 공군참모총장 ###
-	QIN_tong_yanbo = {
-		name=QIN_tong_yanbo
+	QIN_gao_zhihang = {
+		name=QIN_gao_zhihang
 		portraits={
 			army={
-				small=GFX_idea_QIN_tong_yanbo
+				small=GFX_idea_QIN_gao_zhihang
 			}
 		}
 		advisor={
 			cost = 100
 			slot = air_chief
-			idea_token = tong_yanbo
+			idea_token = gao_zhihang
 			
 	    	allowed = {
 		    	original_tag = QIN
 		    }
 		    traits = {
-				air_chief_ground_support_1
+				air_chief_reform_2
 			}
 		    ai_will_do = {
 		    	factor = 1
@@ -626,6 +624,64 @@ characters={
 			planning_skill = 1
 			logistics_skill = 3
 			legacy_id=-1
+		}
+	}
+	QIN_yin_zuoqian = {
+		name=QIN_yin_zuoqian
+		portraits={
+			army={
+				large=GFX_portrait_QIN_yin_zuoqian
+				small=GFX_idea_QIN_yin_zuoqian
+			}
+		}
+		advisor={
+			cost = 100
+			slot = high_command
+			idea_token = yin_zuoqian
+			ledger = navy
+	    	allowed = {
+	    		original_tag = QIN
+	    	}
+	    	traits = {
+				navy_screen_2
+			}
+	    	ai_will_do = {
+	    		factor = 1
+	    	}
+		}
+		navy_leader={
+			traits = {
+				cuts_corners
+				spotter
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			maneuvering_skill = 2
+			coordination_skill = 1
+			legacy_id=-1
+		}
+	}
+	QIN_tong_yanbo = {
+		name=QIN_tong_yanbo
+		portraits={
+			army={
+				small=GFX_idea_QIN_tong_yanbo
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = tong_yanbo
+			ledger = air
+		    allowed = {
+		    	original_tag = QIN
+		    }
+		    traits = {
+				air_close_air_support_1
+			}
+		    ai_will_do = {
+		    	factor = 1
+	    	}
 		}
 	}
 	

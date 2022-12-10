@@ -4,7 +4,7 @@ bookmarks = {
 		desc = "GATHERING_STORM_DESC"
 		date = 1936.1.1.12
 		picture = "GFX_select_date_1936"
-		default_country = "GER"
+		default_country = "KOR"
 		default = yes
 		
 		"FRA"={
@@ -157,17 +157,17 @@ bookmarks = {
 		}
 		"KOR"={
 			history = "KOR_GATHERING_STORM_DESC"
-			ideology = neutrality
+			ideology = fascism
 			ideas = {
-				KOR_yi_jin
-				KOR_Weakening_the_kingship
-				KOR_striked_factories
-			}
+				state_shintoism
+				JAP_zaibatsus
+				JAP_militarism
+			}	
 			focuses = {
-			    kor_korean_lebensraum
-				kor_reform_korea
-				KOR_use_the_anti-armed
-			}
+				JAP_the_zero
+				JAP_warrior_spirit
+				JAP_strike_on_the_southern_resource_area
+			}			
 		}
 		"SOV"={
 			history = "SOV_GATHERING_STORM_DESC"
@@ -329,23 +329,6 @@ bookmarks = {
 				YUG_dissolve_serbia
 			}
 		}
-		
-		"ZLC"={
-			minor = yes
-			history = "ZLC_GATHERING_STORM_DESC"
-			ideology = neutrality
-			ideas = {
-				CHI_army_corruption_1
-				CHI_hyper_inflation_1
-				CHI_nine_power_treaty
-			}
-			focuses = {
-				CHI_united_front
-				CHI_army_reform
-				CHI_invite_the_flying_tigers
-			}
-		}
-		
 		"CHI"={
 			minor = yes
 			history = "CHI_GATHERING_STORM_DESC"
@@ -361,26 +344,41 @@ bookmarks = {
 				CHI_invite_the_flying_tigers
 			}
 		}
-		
-		"NJC"={
+		"PRC"={
 			minor = yes
-			history = "WARLORDS_GATHERING_STORM_DESC"
-			ideology = neutrality
+			history = "PRC_GATHERING_STORM_DESC"
+			ideology = communism
 			ideas = {
-				PRC_government_corruption
-				CHI_ineffective_bureaucracy_warlord
+				PRC_the_long_march_1
+				PRC_low_popular_support_3
+				PRC_power_struggles
 			}
 			focuses = {
-				CHI_join_the_republican_government
-				CHI_provoke_border_clashes
-				CHI_join_the_chinese_soviet
+				PRC_infiltration
+				PRC_maoism
+				PRC_anti_japanese_expedition
+			}
+		}
+		"MAN"={
+			minor = yes
+			history = "MAN_GATHERING_STORM_DESC"
+			ideology = fascism
+			ideas = {
+				MAN_banditry
+				MAN_kwantung_veto
+				MAN_low_legitimacy_5
+			}
+			focuses = {
+				MAN_obedience
+				MAN_independence_war
+				MAN_claim_the_mandate_of_heaven
 			}
 		}
 		
 		"GXC"={
 			minor = yes
 			history = "WARLORDS_GATHERING_STORM_DESC"
-			ideology = neutrality
+			ideology = fascism
 			ideas = {
 				PRC_government_corruption
 				CHI_ineffective_bureaucracy_warlord
@@ -390,27 +388,11 @@ bookmarks = {
 				CHI_provoke_border_clashes
 				CHI_join_the_chinese_soviet
 			}
-		}
-		
-		"HNC"={
-			minor = yes
-			history = "WARLORDS_GATHERING_STORM_DESC"
-			ideology = neutrality
-			ideas = {
-				PRC_government_corruption
-				CHI_ineffective_bureaucracy_warlord
-			}
-			focuses = {
-				CHI_join_the_republican_government
-				CHI_provoke_border_clashes
-				CHI_join_the_chinese_soviet
-			}
-		}
-		
+		}		
 		"YUN"={
 			minor = yes
 			history = "WARLORDS_GATHERING_STORM_DESC"
-			ideology = neutrality
+			ideology = fascism
 			ideas = {
 				PRC_government_corruption
 				CHI_ineffective_bureaucracy_warlord
@@ -420,27 +402,11 @@ bookmarks = {
 				CHI_provoke_border_clashes
 				CHI_join_the_chinese_soviet
 			}
-		}
-		
-		"SCC"={
-			minor = yes
-			history = "WARLORDS_GATHERING_STORM_DESC"
-			ideology = neutrality
-			ideas = {
-				PRC_government_corruption
-				CHI_ineffective_bureaucracy_warlord
-			}
-			focuses = {
-				CHI_join_the_republican_government
-				CHI_provoke_border_clashes
-				CHI_join_the_chinese_soviet
-			}
-		}
-		
+		}		
 		"SHX"={
 			minor = yes
 			history = "WARLORDS_GATHERING_STORM_DESC"
-			ideology = neutrality
+			ideology = fascism
 			ideas = {
 				PRC_government_corruption
 				CHI_ineffective_bureaucracy_warlord
@@ -450,12 +416,11 @@ bookmarks = {
 				CHI_provoke_border_clashes
 				CHI_join_the_chinese_soviet
 			}
-		}
-			
+		}		
 		"XSM"={
 			minor = yes
 			history = "WARLORDS_GATHERING_STORM_DESC"
-			ideology = neutrality
+			ideology = fascism
 			ideas = {
 				PRC_government_corruption
 				CHI_ineffective_bureaucracy_warlord
@@ -465,59 +430,11 @@ bookmarks = {
 				CHI_provoke_border_clashes
 				CHI_join_the_chinese_soviet
 			}
-		}
-		
-		"QIN"={
-			minor = yes
-			history = "QIN_GATHERING_STORM_DESC"
-			ideology = neutrality
-			ideas = {
-				MAN_banditry
-				MAN_kwantung_veto
-				MAN_low_legitimacy_5
-			}
-			focuses = {
-				MAN_obedience
-				MAN_independence_war
-				MAN_claim_the_mandate_of_heaven
-			}
-		}
-		
-		"MON"={
-			minor = yes
-			history = "QING_STATE_GATHERING_STORM_DESC"
-			ideology = neutrality
-			ideas = {
-				MAN_banditry
-				MAN_kwantung_veto
-				MAN_low_legitimacy_5
-			}
-			focuses = {
-				MAN_obedience
-				MAN_independence_war
-				MAN_claim_the_mandate_of_heaven
-			}
-		}
-		
+		}		
 		"SIK"={
 			minor = yes
-			history = "QING_STATE_GATHERING_STORM_DESC"
-			ideology = neutrality
-			ideas = {
-				PRC_government_corruption
-				CHI_ineffective_bureaucracy_warlord
-			}
-			focuses = {
-				CHI_join_the_republican_government
-				CHI_provoke_border_clashes
-				CHI_join_the_chinese_soviet
-			}
-		}
-		
-		"TIB"={
-			minor = yes
-			history = "QING_STATE_GATHERING_STORM_DESC"
-			ideology = neutrality
+			history = "WARLORDS_GATHERING_STORM_DESC"
+			ideology = fascism
 			ideas = {
 				PRC_government_corruption
 				CHI_ineffective_bureaucracy_warlord
@@ -640,6 +557,7 @@ bookmarks = {
 			}
 		}
 		
+		
 		"LIT"={
 			minor = yes
 			history = "LIT_GATHERING_STORM_DESC"
@@ -684,7 +602,6 @@ bookmarks = {
 				EST_unite_our_nations
 			}
 		}
-		
 		"POL"={
 			minor = yes
 			history = "POL_GATHERING_STORM_DESC"
@@ -700,7 +617,6 @@ bookmarks = {
 				POL_the_between_the_seas_concept
 			}
 		}
-		
 		"ETH"={
 			minor = yes
 			history = "ETH_GATHERING_STORM_DESC"
@@ -716,7 +632,6 @@ bookmarks = {
 				ETH_military_communism
 			}
 		}
-		
 		"SWI"={
 			minor = yes
 			history = "SWI_GATHERING_STORM_DESC"

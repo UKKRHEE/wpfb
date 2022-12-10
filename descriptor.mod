@@ -5,5 +5,5 @@ tags={
 	"National Focuses"
 	"Gameplay"
 }
-name="오얏꽃 필 무렵"
+name="When Plum Flowers Bloom"
 supported_version="1.12.*"

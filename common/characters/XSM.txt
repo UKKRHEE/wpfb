@@ -1,0 +1,520 @@
+characters={
+	### 지도자 ###
+	XSM_ccp={
+		name=XSM_ccp
+		portraits={
+			civilian={
+				large=GFX_portrait_China_ccp
+			}
+		}
+		country_leader={
+			ideology=marxism
+			traits={ }
+			expire="1960.1.1.1"
+			id=-1
+		}
+	}
+	XSM_ma_bufang={
+		name=XSM_ma_bufang
+		portraits={
+			civilian={
+				large="GFX_portrait_xsm_ma_bufang"
+			}
+			army={
+				large="GFX_portrait_xsm_ma_bufang"
+				small="GFX_idea_XSM_ma_bufang"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			traits={ }
+			expire="1960.1.1.1"
+			id=-1
+		}
+		country_leader={
+			ideology=fascism_ideology
+			traits={ }
+			expire="1960.1.1.1"
+			id=-1
+		}
+		country_leader={
+			ideology=despotism
+			traits={ }
+			expire="1960.1.1.1"
+			id=-1
+		}
+		advisor={
+			cost = 100
+			slot = army_chief
+			idea_token = ma_bufang
+	    	allowed = {
+	    		original_tag = XSM
+	    	}
+	    	traits = {
+				army_chief_maneuver_2
+			}
+	    	ai_will_do = {
+	    		factor = 1
+	    	}
+		}
+		field_marshal={
+			traits = {
+				cavalry_leader
+				combined_arms_expert
+			}
+			skill = 2
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
+			legacy_id=-1
+		}
+	}
+	
+	### 정치고문 ###
+	XSM_hu_songshan={
+		name=XSM_hu_songshan
+		portraits={
+			civilian={
+				small=GFX_idea_XSM_hu_songshan
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = hu_songshan
+			allowed = {
+				original_tag = XSM
+			}
+			traits = {
+				popular_figurehead 
+			}
+		}
+	}
+	XSM_tien_chungchin={
+		name=XSM_tien_chungchin
+		portraits={
+			civilian={
+				small=GFX_idea_XSM_tien_chungchin
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = tien_chungchin
+			allowed = {
+				original_tag = XSM
+			}
+			traits = {
+				education_reformer
+			}
+		}
+	}
+	XSM_ma_bukang={
+		name=XSM_ma_bukang
+		portraits={
+			civilian={
+				small=GFX_idea_XSM_ma_bukang
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = ma_bukang
+			available = {
+				has_intelligence_agency = yes
+			}
+			allowed = {
+				original_tag = XSM
+				has_dlc = "La Resistance" 
+			}
+			traits = {
+				head_of_intelligence
+			}
+		}
+	}
+	XSM_xibei_interior={
+		name=XSM_xibei_interior
+		portraits={
+			civilian={
+				small=GFX_idea_Joint_interior
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = xibei_interior
+			allowed  = {
+				original_tag = XSM
+			}
+			traits  = {
+				ideological_crusader
+			}
+		}
+	}
+	XSM_xibei_finance={
+		name=XSM_xibei_finance
+		portraits={
+			civilian={
+				small=GFX_idea_Joint_finance
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = xibei_finance
+			allowed  = {
+				original_tag = XSM
+			}
+			traits  = {
+				economic_reformer 
+			}
+		}
+	}
+	XSM_xibei_industry={
+		name=XSM_xibei_industry
+		portraits={
+			civilian={
+				small=GFX_idea_Joint_industry
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = xibei_industry
+			allowed  = {
+				original_tag = XSM
+			}
+			traits  = {
+				captain_of_industry 
+			}
+		}
+	}
+	
+	### 이론가 ###
+	XSM_xibei_army_research = {
+		name=XSM_xibei_army_research
+		portraits={
+			army={
+				small=GFX_idea_Joint_army_research
+			}
+		}
+		advisor={
+			cost = 100
+			slot = theorist
+			idea_token = xibei_army_research
+			ledger = army
+		    allowed = {
+		    	original_tag = XSM
+		    }
+		    traits = {
+				military_theorist
+			}
+		}
+	}
+	XSM_xibei_navy_research={
+		name=XSM_xibei_navy_research
+		portraits={
+			army={
+				small=GFX_idea_Joint_navy_research
+			}
+		}
+		advisor={
+			cost = 100
+			slot = theorist
+			idea_token = xibei_navy_research
+			ledger = navy
+			allowed = {
+				original_tag = XSM
+			}
+			traits = {
+				naval_theorist
+			}
+		}
+	}
+	XSM_xibei_air_research={
+		name=XSM_xibei_air_research
+		portraits={
+			army={
+				small=GFX_idea_Joint_air_research
+			}
+		}
+		advisor={
+			cost = 100
+			slot = theorist
+			idea_token = xibei_air_research
+			ledger = air
+			allowed = {
+				original_tag = XSM
+			}
+			traits = {
+				air_warfare_theorist
+			}
+		}
+	}
+	
+	### 육군참모총장 ###
+	XSM_ma_hushan={
+		name=XSM_ma_hushan
+		portraits={
+			army={
+				large=GFX_portrait_XSM_ma_hushan
+				small=GFX_idea_XSM_ma_hushan
+			}
+		}
+		advisor={
+			slot = army_chief
+			idea_token = ma_hushan
+			allowed = {
+				original_tag = XSM
+			}
+			traits = {
+				army_chief_morale_1
+			}
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+		corps_commander={
+			traits = {
+				media_personality
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id=-1
+		}
+	}
+
+	### 해군참모총장 ###
+	XSM_xibei_navy_department = {
+		name=XSM_xibei_navy_department
+		portraits={
+			army={
+				small=GFX_idea_Joint_navy_department
+			}
+		}
+		advisor={
+			slot = navy_chief
+			idea_token = xibei_navy_department
+		    allowed = {
+		    	original_tag = XSM
+	    	}
+		    traits = {
+				navy_chief_reform_1
+			}
+		    ai_will_do = {
+		    	factor = 1
+		    }
+		}
+	}
+
+	### 공군참모총장 ###
+	XSM_zhou_zhikai={
+		name=XSM_zhou_zhikai
+		portraits={
+			army={
+				small=GFX_idea_XSM_zhou_zhikai
+			}
+		}
+		advisor={		
+			slot = air_chief
+			idea_token = zhou_zhikai
+			allowed = {
+				original_tag = XSM
+			}
+			traits = {
+				air_chief_reform_1
+			}
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+	
+	### 최고사령부 ###
+	XSM_ma_hongkui = {
+		name=XSM_ma_hongkui
+		portraits={
+			army={
+				large=GFX_portrait_XSM_ma_hongkui
+				small=GFX_idea_XSM_ma_hongkui
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = ma_hongkui
+			ledger = army
+		    allowed = {
+		    	original_tag = XSM
+		    }
+		    traits = {
+				army_logistics_1
+			}
+		}
+		corps_commander={
+			traits = {
+				infantry_leader
+				trickster
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+	XSM_ma_jiyuan = {
+		name=XSM_ma_jiyuan
+		portraits={
+			army={
+				large=GFX_portrait_XSM_ma_jiyuan
+				small=GFX_idea_XSM_ma_jiyuan
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = ma_jiyuan
+			ledger = army
+		    allowed = {
+		    	original_tag = XSM
+		    }
+		    traits = {
+				army_cavalry_1
+			}
+		}
+		corps_commander={
+			traits = {
+				cavalry_leader
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id=-1
+		}
+	}
+	XSM_ma_buqing = {
+		name=XSM_ma_buqing
+		portraits={
+			army={
+				large=GFX_portrait_XSM_ma_buqing
+				small=GFX_idea_XSM_ma_buqing
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = ma_buqing
+			ledger = army
+		    allowed = {
+		    	original_tag = XSM
+		    }
+		    traits = {
+				army_artillery_1
+			}
+		}
+		corps_commander={
+			traits = {
+				politically_connected
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+	XSM_han_youwen = {
+		name=XSM_han_youwen
+		portraits={
+			army={
+				large=GFX_portrait_XSM_han_youwen
+				small=GFX_idea_XSM_han_youwen
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = han_youwen
+			ledger = army
+		    allowed = {
+		    	original_tag = XSM
+		    }
+		    traits = {
+				army_infantry_1
+			}
+		}
+		corps_commander={
+			traits = {
+				infantry_leader
+				commando
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id=-1
+		}
+	}
+	
+	### 육군 장성 ###
+	XSM_ma_biao={
+		name=XSM_ma_biao
+		portraits={
+			army={
+				large=GFX_portrait_XSM_ma_biao
+			}
+		}
+		corps_commander={
+			traits = { 
+				politically_connected
+				urban_assault_specialist
+			}
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 3
+			legacy_id=-1
+		}
+	}
+	XSM_ma_zhongying={
+		name=XSM_ma_zhongying
+		portraits={
+			army={
+				large=GFX_portrait_XSM_ma_zhongying
+			}
+		}
+		corps_commander={
+			traits = { 
+				cavalry_officer
+				trickster
+			}
+			skill = 2
+			attack_skill = 4
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id=-1
+		}
+	}
+	XSM_ma_dunjing={
+		name=XSM_ma_dunjing
+		portraits={
+			army={
+				large=GFX_portrait_XSM_ma_dunjing
+			}
+		}
+		corps_commander={
+			traits = { 
+				politically_connected
+				urban_assault_specialist
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id=-1
+		}
+	}
+}

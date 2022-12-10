@@ -107,10 +107,10 @@
  
  ### 청국 해군참모총장 ###
  QIN_shen_honglie:0 "선훙례"
- QIN_yin_zuoqian:0 "인쭤첸"
+ QIN_aisin_gioro_zaixun:0 "아이신기오로 짜이쉰"
  
  ### 청국 공군참모총장 ###
- QIN_tong_yanbo:0 "퉁옌보"
+ QIN_gao_zhihang:0 "가오즈항"
  
  ### 청국 최고사령부 ###
  QIN_aisin_gioro_zaitao:0 "아이신기오로 짜이타오"
@@ -119,6 +119,8 @@
  QIN_ma_zhanshan:0 "마잔산"
  QIN_gobulo_runqi:0 "궈부뤄룬치"
  QIN_li_bingzhi:0 "리빙즈"
+ QIN_yin_zuoqian:0 "인쭤첸"
+ QIN_tong_yanbo:0 "퉁옌보"
  
  ### 청국 육군 장성 ###
  QIN_aisin_gioro_xianyu:0 "아이신기오로 셴위"
@@ -208,7 +210,7 @@
  SIK_ma_shaowu:0 "마사오우"
  
  #############
- ### 티베트 ###
+ ### 티베트ㅡ ###
  #############
  
  ### 티베트 지도자 ###
@@ -278,7 +280,7 @@
  ZLC_wu_renli:0 "우런리"
  
  ### 북양정부 공군참모총장 ###
- ZLC_gao_zhihang:0 "가오즈항"
+ ZLC_ge_jingen:0 "거징언"
  
  ### 북양정부 최고사령부 ###
  ZLC_cai_chengxun:0 "차이청쉰"
@@ -292,6 +294,42 @@
  ZLC_xiao_yaonan:0 "샤오야오난"
  ZLC_du_xijun:0 "두시쥔" 
  ZLC_cao_shijie:0 "차오스제"
+ 
+ #############
+ ### 국민당ㅡ ###
+ #############
+ 
+ ### 국민당 지도자 ###
+ CHI_ccp:0 "인민위원회"
+ CHI_dai_li:0 "다이리"
+ 
+ ### 국민당 정치고문 ###
+ CHI_sun_fo:0 "쑨커"
+ CHI_zhang_qun:0 "장췬"
+ CHI_chen_lifu:0 "천리푸"
+ CHI_zhang_naiqi:0 "장나이치"
+ CHI_zou_taofen:0 "쩌우타오펀"
+ CHI_shi_liang:0 "스량"
+ 
+ ### 국민당 이론가 ###
+ CHI_xiong_shihui:0 "슝스후이"
+ CHI_gui_yongqing:0 "구이용칭"
+ CHI_huang_bingheng:0 "황빙헝"
+ CHI_wu_dayou:0 "우다유"
+ 
+ ### 국민당 육군참모총장 ###
+ CHI_zhu_peide:0 "주페이더"
+ CHI_cheng_qian:0 "청첸"
+ 
+ ### 국민당 최고사령부 ###
+ CHI_huang_zhenqiu:0 "황전추"
+ CHI_chen_jiliang:0 "천지량"
+ CHI_chan_chak:0 "천처"
+ CHI_mao_bangchu:0 "마오방추"
+ 
+ ### 국민당 육군 장성 ###
+ CHI_zhang_fakui:0 "장파쿠이"
+ CHI_zhang_zhizhong:0 "장즈중"
  
  #############
  ### 오성연군 ###
@@ -326,11 +364,117 @@
  ### 오성연군 최고사령부 ###
  NJC_deng_ruzuo:0 "덩루쭤"
  NJC_xuai_shuxuan:0 "샤오슈쉬안"
- NJC_zhou_yinren:0 "저우인런"
+ NJC_zhou_yinren:0 "저우인런"`
  
  ### 오성연군 육군 장성 ###
  NJC_zhou_fengqi:0 "저우펑치"
  NJC_shi_yousan:0 "스여우싼"
+ 
+ #############
+ ### 광서군벌 ###
+ #############
+ 
+ ### 광서군벌 지도자 ###
+ GXC_ccp:0 "인민위원회"
+ 
+ ### 광서군벌 정치고문 ###
+ GXC_huang_xuchu:0 "황쑤추"
+ GXC_lei_peihong:0 "레이페이훙"
+ GXC_lei_yin:0 "레이인"
+ GXC_huang_zhongyue:0 "황중웨"
+ GXC_guangxi_security:0 "정보부"
+ 
+ ### 광서군벌 이론가 ###
+ GXC_liu_shiyi:0 "류스이"
+ GXC_guangxi_navy_research:0 "해군이론연구소"
+ GXC_guangxi_air_research:0 "공군이론연구소"
+ 
+ ### 광서군벌 해군참모총장 ###
+ GXC_guangxi_navy_department:0 "해군부"
+ 
+ ### 광서군벌 공군참모총장 ###
+ GXC_lin_weicheng:0 "린웨이청"
+ 
+ ### 광서군벌 최고사령부 ###
+ GXC_li_pinxian:0 "리핀시안"
+ GXC_liao_lei:0 "랴오레이"
+ GXC_xia_wei:0 "샤웨이"
+ GXC_zhang_gan:0 "장간"
+ GXC_wei_yunshong:0 "웨이운쑹"
+ GXC_zhou_zuhuang:0 "저우쭈황"
+ 
+ #############
+ ### 사천군벌 ###
+ #############
+ 
+ ### 사천군벌 지도자 ###
+ SCC_ccp:0 "인민위원회"
+ SCC_zhang_lan:0 "장란"
+ SCC_yang_sen:0 "양썬"
+ 
+ ### 사천군벌 정치고문 ###
+ SCC_shen_junru:0 "선쥔루"
+ SCC_ba_jin:0 "바진"
+ SCC_lu_zuofu:0 "Lu Zuofu"
+ SCC_sichuan_finance:0 "재무부"
+ SCC_sichuan_education:0 "학무부"
+ SCC_sichuan_security:0 "정보부"
+ 
+ ### 사천군벌 이론가 ###
+ SCC_sichuan_army_research:0 "육군이론연구소"
+ SCC_sichuan_navy_research:0 "해군이론연구소"
+ SCC_sichuan_air_research:0 "공군이론연구소"
+ 
+ ### 사천군벌 육군참모총장 ###
+ SCC_wang_zuanxu:0 "왕쫜쉬"
+ 
+ ### 사천군벌 해군참모총장 ###
+ SCC_sichuan_navy_department:0 "해군부"
+ 
+ ### 사천군벌 공군참모총장 ###
+ SCC_zheng_shaoyu:0 "Zhean Shaoyu"
+ 
+ ### 사천군벌 최고사령부 ###
+ SCC_wang_lingji:0 "왕링지"
+ SCC_zhou_daogang:0 "저우다오강"
+ SCC_he_guoguang:0 "허궈광"
+ 
+ ### 사천군벌 육군 장성 ###
+ SCC_fan_shaozeng:0 "판사오쩡"
+ 
+ #############
+ ### 운남군벌 ###
+ #############
+ 
+ ### 운남군벌 지도자 ###
+ YUN_ccp:0 "인민위원회"
+ 
+ ### 운남군벌 정치고문 ###
+ YUN_hu_ying:0 "후잉"
+ YUN_zhang_banghan:0 "장방한"
+ YUN_ding_zhaoguan:0 "정자오관"
+ YUN_miao_yuntai:0 "묘운타이"
+ YUN_gong_zizhi:0 "공즈지"
+ YUN_lu_chongren:0 "루충런"
+ YUN_yunnan_security:0 "정보부"
+ 
+ ### 운남군벌 이론가 ###
+ YUN_ma_ying:0 "마잉"
+ YUN_yunnan_navy_research:0 "해군이론연구소"
+ YUN_yunnan_air_research:0 "공군이론연구소"
+ 
+ ### 운남군벌 해군참모총장 ###
+ YUN_yunnan_navy_department:0 "해군부"
+ 
+ ### 운남군벌 공군참모총장 ###
+ YUN_liu_peiquan:0 "류페이췐"
+ 
+ ### 운남군벌 최고사령부 ###
+ YUN_sun_du:0 "쑨두"
+ YUN_an_enpu:0 "안언푸"
+ YUN_lu_daoyuan:0 "루다오위안"
+ YUN_zhang_chong:0 "장충"
+ YUN_gao_yinhuai:0 "가오인화이"
  
  #############
  ### 호남군벌 ###
@@ -371,40 +515,79 @@
  HNC_tang_shengming:0 "탕성밍"
  
  #############
- ### 사천군벌 ###
+ ### 산서군벌 ###
  #############
  
- ### 사천군벌 지도자 ###
- SCC_ccp:0 "인민위원회"
- SCC_zhang_lan:0 "장란"
- SCC_yang_sen:0 "양썬"
+ ### 산서군벌 지도자 ###
+ SHX_ccp:0 "인민위원회"
  
- ### 사천군벌 정치고문 ###
- SCC_shen_junru:0 "선쥔루"
- SCC_ba_jin:0 "바진"
- SCC_lu_zuofu:0 "Lu Zuofu"
- SCC_sichuan_finance:0 "재무부"
- SCC_sichuan_education:0 "학무부"
- SCC_sichuan_security:0 "정보부"
+ ### 산서군벌 정치고문 ###
+ SHX_zhao_daiwen:0 "자오다이웬"
+ SHX_jia_jingde:0 "지아징더"
+ SHX_ji_gongquan:0 "지공췐"
+ SHX_fan_xiangli:0 "판샹리"
+ SHX_qiu_yangjun:0 "추양쥔"
+ SHX_wang_huaiming:0 "왕화이밍"
+ SHX_liang_huazhi:0 "량화지"
+ SHX_shanxi_security:0 "정보부"
  
- ### 사천군벌 이론가 ###
- SCC_sichuan_army_research:0 "육군이론연구소"
- SCC_sichuan_navy_research:0 "해군이론연구소"
- SCC_sichuan_air_research:0 "공군이론연구소"
+ ### 산서군벌 이론가 ###
+ SHX_chu_xichun:0 "추시춘"
+ SHX_shanxi_navy_research:0 "해군이론연구소"
+ SHX_shanxi_air_research:0 "공군이론연구소"
  
- ### 사천군벌 육군참모총장 ###
- SCC_wang_zuanxu:0 "왕쫜쉬"
+ ### 산서군벌 해군참모총장 ###
+ SHX_shanxi_navy_department:0 "해군부"
  
- ### 사천군벌 해군참모총장 ###
- SCC_sichuan_navy_department:0 "해군부"
+ ### 산서군벌 공군참모총장 ###
+ SHX_zhong_jihan:0 "중지한"
  
- ### 사천군벌 공군참모총장 ###
- SCC_zheng_shaoyu:0 "Zhean Shaoyu"
+ ### 산서군벌 최고사령부 ###
+ SHX_yang_aiyuan:0 "양아이위안"
+ SHX_sun_chu:0 "쑨추"
+ SHX_zhao_chengshou:0 "자오청서우"
+ SHX_chen_changjie:0 "천창제"
+ SHX_zhou_dai:0 "저우다이"
  
- ### 사천군벌 최고사령부 ###
- SCC_wang_lingji:0 "왕링지"
- SCC_zhou_daogang:0 "저우다오강"
- SCC_he_guoguang:0 "허궈광"
+ ### 산서군벌 육군 장성 ###
+ SHX_dong_qiwu:0 "둥치우"
+ SHX_sun_lanfeng:0 "쑨란펑"
  
- ### 사천군벌 육군 장성 ###
- SCC_fan_shaozeng:0 "판사오쩡"
+ #############
+ ### 마가군벌 ###
+ #############
+ 
+ ### 마가군벌 지도자 ###
+ XSM_ccp:0 "인민위원회"
+ 
+ ### 마가군벌 정치고문 ###
+ XSM_hu_songshan:0 "후쑹산"
+ XSM_tien_chungchin:0 "톈중진"
+ XSM_ma_bukang:0 "마푸캉"
+ XSM_xibei_interior:0 "내무부"
+ XSM_xibei_finance:0 "재무부"
+ XSM_xibei_industry:0 "상공부"
+ 
+ ### 마가군벌 이론가 ###
+ XSM_xibei_army_research:0 "육군이론연구소"
+ XSM_xibei_navy_research:0 "해군이론연구소"
+ XSM_xibei_air_research:0 "공군이론연구소"
+ 
+ ### 마가군벌 육군참모총장 ###
+ XSM_ma_hushan:0 "마후산"
+ 
+ ### 마가군벌 해군참모총장 ###
+ XSM_xibei_navy_department:0 "해군부"
+ 
+ ### 마가군벌 공군참모총장 ###
+ XSM_zhou_zhikai:0 "저우즈카이"
+ 
+ ### 마가군벌 최고사령부 ###
+ XSM_ma_jiyuan:0 "마지위안"
+ XSM_han_youwen:0 "한유웬"
+ 
+ ### 마가군벌 육군 장성 ###
+ XSM_ma_biao:0 "마바오"
+ XSM_ma_zhongying:0 "마중밍"
+ XSM_ma_dunjing:0 "마둔징"
+ 

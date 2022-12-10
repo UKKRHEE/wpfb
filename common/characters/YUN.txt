@@ -1,0 +1,482 @@
+characters={
+	### 지도자 ###
+	YUN_ccp={
+		name=YUN_ccp
+		portraits={
+			civilian={
+				large=GFX_portrait_China_ccp
+			}
+		}
+		country_leader={
+			ideology=marxism
+			traits={ }
+			expire="1960.1.1.1"
+			id=-1
+		}
+	}
+	YUN_long_yun={
+		name=YUN_long_yun
+		portraits={
+			civilian={
+				large="GFX_portrait_yun_long_yun"
+			}
+			army = {
+				small=GFX_idea_YUN_long_yun
+				large="GFX_portrait_yun_long_yun"
+			}
+		}
+		country_leader={
+			ideology=socialism
+			traits={ }
+			expire="1960.1.1.1"
+			id=-1
+		}
+		country_leader={
+			ideology=fascism_ideology
+			traits={ }
+			expire="1960.1.1.1"
+			id=-1
+		}
+		country_leader={
+			ideology=despotism
+			expire="1965.1.1.1"
+			id=-1
+		}
+		advisor={
+			cost = 100
+			slot = army_chief
+			idea_token = long_yun
+	    	allowed = {
+	    		original_tag = YUN
+	    	}
+	    	traits = {
+				army_chief_morale_2
+			}
+	    	ai_will_do = {
+	    		factor = 1
+	    	}
+		}
+		field_marshal={
+			traits = {
+				organisational_leader
+			}
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id=-1
+		}
+	}
+	
+	### 정치고문 ###
+	YUN_hu_ying={
+		name=YUN_hu_ying
+		portraits={
+			civilian={
+				small=GFX_idea_YUN_hu_ying
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = hu_ying
+			allowed  = {
+				original_tag = YUN
+			}
+			traits  = {
+				old_figurehead
+			}
+		}
+	}
+	YUN_zhang_banghan={
+		name=YUN_zhang_banghan
+		portraits={
+			civilian={
+				small=GFX_idea_YUN_zhang_banghan
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = zhang_banghan
+			allowed  = {
+				original_tag = YUN
+			}
+			traits  = {
+				technocrat
+			}
+		}
+	}
+	YUN_ding_zhaoguan={
+		name=YUN_ding_zhaoguan
+		portraits={
+			civilian={
+				small=GFX_idea_YUN_ding_zhaoguan
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = ding_zhaoguan
+			allowed = {
+				original_tag = YUN
+			}
+			traits = {
+				appeaser
+			}
+		}
+	}
+	YUN_miao_yuntai={
+		name=YUN_miao_yuntai
+		portraits={
+			civilian={
+				small=GFX_idea_YUN_miao_yuntai
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = miao_yuntai
+			allowed = {
+				original_tag = YUN
+			}
+			traits = {
+				captain_of_industry
+			}
+		}
+	}
+	YUN_gong_zizhi={
+		name=YUN_gong_zizhi
+		portraits={
+			civilian={
+				small=GFX_idea_YUN_gong_zizhi
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = gong_zizhi
+			allowed = {
+				original_tag = YUN
+			}
+			traits = {
+				education_reformer
+			}
+		}
+	}
+	YUN_lu_chongren={
+		name=YUN_lu_chongren
+		portraits={
+			civilian={
+				small=GFX_idea_YUN_lu_chongren
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = lu_chongren
+			allowed = {
+				original_tag = YUN
+			}
+			traits = {
+				economist
+			}
+		}
+	}
+	YUN_yunnan_security={
+		name=YUN_yunnan_security
+		portraits={
+			civilian={
+				small=GFX_idea_Joint_security
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = yunnan_security
+			available = {
+				has_intelligence_agency = yes
+			}
+			allowed = {
+				original_tag = YUN
+				has_dlc = "La Resistance" 
+			}
+			traits = {
+				head_of_intelligence
+			}
+		}
+	}
+	
+	### 이론가 ###
+	YUN_ma_ying = {
+		name=YUN_ma_ying
+		portraits={
+			army={
+				small=GFX_idea_YUN_ma_ying
+			}
+		}
+		advisor={
+			cost = 100
+			slot = theorist
+			idea_token = ma_ying
+			ledger = army
+		    allowed = {
+		    	original_tag = YUN
+		    }
+		    traits = {
+				military_theorist
+			}
+		}
+	}
+	YUN_yunnan_navy_research={
+		name=YUN_yunnan_navy_research
+		portraits={
+			army={
+				small=GFX_idea_Joint_navy_research
+			}
+		}
+		advisor={
+			cost = 100
+			slot = theorist
+			idea_token = yunnan_navy_research
+			ledger = navy
+			allowed = {
+				original_tag = YUN
+			}
+			traits = {
+				naval_theorist
+			}
+		}
+	}
+	YUN_yunnan_air_research={
+		name=YUN_yunnan_air_research
+		portraits={
+			army={
+				small=GFX_idea_Joint_air_research
+			}
+		}
+		advisor={
+			cost = 100
+			slot = theorist
+			idea_token = yunnan_air_research
+			ledger = air
+			allowed = {
+				original_tag = YUN
+			}
+			traits = {
+				air_warfare_theorist
+			}
+		}
+	}
+	
+	### 육군참모총장 ###
+	YUN_lu_han={
+		name=YUN_lu_han
+		portraits={
+			army={
+				small=GFX_idea_YUN_lu_han
+				large=GFX_portrait_YUN_lu_han2
+			}
+		}
+		advisor={
+			cost = 100
+			slot = army_chief
+			idea_token = lu_han
+	    	allowed = {
+	    		original_tag = YUN
+	    	}
+	    	traits = {
+				army_chief_maneuver_2
+			}
+	    	ai_will_do = {
+	    		factor = 1
+	    	}
+		}
+		corps_commander={
+			traits = {
+				career_officer
+				infantry_officer
+			}
+			skill = 3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	
+	### 해군참모총장 ###
+	YUN_yunnan_navy_department = {
+		name=YUN_yunnan_navy_department
+		portraits={
+			army={
+				small=GFX_idea_Joint_navy_department
+			}
+		}
+		advisor={
+			slot = navy_chief
+			idea_token = yunnan_navy_department
+		    allowed = {
+		    	original_tag = YUN
+	    	}
+		    traits = {
+				navy_chief_reform_1
+			}
+		    ai_will_do = {
+		    	factor = 1
+		    }
+		}
+	}
+	
+	### 공군참모총장 ###
+	YUN_liu_peiquan={
+		name=YUN_liu_peiquan
+		portraits={
+			army={
+				small=GFX_idea_YUN_liu_peiquan
+			}
+		}
+		advisor={		
+			slot = air_chief
+			idea_token = liu_peiquan
+			allowed = {
+				original_tag = YUN
+			}
+			traits = {
+				air_chief_reform_1
+			}
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+	
+	### 최고사령부 ###
+	YUN_sun_du = {
+		name=YUN_sun_du
+		portraits={
+			army={
+				large=GFX_portrait_YUN_sun_du
+				small=GFX_idea_YUN_sun_du
+			}
+		}
+		advisor={
+			cost = 100
+			slot = high_command
+			idea_token = sun_du
+			ledger = army
+		    allowed = {
+		    	original_tag = YUN
+		    }
+		    traits = {
+				army_infantry_2
+			}
+		}
+		corps_commander={
+			traits = {
+				#
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+	YUN_an_enpu = {
+		name=YUN_an_enpu
+		portraits={
+			army={
+				large=GFX_portrait_YUN_an_enpu
+				small=GFX_idea_YUN_an_enpu
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = an_enpu
+			ledger = army
+		    allowed = {
+		    	original_tag = YUN
+		    }
+		    traits = {
+				army_logistics_1
+			}
+		}
+		corps_commander={
+			traits = {
+				#
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+	YUN_lu_daoyuan = {
+		name=YUN_lu_daoyuan
+		portraits={
+			army={
+				large=GFX_portrait_YUN_lu_daoyuan
+				small=GFX_idea_YUN_lu_daoyuan
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = lu_daoyuan
+			ledger = army
+		    allowed = {
+		    	original_tag = YUN
+		    }
+		    traits = {
+				army_artillery_1
+			}
+		}
+		corps_commander={
+			traits = {
+				#
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+	YUN_zhang_chong = {
+		name=YUN_zhang_chong
+		portraits={
+			army={
+				small=GFX_idea_YUN_zhang_chong
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = zhang_chong
+			ledger = army
+		    allowed = {
+		    	original_tag = YUN
+		    }
+		    traits = {
+				army_entrenchment_1
+			}
+		}
+	}
+	YUN_gao_yinhuai = {
+		name=YUN_gao_yinhuai
+		portraits={
+			army={
+				small=GFX_idea_YUN_gao_yinhuai
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = gao_yinhuai
+			ledger = army
+		    allowed = {
+		    	original_tag = YUN
+		    }
+		    traits = {
+				army_regrouping_1
+			}
+		}
+	}
+}

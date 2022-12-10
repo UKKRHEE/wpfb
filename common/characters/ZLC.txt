@@ -362,23 +362,23 @@ characters={
 	}
 	
 	### 공군참모총장 ###
-	ZLC_gao_zhihang = {
-		name=ZLC_gao_zhihang
+	ZLC_ge_jingen = {
+		name=ZLC_ge_jingen
 		portraits={
 			army={
-				small=GFX_idea_ZLC_gao_zhihang
+				small=GFX_idea_ZLC_ge_jingen
 			}
 		}
 		advisor={
 			cost = 100
 			slot = air_chief
-			idea_token = gao_zhihang
+			idea_token = ge_jingen
 			
 	    	allowed = {
 		    	original_tag = ZLC
 		    }
 		    traits = {
-				air_chief_reform_2
+				air_chief_ground_support_2
 			}
 		    ai_will_do = {
 		    	factor = 1

@@ -1,4 +1,3 @@
-KOS	= "countries/Kosovo.txt"
 ###청국계###
 QIN = "countries/Qing.txt" #대청국
 

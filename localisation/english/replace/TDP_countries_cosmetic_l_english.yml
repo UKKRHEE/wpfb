@@ -1,4 +1,34 @@
 ﻿l_english:
+ #############
+ ### 국가형성 ###
+ #############
+ 
+ KOR_haedong_communism:0 "해동민주주의인민공화국"
+ KOR_haedong_communism_DEF:0 "해동민주주의인민공화국"
+ KOR_haedong_communism_ADJ:0 "해동"
+ KOR_haedong_democratic:0 "해동성국"
+ KOR_haedong_democratic_DEF:0 "해동성국"
+ KOR_haedong_democratic_ADJ:0 "해동"
+ KOR_haedong_fascism:0 "해동성국"
+ KOR_haedong_fascism_DEF:0 "해동성국"
+ KOR_haedong_fascism_ADJ:0 "해동"
+ KOR_haedong_neutrality:0 "해동성국"
+ KOR_haedong_neutrality_DEF:0 "해동성국"
+ KOR_haedong_neutrality_ADJ:0 "해동"
+ 
+ KOR_JAP_dual_communism:0 "대한-일본 사회주의 연방공화국"
+ KOR_JAP_dual_communism_DEF:0 "대한-일본 사회주의 연방공화국"
+ KOR_JAP_dual_communism_ADJ:0 "한일"
+ KOR_JAP_dual_democratic:0 "대한-일본 이중군주국"
+ KOR_JAP_dual_democratic_DEF:0 "대한-일본 이중군주국"
+ KOR_JAP_dual_democratic_ADJ:0 "한일"
+ KOR_JAP_dual_fascism:0 "대한-일본 제국"
+ KOR_JAP_dual_fascism_DEF:0 "대한-일본 제국"
+ KOR_JAP_dual_fascism_ADJ:0 "한일"
+ KOR_JAP_dual_neutrality:0 "대한-일본 제국"
+ KOR_JAP_dual_neutrality_DEF:0 "대한-일본 제국"
+ KOR_JAP_dual_neutrality_ADJ:0 "한일"
+ 
  KOR_republic_communism:0 "조선인민공화국"
  KOR_republic_communism_DEF:0 "조선인민공화국"
  KOR_republic_communism_ADJ:0 "조선"
@@ -11,6 +41,19 @@
  KOR_republic_neutrality:0 "대한민국 군사정부"
  KOR_republic_neutrality_DEF:0 "대한민국 군사정부"
  KOR_republic_neutrality_ADJ:0 "한국"
+ 
+ JAP_KOR_dual_communism:0 "일본-대한 사회주의 연방공화국"
+ JAP_KOR_dual_communism_DEF:0 "일본-대한 사회주의 연방공화국"
+ JAP_KOR_dual_communism_ADJ:0 "일한"
+ JAP_KOR_dual_democratic:0 "일본-대한 이중군주국"
+ JAP_KOR_dual_democratic_DEF:0 "일본-대한 이중군주국"
+ JAP_KOR_dual_democratic_ADJ:0 "일한"
+ JAP_KOR_dual_fascism:0 "일본-대한 제국"
+ JAP_KOR_dual_fascism_DEF:0 "일본-대한 제국"
+ JAP_KOR_dual_fascism_ADJ:0 "일한"
+ JAP_KOR_dual_neutrality:0 "일본-대한 제국"
+ JAP_KOR_dual_neutrality_DEF:0 "일본-대한 제국"
+ JAP_KOR_dual_neutrality_ADJ:0 "일한"
  
  JAP_republic_communism:0 "일본인민공화국"
  JAP_republic_communism_DEF:0 "일본인민공화국"
@@ -25,8 +68,38 @@
  JAP_republic_neutrality_DEF:0 "일본 군사정부"
  JAP_republic_neutrality_ADJ:0 "일본"
  
- MON_QIN_communism_subject:0 "몽골 자치구"
- MON_QIN_communism_subject_DEF:0 "몽골 자치구"
+ CHI_federalist_communism:0 "중화사회주의합중국연방"
+ CHI_federalist_communism_DEF:0 "중화사회주의합중국연방"
+ CHI_federalist_communism_ADJ:0 "중련"
+ CHI_federalist_democratic:0 "중화합중국"
+ CHI_federalist_democratic_DEF:0 "중화합중국"
+ CHI_federalist_democratic_ADJ:0 "중화합중국"
+ CHI_federalist_fascism:0 "중화연방국"
+ CHI_federalist_fascism_DEF:0 "중화연방국"
+ CHI_federalist_fascism_ADJ:0 "중화연방국"
+ CHI_federalist_neutrality:0 "중화합중국"
+ CHI_federalist_neutrality_DEF:0 "중화합중국"
+ CHI_federalist_neutrality_ADJ:0 "중화합중국"
+ 
+ CHI_sinocentrism_communism:0 "대중화인민공화국"
+ CHI_sinocentrism_communism_DEF:0 "대중화인민공화국"
+ CHI_sinocentrism_communism_ADJ:0 "대중공"
+ CHI_sinocentrism_democratic:0 "대중화민국"
+ CHI_sinocentrism_democratic_DEF:0 "대중화민국"
+ CHI_sinocentrism_democratic_ADJ:0 "대중국"
+ CHI_sinocentrism_fascism:0 "대중화민국"
+ CHI_sinocentrism_fascism_DEF:0 "대중화민국"
+ CHI_sinocentrism_fascism_ADJ:0 "대중국"
+ CHI_sinocentrism_neutrality:0 "대중화민국"
+ CHI_sinocentrism_neutrality_DEF:0 "대중화민국"
+ CHI_sinocentrism_neutrality_ADJ:0 "대중국"
+ 
+ #############
+ ### 청나라ㅡ ###
+ #############
+ 
+ MON_QIN_communism_subject:0 "몽골 자치공화국"
+ MON_QIN_communism_subject_DEF:0 "몽골 자치공화국"
  MON_QIN_communism_subject_ADJ:0 "몽골"
  MON_QIN_democratic_subject:0 "몽골 자치령"
  MON_QIN_democratic_subject_DEF:0 "몽골 자치령"
@@ -38,9 +111,9 @@
  MON_QIN_neutrality_subject_DEF:0 "외몽골"
  MON_QIN_neutrality_subject_ADJ:0 "몽골"
  
- SIK_QIN_communism_subject:0 "신장 위구르 자치구"
- SIK_QIN_communism_subject_DEF:0 "신장 위구르 자치구"
- SIK_QIN_communism_subject_ADJ:0 "신장"
+ SIK_QIN_communism_subject:0 "동튀르키스탄 자치공화국"
+ SIK_QIN_communism_subject_DEF:0 "동튀르키스탄 자치공화국"
+ SIK_QIN_communism_subject_ADJ:0 "동튀르키스탄"
  SIK_QIN_democratic_subject:0 "동튀르키스탄 자치령"
  SIK_QIN_democratic_subject_DEF:0 "동튀르키스탄 자치령"
  SIK_QIN_democratic_subject_ADJ:0 "동튀르키스탄"
@@ -51,8 +124,8 @@
  SIK_QIN_neutrality_subject_DEF:0 "신강성"
  SIK_QIN_neutrality_subject_ADJ:0 "신강성"
  
- TIB_QIN_communism_subject:0 "티베트 자치구"
- TIB_QIN_communism_subject_DEF:0 "티베트 자치구"
+ TIB_QIN_communism_subject:0 "티베트 자치공화국"
+ TIB_QIN_communism_subject_DEF:0 "티베트 자치공화국"
  TIB_QIN_communism_subject_ADJ:0 "티베트"
  TIB_QIN_democratic_subject:0 "티베트 자치령"
  TIB_QIN_democratic_subject_DEF:0 "티베트 자치령"
@@ -63,3 +136,76 @@
  TIB_QIN_neutrality_subject:0 "티베트"
  TIB_QIN_neutrality_subject_DEF:0 "티베트"
  TIB_QIN_neutrality_subject_ADJ:0 "티베트"
+ 
+ #############
+ ### 국민당ㅡ ###
+ #############
+ 
+ ZLC_autonomy:0 "즈리 자치구"
+ ZLC_autonomy_DEF:0 "즈리 자치구"
+ ZLC_autonomy_ADJ:0 "즈리 자치구"
+ 
+ NJC_autonomy:0 "장난 자치구"
+ NJC_autonomy_DEF:0 "장난 자치구"
+ NJC_autonomy_ADJ:0 "장난 자치구"
+ 
+ GXC_autonomy:0 "광시 자치구"
+ GXC_autonomy_DEF:0 "광시 자치구"
+ GXC_autonomy_ADJ:0 "광시 자치구"
+ 
+ SCC_autonomy:0 "쓰촨 자치구"
+ SCC_autonomy_DEF:0 "쓰촨 자치구"
+ SCC_autonomy_ADJ:0 "쓰촨 자치구"
+ 
+ YUN_autonomy:0 "윈난 자치구"
+ YUN_autonomy_DEF:0 "윈난 자치구"
+ YUN_autonomy_ADJ:0 "윈난 자치구"
+ 
+ HNC_autonomy:0 "후난 자치구"
+ HNC_autonomy_DEF:0 "후난 자치구"
+ HNC_autonomy_ADJ:0 "후난 자치구"
+ 
+ SHX_autonomy:0 "산시 자치구"
+ SHX_autonomy_DEF:0 "산시 자치구"
+ SHX_autonomy_ADJ:0 "산시 자치구"
+ 
+ XSM_autonomy:0 "후이장 자치구"
+ XSM_autonomy_DEF:0 "후이장 자치구"
+ XSM_autonomy_ADJ:0 "후이장 자치구"
+ 
+ #############
+ ### 치공당ㅡ ###
+ #############
+ 
+ ZLC_federalist:0 "즈리 자치성"
+ ZLC_federalist_DEF:0 "즈리 자치성"
+ ZLC_federalist_ADJ:0 "즈리 자치성"
+ 
+ NJC_federalist:0 "장난 자치성"
+ NJC_federalist_DEF:0 "장난 자치성"
+ NJC_federalist_ADJ:0 "장난 자치성"
+ 
+ GXC_federalist:0 "광시 자치성"
+ GXC_federalist_DEF:0 "광시 자치성"
+ GXC_federalist_ADJ:0 "광시 자치성"
+ 
+ SCC_federalist:0 "쓰촨 자치성"
+ SCC_federalist_DEF:0 "쓰촨 자치성"
+ SCC_federalist_ADJ:0 "쓰촨 자치성"
+ 
+ YUN_federalist:0 "윈난 자치성"
+ YUN_federalist_DEF:0 "윈난 자치성"
+ YUN_federalist_ADJ:0 "윈난 자치성"
+ 
+ HNC_federalist:0 "후난 자치성"
+ HNC_federalist_DEF:0 "후난 자치성"
+ HNC_federalist_ADJ:0 "후난 자치성"
+ 
+ SHX_federalist:0 "산시 자치성"
+ SHX_federalist_DEF:0 "산시 자치성"
+ SHX_federalist_ADJ:0 "산시 자치성"
+ 
+ XSM_federalist:0 "후이장 자치성"
+ XSM_federalist_DEF:0 "후이장 자치성"
+ XSM_federalist_ADJ:0 "후이장 자치성"
+ 

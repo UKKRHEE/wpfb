@@ -124,7 +124,7 @@ recruit_character = ZLC_sa_zhenbing
 recruit_character = ZLC_wu_renli
 
 ### 공군참모총장 ###
-recruit_character = ZLC_gao_zhihang
+recruit_character = ZLC_ge_jingen
 
 ### 최고사령부 ###
 recruit_character = ZLC_cai_chengxun

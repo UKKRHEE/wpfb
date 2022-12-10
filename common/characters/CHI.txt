@@ -1,0 +1,904 @@
+characters={
+	### 지도자 ###
+	CHI_ccp={
+		name=CHI_ccp
+		portraits={
+			civilian={
+				large=GFX_portrait_China_ccp
+			}
+		}
+		country_leader={
+			ideology=marxism
+			traits={ }
+			expire="1960.1.1.1"
+			id=-1
+		}
+	}
+	CHI_wang_jingwei={
+		name=CHI_wang_jingwei
+		portraits={
+			civilian={
+				large="GFX_portrait_chi_wang_jingwei"
+			}
+		}
+		country_leader={
+			ideology=socialism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	CHI_dai_li={
+		name=CHI_dai_li
+		portraits={
+			army={
+				large=GFX_portrait_CHI_dai_li
+				small=GFX_idea_CHI_dai_li
+			}
+		}
+		country_leader={
+			ideology=fascism_ideology
+			expire="1965.1.1.1"
+			id=-1
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = dai_li
+			available = {
+				has_intelligence_agency = yes
+			}
+			allowed = {
+				original_tag = CHI
+				has_dlc = "La Resistance" 
+			}
+			traits = {
+				head_of_intelligence
+			}
+		}
+	}
+	CHI_chiang_kaishek={
+		name=CHI_chiang_kaishek
+		portraits={
+			civilian={
+				large=GFX_portrait_CHI_chiang_kaishek
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={ generallissimo }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	
+	### 정치고문 ###
+	CHI_soong_mei_ling={
+		name=CHI_soong_mei_ling
+		portraits={
+			civilian={
+				small="GFX_idea_CHI_soong_mei_ling"
+			}
+		}
+		gender = female
+		advisor={
+			slot = political_advisor
+			idea_token = soong_mei_ling
+			available  = {
+				has_country_leader  = {
+					ruling_only  = yes 
+					character  = CHI_chiang_kaishek
+				}
+			}
+			allowed  = {
+				original_tag  = CHI
+				has_dlc = "Waking the Tiger"
+			}
+			traits  = {
+				first_lady 
+			}
+		}
+	}
+	CHI_lin_sen={
+		name=CHI_lin_sen
+		portraits={
+			civilian={
+				small="GFX_idea_CHI_lin_sen"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = lin_sen
+			allowed  = {
+				original_tag  = CHI
+				has_dlc = "Waking the Tiger"
+			}
+			traits  = {
+				popular_figurehead 
+			}
+		}
+	}
+	CHI_t_v_soong={
+		name=CHI_t_v_soong
+		portraits={
+			civilian={
+				small="GFX_idea_CHI_t_v_soong"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = t_v_soong
+			allowed  = {
+				original_tag  = CHI
+			}
+			traits  = {
+				financial_expert 
+			}
+		}
+	}
+	CHI_h_h_kung={
+		name = CHI_h_h_kung
+		portraits = {
+			civilian = {
+				small = "GFX_idea_CHI_h_h_kung"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = CHI_h_h_kung
+			allowed  = {
+				original_tag  = CHI
+			}
+			traits  = {
+				captain_of_industry 
+			}
+		}
+	}
+	CHI_sun_fo={
+		name=CHI_sun_fo
+		portraits={
+			civilian={
+				small=GFX_idea_CHI_sun_fo
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = sun_fo
+			allowed  = {
+				original_tag  = CHI
+			}
+			traits  = {
+				compassionate_gentleman 
+			}
+		}
+	}
+	CHI_zhang_qun={
+		name=CHI_zhang_qun
+		portraits={
+			civilian={
+				small=GFX_idea_CHI_zhang_qun
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = zhang_qun
+			allowed  = {
+				original_tag  = CHI
+			}
+			traits  = {
+				silent_workhorse 
+			}
+		}
+	}
+	CHI_chen_lifu={
+		name=CHI_chen_lifu
+		portraits={
+			civilian={
+				small=GFX_idea_CHI_chen_lifu
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = chen_lifu
+			allowed  = {
+				original_tag  = CHI
+			}
+			traits  = {
+				backroom_backstabber 
+			}
+		}
+	}
+	CHI_zhang_naiqi={
+		name=CHI_zhang_naiqi
+		portraits={
+			civilian={
+				small=GFX_idea_CHI_zhang_naiqi
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = zhang_naiqi
+			available = {
+				NOT = {
+					has_country_leader = {
+						character = CHI_chiang_kaishek
+						ruling_only = yes 
+					}
+				}
+			}
+			allowed  = {
+				original_tag  = CHI
+			}
+			traits  = {
+				 resistance_banker
+			}
+		}
+	}
+	CHI_zou_taofen={
+		name=CHI_zou_taofen
+		portraits={
+			civilian={
+				small=GFX_idea_CHI_zou_taofen
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = zou_taofen
+			available = {
+				NOT = {
+					has_country_leader = {
+						character = CHI_chiang_kaishek
+						ruling_only = yes 
+					}
+				}
+			}
+			allowed  = {
+				original_tag  = CHI
+			}
+			traits  = {
+				 liberal_journalist
+			}
+		}
+	}
+	CHI_shi_liang={
+		name=CHI_shi_liang
+		portraits={
+			civilian={
+				small=GFX_idea_CHI_shi_liang
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = shi_liang
+			available = {
+				NOT = {
+					has_country_leader = {
+						character = CHI_chiang_kaishek
+						ruling_only = yes 
+					}
+				}
+			}
+			allowed  = {
+				original_tag  = CHI
+			}
+			traits  = {
+				 sharp_tongued_lawyer
+			}
+		}
+	}
+	
+	### 이론가 ###
+	CHI_xiong_shihui={
+		name=CHI_xiong_shihui
+		portraits={
+			army={
+				small=GFX_idea_CHI_xiong_shihui
+			}
+		}
+		advisor={
+			cost = 100			
+			slot = theorist
+			idea_token = xiong_shihui
+			ledger = army
+			allowed = {
+				original_tag = CHI
+			}
+			traits = {
+				military_theorist
+			}
+		}
+	}
+	CHI_gui_yongqing={
+		name=CHI_gui_yongqing
+		portraits={
+			army={
+				small=GFX_idea_CHI_gui_yongqing
+			}
+		}
+		advisor={
+			cost = 100
+			slot = theorist
+			idea_token = gui_yongqing
+			ledger = navy
+			allowed = {
+				original_tag = CHI
+			}
+			traits = {
+				naval_theorist
+			}
+		}
+	}
+	CHI_huang_bingheng={
+		name=CHI_huang_bingheng
+		portraits={
+			army={
+				small=GFX_idea_CHI_huang_bingheng
+			}
+		}
+		advisor={
+			cost = 100		
+			slot = theorist
+			idea_token = huang_bingheng
+			ledger = air
+			allowed = {
+				original_tag = CHI
+			}
+			traits = {
+				air_warfare_theorist
+			}
+		}
+	}
+	CHI_wu_dayou={
+		name=CHI_wu_dayou
+		portraits={
+			army={
+				small=GFX_idea_CHI_wu_dayou
+			}
+		}
+		advisor={
+			cost = 100		
+			slot = theorist
+			idea_token = wu_dayou
+			ledger = air
+			allowed = {
+				original_tag = CHI
+			}
+			research_bonus = {
+				nuclear = 0.10
+			}
+			traits = {
+				nuclear_scientist
+			}
+		}
+	}
+	
+	### 육군참모총장 ###
+	CHI_he_yingqin={
+		name=CHI_he_yingqin
+		portraits={
+			army={
+				large=GFX_portrait_chi_he_yingqin
+				small="GFX_idea_CHI_he_yingqin"
+			}
+		}
+		advisor={	
+			cost = 200
+			slot = army_chief
+			idea_token = he_yingqin
+			allowed = {
+				original_tag = CHI
+			}
+			traits = {
+				army_chief_organizational_3
+			}
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+		field_marshal={
+			traits = {
+				politically_connected
+				organizer
+			}
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id=-1
+		}
+	}
+	CHI_zhu_peide={
+		name=CHI_zhu_peide
+		portraits={
+			army={
+				small=GFX_idea_CHI_zhu_peide
+			}
+		}
+		advisor={
+			slot = army_chief
+			idea_token = zhu_peide
+			allowed = {
+				original_tag = CHI
+			}
+			traits = {
+				army_chief_drill_1
+			}
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+	CHI_cheng_qian={
+		name = CHI_cheng_qian
+		portraits={
+			army={
+				large=GFX_portrait_CHI_cheng_qian
+				small=GFX_idea_CHI_cheng_qian
+			}
+		}
+		advisor={	
+			cost = 100
+			slot = army_chief
+			idea_token = cheng_qian
+			allowed = {
+				original_tag = CHI
+			}
+			traits = {
+				army_chief_planning_2
+			}
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+		field_marshal={
+			traits = {
+				war_hero
+			}
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+	CHI_chen_cheng={
+		name=CHI_chen_cheng
+		portraits={
+			army={
+				large=GFX_portrait_CHI_chen_cheng
+				small="GFX_idea_CHI_chen_cheng"
+			}
+		}
+		advisor={	
+			cost = 200
+			slot = army_chief
+			idea_token = chen_cheng
+			allowed = {
+				original_tag = CHI
+			}
+			traits = {
+				army_chief_reform_3
+			}
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+		corps_commander={
+			traits = {
+				politically_connected
+				infantry_officer
+			}
+			skill=3
+			attack_skill=2
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=4
+			legacy_id=-1
+		}
+	}
+	
+	### 해군참모총장 ###
+	CHI_chen_shaokuan={
+		name=CHI_chen_shaokuan
+		portraits={
+			army={
+				large=GFX_portrait_CHI_chen_shaokuan
+				small=GFX_idea_CHI_chen_shaokuan
+			}
+		}
+		advisor={
+			cost = 100
+			slot = navy_chief
+			idea_token = CHI_chen_shaokuan
+			allowed = {
+				original_tag = CHI
+			}
+			traits = {
+				navy_chief_decisive_battle_2
+			}
+			ai_will_do = {
+				factor = 0.200
+			}
+		}
+		navy_leader={
+			traits = {
+				navy_media_personality
+				naval_lineage
+			}
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			maneuvering_skill = 2
+			coordination_skill = 3
+			legacy_id=-1
+		}
+	}
+	
+	### 공군참모총장 ###
+	CHI_wang_shuming={
+		name=CHI_wang_shuming
+		portraits={
+			army={
+				small="GFX_idea_CHI_wang_shuming"
+			}
+		}
+		advisor={
+			cost = 100
+			slot = air_chief
+			idea_token = wang_shuming
+			allowed = {
+				original_tag = CHI
+			}
+			traits = {
+				air_chief_ground_support_2
+			}
+			ai_will_do = {
+				factor = 0.500
+			}
+		}
+	}
+
+	### 최고사령부 ###
+	CHI_gu_zhutong={
+		name=CHI_gu_zhutong
+		portraits={
+			army={
+				large="GFX_portrait_chi_gu_zhutong"
+				small="GFX_idea_CHI_gu_zhutong"
+			}
+		}
+		advisor={	
+			cost = 100
+			slot = high_command
+			idea_token = gu_zhutong
+			ledger = army
+			allowed = {
+				original_tag = CHI
+			}
+			traits = {
+				army_commando_2
+			}
+			ai_will_do = {
+				factor = 2.000
+			}
+		}
+		field_marshal={
+			traits = {
+				politically_connected
+			}
+			skill=3
+			attack_skill=2
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	CHI_wei_lihuang={
+		name=CHI_wei_lihuang
+		portraits={
+			army={
+				large="GFX_portrait_chi_wei_lihuang"
+				small="GFX_idea_CHI_wei_lihuang"
+			}
+		}
+		advisor={	
+			cost = 100
+			slot = high_command
+			idea_token = wei_lihuang
+			ledger = army
+			allowed = {
+				original_tag = CHI
+			}
+			traits = {
+				army_entrenchment_2
+			}
+			ai_will_do = {
+				factor = 2.000
+			}
+		}
+		corps_commander={
+			traits = {
+				career_officer
+				infantry_officer
+			}
+			skill=3
+			attack_skill=3
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	CHI_tu_yuming={
+		name=CHI_tu_yuming
+		portraits={
+			army={
+				large="GFX_portrait_chi_du_yuming"
+				small="GFX_idea_CHI_du_yuming"
+			}
+		}
+		advisor={	
+			cost = 100
+			slot = high_command
+			idea_token = tu_yuming
+			ledger = army
+			allowed = {
+				original_tag = CHI
+			}
+			traits = {
+				army_armored_2
+			}
+			ai_will_do = {
+				factor = 2.000
+			}
+		}
+		corps_commander={
+			traits = {
+				trait_cautious
+				harsh_leader
+				armor_officer
+			}
+			skill=4
+			attack_skill=4
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	CHI_wang_yaowu={
+		name=CHI_wang_yaowu
+		portraits={
+			army={
+				large="GFX_portrait_chi_wang_yaowu"
+				small="GFX_idea_CHI_wang_yaowu"
+			}
+		}
+		advisor={	
+			cost = 100
+			slot = high_command
+			idea_token = wang_yaowu
+			ledger = army
+			allowed = {
+				original_tag = CHI
+			}
+			traits = {
+				army_artillery_2
+			}
+			ai_will_do = {
+				factor = 2.000
+			}
+		}
+		corps_commander={
+			traits = {
+				infantry_officer
+			}
+			skill=3
+			attack_skill=3
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	CHI_huang_zhenqiu={
+		name=CHI_huang_zhenqiu
+		portraits={
+			army={
+				small=GFX_idea_CHI_huang_zhenqiu
+			}
+		}
+		advisor={	
+			cost = 100
+			slot = high_command
+			idea_token = huang_zhenqiu
+			ledger = army
+			allowed = {
+				original_tag = CHI
+			}
+			traits = {
+				army_concealment_2
+			}
+			ai_will_do = {
+				factor = 2.000
+			}
+		}
+	}
+	CHI_chen_jiliang={
+		name=CHI_chen_jiliang
+		portraits={
+			army={
+				large=GFX_portrait_CHI_chen_jiliang
+				small=GFX_idea_CHI_chen_jiliang
+			}
+		}
+		advisor={
+			cost = 100
+			slot = high_command
+			idea_token = chen_jiliang
+			ledger = navy
+	    	allowed = {
+	    		original_tag = CHI
+	    	}
+	    	traits = {
+				navy_capital_ship_2
+			}
+	    	ai_will_do = {
+	    		factor = 1
+	    	}
+		}
+		navy_leader={
+			traits = {
+				bold
+				naval_lineage
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 3
+			maneuvering_skill = 2
+			coordination_skill = 2
+			legacy_id=-1
+		}
+	}
+	CHI_chan_chak={
+		name=CHI_chan_chak
+		portraits={
+			army={
+				large=GFX_portrait_CHI_chan_chak
+				small=GFX_idea_CHI_chan_chak
+			}
+		}
+		advisor={
+			cost = 100
+			slot = high_command
+			idea_token = chan_chak
+			ledger = navy
+	    	allowed = {
+	    		original_tag = CHI
+	    	}
+	    	traits = {
+				navy_screen_2
+			}
+	    	ai_will_do = {
+	    		factor = 1
+	    	}
+		}
+		navy_leader={
+			traits = {
+				bold
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			maneuvering_skill = 3
+			coordination_skill = 2
+			legacy_id=-1
+		}
+	}
+	CHI_mao_bangchu = {
+		name=CHI_mao_bangchu
+		portraits={
+			army={
+				small=GFX_idea_CHI_mao_bangchu
+			}
+		}
+		advisor={
+			cost = 100
+			slot = high_command
+			idea_token = mao_bangchu
+			ledger = air
+		    allowed = {
+		    	original_tag = CHI
+		    }
+		    traits = {
+				air_close_air_support_2
+			}
+		    ai_will_do = {
+		    	factor = 1
+	    	}
+		}
+	}
+	
+	### 육군 장성 ###
+	CHI_hu_zongnan={
+		name=CHI_hu_zongnan
+		portraits={
+			army={
+				large="GFX_portrait_chi_hu_zongnan"
+				small="GFX_idea_CHI_hu_zongnan"
+			}
+		}
+		corps_commander={
+			traits = {
+				infantry_officer
+			}
+			skill=3
+			attack_skill=2
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	CHI_hsueh_yueh={
+		name=CHI_hsueh_yueh
+		portraits={
+			army={
+				large="GFX_portrait_chi_xue_yue"
+				small="GFX_idea_CHI_xue_yue"
+			}
+		}
+		corps_commander={
+			traits = {
+				career_officer
+				infantry_officer
+			}
+			skill=3
+			attack_skill=4
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	CHI_zhang_fakui={
+		name=CHI_zhang_fakui
+		portraits={
+			army={
+				large=GFX_portrait_CHI_zhang_fakui
+			}
+		}
+		corps_commander={
+			traits = {
+				career_officer
+				infantry_officer
+			}
+			skill=3
+			attack_skill=3
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	CHI_zhang_zhizhong={
+		name=CHI_zhang_zhizhong
+		portraits={
+			army={
+				large=GFX_portrait_CHI_zhang_zhizhong
+			}
+		}
+		corps_commander={
+			traits = {
+				career_officer
+			}
+			skill=3
+			attack_skill=2
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+}
