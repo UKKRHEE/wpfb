@@ -16,10 +16,13 @@
 
 is_independent_china_or_warlord = { #Does not include sinkiang
 	OR = {
+		tag = ZLC
 		tag = CHI
-		tag = PRC
+		tag = NJC
 		tag = GXC
+		tag = SCC
 		tag = YUN
+		tag = HNC
 		tag = SHX
 		tag = XSM
 	}
@@ -63,10 +66,13 @@ has_hyper_inflation = {
 
 is_literally_china = {
 	OR = {
+		original_tag = ZLC
 		original_tag = CHI
-		original_tag = PRC
+		original_tag = NJC
 		original_tag = GXC
+		original_tag = SCC
 		original_tag = YUN
+		original_tag = HNC
 		original_tag = SHX
 		original_tag = XSM
 	}
@@ -74,8 +80,11 @@ is_literally_china = {
 
 is_chinese_warlord = {
 	OR = {		
+		original_tag = NJC
 		original_tag = GXC
+		original_tag = SCC
 		original_tag = YUN
+		original_tag = HNC
 		original_tag = SHX
 		original_tag = XSM
 	}

@@ -1,0 +1,53 @@
+﻿l_english:
+ #############
+ ### 중국공용 ###
+ #############
+ 
+ ### 중국공용 전차 ###
+ qishuyan_locomotive_works:0 "척서언기관차차량공창"
+ hip_tung_wo_machinery_factory:0 "협동화기계창"
+ chongqing_tank_plant:0 "중경전차공장"
+ 
+ ### 중국공용 함정 ###
+ yingkou_naval_yard:0 "영구조선소"
+ china_merchants_steam_navigation_company:0 "중국기선초상국"
+ jiangnan_shipyard:0 "강남조선창"
+ whampoa_dock_company:0 "황포조선공사"
+ minsheng_shipping:0 "민생해운"
+ 
+ ### 중국공용 항공기 ###
+ dongbei_airplane_manufacturing_company:0 "동북비기제조창"
+ manchuria_aviation_company:0 "만주항공공업"
+ china_national_aviation_corporation:0 "중국항공공사"
+ liuzhou_aviation_machinery_factory:0 "유주항공기계창"
+ nanchuan_aircraft_manufacturing_plant:0 "남천비기제조창"
+ 
+ ### 중국공용 군수품 ###
+ shenyang_arsenal:0 "심양병공창"
+ dadong_artillery_complex:0 "대동복합화포창"
+ gongxian_arsenal:0 "공현병공창"
+ hanyang_arsenal:0 "한양병공창"
+ guangdong_arsenal:0 "광동병공창"
+ chongqing_arsenal:0 "중경병공창"
+ hejiang_artillery_arsenal:0 "합강화포창"
+ kunming_arsenal:0 "곤명병공창"
+ yunnan_machine_bureau:0 "운남기기국"
+ hengyang_arsernal:0 "형양병공창"
+ zhuzhou_artillery_technical_research_division:0 "주주포병기술연구처"
+ gansu_manufacturing_bureau:0 "감숙기기국"
+ lanzhou_arsenal:0 "난주병공창"
+ jingling_arsenal:0 "금릉병공창"
+ 
+ ### 중국공용 산업 ###
+ anshan_iron_steel:0 "안산철강"
+ south_manchuria_railway:0 "남만주철도주식회사"
+ kaiping_mines:0 "개평광업소"
+ zhejiang_iron_works:0 "절강제철소"
+ guangzhou_cement_factory:0 "광주민토창"
+ yueshen_electric_light_company:0 "월신전등공사"
+ chongqing_electric_steel_refinery:0 "중경전기철강정제소"
+ chengdu_machine_bureau:0 "성도기기국"
+ tianfu_mines:0 "톈푸 광산"
+ yumen_oil:0 "위먼 유전"
+ lanzhou_general_machinery_plant:0 "난주통용기계창"
+ 

@@ -1,0 +1,163 @@
+spriteTypes = {
+	#############
+	### 중국공용 ###
+	#############
+	
+	### 전차 ###
+	spriteType = {
+		name = "GFX_idea_qishuyan_locomotive_works"
+		texturefile = "gfx/interface/companies/China/qishuyan_locomotive_works.png"
+	}	
+	spriteType = {
+		name = "GFX_idea_hip_tung_wo_machinery_factory"
+		texturefile = "gfx/interface/companies/China/hip_tung_wo_machinery_factory.png"
+	}
+	spriteType = {
+		name = "GFX_idea_chongqing_tank_plant"
+		texturefile = "gfx/interface/companies/China/chongqing_tank_plant.png"
+	}
+	
+	### 함정 ###
+	spriteType = {
+		name = "GFX_idea_yingkou_naval_yard"
+		texturefile = "gfx/interface/companies/China/yingkou_naval_yard.png"
+	}
+	spriteType = {
+		name = "GFX_idea_china_merchants_steam_navigation_company"
+		texturefile = "gfx/interface/companies/China/china_merchants_steam_navigation_company.png"
+	}
+	spriteType = {
+		name = "GFX_idea_whampoa_dock_company"
+		texturefile = "gfx/interface/companies/China/whampoa_dock_company.png"
+	}
+	spriteType = {
+		name = "GFX_idea_minsheng_shipping"
+		texturefile = "gfx/interface/companies/China/minsheng_shipping.png"
+	}
+	
+	### 항공기 ###
+	spriteType = {
+		name = "GFX_idea_dongbei_airplane_manufacturing_company"
+		texturefile = "gfx/interface/companies/China/dongbei_airplane_manufacturing_company.png"
+	}
+	spriteType = {
+		name = "GFX_idea_manchuria_aviation_company"
+		texturefile = "gfx/interface/companies/China/manchuria_aviation_company.png"
+	}
+	spriteType = {
+		name = "GFX_idea_china_national_aviation_corporation"
+		texturefile = "gfx/interface/companies/China/china_national_aviation_corporation.png"
+	}
+	spriteType = {
+		name = "GFX_idea_liuzhou_aviation_machinery_factory"
+		texturefile = "gfx/interface/companies/China/liuzhou_aviation_machinery_factory.png"
+	}
+	spriteType = {
+		name = "GFX_idea_nanchuan_aircraft_manufacturing_plant"
+		texturefile = "gfx/interface/companies/China/nanchuan_aircraft_manufacturing_plant.png"
+	}
+	
+	### 군수품 ###
+	spriteType = {
+		name = "GFX_idea_shenyang_arsenal"
+		texturefile = "gfx/interface/companies/China/shenyang_arsenal.png"
+	}
+	spriteType = {
+		name = "GFX_idea_dadong_artillery_complex"
+		texturefile = "gfx/interface/companies/China/dadong_artillery_complex.png"
+	}
+	spriteType = {
+		name = "GFX_idea_gongxian_arsenal"
+		texturefile = "gfx/interface/companies/China/gongxian_arsenal.png"
+	}
+	spriteType = {
+		name = "GFX_idea_hanyang_arsenal"
+		texturefile = "gfx/interface/companies/China/hanyang_arsenal.png"
+	}
+	spriteType = {
+		name = "GFX_idea_guangdong_arsenal"
+		texturefile = "gfx/interface/companies/China/guangdong_arsenal.png"
+	}
+	spriteType = {
+		name = "GFX_idea_chongqing_arsenal"
+		texturefile = "gfx/interface/companies/China/chongqing_arsenal.png"
+	}
+	spriteType = {
+		name = "GFX_idea_hejiang_artillery_arsenal"
+		texturefile = "gfx/interface/companies/China/hejiang_artillery_arsenal.png"
+	}
+	spriteType = {
+		name = "GFX_idea_kunming_arsenal"
+		texturefile = "gfx/interface/companies/China/kunming_arsenal.png"
+	}
+	spriteType = {
+		name = "GFX_idea_yunnan_machine_bureau"
+		texturefile = "gfx/interface/companies/China/yunnan_machine_bureau.png"
+	}
+	spriteType = {
+		name = "GFX_idea_hengyang_arsernal"
+		texturefile = "gfx/interface/companies/China/hengyang_arsernal.png"
+	}
+	spriteType = {
+		name = "GFX_idea_zhuzhou_artillery_technical_research_division"
+		texturefile = "gfx/interface/companies/China/zhuzhou_artillery_technical_research_division.png"
+	}
+	spriteType = {
+		name = "GFX_idea_gansu_manufacturing_bureau"
+		texturefile = "gfx/interface/companies/China/gansu_manufacturing_bureau.png"
+	}
+	spriteType = {
+		name = "GFX_idea_lanzhou_arsenal"
+		texturefile = "gfx/interface/companies/China/lanzhou_arsenal.png"
+	}
+	spriteType = {
+		name = "GFX_idea_jingling_arsenal"
+		texturefile = "gfx/interface/companies/China/jingling_arsenal.png"
+	}
+	
+	### 산업 ###
+	spriteType = {
+		name = "GFX_idea_anshan_iron_steel"
+		texturefile = "gfx/interface/companies/China/anshan_iron_steel.png"
+	}
+	spriteType = {
+		name = "GFX_idea_south_manchuria_railway"
+		texturefile = "gfx/interface/companies/China/south_manchuria_railway.png"
+	}
+	spriteType = {
+		name = "GFX_idea_kaiping_mines"
+		texturefile = "gfx/interface/companies/China/kaiping_mines.png"
+	}
+	spriteType = {
+		name = "GFX_idea_zhejiang_iron_works"
+		texturefile = "gfx/interface/companies/China/zhejiang_iron_works.png"
+	}
+	spriteType = {
+		name = "GFX_idea_guangzhou_cement_factory"
+		texturefile = "gfx/interface/companies/China/guangzhou_cement_factory.png"
+	}
+	spriteType = {
+		name = "GFX_idea_yueshen_electric_light_company"
+		texturefile = "gfx/interface/companies/China/yueshen_electric_light_company.png"
+	}
+	spriteType = {
+		name = "GFX_idea_chongqing_electric_steel_refinery"
+		texturefile = "gfx/interface/companies/China/chongqing_electric_steel_refinery.png"
+	}
+	spriteType = {
+		name = "GFX_idea_chengdu_machine_bureau"
+		texturefile = "gfx/interface/companies/China/chengdu_machine_bureau.png"
+	}
+	spriteType = {
+		name = "GFX_idea_tianfu_mines"
+		texturefile = "gfx/interface/companies/China/tianfu_mines.png"
+	}
+	spriteType = {
+		name = "GFX_idea_yumen_oil"
+		texturefile = "gfx/interface/companies/China/yumen_oil.png"
+	}
+	spriteType = {
+		name = "GFX_idea_lanzhou_general_machinery_plant"
+		texturefile = "gfx/interface/companies/China/lanzhou_general_machinery_plant.png"
+	}
+}
