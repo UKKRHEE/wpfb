@@ -1,0 +1,152 @@
+﻿add_namespace = country_change
+
+country_event = {
+	id = country_change.1
+	title = country_change.1.t
+	desc = country_change.1.d
+
+	fire_only_once = yes
+	
+	trigger = {
+		has_government = communism
+		has_subject = KOR
+	}
+	
+	option = {
+		name = country_change.1.a
+		hidden_effect = {
+			if = {
+				limit = { has_subject = KOR }
+				set_autonomy = {
+					target = ROK
+					autonomy_state = autonomy_puppet
+				}
+			}
+			KOR = {
+				ROK = { transfer_technology = yes }
+			}
+			ROK = {
+				annex_country = {
+					target = KOR
+				}
+			}
+			ROK = {
+				country_event = { id = country_change.2 days = 1 }
+			}
+		}
+	}
+}
+
+country_event = {
+	id = country_change.2
+	title = country_change.2.t
+	desc = country_change.2.d
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = country_change.2.a 
+		hidden_effect = {
+			every_state = {
+				limit = {
+					is_core_of = KOR
+				}
+				add_core_of = ROK
+			}
+		}
+		#한성 => 서울
+		set_province_name = { id = 7125 name = "NEW_VICTORY_POINTS_7125" }
+	}
+}
+
+country_event = {
+	id = country_change.3
+	title = country_change.3.t
+	desc = country_change.3.d
+
+	fire_only_once = yes
+	
+	trigger = {
+		NOT = {
+			has_government = communism
+		}
+		has_subject = SOV
+	}
+	
+	option = {
+		name = country_change.3.a
+		hidden_effect = {
+			if = {
+				limit = { has_subject = SOV }
+				set_autonomy = {
+					target = RUS
+					autonomy_state = autonomy_puppet
+				}
+			}
+			SOV = {
+				RUS = { transfer_technology = yes }
+			}
+			RUS = {
+				annex_country = {
+					target = SOV
+				}
+			}
+			RUS = {
+				country_event = { id = country_change.4 days = 1 }
+			}
+		}
+	}
+}
+
+country_event = {
+	id = country_change.4
+	title = country_change.4.t
+	desc = country_change.4.d
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = country_change.4.a 
+		hidden_effect = {
+			every_state = {
+				limit = {
+					is_core_of = SOV
+				}
+				add_core_of = RUS
+			}
+		}
+		#레닌그라드 => 페트로그라드
+		195 = { set_state_name = "NEW_STATE_195" }
+		set_province_name = { id = 3151 name = "NEW_VICTORY_POINTS_3151" }	
+		#스탈리노 => 도네츠크
+		227 = { set_state_name = "NEW_STATE_227" }
+		set_province_name = { id = 6474 name = "NEW_VICTORY_POINTS_6474" }
+		#스탈린그라드 => 차리친
+		217 = { set_state_name = "NEW_STATE_217" }
+		set_province_name = { id = 3529 name = "NEW_VICTORY_POINTS_3529" }
+		#보로실로프그라드 => 루한스카
+		228 = { set_state_name = "NEW_STATE_228" }
+		set_province_name = { id = 9461 name = "NEW_VICTORY_POINTS_9461" }
+		#쿠이비셰프 => 사마라
+		251 = { set_state_name = "NEW_STATE_251" }
+		set_province_name = { id = 11225 name = "NEW_VICTORY_POINTS_11225" }
+		#스베르들롭스크 => 예카테린부르크
+		653 = { set_state_name = "NEW_STATE_653" }
+		set_province_name = { id = 1821 name = "NEW_VICTORY_POINTS_1821" }
+		#울리야놉스크 => 심비르스크
+		250 = { set_state_name = "NEW_STATE_250" }
+		set_province_name = { id = 392 name = "NEW_VICTORY_POINTS_392" }
+		#칼리닌 => 트베리
+		247 = { set_state_name = "NEW_STATE_247" }
+		set_province_name = { id = 6245 name = "NEW_VICTORY_POINTS_6245" }
+		#크라스노다르 => 예카테리노다르
+		234 = { set_state_name = "NEW_STATE_234" }
+		set_province_name = { id = 3734 name = "NEW_VICTORY_POINTS_3734" }
+		#키로프 =>뱟카
+		400 = { set_state_name = "NEW_STATE_400" }
+		#오르조니키제 => 블라디카프카스
+		set_province_name = { id = 9628 name = "NEW_VICTORY_POINTS_9628" }
+	}
+}

@@ -37,9 +37,6 @@ state={
 		victory_points = {
 			7071 1 
 		}
-		1929.6.21 = {
-			set_demilitarized_zone = yes
-		}
 		1938.10.25 = {
 			JAP = {
 				set_province_controller = 4196

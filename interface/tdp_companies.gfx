@@ -1,5 +1,39 @@
 spriteTypes = {
 	#############
+	### 대한제국 ###
+	#############
+	
+	### 전차 ###
+	spriteType = {
+		name = "GFX_idea_KOR_hyundai"
+		texturefile = "gfx/interface/companies/KOR/KOR_hyundai.png"
+	}
+	
+	### 함정 ###
+	spriteType = {
+		name = "GFX_idea_KOR_daewoo"
+		texturefile = "gfx/interface/companies/KOR/KOR_daewoo.png"
+	}
+	
+	### 항공기 ###
+	spriteType = {
+		name = "GFX_idea_KOR_samyang"
+		texturefile = "gfx/interface/companies/KOR/KOR_samyang.png"
+	}
+	
+	### 군수품 ###
+	spriteType = {
+		name = "GFX_idea_KOR_incheon"
+		texturefile = "gfx/interface/companies/KOR/KOR_incheon.png"
+	}
+	
+	### 산업 ###
+	spriteType = {
+		name = "GFX_idea_KOR_seoul_electric"
+		texturefile = "gfx/interface/companies/KOR/KOR_seoul_electric.png"
+	}
+	
+	#############
 	### 중국공용 ###
 	#############
 	
@@ -159,5 +193,105 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_lanzhou_general_machinery_plant"
 		texturefile = "gfx/interface/companies/China/lanzhou_general_machinery_plant.png"
+	}
+	
+	#############
+	### 러시아ㅡ ###
+	#############
+	
+	### 전차 ###
+	spriteType = {
+		name = "GFX_idea_RUS_uralmash"
+		texturefile = "gfx/interface/companies/RUS/RUS_uralmash.png"
+	}
+	spriteType = {
+		name = "GFX_idea_RUS_uralvagonzavod"
+		texturefile = "gfx/interface/companies/RUS/RUS_uralvagonzavod.png"
+	}
+	spriteType = {
+		name = "GFX_idea_RUS_chelyabinskiy_traktornyy"
+		texturefile = "gfx/interface/companies/RUS/RUS_chelyabinskiy_traktornyy.png"
+	}
+	spriteType = {
+		name = "GFX_idea_RUS_avtomobilnoe_moskovskoe"
+		texturefile = "gfx/interface/companies/RUS/RUS_avtomobilnoe_moskovskoe.png"
+	}
+	
+	### 함정 ###
+	spriteType = {
+		name = "GFX_idea_RUS_baltiysky_verfi"
+		texturefile = "gfx/interface/companies/RUS/RUS_baltiysky_verfi.png"
+	}
+	spriteType = {
+		name = "GFX_idea_RUS_admiralteiskie_verfi"
+		texturefile = "gfx/interface/companies/RUS/RUS_admiralteiskie_verfi.png"
+	}
+	
+	### 항공기 ###
+	spriteType = {
+		name = "GFX_idea_RUS_dux"
+		texturefile = "gfx/interface/companies/RUS/RUS_dux.png"
+	}
+	
+	### 군수품 ###
+	spriteType = {
+		name = "GFX_idea_RUS_izjevskij_mekhanitsjeskij"
+		texturefile = "gfx/interface/companies/RUS/RUS_izjevskij_mekhanitsjeskij.png"
+	}
+	spriteType = {
+		name = "GFX_idea_RUS_motovilikha"
+		texturefile = "gfx/interface/companies/RUS/RUS_motovilikha.png"
+	}
+	
+	### 산업 ###
+	spriteType = {
+		name = "GFX_idea_RUS_putilovsky"
+		texturefile = "gfx/interface/companies/RUS/RUS_putilovsky.png"
+	}
+	spriteType = {
+		name = "GFX_idea_RUS_oktava"
+		texturefile = "gfx/interface/companies/RUS/RUS_oktava.png"
+	}
+	
+	#############
+	### 시암왕국 ###
+	#############
+	
+	### 시암 ###
+	spriteType = {
+		name = "GFX_idea_SIA_state_railway"
+		texturefile = "gfx/interface/companies/SIA/SIA_state_railway.png"
+	}
+	
+	### 함정 ###
+	spriteType = {
+		name = "GFX_idea_SIA_bangkok_dock"
+		texturefile = "gfx/interface/companies/SIA/SIA_bangkok_dock.png"
+	}
+	
+	### 항공기 ###
+	spriteType = {
+		name = "GFX_idea_SIA_aeronautics"
+		texturefile = "gfx/interface/companies/SIA/SIA_aeronautics.png"
+	}
+	
+	### 군수품 ###
+	spriteType = {
+		name = "GFX_idea_SIA_small_arms"
+		texturefile = "gfx/interface/companies/SIA/SIA_small_arms.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SIA_military_explosives_factory"
+		texturefile = "gfx/interface/companies/SIA/SIA_military_explosives_factory.png"
+	}
+	
+	### 산업 ###
+	spriteType = {
+		name = "GFX_idea_SIA_cement"
+		texturefile = "gfx/interface/companies/SIA/SIA_cement.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SIA_tanin"
+		texturefile = "gfx/interface/companies/SIA/SIA_tanin.png"
 	}
 }

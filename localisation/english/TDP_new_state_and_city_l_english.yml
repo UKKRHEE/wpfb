@@ -1,0 +1,36 @@
+﻿l_english:
+ #############
+ ### 공산한국 ###
+ #############
+ 
+ ### 공산한국 도시 ###
+ NEW_VICTORY_POINTS_7125:0 "서울"
+ 
+ #############
+ ### 러시아- ###
+ #############
+ 
+ ### 러시아 주 ###
+ NEW_STATE_195:0 "페트로그라드"
+ NEW_STATE_227:0 "도네츠크"
+ NEW_STATE_217:0 "차리친"
+ NEW_STATE_228:0 "루한스카"
+ NEW_STATE_251:0 "사마라"
+ NEW_STATE_653:0 "예카테린부르크"
+ NEW_STATE_250:0 "심비르스크"
+ NEW_STATE_247:0 "트베리"
+ NEW_STATE_234:0 "예카테리노다르"
+ NEW_STATE_400:0 "뱟카"
+ 
+ ### 러시아 도시 ###
+ NEW_VICTORY_POINTS_3151:0 "페트로그라드"
+ NEW_VICTORY_POINTS_6474:0 "도네츠크"
+ NEW_VICTORY_POINTS_3529:0 "차리친"
+ NEW_VICTORY_POINTS_9461:0 "루한스카"
+ NEW_VICTORY_POINTS_11225:0 "사마라"
+ NEW_VICTORY_POINTS_1821:0 "예카테린부르크"
+ NEW_VICTORY_POINTS_392:0 "심비르스크"
+ NEW_VICTORY_POINTS_6245:0 "트베리"
+ NEW_VICTORY_POINTS_3734:0 "예카테리노다르"
+ NEW_VICTORY_POINTS_9628:0 "블라디카프카스"
+ 

@@ -1,0 +1,89 @@
+﻿capital = 219
+
+#oob = "RUS_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	mass_assault = 1
+}
+
+set_convoys = 50
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 50
+	fascism = 20
+	communism = 0
+	neutrality = 30
+}
+
+### 지도자 ###
+recruit_character = RUS_bolsheviks
+recruit_character = RUS_alexander_kerensky
+recruit_character = RUS_konstantin_rodzaevsky
+recruit_character = RUS_vladimir_kirillovich
+
+### 정치고문 ###
+recruit_character = RUS_sofia_panina
+recruit_character = RUS_aleksandr_verkhovsky
+recruit_character = RUS_pavel_milyukov
+recruit_character = RUS_anastasy_vonsyatsky
+recruit_character = RUS_aleksandr_kazembek
+recruit_character = RUS_patriarch_sergy
+recruit_character = RUS_metropolitan_anastasy
+recruit_character = RUS_metropolitan_nikolay
+recruit_character = RUS_metropolitan_aleksy
+recruit_character = RUS_klavdiy_foss
+
+### 이론가 ###
+recruit_character = RUS_vladimir_vitkovsky
+recruit_character = RUS_nestor_monastyrev
+recruit_character = RUS_aleksandr_prokofyev_seversky
+
+### 육군참모총장 ###
+recruit_character = RUS_anton_denikin
+recruit_character = RUS_konstantin_nechayev
+recruit_character = RUS_vasily_flug
+
+### 해군참모총장 ###
+recruit_character = RUS_mikhail_kedrov
+
+### 공군참모총장 ###
+recruit_character = RUS_vyacheslav_tkachyov
+recruit_character = RUS_yan_nagursky
+
+### 최고사령부 ###
+recruit_character = RUS_pyotr_pisarev
+recruit_character = RUS_fedor_abramov
+recruit_character = RUS_mikhail_promtov
+recruit_character = RUS_vladimir_marushevsky
+recruit_character = RUS_vasily_yanchenko
+
+### 육군 원수 ###
+recruit_character = RUS_aleksandr_rodzyanko
+recruit_character = RUS_andrey_shkuro
+
+### 육군 장성 ###
+recruit_character = RUS_pyotr_krasnov
+recruit_character = RUS_grigory_semyonov
+recruit_character = RUS_pavel_shatilov
+recruit_character = RUS_vyacheslav_naumenko
+recruit_character = RUS_pyotr_mashin
+recruit_character = RUS_anton_turkul
+recruit_character = RUS_boris_shteifon
+recruit_character = RUS_yevgeny_miller
+recruit_character = RUS_ivan_barbovich
+recruit_character = RUS_vladimir_kosmin
+recruit_character = RUS_isaac_bykadorov
+recruit_character = RUS_bronislav_kaminski
+recruit_character = RUS_pyotr_popov
+recruit_character = RUS_anatoly_pepelyayev
+
+### 해군 제독 ###
+recruit_character = RUS_mikhail_berens

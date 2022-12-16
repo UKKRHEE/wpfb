@@ -11,7 +11,7 @@ characters = {
 			expire = "1965.1.1"
 			ideology = marxism
 			traits = {
-				patriotic_socialist
+				celebrity_junta_leader
 			}
 			id=-1
 		}
@@ -41,7 +41,7 @@ characters = {
 			expire = "1965.1.1"
 			ideology = socialism
 			traits = {
-				resolute_social_democrat
+				resolute_social_democrat_kor
 			}
 			id=-1
 		}
@@ -147,6 +147,26 @@ characters = {
 			}
 		}
 	}
+	KOR_yun_il_zung={
+		name=KOR_yun_il_zung
+		portraits={
+			civilian={
+				small=GFX_idea_KOR_yun_il_zung
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = yun_il_zung
+			allowed = {
+				original_tag = KOR
+			}
+			traits = {
+				technocrat
+			}
+		}
+	}
+	
+	### 정치고문/반공주의 ###
 	KOR_hyeon_jun_ho={
 		name=KOR_hyeon_jun_ho
 		portraits={
@@ -157,6 +177,11 @@ characters = {
 		advisor={
 			slot = political_advisor
 			idea_token = hyeon_jun_ho
+			available = {
+                NOT = {
+					has_government = communism
+				}
+            }
 			allowed = {
 				original_tag = KOR
 			}
@@ -175,6 +200,11 @@ characters = {
 		advisor={
 			slot = political_advisor
 			idea_token = park_heung_sik
+			available = {
+                NOT = {
+					has_government = communism
+				}
+            }
 			allowed = {
 				original_tag = KOR
 			}
@@ -194,29 +224,16 @@ characters = {
 		advisor={
 			slot = political_advisor
 			idea_token = syngman_rhee
+			available = {
+                NOT = {
+					has_government = communism
+				}
+            }
 			allowed = {
 				original_tag = KOR
 			}
 			traits = {
 				smooth_talking_charmer
-			}
-		}
-	}
-	KOR_yun_il_zung={
-		name=KOR_yun_il_zung
-		portraits={
-			civilian={
-				small=GFX_idea_KOR_yun_il_zung
-			}
-		}
-		advisor={
-			slot = political_advisor
-			idea_token = yun_il_zung
-			allowed = {
-				original_tag = KOR
-			}
-			traits = {
-				technocrat
 			}
 		}
 	}

@@ -1,3 +1,6 @@
+###한국계###
+ROK = "countries/RedKorea.txt" #조선인민공화국
+
 ###청국계###
 QIN = "countries/Qing.txt" #대청국
 
@@ -6,3 +9,6 @@ ZLC = "countries/Zhili.txt" #직예군벌
 NJC = "countries/Nanjing.txt" #오성연군
 SCC = "countries/Hunan.txt" #사천군벌
 HNC = "countries/Sichuan.txt" #호남군벌
+
+###러시아계###
+RUS = "countries/Russia.txt" #러시아

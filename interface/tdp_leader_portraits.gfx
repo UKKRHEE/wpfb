@@ -18,6 +18,10 @@ spriteTypes = {
 		texturefile = "gfx/leaders/KOR/Portrait_KOR_Lee_Beom_seok.png"
 	}
 	spriteType = {
+		name = "GFX_portrait_KOR_lee_beom_seok2"
+		texturefile = "gfx/leaders/KOR/Portrait_KOR_Lee_Beom_seok2.png"
+	}
+	spriteType = {
 		name = "GFX_portrait_KOR_yi_won"
 		texturefile = "gfx/leaders/KOR/Portrait_KOR_Yi_Won.png"
 	}
@@ -84,8 +88,16 @@ spriteTypes = {
 		texturefile = "gfx/leaders/KOR/Portrait_KOR_Ji_Cheong_cheon.png"
 	}
 	spriteType = {
+		name = "GFX_portrait_KOR_ji_cheong_cheon2"
+		texturefile = "gfx/leaders/KOR/Portrait_KOR_Ji_Cheong_cheon2.png"
+	}
+	spriteType = {
 		name = "GFX_portrait_KOR_kim_hong_il"
 		texturefile = "gfx/leaders/KOR/Portrait_KOR_Kim_Hong_il.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_KOR_kim_hong_il2"
+		texturefile = "gfx/leaders/KOR/Portrait_KOR_Kim_Hong_il2.png"
 	}
 	spriteType = {
 		name = "GFX_portrait_KOR_kim_won_bong"
@@ -96,12 +108,20 @@ spriteTypes = {
 		texturefile = "gfx/leaders/KOR/Portrait_KOR_Kim_Suk_won.png"
 	}
 	spriteType = {
+		name = "GFX_portrait_KOR_kim_suk_won2"
+		texturefile = "gfx/leaders/KOR/Portrait_KOR_Kim_Suk_won2.png"
+	}
+	spriteType = {
 		name = "GFX_portrait_KOR_kim_kyung_cheon"
 		texturefile = "gfx/leaders/KOR/Portrait_KOR_Kim_Kyung_cheon.png"
 	}
 	spriteType = {
 		name = "GFX_portrait_KOR_hong_sa_ik"
 		texturefile = "gfx/leaders/KOR/Portrait_KOR_Hong_Sa_ik.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_KOR_hong_sa_ik2"
+		texturefile = "gfx/leaders/KOR/Portrait_KOR_Hong_Sa_ik2.png"
 	}
 	spriteType = {
 		name = "GFX_portrait_KOR_lee_eung_jun"
@@ -114,6 +134,19 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_portrait_KOR_hwang_byeong_gil"
 		texturefile = "gfx/leaders/KOR/Portrait_KOR_Hwang_Byeong_gil.png"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_KOR_choe_yong_gon"
+		texturefile = "gfx/leaders/KOR/Portrait_KOR_Choe_Yong_gon.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_KOR_kim_chaek"
+		texturefile = "gfx/leaders/KOR/Portrait_KOR_Kim_Chaek.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_KOR_kim_mu_chong"
+		texturefile = "gfx/leaders/KOR/Portrait_KOR_Kim_Mu_chong.png"
 	}
 	
 	### 한국 제독 ###
@@ -144,6 +177,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_portrait_KOR_shin_sung_mo"
 		texturefile = "gfx/leaders/KOR/Portrait_KOR_Shin_Sung_mo.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_KOR_han_il_mu"
+		texturefile = "gfx/leaders/KOR/Portrait_KOR_Han_Il_mu.png"
 	}
 	
 	#############
@@ -766,6 +803,246 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_portrait_XSM_ma_dunjing"
 		texturefile = "gfx/leaders/XSM/Portrait_XSM_Ma_Dunjing.png"
+	}
+	
+	#############
+	### 러시아- ###
+	#############
+	
+	### 러시아 지도자 ###
+	spriteType = {
+		name = "GFX_portrait_RUS_bolsheviks"
+		texturefile = "gfx/leaders/RUS/Portrait_RUS_Bolsheviks.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_RUS_alexander_kerensky"
+		texturefile = "gfx/leaders/RUS/Portrait_RUS_Alexander_Kerensky.png"
+	}
+	
+	### 러시아 정치인 ###
+	spriteType = {
+		name = "GFX_portrait_RUS_pavel_milyukov"
+		texturefile = "gfx/leaders/RUS/Portrait_RUS_Pavel_Milyukov.png"
+	}
+	
+	### 러시아 장성 ###
+	spriteType = {
+		name = "GFX_portrait_RUS_anatoly_pepelyayev"
+		texturefile = "gfx/leaders/RUS/Portrait_RUS_Anatoly_Pepelyayev.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_RUS_anton_turkul"
+		texturefile = "gfx/leaders/RUS/Portrait_RUS_Anton_Turkul.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_RUS_boris_shteifon"
+		texturefile = "gfx/leaders/RUS/Portrait_RUS_Boris_Shteifon.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_RUS_bronislav_kaminski"
+		texturefile = "gfx/leaders/RUS/Portrait_RUS_Bronislav_Kaminski.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_RUS_fedor_abramov"
+		texturefile = "gfx/leaders/RUS/Portrait_RUS_Fedor_Abramov.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_RUS_isaac_bykadorov"
+		texturefile = "gfx/leaders/RUS/Portrait_RUS_Isaac_Bykadorov.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_RUS_ivan_barbovich"
+		texturefile = "gfx/leaders/RUS/Portrait_RUS_Ivan_Barbovich.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_RUS_mikhail_promtov"
+		texturefile = "gfx/leaders/RUS/Portrait_RUS_Mikhail_Promtov.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_RUS_pavel_shatilov"
+		texturefile = "gfx/leaders/RUS/Portrait_RUS_Pavel_Shatilov.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_RUS_pyotr_mashin"
+		texturefile = "gfx/leaders/RUS/Portrait_RUS_Pyotr_Mashin.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_RUS_pyotr_pisarev"
+		texturefile = "gfx/leaders/RUS/Portrait_RUS_Pyotr_Pisarev.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_RUS_pyotr_popov"
+		texturefile = "gfx/leaders/RUS/Portrait_RUS_Pyotr_Popov.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_RUS_vasily_flug"
+		texturefile = "gfx/leaders/RUS/Portrait_RUS_Vasily_Flug.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_RUS_vladimir_marushevsky"
+		texturefile = "gfx/leaders/RUS/Portrait_RUS_Vladimir_Marushevsky.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_RUS_vladimir_vitkovsky"
+		texturefile = "gfx/leaders/RUS/Portrait_RUS_Vladimir_Vitkovsky.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_RUS_vyacheslav_naumenko"
+		texturefile = "gfx/leaders/RUS/Portrait_RUS_Vyacheslav_Naumenko.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_RUS_yevgeny_miller"
+		texturefile = "gfx/leaders/RUS/Portrait_RUS_Yevgeny_Miller.png"
+	}
+	
+	### 러시아 제독 ###
+	spriteType = {
+		name = "GFX_portrait_RUS_mikhail_kedrov"
+		texturefile = "gfx/leaders/RUS/Portrait_RUS_Mikhail_Kedrov.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_RUS_nestor_monastyrev"
+		texturefile = "gfx/leaders/RUS/Portrait_RUS_Nestor_Monastyrev.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_Russia_generic_navy_1"
+		texturefile = "gfx/leaders/RUS/Portrait_Russia_Generic_navy_1.png"
+	}
+	
+	#############
+	### 시암왕국 ###
+	#############
+	
+	### 시암 지도자 ###
+	spriteType = {
+		name = "GFX_portrait_SIA_supha_sirimanon"
+		texturefile = "gfx/leaders/SIA/Portrait_SIA_Supha_Sirimanon.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_SIA_pridi_pnomyong"
+		texturefile = "gfx/leaders/SIA/Portrait_SIA_Pridi_Panomyong.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_SIA_plaek_phibunsongkhram"
+		texturefile = "gfx/leaders/SIA/Portrait_SIA_Plaek_Phibunsongkhram.png"
+	}
+	
+	### 시암 장성 ###
+	spriteType = {
+		name = "GFX_portrait_SIA_jarun_rattanakul_seriroengrit"
+		texturefile = "gfx/leaders/SIA/Portrait_SIA_Jarun_Rattanakul_Seriroengrit.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_SIA_phin_choonhavan"
+		texturefile = "gfx/leaders/SIA/Portrait_SIA_Phin_Choonhavan.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_SIA_thep_panthumasaen"
+		texturefile = "gfx/leaders/SIA/Portrait_SIA_Thep_Panthumasaen.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_SIA_wan_chuthin"
+		texturefile = "gfx/leaders/SIA/Portrait_SIA_Wan_Chuthin.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_SIA_pichit_kriengsakpichit"
+		texturefile = "gfx/leaders/SIA/Portrait_SIA_Pichit_Kriengsakpichit.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_SIA_adul_adulyadejchrat"
+		texturefile = "gfx/leaders/SIA/Portrait_SIA_Adul_Adulyadejchrat.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_SIA_karj_karjsongkhram"
+		texturefile = "gfx/leaders/SIA/Portrait_SIA_Karj_Karjsongkhram.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_SIA_mangkorn_promyothee"
+		texturefile = "gfx/leaders/SIA/Portrait_SIA_Mangkorn_Promyothee.png"
+	}
+	
+	### 시암 제독 ###
+	spriteType = {
+		name = "GFX_portrait_SIA_sindhu_kamolnawin"
+		texturefile = "gfx/leaders/SIA/Portrait_SIA_Sindhu_Kamolnawin.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_SIA_mongkol_mongkolnawin"
+		texturefile = "gfx/leaders/SIA/Portrait_SIA_Mongkol_Mongkolnawin.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_SIA_thawan_thamrongnawasawat"
+		texturefile = "gfx/leaders/SIA/Portrait_SIA_Thawan_Thamrongnawasawat.png"
+	}
+	
+	#############
+	### 베트남ㅡ ###
+	#############
+	
+	### 베트남 지도자 ###
+	spriteType = {
+		name = "GFX_portrait_VIN_ho_chi_minh"
+		texturefile = "gfx/leaders/VIN/Portrait_VIN_Ho_Chi_Minh.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_VIN_nguyen_tuong_tam"
+		texturefile = "gfx/leaders/VIN/Portrait_VIN_Nguyen_Tuong_Tam.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_VIN_cuong_de"
+		texturefile = "gfx/leaders/VIN/Portrait_VIN_Cuong_De.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_VIN_bao_dai"
+		texturefile = "gfx/leaders/VIN/Portrait_VIN_Bao_Dai.png"
+	}
+	
+	### 베트남 장성 ###
+	spriteType = {
+		name = "GFX_portrait_VIN_le_van_ty"
+		texturefile = "gfx/leaders/VIN/Portrait_VIN_Le_Van_Ty.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_VIN_tran_quang_vinh"
+		texturefile = "gfx/leaders/VIN/Portrait_VIN_Tran_Quang_Vinh.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_VIN_vo_nguyen_giap"
+		texturefile = "gfx/leaders/VIN/Portrait_VIN_Vo_Nguyen_Giap.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_VIN_nguyen_binh"
+		texturefile = "gfx/leaders/VIN/Portrait_VIN_Nguyen_Binh.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_VIN_ta_xuan_thu"
+		texturefile = "gfx/leaders/VIN/Portrait_VIN_Ta_Xuan_Thu.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_VIN_nguyen_van_hinh"
+		texturefile = "gfx/leaders/VIN/Portrait_VIN_Nguyen_Van_Hinh.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_VIN_duong_van_minh"
+		texturefile = "gfx/leaders/VIN/Portrait_VIN_Duong_Van_Minh.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_VIN_nguyen_chi_thanh"
+		texturefile = "gfx/leaders/VIN/Portrait_VIN_Nguyen_Chi_Thanh.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_VIN_chu_van_tan"
+		texturefile = "gfx/leaders/VIN/Portrait_VIN_Chu_Van_Tan.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_VIN_tran_van_don"
+		texturefile = "gfx/leaders/VIN/Portrait_VIN_Tran_Van_Don.png"
+	}
+	
+	### 베트남 제독 ###
+	spriteType = {
+		name = "GFX_portrait_VIN_ta_xuan_thu"
+		texturefile = "gfx/leaders/VIN/Portrait_VIN_Ta_Xuan_Thu.png"
 	}
 	
 	#spriteType = {

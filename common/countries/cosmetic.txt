@@ -958,14 +958,9 @@ SWI_helvetic_republic = {
 ### 오얏꽃ㅡ ###
 #############
 
-KOR_republic = {
+ROK_right = {
 	color = rgb { 0 0 220 }
-	color_ui = rgb { 0 0 220 }	
-}
-
-KOR_republic_communism = {
-	color = rgb { 204 0 0 }
-	color_ui = rgb { 204 0 0 }
+	color_ui = rgb { 0 0 220 }
 }
 
 QIN_communism = {

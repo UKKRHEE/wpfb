@@ -7,14 +7,20 @@
  KOR_yi_dong_hwi:0 "이동휘"
  KOR_pak_hon_yong:0 "박헌영"
  KOR_lyuh_woon_hyung:0 "여운형"
+ resolute_social_democrat_kor:0 "확고한 사민주의자"
  KOR_ahn_chang_ho:0 "안창호"
+ social_reformer_kor:0 "사회개혁가"
  KOR_kim_kyu_sik:0 "김규식"
+ linguistic_genius:0 "어학의 천재"
  KOR_syngman_rhee:0 "이승만"
+ backroom_backstabber_kor:0 "밀실 모략가"
  KOR_kim_koo:0 "김구"
  KOR_yi_sang_sul:0 "이상설"
+ academic_genius:0 "학문학의 제일류"
  KOR_lee_beom_seok:0 "이범석"
  daemagliji:0 "대막리지"
  KOR_sin_chae_ho:0 "신채호"
+ nationalist_historian:0 "민족주의 사학자"
  KOR_yi_won:0 "이원"
  emperor_geonheung:0 "건흥제"
  
@@ -23,22 +29,28 @@
  KOR_park_heung_sik:0 "박흥식"
  KOR_yun_il_zung:0 "윤일중"
  KOR_jo_so_ang:0 "조소앙"
- three_equalities:0 "삼균주의자"
+ three_equalities:0 "삼균주의 창시자"
  KOR_kim_du_bong:0 "김두봉"
  KOR_alexandra_kim:0 "김알렉산드라"
  KOR_cho_bong_am:0 "조봉암"
  KOR_gang_se_hyeong:0 "강세형"
  KOR_ahn_ho_sang:0 "안호상"
- ilminist:0 "일민주의자"
+ ilminist:0 "일민주의 창시자"
  KOR_yi_hae_chang:0 "이해창"
  KOR_yi_kyu_wan:0 "이규완"
  KOR_min_young_hwan:0 "민영환"
+ KOR_chang_myon:0 "장면"
+ KOR_ho_chong:0 "허정"
+ KOR_korea_security:0 "정보부"
  
  ### 한국 이론가 ###
  KOR_kim_hong_il:0 "김홍일"
  KOR_park_ok_kyu:0 "박옥규"
  KOR_jang_duk_chang:0 "장덕창"
  KOR_do_sang_log:0 "도상록"
+ KOR_korea_army_research:0 "육군이론연구소"
+ KOR_korea_navy_research:0 "해군이론연구소"
+ KOR_korea_air_research:0 "공군이론연구소"
  
  ### 한국 육군참모총장 ###
  KOR_shin_pal_gyun:0 "신팔균"
@@ -52,6 +64,7 @@
  ### 한국 공군참모총장 ###
  KOR_no_baek_rin:0 "노백린"
  KOR_seo_wal_bo:0 "서왈보"
+ KOR_han_il_mu:0 "한일무"
  
  ### 한국 최고사령부 ###
  KOR_ji_cheong_cheon:0 "지청천"
@@ -61,6 +74,9 @@
  KOR_choi_sung_hak:0 "최성학"
  KOR_choe_yong_duk:0 "최용덕"
  KOR_ahn_chang_nam:0 "안창남"
+ KOR_choe_yong_gon:0 "최용건"
+ KOR_kim_chaek:0 "김책"
+ KOR_kim_mu_chong:0 "김무정"
  
  ### 한국 육군 원수 ###
  KOR_yi_kang:0 "이강"
@@ -590,4 +606,140 @@
  XSM_ma_biao:0 "마바오"
  XSM_ma_zhongying:0 "마중밍"
  XSM_ma_dunjing:0 "마둔징"
+ 
+ #############
+ ### 러시아- ###
+ #############
+ 
+ ### 러시아 지도자 ###
+ RUS_bolsheviks:0 "볼셰비키"
+ 
+ ### 러시아 정치고문 ###
+ RUS_sofia_panina:0 "소피야 파니나"
+ RUS_aleksandr_verkhovsky:0 "알렉산드르 베르홉스키"
+ RUS_pavel_milyukov:0 "파벨 밀류코프"
+ RUS_klavdiy_foss:0 "클라브디 포스"
+ 
+ ### 러시아 이론가 ###
+ RUS_vladimir_vitkovsky:0 "블라디미르 빗콥스키"
+ RUS_nestor_monastyrev:0 "네스토르 모나스티료프"
+ 
+ ### 러시아 육군참모총장 ###
+ RUS_vasily_flug:0 "바실리 플루크"
+ 
+ ### 러시아 해군참모총장 ###
+ RUS_mikhail_kedrov:0 "미하일 케드로프"
+ 
+ ### 러시아 최고사령부 ###
+ RUS_pyotr_pisarev:0 "표트르 피사레프"
+ RUS_fedor_abramov:0 "표도르 아브라모프"
+ RUS_mikhail_promtov:0 "미하일 프롬토프"
+ RUS_vladimir_marushevsky:0 "블라디미르 마루솁스키"
+ 
+ ### 러시아 육군 장성 ###
+ RUS_pavel_shatilov:0 "파벨 샤틸로프"
+ RUS_vyacheslav_naumenko:0 "뱌체슬라프 나우멘코"
+ RUS_pyotr_mashin:0 "표트르 마신"
+ RUS_anton_turkul:0 "안톤 투르쿨"
+ RUS_boris_shteifon:0 "보리스 시테이폰"
+ RUS_yevgeny_miller:0 "예브게니 밀레르"
+ RUS_ivan_barbovich:0 "이반 바르보비치"
+ RUS_isaac_bykadorov:0 "이사아크 비카도로프"
+ RUS_bronislav_kaminski:0 "브로니슬라프 카민스키"
+ RUS_pyotr_popov:0 "표트르 포포프"
+ RUS_anatoly_pepelyayev:0 "아나톨리 페펠랴예프"
+ 
+ ### 러시아 해군 제독 ###
+ RUS_mikhail_berens:0 "미하일 베렌스"
+ 
+ #############
+ ### 시암왕국 ###
+ #############
+ 
+ ### 시암 지도자 ###
+ SIA_supha_sirimanon:0 "수파 시라마논"
+ SIA_pridi_pnomyong:0 "쁘리디 파놈용"
+ SIA_plaek_phibunsongkhram:0 "쁠랙 피분송크람"
+ SIA_phot_phahonyothin:0 "폿 파혼요틴"
+ 
+ ### 시암 정치고문 ###
+ SIA_sun_kijjumnong:0 "순 낏짜농"
+ SIA_phayom_chulanont:0 "Phayom Chulanont"
+ SIA_thep_panthumasaen:0 "텝 판툼센"
+ SIA_seni_pramoj:0 "세니 쁘라못"
+ SIA_pote_sarasin:0 "폿 사라신"
+ SIA_adul_adulyadejchrat:0 "아둔 아둔뎃짜랏"
+ SIA_phao_sriyanond:0 "파오 시야논"
+ SIA_pijarn_dullalampha:0 "피짠 둘랄람파"
+ 
+ ### 시암 이론가 ###
+ SIA_jarun_rattanakul_seriroengrit:0 "짜룬 랏따나꾼 세리릉릿"
+ SIA_thawan_thamrongnawasawat:0 "타완 탐롱나와사왓"
+ SIA_sunee_suwanprateep:0 "수니 수완나쁘라팁"
+ 
+ ### 시암 육군참모총장 ###
+ SIA_wan_chuthin:0 "완 추틴"
+ 
+ ### 시암 해군참모총장 ###
+ SIA_sindhu_kamolnawin:0 "신 카몬나윈"
+ 
+ ### 시암 공군참모총장 ###
+ SIA_boonjeam_komolmit:0 "분찌암 꼬몬밋"
+ 
+ ### 시암 최고사령부 ###
+ SIA_karj_karjsongkhram:0 "깟 깟송크람"
+ SIA_mongkol_mongkolnawin:0 "몽콘 몽콘나윈"
+ SIA_munee_mahasantana:0 "무니 마하산타나"
+ 
+ ### 시암 육군 장성 ###
+ SIA_phin_choonhavan:0 "핀 춘하완"
+ SIA_pichit_kriengsakpichit:0 "피칫 크리앙삭피칫"
+ SIA_mangkorn_promyothee:0 "망꼰 프롬요티"
+ 
+ #############
+ ### 베트남ㅡ ###
+ #############
+ 
+ ### 베트남 지도자 ###
+ VIN_ho_chi_minh:0 "호치민"
+ VIN_nguyen_tuong_tam:0 "응우옌뚜엉땀"
+ VIN_cuong_de:0 "끄엉데"
+ VIN_bao_dai:0 "바오다이"
+ 
+ ### 베트남 정치고문 ###
+ VIN_hoang_xuan_han:0 "호앙쑤언한"
+ VIN_tran_trong_kim:0 "쩐쫑낌"
+ VIN_kha_vang_can:0 "카방껀"
+ VIN_truong_chinh:0 "쯔엉찐"
+ VIN_ha_huy_tap:0 "하후이떱"
+ VIN_nguyen_an_ninh:0 "응우옌안닌"
+ VIN_tran_van_chuong:0 "쩐반쯔엉"
+ VIN_tran_khanh_giu:0 "쩐카인즈"
+ VIN_truong_tu_anh:0 "쯔엉뜨아인"
+ VIN_ngo_dinh_can:0 "응오딘껀"
+ VIN_tran_quoc_hoan:0 "쩐꾸옥호안"
+ 
+ ### 베트남 이론가 ###
+ VIN_vietnam_army_research:0 "육군이론연구소"
+ VIN_vietnam_navy_research:0 "해군이론연구소"
+ VIN_vietnam_air_research:0 "공군이론연구소"
+ 
+ ### 베트남 육군참모총장 ###
+ VIN_le_van_ty:0 "레반띠"
+ VIN_tran_quang_vinh:0 "쩐꽝빈"
+ VIN_vo_nguyen_giap:0 "보응우옌잡"
+ VIN_nguyen_binh:0 "응우옌빈"
+ 
+ ### 베트남 해군참모총장 ###
+ VIN_ta_xuan_thu:0 "따쑤언투"
+ 
+ ### 베트남 공군참모총장 ###
+ VIN_nguyen_van_hinh:0 "응우옌반힌"
+ VIN_vietnam_air_department:0 "공군부"
+ 
+ ### 베트남 최고사령부 ###
+ VIN_duong_van_minh:0 "즈엉반민"
+ VIN_nguyen_chi_thanh:0 "응우옌찌타인"
+ VIN_chu_van_tan:0 "쭈반떤"
+ VIN_tran_van_don:0 "쩐반돈"
  

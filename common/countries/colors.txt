@@ -882,6 +882,10 @@ TTS = {
 ### 추가사항 ###
 #############
 
+ROK = { #오얏꽃/조선인민공화국
+	color = rgb { 204 0 0 }
+	color_ui = rgb { 204 0 0 }
+}
 QIN = { #오얏꽃/청나라
 	color = rgb { 8 99 156 }
 	color_ui = rgb { 8 99 156 }
@@ -901,4 +905,8 @@ SCC = { #오얏꽃/사천군벌
 HNC = { #오얏꽃/호남군벌
 	color = rgb { 80 135 224 }
 	color_ui = rgb { 80 135 224 }
+}
+RUS = { #오얏꽃/러시아
+    color = rgb { 72 143 68 }
+    color_ui = rgb { 72 143 68 }
 }

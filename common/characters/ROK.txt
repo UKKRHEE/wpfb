@@ -1,0 +1,1118 @@
+characters = {
+	### 지도자 ###
+	ROK_pak_hon_yong={
+		name=KOR_pak_hon_yong
+		portraits={
+			civilian={
+				large=GFX_portrait_KOR_pak_hon_yong
+			}
+		}
+		country_leader={
+			expire = "1965.1.1"
+			ideology = leninism
+			traits = {
+				veteran_communist
+			}
+			id=-1
+		}
+	}
+	ROK_lyuh_woon_hyung={
+		name=KOR_lyuh_woon_hyung
+		portraits={
+			civilian={
+				large=GFX_portrait_KOR_lyuh_woon_hyung
+				small=GFX_idea_KOR_lyuh_woon_hyung
+			}
+		}
+		country_leader={
+			expire = "1965.1.1"
+			ideology = socialism
+			traits = {
+				resolute_social_democrat_kor
+			}
+			id=-1
+		}
+	}
+	ROK_lee_beom_seok={
+		name=KOR_lee_beom_seok
+		portraits={
+			civilian={
+				large=GFX_portrait_KOR_lee_beom_seok2
+				small=GFX_idea_KOR_lee_beom_seok2
+			}
+		}
+		country_leader={
+			expire = "1965.1.1"
+			ideology = fascism_ideology
+			traits = {
+				daemagliji
+			}
+			id=-1
+		}
+		advisor={
+			cost = 100
+			slot = army_chief
+			idea_token = lee_beom_seok
+	    	available = {
+				NOT = {
+					has_government = communism
+					has_government = democratic
+				}
+			}
+			allowed = {
+	    		original_tag = ROK
+	    	}
+	    	traits = {
+				army_chief_maneuver_2
+			}
+	    	ai_will_do = {
+	    		factor = 1
+	    	}
+		}
+		field_marshal={
+			visible = {
+                NOT = {
+					has_government = communism
+					has_government = democratic
+				}
+            }
+			traits = {
+				trait_reckless
+				war_hero
+				armor_officer
+				politically_connected
+			}
+			skill = 3
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id=-1
+		}
+	}
+	ROK_syngman_rhee={
+		name=KOR_syngman_rhee
+		portraits={
+			civilian={
+				large=GFX_portrait_KOR_syngman_rhee
+			}
+		}
+		country_leader={
+			expire = "1965.1.1"
+			ideology = despotism
+			traits = {
+				backroom_backstabber_kor
+			}
+			id=-1
+		}
+	}
+	
+	### 정치고문/조건없음 ###
+	ROK_yun_il_zung={
+		name=KOR_yun_il_zung
+		portraits={
+			civilian={
+				small=GFX_idea_KOR_yun_il_zung
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = yun_il_zung
+			allowed = {
+				original_tag = ROK
+			}
+			traits = {
+				technocrat
+			}
+		}
+	}
+	
+	### 정치고문/정보기관 ###
+	ROK_korea_security={
+		name=KOR_korea_security
+		portraits={
+			civilian={
+				small=GFX_idea_Joint_security
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = korea_security
+			available = {
+				has_intelligence_agency = yes
+			}
+			allowed = {
+				original_tag = ROK
+				has_dlc = "La Resistance" 
+			}
+			traits = {
+				head_of_intelligence
+			}
+		}
+	}
+	
+	### 정치고문/공산주의 ###
+	ROK_kim_du_bong={
+		name=KOR_kim_du_bong
+		portraits={
+			civilian={
+				small=GFX_idea_KOR_kim_du_bong
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = kim_du_bong
+			available = {
+				has_government = communism
+			}
+			allowed = {
+				original_tag = ROK
+			}
+			traits = {
+				leftist_intellectual
+			}
+		}
+	}
+	ROK_alexandra_kim={
+		name=KOR_alexandra_kim
+		portraits={
+			civilian={
+				small=GFX_idea_KOR_alexandra_kim
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = alexandra_kim
+			available = {
+				has_government = communism
+			}
+			allowed = {
+				original_tag = ROK
+			}
+			traits = {
+				international_revolutionary
+			}
+		}
+	}
+	
+	### 정치고문/공산민주 ###
+	ROK_cho_bong_am={
+		name=KOR_cho_bong_am
+		portraits={
+			civilian={
+				small=GFX_idea_KOR_cho_bong_am
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = cho_bong_am
+			available = {
+				OR = {
+					has_government = communism
+					has_government = democratic
+				}
+			}
+			allowed = {
+				original_tag = ROK
+			}
+			traits = {
+				minister_of_peasants
+			}
+		}
+	}
+	ROK_jo_so_ang={
+		name=KOR_jo_so_ang
+		portraits={
+			civilian={
+				small=GFX_idea_KOR_jo_so_ang
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = jo_so_ang
+			available = {
+				OR = {
+					has_government = communism
+					has_government = democratic
+				}
+			}
+			allowed = {
+				original_tag = ROK
+			}
+			traits = {
+				three_equalities
+			}
+		}
+	}
+	
+	### 정치고문/반공주의 ###
+	ROK_chang_myon={
+		name=KOR_chang_myon
+		portraits={
+			civilian={
+				small=GFX_idea_KOR_chang_myon
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = chang_myon
+			available = {
+				NOT = {
+					has_government = communism
+				}
+			}
+			allowed = {
+				original_tag = ROK
+			}
+			traits = {
+				smooth_talking_charmer
+			}
+		}
+	}
+	ROK_ho_chong={
+		name=KOR_ho_chong
+		portraits={
+			civilian={
+				small=GFX_idea_KOR_ho_chong
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = ho_chong
+			available = {
+				NOT = {
+					has_government = communism
+				}
+			}
+			allowed = {
+				original_tag = ROK
+			}
+			traits = {
+				silent_workhorse
+			}
+		}
+	}
+	ROK_hyeon_jun_ho={
+		name=KOR_hyeon_jun_ho
+		portraits={
+			civilian={
+				small=GFX_idea_KOR_hyeon_jun_ho
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = hyeon_jun_ho
+			available = {
+				NOT = {
+					has_government = communism
+				}
+			}
+			allowed = {
+				original_tag = ROK
+			}
+			traits = {
+				captain_of_industry
+			}
+		}
+	}
+	ROK_park_heung_sik={
+		name=KOR_park_heung_sik
+		portraits={
+			civilian={
+				small=GFX_idea_KOR_park_heung_sik
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = park_heung_sik
+			available = {
+				NOT = {
+					has_government = communism
+				}
+			}
+			allowed = {
+				original_tag = ROK
+			}
+			traits = {
+				war_industrialist
+			}
+		}
+	}
+	
+	### 이론가 ###
+	ROK_korea_army_research = {
+		name=KOR_korea_army_research
+		portraits={
+			army={
+				small=GFX_idea_Joint_army_research
+			}
+		}
+		advisor={
+			cost = 100
+			slot = theorist
+			idea_token = korea_army_research
+			ledger = army
+		    available = {
+				has_government = communism
+			}
+			allowed = {
+		    	original_tag = ROK
+		    }
+		    traits = {
+				military_theorist
+			}
+		}
+	}
+	ROK_korea_navy_research={
+		name=KOR_korea_navy_research
+		portraits={
+			army={
+				small=GFX_idea_Joint_navy_research
+			}
+		}
+		advisor={
+			cost = 100
+			slot = theorist
+			idea_token = korea_navy_research
+			ledger = navy
+			 available = {
+				has_government = communism
+			}
+			allowed = {
+				original_tag = ROK
+			}
+			traits = {
+				naval_theorist
+			}
+		}
+	}
+	ROK_korea_air_research={
+		name=KOR_korea_air_research
+		portraits={
+			army={
+				small=GFX_idea_Joint_air_research
+			}
+		}
+		advisor={
+			cost = 100
+			slot = theorist
+			idea_token = korea_air_research
+			ledger = air
+			available = {
+				has_government = communism
+			}
+			allowed = {
+				original_tag = ROK
+			}
+			traits = {
+				air_warfare_theorist
+			}
+		}
+	}
+	ROK_kim_hong_il = {
+		name=KOR_kim_hong_il
+		portraits={
+			army={
+				large=GFX_portrait_KOR_kim_hong_il2
+				small=GFX_idea_KOR_kim_hong_il2
+			}
+		}
+		advisor={
+			cost = 100
+			slot = theorist
+			idea_token = kim_hong_il
+			ledger = army
+		    available = {
+				NOT = {
+					has_government = communism
+				}
+			}
+			allowed = {
+		    	original_tag = ROK
+		    }
+		    traits = {
+				military_theorist
+			}
+		}
+		corps_commander={
+			visible = {
+                NOT = {
+					has_government = communism
+				}
+            }
+			traits = {
+				brilliant_strategist
+				trickster
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id=-1
+		}
+	}
+	ROK_park_ok_kyu = {
+		name=KOR_park_ok_kyu
+		portraits={
+			army={
+				large=GFX_portrait_KOR_park_ok_kyu
+				small=GFX_idea_KOR_park_ok_kyu
+			}
+		}
+		advisor={
+			cost = 100
+			slot = theorist
+			idea_token = park_ok_kyu
+			ledger = navy
+			available = {
+				NOT = {
+					has_government = communism
+				}
+			}
+			allowed = {
+				original_tag = ROK
+			}
+			traits = {
+				naval_theorist
+			}
+		}
+		navy_leader={
+			visible = {
+                NOT = {
+					has_government = communism
+				}
+            }
+			traits = {
+				fleet_protector
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 4
+			maneuvering_skill = 3
+			coordination_skill = 3
+			legacy_id=-1
+		}
+	}
+	ROK_jang_duk_chang={
+		name=KOR_jang_duk_chang
+		portraits={
+			army={
+				small=GFX_idea_KOR_jang_duk_chang
+			}
+		}
+		advisor={
+			cost = 100
+			slot = theorist
+			idea_token = jang_duk_chang
+			ledger = air
+			available = {
+				NOT = {
+					has_government = communism
+				}
+			}
+			allowed = {
+				original_tag = ROK
+			}
+			traits = {
+				air_warfare_theorist
+			}
+		}
+	}
+	ROK_do_sang_log={
+		name=KOR_do_sang_log
+		portraits={
+			army={
+				small=GFX_idea_KOR_do_sang_log
+			}
+		}
+		advisor={
+			cost = 100
+			slot = theorist
+			idea_token = do_sang_log
+			ledger = air
+			allowed = {
+				original_tag = ROK
+			}
+			research_bonus = {
+				nuclear = 0.10
+			}
+			traits = {
+				nuclear_scientist
+			}
+		}
+	}
+	
+	### 육군참모총장 ###
+	ROK_kim_won_bong={
+		name=KOR_kim_won_bong
+		portraits={
+			army={
+				large=GFX_portrait_KOR_kim_won_bong
+				small=GFX_idea_KOR_kim_won_bong
+			}
+		}
+		advisor={
+			cost = 100
+			slot = army_chief
+			idea_token = kim_won_bong
+			ledger = army
+		    available = {
+				OR = {
+					has_government = communism
+					has_government = democratic
+				}
+			}
+			allowed = {
+		    	original_tag = ROK
+		    }
+		    traits = {
+				army_chief_drill_2
+			}
+		    ai_will_do = {
+		    	factor = 1
+		    }
+		}
+		field_marshal={
+			visible = {
+                OR = {
+					has_government = communism
+					has_government = democratic
+				}
+            }
+			traits = {
+				trait_reckless
+				guerilla_fighter
+			}
+			skill = 3
+			attack_skill = 4
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+	ROK_ji_cheong_cheon={
+		name=KOR_ji_cheong_cheon
+		portraits={
+			army={
+				large=GFX_portrait_KOR_ji_cheong_cheon2
+				small=GFX_idea_KOR_ji_cheong_cheon2
+			}
+		}
+		advisor={
+			cost = 100
+			slot = army_chief
+			idea_token = ji_cheong_cheon
+	    	available = {
+				NOT = {
+					has_government = communism
+				}
+			}
+			allowed = {
+	    		original_tag = ROK
+	    	}
+	    	traits = {
+				army_chief_organizational_2
+			}
+	    	ai_will_do = {
+	    		factor = 1
+	    	}
+		}
+		field_marshal={
+			visible = {
+                NOT = {
+					has_government = communism
+				}
+            }
+			traits = {
+				career_officer
+				infantry_officer
+			}
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 3
+			legacy_id=-1
+		}
+	}
+	
+	### 해군참모총장 ###
+	ROK_choi_sung_hak = {
+		name=KOR_choi_sung_hak
+		portraits={
+			army={
+				large=GFX_portrait_KOR_choi_sung_hak
+				small=GFX_idea_KOR_choi_sung_hak
+			}
+		}
+		advisor={
+			cost = 100
+			slot = navy_chief
+			idea_token = choi_sung_hak
+		    allowed = {
+		    	original_tag = ROK
+	    	}
+		    traits = {
+				navy_chief_commerce_raiding_2
+			}
+		    ai_will_do = {
+		    	factor = 1
+		    }
+		}
+		navy_leader={
+			traits = {
+				gunnery_expert
+			}
+			skill = 2
+			attack_skill = 4
+			defense_skill = 3
+			maneuvering_skill = 4
+			coordination_skill = 3
+			legacy_id=-1
+		}
+	}
+	ROK_sohn_won_yil = {
+		name=KOR_sohn_won_yil
+		portraits={
+			army={
+				large=GFX_portrait_KOR_sohn_won_yil
+				small=GFX_idea_KOR_sohn_won_yil
+			}
+		}
+		advisor={
+			cost = 100
+			slot = navy_chief
+			idea_token = sohn_won_yil
+		    available = {
+				NOT = {
+					has_government = communism
+				}
+			}
+			allowed = {
+		    	original_tag = ROK
+	    	}
+		    traits = {
+				navy_chief_commerce_raiding_2
+			}
+		    ai_will_do = {
+		    	factor = 1
+		    }
+		}
+		navy_leader={
+			visible = {
+                NOT = {
+					has_government = communism
+				}
+            }
+			traits = {
+				superior_tactician
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			maneuvering_skill = 3
+			coordination_skill = 3
+			legacy_id=-1
+		}
+	}
+	
+	### 공군참모총장 ###
+	ROK_han_il_mu = {
+		name=KOR_han_il_mu
+		portraits={
+			army={
+				large=GFX_portrait_KOR_han_il_mu
+				small=GFX_idea_KOR_han_il_mu
+			}
+		}
+		advisor={
+			cost = 100
+			slot = air_chief
+			idea_token = han_il_mu
+			available = {
+                OR = {
+					has_government = communism
+					has_government = democratic
+				}
+            }
+	    	allowed = {
+		    	original_tag = ROK
+		    }
+		    traits = {
+				air_chief_ground_support_2
+			}
+		    ai_will_do = {
+		    	factor = 1
+		    }
+		}
+		navy_leader={
+			visible = {
+                OR = {
+					has_government = communism
+					has_government = democratic
+				}
+            }
+			traits = {
+				#
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			maneuvering_skill = 3
+			coordination_skill = 3
+			legacy_id=-1
+		}
+	}
+	ROK_choe_yong_duk = {
+		name=KOR_choe_yong_duk
+		portraits={
+			army={
+				small=GFX_idea_KOR_choe_yong_duk
+			}
+		}
+		advisor={
+			cost = 100
+			slot = air_chief
+			idea_token = choe_yong_duk
+			available = {
+                NOT = {
+					has_government = communism
+				}
+            }
+	    	allowed = {
+		    	original_tag = ROK
+		    }
+		    traits = {
+				air_chief_ground_support_2
+			}
+		    ai_will_do = {
+		    	factor = 1
+		    }
+		}
+	}
+	
+	### 최고사령부 ###
+	ROK_choe_yong_gon={
+		name=KOR_choe_yong_gon
+		portraits={
+			army={
+				large=GFX_portrait_KOR_choe_yong_gon
+				small=GFX_idea_KOR_choe_yong_gon
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = choe_yong_gon
+			ledger = army
+			available = {
+                OR = {
+					has_government = communism
+					has_government = democratic
+				}
+            }
+			allowed = {
+		    	original_tag = ROK
+		    }
+		    traits = {
+				army_regrouping_1
+			}
+		    ai_will_do = {
+		    	factor = 1
+		    }
+		}
+		corps_commander={
+			visible = {
+                OR = {
+					has_government = communism
+					has_government = democratic
+				}
+            }
+			traits = {
+				#
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+	ROK_kim_chaek={
+		name=KOR_kim_chaek
+		portraits={
+			army={
+				large=GFX_portrait_KOR_kim_chaek
+				small=GFX_idea_KOR_kim_chaek
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = kim_chaek
+			ledger = army
+			available = {
+                OR = {
+					has_government = communism
+					has_government = democratic
+				}
+            }
+			allowed = {
+		    	original_tag = ROK
+		    }
+		    traits = {
+				army_commando_1
+			}
+		    ai_will_do = {
+		    	factor = 1
+		    }
+		}
+		corps_commander={
+			visible = {
+                OR = {
+					has_government = communism
+					has_government = democratic
+				}
+            }
+			traits = {
+				#
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+	ROK_kim_mu_chong={
+		name=KOR_kim_mu_chong
+		portraits={
+			army={
+				large=GFX_portrait_KOR_kim_mu_chong
+				small=GFX_idea_KOR_kim_mu_chong
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = kim_mu_chong
+			ledger = army
+			available = {
+                OR = {
+					has_government = communism
+					has_government = democratic
+				}
+            }
+			allowed = {
+		    	original_tag = ROK
+		    }
+		    traits = {
+				army_artillery_1
+			}
+		    ai_will_do = {
+		    	factor = 1
+		    }
+		}
+		corps_commander={
+			visible = {
+                OR = {
+					has_government = communism
+					has_government = democratic
+				}
+            }
+			traits = {
+				#
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+	ROK_kim_suk_won={
+		name=KOR_kim_suk_won
+		portraits={
+			army={
+				large=GFX_portrait_KOR_kim_suk_won2
+				small=GFX_idea_KOR_kim_suk_won2
+			}
+		}
+		advisor={
+			cost = 200
+			slot = high_command
+			idea_token = kim_suk_won
+			ledger = army
+		    available = {
+                NOT = {
+					has_government = communism
+				}
+            }
+			allowed = {
+		    	original_tag = ROK
+		    }
+		    traits = {
+				army_infantry_3
+			}
+		    ai_will_do = {
+		    	factor = 1
+		    }
+		}
+		corps_commander={
+			visible = {
+                NOT = {
+					has_government = communism
+				}
+            }
+			traits = {
+				trait_reckless
+				infantry_officer
+				career_officer
+				infantry_leader
+			}
+			skill = 3
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+	ROK_hong_sa_ik={
+		name=KOR_hong_sa_ik
+		portraits={
+			army={
+				large=GFX_portrait_KOR_hong_sa_ik2
+				small=GFX_idea_KOR_hong_sa_ik2
+			}
+		}
+		advisor={
+			cost = 100
+			slot = high_command
+			idea_token = hong_sa_ik
+			ledger = army
+		    available = {
+                NOT = {
+					has_government = communism
+				}
+            }
+			allowed = {
+		    	original_tag = ROK
+		    }
+		    traits = {
+				army_logistics_2
+			}
+		    ai_will_do = {
+		    	factor = 1
+		    }
+		}
+		corps_commander={
+			visible = {
+                NOT = {
+					has_government = communism
+				}
+            }
+			traits = {
+				infantry_officer
+				career_officer
+				skilled_staffer
+			}
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id=-1
+		}
+	}
+	ROK_shin_sung_mo = {
+		name=KOR_shin_sung_mo
+		portraits={
+			army={
+				large=GFX_portrait_KOR_shin_sung_mo
+				small=GFX_idea_KOR_shin_sung_mo
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = shin_sung_mo
+			ledger = navy
+	    	available = {
+                NOT = {
+					has_government = communism
+				}
+            }
+			allowed = {
+	    		original_tag = ROK
+	    	}
+	    	traits = {
+				navy_screen_1
+			}
+	    	ai_will_do = {
+	    		factor = 1
+	    	}
+		}
+		navy_leader={
+			visible = {
+                NOT = {
+					has_government = communism
+				}
+            }
+			traits = {
+				#
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 2
+			maneuvering_skill = 3
+			coordination_skill = 3
+			legacy_id=-1
+		}
+	}
+	
+	### 원수 ###
+	ROK_yi_dong_hwi={
+		name=KOR_yi_dong_hwi
+		portraits={
+			civilian={
+				large=GFX_portrait_KOR_yi_dong_hwi
+			}
+		}
+		field_marshal={
+			traits = {
+				media_personality
+				career_officer
+				brilliant_strategist
+			}
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id=-1
+		}
+	}
+	
+	### 장성 ###
+	ROK_song_ho_seong={
+		name=KOR_song_ho_seong
+		portraits={
+			army={
+				large=GFX_portrait_KOR_song_ho_seong
+			}
+		}
+		corps_commander={
+			traits = {
+				trait_cautious
+			}
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id=-1
+		}
+	}
+}

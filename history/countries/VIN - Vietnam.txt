@@ -1,0 +1,147 @@
+﻿capital = 671 #Hanoi
+
+oob = "VIN_1936"
+
+set_research_slots = 3
+
+# Starting tech
+# clone of France
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1
+	tech_recon = 1
+	tech_mountaineers = 1
+	motorised_infantry = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	trench_warfare = 1
+	fleet_in_being = 1
+}
+if = {
+	limit = {
+		NOT = { has_dlc = "By Blood Alone" }
+	}
+	set_technology = {
+		early_fighter = 1
+		naval_bomber1 = 1
+		cv_early_fighter = 1
+		cv_naval_bomber1 = 1
+		early_bomber = 1
+		tactical_bomber1 = 1
+		CAS1 = 1
+	}
+}
+
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		gwtank = 1
+		basic_light_tank = 1
+		improved_light_tank = 1
+	}
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		gwtank_chassis = 1
+		basic_light_tank_chassis = 1
+		improved_light_tank_chassis = 1
+	}
+}
+
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+		early_submarine = 1
+		basic_submarine = 1
+		early_destroyer = 1
+		early_light_cruiser = 1
+		basic_light_cruiser = 1
+		early_heavy_cruiser = 1
+		basic_heavy_cruiser = 1
+		early_battleship = 1
+		early_battlecruiser = 1
+		early_carrier = 1
+		transport = 1
+	}
+}
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		early_ship_hull_submarine = 1
+		basic_ship_hull_submarine = 1
+		early_ship_hull_light = 1
+		early_ship_hull_cruiser = 1
+		basic_ship_hull_cruiser = 1
+		early_ship_hull_heavy = 1
+		early_ship_hull_carrier = 1
+		mtg_transport = 1
+		basic_battery = 1
+		basic_torpedo = 1
+	}
+}
+
+set_politics = {
+	ruling_party = communism
+	last_election = "1933.2.16"
+	election_frequency = 36
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 42
+	fascism = 5
+	communism = 50
+	neutrality = 3
+}
+
+### 지도자 ###
+recruit_character = VIN_ho_chi_minh
+recruit_character = VIN_nguyen_tuong_tam
+recruit_character = VIN_cuong_de
+recruit_character = VIN_bao_dai
+
+### 정치고문 ###
+recruit_character = VIN_hoang_xuan_han
+recruit_character = VIN_tran_trong_kim
+recruit_character = VIN_kha_vang_can
+recruit_character = VIN_truong_chinh
+recruit_character = VIN_ha_huy_tap
+recruit_character = VIN_nguyen_an_ninh
+recruit_character = VIN_tran_van_chuong
+recruit_character = VIN_tran_khanh_giu
+recruit_character = VIN_truong_tu_anh
+recruit_character = VIN_ngo_dinh_can
+recruit_character = VIN_tran_quoc_hoan
+
+### 이론가 ###
+recruit_character = VIN_vietnam_army_research
+recruit_character = VIN_vietnam_navy_research
+recruit_character = VIN_vietnam_air_research
+
+### 육군참모총장 ###
+recruit_character = VIN_le_van_ty
+recruit_character = VIN_tran_quang_vinh
+recruit_character = VIN_vo_nguyen_giap
+recruit_character = VIN_nguyen_binh
+
+### 해군참모총장 ###
+recruit_character = VIN_ta_xuan_thu
+
+### 공군참모총장 ###
+recruit_character = VIN_nguyen_van_hinh
+recruit_character = VIN_vietnam_air_department
+
+### 티베트 최고사령부 ###
+recruit_character = VIN_duong_van_minh
+recruit_character = VIN_nguyen_chi_thanh
+recruit_character = VIN_chu_van_tan
+recruit_character = VIN_tran_van_don

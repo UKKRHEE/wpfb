@@ -1,5 +1,24 @@
 ﻿l_english:
  #############
+ ### 대한제국 ###
+ #############
+ 
+ ### 대한제국 전차 ###
+ KOR_hyundai:0 "현대자동차공업사"
+ 
+ ### 대한제국 함정 ###
+ KOR_daewoo:0 "대우중공업"
+ 
+ ### 대한제국 항공기 ###
+ KOR_samyang:0 "삼양항공공업"
+ 
+ ### 대한제국 군수품 ###
+ KOR_incheon:0 "인천조병창"
+ 
+ ### 대한제국 산업 ###
+ KOR_seoul_electric:0 "한성전기회사"
+ 
+ #############
  ### 중국공용 ###
  #############
  
@@ -50,4 +69,50 @@
  tianfu_mines:0 "톈푸 광산"
  yumen_oil:0 "위먼 유전"
  lanzhou_general_machinery_plant:0 "난주통용기계창"
+ 
+ #############
+ ### 러시아ㅡ ###
+ #############
+ 
+ ### 러시아 전차 ###
+ RUS_uralmash:0 "우랄마시"
+ RUS_uralvagonzavod:0 "우랄바곤자보드"
+ RUS_chelyabinskiy_traktornyy:0 "첼랴빈스크 트랙터 공장"
+ RUS_avtomobilnoe_moskovskoe:0 "모스크바 자동차 공장"
+ 
+ ### 러시아 함정 ###
+ RUS_baltiysky_verfi:0 "발트 조선소"
+ RUS_admiralteiskie_verfi:0 "아드미랄티 조선소"
+ 
+ ### 러시아 항공기 ###
+ RUS_dux:0 "둑스"
+ 
+ ### 러시아 군수품 ###
+ RUS_izjevskij_mekhanitsjeskij:0 "이젭스크 기계공장"
+ RUS_motovilikha:0 "모토빌리하"
+ 
+ ### 러시아 산업 ###
+ RUS_putilovsky:0 "푸틸로프 공장"
+ RUS_oktava:0 "옥타바"
+ 
+ #############
+ ### 시암왕국 ###
+ #############
+ 
+ ### 시암 전차 ###
+ SIA_state_railway:0 "시암 철도국"
+ 
+ ### 시암 함정 ###
+ SIA_bangkok_dock:0 "방콕 조선소"
+ 
+ ### 시암 항공기 ###
+ SIA_aeronautics:0 "시암 항공사"
+ 
+ ### 시암 군수품 ###
+ SIA_small_arms:0 "소화기 공장"
+ SIA_military_explosives_factory:0 "군용 폭발물 공장"
+ 
+ ### 시암 산업 ###
+ SIA_cement:0 "시암 시멘트"
+ SIA_tanin:0 "탄닌 산업회사"
  

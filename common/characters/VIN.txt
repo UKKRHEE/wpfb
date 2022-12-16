@@ -1,0 +1,793 @@
+characters={
+	### 지도자 ###
+	VIN_ho_chi_minh={
+		name=VIN_ho_chi_minh
+		portraits={
+			civilian={
+				large=GFX_portrait_VIN_ho_chi_minh
+			}
+		}
+		country_leader={
+			ideology=marxism
+			traits={ }
+			expire="1960.1.1.1"
+			id=-1
+		}
+	}
+	VIN_nguyen_tuong_tam={
+		name=VIN_nguyen_tuong_tam
+		portraits={
+			civilian={
+				large=GFX_portrait_VIN_nguyen_tuong_tam
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			traits={ }
+			expire="1960.1.1.1"
+			id=-1
+		}
+	}
+	VIN_cuong_de={
+		name=VIN_cuong_de
+		portraits={
+			civilian={
+				large=GFX_portrait_VIN_cuong_de
+			}
+		}
+		country_leader={
+			ideology=fascism_ideology
+			traits={ }
+			expire="1960.1.1.1"
+			id=-1
+		}
+	}
+	VIN_bao_dai={
+		name=VIN_bao_dai
+		portraits={
+			civilian={
+				large=GFX_portrait_VIN_bao_dai
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={ }
+			expire="1960.1.1.1"
+			id=-1
+		}
+	}
+	
+	### 정치고문 ###
+	VIN_hoang_xuan_han={
+		name=VIN_hoang_xuan_han
+		portraits={
+			civilian={
+				small=GFX_idea_VIN_hoang_xuan_han
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = hoang_xuan_han
+			allowed = {
+				original_tag = VIN
+			}
+			traits = {
+				education_reformer
+			}
+		}
+	}
+	VIN_tran_trong_kim={
+		name=VIN_tran_trong_kim
+		portraits={
+			civilian={
+				small=GFX_idea_VIN_tran_trong_kim
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = tran_trong_kim
+			allowed = {
+				original_tag = VIN
+			}
+			traits = {
+				silent_workhorse
+			}
+		}
+	}
+	VIN_kha_vang_can={
+		name=VIN_kha_vang_can
+		portraits={
+			civilian={
+				small=GFX_idea_VIN_kha_vang_can
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = kha_vang_can
+			allowed = {
+				original_tag = VIN
+			}
+			traits = {
+				war_industrialist
+			}
+		}
+	}
+	VIN_truong_chinh={
+		name=VIN_truong_chinh
+		portraits={
+			civilian={
+				small=GFX_idea_VIN_truong_chinh
+			}
+		}
+		
+		advisor={
+			slot = political_advisor
+			idea_token = truong_chinh
+			available = {
+				has_government = communism
+			}
+			allowed = {
+				original_tag = VIN
+			}
+			traits = {
+				communist_revolutionary
+			}
+		}
+	}
+	VIN_ha_huy_tap={
+		name=VIN_ha_huy_tap
+		portraits={
+			civilian={
+				small=GFX_idea_VIN_ha_huy_tap
+			}
+		}
+		
+		advisor={
+			slot = political_advisor
+			idea_token = ha_huy_tap
+			available = {
+				has_government = communism
+			}
+			allowed = {
+				original_tag = VIN
+			}
+			traits = {
+				backroom_backstabber
+			}
+		}
+	}
+	VIN_nguyen_an_ninh={
+		name=VIN_nguyen_an_ninh
+		portraits={
+			civilian={
+				small=GFX_idea_VIN_nguyen_an_ninh
+			}
+		}
+		
+		advisor={
+			slot = political_advisor
+			idea_token = nguyen_an_ninh
+			available = {
+				OR = {
+					has_government = communism
+					has_government = democratic
+				}
+			}
+			allowed = {
+				original_tag = VIN
+			}
+			traits = {
+				revolutionary_author
+			}
+		}
+	}
+	VIN_tran_van_chuong={
+		name=VIN_tran_van_chuong
+		portraits={
+			civilian={
+				small=GFX_idea_VIN_tran_van_chuong
+			}
+		}
+		
+		advisor={
+			slot = political_advisor
+			idea_token = tran_van_chuong
+			available = {
+				NOT = {
+					has_government = communism
+				}
+			}
+			allowed = {
+				original_tag = VIN
+			}
+			traits = {
+				compassionate_gentleman
+			}
+		}
+	}
+	VIN_tran_khanh_giu={
+		name=VIN_tran_khanh_giu
+		portraits={
+			civilian={
+				small=GFX_idea_VIN_tran_khanh_giu
+			}
+		}
+		
+		advisor={
+			slot = political_advisor
+			idea_token = tran_khanh_giu
+			available = {
+				has_government = democratic
+			}
+			allowed = {
+				original_tag = VIN
+			}
+			traits = {
+				democratic_reformer
+			}
+		}
+	}
+	VIN_truong_tu_anh={
+		name=VIN_truong_tu_anh
+		portraits={
+			civilian={
+				small=GFX_idea_VIN_truong_tu_anh
+			}
+		}
+		
+		advisor={
+			slot = political_advisor
+			idea_token = truong_tu_anh
+			available = {
+				has_government = fascism
+			}
+			allowed = {
+				original_tag = VIN
+			}
+			traits = {
+				fascist_demagogue
+			}
+		}
+	}
+	VIN_ngo_dinh_can={
+		name=VIN_ngo_dinh_can
+		portraits={
+			civilian={
+				small=GFX_idea_VIN_ngo_dinh_can
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = ngo_dinh_can
+			available = {
+				NOT = {
+					has_government = communism
+				}
+				has_intelligence_agency = yes
+			}
+			allowed = {
+				original_tag = VIN
+				has_dlc = "La Resistance" 
+			}
+			traits = {
+				head_of_intelligence
+			}
+		}
+	}
+	VIN_tran_quoc_hoan={
+		name=VIN_tran_quoc_hoan
+		portraits={
+			civilian={
+				small=GFX_idea_VIN_tran_quoc_hoan
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = tran_quoc_hoan
+			available = {
+				has_government = communism
+				has_intelligence_agency = yes
+			}
+			allowed = {
+				original_tag = VIN
+				has_dlc = "La Resistance" 
+			}
+			traits = {
+				head_of_intelligence
+			}
+		}
+	}
+	
+	### 이론가 ###
+	VIN_vietnam_army_research = {
+		name=VIN_vietnam_army_research
+		portraits={
+			army={
+				small=GFX_idea_Joint_army_research
+			}
+		}
+		advisor={
+			cost = 100
+			slot = theorist
+			idea_token = vietnam_army_research
+			ledger = army
+		    allowed = {
+		    	original_tag = VIN
+		    }
+		    traits = {
+				military_theorist
+			}
+		}
+	}
+	VIN_vietnam_navy_research={
+		name=VIN_vietnam_navy_research
+		portraits={
+			army={
+				small=GFX_idea_Joint_navy_research
+			}
+		}
+		advisor={
+			cost = 100
+			slot = theorist
+			idea_token = vietnam_navy_research
+			ledger = navy
+			allowed = {
+				original_tag = VIN
+			}
+			traits = {
+				naval_theorist
+			}
+		}
+	}
+	VIN_vietnam_air_research={
+		name=VIN_vietnam_air_research
+		portraits={
+			army={
+				small=GFX_idea_Joint_air_research
+			}
+		}
+		advisor={
+			cost = 100
+			slot = theorist
+			idea_token = vietnam_air_research
+			ledger = air
+			allowed = {
+				original_tag = VIN
+			}
+			traits = {
+				air_warfare_theorist
+			}
+		}
+	}
+	
+	### 육군참모총장 ###
+	VIN_le_van_ty={
+		name=VIN_le_van_ty
+		portraits={
+			army={
+				large=GFX_portrait_VIN_le_van_ty
+				small=GFX_idea_VIN_le_van_ty
+			}
+		}
+		advisor={
+			cost = 100
+			slot = army_chief
+			idea_token = le_van_ty
+	    	available = {
+				NOT = {
+					has_government = communism
+				}
+			}
+			allowed = {
+	    		original_tag = VIN
+	    	}
+	    	traits = {
+				army_chief_maneuver_2
+			}
+	    	ai_will_do = {
+	    		factor = 1
+	    	}
+		}
+		corps_commander={
+			visible = {
+                NOT = {
+					has_government = communism
+				}
+            }
+			traits = {
+				#
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 1
+			legacy_id=-1
+		}
+	}
+	VIN_tran_quang_vinh={
+		name=VIN_tran_quang_vinh
+		portraits={
+			army={
+				large=GFX_portrait_VIN_tran_quang_vinh
+				small=GFX_idea_VIN_tran_quang_vinh
+			}
+		}
+		advisor={
+			slot = army_chief
+			idea_token = tran_quang_vinh
+	    	available = {
+				NOT = {
+					has_government = communism
+				}
+			}
+			allowed = {
+	    		original_tag = VIN
+	    	}
+	    	traits = {
+				army_chief_planning_1
+			}
+	    	ai_will_do = {
+	    		factor = 1
+	    	}
+		}
+		corps_commander={
+			visible = {
+                NOT = {
+					has_government = communism
+				}
+            }
+			traits = {
+				organizer
+			}
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 3
+			legacy_id=-1
+		}
+	}
+	VIN_vo_nguyen_giap={
+		name=VIN_vo_nguyen_giap
+		portraits={
+			army={
+				large=GFX_portrait_VIN_vo_nguyen_giap
+				small=GFX_idea_VIN_vo_nguyen_giap
+			}
+		}
+		advisor={
+			cost = 100
+			slot = army_chief
+			idea_token = vo_nguyen_giap
+	    	available = {
+				has_government = communism
+			}
+			allowed = {
+	    		original_tag = VIN
+	    	}
+	    	traits = {
+				army_chief_organizational_2
+			}
+	    	ai_will_do = {
+	    		factor = 1
+	    	}
+		}
+		field_marshal={
+			visible = {
+                has_government = communism
+            }
+			traits = {
+				logistics_wizard
+				offensive_doctrine
+				thorough_planner
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 3
+			legacy_id=-1
+		}
+	}
+	VIN_nguyen_binh={
+		name=VIN_nguyen_binh
+		portraits={
+			army={
+				large=GFX_portrait_VIN_nguyen_binh
+				small=GFX_idea_VIN_nguyen_binh
+			}
+		}
+		advisor={
+			cost = 200
+			slot = army_chief
+			idea_token = nguyen_binh
+	    	available = {
+				has_government = communism
+			}
+			allowed = {
+	    		original_tag = VIN
+	    	}
+	    	traits = {
+				army_chief_morale_3
+			}
+	    	ai_will_do = {
+	    		factor = 1
+	    	}
+		}
+		corps_commander={
+			visible = {
+                has_government = communism
+            }
+			traits = {
+				trickster
+				commando
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
+			legacy_id=-1
+		}
+	}
+	
+	### 해군참모총장 ###
+	VIN_ta_xuan_thu = {
+		name=VIN_ta_xuan_thu
+		portraits={
+			army={
+				large=GFX_portrait_VIN_ta_xuan_thu
+				small=GFX_idea_VIN_ta_xuan_thu
+			}
+		}
+		advisor={
+			slot = navy_chief
+			idea_token = ta_xuan_thu
+		    allowed = {
+		    	original_tag = VIN
+	    	}
+		    traits = {
+				navy_chief_commerce_raiding_1
+			}
+		    ai_will_do = {
+		    	factor = 1
+		    }
+		}
+		navy_leader={
+			traits = {
+				#
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+			legacy_id=-1
+		}
+	}
+	
+	### 공군참모총장 ###
+	VIN_nguyen_van_hinh = {
+		name=VIN_nguyen_van_hinh
+		portraits={
+			army={
+				large=GFX_portrait_VIN_nguyen_van_hinh
+				small=GFX_idea_VIN_nguyen_van_hinh
+			}
+		}
+		advisor={
+			slot = air_chief
+			idea_token = nguyen_van_hinh
+			available = {
+				NOT = {
+					has_government = communism
+				}
+			}
+	    	allowed = {
+		    	original_tag = VIN
+		    }
+		    traits = {
+				air_chief_ground_support_1
+			}
+		    ai_will_do = {
+		    	factor = 1
+		    }
+		}
+		field_marshal={
+			visible = {
+                NOT = {
+					has_government = communism
+				}
+            }
+			traits = {
+				aggressive_assaulter
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+	VIN_vietnam_air_department = {
+		name=VIN_vietnam_air_department
+		portraits={
+			army={
+				small=GFX_idea_Joint_air_department
+			}
+		}
+		advisor={
+			slot = air_chief
+			idea_token = vietnam_air_department
+			
+	    	allowed = {
+		    	original_tag = VIN
+		    }
+		    traits = {
+				air_chief_safety_1
+			}
+		    ai_will_do = {
+		    	factor = 1
+		    }
+		}
+	}
+	
+	### 최고사령부 ###
+	VIN_duong_van_minh = {
+		name=VIN_duong_van_minh
+		portraits={
+			army={
+				large=GFX_portrait_VIN_duong_van_minh
+				small=GFX_idea_VIN_duong_van_minh
+			}
+		}
+		advisor={
+			cost = 100
+			slot = high_command
+			idea_token = duong_van_minh
+			ledger = army
+		    available = {
+				NOT = {
+					has_government = communism
+				}
+			}
+			allowed = {
+		    	original_tag = VIN
+		    }
+		    traits = {
+				army_infantry_2
+			}
+		}
+		corps_commander={
+			traits = {
+				infantry_officer
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id=-1
+		}
+		field_marshal={
+			visible = {
+                NOT = {
+					has_government = communism
+				}
+            }
+			traits = {
+				#
+			}
+			skill = 2
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 3
+			legacy_id=-1
+		}
+	}
+	VIN_nguyen_chi_thanh = {
+		name=VIN_nguyen_chi_thanh
+		portraits={
+			army={
+				large=GFX_portrait_VIN_nguyen_chi_thanh
+				small=GFX_idea_VIN_nguyen_chi_thanh
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = nguyen_chi_thanh
+			ledger = army
+			available = {
+				has_government = communism
+			}
+		    allowed = {
+		    	original_tag = VIN
+		    }
+		    traits = {
+				army_logistics_1
+			}
+		}
+		corps_commander={
+			visible = {
+                has_government = communism
+            }
+			traits = {
+				inflexible_strategist
+				infantry_officer
+				commando
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 4
+			legacy_id=-1
+		}
+	}
+	VIN_chu_van_tan = {
+		name=VIN_chu_van_tan
+		portraits={
+			army={
+				small=GFX_idea_VIN_chu_van_tan
+				large=GFX_portrait_VIN_chu_van_tan
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = chu_van_tan
+			ledger = army
+		    allowed = {
+		    	original_tag = VIN
+		    }
+		    traits = {
+				army_infantry_1
+			}
+		}
+		corps_commander={
+			traits = { 
+				infantry_officer
+				infantry_leader
+			}
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 3
+			legacy_id=-1
+		}
+	}
+	VIN_tran_van_don={
+		name=VIN_tran_van_don
+		portraits={
+			army={
+				small=GFX_idea_VIN_tran_van_don
+				large=GFX_portrait_VIN_tran_van_don
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = tran_van_don
+			ledger = army
+		    allowed = {
+		    	original_tag = VIN
+		    }
+		    traits = {
+				army_commando_1
+			}
+		}
+		corps_commander={
+			traits = { 
+				#
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 1
+			legacy_id=-1
+		}
+	}
+}

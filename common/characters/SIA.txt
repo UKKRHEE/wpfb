@@ -1,0 +1,644 @@
+characters={
+	### 지도자 ###
+	SIA_supha_sirimanon={
+		name=SIA_supha_sirimanon
+		portraits={
+			civilian={
+				large=GFX_portrait_SIA_supha_sirimanon
+			}
+		}
+		country_leader={
+			ideology=marxism
+			traits={ }
+			expire="1960.1.1.1"
+			id=-1
+		}
+	}
+	SIA_pridi_pnomyong={
+		name=SIA_pridi_pnomyong
+		portraits={
+			civilian={
+				large=GFX_portrait_SIA_pridi_pnomyong
+			}
+		}
+		country_leader={
+			ideology=socialism
+			traits={ }
+			expire="1960.1.1.1"
+			id=-1
+		}
+	}
+	SIA_plaek_phibunsongkhram={
+		name=SIA_plaek_phibunsongkhram
+		portraits={
+			army={
+				large=GFX_portrait_SIA_plaek_phibunsongkhram
+				small=GFX_idea_SIA_plaek_phibunsongkhram
+			}
+		}
+		country_leader={
+			ideology=fascism_ideology
+			traits={ }
+			expire="1960.1.1.1"
+			id=-1
+		}
+		advisor={
+			cost = 100
+			slot = army_chief
+			idea_token = plaek_phibunsongkhram
+	    	available = {
+				OR = {
+					has_government = fascism
+					has_government = neutrality
+				}
+			}
+			allowed = {
+	    		original_tag = SIA
+	    	}
+	    	traits = {
+				army_chief_organizational_2
+			}
+	    	ai_will_do = {
+	    		factor = 1
+	    	}
+		}
+		field_marshal={
+			visible = {
+                OR = {
+					has_government = fascism
+					has_government = neutrality
+				}
+            }
+			traits = {
+				brilliant_strategist
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 1
+			legacy_id=-1
+		}
+	}
+	SIA_phot_phahonyothin={
+		name=SIA_phot_phahonyothin
+		portraits={
+			civilian={
+				large=GFX_portrait_Phraya_Phahon
+				small=GFX_idea_SIA_phraya_phahon
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={ }
+			expire="1960.1.1.1"
+			id=-1
+		}
+		advisor={
+			slot = army_chief
+			idea_token = phot_phahonyothin
+	    	available = {
+				OR = {
+					has_government = fascism
+					has_government = neutrality
+				}
+			}
+			allowed = {
+	    		original_tag = SIA
+	    	}
+	    	traits = {
+				army_chief_organizational_1
+			}
+	    	ai_will_do = {
+	    		factor = 1
+	    	}
+		}
+		field_marshal={
+			visible = {
+                OR = {
+					has_government = fascism
+					has_government = neutrality
+				}
+            }
+			traits = {
+				#
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id=-1
+		}
+	}
+	
+	### 정치고문 ###
+	SIA_sun_kijjumnong={
+		name=SIA_sun_kijjumnong
+		portraits={
+			civilian={
+				small=GFX_idea_SIA_sun_kijjumnong
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = sun_kijjumnong
+			available = {
+                has_government = communism
+            }
+			allowed = {
+				original_tag = SIA
+			}
+			traits = {
+				council_communist
+			}
+		}
+	}
+	SIA_phayom_chulanont={
+		name=SIA_phayom_chulanont
+		portraits={
+			civilian={
+				small=GFX_idea_SIA_phayom_chulanont
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = phayom_chulanont
+			available = {
+                has_government = communism
+            }
+			allowed = {
+				original_tag = SIA
+			}
+			traits = {
+				communist_revolutionary
+			}
+		}
+	}
+	SIA_thep_panthumasaen={
+		name=SIA_thep_panthumasaen
+		portraits={
+			civilian={
+				small=GFX_idea_SIA_thep_panthumasaen
+				large=GFX_portrait_SIA_thep_panthumasaen
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = thep_panthumasaen
+			available = {
+				OR = {
+					has_government = communism
+					has_government = democratic
+				}
+			}
+			allowed = {
+				original_tag = SIA
+			}
+			traits = {
+				armaments_organizer
+			}
+		}
+		corps_commander = {
+			traits = { career_officer trait_engineer }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 1
+		}
+	}
+	SIA_seni_pramoj={
+		name=SIA_seni_pramoj
+		portraits={
+			civilian={
+				small=GFX_idea_SIA_seni_pramoj
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = seni_pramoj
+			available = {
+				NOT = {
+					has_government = communism
+					has_government = fascism
+				}
+			}
+			allowed = {
+				original_tag = SIA
+			}
+			traits = {
+				anti_fascist_agent
+			}
+		}
+	}
+	SIA_pote_sarasin={
+		name=SIA_pote_sarasin
+		portraits={
+			civilian={
+				small=GFX_idea_SIA_pote_sarasin
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = pote_sarasin
+			available = {
+				NOT = {
+					has_government = communism
+				}
+			}
+			allowed = {
+				original_tag = SIA
+			}
+			traits = {
+				ideological_crusader
+			}
+		}
+	}
+	SIA_adul_adulyadejchrat={
+		name=SIA_adul_adulyadejchrat
+		portraits={
+			civilian={
+				large=GFX_portrait_SIA_adul_adulyadejchrat
+				small=GFX_idea_SIA_adul_adulyadejchrat
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = adul_adulyadejchrat
+			available = {
+				OR = {
+					has_government = fascism
+					has_government = neutrality
+				}
+			}
+			allowed = {
+				original_tag = SIA
+			}
+			traits = {
+				prince_of_terror
+			}
+		}
+		corps_commander = {
+			visible = {
+                NOT = {
+					has_government = communism
+				}
+            }
+			traits = { politically_connected }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	SIA_phao_sriyanond={
+		name=SIA_phao_sriyanond
+		portraits={
+			civilian={
+				small=GFX_idea_SIA_phao_sriyanond
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = phao_sriyanond
+			available = {
+				OR = {
+					has_government = fascism
+					has_government = neutrality
+				}
+			}
+			allowed = {
+				original_tag = SIA
+			}
+			traits = {
+				backroom_backstabber
+			}
+		}
+	}
+	SIA_pijarn_dullalampha={
+		name=SIA_pijarn_dullalampha
+		portraits={
+			civilian={
+				small=GFX_idea_SIA_pijarn_dullalampha
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = pijarn_dullalampha
+			available = {
+				has_intelligence_agency = yes
+			}
+			allowed = {
+				original_tag = SIA
+				has_dlc = "La Resistance" 
+			}
+			traits = {
+				head_of_intelligence
+			}
+		}
+	}
+	
+	### 이론가 ###
+	SIA_jarun_rattanakul_seriroengrit = {
+		name=SIA_jarun_rattanakul_seriroengrit
+		portraits={
+			army={
+				small=GFX_idea_SIA_jarun_rattanakul_seriroengrit
+				large=GFX_portrait_SIA_jarun_rattanakul_seriroengrit
+			}
+		}
+		advisor={
+			cost = 100
+			slot = theorist
+			idea_token = jarun_rattanakul_seriroengrit
+			ledger = army
+		    allowed = {
+		    	original_tag = SIA
+		    }
+		    traits = {
+				military_theorist
+			}
+		}
+		field_marshal = {
+			traits = { organizer logistics_wizard }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 3
+		}
+	}
+	SIA_thawan_thamrongnawasawat={
+		name=SIA_thawan_thamrongnawasawat
+		portraits={
+			army={
+				small=GFX_idea_SIA_thawan_thamrongnawasawat
+				large=GFX_portrait_SIA_thawan_thamrongnawasawat
+			}
+		}
+		advisor={
+			cost = 100
+			slot = theorist
+			idea_token = thawan_thamrongnawasawat
+			ledger = navy
+			allowed = {
+				original_tag = SIA
+			}
+			traits = {
+				naval_theorist
+			}
+		}
+		navy_leader = {
+			traits = { fleet_protector }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 3
+		}
+	}
+	SIA_sunee_suwanprateep={
+		name=SIA_sunee_suwanprateep
+		portraits={
+			army={
+				small=GFX_idea_SIA_sunee_suwanprateep
+			}
+		}
+		advisor={
+			cost = 100
+			slot = theorist
+			idea_token = sunee_suwanprateep
+			ledger = air
+			allowed = {
+				original_tag = SIA
+			}
+			traits = {
+				air_warfare_theorist
+			}
+		}
+	}
+	
+	### 육군참모총장 ###
+	SIA_wan_chuthin={
+		name=SIA_wan_chuthin
+		portraits={
+			army={
+				large=GFX_portrait_SIA_wan_chuthin
+				small=GFX_idea_SIA_wan_chuthin
+			}
+		}
+		advisor={
+			slot = army_chief
+			idea_token = wan_chuthin
+			allowed = {
+				original_tag = SIA
+			}
+			traits = {
+				army_chief_defensive_1
+			}
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+		corps_commander = {
+			traits = { war_hero skilled_staffer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	
+	### 해군참모총장 ###
+	SIA_sindhu_kamolnawin = {
+		name=SIA_sindhu_kamolnawin
+		portraits={
+			army={
+				small=GFX_idea_SIA_sindhu_kamolnawin
+				large=GFX_portrait_SIA_sindhu_kamolnawin
+			}
+		}
+		advisor={
+			cost = 100 
+			slot = navy_chief
+			idea_token = sindhu_kamolnawin
+		    allowed = {
+		    	original_tag = SIA
+	    	}
+		    traits = {
+				navy_chief_maneuver_2
+			}
+		    ai_will_do = {
+		    	factor = 1
+		    }
+		}
+		navy_leader = {
+			traits = { naval_lineage blockade_runner }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			maneuvering_skill = 2
+			coordination_skill = 3
+		}
+	}
+	
+	### 공군참모총장 ###
+	SIA_boonjeam_komolmit={
+		name=SIA_boonjeam_komolmit
+		portraits={
+			army={
+				small=GFX_idea_SIA_boonjeam_komolmit
+			}
+		}
+		advisor={		
+			cost = 100
+			slot = air_chief
+			idea_token = boonjeam_komolmit
+			allowed = {
+				original_tag = SIA
+			}
+			traits = {
+				air_chief_night_operations_2
+			}
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+	
+	### 최고사령부 ###
+	SIA_karj_karjsongkhram = {
+		name=SIA_karj_karjsongkhram
+		portraits={
+			army={
+				large=GFX_portrait_SIA_karj_karjsongkhram
+				small=GFX_idea_SIA_karj_karjsongkhram
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = karj_karjsongkhram
+			ledger = army
+		    allowed = {
+		    	original_tag = SIA
+		    }
+		    traits = {
+				army_infantry_1
+			}
+		}
+		corps_commander = {
+			traits = { infantry_officer }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	SIA_mongkol_mongkolnawin = {
+		name=SIA_mongkol_mongkolnawin
+		portraits={
+			army={
+				large=GFX_portrait_SIA_mongkol_mongkolnawin
+				small=GFX_idea_SIA_mongkol_mongkolnawin
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = mongkol_mongkolnawin
+			ledger = navy
+	    	allowed = {
+	    		original_tag = SIA
+	    	}
+	    	traits = {
+				navy_capital_ship_1
+			}
+	    	ai_will_do = {
+	    		factor = 1
+	    	}
+		}
+		navy_leader = {
+			traits = { fly_swatter }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 3
+			maneuvering_skill = 2
+			coordination_skill = 1
+		}
+	}
+	SIA_munee_mahasantana = {
+		name=SIA_munee_mahasantana
+		portraits={
+			army={
+				small=GFX_idea_SIA_munee_mahasantana
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = munee_mahasantana
+			ledger = air
+		    allowed = {
+		    	original_tag = SIA
+		    }
+		    traits = {
+				air_tactical_bombing_1
+			}
+		    ai_will_do = {
+		    	factor = 1
+	    	}
+		}
+	}
+	
+	### 육군 장성 ###
+	SIA_phin_choonhavan={
+		name=SIA_phin_choonhavan
+		portraits={
+			army={
+				large=GFX_portrait_SIA_phin_choonhavan
+			}
+		}
+		corps_commander = {
+			traits = { harsh_leader politically_connected hill_fighter }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	SIA_pichit_kriengsakpichit={
+		name=SIA_pichit_kriengsakpichit
+		portraits={
+			army={
+				large=GFX_portrait_SIA_pichit_kriengsakpichit
+			}
+		}
+		corps_commander = {
+			traits = { infantry_officer }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	SIA_mangkorn_promyothee={
+		name=SIA_mangkorn_promyothee
+		portraits={
+			army={
+				large=GFX_portrait_SIA_mangkorn_promyothee
+			}
+		}
+		corps_commander = {
+			traits = { career_officer infantry_officer }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+}
