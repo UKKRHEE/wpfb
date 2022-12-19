@@ -4,18 +4,27 @@
  #############
  
  ### 대한제국 전차 ###
- KOR_hyundai:0 "현대자동차공업사"
+ KOR_hyundai_fast_tank:0 "현대자동차공업사 기동전차설계부"
+ KOR_hyundai_medium_tank:0 "현대자동차공업사 중형전차설계부"
+ KOR_hyundai_heavy_tank:0 "현대자동차공업사 중전차설계부"
  
  ### 대한제국 함정 ###
- KOR_daewoo:0 "대우중공업"
+ KOR_daewoo_battlefleet:0 "대우중공업 전투함설계부"
+ KOR_daewoo_escort:0 "대우중공업 호위함설계부"
+ KOR_daewoo_defence:0 "대우중공업 연안방어함설계부"
  
  ### 대한제국 항공기 ###
- KOR_samyang:0 "삼양항공공업"
+ KOR_samyang_light:0 "삼양항공공업 경항공기설계부"
+ KOR_samyang_medium:0 "삼양항공공업 중형항공기설계부"
+ KOR_samyang_heavy:0 "삼양항공공업 중항공기설계부"
  
  ### 대한제국 군수품 ###
  KOR_incheon:0 "인천조병창"
+ KOR_artillery_design:0 "군부 포공국"
+ KOR_royal_arsenal:0 "황립 기기창"
  
  ### 대한제국 산업 ###
+ KOR_bank_of_korea:0 "한국은행"
  KOR_seoul_electric:0 "한성전기회사"
  
  #############

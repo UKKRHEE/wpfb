@@ -26,8 +26,20 @@ spriteTypes = {
 		name = "GFX_idea_KOR_incheon"
 		texturefile = "gfx/interface/companies/KOR/KOR_incheon.png"
 	}
+	spriteType = {
+		name = "GFX_idea_KOR_artillery_design"
+		texturefile = "gfx/interface/companies/KOR/KOR_artillery_design.png"
+	}
+	spriteType = {
+		name = "GFX_idea_KOR_royal_arsenal"
+		texturefile = "gfx/interface/companies/KOR/KOR_royal_arsenal.png"
+	}
 	
 	### 산업 ###
+	spriteType = {
+		name = "GFX_idea_KOR_bank_of_korea"
+		texturefile = "gfx/interface/companies/KOR/KOR_bank_of_korea.png"
+	}
 	spriteType = {
 		name = "GFX_idea_KOR_seoul_electric"
 		texturefile = "gfx/interface/companies/KOR/KOR_seoul_electric.png"

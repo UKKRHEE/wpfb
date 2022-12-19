@@ -321,7 +321,7 @@ characters={
 	
 	### 이론가 ###
 	SIK_xinjiang_army_research = {
-		name=SIK_xinjiang_army_research
+		name=joint_army_research
 		portraits={
 			army={
 				small=GFX_idea_Joint_army_research
@@ -341,7 +341,7 @@ characters={
 		}
 	}
 	SIK_xinjiang_navy_research={
-		name=SIK_xinjiang_navy_research
+		name=joint_navy_research
 		portraits={
 			army={
 				small=GFX_idea_Joint_navy_research
@@ -361,7 +361,7 @@ characters={
 		}
 	}
 	SIK_xinjiang_air_research={
-		name=SIK_xinjiang_air_research
+		name=joint_air_research
 		portraits={
 			army={
 				small=GFX_idea_Joint_air_research
@@ -520,7 +520,7 @@ characters={
 	
 	### 해군참모총장 ###
 	SIK_xinjiang_navy_department = {
-		name=SIK_xinjiang_navy_department
+		name=joint_navy_department
 		portraits={
 			army={
 				small=GFX_idea_Joint_navy_department
@@ -543,7 +543,7 @@ characters={
 	
 	### 공군참모총장 ###
 	SIK_xinjiang_air_department = {
-		name=SIK_xinjiang_air_department
+		name=joint_air_department
 		portraits={
 			army={
 				small=GFX_idea_Joint_air_department

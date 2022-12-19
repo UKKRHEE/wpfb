@@ -143,7 +143,7 @@ characters={
 		}
 	}
 	GXC_guangxi_security={
-		name=GXC_guangxi_security
+		name=joint_security
 		portraits={
 			civilian={
 				small=GFX_idea_Joint_security
@@ -187,7 +187,7 @@ characters={
 		}
 	}
 	GXC_guangxi_navy_research={
-		name=GXC_guangxi_navy_research
+		name=joint_navy_research
 		portraits={
 			army={
 				small=GFX_idea_Joint_navy_research
@@ -207,7 +207,7 @@ characters={
 		}
 	}
 	GXC_guangxi_air_research={
-		name=GXC_guangxi_air_research
+		name=joint_air_research
 		portraits={
 			army={
 				small=GFX_idea_Joint_air_research
@@ -267,7 +267,7 @@ characters={
 	
 	### 해군참모총장 ###
 	GXC_guangxi_navy_department = {
-		name=GXC_guangxi_navy_department
+		name=joint_navy_department
 		portraits={
 			army={
 				small=GFX_idea_Joint_navy_department

@@ -138,7 +138,7 @@ characters={
 		}
 	}
 	SCC_sichuan_finance={
-		name=SCC_sichuan_finance
+		name=joint_finance
 		portraits={
 			civilian={
 				small=GFX_idea_Joint_finance
@@ -156,7 +156,7 @@ characters={
 		}
 	}
 	SCC_sichuan_education={
-		name=SCC_sichuan_education
+		name=joint_education
 		portraits={
 			civilian={
 				small=GFX_idea_Joint_education
@@ -174,7 +174,7 @@ characters={
 		}
 	}
 	SCC_sichuan_security={
-		name=SCC_sichuan_security
+		name=joint_security
 		portraits={
 			civilian={
 				small=GFX_idea_Joint_security
@@ -198,7 +198,7 @@ characters={
 	
 	### 이론가 ###
 	SCC_sichuan_army_research = {
-		name=SCC_sichuan_army_research
+		name=joint_army_research
 		portraits={
 			army={
 				small=GFX_idea_Joint_army_research
@@ -218,7 +218,7 @@ characters={
 		}
 	}
 	SCC_sichuan_navy_research={
-		name=SCC_sichuan_navy_research
+		name=joint_navy_research
 		portraits={
 			army={
 				small=GFX_idea_Joint_navy_research
@@ -238,7 +238,7 @@ characters={
 		}
 	}
 	SCC_sichuan_air_research={
-		name=SCC_sichuan_air_research
+		name=joint_air_research
 		portraits={
 			army={
 				small=GFX_idea_Joint_air_research
@@ -297,7 +297,7 @@ characters={
 	
 	### 해군참모총장 ###
 	SCC_sichuan_navy_department = {
-		name=SCC_sichuan_navy_department
+		name=joint_navy_department
 		portraits={
 			army={
 				small=GFX_idea_Joint_navy_department

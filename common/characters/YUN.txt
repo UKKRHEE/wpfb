@@ -179,7 +179,7 @@ characters={
 		}
 	}
 	YUN_yunnan_security={
-		name=YUN_yunnan_security
+		name=joint_security
 		portraits={
 			civilian={
 				small=GFX_idea_Joint_security
@@ -223,7 +223,7 @@ characters={
 		}
 	}
 	YUN_yunnan_navy_research={
-		name=YUN_yunnan_navy_research
+		name=joint_navy_research
 		portraits={
 			army={
 				small=GFX_idea_Joint_navy_research
@@ -243,7 +243,7 @@ characters={
 		}
 	}
 	YUN_yunnan_air_research={
-		name=YUN_yunnan_air_research
+		name=joint_air_research
 		portraits={
 			army={
 				small=GFX_idea_Joint_air_research
@@ -302,7 +302,7 @@ characters={
 	
 	### 해군참모총장 ###
 	YUN_yunnan_navy_department = {
-		name=YUN_yunnan_navy_department
+		name=joint_navy_department
 		portraits={
 			army={
 				small=GFX_idea_Joint_navy_department

@@ -174,7 +174,7 @@ characters={
 	
 	### 이론가 ###
 	HNC_hunan_army_research = {
-		name=HNC_hunan_army_research
+		name=joint_army_research
 		portraits={
 			army={
 				small=GFX_idea_Joint_army_research
@@ -194,7 +194,7 @@ characters={
 		}
 	}
 	HNC_hunan_navy_research={
-		name=HNC_hunan_navy_research
+		name=joint_navy_research
 		portraits={
 			army={
 				small=GFX_idea_Joint_navy_research
@@ -214,7 +214,7 @@ characters={
 		}
 	}
 	HNC_hunan_air_research={
-		name=HNC_hunan_air_research
+		name=joint_air_research
 		portraits={
 			army={
 				small=GFX_idea_Joint_air_research
@@ -275,7 +275,7 @@ characters={
 	
 	### 해군참모총장 ###
 	HNC_hunan_navy_department = {
-		name=HNC_hunan_navy_department
+		name=joint_navy_department
 		portraits={
 			army={
 				small=GFX_idea_Joint_navy_department

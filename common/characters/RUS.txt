@@ -1037,7 +1037,7 @@ characters = {
 		name=RUS_mikhail_berens
 		portraits={
 			army={
-				large=GFX_portrait_Russia_generic_navy_1
+				large=GFX_portrait_RUS_navy_1
 			}
 		}
 		navy_leader={

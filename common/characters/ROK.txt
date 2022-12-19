@@ -129,7 +129,7 @@ characters = {
 	
 	### 정치고문/정보기관 ###
 	ROK_korea_security={
-		name=KOR_korea_security
+		name=joint_security
 		portraits={
 			civilian={
 				small=GFX_idea_Joint_security

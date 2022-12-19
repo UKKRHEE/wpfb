@@ -61,15 +61,11 @@ leader_traits = {
 		random = no
 
 		targeted_modifier = {
+			tag = ZLC
+			generate_wargoal_tension_against = 0.75
+		}
+		targeted_modifier = {
 			tag = CHI
-			generate_wargoal_tension_against = 0.75
-		}
-		targeted_modifier = {
-			tag = PRC
-			generate_wargoal_tension_against = 0.75
-		}
-		targeted_modifier = {
-			tag = SHX
 			generate_wargoal_tension_against = 0.75
 		}
 		targeted_modifier = {
@@ -77,15 +73,23 @@ leader_traits = {
 			generate_wargoal_tension_against = 0.75
 		}
 		targeted_modifier = {
+			tag = SCC
+			generate_wargoal_tension_against = 0.75
+		}
+		targeted_modifier = {
 			tag = YUN
 			generate_wargoal_tension_against = 0.75
 		}
 		targeted_modifier = {
-			tag = XSM
+			tag = HNC
 			generate_wargoal_tension_against = 0.75
 		}
 		targeted_modifier = {
-			tag = SIK
+			tag = SHX
+			generate_wargoal_tension_against = 0.75
+		}
+		targeted_modifier = {
+			tag = XSM
 			generate_wargoal_tension_against = 0.75
 		}
 

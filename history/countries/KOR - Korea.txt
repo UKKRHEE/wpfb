@@ -27,7 +27,7 @@ set_popularities = {
 recruit_character = KOR_yi_dong_hwi
 recruit_character = KOR_lyuh_woon_hyung
 recruit_character = KOR_lee_beom_seok
-recruit_character = KOR_yi_won
+recruit_character = KOR_yi_wu
 
 ### 정치고문 ###
 recruit_character = KOR_kim_kyu_sik
@@ -44,7 +44,7 @@ recruit_character = KOR_cho_bong_am
 recruit_character = KOR_gang_se_hyeong
 recruit_character = KOR_ahn_ho_sang
 recruit_character = KOR_sin_chae_ho
-recruit_character = KOR_yi_hae_chang
+recruit_character = KOR_yi_kang
 recruit_character = KOR_yi_kyu_wan
 recruit_character = KOR_min_young_hwan
 
@@ -77,7 +77,7 @@ recruit_character = KOR_choe_yong_duk
 recruit_character = KOR_ahn_chang_nam
 
 ### 육군 원수 ###
-recruit_character = KOR_yi_kang
+recruit_character = KOR_yi_won
 
 ### 육군 장성 ###
 recruit_character = KOR_yu_dong_yeol
@@ -89,5 +89,7 @@ recruit_character = KOR_lee_eung_jun
 
 ### 해군 제독 ###
 recruit_character = KOR_sohn_won_yil
+recruit_character = KOR_yi_un
 recruit_character = KOR_yi_jae_gak
+recruit_character = KOR_yi_geon
 recruit_character = KOR_shin_sung_mo

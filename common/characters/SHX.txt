@@ -202,7 +202,7 @@ characters={
 		}
 	}
 	SHX_shanxi_security={
-		name=SHX_shanxi_security
+		name=joint_security
 		portraits={
 			civilian={
 				small=GFX_idea_Joint_security
@@ -246,7 +246,7 @@ characters={
 		}
 	}
 	SHX_shanxi_navy_research={
-		name=SHX_shanxi_navy_research
+		name=joint_navy_research
 		portraits={
 			army={
 				small=GFX_idea_Joint_navy_research
@@ -266,7 +266,7 @@ characters={
 		}
 	}
 	SHX_shanxi_air_research={
-		name=SHX_shanxi_air_research
+		name=joint_air_research
 		portraits={
 			army={
 				small=GFX_idea_Joint_air_research
@@ -326,7 +326,7 @@ characters={
 	
 	### 해군참모총장 ###
 	SHX_shanxi_navy_department = {
-		name=SHX_shanxi_navy_department
+		name=joint_navy_department
 		portraits={
 			army={
 				small=GFX_idea_Joint_navy_department

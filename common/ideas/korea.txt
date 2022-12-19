@@ -4,8 +4,10 @@ ideas = {
 		
 		designer = yes
 		
-		KOR_hyundai = {
-
+		KOR_hyundai_fast_tank = {
+			
+			picture = KOR_hyundai
+			
 			allowed = {
 				original_tag = KOR
 			}
@@ -17,7 +19,43 @@ ideas = {
 				armor = 0.15
 			}
 			
-			traits = { tank_manufacturer }
+			traits = { fast_tank_manufacturer }
+			
+		}
+		KOR_hyundai_medium_tank = {
+			
+			picture = KOR_hyundai
+			
+			allowed = {
+				original_tag = KOR
+			}
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				armor = 0.15
+			}
+			
+			traits = { medium_tank_manufacturer }
+			
+		}
+		KOR_hyundai_heavy_tank = {
+			
+			picture = KOR_hyundai
+			
+			allowed = {
+				original_tag = KOR
+			}
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				armor = 0.15
+			}
+			
+			traits = { heavy_tank_manufacturer }
 			
 		}
 	}
@@ -26,7 +64,39 @@ ideas = {
 		
 		designer = yes
 		
-		KOR_daewoo = {
+		KOR_daewoo_battlefleet = {
+			
+			picture = KOR_daewoo
+			
+			allowed = {
+				original_tag = KOR
+			}
+			
+			research_bonus = {
+				naval_equipment = 0.15
+			}
+			
+			traits = { battlefleet_designer }
+			
+		}
+		KOR_daewoo_escort = {
+			
+			picture = KOR_daewoo
+			
+			allowed = {
+				original_tag = KOR
+			}
+			
+			research_bonus = {
+				naval_equipment = 0.15
+			}
+			
+			traits = { convoy_escort_naval_manufacturer }
+			
+		}
+		KOR_daewoo_defence = {
+			
+			picture = KOR_daewoo
 			
 			allowed = {
 				original_tag = KOR
@@ -45,8 +115,10 @@ ideas = {
 			
 		designer = yes		
 
-		KOR_samyang = {
-
+		KOR_samyang_light = {
+			
+			picture = KOR_samyang
+			
 			allowed = {
 				original_tag = KOR
 			}
@@ -56,6 +128,38 @@ ideas = {
 			}
 			
 			traits = { light_aircraft_manufacturer }
+			
+		}
+		
+		KOR_samyang_medium = {
+			
+			picture = KOR_samyang
+			
+			allowed = {
+				original_tag = KOR
+			}
+			
+			research_bonus = {
+				air_equipment = 0.15
+			}
+			
+			traits = { medium_aircraft_manufacturer }
+			
+		}
+		
+		KOR_samyang_heavy = {
+			
+			picture = KOR_samyang
+			
+			allowed = {
+				original_tag = KOR
+			}
+			
+			research_bonus = {
+				air_equipment = 0.15
+			}
+			
+			traits = { heavy_aircraft_manufacturer }
 			
 		}
 	}
@@ -77,10 +181,52 @@ ideas = {
 			traits = { infantry_equipment_manufacturer }
 			
 		}
+		KOR_artillery_design = {
+			
+			allowed = {
+				original_tag = KOR
+			}
+			
+			research_bonus = {
+				artillery = 0.15
+			}
+			
+			traits = { artillery_manufacturer }
+			
+		}
+		KOR_royal_arsenal = {
+			
+			allowed = {
+				original_tag = KOR
+			}
+			
+			research_bonus = {
+				motorized_equipment = 0.15
+			}
+			
+			traits = { motorized_equipment_manufacturer }
+			
+		}
 	}
 	
 	industrial_concern = {
 		
+		KOR_bank_of_korea = {
+			
+			allowed = {
+				original_tag = KOR
+			}
+			
+			research_bonus = {
+				industry = 0.15
+			}
+			
+			modifier = {
+				economy_cost_factor = -0.25
+			}
+
+			traits = { industrial_concern }
+		}
 		KOR_seoul_electric = {
 			
 			allowed = {
@@ -92,6 +238,22 @@ ideas = {
 			}
 			
 			traits = { electronics_concern }
+			
+		}
+		KOR_south_manchuria_railway = {
+			name = south_manchuria_railway
+			
+			picture = south_manchuria_railway
+			
+			allowed = {
+				original_tag = KOR
+			}
+			
+			research_bonus = {
+				train_tech = 0.15
+			}
+			
+			traits = { railway_company }
 			
 		}
 	}

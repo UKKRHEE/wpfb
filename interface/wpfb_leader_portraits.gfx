@@ -22,8 +22,8 @@ spriteTypes = {
 		texturefile = "gfx/leaders/KOR/Portrait_KOR_Lee_Beom_seok2.png"
 	}
 	spriteType = {
-		name = "GFX_portrait_KOR_yi_won"
-		texturefile = "gfx/leaders/KOR/Portrait_KOR_Yi_Won.png"
+		name = "GFX_portrait_KOR_yi_wu"
+		texturefile = "gfx/leaders/KOR/Portrait_KOR_Yi_Wu.png"
 	}
 	
 	### 한국 정치인 ###
@@ -55,11 +55,15 @@ spriteTypes = {
 		name = "GFX_portrait_KOR_sin_chae_ho"
 		texturefile = "gfx/leaders/KOR/Portrait_KOR_Sin_Chae_ho.png"
 	}
-	
-	### 한국 원수 ###
 	spriteType = {
 		name = "GFX_portrait_KOR_yi_kang"
 		texturefile = "gfx/leaders/KOR/Portrait_KOR_Yi_Kang.png"
+	}
+	
+	### 한국 원수 ###
+	spriteType = {
+		name = "GFX_portrait_KOR_yi_won"
+		texturefile = "gfx/leaders/KOR/Portrait_KOR_Yi_Won.png"
 	}
 	spriteType = {
 		name = "GFX_portrait_KOR_ahn_jung_geun"
@@ -171,8 +175,16 @@ spriteTypes = {
 		texturefile = "gfx/leaders/KOR/Portrait_KOR_Sohn_Won_yil.png"
 	}
 	spriteType = {
+		name = "GFX_portrait_KOR_yi_un"
+		texturefile = "gfx/leaders/KOR/Portrait_KOR_Yi_Un.png"
+	}
+	spriteType = {
 		name = "GFX_portrait_KOR_yi_jae_gak"
 		texturefile = "gfx/leaders/KOR/Portrait_KOR_Yi_Jae_gak.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_KOR_yi_geon"
+		texturefile = "gfx/leaders/KOR/Portrait_KOR_Yi_Geon.png"
 	}
 	spriteType = {
 		name = "GFX_portrait_KOR_shin_sung_mo"
@@ -181,6 +193,30 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_portrait_KOR_han_il_mu"
 		texturefile = "gfx/leaders/KOR/Portrait_KOR_Han_Il_mu.png"
+	}
+	
+	#############
+	### 일본제국 ###
+	#############
+	
+	### 일본 지도자 ###
+	spriteType = {
+		name = "GFX_portrait_JAP_okada_keisuke"
+		texturefile = "gfx/leaders/JAP/Portrait_JAP_Okada_Keisuke.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_tokugawa_iesato"
+		texturefile = "gfx/leaders/JAP/Portrait_JAP_Tokugawa_Iesato.png"
+	}
+	
+	### 일본 정치인 ###
+	spriteType = {
+		name = "GFX_portrait_JAP_ishibashi_tanzan"
+		texturefile = "gfx/leaders/JAP/Portrait_JAP_Ishibashi_Tanzan.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_tojo_hideki"
+		texturefile = "gfx/leaders/JAP/Portrait_JAP_Tojo_Hideki.png"
 	}
 	
 	#############
@@ -905,8 +941,8 @@ spriteTypes = {
 		texturefile = "gfx/leaders/RUS/Portrait_RUS_Nestor_Monastyrev.png"
 	}
 	spriteType = {
-		name = "GFX_portrait_Russia_generic_navy_1"
-		texturefile = "gfx/leaders/RUS/Portrait_Russia_Generic_navy_1.png"
+		name = "GFX_portrait_RUS_navy_1"
+		texturefile = "gfx/leaders/RUS/Portrait_RUS_navy_1.png"
 	}
 	
 	#############
@@ -1043,6 +1079,30 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_portrait_VIN_ta_xuan_thu"
 		texturefile = "gfx/leaders/VIN/Portrait_VIN_Ta_Xuan_Thu.png"
+	}
+	
+	#############
+	### 인도제국 ###
+	#############
+	
+	### 인도 지도자 ###
+	spriteType = {
+		name = "GFX_portrait_RAJ_jawaharlal_nehru"
+		texturefile = "gfx/leaders/RAJ/Portrait_RAJ_Jawaharlal_Nehru.png"
+	}
+	
+	### 인도 제독 ###
+	spriteType = {
+		name = "GFX_portrait_RAJ_ram_dass_katari"
+		texturefile = "gfx/leaders/RAJ/Portrait_RAJ_Ram_Dass_Katari.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_RAJ_kalyani_sen"
+		texturefile = "gfx/leaders/RAJ/Portrait_RAJ_Kalyani_Sen.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_RAJ_navy_1"
+		texturefile = "gfx/leaders/RAJ/Portrait_RAJ_navy_1.png"
 	}
 	
 	#spriteType = {

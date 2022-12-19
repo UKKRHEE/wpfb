@@ -149,8 +149,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/KOR/idea_KOR_sin_chae_ho.png"
 	}
 	spriteType = {
-		name = "GFX_idea_KOR_yi_hae_chang"
-		texturefile = "gfx/interface/ideas/KOR/idea_KOR_yi_hae_chang.png"
+		name = "GFX_idea_KOR_yi_kang"
+		texturefile = "gfx/interface/ideas/KOR/idea_KOR_yi_kang.png"
 	}
 	spriteType = {
 		name = "GFX_idea_KOR_yi_kyu_wan"
@@ -301,6 +301,24 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_KOR_shin_sung_mo"
 		texturefile = "gfx/interface/ideas/KOR/idea_KOR_shin_sung_mo.png"
+	}
+	
+	#############
+	### 일본제국 ###
+	#############
+	
+	### 일본 정치고문 ###
+	spriteType = {
+		name = "GFX_idea_JAP_kishi_nobusuke"
+		texturefile = "gfx/interface/ideas/JAP/idea_JAP_nobusuke_kishi.png"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_miyamoto_kenji"
+		texturefile = "gfx/interface/ideas/JAP/idea_JAP_miyamoto_kenji.png"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_ishibashi_tanzan"
+		texturefile = "gfx/interface/ideas/JAP/idea_JAP_ishibashi_tanzan.png"
 	}
 	
 	#############

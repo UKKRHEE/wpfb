@@ -203,7 +203,7 @@ characters={
 	
 	### 이론가 ###
 	NJC_nanjing_army_research = {
-		name=NJC_nanjing_army_research
+		name=joint_army_research
 		portraits={
 			army={
 				small=GFX_idea_Joint_army_research
@@ -223,7 +223,7 @@ characters={
 		}
 	}
 	NJC_nanjing_navy_research={
-		name=NJC_nanjing_navy_research
+		name=joint_navy_research
 		portraits={
 			army={
 				small=GFX_idea_Joint_navy_research
@@ -243,7 +243,7 @@ characters={
 		}
 	}
 	NJC_nanjing_air_research={
-		name=NJC_nanjing_air_research
+		name=joint_air_research
 		portraits={
 			army={
 				small=GFX_idea_Joint_air_research

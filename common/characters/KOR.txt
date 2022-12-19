@@ -110,16 +110,16 @@ characters = {
 			legacy_id=-1
 		}
 	}
-	KOR_yi_won={
-		name=KOR_yi_won
+	KOR_yi_wu={
+		name=KOR_yi_wu
 		portraits={
 			civilian={
-				large=GFX_portrait_KOR_yi_won
+				large=GFX_portrait_KOR_yi_wu
 			}
 		}
 		country_leader={
 			expire = "1965.1.1"
-			ideology = oligarchism
+			ideology = despotism
 			traits = {
 				emperor_geonheung
 			}
@@ -456,16 +456,17 @@ characters = {
 	}
 	
 	### 정치고문/권위주의 ###
-	KOR_yi_hae_chang={
-		name=KOR_yi_hae_chang
+	KOR_yi_kang={
+		name=KOR_yi_kang
 		portraits={
 			civilian={
-				small=GFX_idea_KOR_yi_hae_chang
+				large=GFX_portrait_KOR_yi_kang
+				small=GFX_idea_KOR_yi_kang
 			}
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = yi_hae_chang
+			idea_token = KOR_yi_kang
 			available = {
 				has_government = neutrality
 			}
@@ -473,7 +474,7 @@ characters = {
 				original_tag = KOR
 			}
 			traits = {
-				staunch_monarchist
+				shadow_emperor
 			}
 		}
 	}
@@ -1092,11 +1093,11 @@ characters = {
 	}
 	
 	### 육군 원수 ###
-	KOR_yi_kang={
-		name=KOR_yi_kang
+	KOR_yi_won={
+		name=KOR_yi_won
 		portraits={
 			army={
-				large=GFX_portrait_KOR_yi_kang
+				large=GFX_portrait_KOR_yi_won
 			}
 		}
 		field_marshal={
@@ -1255,6 +1256,26 @@ characters = {
 			legacy_id=-1
 		}
 	}
+	KOR_yi_un = {
+		name=KOR_yi_un
+		portraits={
+			army={
+				large=GFX_portrait_KOR_yi_un
+			}
+		}
+		navy_leader={
+			traits = {
+				old_guard_navy
+				gentlemanly
+			}
+			skill = 1
+			attack_skill = 2
+			defense_skill = 2
+			maneuvering_skill = 2
+			coordination_skill = 2
+			legacy_id=-1
+		}
+	}
 	KOR_yi_jae_gak = {
 		name=KOR_yi_jae_gak
 		portraits={
@@ -1272,6 +1293,25 @@ characters = {
 			defense_skill = 2
 			maneuvering_skill = 3
 			coordination_skill = 2
+			legacy_id=-1
+		}
+	}
+	KOR_yi_geon = {
+		name=KOR_yi_geon
+		portraits={
+			army={
+				large=GFX_portrait_KOR_yi_geon
+			}
+		}
+		navy_leader={
+			traits = {
+				#
+			}
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			maneuvering_skill = 3
+			coordination_skill = 3
 			legacy_id=-1
 		}
 	}

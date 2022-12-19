@@ -131,7 +131,7 @@ characters={
 		}
 	}
 	XSM_xibei_interior={
-		name=XSM_xibei_interior
+		name=joint_interior
 		portraits={
 			civilian={
 				small=GFX_idea_Joint_interior
@@ -149,7 +149,7 @@ characters={
 		}
 	}
 	XSM_xibei_finance={
-		name=XSM_xibei_finance
+		name=joint_finance
 		portraits={
 			civilian={
 				small=GFX_idea_Joint_finance
@@ -167,7 +167,7 @@ characters={
 		}
 	}
 	XSM_xibei_industry={
-		name=XSM_xibei_industry
+		name=joint_industry
 		portraits={
 			civilian={
 				small=GFX_idea_Joint_industry
@@ -187,7 +187,7 @@ characters={
 	
 	### 이론가 ###
 	XSM_xibei_army_research = {
-		name=XSM_xibei_army_research
+		name=joint_army_research
 		portraits={
 			army={
 				small=GFX_idea_Joint_army_research
@@ -207,7 +207,7 @@ characters={
 		}
 	}
 	XSM_xibei_navy_research={
-		name=XSM_xibei_navy_research
+		name=joint_navy_research
 		portraits={
 			army={
 				small=GFX_idea_Joint_navy_research
@@ -227,7 +227,7 @@ characters={
 		}
 	}
 	XSM_xibei_air_research={
-		name=XSM_xibei_air_research
+		name=joint_air_research
 		portraits={
 			army={
 				small=GFX_idea_Joint_air_research
@@ -284,7 +284,7 @@ characters={
 
 	### 해군참모총장 ###
 	XSM_xibei_navy_department = {
-		name=XSM_xibei_navy_department
+		name=joint_navy_department
 		portraits={
 			army={
 				small=GFX_idea_Joint_navy_department

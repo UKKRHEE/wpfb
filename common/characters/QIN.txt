@@ -236,7 +236,7 @@ characters={
 	
 	### 이론가 ###
 	QIN_qing_army_research = {
-		name=QIN_qing_army_research
+		name=joint_army_research
 		portraits={
 			army={
 				small=GFX_idea_Joint_army_research
@@ -256,7 +256,7 @@ characters={
 		}
 	}
 	QIN_qing_navy_research={
-		name=QIN_qing_navy_research
+		name=joint_navy_research
 		portraits={
 			army={
 				small=GFX_idea_Joint_navy_research
@@ -276,7 +276,7 @@ characters={
 		}
 	}
 	QIN_qing_air_research={
-		name=QIN_qing_air_research
+		name=joint_air_research
 		portraits={
 			army={
 				small=GFX_idea_Joint_air_research
