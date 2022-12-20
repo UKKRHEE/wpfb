@@ -1,0 +1,52 @@
+﻿add_namespace = korea
+
+country_event = { #민주
+	id = korea.991
+	title = korea.991.t
+	desc = korea.991.d
+	picture = GFX_report_event_KOR_korea
+
+	is_triggered_only = yes
+
+	option = {
+		name = korea.0.a
+		set_country_flag = KOR_flag_democratic_focus
+	}
+}
+
+country_event = { #권위
+	id = korea.992
+	title = korea.992.t
+	desc = korea.992.d
+	picture = GFX_report_event_KOR_korea
+
+	is_triggered_only = yes
+
+	option = {
+		name = korea.0.a
+		set_country_flag = KOR_flag_neutrality_focus
+		set_politics = {
+			ruling_party = neutrality
+			elections_allowed = no
+		}
+		
+	}
+}
+
+country_event = { #파시
+	id = korea.993
+	title = korea.993.t
+	desc = korea.993.d
+	picture = GFX_report_event_KOR_korea
+
+	is_triggered_only = yes
+	
+	option = {
+		name = korea.0.a
+		set_country_flag = KOR_flag_fascism_focus
+		set_politics = {
+			ruling_party = fascism
+			elections_allowed = no
+		}
+	}
+}

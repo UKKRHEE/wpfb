@@ -1,4 +1,104 @@
 ideas = {
+	country = {
+		KOR_questions_government = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no			
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.25
+				war_support_factor = -0.25
+				political_advisor_cost_factor = 0.25
+				trade_laws_cost_factor = 0.25
+				mobilization_laws_cost_factor = 0.25
+				economy_cost_factor = 0.25
+			}
+		}
+		KOR_army_up = {
+
+			picture = jap_interservice_rivalry_army_dominant
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no			
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				industrial_capacity_factory = 0.1
+				industrial_capacity_dockyard = -0.2
+				land_doctrine_cost_factor = -0.1
+				naval_doctrine_cost_factor = 0.2
+				production_speed_arms_factory_factor = 0.1
+				production_speed_dockyard_factor = -0.2
+			}
+		}
+		KOR_land_problem = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no			
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				conscription_factor = -0.5
+				consumer_goods_factor = 0.1
+				production_speed_buildings_factor = -0.3
+			}
+		}
+		KOR_labor_rights_no = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no			
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = -0.05
+				industrial_capacity_factory = -0.1
+				industrial_capacity_dockyard = -0.1
+			}
+		}
+		KOR_intel = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no			
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = -0.25
+				encryption = 1
+				decryption = 1
+			}
+		}
+	}
 	
 	tank_manufacturer = {
 		

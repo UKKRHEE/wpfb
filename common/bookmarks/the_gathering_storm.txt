@@ -159,9 +159,9 @@ bookmarks = {
 			history = "KOR_GATHERING_STORM_DESC"
 			ideology = fascism
 			ideas = {
-				state_shintoism
-				JAP_zaibatsus
-				JAP_militarism
+				KOR_questions_government
+				KOR_land_problem
+				KOR_intel
 			}	
 			focuses = {
 				JAP_the_zero

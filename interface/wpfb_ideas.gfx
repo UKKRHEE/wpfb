@@ -1,0 +1,20 @@
+spriteTypes = {	
+	
+	### 한국 국민정신 ###
+	spriteType = {
+		name = "GFX_idea_KOR_questions_government"
+		texturefile = "gfx/interface/ideas/KOR/idea_KOR_questions_government.png"
+	}
+	spriteType = {
+		name = "GFX_idea_KOR_land_problem"
+		texturefile = "gfx/interface/ideas/KOR/idea_KOR_land_problem.png"
+	}
+	spriteType = {
+		name = "GFX_idea_KOR_labor_rights_no"
+		texturefile = "gfx/interface/ideas/KOR/idea_KOR_labor_rights_no.png"
+	}
+	spriteType = {
+		name = "GFX_idea_KOR_intel"
+		texturefile = "gfx/interface/ideas/KOR/idea_KOR_intel.png"
+	}
+}
