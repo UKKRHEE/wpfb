@@ -466,7 +466,7 @@ characters = {
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = KOR_yi_kang
+			idea_token = yi_kang
 			available = {
 				has_government = neutrality
 			}

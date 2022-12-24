@@ -12,17 +12,17 @@
 	default = no
 	reset_on_civilwar = no
 	
-	### 검은 월요일 ###
+	### 대공황 ###
 	
-	focus = { #검은 월요일 속 한국
+	focus = { #대공황 속 한국
 		id = KOR_bm0
-		icon = GFX_goal_bankruptcy
+		icon = GFX_generic_great_depression
 		cost = 5.00
 		x = 0
 		y = 0
 		
 		available = {
-			has_idea = KOR_black_monday
+			#
 		}
 		
 		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
@@ -30,10 +30,10 @@
 			add_political_power = 100
 		}
 	}
-	### 검은 월요일 - 농촌 ###
+	### 대공황 - 농촌 ###
 	focus = { #농촌 지원
 		id = KOR_bm_rural0
-		icon = GFX_goal_agriculture2
+		icon = GFX_generic_agriculture
 		cost = 5.00
 		x = -2
 		y = 1
@@ -55,9 +55,9 @@
 		}
 	}
 	
-	focus = { #토지개혁 실시
+	focus = { #토지조사사업
 		id = KOR_bm_rural1
-		icon = GFX_goal_OTT_Land_Reform
+		icon = GFX_generic_land_reform
 		cost = 5.00
 		x = -2
 		y = 1
@@ -78,7 +78,7 @@
 	
 	focus = { #소작농을 자영농으로
 		id = KOR_bm_rural2
-		icon = GFX_goal_SZC_improvised_farming_machinery
+		icon = GFX_generic_agrarian_reform
 		cost = 5.00
 		x = -1
 		y = 1
@@ -97,9 +97,9 @@
 		}
 	}
 	
-	focus = { #쌀값 조정
+	focus = { #방곡령 현대화
 		id = KOR_bm_rural3
-		icon = GFX_goal_PAL_Food_Import
+		icon = GFX_generic_rice_field
 		cost = 5.00
 		x = 1
 		y = 1
@@ -120,7 +120,7 @@
 	
 	focus = { #보릿고개를 막아라
 		id = KOR_bm_rural4
-		icon = GFX_goal_PAL_Irrigation_Program
+		icon = GFX_generic_not_drought
 		cost = 5.00
 		x = 0
 		y = 2
@@ -147,10 +147,10 @@
 			}	
 		}
 	}
-	### 검은 월요일 - 국고 ###
+	### 대공황 - 국고 ###
 	focus = { #국고의 상황
 		id = KOR_bm_treasury0
-		icon = GFX_focus_empty_coffers
+		icon = GFX_generic_coffers 
 		cost = 5.00
 		x = 0
 		y = 2
@@ -175,7 +175,7 @@
 	
 	focus = { #불필요한 예산 삭감
 		id = KOR_bm_treasury1
-		icon = GFX_goal_generic_tackle_corruption
+		icon = GFX_goal_generic_forceful_treaty
 		cost = 5.00
 		x = -1
 		y = 1
@@ -216,7 +216,7 @@
 	
 	focus = { #추가적인 세금
 		id = KOR_bm_treasury2
-		icon = GFX_goal_generic_seize_money
+		icon = GFX_generic_seize_money
 		cost = 5.00
 		x = 1
 		y = 1
@@ -241,10 +241,10 @@
 			}
 		}
 	}
-	### 검은 월요일 - 도시 ###
+	### 대공황 - 도시 ###
 	focus = { #도시 지원
 		id = KOR_bm_city0
-		icon = GFX_goal_generic_construct_public_housing
+		icon = GFX_focus_spa_the_spanish_miracle
 		cost = 5.00
 		x = 2
 		y = 1
@@ -268,7 +268,7 @@
 	
 	focus = { #실업자 구제
 		id = KOR_bm_city1
-		icon = GFX_goal_Winterhilfe
+		icon = GFX_goal_generic_consumer_goods
 		cost = 5.00
 		x = 2
 		y = 1
@@ -289,7 +289,7 @@
 	
 	focus = { #기기국 강화
 		id = KOR_bm_city2
-		icon = GFX_goal_generic_corporatism
+		icon = GFX_focus_focus_fra_maquis
 		cost = 5.00
 		x = -1
 		y = 1
@@ -310,7 +310,7 @@
 	
 	focus = { #물가 통제
 		id = KOR_bm_city3
-		icon = GFX_goal_generic_price_controls
+		icon = GFX_focus_mex_privatisation
 		cost = 5.00
 		x = 1
 		y = 1
@@ -331,7 +331,7 @@
 	
 	focus = { #한국은행 지원
 		id = KOR_bm_city4
-		icon = GFX_goal_generic_government_deals
+		icon = GFX_KOR_bank_of_korea_goal
 		cost = 5.00
 		x = 0
 		y = 2
@@ -358,10 +358,10 @@
 			}	
 		}
 	}
-	### 검은 월요일 - 끝 ###
-	focus = { #검은 월요일에서의 회복
+	### 대공황 - 끝 ###
+	focus = { #대공황에서의 회복
 		id = KOR_bm1
-		icon = GFX_goal_generic_foreign_investments
+		icon = GFX_KOR_trade
 		cost = 5.00
 		x = 0
 		y = 5
@@ -395,9 +395,9 @@
 	
 	### 육군 ###
 	
-	focus = { #대한제국 황립육군
+	focus = { #대한육군
 		id = KOR_army0
-		icon = GFX_goal_KOR_military_reform
+		icon = GFX_KOR_military_army
 		cost = 5.00
 		x = 12
 		y = 0
@@ -414,7 +414,7 @@
 	### 육군 - 이범석 ###
 	focus = { #이범석의 개혁안
 		id = KOR_army_lee0
-		icon = GFX_EGY_Operation_Abu
+		icon = GFX_focus_generic_tankette
 		cost = 5.00
 		x = -4
 		y = 1
@@ -439,9 +439,9 @@
 		}
 	}
 	
-	focus = { #기갑 현대화
+	focus = { #전차부대 양성
 		id = KOR_army_lee1
-		icon = GFX_goal_generic_heavy_armour_canadian
+		icon = GFX_goal_generic_army_tanks
 		cost = 5.00
 		x = -1
 		y = 1
@@ -495,7 +495,7 @@
 	
 	focus = { #기갑사관학교
 		id = KOR_army_lee3
-		icon = GFX_goal_doctrine_tank_warfare
+		icon = GFX_generic_tank
 		cost = 5.00
 		x = 0
 		y = 1
@@ -523,7 +523,7 @@
 	
 	focus = { #기계화 실시
 		id = KOR_army_lee4
-		icon = GFX_goal_generic_armored_cars
+		icon = GFX_generic_armored_cars
 		cost = 5.00
 		x = 0
 		y = 1
@@ -572,7 +572,7 @@
 	### 육군 - 김좌진 ###
 	focus = { #김좌진의 개혁안
 		id = KOR_army_kim0
-		icon = GFX_focus_generic_military_equipment
+		icon = GFX_generic_military_equipment
 		cost = 5.00
 		x = 0
 		y = 1
@@ -599,7 +599,7 @@
 	
 	focus = { #강력한 총기
 		id = KOR_army_kim1
-		icon = GFX_goal_national_arsenal
+		icon = GFX_focus_ETH_freedom_at_gunpoint
 		cost = 5.00
 		x = -1
 		y = 1
@@ -627,7 +627,7 @@
 	
 	focus = { #지원형 화력
 		id = KOR_army_kim2
-		icon = GFX_goal_generic_barricades
+		icon = GFX_focus_ETH_peacekeeping_forces
 		cost = 5.00
 		x = 1
 		y = 1
@@ -654,7 +654,7 @@
 	
 	focus = { #강력한 야포
 		id = KOR_army_kim3
-		icon = GFX_goal_national_artillery
+		icon = GFX_goal_generic_army_artillery2
 		cost = 5.00
 		x = 0
 		y = 1
@@ -706,9 +706,9 @@
 		}
 	}
 	
-	focus = { #화력의 전통
+	focus = { #최무선의 유산
 		id = KOR_army_kim5
-		icon = GFX_goal_generic_artillery_factories
+		icon = GFX_generic_fire_power
 		cost = 5.00
 		x = 0
 		y = 3
@@ -730,7 +730,7 @@
 	### 육군 - 신팔균 ###
 	focus = { #신팔균의 개혁안
 		id = KOR_army_sin0
-		icon = GFX_goal_planning_bonus
+		icon = GFX_focus_chi_army_reform
 		cost = 5.00
 		x = 4
 		y = 1
@@ -790,7 +790,7 @@
 	
 	focus = { #재빠른 동원
 		id = KOR_army_sin2
-		icon = GFX_goal_generic_drafted_army
+		icon = GFX_focus_SOV_penal_battalions
 		cost = 5.00
 		x = 1
 		y = 1
@@ -811,7 +811,7 @@
 	
 	focus = { #대공포
 		id = KOR_army_sin3
-		icon = GFX_focus_generic_air_defense2
+		icon = GFX_generic_anti_air
 		cost = 5.00
 		x = 0
 		y = 1
@@ -875,9 +875,9 @@
 	
 	### 해군 ###
 	
-	focus = { #대한제국 황립해군
+	focus = { #대한해군
 		id = KOR_navy0
-		icon = GFX_goal_navy_hat_ships
+		icon = GFX_KOR_military_navy
 		cost = 5.00
 		x = 21
 		y = 0
@@ -925,7 +925,7 @@
 	
 	focus = { #동해의 수호자
 		id = KOR_navy_sin1
-		icon = GFX_goal_generic_sea_of_japan
+		icon = GFX_KOR_east_sea
 		cost = 5.00
 		x = -1
 		y = 1
@@ -952,7 +952,7 @@
 	
 	focus = { #바다의 요새
 		id = KOR_navy_sin2
-		icon = GFX_goal_battleship
+		icon = GFX_goal_generic_navy_battleship
 		cost = 5.00
 		x = 0
 		y = 1
@@ -979,7 +979,7 @@
 	
 	focus = { #충무공의 후예
 		id = KOR_navy_sin3
-		icon = GFX_focus_generic_navy_battleship3alt
+		icon = GFX_KOR_yi_sun_sin
 		cost = 5.00
 		x = 1
 		y = 1
@@ -1011,7 +1011,7 @@
 	### 해군 - 공용 ###
 	focus = { #수송선 확보
 		id = KOR_navy1
-		icon = GFX_goal_generic_shipyard
+		icon = GFX_focus_generic_refit_civilian_ships
 		cost = 5.00
 		x = 0
 		y = 2
@@ -1159,9 +1159,9 @@
 	
 	### 공군 ###
 	
-	focus = { #대한제국 황립공군
+	focus = { #대한공군
 		id = KOR_air0
-		icon = GFX_goal_new_airforce
+		icon = GFX_KOR_military_air
 		cost = 5.00
 		x = 27
 		y = 0
@@ -1221,7 +1221,7 @@
 	
 	focus = { #전투기 증원
 		id = KOR_air_roh1
-		icon = GFX_goal_generic_air_fighter_new
+		icon = GFX_goal_generic_air_fighter
 		cost = 5.00
 		x = -1
 		y = 1
@@ -1249,7 +1249,7 @@
 	
 	focus = { #근접항공지원기 증원
 		id = KOR_air_roh2
-		icon = GFX_goal_generic_air_CAS_new
+		icon = GFX_goal_generic_CAS
 		cost = 5.00
 		x = 0
 		y = 1
@@ -1276,7 +1276,7 @@
 	
 	focus = { #한국제 전투기와 한국인 에이스
 		id = KOR_air_roh3
-		icon = GFX_goal_generic_CAS
+		icon = GFX_focus_SOV_flying_clubs
 		cost = 5.00
 		x = 1
 		y = 1
@@ -1300,7 +1300,7 @@
 	### 공군 - 공용 ###
 	focus = { #권기옥의 의견 수용
 		id = KOR_air1
-		icon = GFX_focus_generic_female_pilots
+		icon = GFX_focus_SOV_women_in_aviation
 		cost = 5.00
 		x = 0
 		y = 2
@@ -1373,7 +1373,7 @@
 	
 	focus = { #뇌격기 증원
 		id = KOR_air_choi1
-		icon = GFX_goal_generic_air_naval_bomber_new
+		icon = GFX_goal_generic_air_naval_bomber
 		cost = 5.00
 		x = 1
 		y = 1
@@ -1400,7 +1400,7 @@
 	
 	focus = { #폭격기 증원
 		id = KOR_air_choi2
-		icon = GFX_goal_generic_air_strategic_bomber_new
+		icon = GFX_goal_generic_air_bomber
 		cost = 5.00
 		x = 0
 		y = 1
@@ -1597,7 +1597,7 @@
 	
 	focus = { #한반도-만주 철도
 		id = KOR_infrastructure_effort_2
-		icon = GFX_goal_KOR_cheoldo
+		icon = GFX_focus_generic_railroad
 		cost = 5.00
 		x = 0
 		y = 1
@@ -1881,7 +1881,7 @@
 
 	focus = { #한강의 기적
 		id = KOR_miracle_on_the_han_river
-		icon = GFX_goal_KOR_korean_miracle
+		icon = GFX_KOR_korean_miracle
 		cost = 10.00
 		x = 0
 		y = 1
@@ -2140,7 +2140,7 @@
 
 	focus = {# 군민공치의 실현
 		id = KOR_democracy
-		icon = GFX_goal_KOR_kyungoh
+		icon = GFX_KOR_democratic_1
 		cost = 0.00
 		x = 16
 		y = 6
@@ -2152,17 +2152,24 @@
 			has_country_flag = KOR_flag_democratic_focus
 		}
 		allow_branch = {
-			has_government = democratic
-		}
+            has_government = democratic
+            NOT = {
+                has_government = communism
+                has_government = fascism
+                has_government = neutrality
+            }
+        }
 		
 		completion_reward = {
 			custom_effect_tooltip = KOR_tt_bypass_democratic_focus
+			#
 		}
 	}
-	### 군민공치의 실현 - 한인사회당 ###	
-	focus = { #한인사회당
+	
+	### 군민공치의 실현 - 신한청년당 ###	
+	focus = { #신한청년당
 		id = KOR_socialdemocracy0
-		icon = GFX_goal_ideology_social_democrat
+		icon = GFX_generic_ideology_socialism
 		cost = 8.00
 		x = -8
 		y = 1
@@ -2204,7 +2211,7 @@
 	
 	focus = { #노동자의 권리
 		id = KOR_socialdemocracy2
-		icon = GFX_goal_workers_rights
+		icon = GFX_generic_workers_rights
 		cost = 8.00
 		x = -9
 		y = 2
@@ -2225,7 +2232,7 @@
 	
 	focus = { #중추원 권한 확대
 		id = KOR_socialdemocracy3
-		icon = GFX_goal_KOR_korean_government
+		icon = GFX_KOR_council
 		cost = 8.00
 		x = -7
 		y = 2
@@ -2247,7 +2254,7 @@
 	
 	focus = { #의무교육 실시
 		id = KOR_socialdemocracy4
-		icon = GFX_goal_KTG_Bookstack
+		icon = GFX_generic_education_2
 		cost = 8.00
 		x = -5
 		y = 2
@@ -2268,7 +2275,7 @@
 	
 	focus = { #제국익문사 권한 축소
 		id = KOR_socialdemocracy5
-		icon = GFX_goal_LEP_repression
+		icon = GFX_focus_eng_move_to_secure_the_dominions
 		cost = 8.00
 		x = -10
 		y = 3
@@ -2296,9 +2303,9 @@
 		}
 	}
 	
-	focus = { #전평 합법화
+	focus = { #노조 합법화
 		id = KOR_socialdemocracy6
-		icon = GFX_focus_HOL_deal_with_left
+		icon = GFX_focus_eng_concessions_to_the_trade_unions
 		cost = 8.00
 		x = -8
 		y = 3
@@ -2358,7 +2365,7 @@
 	
 	focus = { #민주주의
 		id = KOR_socialdemocracy8
-		icon = GFX_goal_DOM_Call_Special_Election
+		icon = GFX_generic_elections
 		cost = 8.00
 		x = -11
 		y = 4
@@ -2379,7 +2386,7 @@
 	
 	focus = { #빈부격차 해소
 		id = KOR_socialdemocracy9
-		icon = GFX_goal_KOR_housing_act
+		icon = GFX_KOR_home
 		cost = 8.00
 		x = -8
 		y = 4
@@ -2406,7 +2413,7 @@
 	
 	focus = { #복지주의
 		id = KOR_socialdemocracy10
-		icon = GFX_goal_bag_of_money
+		icon = GFX_generic_papers
 		cost = 8.00
 		x = -5
 		y = 4
@@ -2425,9 +2432,9 @@
 		}
 	}
 	
-	focus = { #평등의 제국
+	focus = { #평등의 푸른 언덕
 		id = KOR_socialdemocracy11
-		icon = GFX_goal_socialist_infrastructure
+		icon = GFX_focus_prc_agrarian_socialism
 		cost = 8.00
 		x = -8
 		y = 5
@@ -2451,10 +2458,10 @@
 			add_ideas = KOR_sde_empire
 		}
 	}
-	### 군민공치의 실현 - 독립협회, 신한청년당 ###
-	focus = { #독립협회-신한청년당
+	### 군민공치의 실현 - 독립협회 ###
+	focus = { #독립협회
 		id = KOR_liberalism0
-		icon = GFX_goal_ideology_social_liberal
+		icon = GFX_generic_ideology_liberalism
 		cost = 8.00
 		x = 0
 		y = 1
@@ -2495,7 +2502,7 @@
 	
 	focus = { #경제규제 완화
 		id = KOR_liberalism2
-		icon = GFX_goal_treaty_fails
+		icon = GFX_goal_generic_positive_trade_relations
 		cost = 8.00
 		x = -1
 		y = 2
@@ -2516,7 +2523,7 @@
 	
 	focus = { #중추원 내 갈등 조정
 		id = KOR_liberalism3
-		icon = GFX_goal_generic_stable_government
+		icon = GFX_focus_generic_diplomatic_treaty
 		cost = 8.00
 		x = 1
 		y = 2
@@ -2537,7 +2544,7 @@
 	
 	focus = { #대학설립운동
 		id = KOR_liberalism4
-		icon = GFX_goal_KTG_Bookstack
+		icon = GFX_generic_education_2
 		cost = 8.00
 		x = 3
 		y = 2
@@ -2586,9 +2593,9 @@
 		}
 	}
 	
-	focus = { #전평과 타협
+	focus = { #노조과 타협
 		id = KOR_liberalism6
-		icon = GFX_goal_generic_workers_democracy
+		icon = GFX_generic_union_agreement
 		cost = 8.00
 		x = 0
 		y = 3
@@ -2618,7 +2625,7 @@
 	
 	focus = { #수출 장려
 		id = KOR_liberalism7
-		icon = GFX_goal_generic_positive_trade_relations
+		icon = GFX_focus_POL_develop_polish_shipbuilding
 		cost = 8.00
 		x = 2
 		y = 3
@@ -2648,7 +2655,7 @@
 	
 	focus = { #민본주의
 		id = KOR_liberalism8
-		icon = GFX_goal_agrarian_soldiers
+		icon = GFX_generic_agriculture_soldiers
 		cost = 8.00
 		x = -3
 		y = 4
@@ -2667,9 +2674,9 @@
 		}
 	}
 	
-	focus = { #자유주의
+	focus = { #언론의 자유
 		id = KOR_liberalism9
-		icon = GFX_goal_Fight_for_Freedom
+		icon = GFX_generic_media
 		cost = 8.00
 		x = 0
 		y = 4
@@ -2715,9 +2722,9 @@
 		}
 	}
 	
-	focus = { #자유의 제국
+	focus = { #자유의 푸른 언덕
 		id = KOR_liberalism11
-		icon = GFX_goal_support_democracy
+		icon = GFX_focus_generic_the_giant_wakes
 		cost = 8.00
 		x = 0
 		y = 5
@@ -2745,7 +2752,7 @@
 	### 군민공치의 실현 - 황국협회 ###
 	focus = { #황국협회
 		id = KOR_conservatism0
-		icon = GFX_goal_ideology_social_conservative
+		icon = GFX_generic_ideology_conservatism
 		cost = 8.00
 		x = 8
 		y = 1
@@ -2766,7 +2773,7 @@
 	
 	focus = { #황권 유지
 		id = KOR_conservatism1
-		icon = GFX_goal_POR_royal_edicts
+		icon = GFX_generic_royal_edicts
 		cost = 8.00
 		x = 5
 		y = 2
@@ -2787,7 +2794,7 @@
 	
 	focus = { #전통의 현대화
 		id = KOR_conservatism2
-		icon = GFX_goal_generic_rice_field
+		icon = GFX_generic_rice_field
 		cost = 8.00
 		x = 7
 		y = 2
@@ -2835,7 +2842,7 @@
 	
 	focus = { #교육은 백년지대계
 		id = KOR_conservatism4
-		icon = GFX_goal_KTG_Bookstack
+		icon = GFX_generic_education_2
 		cost = 8.00
 		x = 11
 		y = 2
@@ -2857,7 +2864,7 @@
 	
 	focus = { #제국익문사에 지침하달
 		id = KOR_conservatism5
-		icon = GFX_goal_generic_investigation
+		icon = GFX_generic_investigation
 		cost = 8.00
 		x = 6
 		y = 3
@@ -2885,9 +2892,9 @@
 		}
 	}
 	
-	focus = { #전평 묵인
+	focus = { #감시와 묵인 하의 노조
 		id = KOR_conservatism6
-		icon = GFX_GBR_fate_of_unions
+		icon = GFX_generic_union_and_chain
 		cost = 8.00
 		x = 8
 		y = 3
@@ -2917,7 +2924,7 @@
 	
 	focus = { #농민 보호
 		id = KOR_conservatism7
-		icon = GFX_goal_agrarian_reform
+		icon = GFX_generic_agrarian_reform
 		cost = 8.00
 		x = 10
 		y = 3
@@ -2969,7 +2976,7 @@
 	
 	focus = { #모든 백성이 선비다
 		id = KOR_conservatism9
-		icon = GFX_goal_KTG_Educate_natives
+		icon = GFX_generic_education_3
 		cost = 8.00
 		x = 8
 		y = 4
@@ -2994,9 +3001,9 @@
 		}
 	}
 	
-	focus = { #동도서기
+	focus = { #개신유림
 		id = KOR_conservatism10
-		icon = GFX_goal_POR_burden_empire
+		icon = GFX_goal_generic_national_unity
 		cost = 8.00
 		x = 11
 		y = 4
@@ -3043,11 +3050,11 @@
 		}
 	}
 	
-	### 이화유신 ###
+	### 건흥유신 ###
 	
-	focus = { #이화유신
+	focus = { #대출척
 		id = KOR_paternal_autocrat0
-		icon = GFX_goal_KOR_ihwa
+		icon = GFX_KOR_leader_yi_wu
 		cost = 0.00
 		x = 16
 		y = 6
@@ -3059,23 +3066,23 @@
 			has_country_flag = KOR_flag_neutrality_focus
 		}
 		allow_branch = {
-			has_government = neutrality
-		}
+            has_government = neutrality
+            NOT = {
+                has_government = communism
+                has_government = democratic
+                has_government = fascism
+            }
+        }
 		
 		completion_reward = {
 			custom_effect_tooltip = KOR_tt_bypass_neutrality_focus
-			hidden_effect = {
-				country_event = {
-					id = korea.32
-					days = 2
-				}
-			}
+			#
 		}
 	}
 	
 	focus = { #상제는 황제를 도우소서
 		id = KOR_paternal_autocrat1
-		icon = GFX_goal_KOR_empire_of_korea
+		icon = GFX_KOR_eagle
 		cost = 6.00
 		x = -6
 		y = 1
@@ -3093,7 +3100,7 @@
 	
 	focus = { #제국을 위하여
 		id = KOR_paternal_autocrat2
-		icon = GFX_goal_KOR_eagle
+		icon = GFX_KOR_empire_of_korea
 		cost = 5.00
 		x = -3
 		y = 1
@@ -3110,9 +3117,9 @@
 		}
 	}
 	
-	focus = { #전평 해체
+	focus = { #노조 탄압
 		id = KOR_paternal_autocrat3
-		icon = GFX_goal_generic_crush_unions
+		icon = GFX_generic_crush_union
 		cost = 6.00
 		x = 0
 		y = 1
@@ -3131,7 +3138,7 @@
 	
 	focus = { #자애로운 손길
 		id = KOR_paternal_autocrat4
-		icon = GFX_goal_generic_controlled_board
+		icon = GFX_generic_controlled_board
 		cost = 5.00
 		x = 3
 		y = 1
@@ -3149,9 +3156,9 @@
 		}
 	}
 	
-	focus = { #충성 확인
+	focus = { #충성 재확인
 		id = KOR_paternal_autocrat5
-		icon = GFX_goal_conscription
+		icon = GFX_focus_CZE_german_puppet
 		cost = 6.00
 		x = 6
 		y = 1
@@ -3192,7 +3199,7 @@
 	
 	focus = { #중추원 형식화
 		id = KOR_paternal_autocrat7
-		icon = GFX_GRE_empower_monarchy
+		icon = GFX_generic_government_monarchism
 		cost = 6.00
 		x = 1
 		y = 1
@@ -3210,7 +3217,7 @@
 	
 	focus = { #제국익문사 확장
 		id = KOR_paternal_autocrat8
-		icon = GFX_goal_secret_agents
+		icon = GFX_focus_generic_secret_service_agency
 		cost = 5.00
 		x = 0
 		y = 1
@@ -3226,9 +3233,9 @@
 		}
 	}
 	
-	focus = { #황제의 일꾼
+	focus = { #어용노조
 		id = KOR_paternal_autocrat9
-		icon = GFX_goal_workers_for_business
+		icon = GFX_generic_union_puppet
 		cost = 4.00
 		x = 0
 		y = 1
@@ -3248,7 +3255,7 @@
 	
 	focus = { #내탕금을 풀어라
 		id = KOR_paternal_autocrat10
-		icon = GFX_goal_generic_deals
+		icon = GFX_generic_banking
 		cost = 5.00
 		x = 0
 		y = 1
@@ -3264,9 +3271,9 @@
 		}
 	}
 	
-	focus = { #외국 무기사 초청
+	focus = { #의심되는 장교 재판
 		id = KOR_paternal_autocrat11
-		icon = GFX_goal_Krupp_Artillery
+		icon = GFX_focus_generic_court
 		cost = 5.00
 		x = -1
 		y = 1
@@ -3441,7 +3448,7 @@
 	
 	focus = { #한성제국대학
 		id = KOR_paternal_autocrat14
-		icon = GFX_goal_KTG_Bookstack
+		icon = GFX_generic_education_2
 		cost = 8.00
 		x = -1
 		y = 1
@@ -3462,7 +3469,7 @@
 	
 	focus = { #관제야당
 		id = KOR_paternal_autocrat15
-		icon = GFX_focus_generic_authoritarian_government
+		icon = GFX_generic_government_authoritarianism
 		cost = 5.00
 		x = 1
 		y = 1
@@ -3480,7 +3487,7 @@
 	
 	focus = { #기술관료의 관리
 		id = KOR_paternal_autocrat16
-		icon = GFX_goal_economic_control
+		icon = GFX_goal_generic_production2
 		cost = 5.00
 		x = 0
 		y = 1
@@ -3518,9 +3525,9 @@
 		}
 	}
 	
-	focus = { #외국 자본 유치
+	focus = { #궁방전 폐지
 		id = KOR_paternal_autocrat18
-		icon = GFX_goal_OTT_Tithe
+		icon = GFX_goal_tfv_sever_ties_with_uk
 		cost = 5.00
 		x = 1
 		y = 1
@@ -3595,9 +3602,9 @@
 		}
 	}
 	
-	focus = { #독일 군사고문단
+	focus = { #황족 군사교육 강화
 		id = KOR_paternal_autocrat19
-		icon = GFX_goal_Deutsches_Heer
+		icon = GFX_focus_generic_military_mission
 		cost = 3.00
 		x = 1
 		y = 1
@@ -3619,7 +3626,7 @@
 	
 	focus = { #충군
 		id = KOR_paternal_autocrat20
-		icon = GFX_goal_KOR_loyal
+		icon = GFX_KOR_loyalty_emperor
 		cost = 6.00
 		x = 0
 		y = 1
@@ -3637,7 +3644,7 @@
 	
 	focus = { #애국
 		id = KOR_paternal_autocrat21
-		icon = GFX_goal_KOR_patriotism
+		icon = GFX_KOR_hegemony
 		cost = 5.00
 		x = 1
 		y = 1
@@ -3661,7 +3668,7 @@
 	
 	focus = { #신민
 		id = KOR_paternal_autocrat22
-		icon = GFX_goal_focus_chain_army
+		icon = GFX_KOR_emperor_and_subjects
 		cost = 8.00
 		x = 0
 		y = 1
@@ -3680,7 +3687,7 @@
 	
 	focus = { #부국
 		id = KOR_paternal_autocrat23
-		icon = GFX_goal_KOR_korean_miracle
+		icon = GFX_KOR_korean_miracle
 		cost = 5.00
 		x = 1
 		y = 1
@@ -3701,7 +3708,7 @@
 	
 	focus = { #강병
 		id = KOR_paternal_autocrat24
-		icon = GFX_goal_generic_army_training
+		icon = GFX_generic_army_training
 		cost = 6.00
 		x = 0
 		y = 1
@@ -3717,9 +3724,9 @@
 		}
 	}
 	
-	focus = { #동양의 프로이센
+	focus = { #건흥유신
 		id = KOR_paternal_autocrat25
-		icon = GFX_BAT_germanisation
+		icon = GFX_KOR_emperor_restored
 		cost = 6.00
 		x = 0
 		y = 1
@@ -3750,11 +3757,11 @@
 		}
 	}
 	
-	### 환도의 밤 ###
+	### 대막리지의 탄생 ###
 	
-	focus = { #환도의 밤
+	focus = { #대막리지의 탄생
 		id = KOR_national_populist0
-		icon = GFX_goal_KOR_attack
+		icon = GFX_KOR_leader_lee_beom_seok
 		cost = 10.00
 		x = 16
 		y = 6
@@ -3766,23 +3773,23 @@
 			has_country_flag = KOR_flag_fascism_focus
 		}
 		allow_branch = {
-			has_government = fascism
-		}
+            has_government = fascism
+            NOT = {
+                has_government = communism
+                has_government = democratic
+                has_government = neutrality
+            }
+        }
 		
 		completion_reward = {
 			custom_effect_tooltip = KOR_tt_bypass_fascism_focus
-			hidden_effect = {
-				country_event = {
-					id = korea.34
-					days = 2
-				}
-			}
+			#
 		}
 	}
 	
 	focus = { #반대파 제거
 		id = KOR_national_populist1
-		icon = GFX_goal_backstab
+		icon = GFX_focus_generic_conspiracy
 		cost = 6.00
 		x = -6
 		y = 1
@@ -3800,7 +3807,7 @@
 	
 	focus = { #신한국
 		id = KOR_national_populist2
-		icon = GFX_goal_KOR_uprising
+		icon = GFX_KOR_flag_and_fist
 		cost = 5.00
 		x = -3
 		y = 1
@@ -3817,9 +3824,9 @@
 		}
 	}
 	
-	focus = { #전평 우경화
+	focus = { #노조 우경화
 		id = KOR_national_populist3
-		icon = GFX_HOL_staatsvakbond
+		icon = GFX_focus_ITA_generic_fascist_workers
 		cost = 6.00
 		x = 0
 		y = 1
@@ -3840,7 +3847,7 @@
 	
 	focus = { #동원령 체제
 		id = KOR_national_populist4
-		icon = GFX_SIA_Urban_Warfare_NF
+		icon = GFX_goal_generic_fortify_city
 		cost = 5.00
 		x = 3
 		y = 1
@@ -3881,7 +3888,7 @@
 	
 	focus = { #강력한 중앙화
 		id = KOR_national_populist6
-		icon = GFX_goal_authoritarian
+		icon = GFX_focus_SWI_dissolve_the_federal_council
 		cost = 5.00
 		x = -1
 		y = 1
@@ -3899,7 +3906,7 @@
 	
 	focus = { #중추원 무력화
 		id = KOR_national_populist7
-		icon = GFX_goal_KOR_coup
+		icon = GFX_focus_SWI_embrace_panoramaheim
 		cost = 6.00
 		x = 1
 		y = 1
@@ -3917,7 +3924,7 @@
 	
 	focus = { #제국익문사 장악
 		id = KOR_national_populist8
-		icon = GFX_goal_generic_expel_people
+		icon = GFX_focus_generic_annex_country_2
 		cost = 5.00
 		x = 0
 		y = 1
@@ -3933,9 +3940,9 @@
 		}
 	}
 	
-	focus = { #우리의 산업 보호
+	focus = { #협동조합주의
 		id = KOR_national_populist9
-		icon = GFX_goal_generic_takeover_industries
+		icon = GFX_focus_SOV_organize_wreckers
 		cost = 4.00
 		x = 0
 		y = 1
@@ -3950,9 +3957,9 @@
 		}
 	}
 	
-	focus = { #협동조합주의
+	focus = { #군비 확충
 		id = KOR_national_populist10
-		icon = GFX_goal_state_economy
+		icon = GFX_focus_SWI_issue_war_bonds
 		cost = 5.00
 		x = 0
 		y = 1
@@ -3970,7 +3977,7 @@
 	
 	focus = { #화랑 부활
 		id = KOR_national_populist11
-		icon = GFX_goal_KOR_hwalang
+		icon = GFX_focus_POL_sanation_right
 		cost = 5.00
 		x = -1
 		y = 1
@@ -3988,7 +3995,7 @@
 	
 	focus = { #국가헌병대 창설
 		id = KOR_national_populist12
-		icon = GFX_goal_KOR_gendarmerie
+		icon = GFX_focus_generic_fascist_troops
 		cost = 6.00
 		x = 1
 		y = 1
@@ -4006,7 +4013,7 @@
 	
 	focus = { #일당제
 		id = KOR_national_populist13
-		icon = GFX_goal_KOR_one_party
+		icon = GFX_focus_generic_military_dictatorship
 		cost = 6.00
 		x = 1
 		y = 1
@@ -4027,7 +4034,7 @@
 	
 	focus = { #국가주의 교육
 		id = KOR_national_populist14
-		icon = GFX_goal_KTG_Bookstack
+		icon = GFX_focus_generic_fascist_propaganda
 		cost = 8.00
 		x = -1
 		y = 1
@@ -4048,7 +4055,7 @@
 	
 	focus = { #부패관료 처벌
 		id = KOR_national_populist15
-		icon = GFX_goal_skull_treaty2
+		icon = GFX_focus_generic_court
 		cost = 5.00
 		x = 1
 		y = 1
@@ -4064,9 +4071,9 @@
 		}
 	}
 	
-	focus = { #감독관 파견
+	focus = { #악덕 공장주 처벌
 		id = KOR_national_populist16
-		icon = GFX_goal_National_Security_Act
+		icon = GFX_focus_AST_squander_bug
 		cost = 5.00
 		x = 0
 		y = 1
@@ -4085,7 +4092,7 @@
 	
 	focus = { #군대를 위한 금광
 		id = KOR_national_populist17
-		icon = GFX_goal_gold_reserve
+		icon = GFX_focus_usa_reestablish_the_gold_standard
 		cost = 8.00
 		x = -1
 		y = 1
@@ -4106,7 +4113,7 @@
 	
 	focus = { #군대를 위한 철도
 		id = KOR_national_populist18
-		icon = GFX_goal_generic_seize_railway
+		icon = GFX_focus_generic_railway_gun
 		cost = 5.00
 		x = 1
 		y = 1
@@ -4146,7 +4153,7 @@
 	
 	focus = { #영도되는 국가
 		id = KOR_national_populist20
-		icon = GFX_goal_KOR_strong_hand
+		icon = GFX_KOR_iron_hand
 		cost = 6.00
 		x = 0
 		y = 1
@@ -4164,7 +4171,7 @@
 	
 	focus = { #일민주의 국가
 		id = KOR_national_populist21
-		icon = GFX_focus_HOL_deal_with_right
+		icon = GFX_KOR_ilminism
 		cost = 5.00
 		x = 1
 		y = 1
@@ -4183,9 +4190,9 @@
 		}
 	}
 	
-	focus = { #단일화된 국가
+	focus = { #협동조합 국가
 		id = KOR_national_populist22
-		icon = GFX_LEC_49ers
+		icon = GFX_focus_SOV_merge_plants
 		cost = 8.00
 		x = 0
 		y = 1
@@ -4203,7 +4210,7 @@
 	
 	focus = { #발전하는 국가
 		id = KOR_national_populist23
-		icon = GFX_goal_generic_construct_public_housing
+		icon = GFX_KOR_peninsula_and_flag
 		cost = 5.00
 		x = 1
 		y = 1
@@ -4224,7 +4231,7 @@
 	
 	focus = { #군국주의 국가
 		id = KOR_national_populist24
-		icon = GFX_goal_KOR_korean_military
+		icon = GFX_KOR_korean_military
 		cost = 6.00
 		x = 0
 		y = 1
@@ -4242,7 +4249,7 @@
 	
 	focus = { #하나의 국민, 하나의 국가, 하나의 대막리지
 		id = KOR_national_populist25
-		icon = GFX_goal_national_populism
+		icon = GFX_KOR_daemagliji
 		cost = 6.00
 		x = 0
 		y = 1

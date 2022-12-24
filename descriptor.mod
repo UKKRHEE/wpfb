@@ -7,6 +7,7 @@ tags={
 	"Alternative History"
 	"Events"
 	"National Focuses"
+	"Map"
 	"Gameplay"
 }
 name="When Plum Flowers Bloom"
