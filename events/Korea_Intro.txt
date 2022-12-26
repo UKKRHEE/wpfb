@@ -1,0 +1,68 @@
+﻿add_namespace = korea_intro
+
+country_event = { #인트로 이벤트
+	id = korea_intro.1
+	title = korea_intro.1.t
+	desc = korea_intro.1.d
+	picture = GFX_report_event_KOR_heonjong
+
+	is_triggered_only = yes
+
+	option = {
+		name = korea_intro.1.a
+		hidden_effect = {
+			country_event = {
+				id = korea_intro.2
+			}
+		}
+	}
+}
+
+country_event = { #인트로 이벤트
+	id = korea_intro.2
+	title = korea_intro.1.t
+	desc = korea_intro.2.d
+	picture = GFX_report_event_KOR_1904_war
+
+	is_triggered_only = yes
+
+	option = {
+		name = korea_intro.2.a
+		hidden_effect = {
+			country_event = {
+				id = korea_intro.3
+			}
+		}
+	}
+}
+
+country_event = { #인트로 이벤트
+	id = korea_intro.3
+	title = korea_intro.1.t
+	desc = korea_intro.3.d
+	picture = GFX_report_event_KOR_yi_kang
+
+	is_triggered_only = yes
+
+	option = {
+		name = korea_intro.3.a
+		hidden_effect = {
+			country_event = {
+				id = korea_intro.4
+			}
+		}
+	}
+}
+
+country_event = { #인트로 이벤트
+	id = korea_intro.4
+	title = korea_intro.1.t
+	desc = korea_intro.4.d
+	picture = GFX_report_event_KOR_yi_wu
+
+	is_triggered_only = yes
+
+	option = {
+		name = korea_intro.4.a
+	}
+}

@@ -33,11 +33,34 @@ characters={
 		portraits={
 			army={
 				large=GFX_portrait_ZLC_wu_peifu
+				small=GFX_idea_ZLC_wu_peifu
+			}
+		}
+		advisor={
+			slot = political_advisor
+			removal_cost = -1
+			idea_token = wu_peifu
+			available = {
+				is_subject = no
+				NOT = {
+					has_country_leader = {
+						ruling_only = yes 
+						character = ZLC_wu_peifu
+					}
+				}
+			}
+			allowed = {
+				original_tag = ZLC
+			}
+			traits = {
+				jade_marshal_advisor
 			}
 		}
 		country_leader={
 			ideology=fascism_ideology
-			traits={ }
+			traits = {
+				jade_marshal
+			}
 			expire="1960.1.1.1"
 			id=-1
 		}
@@ -61,11 +84,36 @@ characters={
 		portraits={
 			civilian={
 				large=GFX_portrait_ZLC_cao_kun
+				small=GFX_idea_ZLC_cao_kun
+			}
+		}
+		advisor={
+			slot = political_advisor
+			removal_cost = -1
+			idea_token = cao_kun
+			available = {
+				is_subject = no
+				NOT = {
+					has_country_leader = {
+						ruling_only = yes 
+						character = ZLC_cao_kun
+					}
+				}
+			}
+			allowed = {
+				original_tag = ZLC
+			}
+			traits = {
+				drunken_dabbler_advisor
+				old_figurehead
 			}
 		}
 		country_leader={
 			ideology=oligarchism
-			traits={ }
+			traits = {
+				drunken_dabbler
+				old_figurehead_zlc
+			}
 			expire="1960.1.1.1"
 			id=-1
 		}

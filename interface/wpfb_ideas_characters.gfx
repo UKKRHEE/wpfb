@@ -601,6 +601,14 @@ spriteTypes = {
 	
 	### 북양정부 정치고문 ###
 	spriteType = {
+		name = "GFX_idea_ZLC_wu_peifu"
+		texturefile = "gfx/interface/ideas/ZLC/idea_ZLC_wu_peifu.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ZLC_cao_kun"
+		texturefile = "gfx/interface/ideas/ZLC/idea_ZLC_cao_kun.png"
+	}
+	spriteType = {
 		name = "GFX_idea_ZLC_li_linsi"
 		texturefile = "gfx/interface/ideas/ZLC/idea_ZLC_li_linsi.png"
 	}

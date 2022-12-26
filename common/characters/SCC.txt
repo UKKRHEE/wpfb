@@ -151,7 +151,7 @@ characters={
 				original_tag = SCC
 			}
 			traits = {
-				economic_reformer
+				financial_expert
 			}
 		}
 	}

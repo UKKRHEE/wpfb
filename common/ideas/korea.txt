@@ -98,6 +98,174 @@ ideas = {
 				decryption = 1
 			}
 		}
+		KOR_great_depression = {
+			
+			picture = usa_great_depression_3
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				industrial_capacity_factory = -0.2
+				industrial_capacity_dockyard = -0.2
+				consumer_goods_factor = 0.2
+				conscription_factor = -0.2
+				local_resources_factor = -0.2
+			}
+		}
+		KOR_great_depression_cho = {
+			name = KOR_great_depression
+			
+			picture = usa_great_depression_2
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				local_resources_factor = -0.10
+				industrial_capacity_factory = -0.2
+				industrial_capacity_dockyard = -0.2
+				consumer_goods_factor = 0.10
+				conscription_factor = -0.10
+			}
+		}
+		KOR_great_depression_hyeon = {
+			name = KOR_great_depression
+			
+			picture = usa_great_depression_2
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				local_resources_factor = -0.10
+				industrial_capacity_factory = -0.1
+				industrial_capacity_dockyard = -0.1
+				consumer_goods_factor = 0.2
+				conscription_factor = -0.2
+			}
+		}
+		KOR_great_depression_2 = {
+			name = KOR_great_depression
+			
+			picture = usa_great_depression
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				industrial_capacity_factory = -0.05
+				industrial_capacity_dockyard = -0.05
+				consumer_goods_factor = 0.05
+				conscription_factor = -0.05
+				local_resources_factor = -0.05
+			}
+		}
+		KOR_depression_cho = {
+			name = KOR_depression
+			
+			picture = usa_great_depression
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				industrial_capacity_factory = -0.05
+				industrial_capacity_dockyard = -0.05
+			}
+		}
+		KOR_depression_hyeon = {
+			name = KOR_depression
+			
+			picture = usa_great_depression
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = 0.05
+				conscription_factor = -0.05
+			}
+		}
+		KOR_securing_budget = {
+			
+			picture = SPR_seize_the_gold_reserves
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = -0.05
+			}
+		}
+		KOR_price_control = {
+			
+			picture = chi_hyper_inflation
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_weekly = 0.001
+				political_power_factor = -0.05
+			}
+		}
 	}
 	
 	tank_manufacturer = {
@@ -313,6 +481,12 @@ ideas = {
 		
 		KOR_bank_of_korea = {
 			
+			visible = {
+				NOT = {
+					has_completed_focus = KOR_bm_city4
+				}
+			}
+			
 			allowed = {
 				original_tag = KOR
 			}
@@ -323,6 +497,30 @@ ideas = {
 			
 			modifier = {
 				economy_cost_factor = -0.25
+			}
+
+			traits = { industrial_concern }
+		}
+		KOR_bank_of_korea_2 = {
+			name = KOR_bank_of_korea
+
+			picture = KOR_bank_of_korea
+			
+			visible = {
+				has_completed_focus = KOR_bm_city4
+			}
+			
+			allowed = {
+				original_tag = KOR
+			}
+			
+			research_bonus = {
+				industry = 0.20
+			}
+			
+			modifier = {
+				consumer_goods_factor = -0.02
+				economy_cost_factor = -0.50
 			}
 
 			traits = { industrial_concern }

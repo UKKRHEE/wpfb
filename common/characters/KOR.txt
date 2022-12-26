@@ -8,6 +8,7 @@ characters = {
 			}
 		}
 		country_leader={
+			desc = "POLITICS_YI_DONGHWI_DESC"
 			expire = "1965.1.1"
 			ideology = marxism
 			traits = {
@@ -38,6 +39,7 @@ characters = {
 			}
 		}
 		country_leader={
+			desc = ""
 			expire = "1965.1.1"
 			ideology = socialism
 			traits = {
@@ -74,6 +76,7 @@ characters = {
 			}
 		}
 		country_leader={
+			desc = "POLITICS_LEE_BEOMSEOK_DESC"
 			expire = "1965.1.1"
 			ideology = fascism_ideology
 			traits = {
@@ -118,6 +121,7 @@ characters = {
 			}
 		}
 		country_leader={
+			desc = "POLITICS_YI_WU_DESC"
 			expire = "1965.1.1"
 			ideology = oligarchism
 			traits = {
@@ -166,7 +170,7 @@ characters = {
 		}
 	}
 	
-	### 정치고문/반공주의 ###
+	### 정치고문/중점달성 ###
 	KOR_hyeon_jun_ho={
 		name=KOR_hyeon_jun_ho
 		portraits={
@@ -178,9 +182,7 @@ characters = {
 			slot = political_advisor
 			idea_token = hyeon_jun_ho
 			available = {
-                NOT = {
-					has_government = communism
-				}
+                has_completed_focus = KOR_bm_city0
             }
 			allowed = {
 				original_tag = KOR
@@ -190,6 +192,29 @@ characters = {
 			}
 		}
 	}
+	KOR_cho_bong_am={
+		name=KOR_cho_bong_am
+		portraits={
+			civilian={
+				small=GFX_idea_KOR_cho_bong_am
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = cho_bong_am
+			available = {
+				has_completed_focus = KOR_bm_rural0
+			}
+			allowed = {
+				original_tag = KOR
+			}
+			traits = {
+				minister_of_peasants
+			}
+		}
+	}
+	
+	### 정치고문/반공주의 ###
 	KOR_park_heung_sik={
 		name=KOR_park_heung_sik
 		portraits={
@@ -358,30 +383,6 @@ characters = {
 			}
 		}
 	}
-	KOR_cho_bong_am={
-		name=KOR_cho_bong_am
-		portraits={
-			civilian={
-				small=GFX_idea_KOR_cho_bong_am
-			}
-		}
-		advisor={
-			slot = political_advisor
-			idea_token = cho_bong_am
-			available = {
-				OR = {
-					has_government = communism
-					has_completed_focus = KOR_farmland_reform_act
-				}
-			}
-			allowed = {
-				original_tag = KOR
-			}
-			traits = {
-				minister_of_peasants
-			}
-		}
-	}
 	
 	### 정치고문/파시스트 ###
 	KOR_gang_se_hyeong={
@@ -466,9 +467,11 @@ characters = {
 		}
 		advisor={
 			slot = political_advisor
+			removal_cost = -1
 			idea_token = yi_kang
 			available = {
 				has_government = neutrality
+				is_subject = no
 			}
 			allowed = {
 				original_tag = KOR

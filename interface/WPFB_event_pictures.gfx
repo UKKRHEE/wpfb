@@ -1,0 +1,20 @@
+spriteTypes = {
+	
+	spriteType = {
+		name = "GFX_report_event_KOR_heonjong"
+		texturefile = "gfx/event_pictures/KOR/heonjong.png"
+	}
+	spriteType = {
+		name = "GFX_report_event_KOR_1904_war"
+		texturefile = "gfx/event_pictures/KOR/1904_war.png"
+	}
+	spriteType = {
+		name = "GFX_report_event_KOR_yi_kang"
+		texturefile = "gfx/event_pictures/KOR/yi_kang.png"
+	}
+	spriteType = {
+		name = "GFX_report_event_KOR_yi_wu"
+		texturefile = "gfx/event_pictures/KOR/yi_wu.png"
+	}
+	
+}

@@ -1,7 +1,9 @@
 leader_traits = {
 
 	resolute_social_democrat_kor = {
+		name = resolute_social_democrat
 		random = no
+		
 		stability_factor = 0.05
 		political_power_factor = 0.05
 		democratic_acceptance = 50
@@ -12,7 +14,9 @@ leader_traits = {
 		}
 	}
 	social_reformer_kor = {
+		name = social_reformer
 		random = no
+		
 		stability_factor = 0.15
 		democratic_acceptance = 50
 		
@@ -22,6 +26,7 @@ leader_traits = {
 	}
 	linguistic_genius = {
 		random = no
+		
 		improve_relations_maintain_cost_factor = -0.75
 		trade_opinion_factor = 0.10
 		opinion_gain_monthly_factor = 0.10
@@ -31,7 +36,9 @@ leader_traits = {
 		}
 	}
 	backroom_backstabber_kor = {
+		name = backroom_backstabber
 		random = no
+		
 		subversive_activites_upkeep = -0.25
 		drift_defence_factor = 0.25
 
@@ -41,6 +48,7 @@ leader_traits = {
 	}
 	academic_genius = {
 		random = no
+		
 		research_speed_factor = 0.10
 
 		ai_will_do = {
@@ -49,6 +57,7 @@ leader_traits = {
 	}
 	daemagliji = {
 		random = no
+		
 		war_support_factor = 0.25
 		air_chief_cost_factor = -0.25
 		army_chief_cost_factor = -0.25
@@ -62,6 +71,7 @@ leader_traits = {
 	}
 	nationalist_historian = {
 		random = no
+		
 		stability_factor = 0.1
 		fascism_acceptance = 50
 		
@@ -71,8 +81,39 @@ leader_traits = {
 	}
 	emperor_geonheung = {
 		random = no
+		
 		stability_factor = 0.3
 		drift_defence_factor = 0.9
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	jade_marshal = {
+		random = no
+		
+		army_attack_factor = 0.10
+		political_power_gain = 0.10
+		supply_consumption_factor = 0.05
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	drunken_dabbler = {
+		random = no
+		
+		political_advisor_cost_factor = 0.15
+		stability_factor = -0.10
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	old_figurehead_zlc = {
+		random = no
+
+		political_power_factor = 0.15
 
 		ai_will_do = {
 			factor = 1
@@ -121,5 +162,20 @@ leader_traits = {
 		ai_will_do = {
 			factor = 1
 		}
+	}
+	jade_marshal_advisor = {
+		random = no
+		sprite = 13
+		
+		army_attack_factor = 0.10
+		political_power_gain = 0.10
+		supply_consumption_factor = 0.05
+	}
+	drunken_dabbler_advisor = {
+		random = no
+		sprite = 13
+		
+		political_advisor_cost_factor = 0.15
+		stability_factor = -0.10
 	}
 }

@@ -8,33 +8,6 @@ set_technology = {
 	mass_assault = 1
 }
 
-add_ideas = {
-	limited_conscription
-	export_focus
-	civilian_economy
-
-	KOR_questions_government
-	KOR_army_up
-	KOR_land_problem
-	KOR_labor_rights_no
-	KOR_intel
-}
-
-set_convoys = 150
-
-set_politics = {
-	ruling_party = neutrality
-	last_election = "1936.1.1"
-	election_frequency = 48
-	elections_allowed = yes
-}
-set_popularities = {
-	democratic = 31
-	fascism = 30
-	communism = 4
-	neutrality = 35
-}
-
 ### 지도자 ###
 recruit_character = KOR_yi_dong_hwi
 recruit_character = KOR_lyuh_woon_hyung
@@ -105,3 +78,38 @@ recruit_character = KOR_yi_un
 recruit_character = KOR_yi_jae_gak
 recruit_character = KOR_yi_geon
 recruit_character = KOR_shin_sung_mo
+
+add_ideas = {
+	#각료
+	yi_kang
+	
+	#경제, 법률, 징병제
+	limited_conscription
+	export_focus
+	civilian_economy
+
+	#국민정신
+	KOR_questions_government
+	KOR_army_up
+	KOR_land_problem
+	KOR_labor_rights_no
+	KOR_intel
+	KOR_great_depression
+}
+
+set_convoys = 150
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 31
+	fascism = 30
+	communism = 4
+	neutrality = 35
+}
+
+country_event = { id = korea_intro.1 hours = 2 }

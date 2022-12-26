@@ -329,6 +329,21 @@ bookmarks = {
 				YUG_dissolve_serbia
 			}
 		}
+		"ZLC"={
+			minor = yes
+			history = "ZLC_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+				CHI_army_corruption_1
+				CHI_hyper_inflation_1
+				CHI_nine_power_treaty
+			}
+			focuses = {
+				CHI_united_front
+				CHI_army_reform
+				CHI_invite_the_flying_tigers
+			}
+		}
 		"CHI"={
 			minor = yes
 			history = "CHI_GATHERING_STORM_DESC"
@@ -344,10 +359,10 @@ bookmarks = {
 				CHI_invite_the_flying_tigers
 			}
 		}
-		"PRC"={
+		"NJC"={
 			minor = yes
-			history = "PRC_GATHERING_STORM_DESC"
-			ideology = communism
+			history = "WARLORDS_GATHERING_STORM_DESC"
+			ideology = neutrality
 			ideas = {
 				PRC_the_long_march_1
 				PRC_low_popular_support_3
@@ -359,26 +374,24 @@ bookmarks = {
 				PRC_anti_japanese_expedition
 			}
 		}
-		"MAN"={
-			minor = yes
-			history = "MAN_GATHERING_STORM_DESC"
-			ideology = fascism
-			ideas = {
-				MAN_banditry
-				MAN_kwantung_veto
-				MAN_low_legitimacy_5
-			}
-			focuses = {
-				MAN_obedience
-				MAN_independence_war
-				MAN_claim_the_mandate_of_heaven
-			}
-		}
-		
 		"GXC"={
 			minor = yes
 			history = "WARLORDS_GATHERING_STORM_DESC"
-			ideology = fascism
+			ideology = neutrality
+			ideas = {
+				PRC_government_corruption
+				CHI_ineffective_bureaucracy_warlord
+			}
+			focuses = {
+				CHI_join_the_republican_government
+				CHI_provoke_border_clashes
+				CHI_join_the_chinese_soviet
+			}
+		}
+		"SCC"={
+			minor = yes
+			history = "WARLORDS_GATHERING_STORM_DESC"
+			ideology = neutrality
 			ideas = {
 				PRC_government_corruption
 				CHI_ineffective_bureaucracy_warlord
@@ -392,7 +405,21 @@ bookmarks = {
 		"YUN"={
 			minor = yes
 			history = "WARLORDS_GATHERING_STORM_DESC"
-			ideology = fascism
+			ideology = neutrality
+			ideas = {
+				PRC_government_corruption
+				CHI_ineffective_bureaucracy_warlord
+			}
+			focuses = {
+				CHI_join_the_republican_government
+				CHI_provoke_border_clashes
+				CHI_join_the_chinese_soviet
+			}
+		}
+		"HNC"={
+			minor = yes
+			history = "WARLORDS_GATHERING_STORM_DESC"
+			ideology = neutrality
 			ideas = {
 				PRC_government_corruption
 				CHI_ineffective_bureaucracy_warlord
@@ -406,7 +433,7 @@ bookmarks = {
 		"SHX"={
 			minor = yes
 			history = "WARLORDS_GATHERING_STORM_DESC"
-			ideology = fascism
+			ideology = neutrality
 			ideas = {
 				PRC_government_corruption
 				CHI_ineffective_bureaucracy_warlord
@@ -420,7 +447,7 @@ bookmarks = {
 		"XSM"={
 			minor = yes
 			history = "WARLORDS_GATHERING_STORM_DESC"
-			ideology = fascism
+			ideology = neutrality
 			ideas = {
 				PRC_government_corruption
 				CHI_ineffective_bureaucracy_warlord
@@ -431,10 +458,52 @@ bookmarks = {
 				CHI_join_the_chinese_soviet
 			}
 		}		
+		"QIN"={
+			minor = yes
+			history = "QIN_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+				PRC_government_corruption
+				CHI_ineffective_bureaucracy_warlord
+			}
+			focuses = {
+				CHI_join_the_republican_government
+				CHI_provoke_border_clashes
+				CHI_join_the_chinese_soviet
+			}
+		}
+		"MON"={
+			minor = yes
+			history = "QING_STATE_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+				PRC_government_corruption
+				CHI_ineffective_bureaucracy_warlord
+			}
+			focuses = {
+				CHI_join_the_republican_government
+				CHI_provoke_border_clashes
+				CHI_join_the_chinese_soviet
+			}
+		}
 		"SIK"={
 			minor = yes
-			history = "WARLORDS_GATHERING_STORM_DESC"
-			ideology = fascism
+			history = "QING_STATE_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+				PRC_government_corruption
+				CHI_ineffective_bureaucracy_warlord
+			}
+			focuses = {
+				CHI_join_the_republican_government
+				CHI_provoke_border_clashes
+				CHI_join_the_chinese_soviet
+			}
+		}
+		"TIB"={
+			minor = yes
+			history = "QING_STATE_GATHERING_STORM_DESC"
+			ideology = neutrality
 			ideas = {
 				PRC_government_corruption
 				CHI_ineffective_bureaucracy_warlord

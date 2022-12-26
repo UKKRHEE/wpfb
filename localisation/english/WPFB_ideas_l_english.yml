@@ -44,18 +44,19 @@
  KOR_labor_rights_no_desc:0 "한국의 자본주의는 이제 막 태동기를 거쳐 성장 중이지만 모순은 어느 열강에 못지 않습니다. 자본가들은 노동자를 찍어 누르기 바쁘며 노동자들은 이에 맞서 파업을 일삼기 바쁩니다."
  KOR_intel:0 "제국익문사"
  KOR_intel_desc:0 "제국익문사는 황제 직속의 정보기관입니다. 그들의 정보력과 첩보력은 믿음직스럽지만 황제에게만 책임을 지는 구조상 정부는 익문사에 지원을 받을 수는 있지만 명령을 할 수는 없습니다."
+ KOR_great_depression:0 "대공황"
+ KOR_depression:0 "대공황의 여파"
+ KOR_securing_budget:0 "예산 확보"
+ KOR_price_control:0 "물가 통제"
  
  ### 한국 지도자 ###
  KOR_yi_dong_hwi:0 "이동휘"
  KOR_pak_hon_yong:0 "박헌영"
  KOR_lyuh_woon_hyung:0 "여운형"
- resolute_social_democrat_kor:0 "확고한 사민주의자"
  KOR_ahn_chang_ho:0 "안창호"
- social_reformer_kor:0 "사회개혁가"
  KOR_kim_kyu_sik:0 "김규식"
  linguistic_genius:0 "어학의 천재"
  KOR_syngman_rhee:0 "이승만"
- backroom_backstabber_kor:0 "밀실 모략가"
  KOR_kim_koo:0 "김구"
  KOR_yi_sang_sul:0 "이상설"
  academic_genius:0 "학문학의 제일류"
@@ -118,7 +119,7 @@
  KOR_kim_mu_chong:0 "김무정"
  
  ### 한국 육군 원수 ###
- KOR_yi_won:0 "이원"
+ KOR_yi_won:0 "이우용"
  
  ### 한국 육군 장성 ###
  KOR_yu_dong_yeol:0 "유동열"
@@ -303,9 +304,14 @@
  ZLC_ccp:0 "인민위원회"
  ZLC_hu_shih:0 "후스"
  ZLC_wu_peifu:0 "우페이푸"
+ jade_marshal:0 "옥수"
  ZLC_cao_kun:0 "차오쿤"
+ drunken_dabbler:0 "술에 취한 애주가"
+ old_figurehead_zlc:0 "늙은 얼굴마담"
  
  ### 북양정부 정치고문 ###
+ jade_marshal_advisor:0 "옥수"
+ drunken_dabbler_advisor:0 "술에 취한 애주가"
  ZLC_li_linsi:0 "리린쓰"
  ZLC_wellington_koo:0 "구웨이쥔"
  ZLC_diao_zuoqian:0 "댜오쭤첸"

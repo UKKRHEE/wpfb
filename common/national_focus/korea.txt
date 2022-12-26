@@ -51,7 +51,8 @@
 		
 		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
 		completion_reward = {
-			add_ideas = KOR_Yang_Gi_tak_eco_sli
+			custom_effect_tooltip = available_political_advisor
+			show_ideas_tooltip = cho_bong_am
 		}
 	}
 	
@@ -72,7 +73,10 @@
 		
 		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
 		completion_reward = {
-			add_political_power = 80
+			swap_ideas = {
+				add_idea = KOR_great_depression_cho
+				remove_idea = KOR_great_depression
+			}
 		}
 	}
 	
@@ -93,7 +97,8 @@
 		
 		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
 		completion_reward = {
-			add_political_power = 80
+			stability_factor = 0.15
+			add_political_power = -100
 		}
 	}
 	
@@ -115,6 +120,12 @@
 		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
 		completion_reward = {
 			add_stability = 0.05
+			if = {
+				limit = {
+					NOT = { has_idea = limited_exports }
+				}
+				add_ideas = limited_exports
+			}
 		}
 	}
 	
@@ -142,8 +153,8 @@
 		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
 		completion_reward = {
 			swap_ideas = {
-				add_idea = KOR_black_monday_3
-				remove_idea = KOR_black_monday_2
+				add_idea = KOR_great_depression_2
+				remove_idea = KOR_great_depression_cho
 			}	
 		}
 	}
@@ -165,11 +176,7 @@
 		
 		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
 		completion_reward = {
-			add_stability = 0.05
-			swap_ideas = {
-				remove_idea = KOR_black_monday
-				add_idea = KOR_black_monday_1
-			}
+			add_political_power = -50
 		}
 	}
 	
@@ -193,24 +200,8 @@
 		
 		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
 		completion_reward = {
-			525 = {
-				add_building_construction = {
-					type = industrial_complex
-					level = -1
-					instant_build = yes	
-				}
-			}
-			527 = {
-				add_building_construction = {
-					type = industrial_complex
-					level = -1
-					instant_build = yes	
-				}
-			}
-			swap_ideas = {
-				remove_idea = KOR_black_monday_1
-				add_idea = KOR_black_monday_2
-			}
+			add_political_power = -150
+			add_ideas = KOR_securing_budget
 		}
 	}
 	
@@ -234,10 +225,10 @@
 		
 		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
 		completion_reward = {
-			add_stability = -0.1
-			swap_ideas = {
-				remove_idea = KOR_black_monday_1
-				add_idea = KOR_black_monday_2
+			add_stability = -0.15
+			add_timed_idea = {
+				idea = KOR_securing_budget
+				days = 120
 			}
 		}
 	}
@@ -262,7 +253,8 @@
 		
 		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
 		completion_reward = {
-			#
+			custom_effect_tooltip = available_political_advisor
+			show_ideas_tooltip = hyeon_jun_ho
 		}
 	}
 	
@@ -283,7 +275,10 @@
 		
 		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
 		completion_reward = {
-			add_stability = 0.05
+			swap_ideas = {
+				add_idea = KOR_great_depression_hyeon
+				remove_idea = KOR_great_depression
+			}
 		}
 	}
 	
@@ -304,7 +299,20 @@
 		
 		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
 		completion_reward = {
-			add_political_power = 80
+			add_political_power = -200
+			525 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes	
+				}				
+			}
 		}
 	}
 	
@@ -325,7 +333,10 @@
 		
 		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
 		completion_reward = {
-			add_stability = 0.05
+			add_timed_idea = {
+				idea = KOR_price_control
+				days = 60
+			}
 		}
 	}
 	
@@ -352,10 +363,11 @@
 		
 		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
 		completion_reward = {
+			custom_effect_tooltip = KOR_tt_bank_of_korea_focus
 			swap_ideas = {
-				add_idea = KOR_black_monday_3
-				remove_idea = KOR_black_monday_2
-			}	
+				add_idea = KOR_great_depression_2
+				remove_idea = KOR_great_depression_hyeon
+			}
 		}
 	}
 	### 대공황 - 끝 ###
@@ -367,29 +379,33 @@
 		y = 5
 		relative_position_id = KOR_bm0
 		
-		prerequisite = {
-			focus = KOR_bm_rural4
-			focus = KOR_bm_treasury1
-		}
-		prerequisite = {
-			focus = KOR_bm_rural4
-			focus = KOR_bm_treasury2
-		}
-		prerequisite = {
-			focus = KOR_bm_city4
-			focus = KOR_bm_treasury1
-		}
-		prerequisite = {
-			focus = KOR_bm_city4
-			focus = KOR_bm_treasury2
-		}
+		prerequisite = { focus = KOR_bm_rural4 focus = KOR_bm_city4 }
+		
 		available = {
-			#	
+			#
 		}
 		
 		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
 		completion_reward = {
-			remove_ideas = KOR_black_monday_3
+			remove_ideas = KOR_great_depression_2
+			if = {
+				limit = {
+					has_completed_focus = KOR_bm_rural0
+				}
+				add_timed_idea = {
+					idea = KOR_depression_cho
+					days = 365
+				}
+			}
+			else_if = {
+				limit = {
+					has_completed_focus = KOR_bm_city0
+				}
+				add_timed_idea = {
+					idea = KOR_depression_hyeon
+					days = 365
+				}
+			}
 		}
 	}
 	

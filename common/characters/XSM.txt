@@ -162,7 +162,7 @@ characters={
 				original_tag = XSM
 			}
 			traits  = {
-				economic_reformer 
+				financial_expert 
 			}
 		}
 	}
