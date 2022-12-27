@@ -93,6 +93,14 @@
  china_federalist_neutrality:0 "중화합중국"
  china_federalist_neutrality_DEF:0 "중화합중국"
  china_federalist_neutrality_ADJ:0 "중화합중국"
+
+ china_ming_neutrality:0 "명나라"
+ china_ming_neutrality_DEF:0 "명나라"
+ china_ming_neutrality_ADJ:0 "명나라"
+
+ china_monarchist_neutrality:0 "중화제국"
+ china_monarchist_neutrality_DEF:0 "중화제국"
+ china_monarchist_neutrality_ADJ:0 "중화제국"
  
  #############
  ### 청나라ㅡ ###

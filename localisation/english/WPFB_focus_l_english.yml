@@ -4,6 +4,7 @@ KOR_flag_democratic_focus:0 "군민공치가 실현됨"
 KOR_flag_neutrality_focus:0 "대출척과 건흥유신이 일어남"
 KOR_flag_fascism_focus:0 "대막리지가 탄생함"
 KOR_tt_bank_of_korea_focus:0 "한국은행의 효과가 강화됩니다."
+KOR_defensive_measures_forts:0 "경기도, 평안도, 심요도가 요새화됩니다."
 
 ### 검은 월요일 중점 ###
 #시작
@@ -62,11 +63,11 @@ KOR_army_lee5_desc:0 "우리의 군대는 옛 고구려의 개마무사와 버�
 #김좌진
 KOR_army_kim0:0 "김좌진의 개혁안"
 KOR_army_kim0_desc:0 "군부에서 가장 공격적인 전술가로 유명한 김좌진 장군은 한국군이 더욱 막강한 화력을 갖춰야 한다고 강력히 주장합니다."
-KOR_army_kim1:0 "강력한 총기"
+KOR_army_kim1:0 "더 많은 총기!"
 KOR_army_kim1_desc:0 "막강한 화력을 위해서는 더욱 크고 아름다운 총이 필요한 법입니다."
 KOR_army_kim2:0 "지원형 화력"
 KOR_army_kim2_desc:0 "화력은 단순히 공방의 용도가 아닙니다. 아군을 구원하기 위한 화력도 필요합니다."
-KOR_army_kim3:0 "강력한 야포"
+KOR_army_kim3:0 "더 많은 야포!"
 KOR_army_kim3_desc:0 "막강한 화력을 위해서는 더욱 크고 아름다운 포가 필요한 법입니다."
 KOR_army_kim4:0 "압도적 화력"
 KOR_army_kim4_desc:0 "아무리 많은 적이라도 강력한 화력 앞에서는 모두 표적일 뿐입니다."

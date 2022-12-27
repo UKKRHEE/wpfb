@@ -97,7 +97,7 @@
 		
 		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
 		completion_reward = {
-			stability_factor = 0.15
+			add_stability = 0.15
 			add_political_power = -100
 		}
 	}
@@ -201,7 +201,10 @@
 		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
 		completion_reward = {
 			add_political_power = -150
-			add_ideas = KOR_securing_budget
+			add_timed_idea = {
+				idea = KOR_securing_budget
+				days = 120
+			}
 		}
 	}
 	
@@ -451,7 +454,12 @@
 		
 		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
 		completion_reward = {
-			remove_ideas = KOR_Bed_army
+			add_doctrine_cost_reduction = {
+				name = KOR_army_lee0
+				cost_reduction = 0.5
+				uses = 1
+				category = land_doctrine
+			}
 		}
 	}
 	
@@ -472,12 +480,9 @@
 		
 		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
 		completion_reward = {
-			add_tech_bonus = {
-				name = KOR_light_medium_armor
-				bonus = 0.35
-				ahead_reduction = 1
-				uses = 2
-				category = cat_light_armor
+			add_timed_idea = {
+				idea = KOR_armor
+				days = 730
 			}
 		}
 	}
@@ -500,10 +505,9 @@
 		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
 		completion_reward = {
 			add_tech_bonus = {
-				name = motorized_bonus
-				bonus = 0.35
-				ahead_reduction = 1
-				uses = 2
+				name = KOR_army_lee2
+				bonus = 1
+				uses = 1
 				category = motorized_equipment
 			}
 		}
@@ -526,14 +530,7 @@
 		
 		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
 		completion_reward = {
-			add_tech_bonus = {
-				name = KOR_light_medium_armor
-				bonus = 0.35
-				ahead_reduction = 1
-				uses = 2
-				category = cat_medium_armor
-				category = cat_heavy_armor
-			}
+			add_ideas = KOR_armor_2
 		}
 	}
 	
@@ -555,16 +552,15 @@
 		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
 		completion_reward = {
 			add_tech_bonus = {
-				name = motorized_bonus
-				bonus = 0.35
-				ahead_reduction = 1
-				uses = 2
+				name = KOR_army_lee4
+				bonus = 1
+				uses = 1
 				category = cat_mechanized_equipment
 			}
 		}
 	}
 	
-	focus = { #개마무사의 전통
+	focus = { #개마무사의 유산
 		id = KOR_army_lee5
 		icon = GFX_goal_generic_cavalry
 		cost = 5.00
@@ -582,7 +578,13 @@
 		
 		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
 		completion_reward = {
-			add_ideas = KOR_Korea_attack
+			every_army_leader = { add_logistics = 1 }
+			add_doctrine_cost_reduction = {
+				name = KOR_army_lee5
+				cost_reduction = 0.5
+				uses = 2
+				category = land_doctrine
+			}
 		}
 	}
 	### 육군 - 김좌진 ###
@@ -609,11 +611,16 @@
 		
 		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
 		completion_reward = {
-			remove_ideas = KOR_Bed_army
+			add_doctrine_cost_reduction = {
+				name = KOR_army_kim0
+				cost_reduction = 0.5
+				uses = 1
+				category = land_doctrine
+			}
 		}
 	}
 	
-	focus = { #강력한 총기
+	focus = { #더 많은 총기!
 		id = KOR_army_kim1
 		icon = GFX_focus_ETH_freedom_at_gunpoint
 		cost = 5.00
@@ -631,12 +638,14 @@
 		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
 		completion_reward = {
 			add_tech_bonus = {
-				name = KOR_equipment_effort
-				bonus = 0.35
-				ahead_reduction = 1
-				uses = 2
+				name = KOR_army_kim1
+				bonus = 1
+				uses = 1
 				category = infantry_weapons
-				category = artillery
+			}
+			add_timed_idea = {
+				idea = KOR_fire
+				days = 730
 			}
 		}
 	}
@@ -659,16 +668,15 @@
 		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
 		completion_reward = {
 			add_tech_bonus = {
-				name = KOR_artillery_focus
-				bonus = 0.35
-				ahead_reduction = 1
-				uses = 2
+				name = KOR_army_kim2
+				bonus = 1
+				uses = 1
 				category = artillery
 			}
 		}
 	}
 	
-	focus = { #강력한 야포
+	focus = { #더 많은 야포!
 		id = KOR_army_kim3
 		icon = GFX_goal_generic_army_artillery2
 		cost = 5.00
@@ -692,6 +700,10 @@
 				uses = 2
 				category = artillery
 			}
+			add_timed_idea = {
+				idea = KOR_fire_2
+				days = 730
+			}
 		}
 	}
 	
@@ -712,13 +724,7 @@
 		
 		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
 		completion_reward = {
-			add_tech_bonus = {
-				name = KOR_artillery_focus
-				bonus = 0.35
-				ahead_reduction = 1
-				uses = 2
-				category = artillery
-			}
+			add_ideas = KOR_fire_attack
 		}
 	}
 	
@@ -740,7 +746,13 @@
 		
 		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
 		completion_reward = {
-			add_war_support = 0.05
+			every_army_leader = { add_attack = 1 }
+			add_doctrine_cost_reduction = {
+				name = KOR_army_kim5
+				cost_reduction = 0.5
+				uses = 2
+				category = land_doctrine
+			}
 		}
 	}
 	### 육군 - 신팔균 ###
@@ -767,7 +779,12 @@
 		
 		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
 		completion_reward = {
-			remove_ideas = KOR_Bed_army
+			add_doctrine_cost_reduction = {
+				name = KOR_army_sin0
+				cost_reduction = 0.5
+				uses = 1
+				category = land_doctrine
+			}
 		}
 	}
 	
@@ -789,10 +806,9 @@
 					is_in_faction_with = KOR
 				}
 				OR = {
-					has_full_control_of_state = 527
 					has_full_control_of_state = 525
-					has_full_control_of_state = 716
-					has_full_control_of_state = 717
+					has_full_control_of_state = 527
+					has_full_control_of_state = 927
 				}
 			}
 		}
@@ -800,7 +816,105 @@
 		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
 		
 		completion_reward = {
-			#
+			custom_effect_tooltip = KOR_defensive_measures_forts
+			hidden_effect = {
+				525 = {
+					if = {
+						limit = { ROOT = { controls_province = 7125 } }
+						add_building_construction = {
+							type = bunker
+							level = 5
+							province = 7125
+							instant_build = yes
+						}
+					}
+					if = {
+						limit = { ROOT = { controls_province = 12040 } }
+						add_building_construction = {
+							type = bunker
+							level = 3
+							province = 12040
+							instant_build = yes
+						}
+					}
+					if = {
+						limit = { ROOT = { controls_province = 13258 } }
+						add_building_construction = {
+							type = bunker
+							level = 3
+							province = 13258
+							instant_build = yes
+						}
+					}
+				}
+				527 = {
+					if = {
+						limit = { ROOT = { controls_province = 7171 } }
+						add_building_construction = {
+							type = bunker
+							level = 5
+							province = 7171
+							instant_build = yes
+						}
+					}
+					if = {
+						limit = { ROOT = { controls_province = 9790 } }
+						add_building_construction = {
+							type = bunker
+							level = 3
+							province = 9790
+							instant_build = yes
+						}
+					}
+					if = {
+						limit = { ROOT = { controls_province = 3912 } }
+						add_building_construction = {
+							type = bunker
+							level = 3
+							province = 3912
+							instant_build = yes
+						}
+					}
+				}
+				927 = {
+					if = {
+						limit = { ROOT = { controls_province = 836 } }
+						add_building_construction = {
+							type = bunker
+							level = 5
+							province = 836
+							instant_build = yes
+						}
+					}
+					if = {
+						limit = { ROOT = { controls_province = 3895 } }
+						add_building_construction = {
+							type = bunker
+							level = 3
+							province = 3895
+							instant_build = yes
+						}
+					}
+					if = {
+						limit = { ROOT = { controls_province = 6804 } }
+						add_building_construction = {
+							type = bunker
+							level = 3
+							province = 6804
+							instant_build = yes
+						}
+					}
+					if = {
+						limit = { ROOT = { controls_province = 3849 } }
+						add_building_construction = {
+							type = bunker
+							level = 3
+							province = 3849
+							instant_build = yes
+						}
+					}
+				}				
+			}
 		}
 	}
 	
@@ -821,7 +935,7 @@
 		
 		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
 		completion_reward = {
-			add_stability = 0.05
+			add_ideas = KOR_army_rate
 		}
 	}
 	
@@ -837,12 +951,42 @@
 			focus = KOR_army_sin1
 		}
 		available = {
-			#	
+			any_country = {
+				OR = {
+					tag = KOR
+					is_in_faction_with = KOR
+				}
+				OR = {
+					has_full_control_of_state = 525
+					has_full_control_of_state = 527
+					has_full_control_of_state = 927
+				}
+			}	
 		}
 		
 		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
 		completion_reward = {
-			add_stability = 0.05
+			525 = { 
+				add_building_construction = {
+					type = anti_air_building
+					level = 3
+					instant_build = yes
+				}
+			}
+			527 = { 
+				add_building_construction = {
+					type = anti_air_building
+					level = 2
+					instant_build = yes
+				}
+			}
+			927 = { 
+				add_building_construction = {
+					type = anti_air_building
+					level = 2
+					instant_build = yes
+				}
+			}
 		}
 	}
 	
@@ -863,7 +1007,7 @@
 		
 		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
 		completion_reward = {
-			add_stability = 0.05
+			add_ideas = KOR_command_formation_school
 		}
 	}
 	
@@ -885,7 +1029,13 @@
 		
 		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
 		completion_reward = {
-			add_stability = 0.05
+			every_army_leader = { add_planning = 1 }
+			add_doctrine_cost_reduction = {
+				name = KOR_army_sin5
+				cost_reduction = 0.5
+				uses = 2
+				category = land_doctrine
+			}
 		}
 	}
 	
