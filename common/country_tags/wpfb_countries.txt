@@ -1,8 +1,11 @@
 ###한국계###
 ROK = "countries/RedKorea.txt" #조선인민공화국
 
+###일본계###
+RYU = "countries/Ryukyu.txt" #류큐
+
 ###청국계###
-QIN = "countries/Qing.txt" #대청국
+QIN = "countries/Qing.txt" #청나라
 
 ###중국계###
 ZLC = "countries/Zhili.txt" #직예군벌

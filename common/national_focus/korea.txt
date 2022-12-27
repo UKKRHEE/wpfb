@@ -412,6 +412,23 @@
 		}
 	}
 	
+	focus = { #대한국군
+		id = KOR_korean_army
+		icon = GFX_KOR_eagle_2
+		cost = 5.00
+		x = 18
+		y = 0
+		
+		available = {
+			#	
+		}
+		
+		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
+		completion_reward = {
+			army_experience = 50
+		}
+	}
+	
 	### 육군 ###
 	
 	focus = { #대한육군
@@ -419,7 +436,11 @@
 		icon = GFX_KOR_military_army
 		cost = 5.00
 		x = 12
-		y = 0
+		y = 1
+		
+		prerequisite = {
+			focus = KOR_korean_army
+		}
 		
 		available = {
 			#	
@@ -1046,7 +1067,11 @@
 		icon = GFX_KOR_military_navy
 		cost = 5.00
 		x = 21
-		y = 0
+		y = 1
+		
+		prerequisite = {
+			focus = KOR_korean_army
+		}
 		
 		available = {
 			#	
@@ -1330,7 +1355,11 @@
 		icon = GFX_KOR_military_air
 		cost = 5.00
 		x = 27
-		y = 0
+		y = 1
+		
+		prerequisite = {
+			focus = KOR_korean_army
+		}
 		
 		available = {
 			#	

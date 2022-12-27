@@ -3,7 +3,7 @@ characters = {
 	KOR_yi_dong_hwi={
 		name=KOR_yi_dong_hwi
 		portraits={
-			civilian={
+			army={
 				large=GFX_portrait_KOR_yi_dong_hwi
 			}
 		}
@@ -132,6 +132,44 @@ characters = {
 	}
 	
 	### 정치고문/조건없음 ###
+	KOR_jo_wan_gu={
+		name=KOR_jo_wan_gu
+		portraits={
+			civilian={
+				large=GFX_portrait_KOR_jo_wan_gu
+				small=GFX_idea_KOR_jo_wan_gu
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = jo_wan_gu
+			allowed = {
+				original_tag = KOR
+			}
+			traits = {
+				silent_workhorse
+			}
+		}
+	}
+	KOR_kim_byung_ro={
+		name=KOR_kim_byung_ro
+		portraits={
+			civilian={
+				large=GFX_portrait_KOR_kim_byung_ro
+				small=GFX_idea_KOR_kim_byung_ro
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = kim_byung_ro
+			allowed = {
+				original_tag = KOR
+			}
+			traits = {
+				sharp_tongued_lawyer
+			}
+		}
+	}
 	KOR_kim_kyu_sik={
 		name=KOR_kim_kyu_sik
 		portraits={
@@ -147,7 +185,7 @@ characters = {
 				original_tag = KOR
 			}
 			traits = {
-				silent_workhorse
+				smooth_talking_charmer
 			}
 		}
 	}
@@ -171,27 +209,6 @@ characters = {
 	}
 	
 	### 정치고문/중점달성 ###
-	KOR_hyeon_jun_ho={
-		name=KOR_hyeon_jun_ho
-		portraits={
-			civilian={
-				small=GFX_idea_KOR_hyeon_jun_ho
-			}
-		}
-		advisor={
-			slot = political_advisor
-			idea_token = hyeon_jun_ho
-			available = {
-                has_completed_focus = KOR_bm_city0
-            }
-			allowed = {
-				original_tag = KOR
-			}
-			traits = {
-				captain_of_industry
-			}
-		}
-	}
 	KOR_cho_bong_am={
 		name=KOR_cho_bong_am
 		portraits={
@@ -210,6 +227,27 @@ characters = {
 			}
 			traits = {
 				minister_of_peasants
+			}
+		}
+	}
+	KOR_hyeon_jun_ho={
+		name=KOR_hyeon_jun_ho
+		portraits={
+			civilian={
+				small=GFX_idea_KOR_hyeon_jun_ho
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = hyeon_jun_ho
+			available = {
+                has_completed_focus = KOR_bm_city0
+            }
+			allowed = {
+				original_tag = KOR
+			}
+			traits = {
+				captain_of_industry
 			}
 		}
 	}
@@ -258,59 +296,12 @@ characters = {
 				original_tag = KOR
 			}
 			traits = {
-				smooth_talking_charmer
-			}
-		}
-	}
-	
-	### 정치고문/정보기관 ###
-	KOR_kim_koo={
-		name=KOR_kim_koo
-		portraits={
-			civilian={
-				large=GFX_portrait_KOR_kim_koo
-				small=GFX_idea_KOR_kim_koo
-			}
-		}
-		advisor={
-			slot = political_advisor
-			idea_token = kim_koo
-			available = {
-				has_intelligence_agency = yes
-			}
-			allowed = {
-				original_tag = KOR
-				has_dlc = "La Resistance" 
-			}
-			traits = {
-				head_of_intelligence
+				backroom_backstabber
 			}
 		}
 	}
 	
 	### 정치고문/민주주의 ###
-	KOR_jo_so_ang={
-		name=KOR_jo_so_ang
-		portraits={
-			civilian={
-				small=GFX_idea_KOR_jo_so_ang
-			}
-		}
-		advisor={
-			slot = political_advisor
-			idea_token = jo_so_ang
-			available = {
-				has_government = democratic
-			}
-			allowed = {
-				original_tag = KOR
-			}
-			traits = {
-				democratic_reformer
-				three_equalities
-			}
-		}
-	}
 	KOR_ahn_chang_ho={
 		name=KOR_ahn_chang_ho
 		portraits={
@@ -339,29 +330,30 @@ characters = {
 			}
 		}
 	}
-	
-	### 정치고문/공산주의 ###
-	KOR_kim_du_bong={
-		name=KOR_kim_du_bong
+	KOR_jo_so_ang={
+		name=KOR_jo_so_ang
 		portraits={
 			civilian={
-				small=GFX_idea_KOR_kim_du_bong
+				small=GFX_idea_KOR_jo_so_ang
 			}
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = kim_du_bong
+			idea_token = jo_so_ang
 			available = {
-				has_government = communism
+				has_government = democratic
 			}
 			allowed = {
 				original_tag = KOR
 			}
 			traits = {
-				leftist_intellectual
+				democratic_reformer
+				three_equalities
 			}
 		}
 	}
+	
+	### 정치고문/공산주의 ###
 	KOR_alexandra_kim={
 		name=KOR_alexandra_kim
 		portraits={
@@ -383,29 +375,29 @@ characters = {
 			}
 		}
 	}
-	
-	### 정치고문/파시스트 ###
-	KOR_gang_se_hyeong={
-		name=KOR_gang_se_hyeong
+	KOR_kim_du_bong={
+		name=KOR_kim_du_bong
 		portraits={
 			civilian={
-				small=GFX_idea_KOR_gang_se_hyeong
+				small=GFX_idea_KOR_kim_du_bong
 			}
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = gang_se_hyeong
+			idea_token = kim_du_bong
 			available = {
-				has_government = fascism
+				has_government = communism
 			}
 			allowed = {
 				original_tag = KOR
 			}
 			traits = {
-				fascist_demagogue
+				leftist_intellectual
 			}
 		}
 	}
+	
+	### 정치고문/파시스트 ###
 	KOR_ahn_ho_sang={
 		name=KOR_ahn_ho_sang
 		portraits={
@@ -424,6 +416,27 @@ characters = {
 			}
 			traits = {
 				ilminist
+			}
+		}
+	}
+	KOR_gang_se_hyeong={
+		name=KOR_gang_se_hyeong
+		portraits={
+			civilian={
+				small=GFX_idea_KOR_gang_se_hyeong
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = gang_se_hyeong
+			available = {
+				has_government = fascism
+			}
+			allowed = {
+				original_tag = KOR
+			}
+			traits = {
+				fascist_demagogue
 			}
 		}
 	}
@@ -457,6 +470,27 @@ characters = {
 	}
 	
 	### 정치고문/권위주의 ###
+	KOR_min_young_hwan={
+		name=KOR_min_young_hwan
+		portraits={
+			civilian={
+				small=GFX_idea_KOR_min_young_hwan
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = min_young_hwan
+			available = {
+				has_government = neutrality
+			}
+			allowed = {
+				original_tag = KOR
+			}
+			traits = {
+				old_figurehead
+			}
+		}
+	}
 	KOR_yi_kang={
 		name=KOR_yi_kang
 		portraits={
@@ -502,24 +536,28 @@ characters = {
 			}
 		}
 	}
-	KOR_min_young_hwan={
-		name=KOR_min_young_hwan
+	
+	### 정치고문/정보기관 ###
+	KOR_kim_koo={
+		name=KOR_kim_koo
 		portraits={
 			civilian={
-				small=GFX_idea_KOR_min_young_hwan
+				large=GFX_portrait_KOR_kim_koo
+				small=GFX_idea_KOR_kim_koo
 			}
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = min_young_hwan
+			idea_token = kim_koo
 			available = {
-				has_government = neutrality
+				has_intelligence_agency = yes
 			}
 			allowed = {
 				original_tag = KOR
+				has_dlc = "La Resistance" 
 			}
 			traits = {
-				old_figurehead
+				head_of_intelligence
 			}
 		}
 	}
@@ -635,38 +673,38 @@ characters = {
 	}
 	
 	### 육군참모총장 ###
-	KOR_shin_pal_gyun={
-		name=KOR_shin_pal_gyun
+	KOR_ahn_jung_geun={
+		name=KOR_ahn_jung_geun
 		portraits={
 			army={
-				large=GFX_portrait_KOR_shin_pal_gyun
-				small=GFX_idea_KOR_shin_pal_gyun
+				large=GFX_portrait_KOR_ahn_jung_geun
+				small=GFX_idea_KOR_ahn_jung_geun
 			}
 		}
 		advisor={
 			cost = 100
 			slot = army_chief
-			idea_token = shin_pal_gyun
-	    	allowed = {
+			idea_token = ahn_jung_geun
+		    allowed = {
 	    		original_tag = KOR
-	    	}
+		    }
 	    	traits = {
-				army_chief_organizational_2
+	    		army_chief_defensive_2
 			}
-	    	ai_will_do = {
-	    		factor = 1
-	    	}
+		    ai_will_do = {
+		    	factor = 1
+		    }
 		}
-		corps_commander={
+		field_marshal={
 			traits = {
-				trait_cautious
-				skilled_staffer
+				inflexible_strategist
+				defensive_doctrine
 			}
 			skill = 3
-			attack_skill = 3
-			defense_skill = 2
+			attack_skill = 2
+			defense_skill = 4
 			planning_skill = 3
-			logistics_skill = 2
+			logistics_skill = 3
 			legacy_id=-1
 		}
 	}
@@ -707,38 +745,38 @@ characters = {
 			legacy_id=-1
 		}
 	}
-	KOR_ahn_jung_geun={
-		name=KOR_ahn_jung_geun
+	KOR_shin_pal_gyun={
+		name=KOR_shin_pal_gyun
 		portraits={
 			army={
-				large=GFX_portrait_KOR_ahn_jung_geun
-				small=GFX_idea_KOR_ahn_jung_geun
+				large=GFX_portrait_KOR_shin_pal_gyun
+				small=GFX_idea_KOR_shin_pal_gyun
 			}
 		}
 		advisor={
 			cost = 100
 			slot = army_chief
-			idea_token = ahn_jung_geun
-		    allowed = {
+			idea_token = shin_pal_gyun
+	    	allowed = {
 	    		original_tag = KOR
-		    }
+	    	}
 	    	traits = {
-	    		army_chief_defensive_2
+				army_chief_organizational_2
 			}
-		    ai_will_do = {
-		    	factor = 1
-		    }
+	    	ai_will_do = {
+	    		factor = 1
+	    	}
 		}
-		field_marshal={
+		corps_commander={
 			traits = {
-				inflexible_strategist
-				defensive_doctrine
+				trait_cautious
+				skilled_staffer
 			}
 			skill = 3
-			attack_skill = 2
-			defense_skill = 4
+			attack_skill = 3
+			defense_skill = 2
 			planning_skill = 3
-			logistics_skill = 3
+			logistics_skill = 2
 			legacy_id=-1
 		}
 	}
@@ -865,80 +903,6 @@ characters = {
 	}
 	
 	### 최고사령부 ###
-	KOR_ji_cheong_cheon={
-		name=KOR_ji_cheong_cheon
-		portraits={
-			army={
-				large=GFX_portrait_KOR_ji_cheong_cheon
-				small=GFX_idea_KOR_ji_cheong_cheon
-			}
-		}
-		advisor={
-			cost = 100
-			slot = high_command
-			idea_token = ji_cheong_cheon
-			ledger = army
-		    allowed = {
-		    	original_tag = KOR
-		    }
-		    traits = {
-				army_regrouping_2
-			}
-		    ai_will_do = {
-		    	factor = 1
-		    }
-		}
-		corps_commander={
-			traits = {
-				career_officer
-				infantry_officer
-			}
-			skill = 3
-			attack_skill = 2
-			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 3
-			legacy_id=-1
-		}
-	}
-	KOR_kim_suk_won={
-		name=KOR_kim_suk_won
-		portraits={
-			army={
-				large=GFX_portrait_KOR_kim_suk_won
-				small=GFX_idea_KOR_kim_suk_won
-			}
-		}
-		advisor={
-			cost = 200
-			slot = high_command
-			idea_token = kim_suk_won
-			ledger = army
-		    allowed = {
-		    	original_tag = KOR
-		    }
-		    traits = {
-				army_infantry_3
-			}
-		    ai_will_do = {
-		    	factor = 1
-		    }
-		}
-		corps_commander={
-			traits = {
-				trait_reckless
-				infantry_officer
-				career_officer
-				infantry_leader
-			}
-			skill = 3
-			attack_skill = 4
-			defense_skill = 2
-			planning_skill = 2
-			logistics_skill = 2
-			legacy_id=-1
-		}
-	}
 	KOR_hong_sa_ik={
 		name=KOR_hong_sa_ik
 		portraits={
@@ -972,6 +936,42 @@ characters = {
 			attack_skill = 2
 			defense_skill = 2
 			planning_skill = 3
+			logistics_skill = 3
+			legacy_id=-1
+		}
+	}
+	KOR_ji_cheong_cheon={
+		name=KOR_ji_cheong_cheon
+		portraits={
+			army={
+				large=GFX_portrait_KOR_ji_cheong_cheon
+				small=GFX_idea_KOR_ji_cheong_cheon
+			}
+		}
+		advisor={
+			cost = 100
+			slot = high_command
+			idea_token = ji_cheong_cheon
+			ledger = army
+		    allowed = {
+		    	original_tag = KOR
+		    }
+		    traits = {
+				army_regrouping_2
+			}
+		    ai_will_do = {
+		    	factor = 1
+		    }
+		}
+		corps_commander={
+			traits = {
+				career_officer
+				infantry_officer
+			}
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 4
 			logistics_skill = 3
 			legacy_id=-1
 		}
@@ -1013,6 +1013,44 @@ characters = {
 			legacy_id=-1
 		}
 	}
+	KOR_kim_suk_won={
+		name=KOR_kim_suk_won
+		portraits={
+			army={
+				large=GFX_portrait_KOR_kim_suk_won
+				small=GFX_idea_KOR_kim_suk_won
+			}
+		}
+		advisor={
+			cost = 200
+			slot = high_command
+			idea_token = kim_suk_won
+			ledger = army
+		    allowed = {
+		    	original_tag = KOR
+		    }
+		    traits = {
+				army_infantry_3
+			}
+		    ai_will_do = {
+		    	factor = 1
+		    }
+		}
+		corps_commander={
+			traits = {
+				trait_reckless
+				infantry_officer
+				career_officer
+				infantry_leader
+			}
+			skill = 3
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
 	KOR_choi_sung_hak = {
 		name=KOR_choi_sung_hak
 		portraits={
@@ -1048,29 +1086,6 @@ characters = {
 			legacy_id=-1
 		}
 	}
-	KOR_choe_yong_duk = {
-		name=KOR_choe_yong_duk
-		portraits={
-			army={
-				small=GFX_idea_KOR_choe_yong_duk
-			}
-		}
-		advisor={
-			cost = 100
-			slot = high_command
-			idea_token = choe_yong_duk
-			ledger = air
-		    allowed = {
-		    	original_tag = KOR
-		    }
-		    traits = {
-				air_strategic_bombing_2
-			}
-		    ai_will_do = {
-		    	factor = 1
-	    	}
-		}
-	}
 	KOR_ahn_chang_nam = {
 		name=KOR_ahn_chang_nam
 		portraits={
@@ -1088,6 +1103,29 @@ characters = {
 		    }
 		    traits = {
 				air_close_air_support_2
+			}
+		    ai_will_do = {
+		    	factor = 1
+	    	}
+		}
+	}
+	KOR_choe_yong_duk = {
+		name=KOR_choe_yong_duk
+		portraits={
+			army={
+				small=GFX_idea_KOR_choe_yong_duk
+			}
+		}
+		advisor={
+			cost = 100
+			slot = high_command
+			idea_token = choe_yong_duk
+			ledger = air
+		    allowed = {
+		    	original_tag = KOR
+		    }
+		    traits = {
+				air_strategic_bombing_2
 			}
 		    ai_will_do = {
 		    	factor = 1

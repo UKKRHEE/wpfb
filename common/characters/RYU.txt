@@ -1,0 +1,319 @@
+characters={
+	### 지도자 ###
+	RYU_kamejiro_senaga={
+		name=RYU_kamejiro_senaga
+		portraits={
+			civilian={
+				large = "gfx/leaders/Asia/Portrait_Asia_Generic_communism.dds"
+			}
+		}
+		country_leader={
+			ideology=marxism
+			traits={ }
+			expire="1960.1.1.1"
+			id=-1
+		}
+	}
+	RYU_chotoku_ogimi={
+		name=RYU_chotoku_ogimi
+		portraits={
+			civilian={
+				large = "gfx/leaders/Asia/Portrait_Asia_Generic_2.dds"
+			}
+		}
+		country_leader={
+			ideology=socialism
+			traits={ }
+			expire="1960.1.1.1"
+			id=-1
+		}
+	}
+	RYU_hiroshi_sho={
+		name=RYU_hiroshi_sho
+		portraits={
+			civilian={
+				large = "gfx/leaders/JAP/Portrait_RYU_Hiroshi_Sho.png"
+			}
+		}
+		country_leader={
+			ideology=fascism_ideology
+			traits={ }
+			expire="1960.1.1.1"
+			id=-1
+		}
+		country_leader={
+			ideology=despotism
+			traits={ }
+			expire="1960.1.1.1"
+			id=-1
+		}
+	}
+	
+	### 정치고문 ###
+	RYU_ryukyu_foreign={
+		name=joint_foreign
+		portraits={
+			civilian={
+				small=GFX_idea_Joint_foreign
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = ryukyu_foreign
+			allowed = {
+				original_tag = RYU
+			}
+			traits = {
+				smooth_talking_charmer
+			}
+		}
+	}
+	RYU_ryukyu_finance={
+		name=joint_finance
+		portraits={
+			civilian={
+				small=GFX_idea_Joint_finance
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = ryukyu_finance
+			allowed = {
+				original_tag = RYU
+			}
+			traits = {
+				financial_expert
+			}
+		}
+	}
+	RYU_ryukyu_industry={
+		name=joint_industry
+		portraits={
+			civilian={
+				small=GFX_idea_Joint_industry
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = ryukyu_industry
+			allowed  = {
+				original_tag = RYU
+			}
+			traits  = {
+				captain_of_industry 
+			}
+		}
+	}
+	RYU_ryukyu_security={
+		name=joint_security
+		portraits={
+			civilian={
+				small=GFX_idea_Joint_security
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = ryukyu_security
+			available = {
+				has_intelligence_agency = yes
+			}
+			allowed = {
+				original_tag = RYU
+				has_dlc = "La Resistance" 
+			}
+			traits = {
+				head_of_intelligence
+			}
+		}
+	}
+	
+	### 이론가 ###
+	RYU_ryukyu_army_research = {
+		name=joint_army_research
+		portraits={
+			army={
+				small=GFX_idea_Joint_army_research
+			}
+		}
+		advisor={
+			cost = 100
+			slot = theorist
+			idea_token = ryukyu_army_research
+			ledger = army
+		    allowed = {
+		    	original_tag = RYU
+		    }
+		    traits = {
+				military_theorist
+			}
+		}
+	}
+	RYU_ryukyu_navy_research={
+		name=joint_navy_research
+		portraits={
+			army={
+				small=GFX_idea_Joint_navy_research
+			}
+		}
+		advisor={
+			cost = 100
+			slot = theorist
+			idea_token = ryukyu_navy_research
+			ledger = navy
+			allowed = {
+				original_tag = RYU
+			}
+			traits = {
+				naval_theorist
+			}
+		}
+	}
+	RYU_ryukyu_air_research={
+		name=joint_air_research
+		portraits={
+			army={
+				small=GFX_idea_Joint_air_research
+			}
+		}
+		advisor={
+			cost = 100
+			slot = theorist
+			idea_token = ryukyu_air_research
+			ledger = air
+			allowed = {
+				original_tag = RYU
+			}
+			traits = {
+				air_warfare_theorist
+			}
+		}
+	}
+	
+	### 육군참모총장 ###
+	RYU_ryukyu_army_department={
+		name=joint_army_department
+		portraits={
+			army={
+				small=GFX_idea_Joint_army_department
+			}
+		}
+		advisor={
+			slot = army_chief
+			idea_token = ryukyu_army_department
+	    	allowed = {
+	    		original_tag = RYU
+	    	}
+	    	traits = {
+				army_chief_reform_1
+			}
+	    	ai_will_do = {
+	    		factor = 1
+	    	}
+		}
+	}
+	
+	### 해군참모총장 ###
+	RYU_ryukyu_navy_department = {
+		name=joint_navy_department
+		portraits={
+			army={
+				small=GFX_idea_Joint_navy_department
+			}
+		}
+		advisor={
+			slot = navy_chief
+			idea_token = ryukyu_navy_department
+		    allowed = {
+		    	original_tag = RYU
+	    	}
+		    traits = {
+				navy_chief_reform_1
+			}
+		    ai_will_do = {
+		    	factor = 1
+		    }
+		}
+	}
+	
+	### 공군참모총장 ###
+	RYU_ryukyu_air_department = {
+		name=joint_air_department
+		portraits={
+			army={
+				small=GFX_idea_Joint_air_department
+			}
+		}
+		advisor={
+			slot = air_chief
+			idea_token = ryukyu_navy_department
+		    allowed = {
+		    	original_tag = RYU
+	    	}
+		    traits = {
+				air_chief_reform_1
+			}
+		    ai_will_do = {
+		    	factor = 1
+		    }
+		}
+	}
+	
+	### 최고사령부 ###
+	RYU_ryukyu_infantry = {
+		name=joint_infantry
+		portraits={
+			army={
+				small=GFX_idea_Joint_infantry
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = ryukyu_infantry
+			ledger = army
+		    allowed = {
+		    	original_tag = RYU
+		    }
+		    traits = {
+				army_infantry_1
+			}
+		}
+	}
+	RYU_ryukyu_artillery = {
+		name=joint_artillery
+		portraits={
+			army={
+				small=GFX_idea_Joint_artillery
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = ryukyu_artillery
+			ledger = army
+		    allowed = {
+		    	original_tag = RYU
+		    }
+		    traits = {
+				army_artillery_1
+			}
+		}
+	}
+	RYU_ryukyu_logistics = {
+		name=joint_logistics
+		portraits={
+			army={
+				small=GFX_idea_Joint_logistics
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = ryukyu_logistics
+			ledger = army
+		    allowed = {
+		    	original_tag = RYU
+		    }
+		    traits = {
+				army_logistics_1
+			}
+		}
+	}
+}

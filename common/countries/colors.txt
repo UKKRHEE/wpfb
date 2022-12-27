@@ -910,3 +910,7 @@ RUS = { #오얏꽃/러시아
     color = rgb { 72 143 68 }
     color_ui = rgb { 72 143 68 }
 }
+RYU = { #오얏꽃/류큐
+    color = rgb { 74 219 137 }
+    color_ui = rgb { 74 219 137 }
+}

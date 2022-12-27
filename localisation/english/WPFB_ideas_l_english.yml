@@ -50,39 +50,55 @@
  KOR_price_control:0 "물가 통제"
  
  ### 한국 지도자 ###
+ #공산주의
  KOR_yi_dong_hwi:0 "이동휘"
  KOR_pak_hon_yong:0 "박헌영"
- KOR_lyuh_woon_hyung:0 "여운형"
+ #사민주의
  KOR_ahn_chang_ho:0 "안창호"
+ KOR_lyuh_woon_hyung:0 "여운형"
+ #자유주의
  KOR_kim_kyu_sik:0 "김규식"
  linguistic_genius:0 "어학의 천재"
  KOR_syngman_rhee:0 "이승만"
+ #보수주의
  KOR_kim_koo:0 "김구"
  KOR_yi_sang_sul:0 "이상설"
  academic_genius:0 "학문학의 제일류"
+ #파시스트
  KOR_lee_beom_seok:0 "이범석"
  daemagliji:0 "대막리지"
  KOR_sin_chae_ho:0 "신채호"
  nationalist_historian:0 "민족주의 사학자"
+ #권위주의
  KOR_yi_wu:0 "이우"
  emperor_geonheung:0 "건흥제"
  
  ### 한국 정치고문 ###
- KOR_hyeon_jun_ho:0 "현준호"
- KOR_park_heung_sik:0 "박흥식"
+ #조건 없음
+ KOR_jo_wan_gu:0 "조완구"
+ KOR_kim_byung_ro:0 "김병로"
  KOR_yun_il_zung:0 "윤일중"
+ #중점 달성
+ KOR_cho_bong_am:0 "조봉암"
+ KOR_hyeon_jun_ho:0 "현준호"
+ #반공주의
+ KOR_park_heung_sik:0 "박흥식"
+ #민주주의
  KOR_jo_so_ang:0 "조소앙"
  three_equalities:0 "삼균주의 창시자"
- KOR_kim_du_bong:0 "김두봉"
+ #공산주의
  KOR_alexandra_kim:0 "김알렉산드라"
- KOR_cho_bong_am:0 "조봉암"
- KOR_gang_se_hyeong:0 "강세형"
+ KOR_kim_du_bong:0 "김두봉"
+ #파시스트
  KOR_ahn_ho_sang:0 "안호상"
  ilminist:0 "일민주의 창시자"
+ KOR_gang_se_hyeong:0 "강세형"
+ #권위주의
+ KOR_min_young_hwan:0 "민영환"
  KOR_yi_kang:0 "이강"
  shadow_emperor:0 "그림자 황제"
  KOR_yi_kyu_wan:0 "이규완"
- KOR_min_young_hwan:0 "민영환"
+ #기타
  KOR_chang_myon:0 "장면"
  KOR_ho_chong:0 "허정"
  
@@ -93,9 +109,9 @@
  KOR_do_sang_log:0 "도상록"
  
  ### 한국 육군참모총장 ###
- KOR_shin_pal_gyun:0 "신팔균"
- KOR_kim_chwa_chin:0 "김좌진"
  KOR_ahn_jung_geun:0 "안중근"
+ KOR_kim_chwa_chin:0 "김좌진"
+ KOR_shin_pal_gyun:0 "신팔균"
  
  ### 한국 해군참모총장 ###
  KOR_sin_sun_sung:0 "신순성"
@@ -104,16 +120,18 @@
  ### 한국 공군참모총장 ###
  KOR_no_baek_rin:0 "노백린"
  KOR_seo_wal_bo:0 "서왈보"
+ #기타
  KOR_han_il_mu:0 "한일무"
  
  ### 한국 최고사령부 ###
- KOR_ji_cheong_cheon:0 "지청천"
- KOR_kim_suk_won:0 "김석원"
  KOR_hong_sa_ik:0 "홍사익"
+ KOR_ji_cheong_cheon:0 "지청천"
  KOR_kim_kyung_cheon:0 "김경천"
+ KOR_kim_suk_won:0 "김석원"
  KOR_choi_sung_hak:0 "최성학"
- KOR_choe_yong_duk:0 "최용덕"
  KOR_ahn_chang_nam:0 "안창남"
+ KOR_choe_yong_duk:0 "최용덕"
+ #기타
  KOR_choe_yong_gon:0 "최용건"
  KOR_kim_chaek:0 "김책"
  KOR_kim_mu_chong:0 "김무정"
@@ -729,4 +747,13 @@
  ### 인도 제독 ###
  RAJ_kalyani_sen:0 "Kalyani Sen"
  RAJ_d_n_mukerji:0 "D. N. Mukerji"
+ 
+ #############
+ ### 류큐왕국 ###
+ #############
+ 
+ ### 류큐 지도자 ###
+ RYU_kamejiro_senaga:0 "세나가 카메지로"
+ RYU_chotoku_ogimi:0 "오기미 쵸토쿠"
+ RYU_hiroshi_sho:0 "쇼 히로시"
  
