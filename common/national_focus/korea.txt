@@ -1082,10 +1082,10 @@
 			navy_experience = 50
 		}
 	}
-	### 해군 - 신순성 ###
-	focus = { #신순성의 개혁안
-		id = KOR_navy_sin0
-		icon = GFX_focus_generic_navy_battleship2
+	### 해군 - 육주해종 폐지 ###
+	focus = { #육주해종 폐지
+		id = KOR_navy_main0
+		icon = GFX_generic_papers_2
 		cost = 5.00
 		x = -1
 		y = 1
@@ -1095,7 +1095,7 @@
 			focus = KOR_navy0
 		}
 		mutually_exclusive = {
-			focus = KOR_navy_son0
+			focus = KOR_navy_assist0
 		}
 		available = {
 			#	
@@ -1103,27 +1103,20 @@
 		
 		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
 		completion_reward = {
-			525 = {
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = dockyard
-					level = 1
-					instant_build = yes	
-				}
-			}
+			remove_ideas = KOR_army_up
 		}
 	}
 	
 	focus = { #동해의 수호자
-		id = KOR_navy_sin1
+		id = KOR_navy_main1
 		icon = GFX_KOR_east_sea
 		cost = 5.00
 		x = -1
 		y = 1
-		relative_position_id = KOR_navy_sin0
+		relative_position_id = KOR_navy_main0
 		
 		prerequisite = {
-			focus = KOR_navy_sin0
+			focus = KOR_navy_main0
 		}
 		available = {
 			#	
@@ -1132,25 +1125,31 @@
 		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
 		completion_reward = {
 			add_tech_bonus = {
-				bonus = 0.35
-				ahead_reduction = 1
+				name = KOR_navy_main1
+				bonus = 0.5
 				uses = 2
 				category = cl_tech
 				category = ca_tech
 			}
+			add_doctrine_cost_reduction = {
+				name = KOR_navy_main1
+				cost_reduction = 0.5
+				uses = 2
+				category = naval_doctrine
+			}
 		}
 	}
 	
-	focus = { #바다의 요새
-		id = KOR_navy_sin2
+	focus = { #전함 개발
+		id = KOR_navy_main2
 		icon = GFX_goal_generic_navy_battleship
 		cost = 5.00
-		x = 0
+		x = -1
 		y = 1
-		relative_position_id = KOR_navy_sin1
+		relative_position_id = KOR_navy_main1
 		
 		prerequisite = {
-			focus = KOR_navy_sin1
+			focus = KOR_navy_main1
 		}
 		available = {
 			#	
@@ -1159,28 +1158,24 @@
 		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
 		completion_reward = {
 			add_tech_bonus = {
-				bonus = 0.35
-				ahead_reduction = 1
+				name = KOR_navy_main2
+				bonus = 1
 				uses = 2
 				category = bb_tech
-				category = shbb_tech
 			}
 		}
 	}
 	
-	focus = { #충무공의 후예
-		id = KOR_navy_sin3
-		icon = GFX_KOR_yi_sun_sin
+	focus = { #항공모함 개발
+		id = KOR_navy_main3
+		icon = GFX_goal_generic_navy_carrier
 		cost = 5.00
 		x = 1
 		y = 1
-		relative_position_id = KOR_navy_sin2
+		relative_position_id = KOR_navy_main1
 		
 		prerequisite = {
-			focus = KOR_navy_sin2
-		}
-		prerequisite = {
-			focus = KOR_navy2
+			focus = KOR_navy_main1
 		}
 		available = {
 			#	
@@ -1188,54 +1183,79 @@
 		
 		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
 		completion_reward = {
-			add_timed_idea = {
-				idea = KOR_Yi_Sun_sin
-				days = 365
-			}
 			add_tech_bonus = {
-				bonus = 0.25
-				uses = 3
-				category = base_strike_main
+				name = KOR_navy_main3
+				bonus = 1
+				uses = 2
+				category = cv_tech
 			}
 		}
 	}
+	
+	focus = { #순양전함 개발
+		id = KOR_navy_main4
+		icon = GFX_focus_generic_navy_battleship2
+		cost = 5.00
+		x = 0
+		y = 1
+		relative_position_id = KOR_navy_main2
+		
+		prerequisite = {
+			focus = KOR_navy_main2
+		}
+		available = {
+			#	
+		}
+		
+		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
+		completion_reward = {
+			add_tech_bonus = {
+				name = KOR_navy_main4
+				bonus = 1
+				uses = 2
+				category = bc_tech
+			}
+		}
+	}
+	
+	focus = { #해군항공대
+		id = KOR_navy_main5
+		icon = GFX_focus_generic_multi_role_aircraft
+		cost = 5.00
+		x = 0
+		y = 1
+		relative_position_id = KOR_navy_main3
+		
+		prerequisite = {
+			focus = KOR_navy_main3
+		}
+		available = {
+			#	
+		}
+		
+		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
+		completion_reward = {
+			add_tech_bonus = {
+				name = KOR_navy_main5
+				bonus = 1
+				uses = 1
+				category = naval_air
+			}
+		}
+	}
+	
 	### 해군 - 공용 ###
-	focus = { #수송선 확보
+	focus = { #해병대 양성
 		id = KOR_navy1
-		icon = GFX_focus_generic_refit_civilian_ships
+		icon = GFX_goal_generic_amphibious_assault
 		cost = 5.00
 		x = 0
 		y = 2
 		relative_position_id = KOR_navy0
 		
 		prerequisite = {
-			focus = KOR_navy_sin0
-			focus = KOR_navy_son0
-		}
-		available = {
-			#	
-		}
-		
-		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
-		completion_reward = {
-			add_equipment_to_stockpile = {
-				type = convoy_1
-				amount = 100
-				producer = KOR
-			}
-		}
-	}
-	
-	focus = { #해병대 양성
-		id = KOR_navy2
-		icon = GFX_goal_generic_amphibious_assault
-		cost = 5.00
-		x = 0
-		y = 3
-		relative_position_id = KOR_navy0
-		
-		prerequisite = {
-			focus = KOR_navy1
+			focus = KOR_navy_assist0
+			focus = KOR_navy_main0
 		}
 		available = {
 			#	
@@ -1244,17 +1264,42 @@
 		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
 		completion_reward = {
 			add_tech_bonus = {
-				name = KOR_marine_corps
-				bonus = 1.0
-				uses = 2
-				category = marine_tech	
+				name = KOR_navy1
+				bonus = 1
+				uses = 1
+				category = marine_tech
 			}
 		}
 	}
-	### 해군 - 손원일 ###
-	focus = { #손원일의 개혁안
-		id = KOR_navy_son0
-		icon = GFX_goal_generic_wolf_pack
+	
+	focus = { #충무공의 유산
+		id = KOR_navy2
+		icon = GFX_KOR_yi_sun_sin
+		cost = 5.00
+		x = 0
+		y = 5
+		relative_position_id = KOR_navy0
+		
+		prerequisite = {
+			focus = KOR_navy_main4
+			focus = KOR_navy_main5
+			focus = KOR_navy_assist4
+			focus = KOR_navy_assist5
+		}
+		available = {
+			#	
+		}
+		
+		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
+		completion_reward = {
+			add_ideas = KOR_yi_sun_sin_legacy
+		}
+	}
+	
+	### 해군 - 육주해종 완화 ###
+	focus = { #육주해종 완화
+		id = KOR_navy_assist0
+		icon = GFX_goal_generic_forceful_treaty
 		cost = 5.00
 		x = 1
 		y = 1
@@ -1264,7 +1309,7 @@
 			focus = KOR_navy0
 		}
 		mutually_exclusive = {
-			focus = KOR_navy_sin0
+			focus = KOR_navy_main0
 		}
 		available = {
 			#	
@@ -1272,20 +1317,23 @@
 		
 		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
 		completion_reward = {
-			navy_experience = 100
+			swap_ideas = {
+				add_idea = KOR_army_up_2
+				remove_idea = KOR_army_up
+			}
 		}
 	}
 	
-	focus = { #구축함대
-		id = KOR_navy_son1
-		icon = GFX_focus_generic_destroyer
+	focus = { #해안 방어
+		id = KOR_navy_assist1
+		icon = GFX_focus_generic_coastal_fort
 		cost = 5.00
 		x = 1
 		y = 1
-		relative_position_id = KOR_navy_son0
+		relative_position_id = KOR_navy_assist0
 		
 		prerequisite = {
-			focus = KOR_navy_son0
+			focus = KOR_navy_assist0
 		}
 		available = {
 			#	
@@ -1293,20 +1341,25 @@
 		
 		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
 		completion_reward = {
-			add_stability = 0.05
+			add_doctrine_cost_reduction = {
+				name = KOR_navy_assist1
+				cost_reduction = 0.5
+				uses = 1
+				category = naval_doctrine
+			}
 		}
 	}
 	
-	focus = { #잠수함대
-		id = KOR_navy_son2
-		icon = GFX_goal_generic_navy_submarine
+	focus = { #구축함
+		id = KOR_navy_assist2
+		icon = GFX_goal_generic_navy_anti_submarine
 		cost = 5.00
-		x = 0
+		x = -1
 		y = 1
-		relative_position_id = KOR_navy_son1
+		relative_position_id = KOR_navy_assist1
 		
 		prerequisite = {
-			focus = KOR_navy_son1
+			focus = KOR_navy_assist1
 		}
 		available = {
 			#	
@@ -1315,28 +1368,24 @@
 		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
 		completion_reward = {
 			add_tech_bonus = {
-				name = ss_bonus
-				bonus = 0.35
-				ahead_reduction = 1
+				name = KOR_navy_assist2
+				bonus = 1
 				uses = 2
-				category = ss_tech
+				category = dd_tech
 			}
 		}
 	}
 	
-	focus = { #통제영학당 확장
-		id = KOR_navy_son3
-		icon = GFX_goal_generic_navy_doctrines_tactics
+	focus = { #잠수함
+		id = KOR_navy_assist3
+		icon = GFX_goal_generic_navy_submarine
 		cost = 5.00
-		x = -1
+		x = 1
 		y = 1
-		relative_position_id = KOR_navy_son2
+		relative_position_id = KOR_navy_assist1
 		
 		prerequisite = {
-			focus = KOR_navy_son2
-		}
-		prerequisite = {
-			focus = KOR_navy2
+			focus = KOR_navy_assist1
 		}
 		available = {
 			#	
@@ -1344,7 +1393,64 @@
 		
 		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
 		completion_reward = {
-			add_stability = 0.05
+			add_tech_bonus = {
+				name = KOR_navy_assist3
+				bonus = 1
+				uses = 2
+				category = ss_tech
+			}
+		}
+	}
+	
+	focus = { #중순양함
+		id = KOR_navy_assist4
+		icon = GFX_focus_generic_cruiser2
+		cost = 5.00
+		x = 0
+		y = 1
+		relative_position_id = KOR_navy_assist2
+		
+		prerequisite = {
+			focus = KOR_navy_assist2
+		}
+		available = {
+			#	
+		}
+		
+		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
+		completion_reward = {
+			add_tech_bonus = {
+				name = KOR_navy_assist4
+				bonus = 1
+				uses = 2
+				category = ca_tech
+			}
+		}
+	}
+	
+	focus = { #경순양함
+		id = KOR_navy_assist5
+		icon = GFX_focus_generic_destroyer
+		cost = 5.00
+		x = 0
+		y = 1
+		relative_position_id = KOR_navy_assist3
+		
+		prerequisite = {
+			focus = KOR_navy_assist3
+		}
+		available = {
+			#	
+		}
+		
+		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
+		completion_reward = {
+			add_tech_bonus = {
+				name = KOR_navy_assist5
+				bonus = 1
+				uses = 2
+				category = cl_tech
+			}
 		}
 	}
 	

@@ -21,4 +21,8 @@ spriteTypes = {
 		name = "GFX_idea_KOR_command_formation_school"
 		texturefile = "gfx/interface/ideas/KOR/idea_KOR_command_formation_school.png"
 	}
+	spriteType = {
+		name = "GFX_idea_KOR_yi_sun_sin_legacy"
+		texturefile = "gfx/interface/ideas/KOR/idea_KOR_yi_sun_sin_legacy.png"
+	}
 }

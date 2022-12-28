@@ -97,6 +97,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/generic_papers.png"
 	}
 	SpriteType = {
+		name = "GFX_generic_papers_2"
+		texturefile = "gfx/interface/goals/generic_papers_2.png"
+	}
+	SpriteType = {
 		name = "GFX_generic_purge_officer"
 		texturefile = "gfx/interface/goals/generic_purge_officer.png"
 	}

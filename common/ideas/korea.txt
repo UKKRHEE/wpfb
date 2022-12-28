@@ -44,6 +44,30 @@ ideas = {
 				production_speed_dockyard_factor = -0.2
 			}
 		}
+		KOR_army_up_2 = {
+			name = KOR_army_up
+			
+			picture = jap_interservice_rivalry_army_strengthened
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no			
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				industrial_capacity_factory = 0.1
+				industrial_capacity_dockyard = -0.1
+				land_doctrine_cost_factor = -0.1
+				naval_doctrine_cost_factor = 0.1
+				production_speed_arms_factory_factor = 0.1
+				production_speed_dockyard_factor = -0.1
+			}
+		}
 		KOR_land_problem = {
 
 			allowed = {
@@ -421,6 +445,24 @@ ideas = {
 				experience_gain_army_unit_factor = 0.10
 				experience_gain_factor = 0.10
 				land_doctrine_cost_factor = -0.1
+			}
+		}
+		KOR_yi_sun_sin_legacy = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				naval_doctrine_cost_factor = -0.1
+				convoy_escort_efficiency = 0.1
+				convoy_raiding_efficiency_factor = 0.1
 			}
 		}
 	}
