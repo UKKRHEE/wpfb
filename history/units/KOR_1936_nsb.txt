@@ -27,7 +27,7 @@ division_template = {
 
 division_template = {
 	name = "보병사단"
-	division_names_group = KOR_INF_01
+	division_names_group = KOR_INF_02
 	
 	regiments = {
 		infantry = { x = 0 y = 0 }
@@ -65,7 +65,7 @@ division_template = {
 
 division_template = {
 	name = "방위사단"
-	division_names_group = "KOR_INF_01"
+	division_names_group = "KOR_INF_03"
 	# Garrison Division
 	regiments = {
 		infantry = { x = 0 y = 0 }
@@ -82,7 +82,7 @@ division_template = {
 
 division_template = {
 	name = "기동사단"
-	division_names_group = "KOR_INF_01"
+	division_names_group = "KOR_MOT_01"
 	# Garrison Division
 	regiments = {
 		motorized = { x = 0 y = 0 }
@@ -107,7 +107,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 6981
+		location = 7125
 		division_template = "근위사단"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
@@ -360,7 +360,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 7125
+		location = 6981
 		division_template = "기병사단"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.6
@@ -492,9 +492,9 @@ units = {
 			name_order = 1
 		}
 		location = 7171
-		division_template = "방위사단"
-		start_experience_factor = 0.15
-		start_equipment_factor = 0.75
+		division_template = "근위사단"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
 	}
 	division = {
 		division_name = {

@@ -1,38 +1,51 @@
-﻿# Division template historical names system. Is a new method of naming the divisions based on the names-group assigned to it's template.
-# If we run out of all historical names, the names will be assigned in the old way.
-#
-# Each group has a made up tag. Use it if you want to append more, or replace existing names with the extra txt files (modding).
-#
-# for_countries - lists all countries that can use it. If empty, or entire tag is missing, all countries in the world can use it.
-#
-# can_use - is a trigger that locks/unlocks the group under specific circumstances. The trigger is in a country scope.
-#
-# division_types - is a list of tokens to corresponding unit types. A player can in fact use any group of names for a div.template
-#                  however this tag is a helper for an automated choice (for AI, or if the group must switch on it's own, because
-#                  for example the current one is no longer available due to the can_use trigger saying so).
-#                  In automated choice, the division template must have at least 1 of the following types for it to be chosen.
-#
-# fallback_name - Is going to be used if we run out of the scripted historical names. If you want to use the old division naming
-#                 mechanics to be used for fallbacks, then just skip this option.
-#
-# unordered - It's a list of historical division names that did not have a number. Regardless if such names happened in history or not
-#             this option is available here mainly for a mods.
-#
-# ordered - Is a list of all historical names. 
-#           Numbers must start from 1 and up. 
-#           Numbers can't repeat in one scope.
-#           If you script the name for this group, at the same number (for example in a mod in another file), the name will be override.
-#           All arguments between the brackets must be separated by spaces. Each argument is wrapped in "quotas".
-#           1st argument = The name. It must contain either: 
-#                          %d (for decimal number placement)
-#                          %s (for string number placement - ROMAN numbers like XIV).
-#           2nd argument is optional = A localizable text describing this historical division. The text will be visible in the tooltip
-#                                      where you choose the historical division name.
-#           3rd argument is optional = An URL preferably pointing to the WIKI. It's a future feature that is not currently working in
-#                                      the current game version.
+﻿KOR_INF_01 = 
+{
+	name = "근위사단"
 
+	for_countries = { KOR }
 
-KOR_INF_01 = 
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { KOR_GAR_01 }
+
+	fallback_name = "근위제%d사단"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "근위제%d사단 '보황'" }
+		2 = { "근위제%d사단 '충용'" }
+		3 = { "근위제%d사단 '결전'" }
+		4 = { "근위제%d사단 '명운'" }
+		5 = { "근위제%d사단 '경덕'" }
+		6 = { "근위제%d사단 '융희'" }
+		7 = { "근위제%d사단 '광무'" }
+		8 = { "근위제%d사단 '영락'" }
+		9 = { "근위제%d사단 '진군'" }
+		10 = { "근위제%d사단 '황성'" }
+		11 = { "근위제%d사단 '제국'" }
+		12 = { "근위제%d사단 '대한'" }
+		13 = { "근위제%d사단 '만세'" }
+		14 = { "근위제%d사단 '영원'" }
+		15 = { "근위제%d사단 '불변'" }
+		16 = { "근위제%d사단 '강토'" }
+		17 = { "근위제%d사단 '화영'" }
+		18 = { "근위제%d사단 '패도'" }
+		19 = { "근위제%d사단 '호국'" }
+		20 = { "근위제%d사단 '장경'" }
+		21 = { "근위제%d사단 '천명'" }
+		22 = { "근위제%d사단" }
+		23 = { "근위제%d사단" }
+		24 = { "근위제%d사단" }
+		25 = { "근위제%d사단" }
+	}
+}
+
+KOR_INF_02 = 
 {
 	name = "보병사단"
 
@@ -153,131 +166,10 @@ KOR_INF_01 =
 		100 = { "제%d보병사단" }
 	}
 }
-KOR_INF_02 = 
-{
-	name = "시위사단"
-
-	for_countries = { KOR }
-
-	can_use = { always = yes }
-
-	division_types = { "infantry" }
-
-	# Number reservation system will tie to another group.
-	#link_numbering_with = { KOR_GAR_01 }
-
-	fallback_name = "제%d시위사단"
-
-	# Names with numbers (only one number per entry). 
-	# It's okay to have gaps in numbering.
-	ordered =
-	{
-		1 = { "제%d시위사단 '보황'" }
-		2 = { "제%d시위사단 '충용'" }
-		3 = { "제%d시위사단 '결전'" }
-		4 = { "제%d시위사단 '명운'" }
-		5 = { "제%d시위사단 '경덕'" }
-		6 = { "제%d시위사단 '융희'" }
-		7 = { "제%d시위사단 '광무'" }
-		8 = { "제%d시위사단 '영락'" }
-		9 = { "제%d시위사단 '진군'" }
-		10 = { "제%d시위사단 '황성'" }
-		11 = { "제%d시위사단 '제국'" }
-		12 = { "제%d시위사단 '대한'" }
-		13 = { "제%d시위사단 '만세'" }
-		14 = { "제%d시위사단 '영원'" }
-		15 = { "제%d시위사단 '불변'" }
-		16 = { "제%d시위사단 '강토'" }
-		17 = { "제%d시위사단 '화영'" }
-		18 = { "제%d시위사단 '패도'" }
-		19 = { "제%d시위사단 '호국'" }
-		20 = { "제%d시위사단 '장경'" }
-		21 = { "제%d시위사단 '천명'" }
-		22 = { "제%d시위사단" }
-		23 = { "제%d시위사단" }
-		24 = { "제%d시위사단" }
-		25 = { "제%d시위사단" }
-		26 = { "제%d시위사단" }
-		27 = { "제%d시위사단" }
-		28 = { "제%d시위사단" }
-		29 = { "제%d시위사단" }
-		30 = { "제%d시위사단" }
-		31 = { "제%d시위사단" }
-		32 = { "제%d시위사단" }
-		33 = { "제%d시위사단" }
-		34 = { "제%d시위사단" }
-		35 = { "제%d시위사단" }
-		36 = { "제%d시위사단" }
-		37 = { "제%d시위사단" }
-		38 = { "제%d시위사단" }
-		39 = { "제%d시위사단" }
-		40 = { "제%d시위사단" }
-		41 = { "제%d시위사단" }
-		42 = { "제%d시위사단" }
-		43 = { "제%d시위사단" }
-		44 = { "제%d시위사단" }
-		45 = { "제%d시위사단" }
-		46 = { "제%d시위사단" }
-		47 = { "제%d시위사단" }
-		48 = { "제%d시위사단" }
-		49 = { "제%d시위사단" }
-		50 = { "제%d시위사단" }
-		51 = { "제%d시위사단" }
-		52 = { "제%d시위사단" }
-		53 = { "제%d시위사단" }
-		54 = { "제%d시위사단" }
-		55 = { "제%d시위사단" }
-		56 = { "제%d시위사단" }
-		57 = { "제%d시위사단" }
-		58 = { "제%d시위사단" }
-		59 = { "제%d시위사단" }
-		60 = { "제%d시위사단" }
-		61 = { "제%d시위사단" }
-		62 = { "제%d시위사단" }
-		63 = { "제%d시위사단" }
-		64 = { "제%d시위사단" }
-		65 = { "제%d시위사단" }
-		66 = { "제%d시위사단" }
-		67 = { "제%d시위사단" }
-		68 = { "제%d시위사단" }
-		69 = { "제%d시위사단" }
-		70 = { "제%d시위사단" }
-		71 = { "제%d시위사단" }
-		72 = { "제%d시위사단" }
-		73 = { "제%d시위사단" }
-		74 = { "제%d시위사단" }
-		75 = { "제%d시위사단" }
-		76 = { "제%d시위사단" }
-		77 = { "제%d시위사단" }
-		78 = { "제%d시위사단" }
-		79 = { "제%d시위사단" }
-		80 = { "제%d시위사단" }
-		81 = { "제%d시위사단" }
-		82 = { "제%d시위사단" }
-		83 = { "제%d시위사단" }
-		84 = { "제%d시위사단" }
-		85 = { "제%d시위사단" }
-		86 = { "제%d시위사단" }
-		87 = { "제%d시위사단" }
-		88 = { "제%d시위사단" }
-		89 = { "제%d시위사단" }
-		90 = { "제%d시위사단" }
-		91 = { "제%d시위사단" }
-		92 = { "제%d시위사단" }
-		93 = { "제%d시위사단" }
-		94 = { "제%d시위사단" }
-	    95 = { "제%d시위사단" }
-		96 = { "제%d시위사단" }
-		97 = { "제%d시위사단" }
-		98 = { "제%d시위사단" }
-		99 = { "제%d시위사단" }
-		100 = { "제%d시위사단" }
-	}
-}
 
 KOR_INF_03 = 
 {
-	name = "전투경찰"
+	name = "방위사단"
 
 	for_countries = { KOR }
 
@@ -288,113 +180,37 @@ KOR_INF_03 =
 	# Number reservation system will tie to another group.
 	#link_numbering_with = { KOR_GAR_01 }
 
-	fallback_name = "제%d전투경찰대"
+	fallback_name = "제%d방위사단"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "제%d전투경찰대 '애국'" }
-		2 = { "제%d전투경찰대 '국민'" }
-		3 = { "제%d전투경찰대 '보국'" }
-		4 = { "제%d전투경찰대 '안민'" }
-		5 = { "제%d전투경찰대 '민주'" }
-		6 = { "제%d전투경찰대 '시위'" }
-		7 = { "제%d전투경찰대 '무장'" }
-		8 = { "제%d전투경찰대 '방호'" }
-		9 = { "제%d전투경찰대 '충정'" }
-		10 = { "제%d전투경찰대 '대한'" }
-		11 = { "제%d전투경찰대 '국가'" }
-		12 = { "제%d전투경찰대 '전위'" }
-		13 = { "제%d전투경찰대 '승리'" }
-		14 = { "제%d전투경찰대 '만세'" }
-		15 = { "제%d전투경찰대 '순검'" }
-		16 = { "제%d전투경찰대 '방패'" }
-		17 = { "제%d전투경찰대 '영화'" }
-		18 = { "제%d전투경찰대 '왕도'" }
-		19 = { "제%d전투경찰대 '호국'" }
-		20 = { "제%d전투경찰대 '치국'" }
-		21 = { "제%d전투경찰대 '평천하'" }
-		22 = { "제%d전투경찰대" }
-		23 = { "제%d전투경찰대" }
-		24 = { "제%d전투경찰대" }
-		25 = { "제%d전투경찰대" }
-		26 = { "제%d전투경찰대" }
-		27 = { "제%d전투경찰대" }
-		28 = { "제%d전투경찰대" }
-		29 = { "제%d전투경찰대" }
-		30 = { "제%d전투경찰대" }
-		31 = { "제%d전투경찰대" }
-		32 = { "제%d전투경찰대" }
-		33 = { "제%d전투경찰대" }
-		34 = { "제%d전투경찰대" }
-		35 = { "제%d전투경찰대" }
-		36 = { "제%d전투경찰대" }
-		37 = { "제%d전투경찰대" }
-		38 = { "제%d전투경찰대" }
-		39 = { "제%d전투경찰대" }
-		40 = { "제%d전투경찰대" }
-		41 = { "제%d전투경찰대" }
-		42 = { "제%d전투경찰대" }
-		43 = { "제%d전투경찰대" }
-		44 = { "제%d전투경찰대" }
-		45 = { "제%d전투경찰대" }
-		46 = { "제%d전투경찰대" }
-		47 = { "제%d전투경찰대" }
-		48 = { "제%d전투경찰대" }
-		49 = { "제%d전투경찰대" }
-		50 = { "제%d전투경찰대" }
-		51 = { "제%d전투경찰대" }
-		52 = { "제%d전투경찰대" }
-		53 = { "제%d전투경찰대" }
-		54 = { "제%d전투경찰대" }
-		55 = { "제%d전투경찰대" }
-		56 = { "제%d전투경찰대" }
-		57 = { "제%d전투경찰대" }
-		58 = { "제%d전투경찰대" }
-		59 = { "제%d전투경찰대" }
-		60 = { "제%d전투경찰대" }
-		61 = { "제%d전투경찰대" }
-		62 = { "제%d전투경찰대" }
-		63 = { "제%d전투경찰대" }
-		64 = { "제%d전투경찰대" }
-		65 = { "제%d전투경찰대" }
-		66 = { "제%d전투경찰대" }
-		67 = { "제%d전투경찰대" }
-		68 = { "제%d전투경찰대" }
-		69 = { "제%d전투경찰대" }
-		70 = { "제%d전투경찰대" }
-		71 = { "제%d전투경찰대" }
-		72 = { "제%d전투경찰대" }
-		73 = { "제%d전투경찰대" }
-		74 = { "제%d전투경찰대" }
-		75 = { "제%d전투경찰대" }
-		76 = { "제%d전투경찰대" }
-		77 = { "제%d전투경찰대" }
-		78 = { "제%d전투경찰대" }
-		79 = { "제%d전투경찰대" }
-		80 = { "제%d전투경찰대" }
-		81 = { "제%d전투경찰대" }
-		82 = { "제%d전투경찰대" }
-		83 = { "제%d전투경찰대" }
-		84 = { "제%d전투경찰대" }
-		85 = { "제%d전투경찰대" }
-		86 = { "제%d전투경찰대" }
-		87 = { "제%d전투경찰대" }
-		88 = { "제%d전투경찰대" }
-		89 = { "제%d전투경찰대" }
-		90 = { "제%d전투경찰대" }
-		91 = { "제%d전투경찰대" }
-		92 = { "제%d전투경찰대" }
-		93 = { "제%d전투경찰대" }
-		94 = { "제%d전투경찰대" }
-	    95 = { "제%d전투경찰대" }
-		96 = { "제%d전투경찰대" }
-		97 = { "제%d전투경찰대" }
-		98 = { "제%d전투경찰대" }
-		99 = { "제%d전투경찰대" }
-		100 = { "제%d전투경찰대" }
-		112 = { "제112전투경찰타격대" }
+		1 = { "제%d방위사단 '애국'" }
+		2 = { "제%d방위사단 '국민'" }
+		3 = { "제%d방위사단 '보국'" }
+		4 = { "제%d방위사단 '안민'" }
+		5 = { "제%d방위사단 '민주'" }
+		6 = { "제%d방위사단 '시위'" }
+		7 = { "제%d방위사단 '무장'" }
+		8 = { "제%d방위사단 '방호'" }
+		9 = { "제%d방위사단 '충정'" }
+		10 = { "제%d방위사단 '대한'" }
+		11 = { "제%d방위사단 '국가'" }
+		12 = { "제%d방위사단 '전위'" }
+		13 = { "제%d방위사단 '승리'" }
+		14 = { "제%d방위사단 '만세'" }
+		15 = { "제%d방위사단 '순검'" }
+		16 = { "제%d방위사단 '방패'" }
+		17 = { "제%d방위사단 '영화'" }
+		18 = { "제%d방위사단 '왕도'" }
+		19 = { "제%d방위사단 '호국'" }
+		20 = { "제%d방위사단 '치국'" }
+		21 = { "제%d방위사단 '평천하'" }
+		22 = { "제%d방위사단" }
+		23 = { "제%d방위사단" }
+		24 = { "제%d방위사단" }
+		25 = { "제%d방위사단" }
 	}
 }
 
@@ -543,32 +359,6 @@ KOR_MOT_01 =
 		148 = { "제%d기동사단" }
 		149 = { "제%d기동사단" }
 		150 = { "제%d기동사단" }
-		151 = { "제%d기동사단" }
-		152 = { "제%d기동사단" }
-		153 = { "제%d기동사단" }
-		154 = { "제%d기동사단" }
-		155 = { "제%d기동사단" }
-		156 = { "제%d기동사단" }
-		157 = { "제%d기동사단" }
-		158 = { "제%d기동사단" }
-		159 = { "제%d기동사단" }
-		160 = { "제%d기동사단" }
-		161 = { "제%d기동사단" }
-		162 = { "제%d기동사단" }
-		163 = { "제%d기동사단" }
-		164 = { "제%d기동사단" }
-		165 = { "제%d기동사단" }
-		166 = { "제%d기동사단" }
-		167 = { "제%d기동사단" }
-		168 = { "제%d기동사단" }
-		169 = { "제%d기동사단" }
-		170 = { "제%d기동사단" }
-		171 = { "제%d기동사단" }
-		172 = { "제%d기동사단" }
-		173 = { "제%d기동사단" }
-		174 = { "제%d기동사단" }
-		175 = { "제%d기동사단" }
-		176 = { "제%d기동사단" }
 	}
 }
 
@@ -601,20 +391,6 @@ KOR_ARM_01 =
 		8 = { "제%d기갑사단" }
 		9 = { "제%d기갑사단" }
 		10 = { "제%d기갑사단" }
-		11 = { "제%d기갑사단" }
-		12 = { "제%d기갑사단" }
-		13 = { "제%d기갑사단" }
-		14 = { "제%d기갑사단" }
-		15 = { "제%d기갑사단" }
-		16 = { "제%d기갑사단" }
-		17 = { "제%d기갑사단" }
-		18 = { "제%d기갑사단" }
-		19 = { "제%d기갑사단" }
-		20 = { "제%d기갑사단" }
-		21 = { "제%d기갑사단" }
-		22 = { "제%d기갑사단" }
-		23 = { "제%d기갑사단" }
-
 	}
 }
 
@@ -709,7 +485,7 @@ KOR_PAR_01 =
 		2 = { "제%d공수사단 '비호'" }
 		3 = { "제%d공수사단 '천마'" }
 		4 = { "제%d공수사단 '귀성'" }
-		5 = { "제%d공수사단 '황금 박쥐'" }
+		5 = { "제%d공수사단 '황금박쥐'" }
 		6 = { "제%d공수사단 '흑범'" }
 		7 = { "제%d공수사단" }
 		8 = { "제%d공수사단" }

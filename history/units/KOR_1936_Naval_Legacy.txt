@@ -1,10 +1,10 @@
 ﻿
 units = {
 	fleet = {
-		name = "대한제국 황립 제 1 함대"			
+		name = "대한제국 이화함대"			
 		naval_base = 4056
 		task_force = {
-			name = "제 1 해상 전투기동전단"
+			name = "동해전투전단"
 			location = 4056
         	ship = { name = "이순신" definition = battleship equipment = { battleship_1 = { amount = 1 owner = KOR  } } }
 			ship = { name = "장보고" definition = battleship equipment = { battleship_1 = { amount = 1 owner = KOR  } } }
@@ -38,8 +38,8 @@ units = {
 			ship = { name = "제주" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KOR  } } }
 		}	
 		task_force = {
-			name = "제 1 잠수전단"
-			location = 1177
+			name = "동해잠수전단"
+			location = 4056
 			ship = { name = "잠-01" definition = submarine equipment = { submarine_1 = { amount = 1 owner = KOR  } } }
 			ship = { name = "잠-02" definition = submarine equipment = { submarine_1 = { amount = 1 owner = KOR  } } }
 			ship = { name = "잠-03" definition = submarine equipment = { submarine_1 = { amount = 1 owner = KOR  } } }

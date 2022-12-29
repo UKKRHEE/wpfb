@@ -1,9 +1,9 @@
 ﻿units = {
 	fleet = {
-		name = "대한제국 황립 제 1 함대"			
+		name = "대한제국 이화함대"			
 		naval_base = 4056
 		task_force = {
-			name = "제 1 해상 전투기동전단"
+			name = "동해전투전단"
 			location = 4056
         	ship = { name = "이순신" definition = battle_cruiser equipment = { ship_hull_heavy_1 = { amount = 1 owner = KOR version_name = "금강급" } } }
 			ship = { name = "이종무" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = KOR version_name = "낙동급" } } }
@@ -16,10 +16,20 @@
 			ship = { name = "함남" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = KOR version_name = "태풍급" } } }
 			ship = { name = "함북" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = KOR version_name = "태풍급" } } }
 			ship = { name = "황해" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = KOR version_name = "태풍급" } } }
-		}	
+		}
 		task_force = {
-			name = "제 2 해상 전투기동전단"
+			name = "동해잠수전단"
 			location = 4056
+			ship = { name = "잠-01" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = KOR version_name = "부여급" } } }
+			ship = { name = "잠-02" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = KOR version_name = "부여급" } } }
+			ship = { name = "잠-03" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = KOR version_name = "부여급" } } }
+			ship = { name = "잠-04" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = KOR version_name = "부여급" } } }
+			ship = { name = "잠-05" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = KOR version_name = "부여급" } } }
+			
+		}		
+		task_force = {
+			name = "황해전투전단"
+			location = 7221
 			ship = { name = "장보고" definition = battle_cruiser equipment = { ship_hull_heavy_1 = { amount = 1 owner = KOR version_name = "금강급" } } }
 			ship = { name = "문무왕" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = KOR version_name = "낙동급" } } }
 			ship = { name = "송익필" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = KOR version_name = "청천급" } } }
@@ -33,8 +43,8 @@
 			
 		}	
 		task_force = {
-			name = "제 3 해상 전투기동전단"
-			location = 4056
+			name = "남해전투전단"
+			location = 1177
 			ship = { name = "나대용" definition = battle_cruiser equipment = { ship_hull_heavy_1 = { amount = 1 owner = KOR version_name = "금강급" } } }
 			ship = { name = "김굉필" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = KOR version_name = "낙동급" } } }
 			ship = { name = "이언적" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = KOR version_name = "청천급" } } }
@@ -46,17 +56,7 @@
 			ship = { name = "제주" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = KOR version_name = "태풍급" } } }
 		}	
 		task_force = {
-			name = "제 1 잠수전단"
-			location = 1177
-			ship = { name = "잠-01" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = KOR version_name = "부여급" } } }
-			ship = { name = "잠-02" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = KOR version_name = "부여급" } } }
-			ship = { name = "잠-03" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = KOR version_name = "부여급" } } }
-			ship = { name = "잠-04" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = KOR version_name = "부여급" } } }
-			ship = { name = "잠-05" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = KOR version_name = "부여급" } } }
-			
-		}
-		task_force = {
-			name = "제 2 잠수전단"
+			name = "남해잠수전단"
 			location = 1177
 			ship = { name = "잠-06" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = KOR version_name = "부여급" } } }
 			ship = { name = "잠-07" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = KOR version_name = "부여급" } } }
