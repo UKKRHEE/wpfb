@@ -396,14 +396,14 @@ units = {
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 	}
-	#후방사단
+	#방위사단
 	division = {
 		division_name = {
 			is_name_ordered = yes
 			name_order = 1
 		}
 		location = 1100
-		division_template = "후방사단"
+		division_template = "방위사단"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 	}
@@ -413,7 +413,7 @@ units = {
 			name_order = 1
 		}
 		location = 13263
-		division_template = "후방사단"
+		division_template = "방위사단"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 	}
@@ -423,7 +423,7 @@ units = {
 			name_order = 1
 		}
 		location = 7175
-		division_template = "후방사단"
+		division_template = "방위사단"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 	}
@@ -433,7 +433,7 @@ units = {
 			name_order = 1
 		}
 		location = 10085
-		division_template = "후방사단"
+		division_template = "방위사단"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 	}
@@ -443,7 +443,7 @@ units = {
 			name_order = 1
 		}
 		location = 4056
-		division_template = "후방사단"
+		division_template = "방위사단"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 	}
@@ -453,7 +453,7 @@ units = {
 			name_order = 1
 		}
 		location = 12011
-		division_template = "후방사단"
+		division_template = "방위사단"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 	}
@@ -463,7 +463,7 @@ units = {
 			name_order = 1
 		}
 		location = 7021
-		division_template = "후방사단"
+		division_template = "방위사단"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 	}
@@ -473,7 +473,7 @@ units = {
 			name_order = 1
 		}
 		location = 1148
-		division_template = "후방사단"
+		division_template = "방위사단"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 	}
@@ -483,7 +483,7 @@ units = {
 			name_order = 1
 		}
 		location = 13271
-		division_template = "후방사단"
+		division_template = "방위사단"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 	}
@@ -493,7 +493,7 @@ units = {
 			name_order = 1
 		}
 		location = 7171
-		division_template = "후방사단"
+		division_template = "방위사단"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 	}
@@ -503,7 +503,7 @@ units = {
 			name_order = 1
 		}
 		location = 13268
-		division_template = "후방사단"
+		division_template = "방위사단"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 	}
@@ -513,7 +513,7 @@ units = {
 			name_order = 1
 		}
 		location = 6928
-		division_template = "후방사단"
+		division_template = "방위사단"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 	}
@@ -523,7 +523,7 @@ units = {
 			name_order = 1
 		}
 		location = 10036
-		division_template = "후방사단"
+		division_template = "방위사단"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 	}
@@ -533,7 +533,7 @@ units = {
 			name_order = 1
 		}
 		location = 13265
-		division_template = "후방사단"
+		division_template = "방위사단"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 	}
@@ -543,7 +543,7 @@ units = {
 			name_order = 1
 		}
 		location = 1177
-		division_template = "후방사단"
+		division_template = "방위사단"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 	}
@@ -553,7 +553,7 @@ units = {
 			name_order = 1
 		}
 		location = 11992
-		division_template = "후방사단"
+		division_template = "방위사단"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 	}
