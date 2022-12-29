@@ -1,0 +1,85 @@
+﻿
+units = {
+	fleet = {
+		name = "대한제국 황립 제 1 함대"			
+		naval_base = 4056
+		task_force = {
+			name = "제 1 해상 전투기동전단"
+			location = 4056
+        	ship = { name = "이순신" definition = battleship equipment = { battleship_1 = { amount = 1 owner = KOR  } } }
+			ship = { name = "장보고" definition = battleship equipment = { battleship_1 = { amount = 1 owner = KOR  } } }
+			ship = { name = "나대용" definition = battleship equipment = { battleship_1 = { amount = 1 owner = KOR  } } }
+			ship = { name = "이종무" definition = heavy_cruiser equipment = { heavy_cruiser = { amount = 1 owner = KOR  } } }
+			ship = { name = "이억기" definition = heavy_cruiser equipment = { heavy_cruiser = { amount = 1 owner = KOR  } } }
+			ship = { name = "문무왕" definition = heavy_cruiser equipment = { heavy_cruiser = { amount = 1 owner = KOR  } } }
+			ship = { name = "김굉필" definition = heavy_cruiser equipment = { heavy_cruiser = { amount = 1 owner = KOR  } } }
+			ship = { name = "김안국" definition = light_cruiser equipment = { light_cruiser = { amount = 1 owner = KOR  } } }
+			ship = { name = "서경덕" definition = light_cruiser equipment = { light_cruiser = { amount = 1 owner = KOR  } } }
+			ship = { name = "송익필" definition = light_cruiser equipment = { light_cruiser = { amount = 1 owner = KOR  } } }
+			ship = { name = "김숙자" definition = light_cruiser equipment = { light_cruiser = { amount = 1 owner = KOR  } } }
+			ship = { name = "이언적" definition = light_cruiser equipment = { light_cruiser = { amount = 1 owner = KOR  } } }
+			ship = { name = "김장생" definition = light_cruiser equipment = { light_cruiser = { amount = 1 owner = KOR  } } }
+			ship = { name = "경기" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KOR  } } }
+			ship = { name = "평남" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KOR  } } }
+			ship = { name = "평북" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KOR  } } }
+			ship = { name = "함남" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KOR  } } }
+			ship = { name = "함북" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KOR  } } }
+			ship = { name = "황해" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KOR  } } }
+			ship = { name = "충남" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KOR  } } }
+			ship = { name = "충북" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KOR  } } }
+			ship = { name = "강원" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KOR  } } }
+			ship = { name = "경남" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KOR  } } }
+			ship = { name = "경북" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KOR  } } }
+			ship = { name = "전남" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KOR  } } }
+			ship = { name = "전북" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KOR  } } }
+			ship = { name = "심요" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KOR  } } }
+			ship = { name = "통백" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KOR  } } }
+			ship = { name = "용강" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KOR  } } }
+			ship = { name = "제주" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = KOR  } } }
+		}	
+		task_force = {
+			name = "제 1 잠수전단"
+			location = 1177
+			ship = { name = "잠-01" definition = submarine equipment = { submarine_1 = { amount = 1 owner = KOR  } } }
+			ship = { name = "잠-02" definition = submarine equipment = { submarine_1 = { amount = 1 owner = KOR  } } }
+			ship = { name = "잠-03" definition = submarine equipment = { submarine_1 = { amount = 1 owner = KOR  } } }
+			ship = { name = "잠-04" definition = submarine equipment = { submarine_1 = { amount = 1 owner = KOR  } } }
+			ship = { name = "잠-05" definition = submarine equipment = { submarine_1 = { amount = 1 owner = KOR  } } }
+			ship = { name = "잠-06" definition = submarine equipment = { submarine_1 = { amount = 1 owner = KOR  } } }
+			ship = { name = "잠-07" definition = submarine equipment = { submarine_1 = { amount = 1 owner = KOR  } } }
+			ship = { name = "잠-08" definition = submarine equipment = { submarine_1 = { amount = 1 owner = KOR  } } }
+			ship = { name = "잠-09" definition = submarine equipment = { submarine_1 = { amount = 1 owner = KOR  } } }
+			ship = { name = "잠-10" definition = submarine equipment = { submarine_1 = { amount = 1 owner = KOR  } } }
+		}
+	}
+}
+### 시작 조선소 제작품
+instant_effect = {
+	add_equipment_production = { 		
+		equipment = {
+			type = light_cruiser_2
+			creator = "KOR" 
+		}
+		requested_factories = 1
+		progress = 0.33
+		amount = 1
+	}
+	add_equipment_production = { 		
+		equipment = {
+			type = destroyer_2
+			creator = "KOR" 
+		}
+		requested_factories = 1
+		progress = 0.33
+		amount = 1
+	}
+	add_equipment_production = { 		
+		equipment = {
+			type = submarine_2
+			creator = "KOR" 
+		}
+		requested_factories = 1
+		progress = 0.33
+		amount = 1
+	}
+}

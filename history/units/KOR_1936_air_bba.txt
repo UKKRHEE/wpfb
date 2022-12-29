@@ -1,0 +1,46 @@
+﻿
+
+
+
+
+#AIRCRAFT
+air_wings = {
+	525 = {
+		small_plane_airframe_0 = {
+			owner = "KOR" 
+			amount = 150
+			version_name = "참수리"
+		}
+		small_plane_cas_airframe_0 = {
+			owner = "KOR" 
+			amount = 75
+			version_name = "귀조"
+		}
+		medium_plane_airframe_0 = {
+			owner = "KOR" 
+			amount = 50
+			version_name = "천지"
+		}
+	}
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+instant_effect = 
+{
+	
+
+	add_equipment_production = {
+		equipment = {
+			type = small_plane_airframe_0
+			creator = "KOR" 
+			version_name = "참수리"
+		}
+		requested_factories = 1
+		progress = 0.15
+		efficiency = 50
+	}
+
+}
