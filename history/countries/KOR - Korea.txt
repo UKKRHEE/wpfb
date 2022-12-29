@@ -121,6 +121,36 @@ set_popularities = {
 	communism = 4
 	neutrality = 35
 }
+set_technology = {
+	### 보병 ###
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	motorised_infantry = 1
+	marines  = 1
+	
+	### 기갑 ###
+	
+	### 지원 ###
+	tech_support = 1		
+	tech_recon = 1
+	tech_engineers = 1
+	
+	### 포병 ###
+	gw_artillery = 1
+	interwar_antiair = 1
+	
+	### 공군 ###
+	
+	### 육군 교리 ###
+	superior_firepower = 1
+	
+	### 산업/공학 ###
+	fuel_silos = 1
+	synth_oil_experiments = 1
+	fuel_refining = 1
+	
+	basic_train = 1
+}
 
 #설계
 

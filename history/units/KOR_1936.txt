@@ -97,7 +97,6 @@ division_template = {
 	}
 	support = {
 	}
-    priority = 0
 }
 
 units = {
@@ -110,7 +109,7 @@ units = {
 		}
 		location = 6981
 		division_template = "근위사단"
-		start_experience_factor = 1.0
+		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
 	}
 	#보병사단
@@ -121,7 +120,7 @@ units = {
 		}
 		location = 836
 		division_template = "보병사단"
-		start_experience_factor = 1.0
+		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
 	}
 	division = {
@@ -131,7 +130,7 @@ units = {
 		}
 		location = 945
 		division_template = "보병사단"
-		start_experience_factor = 1.0
+		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
 	}
 	division = {
@@ -141,7 +140,7 @@ units = {
 		}
 		location = 3913
 		division_template = "보병사단"
-		start_experience_factor = 1.0
+		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
 	}
 	division = {
@@ -151,7 +150,7 @@ units = {
 		}
 		location = 944
 		division_template = "보병사단"
-		start_experience_factor = 1.0
+		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
 	}
 	division = {
@@ -161,7 +160,7 @@ units = {
 		}
 		location = 11906
 		division_template = "보병사단"
-		start_experience_factor = 1.0
+		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
 	}
 	division = {
@@ -171,7 +170,7 @@ units = {
 		}
 		location = 9928
 		division_template = "보병사단"
-		start_experience_factor = 1.0
+		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
 	}
 	division = {
@@ -181,7 +180,7 @@ units = {
 		}
 		location = 9803
 		division_template = "보병사단"
-		start_experience_factor = 1.0
+		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
 	}
 	division = {
@@ -191,7 +190,7 @@ units = {
 		}
 		location = 945
 		division_template = "보병사단"
-		start_experience_factor = 1.0
+		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
 	}
 	division = {
@@ -201,7 +200,7 @@ units = {
 		}
 		location = 11775
 		division_template = "보병사단"
-		start_experience_factor = 1.0
+		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
 	}
 	division = {
@@ -211,7 +210,7 @@ units = {
 		}
 		location = 11835
 		division_template = "보병사단"
-		start_experience_factor = 1.0
+		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
 	}
 	division = {
@@ -221,7 +220,7 @@ units = {
 		}
 		location = 9854
 		division_template = "보병사단"
-		start_experience_factor = 1.0
+		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
 	}
 	division = {
@@ -231,8 +230,8 @@ units = {
 		}
 		location = 3981
 		division_template = "보병사단"
-		start_experience_factor = 1.0
-		start_equipment_factor = 1.0
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.85
 	}
 	division = {
 		division_name = {
@@ -241,7 +240,7 @@ units = {
 		}
 		location = 848
 		division_template = "보병사단"
-		start_experience_factor = 1.0
+		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
 	}
 	division = {
@@ -251,8 +250,8 @@ units = {
 		}
 		location = 852
 		division_template = "보병사단"
-		start_experience_factor = 1.0
-		start_equipment_factor = 1.0
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
 	}
 	division = {
 		division_name = {
@@ -261,8 +260,8 @@ units = {
 		}
 		location = 6822
 		division_template = "보병사단"
-		start_experience_factor = 1.0
-		start_equipment_factor = 1.0
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.85
 	}
 	division = {
 		division_name = {
@@ -271,8 +270,8 @@ units = {
 		}
 		location = 6944
 		division_template = "보병사단"
-		start_experience_factor = 1.0
-		start_equipment_factor = 1.0
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.75
 	}
 	division = {
 		division_name = {
@@ -281,8 +280,8 @@ units = {
 		}
 		location = 912
 		division_template = "보병사단"
-		start_experience_factor = 1.0
-		start_equipment_factor = 1.0
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
 	}
 	#기동사단
 	division = {
@@ -292,8 +291,8 @@ units = {
 		}
 		location = 7221
 		division_template = "기동사단"
-		start_experience_factor = 1.0
-		start_equipment_factor = 1.0
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.86
 	}
 	division = {
 		division_name = {
@@ -302,8 +301,8 @@ units = {
 		}
 		location = 12040
 		division_template = "기동사단"
-		start_experience_factor = 1.0
-		start_equipment_factor = 1.0
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.93
 	}
 	division = {
 		division_name = {
@@ -312,8 +311,8 @@ units = {
 		}
 		location = 4056
 		division_template = "기동사단"
-		start_experience_factor = 1.0
-		start_equipment_factor = 1.0
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.93
 	}
 	#기병사단
 	division = {
@@ -323,8 +322,8 @@ units = {
 		}
 		location = 4126
 		division_template = "기병사단"
-		start_experience_factor = 1.0
-		start_equipment_factor = 1.0
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
 	}
 	division = {
 		division_name = {
@@ -333,8 +332,8 @@ units = {
 		}
 		location = 13265
 		division_template = "기병사단"
-		start_experience_factor = 1.0
-		start_equipment_factor = 1.0
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.6
 	}
 	division = {
 		division_name = {
@@ -343,8 +342,8 @@ units = {
 		}
 		location = 12040
 		division_template = "기병사단"
-		start_experience_factor = 1.0
-		start_equipment_factor = 1.0
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
 	}
 	division = {
 		division_name = {
@@ -353,8 +352,8 @@ units = {
 		}
 		location = 9936
 		division_template = "기병사단"
-		start_experience_factor = 1.0
-		start_equipment_factor = 1.0
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
 	}
 	division = {
 		division_name = {
@@ -363,8 +362,8 @@ units = {
 		}
 		location = 7125
 		division_template = "기병사단"
-		start_experience_factor = 1.0
-		start_equipment_factor = 1.0
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.6
 	}
 	division = {
 		division_name = {
@@ -373,8 +372,8 @@ units = {
 		}
 		location = 11915
 		division_template = "기병사단"
-		start_experience_factor = 1.0
-		start_equipment_factor = 1.0
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
 	}
 	division = {
 		division_name = {
@@ -383,8 +382,8 @@ units = {
 		}
 		location = 12085
 		division_template = "기병사단"
-		start_experience_factor = 1.0
-		start_equipment_factor = 1.0
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
 	}
 	division = {
 		division_name = {
@@ -393,8 +392,8 @@ units = {
 		}
 		location = 4052
 		division_template = "기병사단"
-		start_experience_factor = 1.0
-		start_equipment_factor = 1.0
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.6
 	}
 	#방위사단
 	division = {
@@ -404,8 +403,8 @@ units = {
 		}
 		location = 1100
 		division_template = "방위사단"
-		start_experience_factor = 1.0
-		start_equipment_factor = 1.0
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.75
 	}
 	division = {
 		division_name = {
@@ -414,8 +413,8 @@ units = {
 		}
 		location = 13263
 		division_template = "방위사단"
-		start_experience_factor = 1.0
-		start_equipment_factor = 1.0
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.75
 	}
 	division = {
 		division_name = {
@@ -424,8 +423,8 @@ units = {
 		}
 		location = 7175
 		division_template = "방위사단"
-		start_experience_factor = 1.0
-		start_equipment_factor = 1.0
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.75
 	}
 	division = {
 		division_name = {
@@ -434,8 +433,8 @@ units = {
 		}
 		location = 10085
 		division_template = "방위사단"
-		start_experience_factor = 1.0
-		start_equipment_factor = 1.0
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.75
 	}
 	division = {
 		division_name = {
@@ -444,8 +443,8 @@ units = {
 		}
 		location = 4056
 		division_template = "방위사단"
-		start_experience_factor = 1.0
-		start_equipment_factor = 1.0
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.75
 	}
 	division = {
 		division_name = {
@@ -454,8 +453,8 @@ units = {
 		}
 		location = 12011
 		division_template = "방위사단"
-		start_experience_factor = 1.0
-		start_equipment_factor = 1.0
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.75
 	}
 	division = {
 		division_name = {
@@ -464,8 +463,8 @@ units = {
 		}
 		location = 7021
 		division_template = "방위사단"
-		start_experience_factor = 1.0
-		start_equipment_factor = 1.0
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.75
 	}
 	division = {
 		division_name = {
@@ -474,8 +473,8 @@ units = {
 		}
 		location = 1148
 		division_template = "방위사단"
-		start_experience_factor = 1.0
-		start_equipment_factor = 1.0
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.75
 	}
 	division = {
 		division_name = {
@@ -484,8 +483,8 @@ units = {
 		}
 		location = 13271
 		division_template = "방위사단"
-		start_experience_factor = 1.0
-		start_equipment_factor = 1.0
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.75
 	}
 	division = {
 		division_name = {
@@ -494,8 +493,8 @@ units = {
 		}
 		location = 7171
 		division_template = "방위사단"
-		start_experience_factor = 1.0
-		start_equipment_factor = 1.0
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.75
 	}
 	division = {
 		division_name = {
@@ -504,8 +503,8 @@ units = {
 		}
 		location = 13268
 		division_template = "방위사단"
-		start_experience_factor = 1.0
-		start_equipment_factor = 1.0
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.75
 	}
 	division = {
 		division_name = {
@@ -514,8 +513,8 @@ units = {
 		}
 		location = 6928
 		division_template = "방위사단"
-		start_experience_factor = 1.0
-		start_equipment_factor = 1.0
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.75
 	}
 	division = {
 		division_name = {
@@ -524,8 +523,8 @@ units = {
 		}
 		location = 10036
 		division_template = "방위사단"
-		start_experience_factor = 1.0
-		start_equipment_factor = 1.0
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.75
 	}
 	division = {
 		division_name = {
@@ -534,8 +533,8 @@ units = {
 		}
 		location = 13265
 		division_template = "방위사단"
-		start_experience_factor = 1.0
-		start_equipment_factor = 1.0
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.75
 	}
 	division = {
 		division_name = {
@@ -544,8 +543,8 @@ units = {
 		}
 		location = 1177
 		division_template = "방위사단"
-		start_experience_factor = 1.0
-		start_equipment_factor = 1.0
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.75
 	}
 	division = {
 		division_name = {
@@ -554,8 +553,8 @@ units = {
 		}
 		location = 11992
 		division_template = "방위사단"
-		start_experience_factor = 1.0
-		start_equipment_factor = 1.0
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.75
 	}
 }
 
