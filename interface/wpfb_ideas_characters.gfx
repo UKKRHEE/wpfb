@@ -185,6 +185,14 @@ spriteTypes = {
 		name = "GFX_idea_KOR_ho_chong"
 		texturefile = "gfx/interface/ideas/KOR/idea_KOR_ho_chong.png"
 	}
+	spriteType = {
+		name = "GFX_idea_KOR_chang_taek_sang"
+		texturefile = "gfx/interface/ideas/KOR/idea_KOR_chang_taek_sang.png"
+	}
+	spriteType = {
+		name = "GFX_idea_KOR_park_il_wu"
+		texturefile = "gfx/interface/ideas/KOR/idea_KOR_park_il_wu.png"
+	}
 	
 	### 한국 이론가 ###
 	spriteType = {
@@ -293,6 +301,14 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_KOR_kim_suk_won2"
 		texturefile = "gfx/interface/ideas/KOR/idea_KOR_kim_suk_won2.png"
+	}
+	spriteType = {
+		name = "GFX_idea_KOR_yu_dong_yeol"
+		texturefile = "gfx/interface/ideas/KOR/idea_KOR_yu_dong_yeol.png"
+	}
+	spriteType = {
+		name = "GFX_idea_KOR_yu_dong_yeol2"
+		texturefile = "gfx/interface/ideas/KOR/idea_KOR_yu_dong_yeol2.png"
 	}
 	spriteType = {
 		name = "GFX_idea_KOR_choi_sung_hak"

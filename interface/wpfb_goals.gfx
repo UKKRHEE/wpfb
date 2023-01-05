@@ -189,6 +189,26 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/generic_agriculture_soldiers.png"
 	}
 	SpriteType = {
+		name = "GFX_generic_air_airports"
+		texturefile = "gfx/interface/goals/generic_air_airports.png"
+	}
+	SpriteType = {
+		name = "GFX_generic_air_CAS"
+		texturefile = "gfx/interface/goals/generic_air_CAS.png"
+	}
+	SpriteType = {
+		name = "GFX_generic_air_heavy_fighter"
+		texturefile = "gfx/interface/goals/generic_air_heavy_fighter.png"
+	}
+	SpriteType = {
+		name = "GFX_generic_air_strategic_bomber"
+		texturefile = "gfx/interface/goals/generic_air_strategic_bomber.png"
+	}
+	SpriteType = {
+		name = "GFX_generic_bombing"
+		texturefile = "gfx/interface/goals/generic_bombing.png"
+	}
+	SpriteType = {
 		name = "GFX_generic_royal_edicts"
 		texturefile = "gfx/interface/goals/generic_royal_edicts.png"
 	}

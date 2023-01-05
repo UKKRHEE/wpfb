@@ -1,7 +1,7 @@
 ﻿#편제
 division_template = {
 	name = "근위사단"
-	division_names_group = KOR_INF_01
+	division_names_group = KOR_INF_03
 	
 	regiments = {
 		infantry = { x = 0 y = 0 }
@@ -27,7 +27,7 @@ division_template = {
 
 division_template = {
 	name = "보병사단"
-	division_names_group = KOR_INF_02
+	division_names_group = KOR_INF_01
 	
 	regiments = {
 		infantry = { x = 0 y = 0 }
@@ -65,7 +65,7 @@ division_template = {
 
 division_template = {
 	name = "방위사단"
-	division_names_group = "KOR_INF_03"
+	division_names_group = "KOR_INF_02"
 	# Garrison Division
 	regiments = {
 		infantry = { x = 0 y = 0 }

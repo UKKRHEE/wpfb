@@ -80,6 +80,10 @@ spriteTypes = {
 		texturefile = "gfx/leaders/KOR/Portrait_KOR_Yu_Dong_yeol.png"
 	}
 	spriteType = {
+		name = "GFX_portrait_KOR_yu_dong_yeol2"
+		texturefile = "gfx/leaders/KOR/Portrait_KOR_Yu_Dong_yeol2.png"
+	}
+	spriteType = {
 		name = "GFX_portrait_KOR_shin_pal_gyun"
 		texturefile = "gfx/leaders/KOR/Portrait_KOR_Shin_Pal_gyun.png"
 	}
@@ -132,12 +136,20 @@ spriteTypes = {
 		texturefile = "gfx/leaders/KOR/Portrait_KOR_Lee_Eung_jun.png"
 	}
 	spriteType = {
+		name = "GFX_portrait_KOR_lee_eung_jun2"
+		texturefile = "gfx/leaders/KOR/Portrait_KOR_Lee_Eung_jun2.png"
+	}
+	spriteType = {
 		name = "GFX_portrait_KOR_oh_dong_jin"
 		texturefile = "gfx/leaders/KOR/Portrait_KOR_Oh_Dong_jin.png"
 	}
 	spriteType = {
 		name = "GFX_portrait_KOR_hwang_byeong_gil"
 		texturefile = "gfx/leaders/KOR/Portrait_KOR_Hwang_Byeong_gil.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_KOR_kim_hak_kyu"
+		texturefile = "gfx/leaders/KOR/Portrait_KOR_Kim_Hak_kyu.png"
 	}
 	
 	spriteType = {

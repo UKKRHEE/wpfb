@@ -51,8 +51,8 @@ spriteTypes = {
 	
 	### 전차 ###
 	spriteType = {
-		name = "GFX_idea_qishuyan_locomotive_works"
-		texturefile = "gfx/interface/companies/China/qishuyan_locomotive_works.png"
+		name = "GFX_idea_wusong_locomotive_works"
+		texturefile = "gfx/interface/companies/China/wusong_locomotive_works.png"
 	}	
 	spriteType = {
 		name = "GFX_idea_hip_tung_wo_machinery_factory"

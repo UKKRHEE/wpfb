@@ -1,7 +1,6 @@
 leader_traits = {
 
 	resolute_social_democrat_kor = {
-		name = resolute_social_democrat
 		random = no
 		
 		stability_factor = 0.05
@@ -14,7 +13,6 @@ leader_traits = {
 		}
 	}
 	social_reformer_kor = {
-		name = social_reformer
 		random = no
 		
 		stability_factor = 0.15

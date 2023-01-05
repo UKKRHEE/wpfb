@@ -56,11 +56,14 @@
  KOR_pak_hon_yong:0 "박헌영"
  #사민주의
  KOR_ahn_chang_ho:0 "안창호"
+ social_reformer_kor:0 "사회개혁가"
  KOR_lyuh_woon_hyung:0 "여운형"
+ resolute_social_democrat_kor:0 "확고한 사민주의자"
  #자유주의
  KOR_kim_kyu_sik:0 "김규식"
  linguistic_genius:0 "어학의 천재"
  KOR_syngman_rhee:0 "이승만"
+ backroom_backstabber_kor:0 "밀실 모략가"
  #보수주의
  KOR_kim_koo:0 "김구"
  KOR_yi_sang_sul:0 "이상설"
@@ -102,6 +105,8 @@
  #기타
  KOR_chang_myon:0 "장면"
  KOR_ho_chong:0 "허정"
+ KOR_chang_taek_sang:0 "장택상"
+ KOR_park_il_wu:0 "박일우"
  
  ### 한국 이론가 ###
  KOR_kim_hong_il:0 "김홍일"
@@ -117,12 +122,14 @@
  ### 한국 해군참모총장 ###
  KOR_sin_sun_sung:0 "신순성"
  KOR_yi_kyu_gap:0 "이규갑"
+ #기타
+ KOR_han_il_mu:0 "한일무"
  
  ### 한국 공군참모총장 ###
  KOR_no_baek_rin:0 "노백린"
  KOR_seo_wal_bo:0 "서왈보"
  #기타
- KOR_han_il_mu:0 "한일무"
+ KOR_wang_ryeon:0 "왕련"
  
  ### 한국 최고사령부 ###
  KOR_hong_sa_ik:0 "홍사익"
@@ -147,6 +154,7 @@
  KOR_hwang_byeong_gil:0 "황병길"
  KOR_song_ho_seong:0 "송호성"
  KOR_lee_eung_jun:0 "이응준"
+ KOR_kim_hak_kyu:0 "김학규"
  
  ### 한국 해군 제독 ###
  KOR_sohn_won_yil:0 "손원일"

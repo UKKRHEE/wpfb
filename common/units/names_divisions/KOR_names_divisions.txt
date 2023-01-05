@@ -1,52 +1,5 @@
 ﻿KOR_INF_01 = 
 {
-	name = "근위사단"
-
-	for_countries = { KOR }
-
-	can_use = { always = yes }
-
-	division_types = { "infantry" }
-
-	# Number reservation system will tie to another group.
-	#link_numbering_with = { KOR_GAR_01 }
-
-	fallback_name = "근위제%d사단"
-
-	# Names with numbers (only one number per entry). 
-	# It's okay to have gaps in numbering.
-	ordered =
-	{
-		1 = { "근위제%d사단 '보황'" }
-		2 = { "근위제%d사단 '충용'" }
-		3 = { "근위제%d사단 '결전'" }
-		4 = { "근위제%d사단 '명운'" }
-		5 = { "근위제%d사단 '경덕'" }
-		6 = { "근위제%d사단 '융희'" }
-		7 = { "근위제%d사단 '광무'" }
-		8 = { "근위제%d사단 '영락'" }
-		9 = { "근위제%d사단 '진군'" }
-		10 = { "근위제%d사단 '황성'" }
-		11 = { "근위제%d사단 '제국'" }
-		12 = { "근위제%d사단 '대한'" }
-		13 = { "근위제%d사단 '만세'" }
-		14 = { "근위제%d사단 '영원'" }
-		15 = { "근위제%d사단 '불변'" }
-		16 = { "근위제%d사단 '강토'" }
-		17 = { "근위제%d사단 '화영'" }
-		18 = { "근위제%d사단 '패도'" }
-		19 = { "근위제%d사단 '호국'" }
-		20 = { "근위제%d사단 '장경'" }
-		21 = { "근위제%d사단 '천명'" }
-		22 = { "근위제%d사단" }
-		23 = { "근위제%d사단" }
-		24 = { "근위제%d사단" }
-		25 = { "근위제%d사단" }
-	}
-}
-
-KOR_INF_02 = 
-{
 	name = "보병사단"
 
 	for_countries = { KOR }
@@ -167,7 +120,7 @@ KOR_INF_02 =
 	}
 }
 
-KOR_INF_03 = 
+KOR_INF_02 = 
 {
 	name = "방위사단"
 
@@ -211,6 +164,53 @@ KOR_INF_03 =
 		23 = { "제%d방위사단" }
 		24 = { "제%d방위사단" }
 		25 = { "제%d방위사단" }
+	}
+}
+
+KOR_INF_03 = 
+{
+	name = "근위사단"
+
+	for_countries = { KOR }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { KOR_GAR_01 }
+
+	fallback_name = "근위제%d사단"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "근위제%d사단 '보황'" }
+		2 = { "근위제%d사단 '충용'" }
+		3 = { "근위제%d사단 '결전'" }
+		4 = { "근위제%d사단 '명운'" }
+		5 = { "근위제%d사단 '경덕'" }
+		6 = { "근위제%d사단 '융희'" }
+		7 = { "근위제%d사단 '광무'" }
+		8 = { "근위제%d사단 '영락'" }
+		9 = { "근위제%d사단 '진군'" }
+		10 = { "근위제%d사단 '황성'" }
+		11 = { "근위제%d사단 '제국'" }
+		12 = { "근위제%d사단 '대한'" }
+		13 = { "근위제%d사단 '만세'" }
+		14 = { "근위제%d사단 '영원'" }
+		15 = { "근위제%d사단 '불변'" }
+		16 = { "근위제%d사단 '강토'" }
+		17 = { "근위제%d사단 '화영'" }
+		18 = { "근위제%d사단 '패도'" }
+		19 = { "근위제%d사단 '호국'" }
+		20 = { "근위제%d사단 '장경'" }
+		21 = { "근위제%d사단 '천명'" }
+		22 = { "근위제%d사단" }
+		23 = { "근위제%d사단" }
+		24 = { "근위제%d사단" }
+		25 = { "근위제%d사단" }
 	}
 }
 

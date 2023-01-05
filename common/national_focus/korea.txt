@@ -9,11 +9,16 @@
 		}
 	}
 	
+	continuous_focus_position = { x = 55 y = 1600 }
+	
 	default = no
 	reset_on_civilwar = no
 	
-	### 대공황 ###
+	##############
+	### 공황중점 ####
+	##############
 	
+	### 대공황 - 시작 ###
 	focus = { #대공황 속 한국
 		id = KOR_bm0
 		icon = GFX_generic_great_depression
@@ -24,12 +29,15 @@
 		available = {
 			#
 		}
+		search_filters = { 
+			FOCUS_FILTER_POLITICAL
+		}
 		
-		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
 		completion_reward = {
 			add_political_power = 100
 		}
 	}
+	
 	### 대공황 - 농촌 ###
 	focus = { #농촌 지원
 		id = KOR_bm_rural0
@@ -48,14 +56,15 @@
 		available = {
 			#	
 		}
+		search_filters = { 
+			FOCUS_FILTER_INTERNAL_AFFAIRS
+		}
 		
-		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
 		completion_reward = {
 			custom_effect_tooltip = available_political_advisor
 			show_ideas_tooltip = cho_bong_am
 		}
 	}
-	
 	focus = { #토지조사사업
 		id = KOR_bm_rural1
 		icon = GFX_generic_land_reform
@@ -70,8 +79,10 @@
 		available = {
 			#	
 		}
+		search_filters = { 
+			FOCUS_FILTER_INTERNAL_AFFAIRS
+		}
 		
-		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
 		completion_reward = {
 			swap_ideas = {
 				add_idea = KOR_great_depression_cho
@@ -79,7 +90,6 @@
 			}
 		}
 	}
-	
 	focus = { #소작농을 자영농으로
 		id = KOR_bm_rural2
 		icon = GFX_generic_agrarian_reform
@@ -94,14 +104,16 @@
 		available = {
 			#	
 		}
+		search_filters = { 
+			FOCUS_FILTER_POLITICAL
+			FOCUS_FILTER_STABILITY
+		}
 		
-		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
 		completion_reward = {
 			add_stability = 0.15
 			add_political_power = -100
 		}
 	}
-	
 	focus = { #방곡령 현대화
 		id = KOR_bm_rural3
 		icon = GFX_generic_rice_field
@@ -116,8 +128,10 @@
 		available = {
 			#	
 		}
+		search_filters = { 
+			FOCUS_FILTER_STABILITY
+		}
 		
-		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
 		completion_reward = {
 			add_stability = 0.05
 			if = {
@@ -128,7 +142,6 @@
 			}
 		}
 	}
-	
 	focus = { #보릿고개를 막아라
 		id = KOR_bm_rural4
 		icon = GFX_generic_not_drought
@@ -149,8 +162,10 @@
 				has_completed_focus = KOR_bm_treasury2
 			}	
 		}
+		search_filters = { 
+			FOCUS_FILTER_INTERNAL_AFFAIRS
+		}
 		
-		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
 		completion_reward = {
 			swap_ideas = {
 				add_idea = KOR_great_depression_2
@@ -158,6 +173,7 @@
 			}	
 		}
 	}
+	
 	### 대공황 - 국고 ###
 	focus = { #국고의 상황
 		id = KOR_bm_treasury0
@@ -173,13 +189,14 @@
 		available = {
 			#	
 		}
+		search_filters = { 
+			FOCUS_FILTER_POLITICAL
+		}
 		
-		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
 		completion_reward = {
 			add_political_power = -50
 		}
 	}
-	
 	focus = { #불필요한 예산 삭감
 		id = KOR_bm_treasury1
 		icon = GFX_goal_generic_forceful_treaty
@@ -197,8 +214,10 @@
 		available = {
 			#	
 		}
+		search_filters = { 
+			FOCUS_FILTER_POLITICAL
+		}
 		
-		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
 		completion_reward = {
 			add_political_power = -150
 			add_timed_idea = {
@@ -207,7 +226,6 @@
 			}
 		}
 	}
-	
 	focus = { #추가적인 세금
 		id = KOR_bm_treasury2
 		icon = GFX_generic_seize_money
@@ -225,8 +243,10 @@
 		available = {
 			#	
 		}
+		search_filters = { 
+			FOCUS_FILTER_STABILITY
+		}
 		
-		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
 		completion_reward = {
 			add_stability = -0.15
 			add_timed_idea = {
@@ -235,6 +255,7 @@
 			}
 		}
 	}
+	
 	### 대공황 - 도시 ###
 	focus = { #도시 지원
 		id = KOR_bm_city0
@@ -247,20 +268,21 @@
 		prerequisite = {
 			focus = KOR_bm0
 		}
-		#mutually_exclusive = {
-		#	focus = #
-		#}
+		mutually_exclusive = {
+			focus = KOR_bm_rural0
+		}
 		available = {
 			#	
 		}
+		search_filters = { 
+			FOCUS_FILTER_INTERNAL_AFFAIRS
+		}
 		
-		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
 		completion_reward = {
 			custom_effect_tooltip = available_political_advisor
 			show_ideas_tooltip = hyeon_jun_ho
 		}
 	}
-	
 	focus = { #실업자 구제
 		id = KOR_bm_city1
 		icon = GFX_goal_generic_consumer_goods
@@ -275,8 +297,10 @@
 		available = {
 			#	
 		}
+		search_filters = { 
+			FOCUS_FILTER_INTERNAL_AFFAIRS
+		}
 		
-		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
 		completion_reward = {
 			swap_ideas = {
 				add_idea = KOR_great_depression_hyeon
@@ -284,7 +308,6 @@
 			}
 		}
 	}
-	
 	focus = { #기기국 강화
 		id = KOR_bm_city2
 		icon = GFX_focus_focus_fra_maquis
@@ -299,8 +322,11 @@
 		available = {
 			#	
 		}
+		search_filters = { 
+			FOCUS_FILTER_POLITICAL
+			FOCUS_FILTER_INDUSTRY
+		}
 		
-		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
 		completion_reward = {
 			add_political_power = -200
 			525 = {
@@ -318,7 +344,6 @@
 			}
 		}
 	}
-	
 	focus = { #물가 통제
 		id = KOR_bm_city3
 		icon = GFX_focus_mex_privatisation
@@ -333,8 +358,10 @@
 		available = {
 			#	
 		}
+		search_filters = {
+			FOCUS_FILTER_INTERNAL_AFFAIRS
+		}
 		
-		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
 		completion_reward = {
 			add_timed_idea = {
 				idea = KOR_price_control
@@ -342,7 +369,6 @@
 			}
 		}
 	}
-	
 	focus = { #한국은행 지원
 		id = KOR_bm_city4
 		icon = GFX_KOR_bank_of_korea_goal
@@ -363,8 +389,10 @@
 				has_completed_focus = KOR_bm_treasury2
 			}
 		}
+		search_filters = {
+			FOCUS_FILTER_INTERNAL_AFFAIRS
+		}
 		
-		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
 		completion_reward = {
 			custom_effect_tooltip = KOR_tt_bank_of_korea_focus
 			swap_ideas = {
@@ -373,6 +401,7 @@
 			}
 		}
 	}
+	
 	### 대공황 - 끝 ###
 	focus = { #대공황에서의 회복
 		id = KOR_bm1
@@ -382,13 +411,17 @@
 		y = 5
 		relative_position_id = KOR_bm0
 		
-		prerequisite = { focus = KOR_bm_rural4 focus = KOR_bm_city4 }
-		
+		prerequisite = {
+			focus = KOR_bm_rural4
+			focus = KOR_bm_city4
+		}
 		available = {
 			#
 		}
+		search_filters = {
+			FOCUS_FILTER_INTERNAL_AFFAIRS	
+		}
 		
-		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
 		completion_reward = {
 			remove_ideas = KOR_great_depression_2
 			if = {
@@ -412,25 +445,609 @@
 		}
 	}
 	
+	#############
+	### 경제중점 ###
+	#############
+	
+	### 경제 - 시작 ###
+	focus = { #경제 개발 5개년 계획
+		id = KOR_industrial_effort
+		icon = GFX_goal_generic_production
+		cost = 10.00
+		x = 0
+		y = 1
+		relative_position_id = KOR_bm1
+		
+		prerequisite = {
+			focus = KOR_bm1
+		}
+		available_if_capitulated = yes
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		
+		completion_reward = {
+			add_tech_bonus = {
+				name = industrial_bonus
+				bonus = 0.5
+				uses = 2
+				category = industry
+			}
+		}
+	}
+	
+	### 경제 - 민간 ###
+	focus = { #민간산업 육성
+		id = KOR_f_factory
+		icon = GFX_goal_generic_construction
+		cost = 5.00
+		x = -3
+		y = 1
+		relative_position_id = KOR_industrial_effort
+		
+		prerequisite = {
+			focus = KOR_industrial_effort
+		}
+		available_if_capitulated = yes
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		
+		completion_reward = {
+			525 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes	
+				}
+			}
+			527 = {
+				add_extra_state_shared_building_slots = 1
+			}
+			927 = {
+				add_extra_state_shared_building_slots = 1
+			}
+		}
+	}
+	focus = { #한반도 변방 도시화
+		id = KOR_construction_effort
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 5.00
+		x = -1
+		y = 1
+		relative_position_id = KOR_f_factory
+		
+		prerequisite = {
+			focus = KOR_f_factory
+		}
+		available_if_capitulated = yes
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		
+		completion_reward = {
+			913 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes	
+				}
+			}
+			919 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes	
+				}
+			}
+		}
+	}
+	focus = { #만주 변방 도시화
+		id = KOR_construction_effort_2
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 5.00
+		x = 0
+		y = 1
+		relative_position_id = KOR_construction_effort
+		
+		prerequisite = {
+			focus = KOR_construction_effort
+		}
+		available_if_capitulated = yes
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		
+		completion_reward = {
+			922 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes	
+				}
+			}
+			925 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes	
+				}
+			}
+		}
+	}
+	focus = { #경부고속도로
+		id = KOR_gyeongbu_line
+		icon = GFX_focus_generic_truck
+		cost = 5.00
+		x = 1
+		y = 1
+		relative_position_id = KOR_f_factory
+		
+		prerequisite = {
+			focus = KOR_f_factory
+		}
+		available_if_capitulated = yes
+		search_filters = {
+			#
+		}
+		
+		completion_reward = {	
+			525 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			909 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			921 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			911 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = { #한반도-만주 철도
+		id = KOR_infrastructure_effort_2
+		icon = GFX_focus_generic_railroad
+		cost = 5.00
+		x = 0
+		y = 1
+		relative_position_id = KOR_gyeongbu_line
+		
+		prerequisite = {
+			focus = KOR_gyeongbu_line
+		}
+		available_if_capitulated = yes
+		search_filters = {
+			#
+		}
+		
+		completion_reward = {
+			add_tech_bonus = {
+				name = KOR_infrastructure_effort_2
+				ahead_reduction = 1.5
+				bonus = 0.5
+				uses = 1
+				category = train_tech
+			}
+			build_railway = {
+				path = { 7125 13259 12040 13269 11915 10065 7171 }
+			}
+			build_railway = {
+				path = { 7171 4052 9790 912 11835 }
+			}
+			build_railway = {
+				path = { 11835 6981 3970 836 }
+			}
+			build_railway = {
+				path = { 11835 6860 9848 945 926 9803 }
+			}
+		}
+	}
+	focus = { #태평성대
+		id = KOR_f_factory_2
+		icon = GFX_focus_generic_industry_3
+		cost = 5.00
+		x = 0
+		y = 3
+		relative_position_id = KOR_f_factory
+		
+		prerequisite = {
+			focus = KOR_construction_effort_2
+			focus = KOR_infrastructure_effort_2
+		}
+		available_if_capitulated = yes
+		
+		completion_reward = {
+			KOR = {
+				add_timed_idea = { idea = KOR_reign_of_peace days = 150 }
+			}
+		}
+	}
+	
+	### 경제 - 연구 ###
+	focus = { #국방과학연구소 개선
+		id = KOR_extra_tech_slot
+		icon = GFX_focus_research
+		cost = 5.00
+		x = 0
+		y = 1
+		relative_position_id = KOR_industrial_effort
+		
+		prerequisite = {
+			focus = KOR_industrial_effort
+		}
+		available_if_capitulated = yes
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		
+		completion_reward = {
+			add_tech_bonus = {
+				name = secret_bonus
+				bonus = 0.5
+				uses = 2
+				category = computing_tech
+				category = electronics
+			}
+		}
+	}
+	focus = { #과학집현전 창설
+		id = KOR_extra_tech_slot_2
+		icon = GFX_goal_generic_scientific_exchange
+		cost = 5.00
+		x = 0
+		y = 1
+		relative_position_id = KOR_extra_tech_slot
+		
+		prerequisite = {
+			focus = KOR_extra_tech_slot
+		}
+		available = {
+			num_of_factories > 50
+		}
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}		
+	focus = { #무궁화 꽃이 피었습니다
+		id = KOR_secret_weapons
+		icon = GFX_focus_wonderweapons
+		cost = 5.00
+		x = 0
+		y = 1
+		relative_position_id = KOR_extra_tech_slot_2
+		
+		prerequisite = {
+			focus = KOR_extra_tech_slot_2
+		}
+		available_if_capitulated = yes
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		
+		completion_reward = {
+			add_tech_bonus = {
+				name = secret_bonus
+				bonus = 0.50
+				ahead_reduction = 1
+				uses = 2
+				category = nuclear
+				category = rocketry
+			}
+		}
+	}
+	focus = { #핵무장 개시
+		id = KOR_atomic_armaments
+		icon = GFX_goal_generic_secret_weapon
+		cost = 5.00
+		x = 0
+		y = 1
+		relative_position_id = KOR_secret_weapons
+		
+		prerequisite = {
+			focus = KOR_secret_weapons
+		}
+		available_if_capitulated = yes
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		
+		completion_reward = {
+			add_tech_bonus = {
+				name = KOR_atomic_armaments
+				bonus = 0.5
+				uses = 2
+				category = nuclear
+			}
+		}
+	}
+	
+	### 경제 - 군수 ###
+	focus = { #군수공업 개발
+		id = KOR_production_effort
+		icon = GFX_focus_generic_tank_production
+		cost = 5.00
+		x = 3
+		y = 1
+		relative_position_id = KOR_industrial_effort
+		
+		prerequisite = {
+			focus = KOR_industrial_effort
+		}
+		available_if_capitulated = yes
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		
+		completion_reward = {
+			527 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes	
+				}
+			}
+			914 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes	
+				}
+			}
+		}
+	}
+	focus = { #철강업 확장
+		id = KOR_f_steel
+		icon = GFX_focus_generic_steel
+		cost = 5.00
+		x = -1
+		y = 1
+		relative_position_id = KOR_production_effort
+		
+		prerequisite = {
+			focus = KOR_production_effort
+		}
+		available_if_capitulated = yes
+		search_filters = {
+			#
+		}
+		
+		completion_reward = {
+			add_resource = {
+				type = steel
+				amount = 5
+				state = 525
+			}
+			add_resource = {
+				type = steel
+				amount = 8
+				state = 527
+			}
+		}
+	}
+	focus = { #텅스텐 채굴
+		id = KOR_f_oil
+		icon = GFX_goal_generic_oil_refinery
+		cost = 5.00
+		x = 0
+		y = 1
+		relative_position_id = KOR_f_steel
+		
+		prerequisite = {
+			focus = KOR_f_steel
+		}
+		available_if_capitulated = yes
+		search_filters = {
+			#
+		}
+		
+		completion_reward = {
+			add_resource = {
+				type = tungsten
+				amount = 20
+				state = 912
+			}
+		}
+	}
+	focus = { #반도공업단지
+		id = KOR_production_effort_2
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 5.00
+		x = 1
+		y = 1
+		relative_position_id = KOR_production_effort
+
+		prerequisite = {
+			focus = KOR_production_effort
+		}
+		available_if_capitulated = yes
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		
+		completion_reward = {
+			527 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes	
+				}
+			}
+			525 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes	
+				}
+			}
+			911 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes	
+				}
+			}
+		}
+	}
+	focus = { #만주공업단지
+		id = KOR_production_effort_3
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 5.00
+		x = 0
+		y = 1
+		relative_position_id = KOR_production_effort_2
+		
+		prerequisite = {
+			focus = KOR_production_effort_2
+		}
+		available_if_capitulated = yes
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		
+		completion_reward = {
+			927 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes	
+				}
+			}
+			926 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes	
+				}
+			}
+			925 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes	
+				}
+			}
+		}
+	}
+	focus = { #전군무장
+		id = KOR_munitions_industry
+		icon = GFX_focus_generic_license_production
+		cost = 5.00
+		x = 0
+		y = 3
+		relative_position_id = KOR_production_effort
+		
+		prerequisite = {
+			focus = KOR_f_oil
+			focus = KOR_production_effort_3
+		}
+		available_if_capitulated = yes
+		search_filters = {
+			#
+		}
+		
+		completion_reward = {
+			KOR = {
+				add_timed_idea = { idea = KOR_all_armed days = 150 }
+			}
+		}
+	}
+	
+	### 경제 - 끝 ###
+	focus = { #한강의 기적
+		id = KOR_miracle_on_the_han_river
+		icon = GFX_KOR_korean_miracle
+		cost = 10.00
+		x = 0
+		y = 1
+		relative_position_id = KOR_atomic_armaments
+		
+		prerequisite = {
+			focus = KOR_f_factory_2
+		}
+		prerequisite = {
+			focus = KOR_atomic_armaments
+		}
+		prerequisite = {
+			focus = KOR_munitions_industry
+		}
+		available_if_capitulated = yes
+		search_filters = {
+			#
+		}
+		
+		completion_reward = {
+			KOR = {
+				add_timed_idea = { idea = kor_han_river days = 365 }
+			}
+		}
+	}
+	
+	#############
+	### 국군중점 ###
+	#############
+	
+	### 국군 - 시작 ###
 	focus = { #대한국군
 		id = KOR_korean_army
 		icon = GFX_KOR_eagle_2
 		cost = 5.00
-		x = 18
+		x = 20
 		y = 0
 		
 		available = {
 			#	
 		}
+		search_filters = {
+			#	
+		}
 		
-		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
 		completion_reward = {
 			army_experience = 50
+			navy_experience = 50
+			air_experience = 50
 		}
 	}
 	
-	### 육군 ###
+	#############
+	### 육군중점 ###
+	#############
 	
+	### 육군 - 시작 ###
 	focus = { #대한육군
 		id = KOR_army0
 		icon = GFX_KOR_military_army
@@ -441,16 +1058,18 @@
 		prerequisite = {
 			focus = KOR_korean_army
 		}
-		
 		available = {
 			#	
 		}
+		search_filters = {
+			FOCUS_FILTER_ARMY_XP	
+		}
 		
-		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
 		completion_reward = {
 			army_experience = 50
 		}
 	}
+	
 	### 육군 - 이범석 ###
 	focus = { #이범석의 개혁안
 		id = KOR_army_lee0
@@ -472,8 +1091,10 @@
 		available = {
 			#	
 		}
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
 		
-		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
 		completion_reward = {
 			add_doctrine_cost_reduction = {
 				name = KOR_army_lee0
@@ -483,7 +1104,6 @@
 			}
 		}
 	}
-	
 	focus = { #전차부대 양성
 		id = KOR_army_lee1
 		icon = GFX_goal_generic_army_tanks
@@ -498,8 +1118,10 @@
 		available = {
 			#	
 		}
+		search_filters = {
+			#
+		}
 		
-		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
 		completion_reward = {
 			add_timed_idea = {
 				idea = KOR_armor
@@ -507,7 +1129,6 @@
 			}
 		}
 	}
-	
 	focus = { #차량화 실시
 		id = KOR_army_lee2
 		icon = GFX_goal_generic_army_motorized
@@ -522,8 +1143,10 @@
 		available = {
 			#	
 		}
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
 		
-		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
 		completion_reward = {
 			add_tech_bonus = {
 				name = KOR_army_lee2
@@ -533,7 +1156,6 @@
 			}
 		}
 	}
-	
 	focus = { #기갑사관학교
 		id = KOR_army_lee3
 		icon = GFX_generic_tank
@@ -548,13 +1170,14 @@
 		available = {
 			#	
 		}
+		search_filters = {
+			#
+		}
 		
-		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
 		completion_reward = {
 			add_ideas = KOR_armor_2
 		}
 	}
-	
 	focus = { #기계화 실시
 		id = KOR_army_lee4
 		icon = GFX_generic_armored_cars
@@ -569,8 +1192,10 @@
 		available = {
 			#	
 		}
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
 		
-		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
 		completion_reward = {
 			add_tech_bonus = {
 				name = KOR_army_lee4
@@ -580,7 +1205,6 @@
 			}
 		}
 	}
-	
 	focus = { #개마무사의 유산
 		id = KOR_army_lee5
 		icon = GFX_goal_generic_cavalry
@@ -596,8 +1220,10 @@
 		available = {
 			#	
 		}
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
 		
-		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
 		completion_reward = {
 			every_army_leader = { add_logistics = 1 }
 			add_doctrine_cost_reduction = {
@@ -608,6 +1234,7 @@
 			}
 		}
 	}
+	
 	### 육군 - 김좌진 ###
 	focus = { #김좌진의 개혁안
 		id = KOR_army_kim0
@@ -629,8 +1256,10 @@
 		available = {
 			#	
 		}
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
 		
-		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
 		completion_reward = {
 			add_doctrine_cost_reduction = {
 				name = KOR_army_kim0
@@ -640,7 +1269,6 @@
 			}
 		}
 	}
-	
 	focus = { #더 많은 총기!
 		id = KOR_army_kim1
 		icon = GFX_focus_ETH_freedom_at_gunpoint
@@ -655,8 +1283,10 @@
 		available = {
 			#	
 		}
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
 		
-		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
 		completion_reward = {
 			add_tech_bonus = {
 				name = KOR_army_kim1
@@ -670,7 +1300,6 @@
 			}
 		}
 	}
-	
 	focus = { #지원형 화력
 		id = KOR_army_kim2
 		icon = GFX_focus_ETH_peacekeeping_forces
@@ -685,8 +1314,10 @@
 		available = {
 			#	
 		}
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
 		
-		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
 		completion_reward = {
 			add_tech_bonus = {
 				name = KOR_army_kim2
@@ -696,7 +1327,6 @@
 			}
 		}
 	}
-	
 	focus = { #더 많은 야포!
 		id = KOR_army_kim3
 		icon = GFX_goal_generic_army_artillery2
@@ -711,12 +1341,14 @@
 		available = {
 			#	
 		}
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
 		
-		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
 		completion_reward = {
 			add_tech_bonus = {
 				name = KOR_artillery_focus
-				bonus = 0.35
+				bonus = 0.50
 				ahead_reduction = 1
 				uses = 2
 				category = artillery
@@ -727,7 +1359,6 @@
 			}
 		}
 	}
-	
 	focus = { #압도적 화력
 		id = KOR_army_kim4
 		icon = GFX_goal_generic_army_artillery
@@ -742,13 +1373,14 @@
 		available = {
 			#	
 		}
+		search_filters = {
+			#
+		}
 		
-		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
 		completion_reward = {
 			add_ideas = KOR_fire_attack
 		}
 	}
-	
 	focus = { #최무선의 유산
 		id = KOR_army_kim5
 		icon = GFX_generic_fire_power
@@ -764,8 +1396,10 @@
 		available = {
 			#	
 		}
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
 		
-		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
 		completion_reward = {
 			every_army_leader = { add_attack = 1 }
 			add_doctrine_cost_reduction = {
@@ -776,6 +1410,7 @@
 			}
 		}
 	}
+	
 	### 육군 - 신팔균 ###
 	focus = { #신팔균의 개혁안
 		id = KOR_army_sin0
@@ -797,8 +1432,10 @@
 		available = {
 			#	
 		}
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
 		
-		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
 		completion_reward = {
 			add_doctrine_cost_reduction = {
 				name = KOR_army_sin0
@@ -808,7 +1445,6 @@
 			}
 		}
 	}
-	
 	focus = { #요새화
 		id = KOR_army_sin1
 		icon = GFX_goal_generic_construct_military
@@ -833,8 +1469,9 @@
 				}
 			}
 		}
-		
-		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
+		search_filters = {
+			#
+		}
 		
 		completion_reward = {
 			custom_effect_tooltip = KOR_defensive_measures_forts
@@ -938,7 +1575,6 @@
 			}
 		}
 	}
-	
 	focus = { #재빠른 동원
 		id = KOR_army_sin2
 		icon = GFX_focus_SOV_penal_battalions
@@ -953,13 +1589,14 @@
 		available = {
 			#	
 		}
+		search_filters = {
+			#
+		}
 		
-		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
 		completion_reward = {
 			add_ideas = KOR_army_rate
 		}
 	}
-	
 	focus = { #대공포
 		id = KOR_army_sin3
 		icon = GFX_generic_anti_air
@@ -984,8 +1621,10 @@
 				}
 			}	
 		}
+		search_filters = {
+			#
+		}
 		
-		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
 		completion_reward = {
 			525 = { 
 				add_building_construction = {
@@ -1010,7 +1649,6 @@
 			}
 		}
 	}
-	
 	focus = { #지휘사관학교
 		id = KOR_army_sin4
 		icon = GFX_focus_generic_military_academy
@@ -1025,13 +1663,14 @@
 		available = {
 			#	
 		}
+		search_filters = {
+			#
+		}
 		
-		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
 		completion_reward = {
 			add_ideas = KOR_command_formation_school
 		}
 	}
-	
 	focus = { #의병의 전통
 		id = KOR_army_sin5
 		icon = GFX_focus_prc_infiltration
@@ -1047,8 +1686,10 @@
 		available = {
 			#	
 		}
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
 		
-		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
 		completion_reward = {
 			every_army_leader = { add_planning = 1 }
 			add_doctrine_cost_reduction = {
@@ -1060,13 +1701,16 @@
 		}
 	}
 	
-	### 해군 ###
+	#############
+	### 해군중점 ###
+	#############
 	
+	### 해군 - 시작 ###
 	focus = { #대한해군
 		id = KOR_navy0
 		icon = GFX_KOR_military_navy
 		cost = 5.00
-		x = 21
+		x = 22
 		y = 1
 		
 		prerequisite = {
@@ -1076,12 +1720,15 @@
 		available = {
 			#	
 		}
+		search_filters = {
+			FOCUS_FILTER_NAVY_XP
+		}
 		
-		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
 		completion_reward = {
 			navy_experience = 50
 		}
 	}
+	
 	### 해군 - 육주해종 폐지 ###
 	focus = { #육주해종 폐지
 		id = KOR_navy_main0
@@ -1100,13 +1747,14 @@
 		available = {
 			#	
 		}
+		search_filters = {
+			#
+		}
 		
-		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
 		completion_reward = {
 			remove_ideas = KOR_army_up
 		}
 	}
-	
 	focus = { #동해의 수호자
 		id = KOR_navy_main1
 		icon = GFX_KOR_east_sea
@@ -1121,8 +1769,10 @@
 		available = {
 			#	
 		}
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
 		
-		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
 		completion_reward = {
 			add_tech_bonus = {
 				name = KOR_navy_main1
@@ -1139,8 +1789,7 @@
 			}
 		}
 	}
-	
-	focus = { #전함 개발
+	focus = { #전함
 		id = KOR_navy_main2
 		icon = GFX_goal_generic_navy_battleship
 		cost = 5.00
@@ -1154,8 +1803,10 @@
 		available = {
 			#	
 		}
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
 		
-		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
 		completion_reward = {
 			add_tech_bonus = {
 				name = KOR_navy_main2
@@ -1165,8 +1816,7 @@
 			}
 		}
 	}
-	
-	focus = { #항공모함 개발
+	focus = { #항공모함
 		id = KOR_navy_main3
 		icon = GFX_goal_generic_navy_carrier
 		cost = 5.00
@@ -1180,8 +1830,10 @@
 		available = {
 			#	
 		}
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
 		
-		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
 		completion_reward = {
 			add_tech_bonus = {
 				name = KOR_navy_main3
@@ -1191,8 +1843,7 @@
 			}
 		}
 	}
-	
-	focus = { #순양전함 개발
+	focus = { #순양전함
 		id = KOR_navy_main4
 		icon = GFX_focus_generic_navy_battleship2
 		cost = 5.00
@@ -1206,8 +1857,10 @@
 		available = {
 			#	
 		}
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
 		
-		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
 		completion_reward = {
 			add_tech_bonus = {
 				name = KOR_navy_main4
@@ -1217,7 +1870,6 @@
 			}
 		}
 	}
-	
 	focus = { #해군항공대
 		id = KOR_navy_main5
 		icon = GFX_focus_generic_multi_role_aircraft
@@ -1232,8 +1884,10 @@
 		available = {
 			#	
 		}
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
 		
-		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
 		completion_reward = {
 			add_tech_bonus = {
 				name = KOR_navy_main5
@@ -1260,8 +1914,10 @@
 		available = {
 			#	
 		}
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
 		
-		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
 		completion_reward = {
 			add_tech_bonus = {
 				name = KOR_navy1
@@ -1271,7 +1927,6 @@
 			}
 		}
 	}
-	
 	focus = { #충무공의 유산
 		id = KOR_navy2
 		icon = GFX_KOR_yi_sun_sin
@@ -1289,8 +1944,10 @@
 		available = {
 			#	
 		}
+		search_filters = {
+			#
+		}
 		
-		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
 		completion_reward = {
 			add_ideas = KOR_yi_sun_sin_legacy
 		}
@@ -1314,8 +1971,10 @@
 		available = {
 			#	
 		}
+		search_filters = {
+			#
+		}
 		
-		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
 		completion_reward = {
 			swap_ideas = {
 				add_idea = KOR_army_up_2
@@ -1323,7 +1982,6 @@
 			}
 		}
 	}
-	
 	focus = { #해안 방어
 		id = KOR_navy_assist1
 		icon = GFX_focus_generic_coastal_fort
@@ -1338,8 +1996,10 @@
 		available = {
 			#	
 		}
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
 		
-		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
 		completion_reward = {
 			add_doctrine_cost_reduction = {
 				name = KOR_navy_assist1
@@ -1349,7 +2009,6 @@
 			}
 		}
 	}
-	
 	focus = { #구축함
 		id = KOR_navy_assist2
 		icon = GFX_goal_generic_navy_anti_submarine
@@ -1364,8 +2023,10 @@
 		available = {
 			#	
 		}
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
 		
-		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
 		completion_reward = {
 			add_tech_bonus = {
 				name = KOR_navy_assist2
@@ -1375,7 +2036,6 @@
 			}
 		}
 	}
-	
 	focus = { #잠수함
 		id = KOR_navy_assist3
 		icon = GFX_goal_generic_navy_submarine
@@ -1390,8 +2050,10 @@
 		available = {
 			#	
 		}
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
 		
-		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
 		completion_reward = {
 			add_tech_bonus = {
 				name = KOR_navy_assist3
@@ -1401,7 +2063,6 @@
 			}
 		}
 	}
-	
 	focus = { #중순양함
 		id = KOR_navy_assist4
 		icon = GFX_focus_generic_cruiser2
@@ -1416,8 +2077,10 @@
 		available = {
 			#	
 		}
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
 		
-		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
 		completion_reward = {
 			add_tech_bonus = {
 				name = KOR_navy_assist4
@@ -1427,7 +2090,6 @@
 			}
 		}
 	}
-	
 	focus = { #경순양함
 		id = KOR_navy_assist5
 		icon = GFX_focus_generic_destroyer
@@ -1442,8 +2104,10 @@
 		available = {
 			#	
 		}
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
 		
-		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
 		completion_reward = {
 			add_tech_bonus = {
 				name = KOR_navy_assist5
@@ -1454,53 +2118,39 @@
 		}
 	}
 	
-	### 공군 ###
+	#############
+	### 공군중점 ###
+	#############
 	
+	### 공군 - 시작 ###
 	focus = { #대한공군
 		id = KOR_air0
 		icon = GFX_KOR_military_air
 		cost = 5.00
-		x = 27
+		x = 31
 		y = 1
 		
 		prerequisite = {
 			focus = KOR_korean_army
 		}
-		
 		available = {
 			#	
 		}
+		search_filters = {
+			FOCUS_FILTER_AIR_XP
+		}
 		
-		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
 		completion_reward = {
-			add_stability = 0.05
 			air_experience = 50
-			add_timed_idea = {
-				idea = KOR_air_force
-				days = 365
-			}
-			525 = {
-				add_building_construction = {
-					type = air_base
-					level = 2
-					instant_build = yes	
-				}
-			}
-			527 = {
-				add_building_construction = {
-					type = air_base
-					level = 2
-					instant_build = yes	
-				}
-			}
 		}
 	}
+	
 	### 공군 - 노백린 ###
 	focus = { #노백린의 개혁안
 		id = KOR_air_roh0
 		icon = GFX_goal_generic_air_fighter2
 		cost = 5.00
-		x = -1
+		x = -3
 		y = 1
 		relative_position_id = KOR_air0
 		
@@ -1513,16 +2163,17 @@
 		available = {
 			#	
 		}
+		search_filters = {
+			#
+		}
 		
-		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
 		completion_reward = {
-			add_stability = 0.05
+			add_ideas = KOR_air_roh_reform
 		}
 	}
-	
-	focus = { #전투기 증원
+	focus = { #공대지합동훈련
 		id = KOR_air_roh1
-		icon = GFX_goal_generic_air_fighter
+		icon = GFX_focus_generic_armored_air_support
 		cost = 5.00
 		x = -1
 		y = 1
@@ -1534,74 +2185,106 @@
 		available = {
 			#	
 		}
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
 		
-		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
 		completion_reward = {
-			add_tech_bonus = {
-				name = fighter_bonus
-				bonus = 0.35
-				ahead_reduction = 1
+			add_doctrine_cost_reduction = {
+				name = KOR_air_roh1
+				cost_reduction = 0.5
 				uses = 2
-				category = light_fighter
-				category = cat_heavy_fighter
+				category = battlefield_support_tree
 			}
 		}
 	}
-	
 	focus = { #근접항공지원기 증원
 		id = KOR_air_roh2
-		icon = GFX_goal_generic_CAS
+		icon = GFX_generic_air_CAS
 		cost = 5.00
-		x = 0
+		x = 1
+		y = 1
+		relative_position_id = KOR_air_roh0
+		
+		prerequisite = {
+			focus = KOR_air_roh0
+		}
+		available = {
+			#	
+		}
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		
+		completion_reward = {
+			add_tech_bonus = {
+				name = KOR_air_roh2
+				bonus = 0.50
+				uses = 2
+				category = cas_bomber
+			}
+		}
+	}
+	focus = { #전술폭격기 증원
+		id = KOR_air_roh3
+		icon = GFX_goal_generic_air_bomber
+		cost = 5.00
+		x = 1
 		y = 1
 		relative_position_id = KOR_air_roh1
 		
 		prerequisite = {
 			focus = KOR_air_roh1
 		}
+		prerequisite = {
+			focus = KOR_air_roh2
+		}
 		available = {
 			#	
 		}
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
 		
-		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
 		completion_reward = {
 			add_tech_bonus = {
-				name = CAS_bonus
-				bonus = 0.35
-				ahead_reduction = 1
+				name = KOR_air_roh3
+				bonus = 0.50
 				uses = 2
-				category = cas_bomber
+				category = tactical_bomber
+			}
+		}
+	}
+	focus = { #지상지원형 공군
+		id = KOR_air_roh4
+		icon = GFX_goal_generic_CAS
+		cost = 5.00
+		x = 0
+		y = 1
+		relative_position_id = KOR_air_roh3
+		
+		prerequisite = {
+			focus = KOR_air_roh3
+		}
+		available = {
+			#	
+		}
+		search_filters = {
+			#
+		}
+		
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = KOR_air_roh_reform
+				add_idea = KOR_air_roh_reform2
 			}
 		}
 	}
 	
-	focus = { #한국제 전투기와 한국인 에이스
-		id = KOR_air_roh3
-		icon = GFX_focus_SOV_flying_clubs
-		cost = 5.00
-		x = 1
-		y = 1
-		relative_position_id = KOR_air_roh2
-		
-		prerequisite = {
-			focus = KOR_air_roh2
-		}
-		prerequisite = {
-			focus = KOR_air2
-		}
-		available = {
-			#	
-		}
-		
-		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
-		completion_reward = {
-			add_ideas = KOR_fighter_pilot
-		}
-	}
 	### 공군 - 공용 ###
-	focus = { #권기옥의 의견 수용
+	focus = { #전투기 증원
 		id = KOR_air1
-		icon = GFX_focus_SOV_women_in_aviation
+		icon = GFX_goal_generic_air_fighter
 		cost = 5.00
 		x = 0
 		y = 2
@@ -1614,45 +2297,261 @@
 		available = {
 			#	
 		}
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
 		
-		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
+		completion_reward = {
+			add_tech_bonus = {
+				name = KOR_air1
+				bonus = 1
+				uses = 1
+				category = light_fighter
+				category = cat_heavy_fighter
+			}
+		}
+	}
+	focus = { #비행장 건설
+		id = KOR_air2
+		icon = GFX_goal_generic_air_production
+		cost = 5.00
+		x = -1
+		y = 1
+		relative_position_id = KOR_air1
+		
+		prerequisite = {
+			focus = KOR_air1
+		}
+		mutually_exclusive = {
+			focus = KOR_air3
+		}
+		available = {
+			#	
+		}
+		search_filters = {
+			#
+		}
+		
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					is_core_of = ROOT
+					air_base < 10
+				}
+				add_building_construction = {
+					type = air_base
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					is_core_of = ROOT
+					air_base < 10
+				}
+				add_building_construction = {
+					type = air_base
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					is_core_of = ROOT
+					air_base < 10
+				}
+				add_building_construction = {
+					type = air_base
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					is_core_of = ROOT
+					air_base < 10
+				}
+				add_building_construction = {
+					type = air_base
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					is_core_of = ROOT
+					air_base < 10
+				}
+				add_building_construction = {
+					type = air_base
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					is_core_of = ROOT
+					air_base < 10
+				}
+				add_building_construction = {
+					type = air_base
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = { #중앙관제기지
+		id = KOR_air3
+		icon = GFX_generic_air_airports
+		cost = 5.00
+		x = 1
+		y = 1
+		relative_position_id = KOR_air1
+		
+		prerequisite = {
+			focus = KOR_air1
+		}
+		mutually_exclusive = {
+			focus = KOR_air2
+		}
+		available = {
+			#	
+		}
+		search_filters = {
+			#
+		}
+		
+		completion_reward = {
+			525 = {
+				add_building_construction = {
+					type = air_base
+					level = 3
+					instant_build = yes	
+				}
+			}
+			527 = {
+				add_building_construction = {
+					type = air_base
+					level = 3
+					instant_build = yes	
+				}
+			}
+		}
+	}
+	focus = { #한국제 전투기와 한국인 에이스
+		id = KOR_air4
+		icon = GFX_focus_SOV_flying_clubs
+		cost = 5.00
+		x = 0
+		y = 2
+		relative_position_id = KOR_air1
+		
+		prerequisite = {
+			focus = KOR_air2
+			focus = KOR_air3
+		}
+		available = {
+			#	
+		}
+		search_filters = {
+			#
+		}
+		
+		completion_reward = {
+			add_ideas = KOR_fighter_ace
+		}
+	}
+	focus = { #레이더 연구
+		id = KOR_air5
+		icon = GFX_goal_generic_radar
+		cost = 5.00
+		x = -2
+		y = 1
+		relative_position_id = KOR_air4
+		
+		prerequisite = {
+			focus = KOR_air4
+		}
+		available = {
+			#	
+		}
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		
+		completion_reward = {
+			add_tech_bonus = {
+				name = KOR_air5
+				bonus = 1
+				uses = 2
+				category = radar_tech
+			}
+		}
+	}
+	focus = { #공수부대 양성
+		id = KOR_air6
+		icon = GFX_focus_generic_paratrooper
+		cost = 5.00
+		x = 0
+		y = 1
+		relative_position_id = KOR_air4
+		
+		prerequisite = {
+			focus = KOR_air4
+		}
+		available = {
+			#	
+		}
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		
+		completion_reward = {
+			if = {
+				limit = { NOT = { has_tech = paratroopers } }
+				set_technology = { paratroopers = 1 }
+			}
+			else = {
+				add_tech_bonus = {
+					name = KOR_air6
+					bonus = 1
+					uses = 1
+					category = para_tech
+				}
+			}
+		}
+	}
+	focus = { #권기옥의 의견 수용
+		id = KOR_air7
+		icon = GFX_focus_SOV_women_in_aviation
+		cost = 5.00
+		x = 2
+		y = 1
+		relative_position_id = KOR_air4
+		
+		prerequisite = {
+			focus = KOR_air4
+		}
+		available = {
+			#	
+		}
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		
 		completion_reward = {
 			air_experience = 50
 			set_rule = { can_generate_female_aces = yes }
 		}
 	}
 	
-	focus = { #공수부대 양성
-		id = KOR_air2
-		icon = GFX_focus_generic_paratrooper
-		cost = 5.00
-		x = 0
-		y = 3
-		relative_position_id = KOR_air0
-		
-		prerequisite = {
-			focus = KOR_air1
-		}
-		available = {
-			#	
-		}
-		
-		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
-		completion_reward = {
-			add_tech_bonus = {
-				name = KOR_airborne
-				bonus = 1.0
-				uses = 2
-				category = para_tech
-			}
-		}
-	}
 	### 공군 - 최용덕 ###
 	focus = { #최용덕의 개혁안
 		id = KOR_air_choi0
 		icon = GFX_goal_generic_occupy_start_war
 		cost = 5.00
-		x = 1
+		x = 3
 		y = 1
 		relative_position_id = KOR_air0
 		
@@ -1665,16 +2564,44 @@
 		available = {
 			#	
 		}
+		search_filters = {
+			#
+		}
 		
-		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
 		completion_reward = {
-			add_stability = 0.05
+			add_ideas = KOR_air_choi_reform
 		}
 	}
-	
-	focus = { #뇌격기 증원
+	focus = { #전략폭격기 증원
 		id = KOR_air_choi1
-		icon = GFX_goal_generic_air_naval_bomber
+		icon = GFX_generic_air_strategic_bomber
+		cost = 5.00
+		x = -1
+		y = 1
+		relative_position_id = KOR_air_choi0
+		
+		prerequisite = {
+			focus = KOR_air_choi0
+		}
+		available = {
+			#	
+		}
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		
+		completion_reward = {
+			add_tech_bonus = {
+				name = KOR_air_choi1
+				bonus = 0.50
+				uses = 2
+				category = cat_strategic_bomber
+			}
+		}
+	}
+	focus = { #공중폭격훈련
+		id = KOR_air_choi2
+		icon = GFX_generic_bombing
 		cost = 5.00
 		x = 1
 		y = 1
@@ -1686,765 +2613,85 @@
 		available = {
 			#	
 		}
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
 		
-		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
 		completion_reward = {
-			add_tech_bonus = {
-				name = nav_bomber_bonus
-				bonus = 0.35
-				ahead_reduction = 1
+			add_doctrine_cost_reduction = {
+				name = KOR_air_choi2
+				cost_reduction = 0.5
 				uses = 2
-				category = naval_bomber
+				category = strategic_destruction_tree
 			}
 		}
 	}
-	
-	focus = { #폭격기 증원
-		id = KOR_air_choi2
-		icon = GFX_goal_generic_air_bomber
+	focus = { #중전투기
+		id = KOR_air_choi3
+		icon = GFX_generic_air_heavy_fighter
 		cost = 5.00
 		x = 0
-		y = 1
-		relative_position_id = KOR_air_choi1
+		y = 2
+		relative_position_id = KOR_air_choi0
 		
 		prerequisite = {
 			focus = KOR_air_choi1
 		}
-		available = {
-			#	
-		}
-		
-		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
-		completion_reward = {
-			add_tech_bonus = {
-				name = bomber_bonus
-				bonus = 0.35
-				ahead_reduction = 1
-				uses = 2
-				category = tactical_bomber
-				category = cat_strategic_bomber
-			}
-		}
-	}
-	
-	focus = { #현대식 천자총통
-		id = KOR_air_choi3
-		icon = GFX_focus_rocketry
-		cost = 5.00
-		x = -1
-		y = 1
-		relative_position_id = KOR_air_choi2
-		
 		prerequisite = {
 			focus = KOR_air_choi2
 		}
+		available = {
+			#	
+		}
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		
+		completion_reward = {
+			add_tech_bonus = {
+				name = KOR_air_choi3
+				bonus = 0.50
+				uses = 2
+				category = cat_heavy_fighter
+			}
+		}
+	}
+	focus = { #공중우세형 공군
+		id = KOR_air_choi4
+		icon = GFX_goal_generic_build_airforce
+		cost = 5.00
+		x = 0
+		y = 1
+		relative_position_id = KOR_air_choi3
+		
 		prerequisite = {
-			focus = KOR_air2
+			focus = KOR_air_choi3
 		}
 		available = {
 			#	
 		}
-		
-		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
-		completion_reward = {
-			add_tech_bonus = {
-				name = jet_rocket_bonus
-				bonus = 0.35
-				ahead_reduction = 1
-				uses = 2
-				category = rocketry
-				category = jet_technology
-			}
-			add_tech_bonus = {
-				name = air_doc_bonus
-				bonus = 0.25
-				uses = 3
-				category = air_doctrine
-			}
-		}
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0.25
-				always = yes
-			}
-		}
-	}
-	
-	### 경제 ###
-	
-	focus = { #경제 개발 5개년 계획
-		id = KOR_industrial_effort
-		icon = GFX_goal_generic_production
-		cost = 10.00
-		x = 35
-		y = 0
-		
-		available_if_capitulated = yes
-		
-		search_filters = { FOCUS_FILTER_RESEARCH }
-		completion_reward = {
-			add_tech_bonus = {
-				name = industrial_bonus
-				bonus = 0.5
-				uses = 1
-				category = industry
-			}
-		}
-	}
-	### 민간 ###
-	focus = { #민간산업 육성
-		id = KOR_f_factory
-		icon = GFX_goal_generic_construction
-		cost = 5.00
-		x = -3
-		y = 1
-		relative_position_id = KOR_industrial_effort
-		
-		prerequisite = {
-			focus = KOR_industrial_effort
-		}
-		available_if_capitulated = yes
-		
-		search_filters = { FOCUS_FILTER_INDUSTRY }
-		completion_reward = {
-			525 = {
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = industrial_complex
-					level = 1
-					instant_build = yes	
-				}
-			}
-		}
-	}
-
-	focus = { #한반도 변방 도시화
-		id = KOR_construction_effort
-		icon = GFX_goal_generic_construct_civ_factory
-		cost = 5.00
-		x = -1
-		y = 1
-		relative_position_id = KOR_f_factory
-		
-		prerequisite = {
-			focus = KOR_f_factory
-		}
-		available_if_capitulated = yes
-		
-		search_filters = { FOCUS_FILTER_INDUSTRY }
-		completion_reward = {
-			527 = {
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = industrial_complex
-					level = 1
-					instant_build = yes	
-				}
-			}
-		}
-	}
-	
-	focus = { #만주 변방 도시화
-		id = KOR_construction_effort_2
-		icon = GFX_goal_generic_construct_civ_factory
-		cost = 5.00
-		x = 0
-		y = 1
-		relative_position_id = KOR_construction_effort
-		
-		prerequisite = {
-			focus = KOR_construction_effort
-		}
-		available_if_capitulated = yes
-		
-		search_filters = { FOCUS_FILTER_INDUSTRY }
-		completion_reward = {
-			527 = {
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = industrial_complex
-					level = 1
-					instant_build = yes	
-				}
-			}
-		}
-	}
-	
-	focus = { #경부선 확장
-		id = KOR_gyeongbu_line
-		icon = GFX_goal_generic_construct_infrastructure
-		cost = 5.00
-		x = 1
-		y = 1
-		relative_position_id = KOR_f_factory
-		
-		prerequisite = {
-			focus = KOR_f_factory
-		}
-		available_if_capitulated = yes
-		
-		search_filters = { FOCUS_FILTER_INDUSTRY }
-		completion_reward = {	
-			525 = {
-				add_building_construction = {
-					type = infrastructure
-					level = 1
-					instant_build = yes
-				}
-			}
-		}
-	}
-	
-	focus = { #한반도-만주 철도
-		id = KOR_infrastructure_effort_2
-		icon = GFX_focus_generic_railroad
-		cost = 5.00
-		x = 0
-		y = 1
-		relative_position_id = KOR_gyeongbu_line
-		
-		prerequisite = {
-			focus = KOR_gyeongbu_line
-		}
-		available_if_capitulated = yes
-		
-		search_filters = { FOCUS_FILTER_INDUSTRY }
-		completion_reward = {
+		search_filters = {
 			#
 		}
-	}
-	
-	focus = { #태평성대
-		id = KOR_f_factory_2
-		icon = GFX_focus_generic_industry_3
-		cost = 5.00
-		x = 0
-		y = 3
-		relative_position_id = KOR_f_factory
 		
-		prerequisite = {
-			focus = KOR_construction_effort_2
-			focus = KOR_infrastructure_effort_2
-		}
-		available_if_capitulated = yes
-		
-		completion_reward = {
-			KOR = {
-				add_timed_idea = { idea = KOR_reign_of_peace days = 150 }
-			}
-		}
-	}
-	### 연구 ###
-	focus = { #국방과학연구소 개선
-		id = KOR_extra_tech_slot
-		icon = GFX_focus_research
-		cost = 5.00
-		x = 0
-		y = 1
-		relative_position_id = KOR_industrial_effort
-		
-		prerequisite = {
-			focus = KOR_industrial_effort
-		}
-		available_if_capitulated = yes
-		
-		search_filters = { FOCUS_FILTER_RESEARCH }
-		completion_reward = {
-			add_tech_bonus = {
-				name = secret_bonus
-				bonus = 0.5
-				uses = 2
-				category = computing_tech
-				category = electronics
-			}
-		}
-	}
-
-	focus = { #과학집현전 창설
-		id = KOR_extra_tech_slot_2
-		icon = GFX_goal_generic_scientific_exchange
-		cost = 5.00
-		x = 0
-		y = 1
-		relative_position_id = KOR_extra_tech_slot
-		
-		prerequisite = {
-			focus = KOR_extra_tech_slot
-		}
-		available = {
-			num_of_factories > 50
-		}
-		
-		search_filters = { FOCUS_FILTER_RESEARCH }
-		completion_reward = {
-			add_research_slot = 1
-		}
-	}		
-
-	focus = { #무궁화 꽃이 피었습니다
-		id = KOR_secret_weapons
-		icon = GFX_focus_wonderweapons
-		cost = 5.00
-		x = 0
-		y = 1
-		relative_position_id = KOR_extra_tech_slot_2
-		
-		prerequisite = {
-			focus = KOR_extra_tech_slot_2
-		}
-		available_if_capitulated = yes
-		
-		search_filters = { FOCUS_FILTER_RESEARCH }
-		completion_reward = {
-			add_tech_bonus = {
-				name = secret_bonus
-				bonus = 0.35
-				ahead_reduction = 1
-				uses = 3
-				category = nuclear
-				category = rocketry
-			}
-		}
-	}
-	
-	focus = { #핵무장 개시
-		id = KOR_atomic_armaments
-		icon = GFX_goal_generic_secret_weapon
-		cost = 5.00
-		x = 0
-		y = 1
-		relative_position_id = KOR_secret_weapons
-		
-		prerequisite = {
-			focus = KOR_secret_weapons
-		}
-		available_if_capitulated = yes
-		
-		search_filters = { FOCUS_FILTER_RESEARCH }
-		completion_reward = {
-			add_tech_bonus = {
-				name = KOR_atomic_armaments
-				bonus = 0.5
-				uses = 2
-				category = nuclear
-			}
-		}
-	}
-	### 군수 ###
-	focus = { #군수공업 개발
-		id = KOR_production_effort
-		icon = GFX_focus_generic_tank_production
-		cost = 5.00
-		x = 3
-		y = 1
-		relative_position_id = KOR_industrial_effort
-		
-		prerequisite = {
-			focus = KOR_industrial_effort
-		}
-		available_if_capitulated = yes
-		
-		search_filters = { FOCUS_FILTER_INDUSTRY }
-		completion_reward = {
-			527 = {
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = arms_factory
-					level = 1
-					instant_build = yes	
-				}
-			}
-		}
-	}
-	
-	focus = { #포항 제철소
-		id = KOR_f_steel
-		icon = GFX_focus_generic_steel
-		cost = 5.00
-		x = -1
-		y = 1
-		relative_position_id = KOR_production_effort
-		
-		prerequisite = {
-			focus = KOR_production_effort
-		}
-		available_if_capitulated = yes
-		
-		search_filters = { FOCUS_FILTER_INDUSTRY }
-		completion_reward = {
-			add_resource = {
-				type = steel
-				amount = 8
-				state = 525
-			}
-		}
-	}
-	
-	focus = { #만주 석유 채굴
-		id = KOR_f_oil
-		icon = GFX_goal_generic_oil_refinery
-		cost = 5.00
-		x = 0
-		y = 1
-		relative_position_id = KOR_f_steel
-		
-		prerequisite = {
-			focus = KOR_f_steel
-		}
-		available_if_capitulated = yes
-		
-		search_filters = { FOCUS_FILTER_INDUSTRY }
-		completion_reward = {
-			add_resource = {
-				type = oil
-				amount = 8
-				state = 716
-			}
-		}
-	}
-
-	focus = { #대구 공업단지
-		id = KOR_production_effort_2
-		icon = GFX_goal_generic_construct_mil_factory
-		cost = 5.00
-		x = 1
-		y = 1
-		relative_position_id = KOR_production_effort
-
-		prerequisite = {
-			focus = KOR_production_effort
-		}
-		available_if_capitulated = yes
-
-		search_filters = { FOCUS_FILTER_INDUSTRY }
-		completion_reward = {
-			#
-		}
-	}
-
-	focus = { #길림 공업단지
-		id = KOR_production_effort_3
-		icon = GFX_goal_generic_construct_mil_factory
-		cost = 5.00
-		x = 0
-		y = 1
-		relative_position_id = KOR_production_effort_2
-		
-		prerequisite = {
-			focus = KOR_production_effort_2
-		}
-		available_if_capitulated = yes
-		
-		search_filters = { FOCUS_FILTER_INDUSTRY }
-		completion_reward = {
-			add_resource = {
-				type = steel
-				amount = 8
-				state = 525
-			}
-			add_resource = {
-				type = aluminium
-				amount = 5
-				state = 525
-			}
-			525 = {
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = arms_factory
-					level = 1
-					instant_build = yes	
-				}
-			}
-		}
-	}
-	
-	focus = { #전군무장
-		id = KOR_munitions_industry
-		icon = GFX_focus_generic_license_production
-		cost = 5.00
-		x = 0
-		y = 3
-		relative_position_id = KOR_production_effort
-		
-		prerequisite = {
-			focus = KOR_f_oil
-			focus = KOR_production_effort_3
-		}
-		available_if_capitulated = yes
-		
-		completion_reward = {
-			KOR = {
-				add_timed_idea = { idea = KOR_all_armed days = 150 }
-			}
-		}
-	}
-
-	focus = { #한강의 기적
-		id = KOR_miracle_on_the_han_river
-		icon = GFX_KOR_korean_miracle
-		cost = 10.00
-		x = 0
-		y = 1
-		relative_position_id = KOR_atomic_armaments
-		
-		prerequisite = {
-			focus = KOR_f_factory_2
-		}
-		prerequisite = {
-			focus = KOR_atomic_armaments
-		}
-		prerequisite = {
-			focus = KOR_munitions_industry
-		}
-		available_if_capitulated = yes
-		
-		completion_reward = {
-			KOR = {
-				add_timed_idea = { idea = kor_han_river days = 365 }
-			}
-		}
-	}
-	
-	### 만주인 문제 ###
-	
-	focus = { #만주인 문제
-		id = KOR_manchuria0
-		icon = GFX_goal_generic_crisis
-		cost = 5.00
-		x = 0
-		y = 7
-		
-		available = {
-			#	
-		}
-		
-		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
-		completion_reward = {
-			add_stability = 0.1
-		}
-	}
-	
-	focus = { #만주인 자치권
-		id = KOR_manchuria1
-		icon = GFX_focus_generic_treaty
-		cost = 5.00
-		x = -2
-		y = 1
-		relative_position_id = KOR_manchuria0
-		
-		prerequisite = {
-			focus = KOR_manchuria0
-		}
-		mutually_exclusive = {
-			focus = KOR_manchuria2
-		}
-		available = {
-			#	
-		}
-		
-		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
 		completion_reward = {
 			swap_ideas = {
-				add_idea = KOR_Manchu_autonomy
-				remove_idea = KOR_Korean_Manchu_Conflict 
-			}			
+				remove_idea = KOR_air_choi_reform
+				add_idea = KOR_air_choi_reform2
+			}
 		}
 	}
 	
-	focus = { #한국화
-		id = KOR_manchuria2
-		icon = GFX_goal_flag_korea
-		cost = 5.00
-		x = 2
-		y = 1
-		relative_position_id = KOR_manchuria0
-		
-		prerequisite = {
-			focus = KOR_manchuria0
-		}
-		mutually_exclusive = {
-			focus = KOR_manchuria1
-		}
-		available = {
-			#	
-		}
-		
-		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
-		completion_reward = {
-			add_stability = -0.05
-			swap_ideas = {
-				add_idea = KOR_Manchu_Conscript
-				remove_idea = KOR_Korean_Manchu_Conflict 
-			}			
-		}
-	}
+	#############
+	### 군민공치 ###
+	#############
 	
-	focus = { #만주인 관료 등용
-		id = KOR_manchuria3
-		icon = GFX_goal_generic_council
-		cost = 5.00
-		x = -1
-		y = 1
-		relative_position_id = KOR_manchuria1
-		
-		prerequisite = {
-			focus = KOR_manchuria1
-		}
-		available = {
-			#	
-		}
-		
-		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
-		completion_reward = {
-			add_political_power = 80
-		}
-	}
-	
-	focus = { #만주인 의원 선출
-		id = KOR_manchuria4
-		icon = GFX_goal_KTG_Elections
-		cost = 5.00
-		x = 1
-		y = 1
-		relative_position_id = KOR_manchuria1
-		
-		prerequisite = {
-			focus = KOR_manchuria1
-		}
-		available = {
-			#	
-		}
-		
-		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
-		completion_reward = {
-			add_stability = 0.05
-		}
-	}
-	
-	focus = { #한국어 사용 강제
-		id = KOR_manchuria5
-		icon = GFX_goal_skull_treaty
-		cost = 5.00
-		x = -1
-		y = 1
-		relative_position_id = KOR_manchuria2
-		
-		prerequisite = {
-			focus = KOR_manchuria2
-		}
-		available = {
-			#	
-		}
-		
-		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
-		completion_reward = {
-			add_political_power = 100
-			add_stability = -0.03
-		}
-	}
-	
-	focus = { #만주인 정당 금지
-		id = KOR_manchuria6
-		icon = GFX_goal_generic_ban_elections
-		cost = 5.00
-		x = 1
-		y = 1
-		relative_position_id = KOR_manchuria2
-		
-		prerequisite = {
-			focus = KOR_manchuria2
-		}
-		available = {
-			#	
-		}
-		
-		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
-		completion_reward = {
-			add_stability = -0.03
-			add_war_support = 0.06
-		}
-	}
-	
-	focus = { #형제민족
-		id = KOR_manchuria7
-		icon = GFX_goal_generic_improve_relations
-		cost = 5.00
-		x = 0
-		y = 2
-		relative_position_id = KOR_manchuria1
-		
-		prerequisite = {
-			focus = KOR_manchuria3
-		}
-		prerequisite = {
-			focus = KOR_manchuria4
-		}
-		available = {
-			#	
-		}
-		
-		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
-		completion_reward = {
-			add_stability = 0.07
-			add_political_power = -40
-		}
-	}
-	
-	focus = { #단일국가
-		id = KOR_manchuria8
-		icon = GFX_goal_authority
-		cost = 5.00
-		x = 0
-		y = 2
-		relative_position_id = KOR_manchuria2
-		
-		prerequisite = {
-			focus = KOR_manchuria5
-		}
-		prerequisite = {
-			focus = KOR_manchuria6
-		}
-		available = {
-			#	
-		}
-		
-		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
-		completion_reward = {
-			add_stability = 0.1
-		}
-	}
-	
-	focus = { #북방의 평안
-		id = KOR_manchuria9
-		icon = GFX_goal_COS_Peace
-		cost = 5.00
-		x = 0
-		y = 4
-		relative_position_id = KOR_manchuria0
-		
-		prerequisite = {
-			focus = KOR_manchuria7
-			focus = KOR_manchuria8
-		}
-		available = {
-			#	
-		}
-		
-		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
-		completion_reward = {
-			#
-		}
-	}
-	
-	### 군민공치의 실현 ###
-
 	focus = {# 군민공치의 실현
 		id = KOR_democracy
 		icon = GFX_KOR_democratic_1
 		cost = 0.00
-		x = 16
-		y = 6
+		x = 48
+		y = 0
 		
 		available = {
 			has_country_flag = KOR_flag_democratic_focus
@@ -3357,8 +3604,8 @@
 		id = KOR_paternal_autocrat0
 		icon = GFX_KOR_leader_yi_wu
 		cost = 0.00
-		x = 16
-		y = 6
+		x = 44
+		y = 0
 
 		available = {
 			has_country_flag = KOR_flag_neutrality_focus
@@ -4064,8 +4311,8 @@
 		id = KOR_national_populist0
 		icon = GFX_KOR_leader_lee_beom_seok
 		cost = 10.00
-		x = 16
-		y = 6
+		x = 44
+		y = 0
 		
 		available = {
 			has_country_flag = KOR_flag_fascism_focus

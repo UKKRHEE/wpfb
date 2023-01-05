@@ -25,14 +25,16 @@
  
  ### 대한제국 산업 ###
  KOR_bank_of_korea:0 "한국은행"
+ ROK_bank_of_korea_2:0 "조선은행"
  KOR_seoul_electric:0 "한성전기회사"
+ ROK_seoul_electric:0 "서울전기회사"
  
  #############
  ### 중국공용 ###
  #############
  
  ### 중국공용 전차 ###
- qishuyan_locomotive_works:0 "척서언기관차차량공창"
+ wusong_locomotive_works:0 "오송기관차공장"
  hip_tung_wo_machinery_factory:0 "협동화기계창"
  chongqing_tank_plant:0 "중경전차공장"
  

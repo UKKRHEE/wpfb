@@ -185,7 +185,7 @@ ideas = {
 		
 		designer = yes
 		
-		qishuyan_locomotive_works = {
+		wusong_locomotive_works = {
 
 			allowed = {
 				has_dlc = "Waking the Tiger"
