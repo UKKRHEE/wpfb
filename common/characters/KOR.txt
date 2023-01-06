@@ -563,88 +563,23 @@ characters = {
 	}
 	
 	### 이론가 ###
-	KOR_kim_hong_il = {
-		name=KOR_kim_hong_il
-		portraits={
-			army={
-				large=GFX_portrait_KOR_kim_hong_il
-				small=GFX_idea_KOR_kim_hong_il
+	KOR_council_of_theorists={
+		name=KOR_council_of_theorists
+		portraits = {
+			army = {
+				small = "gfx/interface/ideas/KOR/advisors_korea.png"
 			}
 		}
 		advisor={
 			cost = 100
 			slot = theorist
-			idea_token = kim_hong_il
-			ledger = army
-		    allowed = {
-		    	original_tag = KOR
-		    }
-		    traits = {
-				military_theorist
-			}
-		}
-		corps_commander={
-			traits = {
-				brilliant_strategist
-				trickster
-			}
-			skill = 3
-			attack_skill = 3
-			defense_skill = 2
-			planning_skill = 3
-			logistics_skill = 3
-			legacy_id=-1
-		}
-	}
-	KOR_park_ok_kyu = {
-		name=KOR_park_ok_kyu
-		portraits={
-			army={
-				large=GFX_portrait_KOR_park_ok_kyu
-				small=GFX_idea_KOR_park_ok_kyu
-			}
-		}
-		advisor={
-			cost = 100
-			slot = theorist
-			idea_token = park_ok_kyu
-			ledger = navy
+			idea_token = 
+			ledger = military
 			allowed = {
 				original_tag = KOR
 			}
 			traits = {
-				naval_theorist
-			}
-		}
-		navy_leader={
-			traits = {
-				fleet_protector
-			}
-			skill = 2
-			attack_skill = 2
-			defense_skill = 4
-			maneuvering_skill = 3
-			coordination_skill = 3
-			legacy_id=-1
-		}
-	}
-	KOR_jang_duk_chang={
-		name=KOR_jang_duk_chang
-		portraits={
-			army={
-				small=GFX_idea_KOR_jang_duk_chang
-			}
-		}
-		advisor={
-			cost = 100
-			slot = theorist
-			idea_token = jang_duk_chang
-			ledger = air
-			allowed = {
-				original_tag = KOR
-			}
-			traits = {
-				air_warfare_theorist
+				council_of_theorists
 			}
 		}
 	}
@@ -976,6 +911,42 @@ characters = {
 			legacy_id=-1
 		}
 	}
+	KOR_kim_hong_il = {
+		name=KOR_kim_hong_il
+		portraits={
+			army={
+				large=GFX_portrait_KOR_kim_hong_il
+				small=GFX_idea_KOR_kim_hong_il
+			}
+		}
+		advisor={
+			cost = 200
+			slot = high_command
+			idea_token = kim_hong_il
+			ledger = army
+	    	allowed = {
+		    	original_tag = KOR
+	    	}
+			traits = {
+				army_artillery_3
+			}
+		    ai_will_do = {
+		    	factor = 1
+		    }
+		}
+		corps_commander={
+			traits = {
+				brilliant_strategist
+				trickster
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id=-1
+		}
+	}
 	KOR_kim_kyung_cheon = {
 		name=KOR_kim_kyung_cheon
 		portraits={
@@ -1086,6 +1057,41 @@ characters = {
 			legacy_id=-1
 		}
 	}
+	KOR_park_ok_kyu = {
+		name=KOR_park_ok_kyu
+		portraits={
+			army={
+				large=GFX_portrait_KOR_park_ok_kyu
+				small=GFX_idea_KOR_park_ok_kyu
+			}
+		}
+		advisor={
+			cost = 100
+			slot = high_command
+			idea_token = park_ok_kyu
+			ledger = navy
+	    	allowed = {
+	    		original_tag = KOR
+	    	}
+	    	traits = {
+				navy_fleet_logistics_2
+			}
+	    	ai_will_do = {
+	    		factor = 1
+	    	}
+		}
+		navy_leader={
+			traits = {
+				fleet_protector
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 4
+			maneuvering_skill = 3
+			coordination_skill = 3
+			legacy_id=-1
+		}
+	}
 	KOR_ahn_chang_nam = {
 		name=KOR_ahn_chang_nam
 		portraits={
@@ -1126,6 +1132,29 @@ characters = {
 		    }
 		    traits = {
 				air_strategic_bombing_2
+			}
+		    ai_will_do = {
+		    	factor = 1
+	    	}
+		}
+	}
+	KOR_jang_duk_chang={
+		name=KOR_jang_duk_chang
+		portraits={
+			army={
+				small=GFX_idea_KOR_jang_duk_chang
+			}
+		}
+		advisor={
+			cost = 100
+			slot = high_command
+			idea_token = jang_duk_chang
+			ledger = air
+		    allowed = {
+		    	original_tag = KOR
+		    }
+		    traits = {
+				air_air_combat_training_2
 			}
 		    ai_will_do = {
 		    	factor = 1

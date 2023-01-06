@@ -855,7 +855,7 @@
 	}
 	focus = { #텅스텐 채굴
 		id = KOR_f_oil
-		icon = GFX_goal_generic_oil_refinery
+		icon = GFX_focus_generic_tungsten
 		cost = 5.00
 		x = 0
 		y = 1
@@ -872,8 +872,13 @@
 		completion_reward = {
 			add_resource = {
 				type = tungsten
-				amount = 20
+				amount = 10
 				state = 912
+			}
+			add_resource = {
+				type = tungsten
+				amount = 10
+				state = 913
 			}
 		}
 	}
@@ -1012,7 +1017,7 @@
 		
 		completion_reward = {
 			KOR = {
-				add_timed_idea = { idea = kor_han_river days = 365 }
+				add_timed_idea = { idea = KOR_han_river days = 365 }
 			}
 		}
 	}
@@ -1033,7 +1038,9 @@
 			#	
 		}
 		search_filters = {
-			#	
+			FOCUS_FILTER_ARMY_XP
+			FOCUS_FILTER_NAVY_XP
+			FOCUS_FILTER_AIR_XP
 		}
 		
 		completion_reward = {

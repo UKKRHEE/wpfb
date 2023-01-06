@@ -618,6 +618,42 @@ ideas = {
 				}
 			}
 		}
+		KOR_reign_of_peace = {
+			name = KOR_f_factory_2
+			
+			picture = FRA_national_mobilization_focus
+
+			modifier = {
+				consumer_goods_factor = -0.05
+				production_speed_industrial_complex_factor = 0.05
+				production_speed_rail_way_factor = 0.05
+			}
+		}
+		KOR_all_armed = {
+			name = KOR_munitions_industry
+			
+			picture = generic_license_production
+
+			modifier = {
+				production_speed_arms_factory_factor = 0.05
+				production_speed_dockyard_factor = 0.05
+			}
+		}
+		KOR_han_river = {
+			name = KOR_miracle_on_the_han_river
+			
+			picture = chi_hyper_inflation5
+
+			modifier = {
+				consumer_goods_factor = -0.10
+				industrial_capacity_factory = 0.10
+				industrial_capacity_dockyard = 0.10
+				production_speed_industrial_complex_factor = 0.05
+				production_speed_arms_factory_factor = 0.05
+				production_speed_dockyard_factor = 0.05
+				production_speed_rail_way_factor = 0.05
+			}
+		}
 	}
 	
 	tank_manufacturer = {

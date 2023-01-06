@@ -367,63 +367,55 @@ characters = {
 	}
 	
 	### 이론가 ###
-	ROK_korea_army_research = {
-		name=joint_army_research
-		portraits={
-			army={
-				small=GFX_idea_Joint_army_research
+	ROK_council_of_theorists_red={
+		name=KOR_council_of_theorists_red
+		portraits = {
+			army = {
+				small = "gfx/interface/ideas/KOR/advisors_red_korea.png"
 			}
 		}
 		advisor={
 			cost = 100
 			slot = theorist
-			idea_token = korea_army_research
-			ledger = army
-		    allowed = {
-		    	original_tag = ROK
-		    }
-		    traits = {
-				military_theorist
+			idea_token = 
+			ledger = military
+			available = {
+				OR = {
+					has_government = communism
+					has_government = democratic
+				}
 			}
-		}
-	}
-	ROK_korea_navy_research={
-		name=joint_navy_research
-		portraits={
-			army={
-				small=GFX_idea_Joint_navy_research
-			}
-		}
-		advisor={
-			cost = 100
-			slot = theorist
-			idea_token = korea_navy_research
-			ledger = navy
 			allowed = {
 				original_tag = ROK
 			}
 			traits = {
-				naval_theorist
+				council_of_theorists
 			}
 		}
 	}
-	ROK_korea_air_research={
-		name=joint_air_research
-		portraits={
-			army={
-				small=GFX_idea_Joint_air_research
+	ROK_council_of_theorists={
+		name=KOR_council_of_theorists2
+		portraits = {
+			army = {
+				small = "gfx/interface/ideas/KOR/advisors_korea2.png"
 			}
 		}
 		advisor={
 			cost = 100
 			slot = theorist
-			idea_token = korea_air_research
-			ledger = air
+			idea_token = 
+			ledger = military
+			available = {
+				OR = {
+					has_government = fascism
+					has_government = neutrality
+				}
+			}
 			allowed = {
 				original_tag = ROK
 			}
 			traits = {
-				air_warfare_theorist
+				council_of_theorists
 			}
 		}
 	}
