@@ -2121,7 +2121,7 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_KOR_emperor_and_subjects_shine"
-		texturefile = "gfx/interface/goals/KOR/.png"
+		texturefile = "gfx/interface/goals/KOR/KOR_emperor_and_subjects.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
 			animationmaskfile = "gfx/interface/goals/KOR/KOR_emperor_and_subjects.png"

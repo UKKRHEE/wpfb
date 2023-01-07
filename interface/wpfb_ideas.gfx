@@ -25,4 +25,8 @@ spriteTypes = {
 		name = "GFX_idea_KOR_yi_sun_sin_legacy"
 		texturefile = "gfx/interface/ideas/KOR/idea_KOR_yi_sun_sin_legacy.png"
 	}
+	spriteType = {
+		name = "GFX_idea_KOR_geonheung_restoration"
+		texturefile = "gfx/interface/ideas/KOR/idea_KOR_geonheung_restoration.dds"
+	}
 }

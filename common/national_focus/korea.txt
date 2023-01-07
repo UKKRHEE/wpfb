@@ -9,7 +9,7 @@
 		}
 	}
 	
-	continuous_focus_position = { x = 55 y = 1600 }
+	continuous_focus_position = { x = 1300 y = 1000 }
 	
 	default = no
 	reset_on_civilwar = no
@@ -3605,8 +3605,11 @@
 		}
 	}
 	
-	### 건흥유신 ###
+	##############
+	### 건흥유신 ####
+	##############
 	
+	### 건흥유신 ###
 	focus = { #대출척
 		id = KOR_paternal_autocrat0
 		icon = GFX_KOR_leader_yi_wu
@@ -3634,7 +3637,6 @@
 			#
 		}
 	}
-	
 	focus = { #상제는 황제를 도우소서
 		id = KOR_paternal_autocrat1
 		icon = GFX_KOR_eagle
@@ -3646,13 +3648,19 @@
 		prerequisite = {
 			focus = KOR_paternal_autocrat0
 		}
+		search_filters = { 
+			FOCUS_FILTER_POLITICAL
+			FOCUS_FILTER_STABILITY
+		}
 		
-		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
 		completion_reward = {
-			add_stability = 0.05
+			add_stability = 0.10
+			add_popularity = {
+                ideology = neutrality
+                popularity = 0.15
+            }
 		}
 	}
-	
 	focus = { #제국을 위하여
 		id = KOR_paternal_autocrat2
 		icon = GFX_KOR_empire_of_korea
@@ -3664,14 +3672,14 @@
 		prerequisite = {
 			focus = KOR_paternal_autocrat0
 		}
+		search_filters = { 
+			FOCUS_FILTER_POLITICAL
+		}
 		
-		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_STABILITY FOCUS_FILTER_POLITICAL }
 		completion_reward = {
-			add_stability = -0.03
-			add_political_power = 100
+			add_political_power = 150
 		}
 	}
-	
 	focus = { #노조 탄압
 		id = KOR_paternal_autocrat3
 		icon = GFX_generic_crush_union
@@ -3683,14 +3691,20 @@
 		prerequisite = {
 			focus = KOR_paternal_autocrat0
 		}
+		search_filters = { 
+			FOCUS_FILTER_INDUSTRY
+			FOCUS_FILTER_INTERNAL_AFFAIRS
+			FOCUS_FILTER_STABILITY
+		}
 		
-		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-			add_stability = -0.03
-			#
+			add_stability = -0.10
+			swap_ideas = {
+				add_idea = KOR_labor_rights_n
+				remove_idea = KOR_labor_rights_no
+			}
 		}
 	}
-	
 	focus = { #자애로운 손길
 		id = KOR_paternal_autocrat4
 		icon = GFX_generic_controlled_board
@@ -3702,15 +3716,15 @@
 		prerequisite = {
 			focus = KOR_paternal_autocrat0
 		}
+		search_filters = { 
+			FOCUS_FILTER_INTERNAL_AFFAIRS
+			FOCUS_FILTER_STABILITY
+		}
 		
-		search_filters = { FOCUS_FILTER_PRODUCTION }
 		completion_reward = {
-			country_event = {
-				id = korea.15
-			}
+			add_ideas = KOR_benevolent_touch
 		}
 	}
-	
 	focus = { #충성 재확인
 		id = KOR_paternal_autocrat5
 		icon = GFX_focus_CZE_german_puppet
@@ -3725,14 +3739,16 @@
 		available = {
 			#
 		}
-
-		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
+		search_filters = { 
+			FOCUS_FILTER_STABILITY
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		
 		completion_reward = {
-			add_stability = 0.075
-			#
+			add_stability = 0.15
+			add_war_support = -0.15	
 		}
 	}
-	
 	focus = { #황제 우상화
 		id = KOR_paternal_autocrat6
 		icon = GFX_goal_generic_propaganda
@@ -3744,14 +3760,17 @@
 		prerequisite = {
 			focus = KOR_paternal_autocrat1
 		}
-
-		search_filters = { FOCUS_FILTER_INTERNAL_AFFAIRS FOCUS_FILTER_RESEARCH }
+		search_filters = { 
+			FOCUS_FILTER_INTERNAL_AFFAIRS
+		}
+		
 		completion_reward = {
-			#
-			add_political_power = 50
+			swap_ruler_traits = {
+                remove = emperor_geonheung
+                add = emperor_geonheung2
+            }
 		}
 	}
-	
 	focus = { #중추원 형식화
 		id = KOR_paternal_autocrat7
 		icon = GFX_generic_government_monarchism
@@ -3763,13 +3782,20 @@
 		prerequisite = {
 			focus = KOR_paternal_autocrat1
 		}
-
-		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
+		search_filters = { 
+			FOCUS_FILTER_POLITICAL
+			FOCUS_FILTER_INTERNAL_AFFAIRS
+			FOCUS_FILTER_STABILITY
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		
 		completion_reward = {
-			add_stability = 0.05
+			swap_ideas = {
+				remove_idea = KOR_questions_government
+				add_idea = KOR_questions_government2
+			}
 		}
 	}
-	
 	focus = { #제국익문사 확장
 		id = KOR_paternal_autocrat8
 		icon = GFX_focus_generic_secret_service_agency
@@ -3781,13 +3807,17 @@
 		prerequisite = {
 			focus = KOR_paternal_autocrat2
 		}
+		search_filters = { 
+			FOCUS_FILTER_INTERNAL_AFFAIRS
+		}
 		
-		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-			add_stability = 0.02
+			swap_ideas = {
+				remove_idea = KOR_intel
+				add_idea = KOR_intel_n
+			}
 		}
 	}
-	
 	focus = { #어용노조
 		id = KOR_paternal_autocrat9
 		icon = GFX_generic_union_puppet
@@ -3799,15 +3829,18 @@
 		prerequisite = {
 			focus = KOR_paternal_autocrat3
 		}
+		search_filters = { 
+			FOCUS_FILTER_POLITICAL
+			FOCUS_FILTER_INDUSTRY
+		}
 		
 		completion_reward = {
 			swap_ideas = {
-				remove_idea = KOR_Bed_welfare
-				add_idea = KOR_Bed_welfare_2
+				remove_idea = KOR_labor_rights_n
+				add_idea = KOR_labor_rights_n2
 			}
 		}
 	}
-	
 	focus = { #내탕금을 풀어라
 		id = KOR_paternal_autocrat10
 		icon = GFX_generic_banking
@@ -3819,13 +3852,22 @@
 		prerequisite = {
 			focus = KOR_paternal_autocrat4
 		}
+		search_filters = { 
+			FOCUS_FILTER_INDUSTRY
+			FOCUS_FILTER_INTERNAL_AFFAIRS
+		}
 		
-		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_WAR_SUPPORT FOCUS_FILTER_PRODUCTION }
 		completion_reward = {
-			add_stability = 0.08
+			add_timed_idea = {
+				idea = KOR_money_use
+				days = 120
+			}
+			swap_ideas = {
+				add_idea = KOR_land_problem_n
+				remove_idea = KOR_land_problem
+			}
 		}
 	}
-	
 	focus = { #의심되는 장교 재판
 		id = KOR_paternal_autocrat11
 		icon = GFX_focus_generic_court
@@ -3837,72 +3879,14 @@
 		prerequisite = {
 			focus = KOR_paternal_autocrat5
 		}
+		search_filters = { 
+			FOCUS_FILTER_INTERNAL_AFFAIRS
+		}
 		
-		search_filters = { FOCUS_FILTER_ARMY_BONUS }
 		completion_reward = {
-			random_owned_controlled_state = {
-				limit = {
-					free_building_slots = {
-						building = arms_factory
-						size > 0
-						include_locked = yes
-					}
-					OR = {
-						is_in_home_area = yes
-						NOT = {
-							owner = {
-								any_owned_state = {
-									free_building_slots = {
-										building = arms_factory
-										size > 0
-										include_locked = yes
-									}
-									is_in_home_area = yes
-								}
-							}
-						}
-					}
-				}
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = arms_factory
-					level = 1
-					instant_build = yes
-				}
-			}
-			random_owned_controlled_state = {
-				limit = {
-					free_building_slots = {
-						building = arms_factory
-						size > 0
-						include_locked = yes
-					}
-					OR = {
-						is_in_home_area = yes
-						NOT = {
-							owner = {
-								any_owned_state = {
-									free_building_slots = {
-										building = arms_factory
-										size > 0
-										include_locked = yes
-									}
-									is_in_home_area = yes
-								}
-							}
-						}
-					}
-				}
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = arms_factory
-					level = 1
-					instant_build = yes
-				}
-			}
+			#
 		}
 	}
-	
 	focus = { #기기국 확장
 		id = KOR_paternal_autocrat12
 		icon = GFX_goal_generic_construct_mil_factory
@@ -3914,72 +3898,26 @@
 		prerequisite = {
 			focus = KOR_paternal_autocrat5
 		}
-
-		search_filters = { FOCUS_FILTER_INTERNAL_AFFAIRS }
+		search_filters = { 
+			FOCUS_FILTER_INDUSTRY
+		}
+		
 		completion_reward = {
-			random_owned_controlled_state = {
-				limit = {
-					free_building_slots = {
-						building = arms_factory
-						size > 0
-						include_locked = yes
-					}
-					OR = {
-						is_in_home_area = yes
-						NOT = {
-							owner = {
-								any_owned_state = {
-									free_building_slots = {
-										building = arms_factory
-										size > 0
-										include_locked = yes
-									}
-									is_in_home_area = yes
-								}
-							}
-						}
-					}
-				}
-				add_extra_state_shared_building_slots = 1
+			525 = {
+				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = arms_factory
 					level = 1
 					instant_build = yes
 				}
-			}
-			random_owned_controlled_state = {
-				limit = {
-					free_building_slots = {
-						building = arms_factory
-						size > 0
-						include_locked = yes
-					}
-					OR = {
-						is_in_home_area = yes
-						NOT = {
-							owner = {
-								any_owned_state = {
-									free_building_slots = {
-										building = arms_factory
-										size > 0
-										include_locked = yes
-									}
-									is_in_home_area = yes
-								}
-							}
-						}
-					}
-				}
-				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
-					type = arms_factory
+					type = industrial_complex
 					level = 1
-					instant_build = yes
+					instant_build = yes	
 				}
 			}
 		}
 	}
-	
 	focus = { #신성불가침한 황권
 		id = KOR_paternal_autocrat13
 		icon = GFX_focus_generic_monarchy_1
@@ -3994,13 +3932,17 @@
 		prerequisite = {
 			focus = KOR_paternal_autocrat6
 		}
-
-		search_filters = { FOCUS_FILTER_INTERNAL_AFFAIRS FOCUS_FILTER_POLITICAL }
+		search_filters = { 
+			FOCUS_FILTER_POLITICAL
+			FOCUS_FILTER_INTERNAL_AFFAIRS
+			FOCUS_FILTER_STABILITY
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		
 		completion_reward = {
-			add_political_power = 75
+			remove_ideas = KOR_questions_government2
 		}
 	}
-	
 	focus = { #한성제국대학
 		id = KOR_paternal_autocrat14
 		icon = GFX_generic_education_2
@@ -4012,16 +3954,14 @@
 		prerequisite = {
 			focus = KOR_paternal_autocrat8
 		}
+		search_filters = { 
+			FOCUS_FILTER_RESEARCH
+		}
 		
-		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-			add_offsite_building = {
-				type = industrial_complex
-				level = 3
-			}
+			add_research_slot = 1
 		}
 	}
-	
 	focus = { #관제야당
 		id = KOR_paternal_autocrat15
 		icon = GFX_generic_government_authoritarianism
@@ -4033,13 +3973,28 @@
 		prerequisite = {
 			focus = KOR_paternal_autocrat8
 		}
+		search_filters = { 
+			FOCUS_FILTER_POLITICAL
+			FOCUS_FILTER_STABILITY
+		}
 		
-		search_filters = { FOCUS_FILTER_INTERNAL_AFFAIRS FOCUS_FILTER_STABILITY FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-			#
+			add_stability = 0.15
+			add_political_power = -150
+			add_popularity = {
+                ideology = communism
+                popularity = -0.30
+            }
+			add_popularity = {
+                ideology = democratic
+                popularity = -0.30
+            }
+			add_popularity = {
+                ideology = fascism
+                popularity = -0.30
+            }
 		}
 	}
-	
 	focus = { #기술관료의 관리
 		id = KOR_paternal_autocrat16
 		icon = GFX_goal_generic_production2
@@ -4051,14 +4006,19 @@
 		prerequisite = {
 			focus = KOR_paternal_autocrat9
 		}
+		search_filters = { 
+			FOCUS_FILTER_POLITICAL
+			FOCUS_FILTER_RESEARCH
+			FOCUS_FILTER_INDUSTRY
+		}
 		
-		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_MANPOWER FOCUS_FILTER_ARMY_BONUS }
 		completion_reward = {
-			add_political_power = 100
-			add_manpower = 20000
+			swap_ideas = {
+				add_idea = KOR_labor_rights_n3
+				remove_idea = KOR_labor_rights_n2
+			}
 		}
 	}
-	
 	focus = { #금광 국영화
 		id = KOR_paternal_autocrat17
 		icon = GFX_focus_usa_reestablish_the_gold_standard
@@ -4073,13 +4033,14 @@
 		available = {
 			#
 		}
+		search_filters = { 
+			FOCUS_FILTER_INDUSTRY
+		}
 		
-		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-			add_political_power = 100
+			add_ideas = KOR_gold
 		}
 	}
-	
 	focus = { #궁방전 폐지
 		id = KOR_paternal_autocrat18
 		icon = GFX_goal_tfv_sever_ties_with_uk
@@ -4091,72 +4052,18 @@
 		prerequisite = {
 			focus = KOR_paternal_autocrat10
 		}
+		search_filters = { 
+			FOCUS_FILTER_POLITICAL
+			FOCUS_FILTER_INTERNAL_AFFAIRS
+			FOCUS_FILTER_STABILITY
+		}
 		
-		search_filters = { FOCUS_FILTER_PRODUCTION }
 		completion_reward = {
-			random_owned_controlled_state = {
-				limit = {
-					free_building_slots = {
-						building = industrial_complex
-						size > 0
-						include_locked = yes
-					}
-					OR = {
-						is_in_home_area = yes
-						NOT = {
-							owner = {
-								any_owned_state = {
-									free_building_slots = {
-										building = industrial_complex
-										size > 0
-										include_locked = yes
-									}
-									is_in_home_area = yes
-								}
-							}
-						}
-					}
-				}
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = industrial_complex
-					level = 1
-					instant_build = yes
-				}
-			}
-			random_owned_controlled_state = {
-				limit = {
-					free_building_slots = {
-						building = industrial_complex
-						size > 0
-						include_locked = yes
-					}
-					OR = {
-						is_in_home_area = yes
-						NOT = {
-							owner = {
-								any_owned_state = {
-									free_building_slots = {
-										building = industrial_complex
-										size > 0
-										include_locked = yes
-									}
-									is_in_home_area = yes
-								}
-							}
-						}
-					}
-				}
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = industrial_complex
-					level = 1
-					instant_build = yes
-				}
-			}
+			add_stability = 0.20
+			add_political_power = -200
+			remove_ideas = KOR_land_problem_n
 		}
 	}
-	
 	focus = { #황족 군사교육 강화
 		id = KOR_paternal_autocrat19
 		icon = GFX_focus_generic_military_mission
@@ -4171,14 +4078,31 @@
 		prerequisite = {
 			focus = KOR_paternal_autocrat11
 		}
+		search_filters = { 
+			#
+		}
 		
-		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_POLITICAL }
 		completion_reward = {
-			add_stability = 0.05
-			add_political_power = 75
+			every_army_leader = {
+				limit = {
+					has_trait = KOR_imperial_family
+				}
+				add_attack = 1
+				add_defense = 1
+				add_planning = 1
+				add_logistics = 1
+			}
+			every_navy_leader = {
+				limit = {
+					has_trait = KOR_imperial_family
+				}
+				add_attack = 1
+				add_defense = 1
+				add_maneuver = 1
+				add_coordination = 1
+			}
 		}
 	}
-	
 	focus = { #충군
 		id = KOR_paternal_autocrat20
 		icon = GFX_KOR_loyalty_emperor
@@ -4190,10 +4114,16 @@
 		prerequisite = {
 			focus = KOR_paternal_autocrat13
 		}
-
-		search_filters = { FOCUS_FILTER_STABILITY }
+		search_filters = { 
+			FOCUS_FILTER_POLITICAL
+		}
+		
 		completion_reward = {
-			add_stability = 0.15
+			add_political_power = 150
+			add_popularity = {
+                ideology = neutrality
+                popularity = 0.15
+            }
 		}
 	}
 	
@@ -4211,13 +4141,12 @@
 		prerequisite = {
 			focus = KOR_paternal_autocrat14
 		}
+		search_filters = { 
+			FOCUS_FILTER_WAR_SUPPORT
+		}
 		
-		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS FOCUS_FILTER_MANPOWER }
 		completion_reward = {
-			swap_ideas = {
-				add_idea = KOR_Dae_jong_gyo_2
-				remove_idea = KOR_Dae_jong_gyo
-			}
+			add_war_support = 0.30	
 		}
 	}
 	
@@ -4232,11 +4161,12 @@
 		prerequisite = {
 			focus = KOR_paternal_autocrat16
 		}
+		search_filters = { 
+			FOCUS_FILTER_MANPOWER
+		}
 		
-		search_filters = { FOCUS_FILTER_MANPOWER FOCUS_FILTER_INDUSTRY FOCUS_FILTER_WAR_SUPPORT }
 		completion_reward = {
 			add_manpower = 65000
-			remove_ideas = KOR_Bed_welfare_2
 		}
 	}
 	
@@ -4254,10 +4184,27 @@
 		prerequisite = {
 			focus = KOR_paternal_autocrat17
 		}
+		search_filters = { 
+			FOCUS_FILTER_INDUSTRY
+		}
 		
-		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_WAR_SUPPORT }
 		completion_reward = {
-			add_war_support = 0.07
+			525 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}				
+			}
+			527 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 	}
 	
@@ -4272,10 +4219,16 @@
 		prerequisite = {
 			focus = KOR_paternal_autocrat19
 		}
-
-		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_ARMY_BONUS FOCUS_FILTER_STABILITY FOCUS_FILTER_WAR_SUPPORT }
+		search_filters = { 
+			FOCUS_FILTER_ARMY_XP
+			FOCUS_FILTER_NAVY_XP
+			FOCUS_FILTER_AIR_XP
+		}
+		
 		completion_reward = {
-			add_war_support = 0.15
+			army_experience = 100
+			navy_experience = 100
+			air_experience = 100
 		}
 	}
 	
@@ -4305,10 +4258,18 @@
 		available = {
 			#
 		}
+		search_filters = { 
+			FOCUS_FILTER_POLITICAL
+			FOCUS_FILTER_INDUSTRY
+			FOCUS_FILTER_ARMY_XP
+			FOCUS_FILTER_NAVY_XP
+			FOCUS_FILTER_AIR_XP
+			FOCUS_FILTER_INTERNAL_AFFAIRS
+			FOCUS_FILTER_MANPOWER
+		}
 		
-		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
 		completion_reward = {
-			add_ideas = KOR_eastern_preussen
+			add_ideas = KOR_geonheung_restoration
 		}
 	}
 	
@@ -4412,7 +4373,7 @@
 			focus = KOR_national_populist0
 		}
 		
-		search_filters = { FOCUS_FILTER_PRODUCTION }
+		search_filters = {  }
 		completion_reward = {
 			#
 		}
@@ -4524,7 +4485,7 @@
 			focus = KOR_national_populist4
 		}
 		
-		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_WAR_SUPPORT FOCUS_FILTER_PRODUCTION }
+		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_WAR_SUPPORT  }
 		completion_reward = {
 			add_stability = 0.08
 		}
@@ -4542,7 +4503,7 @@
 			focus = KOR_national_populist5
 		}
 		
-		search_filters = { FOCUS_FILTER_ARMY_BONUS }
+		search_filters = {  }
 		completion_reward = {
 			#
 		}
@@ -4638,7 +4599,7 @@
 			focus = KOR_national_populist9
 		}
 		
-		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_MANPOWER FOCUS_FILTER_ARMY_BONUS }
+		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_MANPOWER  }
 		completion_reward = {
 			add_political_power = 100
 			add_manpower = 20000
@@ -4678,7 +4639,7 @@
 			focus = KOR_national_populist10
 		}
 		
-		search_filters = { FOCUS_FILTER_PRODUCTION }
+		search_filters = {  }
 		completion_reward = {
 			#
 		}
@@ -4796,7 +4757,7 @@
 			focus = KOR_national_populist19
 		}
 
-		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_ARMY_BONUS FOCUS_FILTER_STABILITY FOCUS_FILTER_WAR_SUPPORT }
+		search_filters = { FOCUS_FILTER_POLITICAL  FOCUS_FILTER_STABILITY FOCUS_FILTER_WAR_SUPPORT }
 		completion_reward = {
 			#
 		}
@@ -4824,311 +4785,6 @@
 		}
 		prerequisite = {
 			focus = KOR_national_populist24
-		}
-		available = {
-			#
-		}
-		
-		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
-		completion_reward = {
-			add_stability = 0.05
-		}
-	}
-	
-	### 개입 준비 ###
-	
-	focus = { #개입 준비
-		id = KOR_expansion0
-		icon = GFX_focus_generic_provoke_border_clashes
-		cost = 5.00
-		x = 33
-		y = 7
-		
-		available = {
-			#
-		}
-		
-		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
-		completion_reward = {
-			unlock_decision_category_tooltip = KOR_military
-		}
-	}
-	
-	focus = { #전통적인 동맹
-		id = KOR_expansion1
-		icon = GFX_goal_QIE_zhili_unite_china
-		cost = 5.00
-		x = -4
-		y = 1
-		relative_position_id = KOR_expansion0
-		
-		prerequisite = {
-			focus = KOR_expansion0
-		}
-		available = {
-			#
-		}
-		
-		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
-		completion_reward = {
-			add_stability = 0.05
-		}
-	}
-	
-	focus = { #떠오르는 아침해
-		id = KOR_expansion2
-		icon = GFX_goal_KOR_stand_with_japan
-		cost = 5.00
-		x = -2
-		y = 1
-		relative_position_id = KOR_expansion0
-		
-		prerequisite = {
-			focus = KOR_expansion0
-		}
-		available = {
-			#
-		}
-		
-		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
-		completion_reward = {
-			set_country_flag = KOR_JAP_O
-			JAP = { country_event = korfjap.1 }
-		}
-	}
-	
-	focus = { #수호권
-		id = KOR_expansion3
-		icon = GFX_goal_generic_national_unity
-		cost = 5.00
-		x = 1
-		y = 1
-		relative_position_id = KOR_expansion0
-		
-		prerequisite = {
-			focus = KOR_expansion0
-		}
-		available = {
-			#
-		}
-		
-		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
-		completion_reward = {
-			set_rule = { can_create_factions = yes } 
-			create_faction = KOR_ASIA_FACTION
-		}
-	}
-	
-	focus = { #삼족오 군단 창설
-		id = KOR_expansion4
-		icon = GFX_goal_generic_territory_or_war
-		cost = 5.00
-		x = 4
-		y = 1
-		relative_position_id = KOR_expansion0
-		
-		prerequisite = {
-			focus = KOR_expansion0
-		}
-		available = {
-			#
-		}
-		
-		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
-		completion_reward = {
-			unlock_decision_tooltip = KOR_dragon_operation
-		}
-	}
-	
-	focus = { #중국 인력 확보
-		id = KOR_expansion5
-		icon = GFX_goal_COS_War
-		cost = 5.00
-		x = 0
-		y = 1
-		relative_position_id = KOR_expansion1
-		
-		prerequisite = {
-			focus = KOR_expansion1
-		}
-		available = {
-			#
-		}
-		
-		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
-		completion_reward = {
-			unlock_decision_tooltip = KOR_QIE_attack
-			unlock_decision_tooltip = KOR_CHI_attack
-			unlock_decision_tooltip = KOR_LEP_attack
-			unlock_decision_tooltip = KOR_ANQ_attack
-			unlock_decision_tooltip = KOR_GXC_attack
-			unlock_decision_tooltip = KOR_HNN_attack
-			unlock_decision_tooltip = KOR_YUN_attack
-			unlock_decision_tooltip = KOR_SZC_attack
-			unlock_decision_tooltip = KOR_SHX_attack
-			unlock_decision_tooltip = KOR_SQI_attack
-			unlock_decision_tooltip = KOR_SIK_attack
-		}
-	}
-	
-	focus = { #대일 무역 확대
-		id = KOR_expansion6
-		icon = GFX_goal_KOR_japan_trade
-		cost = 5.00
-		x = 0
-		y = 1
-		relative_position_id = KOR_expansion2
-		
-		prerequisite = {
-			focus = KOR_expansion2
-		}
-		available = {
-			#
-		}
-		
-		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
-		completion_reward = {
-			add_stability = 0.05
-		}
-	}
-	
-	focus = { #특사 파견
-		id = KOR_expansion7
-		icon = GFX_goal_generic_intelligence_exchange
-		cost = 5.00
-		x = -1
-		y = 1
-		relative_position_id = KOR_expansion3
-		
-		prerequisite = {
-			focus = KOR_expansion3
-		}
-		available = {
-			#
-		}
-		
-		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
-		completion_reward = {
-			add_stability = 0.05
-		}
-	}
-	
-	focus = { #만주 침공
-		id = KOR_expansion8
-		icon = YUN_GFX_Goal_Secure_Northern_China
-		cost = 5.00
-		x = 1
-		y = 1
-		relative_position_id = KOR_expansion3
-		
-		prerequisite = {
-			focus = KOR_expansion3
-		}
-		available = {
-			#
-		}
-		
-		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
-		completion_reward = {
-			add_stability = 0.05
-		}
-	}
-	
-	focus = { #삼족오 군단 확장
-		id = KOR_expansion9
-		icon = GFX_focus_generic_eagle
-		cost = 5.00
-		x = 0
-		y = 1
-		relative_position_id = KOR_expansion4
-		
-		prerequisite = {
-			focus = KOR_expansion4
-		}
-		available = {
-			#
-		}
-		
-		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
-		completion_reward = {
-			add_stability = 0.05
-		}
-	}
-	
-	focus = { #참전의 대가 확보
-		id = KOR_expansion10
-		icon = GFX_goal_OTT_Tithe
-		cost = 5.00
-		x = 1
-		y = 1
-		relative_position_id = KOR_expansion5
-		
-		prerequisite = {
-			focus = KOR_expansion5
-			focus = KOR_expansion6
-		}
-		available = {
-			#
-		}
-		
-		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
-		completion_reward = {
-			add_stability = 0.05
-		}
-	}
-	
-	focus = { #과학집현전 확장
-		id = KOR_expansion11
-		icon = GFX_goal_tfv_generic_tech_sharing
-		cost = 5.00
-		x = 0
-		y = 1
-		relative_position_id = KOR_expansion7
-		
-		prerequisite = {
-			focus = KOR_expansion7
-		}
-		available = {
-			#
-		}
-		
-		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
-		completion_reward = {
-			add_stability = 0.05
-		}
-	}
-	
-	focus = { #한국 패권주의
-		id = KOR_expansion12
-		icon = GFX_goal_KOR_hegemony
-		cost = 5.00
-		x = 0
-		y = 1
-		relative_position_id = KOR_expansion8
-		
-		prerequisite = {
-			focus = KOR_expansion8
-		}
-		available = {
-			#
-		}
-		
-		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
-		completion_reward = {
-			add_stability = 0.05
-		}
-	}
-	
-	focus = { #세계대전의 여파
-		id = KOR_expansion13
-		icon = GFX_goal_burning_globe
-		cost = 5.00
-		x = 0
-		y = 1
-		relative_position_id = KOR_expansion9
-		
-		prerequisite = {
-			focus = KOR_expansion9
 		}
 		available = {
 			#

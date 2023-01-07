@@ -1,0 +1,7 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_trait_KOR_imperial_family"
+		texturefile = "gfx/interface/traits/personal/trait_imperial_family.dds"
+	}
+}

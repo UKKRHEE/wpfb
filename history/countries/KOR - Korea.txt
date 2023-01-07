@@ -73,10 +73,10 @@ recruit_character = KOR_choe_yong_duk
 recruit_character = KOR_jang_duk_chang
 
 ### 육군 원수 ###
-recruit_character = KOR_yi_won
+recruit_character = KOR_yu_dong_yeol
 
 ### 육군 장성 ###
-recruit_character = KOR_yu_dong_yeol
+recruit_character = KOR_yi_won
 recruit_character = KOR_kim_won_bong
 recruit_character = KOR_oh_dong_jin
 recruit_character = KOR_hwang_byeong_gil

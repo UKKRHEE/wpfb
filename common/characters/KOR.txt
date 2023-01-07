@@ -110,7 +110,7 @@ characters = {
 			defense_skill = 2
 			planning_skill = 3
 			logistics_skill = 3
-			legacy_id=-1
+			id = 9999991
 		}
 	}
 	KOR_yi_wu={
@@ -1163,29 +1163,6 @@ characters = {
 	}
 	
 	### 육군 원수 ###
-	KOR_yi_won={
-		name=KOR_yi_won
-		portraits={
-			army={
-				large=GFX_portrait_KOR_yi_won
-			}
-		}
-		field_marshal={
-			traits = {
-				politically_connected
-				old_guard
-				inflexible_strategist
-			}
-			skill = 2
-			attack_skill = 2
-			defense_skill = 4
-			planning_skill = 3
-			logistics_skill = 2
-			legacy_id=-1
-		}
-	}
-	
-	### 육군 장성 ###
 	KOR_yu_dong_yeol={
 		name=KOR_yu_dong_yeol
 		portraits={
@@ -1193,7 +1170,7 @@ characters = {
 				large=GFX_portrait_KOR_yu_dong_yeol
 			}
 		}
-		corps_commander={
+		field_marshal={
 			traits = {
 				old_guard
 				cavalry_officer
@@ -1204,6 +1181,30 @@ characters = {
 			defense_skill = 2
 			planning_skill = 2
 			logistics_skill = 3
+			legacy_id=-1
+		}
+	}
+	
+	### 육군 장성 ###
+	KOR_yi_won={
+		name=KOR_yi_won
+		portraits={
+			army={
+				large=GFX_portrait_KOR_yi_won
+			}
+		}
+		corps_commander={
+			traits = {
+				politically_connected
+				old_guard
+				inflexible_strategist
+				KOR_imperial_family
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 2
 			legacy_id=-1
 		}
 	}
@@ -1224,7 +1225,7 @@ characters = {
 			defense_skill = 1
 			planning_skill = 3
 			logistics_skill = 2
-			legacy_id=-1
+			id = 9999992
 		}
 	}
 	KOR_oh_dong_jin={
@@ -1337,6 +1338,7 @@ characters = {
 			traits = {
 				old_guard_navy
 				gentlemanly
+				KOR_imperial_family
 			}
 			skill = 1
 			attack_skill = 2
@@ -1357,6 +1359,7 @@ characters = {
 			traits = {
 				old_guard_navy
 				craven
+				KOR_imperial_family
 			}
 			skill = 1
 			attack_skill = 1
@@ -1375,7 +1378,7 @@ characters = {
 		}
 		navy_leader={
 			traits = {
-				#
+				KOR_imperial_family
 			}
 			skill = 1
 			attack_skill = 2

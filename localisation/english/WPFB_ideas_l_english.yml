@@ -32,6 +32,8 @@
  #############
  ### 대한제국 ###
  #############
+ KOR_imperial_family:0 "황족"
+ KOR_imperial_family_desc:0 "§L이 사람은 대한 황실의 일원이며 오랜 전통과 충성에 충실합니다.§!"
  
  ### 한국 국민정신 ###
  KOR_questions_government:0 "정부에 대한 의문"
@@ -42,6 +44,7 @@
  KOR_land_problem_desc:0 "한국의 토지 상황은 절망적입니다. 10명도 되지 않는 지주들이 국토의 60%를 차지 중이고 자작농들은 지주들의 욕심 가득한 손이 다가올까 두려워하며 소작농들은 힘겹게 땅을 일구며 지주들에게 저주를 퍼붓고 있습니다."
  KOR_labor_rights_no:0 "노동권 부재"
  KOR_labor_rights_no_desc:0 "한국의 자본주의는 이제 막 태동기를 거쳐 성장 중이지만 모순은 어느 열강에 못지 않습니다. 자본가들은 노동자를 찍어 누르기 바쁘며 노동자들은 이에 맞서 파업을 일삼기 바쁩니다."
+ KOR_labor_rights_n2:0 "어용노조"
  KOR_intel:0 "제국익문사"
  KOR_intel_desc:0 "제국익문사는 황제 직속의 정보기관입니다. 그들의 정보력과 첩보력은 믿음직스럽지만 황제에게만 책임을 지는 구조상 정부는 익문사에 지원을 받을 수는 있지만 명령을 할 수는 없습니다."
  KOR_great_depression:0 "대공황"
@@ -49,6 +52,7 @@
  KOR_securing_budget:0 "예산 확보"
  KOR_price_control:0 "물가 통제"
  KOR_yi_sun_sin_legacy:0 "필사즉생 필생즉사"
+ KOR_money_use:0 "사용된 예산"
  
  ### 한국 지도자 ###
  #공산주의
@@ -76,6 +80,7 @@
  #권위주의
  KOR_yi_wu:0 "이우"
  emperor_geonheung:0 "건흥제"
+ emperor_geonheung2:0 "건흥제"
  
  ### 한국 정치고문 ###
  #조건 없음
