@@ -1,5 +1,11 @@
 spriteTypes = {	
 	
+	### 공용 국민정신 ###
+	spriteType = {
+		name = "GFX_idea_Joint_self_management"
+		texturefile = "gfx/interface/ideas/Joint/idea_Joint_self_management.dds"
+	}
+	
 	### 한국 국민정신 ###
 	spriteType = {
 		name = "GFX_idea_KOR_questions_government"

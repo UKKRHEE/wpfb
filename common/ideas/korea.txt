@@ -772,7 +772,7 @@ ideas = {
 		KOR_han_river = {
 			name = KOR_miracle_on_the_han_river
 			
-			picture = chi_hyper_inflation5
+			picture = generic_economic_increase
 
 			modifier = {
 				consumer_goods_factor = -0.10
@@ -786,6 +786,8 @@ ideas = {
 		}
 		KOR_benevolent_touch = {
 			name = KOR_paternal_autocrat4
+			
+			picture = Joint_self_management
 			
 			allowed = {
 				always = no
@@ -848,7 +850,7 @@ ideas = {
 		}
 		KOR_money_use = {
 			
-			picture = SPR_relocate_the_gold_reserves
+			picture = ROM_king_carol_emptied_accounts
 			
 			allowed = {
 				always = no
