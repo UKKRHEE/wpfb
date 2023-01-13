@@ -1,0 +1,3474 @@
+TLE_up_the_economic_level = {
+	custom_effect_tooltip = TLE_up_the_economic_level_tt
+	hidden_effect = {
+		if = {
+			limit = {
+				has_idea = civilian_economy
+			}
+			swap_ideas = {
+				add_idea = low_economic_mobilisation
+				remove_idea = civilian_economy
+			}
+		}
+		if = {
+			limit = {
+				has_idea = low_economic_mobilisation
+			}
+			swap_ideas = {
+				add_idea = partial_economic_mobilisation
+				remove_idea = low_economic_mobilisation
+			}
+		}
+		if = {
+			limit = {
+				has_idea = partial_economic_mobilisation
+			}
+			swap_ideas = {
+				add_idea = war_economy
+				remove_idea = partial_economic_mobilisation
+			}
+		}
+		if = {
+			limit = {
+				has_idea = war_economy
+			}
+			add_political_power = 150
+		}
+	}
+}
+USA_add_factories_TLE = {
+	if = {
+		limit = {
+			original_tag = USA
+		}
+        random_owned_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = industrial_complex
+					size > 0
+					include_locked = yes
+				}
+				OR = {
+					is_in_home_area = yes
+					NOT = {
+						owner = {
+							any_owned_state = {
+								free_building_slots = {
+								    building = industrial_complex
+								    size > 0
+							    	include_locked = yes
+							    }
+							    is_in_home_area = yes
+							}
+						}
+				    }
+			    }
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}
+        random_owned_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = industrial_complex
+					size > 0
+					include_locked = yes
+				}
+				OR = {
+					is_in_home_area = yes
+					NOT = {
+						owner = {
+							any_owned_state = {
+								free_building_slots = {
+								    building = industrial_complex
+								    size > 0
+							    	include_locked = yes
+							    }
+							    is_in_home_area = yes
+							}
+						}
+				    }
+			    }
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}
+        random_owned_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = industrial_complex
+					size > 0
+					include_locked = yes
+				}
+				OR = {
+					is_in_home_area = yes
+					NOT = {
+						owner = {
+							any_owned_state = {
+								free_building_slots = {
+								    building = industrial_complex
+								    size > 0
+							    	include_locked = yes
+							    }
+							    is_in_home_area = yes
+							}
+						}
+				    }
+			    }
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}
+        random_owned_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = industrial_complex
+					size > 0
+					include_locked = yes
+				}
+				OR = {
+					is_in_home_area = yes
+					NOT = {
+						owner = {
+							any_owned_state = {
+								free_building_slots = {
+								    building = industrial_complex
+								    size > 0
+							    	include_locked = yes
+							    }
+							    is_in_home_area = yes
+							}
+						}
+				    }
+			    }
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}
+        random_owned_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = industrial_complex
+					size > 0
+					include_locked = yes
+				}
+				OR = {
+					is_in_home_area = yes
+					NOT = {
+						owner = {
+							any_owned_state = {
+								free_building_slots = {
+								    building = industrial_complex
+								    size > 0
+							    	include_locked = yes
+							    }
+							    is_in_home_area = yes
+							}
+						}
+				    }
+			    }
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}
+        random_owned_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = industrial_complex
+					size > 0
+					include_locked = yes
+				}
+				OR = {
+					is_in_home_area = yes
+					NOT = {
+						owner = {
+							any_owned_state = {
+								free_building_slots = {
+								    building = industrial_complex
+								    size > 0
+							    	include_locked = yes
+							    }
+							    is_in_home_area = yes
+							}
+						}
+				    }
+			    }
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}
+        random_owned_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = industrial_complex
+					size > 0
+					include_locked = yes
+				}
+				OR = {
+					is_in_home_area = yes
+					NOT = {
+						owner = {
+							any_owned_state = {
+								free_building_slots = {
+								    building = industrial_complex
+								    size > 0
+							    	include_locked = yes
+							    }
+							    is_in_home_area = yes
+							}
+						}
+				    }
+			    }
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}
+        random_owned_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = industrial_complex
+					size > 0
+					include_locked = yes
+				}
+				OR = {
+					is_in_home_area = yes
+					NOT = {
+						owner = {
+							any_owned_state = {
+								free_building_slots = {
+								    building = industrial_complex
+								    size > 0
+							    	include_locked = yes
+							    }
+							    is_in_home_area = yes
+							}
+						}
+				    }
+			    }
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}
+        random_owned_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = industrial_complex
+					size > 0
+					include_locked = yes
+				}
+				OR = {
+					is_in_home_area = yes
+					NOT = {
+						owner = {
+							any_owned_state = {
+								free_building_slots = {
+								    building = industrial_complex
+								    size > 0
+							    	include_locked = yes
+							    }
+							    is_in_home_area = yes
+							}
+						}
+				    }
+			    }
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}
+        random_owned_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = industrial_complex
+					size > 0
+					include_locked = yes
+				}
+				OR = {
+					is_in_home_area = yes
+					NOT = {
+						owner = {
+							any_owned_state = {
+								free_building_slots = {
+								    building = industrial_complex
+								    size > 0
+							    	include_locked = yes
+							    }
+							    is_in_home_area = yes
+							}
+						}
+				    }
+			    }
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}
+        random_owned_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = industrial_complex
+					size > 0
+					include_locked = yes
+				}
+				OR = {
+					is_in_home_area = yes
+					NOT = {
+						owner = {
+							any_owned_state = {
+								free_building_slots = {
+								    building = industrial_complex
+								    size > 0
+							    	include_locked = yes
+							    }
+							    is_in_home_area = yes
+							}
+						}
+				    }
+			    }
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}
+        random_owned_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = industrial_complex
+					size > 0
+					include_locked = yes
+				}
+				OR = {
+					is_in_home_area = yes
+					NOT = {
+						owner = {
+							any_owned_state = {
+								free_building_slots = {
+								    building = industrial_complex
+								    size > 0
+							    	include_locked = yes
+							    }
+							    is_in_home_area = yes
+							}
+						}
+				    }
+			    }
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}
+        random_owned_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = industrial_complex
+					size > 0
+					include_locked = yes
+				}
+				OR = {
+					is_in_home_area = yes
+					NOT = {
+						owner = {
+							any_owned_state = {
+								free_building_slots = {
+								    building = industrial_complex
+								    size > 0
+							    	include_locked = yes
+							    }
+							    is_in_home_area = yes
+							}
+						}
+				    }
+			    }
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}
+        random_owned_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = industrial_complex
+					size > 0
+					include_locked = yes
+				}
+				OR = {
+					is_in_home_area = yes
+					NOT = {
+						owner = {
+							any_owned_state = {
+								free_building_slots = {
+								    building = industrial_complex
+								    size > 0
+							    	include_locked = yes
+							    }
+							    is_in_home_area = yes
+							}
+						}
+				    }
+			    }
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}
+        random_owned_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = industrial_complex
+					size > 0
+					include_locked = yes
+				}
+				OR = {
+					is_in_home_area = yes
+					NOT = {
+						owner = {
+							any_owned_state = {
+								free_building_slots = {
+								    building = industrial_complex
+								    size > 0
+							    	include_locked = yes
+							    }
+							    is_in_home_area = yes
+							}
+						}
+				    }
+			    }
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}
+        random_owned_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = industrial_complex
+					size > 0
+					include_locked = yes
+				}
+				OR = {
+					is_in_home_area = yes
+					NOT = {
+						owner = {
+							any_owned_state = {
+								free_building_slots = {
+								    building = industrial_complex
+								    size > 0
+							    	include_locked = yes
+							    }
+							    is_in_home_area = yes
+							}
+						}
+				    }
+			    }
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}
+        random_owned_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = industrial_complex
+					size > 0
+					include_locked = yes
+				}
+				OR = {
+					is_in_home_area = yes
+					NOT = {
+						owner = {
+							any_owned_state = {
+								free_building_slots = {
+								    building = industrial_complex
+								    size > 0
+							    	include_locked = yes
+							    }
+							    is_in_home_area = yes
+							}
+						}
+				    }
+			    }
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}
+        random_owned_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = industrial_complex
+					size > 0
+					include_locked = yes
+				}
+				OR = {
+					is_in_home_area = yes
+					NOT = {
+						owner = {
+							any_owned_state = {
+								free_building_slots = {
+								    building = industrial_complex
+								    size > 0
+							    	include_locked = yes
+							    }
+							    is_in_home_area = yes
+							}
+						}
+				    }
+			    }
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}
+        random_owned_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = industrial_complex
+					size > 0
+					include_locked = yes
+				}
+				OR = {
+					is_in_home_area = yes
+					NOT = {
+						owner = {
+							any_owned_state = {
+								free_building_slots = {
+								    building = industrial_complex
+								    size > 0
+							    	include_locked = yes
+							    }
+							    is_in_home_area = yes
+							}
+						}
+				    }
+			    }
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}
+        random_owned_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = industrial_complex
+					size > 0
+					include_locked = yes
+				}
+				OR = {
+					is_in_home_area = yes
+					NOT = {
+						owner = {
+							any_owned_state = {
+								free_building_slots = {
+								    building = industrial_complex
+								    size > 0
+							    	include_locked = yes
+							    }
+							    is_in_home_area = yes
+							}
+						}
+				    }
+			    }
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}
+        random_owned_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = industrial_complex
+					size > 0
+					include_locked = yes
+				}
+				OR = {
+					is_in_home_area = yes
+					NOT = {
+						owner = {
+							any_owned_state = {
+								free_building_slots = {
+								    building = industrial_complex
+								    size > 0
+							    	include_locked = yes
+							    }
+							    is_in_home_area = yes
+							}
+						}
+				    }
+			    }
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}
+        random_owned_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = industrial_complex
+					size > 0
+					include_locked = yes
+				}
+				OR = {
+					is_in_home_area = yes
+					NOT = {
+						owner = {
+							any_owned_state = {
+								free_building_slots = {
+								    building = industrial_complex
+								    size > 0
+							    	include_locked = yes
+							    }
+							    is_in_home_area = yes
+							}
+						}
+				    }
+			    }
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}
+        random_owned_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = industrial_complex
+					size > 0
+					include_locked = yes
+				}
+				OR = {
+					is_in_home_area = yes
+					NOT = {
+						owner = {
+							any_owned_state = {
+								free_building_slots = {
+								    building = industrial_complex
+								    size > 0
+							    	include_locked = yes
+							    }
+							    is_in_home_area = yes
+							}
+						}
+				    }
+			    }
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}
+        random_owned_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = industrial_complex
+					size > 0
+					include_locked = yes
+				}
+				OR = {
+					is_in_home_area = yes
+					NOT = {
+						owner = {
+							any_owned_state = {
+								free_building_slots = {
+								    building = industrial_complex
+								    size > 0
+							    	include_locked = yes
+							    }
+							    is_in_home_area = yes
+							}
+						}
+				    }
+			    }
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}
+        random_owned_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = industrial_complex
+					size > 0
+					include_locked = yes
+				}
+				OR = {
+					is_in_home_area = yes
+					NOT = {
+						owner = {
+							any_owned_state = {
+								free_building_slots = {
+								    building = industrial_complex
+								    size > 0
+							    	include_locked = yes
+							    }
+							    is_in_home_area = yes
+							}
+						}
+				    }
+			    }
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}
+        random_owned_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = industrial_complex
+					size > 0
+					include_locked = yes
+				}
+				OR = {
+					is_in_home_area = yes
+					NOT = {
+						owner = {
+							any_owned_state = {
+								free_building_slots = {
+								    building = industrial_complex
+								    size > 0
+							    	include_locked = yes
+							    }
+							    is_in_home_area = yes
+							}
+						}
+				    }
+			    }
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}
+        random_owned_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = industrial_complex
+					size > 0
+					include_locked = yes
+				}
+				OR = {
+					is_in_home_area = yes
+					NOT = {
+						owner = {
+							any_owned_state = {
+								free_building_slots = {
+								    building = industrial_complex
+								    size > 0
+							    	include_locked = yes
+							    }
+							    is_in_home_area = yes
+							}
+						}
+				    }
+			    }
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}
+        random_owned_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = industrial_complex
+					size > 0
+					include_locked = yes
+				}
+				OR = {
+					is_in_home_area = yes
+					NOT = {
+						owner = {
+							any_owned_state = {
+								free_building_slots = {
+								    building = industrial_complex
+								    size > 0
+							    	include_locked = yes
+							    }
+							    is_in_home_area = yes
+							}
+						}
+				    }
+			    }
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}
+        random_owned_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = industrial_complex
+					size > 0
+					include_locked = yes
+				}
+				OR = {
+					is_in_home_area = yes
+					NOT = {
+						owner = {
+							any_owned_state = {
+								free_building_slots = {
+								    building = industrial_complex
+								    size > 0
+							    	include_locked = yes
+							    }
+							    is_in_home_area = yes
+							}
+						}
+				    }
+			    }
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}
+        random_owned_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = industrial_complex
+					size > 0
+					include_locked = yes
+				}
+				OR = {
+					is_in_home_area = yes
+					NOT = {
+						owner = {
+							any_owned_state = {
+								free_building_slots = {
+								    building = industrial_complex
+								    size > 0
+							    	include_locked = yes
+							    }
+							    is_in_home_area = yes
+							}
+						}
+				    }
+			    }
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}
+	}
+}
+KOR_hangbok_event = {
+	add_named_threat = { threat = -50 name = KOR_hangbok_event_2 }
+	every_country = {
+		limit = {
+			is_ai = no
+		}
+		set_country_flag = fall_of_korea
+		play_song = "tno_se_fall_of_korea"
+		country_event = {
+			id = korea.782
+		}
+	}
+	every_state = {
+		limit = {
+			is_claimed_by = KOR
+			is_korean_peninsula = no
+		}
+		remove_claim_by = KOR
+	}
+	KOR = {
+		country_lock_all_division_template = yes
+		set_country_flag = TLE_THE_WAR_IS_ENDED
+		set_party_name = {
+			ideology = democratic
+			long_name = "연합군최고사령부"
+			name = "연합군최고사령부"
+		}
+		set_party_name = {
+			ideology = fascism
+			long_name = "연합군최고사령부"
+			name = "연합군최고사령부"
+		}
+		set_party_name = {
+			ideology = communism
+			long_name = "연합군최고사령부"
+			name = "연합군최고사령부"
+		}
+		set_party_name = {
+			ideology = neutrality
+			long_name = "연합군최고사령부"
+			name = "연합군최고사령부"
+		}
+		create_country_leader = {
+			name = "더글라스 맥아더"
+			desc = ""
+			picture = "gfx/leaders/KOR/Portrait_KOR_douglas_mcauther.png"
+			expire = "1965.1.1"
+			ideology = fascism_ideology
+			traits = {
+				#
+			}
+		}
+		create_country_leader = {
+			name = "더글라스 맥아더"
+			desc = ""
+			picture = "gfx/leaders/KOR/Portrait_KOR_douglas_mcauther.png"
+			expire = "1965.1.1"
+			ideology = despotism
+			traits = {
+				#
+			}
+		}
+		create_country_leader = {
+			name = "더글라스 맥아더"
+			desc = ""
+			picture = "gfx/leaders/KOR/Portrait_KOR_douglas_mcauther.png"
+			expire = "1965.1.1"
+			ideology = conservatism
+			traits = {
+				#
+			}
+		}
+		create_country_leader = {
+			name = "더글라스 맥아더"
+			desc = ""
+			picture = "gfx/leaders/KOR/Portrait_KOR_douglas_mcauther.png"
+			expire = "1965.1.1"
+			ideology = marxism
+			traits = {
+				#
+			}
+		}
+		#set_country_flag = fall_of_korea
+		set_country_flag = TLE_THE_WAR_IS_ENDED
+		add_ideas = KOR_not_go_outside
+		every_other_country = {
+			limit = {
+				has_war_with = KOR
+			}	
+			white_peace = KOR
+		}
+		remove_ideas = KOR_industry_reform
+		remove_ideas = KOR_purged_government
+		remove_ideas = KOR_the_chaebol
+		remove_ideas = military_youth_focus
+		remove_ideas = JAP_prioritize_naval_aircraft_construction
+		remove_ideas = KOR_interservice_rivalry_army_dominant
+		remove_ideas = KOR_interservice_rivalry_navy_dominant
+		remove_ideas = KOR_interservice_rivalry_army_strengthened
+		remove_ideas = KOR_interservice_rivalry_navy_strengthened
+		remove_ideas = KOR_interservice_rivalry_balanced
+		remove_ideas = KOR_military_organization_youth
+		remove_ideas = KOR_fascist_propaganda
+		remove_ideas = KOR_militarism
+		remove_ideas = KOR_militarism_2
+		remove_ideas = KOR_we_korean
+		remove_ideas = JAP_prioritize_army_aircraft_construction
+		remove_ideas = JAP_prioritize_naval_aircraft_construction
+		remove_ideas = KOR_divided_politics
+		remove_ideas = KOR_failed_civilian_control_of_the_military
+		remove_ideas = KOR_the_first_army
+		complete_national_focus = KOR_the_last_empire_ending
+		retire_character = KOR_an_jung_geun 
+		retire_character = KOR_yi_wu 
+		retire_character = KOR_yi_geon 
+		retire_character = KOR_kim_sung_ju 
+		retire_character = KOR_yu_dong_yeol 
+		retire_character = KOR_mae_ji_rang 
+		retire_character = KOR_choe_yong_geon 
+		retire_character = KOR_kim_du_han 
+		retire_character = KOR_yi_won 
+		retire_character = KOR_yi_kang 
+		retire_character = KOR_lee_beom_seok 
+		retire_character = KOR_kim_chwa_chin 
+		remove_ideas = KOR_militarism
+		remove_ideas = KOR_Weakening_the_kingship
+		remove_ideas = KOR_political_officer
+		remove_ideas = KOR_not_go_outside
+		remove_ideas = KOR_not_go_outside_2
+		remove_ideas = KOR_embargo_us
+		remove_ideas = KOR_striked_factories
+		remove_ideas = KOR_war_japan_ai
+		remove_ideas = spiritual_mobilization_idea
+		remove_ideas = KOR_none_attack_soviert
+		remove_ideas = mutiny_1
+		remove_ideas = mutiny_2
+		remove_ideas = mutiny_3
+		add_ideas = disarmed_nation
+		add_ideas = civilian_economy
+		add_ideas = free_trade
+		add_ideas = KOR_GHQ_government
+		load_oob = "KOR_jingcha_2"
+		delete_unit_template_and_units = {
+			division_template = "보병사단"
+			disband = yes #will refund equipment and manpower
+		}
+		delete_unit_template_and_units = {
+			division_template = "전차사단"
+			disband = yes #will refund equipment and manpower
+		}
+		delete_unit_template_and_units = {
+			division_template = "후방사단"
+			disband = yes #will refund equipment and manpower
+		}
+		delete_unit_template_and_units = {
+			division_template = "기병사단"
+			disband = yes #will refund equipment and manpower
+		}
+		delete_unit_template_and_units = {
+			division_template = "해병대"
+			disband = yes #will refund equipment and manpower
+		}
+		delete_unit_template_and_units = {
+			division_template = "시위대"
+			disband = yes #will refund equipment and manpower
+		}
+		delete_unit_template_and_units = {
+			division_template = "부산방위군"
+			disband = yes #will refund equipment and manpower
+		}
+		delete_unit_template_and_units = {
+			division_template = "보병 편제 1"
+			disband = yes #will refund equipment and manpower
+		}
+		delete_unit_template_and_units = {
+			division_template = "보병 편제 2"
+			disband = yes #will refund equipment and manpower
+		}
+		delete_unit_template_and_units = {
+			division_template = "보병 편제 3"
+			disband = yes #will refund equipment and manpower
+		}
+		delete_unit_template_and_units = {
+			division_template = "보병 편제 4"
+			disband = yes #will refund equipment and manpower
+		}
+		delete_unit_template_and_units = {
+			division_template = "보병 편제 5"
+			disband = yes #will refund equipment and manpower
+		}
+		delete_unit_template_and_units = {
+			division_template = "보병 편제 6"
+			disband = yes #will refund equipment and manpower
+		}
+		delete_unit_template_and_units = {
+			division_template = "보병 편제 7"
+			disband = yes #will refund equipment and manpower
+		}
+		delete_unit_template_and_units = {
+			division_template = "보병 편제 8"
+			disband = yes #will refund equipment and manpower
+		}
+		delete_unit_template_and_units = {
+			division_template = "보병 편제 9"
+			disband = yes #will refund equipment and manpower
+		}
+		delete_unit_template_and_units = {
+			division_template = "보병 편제 10"
+			disband = yes #will refund equipment and manpower
+		}
+		delete_unit_template_and_units = {
+			division_template = "민병대"
+			disband = yes #will refund equipment and manpower
+		}
+		delete_unit_template_and_units = {
+			division_template = "해병 편제 1"
+			disband = yes #will refund equipment and manpower
+		}
+		delete_unit_template_and_units = {
+			division_template = "해병 편제 2"
+			disband = yes #will refund equipment and manpower
+		}
+		delete_unit_template_and_units = {
+			division_template = "해병 편제 3"
+			disband = yes #will refund equipment and manpower
+		}
+		delete_unit_template_and_units = {
+			division_template = "수도방위군"
+			disband = yes #will refund equipment and manpower
+		}
+		delete_unit_template_and_units = {
+			division_template = "청도 공격군"
+			disband = yes #will refund equipment and manpower
+		}
+		delete_unit_template_and_units = {
+			division_template = "상하이 진공군"
+			disband = yes #will refund equipment and manpower
+		}
+		delete_unit_template_and_units = {
+			division_template = "중형전차 편제 1"
+			disband = yes #will refund equipment and manpower
+		}
+		delete_unit_template_and_units = {
+			division_template = "중형전차 편제 2"
+			disband = yes #will refund equipment and manpower
+		}
+		delete_unit_template_and_units = {
+			division_template = "중형전차 편제 3"
+			disband = yes #will refund equipment and manpower
+		}
+		delete_unit_template_and_units = {
+			division_template = "중형전차 편제 4"
+			disband = yes #will refund equipment and manpower
+		}
+		delete_unit_template_and_units = {
+			division_template = "중형전차 편제 5"
+			disband = yes #will refund equipment and manpower
+		}
+		delete_unit_template_and_units = {
+			division_template = "중형전차 편제 6"
+			disband = yes #will refund equipment and manpower
+		}
+		delete_unit_template_and_units = {
+			division_template = "중형전차 편제 7"
+			disband = yes #will refund equipment and manpower
+		}
+		delete_unit_template_and_units = {
+			division_template = "중형전차 편제 8"
+			disband = yes #will refund equipment and manpower
+		}
+		delete_unit_template_and_units = {
+			division_template = "중형전차 편제 9"
+			disband = yes #will refund equipment and manpower
+		}
+		delete_unit_template_and_units = {
+			division_template = "경전차 편제 1"
+			disband = yes #will refund equipment and manpower
+		}
+		delete_unit_template_and_units = {
+			division_template = "경전차 편제 2"
+			disband = yes #will refund equipment and manpower
+		}
+		delete_unit_template_and_units = {
+			division_template = "경전차 편제 3"
+			disband = yes #will refund equipment and manpower
+		}
+		delete_unit_template_and_units = {
+			division_template = "경전차 편제 4"
+			disband = yes #will refund equipment and manpower
+		}
+		delete_unit_template_and_units = {
+			division_template = "경전차 편제 5"
+			disband = yes #will refund equipment and manpower
+		}
+		delete_unit_template_and_units ={
+			division_template = "구주-북해도 방위군"
+			disband = yes #will refund equipment and manpower
+		}
+		delete_unit_template_and_units ={
+			division_template = "부산방위군"
+			disband = yes #will refund equipment and manpower
+		}
+		set_cosmetic_tag = KOR_GHQ
+	}
+    if = {
+		limit = {
+			KOR = {
+				owns_state = 671
+				owns_state = 286
+				owns_state = 741
+				owns_state = 670
+			}
+		}
+		FRA = {
+			transfer_state = 286
+			transfer_state = 741
+			transfer_state = 670
+			transfer_state = 671
+		}
+	}
+	if = {
+		limit = {
+			is_historical_focus_on = yes
+		}
+		
+		every_country = {
+			limit = {
+				has_war_with = CHI
+			}
+			white_peace = CHI
+		}
+		every_country = {
+			limit = {
+				has_war_with = CHI
+			}
+			white_peace = ZLC
+		}
+	}
+	set_country_flag = TLE_THE_WAR_IS_ENDED
+	if = { #영국이 서울 입성했을 때
+		limit = { #평양에 소련군 없어야 함
+			tag = ENG
+			SOV = {
+				NOT = {
+					has_country_flag = TLE_THE_RULING_PYONGYANG
+				}	
+			}
+		}
+		ENG = {
+			country_event = {
+				id = korea.44
+			}
+		}
+	}
+	if = { #미국이 서울 입성했을 때
+		limit = { #평양에 소련군이 있을 시
+			tag = ENG
+			SOV = {
+				has_country_flag = TLE_THE_RULING_PYONGYANG
+			}
+		}
+		ENG = {
+			country_event = {
+				id = korea.45
+			}
+		}
+	}
+	if = { #미국이 서울 입성했을 때
+		limit = { #평양에 소련군 없어야 함
+			tag = USA
+			SOV = {
+				NOT = {
+					has_country_flag = TLE_THE_RULING_PYONGYANG
+				}	
+			}
+		}
+		USA = {
+			country_event = {
+				id = korea.44
+			}
+		}
+		KOR = {
+			set_cosmetic_tag = KOR_GHQ
+		}
+	}
+	if = { #미국이 서울 입성했을 때
+		limit = { #평양에 소련군이 있을 시
+			tag = USA
+			SOV = {
+				has_country_flag = TLE_THE_RULING_PYONGYANG
+			}
+		}
+		USA = {
+			country_event = {
+				id = korea.45
+			}
+		}
+		KOR = {
+			set_cosmetic_tag = KOR_GHQ
+		}
+	}
+	if = { #일본이 서울 점령
+		limit = {
+			tag = JAP
+		}
+		JAP = {
+			country_event = {
+				id = korea.48
+			}
+		}
+	}
+	if = { #중국이 서울 점령
+		limit = {
+			is_chinese_clique = yes
+		}
+		country_event = {
+			id = korea.56
+		}
+		transfer_state = 609
+	}
+	if = { #소련이 서울 점령
+		limit = {
+			tag = SOV
+			USA = {
+				NOT = {
+					has_country_flag = TLE_THE_RULING_KOREAN_STATE
+				}
+			}	
+		}
+		SOV = {
+			country_event = {
+				id = korea.46
+			}
+		}
+	}
+	if = { #소련이 서울 점령, 근데 미군을 곁들인
+		limit = {
+			tag = SOV
+			USA = {
+				has_country_flag = TLE_THE_RULING_KOREAN_STATE
+			}	
+		}
+		SOV = {
+			country_event = {
+				id = korea.47
+			}
+		}
+	}
+	if = { #소련이 극동공화국과 전쟁할 때
+		limit = {
+			SOV = {
+				has_war_with = KOR
+			}
+		}
+		SOV = {
+			transfer_state = 637
+			transfer_state = 644
+			transfer_state = 562
+			transfer_state = 574
+			transfer_state = 565
+			transfer_state = 564
+			transfer_state = 563
+			transfer_state = 561
+			transfer_state = 657
+			transfer_state = 560
+			transfer_state = 555
+			transfer_state = 537
+			transfer_state = 655
+			transfer_state = 922
+			transfer_state = 923
+			transfer_state = 409
+			transfer_state = 408
+			
+			add_state_core = 637
+			add_state_core = 644
+			add_state_core = 562
+			add_state_core = 574
+			add_state_core = 565
+			add_state_core = 564
+			add_state_core = 563
+			add_state_core = 561
+			add_state_core = 657
+			add_state_core = 560
+			add_state_core = 555
+			add_state_core = 537
+			add_state_core = 655
+			add_state_core = 922
+			add_state_core = 923
+			add_state_core = 409
+			add_state_core = 408
+		}
+	}
+	every_other_country = {
+		limit = {
+			owns_state = 608
+		}
+		transfer_state = 743
+		transfer_state = 611
+		transfer_state = 621
+		annex_country = {
+			target = MEN
+		}
+	}
+    every_country = {
+    	limit = {
+    		is_chinese_clique = yes
+    	}
+    	leave_faction = yes
+    }
+    every_other_country = {
+    	limit = {
+    		OR = {
+    			TAG = CHI
+    			TAG = WZC
+    			TAG = ZLC
+    			TAG = YUN
+    			TAG = GXC
+    			TAG = PRC
+    			TAG = XSM
+    			TAG = AHC
+    			TAG = HNC
+    			TAG = SND
+    			TAG = SZC
+    			TAG = SIK
+    		}
+    		owns_state = 613
+    	}
+    	transfer_state = 931
+    }
+    MON = {
+    	transfer_state = 330
+    	transfer_state = 818
+    	transfer_state = 817
+    	transfer_state = 819
+    	transfer_state = 820
+		transfer_state = 612
+    	set_cosmetic_tag = MON
+    }
+    SOV = {
+    	puppet = MON
+    	add_state_core = 923
+    	add_state_core = 922
+    	add_state_core = 409
+    	add_state_core = 408
+    	transfer_state = 329
+    	transfer_state = 655
+    	transfer_state = 537
+    	transfer_state = 555
+    	transfer_state = 561
+    	transfer_state = 560
+    	transfer_state = 657
+    	transfer_state = 409
+    	transfer_state = 408
+    	transfer_state = 922
+    	transfer_state = 923
+    }
+    every_country = {
+    	limit = {
+    		is_japan_clique = yes
+    		owns_state = 282
+    	}
+    	transfer_state = 960
+    	transfer_state = 961
+    	transfer_state = 962
+    	transfer_state = 528
+    	transfer_state = 924
+    	transfer_state = 959
+    	transfer_state = 536
+    	transfer_state = 645
+    	add_state_core = 536
+    	add_state_core = 924
+    	add_state_core = 645
+    }
+	every_country = {
+		limit = {
+    		owns_state = 608
+		}
+    	transfer_state = 524
+	}
+    every_country = {
+    	limit = {
+    		owns_state = 613
+    	}
+    	transfer_state = 931
+    }
+    USA = {
+    	transfer_state = 526
+    	transfer_state = 648
+    	transfer_state = 633
+    	transfer_state = 684
+    	transfer_state = 647
+    	transfer_state = 646
+    }
+    KMN = {
+    	set_cosmetic_tag = KMN_REP
+		set_party_name = {
+			ideology = democratic
+			long_name = "국민민주당"
+			name = "국민민주당"
+		}
+		set_party_name = {
+			ideology = fascism
+			long_name = "민족재건당"
+			name = "민족재건당"
+		}
+		set_party_name = {
+			ideology = communism
+			long_name = "만주공산당"
+			name = "만주공산당"
+		}
+		set_party_name = {
+			ideology = neutrality
+			long_name = "황국협회"
+			name = "황국협회"
+		}
+		create_country_leader = {
+			name = "염동진"
+			desc = ""
+			picture = "gfx/leaders/KOR/Portrait_yeom_dong_jin.png"
+			expire = "1965.1.1"
+			ideology = conservatism
+			traits = {
+				#
+			}	
+		}
+		create_country_leader = {
+			name = "이범석"
+			desc = ""
+			picture = "gfx/leaders/KOR/Portrait_KOR_Lee_Beom_seok.png"
+			expire = "1965.1.1"
+			ideology = rexism
+			traits = {
+				#
+			}	
+		}
+		create_country_leader = {
+			name = "남일"
+			desc = ""
+			picture = "gfx/leaders/KOR/Portrait_KOR_Nam_Il.png"
+			expire = "1965.1.1"
+			ideology = marxism
+			traits = {
+				#
+			}	
+		}
+		create_country_leader = {
+			name = "정친왕 이영"
+			desc = ""
+			picture = "gfx/leaders/KOR/Portrait_KOR_yi_yeong.png"
+			expire = "1965.1.1"
+			ideology = despotism
+			traits = {
+				#
+			}	
+		}
+    }
+	CHI = {
+		annex_country = {
+			target = WZC
+			transfer_troops = yes
+		}
+	}
+	if = {
+		limit = {
+			has_global_flag = TLE_soviet_union_defeat
+		}
+		FER = {
+			set_cosmetic_tag = RUS
+			transfer_state = 329
+			transfer_state = 655
+			transfer_state = 537
+			transfer_state = 555
+			transfer_state = 561
+			transfer_state = 560
+			transfer_state = 657
+			transfer_state = 409
+			transfer_state = 408
+			transfer_state = 922
+			transfer_state = 923
+		}
+	}
+	408 = {
+		set_state_name = "프리모리예"
+	}
+	409 = {
+		set_state_name = "유즈노하바롭스카야"
+	}
+	561 = {
+		set_state_name = "세베르노아무르스카야"
+	}
+	657 = {
+		set_state_name = "유즈노아무르스카야"
+	}
+	560 = {
+		set_state_name = "세베르노하바롭스카야"
+	}
+	655 = {
+		set_state_name = "세베르노사할린스카야"
+	}
+	537 = {
+		set_state_name = "유즈노사할린스카야"
+	}
+	923 = {
+		set_state_name = "우수리스크"
+	}
+    set_province_name = {
+        id = 6961
+        name = "나홋카"
+    }
+    set_province_name = {
+        id = 3977
+        name = "우수리스크"
+    }
+    set_province_name = {
+        id = 12189
+        name = "하바롭스크"
+    }
+    set_province_name = {
+        id = 9639
+        name = "베르크네페레발스크"
+    }
+    set_province_name = {
+        id = 12446
+        name = "유즈노사할린스크"
+    }
+	if = {
+		limit = {
+			KOR = {
+				has_completed_focus = KOR_baekje_kisadan
+			}
+		}
+		JAP = {
+			annex_country = {
+				target = DKG
+				transfer_troops = no
+			}
+			annex_country = {
+				target = FJP
+				transfer_troops = no
+			}
+			annex_country = {
+				target = EJP
+				transfer_troops = no
+			}
+			annex_country = {
+				target = TBJ
+				transfer_troops = no
+			}
+			annex_country = {
+				target = NBJ
+				transfer_troops = no
+			}
+		}
+	}
+	if = {
+		limit = {
+			JAP = {
+				exists = no
+			}
+		}
+		JAP = {
+			transfer_state = 282
+			transfer_state = 526
+			transfer_state = 528
+			transfer_state = 529
+			transfer_state = 530
+			transfer_state = 531
+			transfer_state = 532
+			transfer_state = 533
+			transfer_state = 534
+			transfer_state = 535
+			transfer_state = 960
+			transfer_state = 961
+			transfer_state = 962
+			transfer_state = 963
+			transfer_state = 964
+			transfer_state = 965
+			transfer_state = 966
+			transfer_state = 967
+			transfer_state = 968
+			
+			transfer_state = 960
+			transfer_state = 961
+			transfer_state = 962
+			transfer_state = 528
+			transfer_state = 924
+			transfer_state = 959
+			transfer_state = 536
+			transfer_state = 645
+			add_state_core = 536
+			add_state_core = 924
+			add_state_core = 645
+		}
+	}
+	every_country = {
+		limit = {
+			has_idea = JAP_showa_hirohito_4
+		}
+		remove_ideas = JAP_showa_hirohito_4
+	}	
+}
+KOR_hangbok_event_2 = {
+	add_named_threat = { threat = -50 name = KOR_hangbok_event_2 }
+	every_country = {
+		limit = {
+			is_ai = no
+		}
+		set_country_flag = fall_of_korea
+		play_song = "tno_se_fall_of_korea"
+		country_event = {
+			id = korea.782
+		}
+	}
+	every_state = {
+		limit = {
+			is_claimed_by = KOR
+			is_korean_peninsula = no
+		}
+		remove_claim_by = KOR
+	}
+	KOR = {
+		country_lock_all_division_template = yes
+		set_country_flag = TLE_THE_WAR_IS_ENDED
+		set_party_name = {
+			ideology = democratic
+			long_name = "연합군최고사령부"
+			name = "연합군최고사령부"
+		}
+		set_party_name = {
+			ideology = fascism
+			long_name = "연합군최고사령부"
+			name = "연합군최고사령부"
+		}
+		set_party_name = {
+			ideology = communism
+			long_name = "연합군최고사령부"
+			name = "연합군최고사령부"
+		}
+		set_party_name = {
+			ideology = neutrality
+			long_name = "연합군최고사령부"
+			name = "연합군최고사령부"
+		}
+		create_country_leader = {
+			name = "더글라스 맥아더"
+			desc = ""
+			picture = "gfx/leaders/KOR/Portrait_KOR_douglas_mcauther.png"
+			expire = "1965.1.1"
+			ideology = fascism_ideology
+			traits = {
+				#
+			}
+		}
+		create_country_leader = {
+			name = "더글라스 맥아더"
+			desc = ""
+			picture = "gfx/leaders/KOR/Portrait_KOR_douglas_mcauther.png"
+			expire = "1965.1.1"
+			ideology = despotism
+			traits = {
+				#
+			}
+		}
+		create_country_leader = {
+			name = "더글라스 맥아더"
+			desc = ""
+			picture = "gfx/leaders/KOR/Portrait_KOR_douglas_mcauther.png"
+			expire = "1965.1.1"
+			ideology = conservatism
+			traits = {
+				#
+			}
+		}
+		create_country_leader = {
+			name = "더글라스 맥아더"
+			desc = ""
+			picture = "gfx/leaders/KOR/Portrait_KOR_douglas_mcauther.png"
+			expire = "1965.1.1"
+			ideology = marxism
+			traits = {
+				#
+			}
+		}
+		#set_country_flag = fall_of_korea
+		set_country_flag = TLE_THE_WAR_IS_ENDED
+		add_ideas = KOR_not_go_outside
+		remove_ideas = KOR_industry_reform
+		remove_ideas = KOR_purged_government
+		remove_ideas = KOR_the_chaebol
+		remove_ideas = military_youth_focus
+		remove_ideas = JAP_prioritize_naval_aircraft_construction
+		remove_ideas = KOR_interservice_rivalry_army_dominant
+		remove_ideas = KOR_interservice_rivalry_navy_dominant
+		remove_ideas = KOR_interservice_rivalry_army_strengthened
+		remove_ideas = KOR_interservice_rivalry_navy_strengthened
+		remove_ideas = KOR_interservice_rivalry_balanced
+		remove_ideas = KOR_military_organization_youth
+		remove_ideas = KOR_fascist_propaganda
+		remove_ideas = KOR_militarism
+		remove_ideas = KOR_militarism_2
+		remove_ideas = KOR_the_first_army
+		remove_ideas = KOR_we_korean
+		every_other_country = {
+			limit = {
+				has_war_with = KOR
+			}	
+			white_peace = KOR
+		}
+		complete_national_focus = KOR_the_last_empire_ending
+		retire_character = KOR_an_jung_geun 
+		retire_character = KOR_yi_wu 
+		retire_character = KOR_yi_geon 
+		retire_character = KOR_kim_sung_ju 
+		retire_character = KOR_yu_dong_yeol 
+		retire_character = KOR_mae_ji_rang 
+		retire_character = KOR_choe_yong_geon 
+		retire_character = KOR_kim_du_han 
+		retire_character = KOR_yi_won 
+		retire_character = KOR_yi_kang 
+		retire_character = KOR_lee_beom_seok 
+		retire_character = KOR_kim_chwa_chin 
+		remove_ideas = KOR_militarism
+		remove_ideas = KOR_Weakening_the_kingship
+		remove_ideas = KOR_political_officer
+		remove_ideas = KOR_not_go_outside
+		remove_ideas = KOR_not_go_outside_2
+		remove_ideas = KOR_embargo_us
+		remove_ideas = KOR_striked_factories
+		remove_ideas = KOR_war_japan_ai
+		remove_ideas = spiritual_mobilization_idea
+		remove_ideas = JAP_prioritize_army_aircraft_construction
+		remove_ideas = JAP_prioritize_naval_aircraft_construction
+		remove_ideas = KOR_none_attack_soviert
+		remove_ideas = KOR_divided_politics
+		remove_ideas = KOR_failed_civilian_control_of_the_military
+		remove_ideas = mutiny_1
+		remove_ideas = mutiny_2
+		remove_ideas = mutiny_3
+		add_ideas = disarmed_nation
+		add_ideas = civilian_economy
+		add_ideas = free_trade
+		add_ideas = KOR_GHQ_government
+		load_oob = "KOR_jingcha_2"
+		delete_unit_template_and_units = {
+			division_template = "보병사단"
+			disband = yes #will refund equipment and manpower
+		}
+		delete_unit_template_and_units = {
+			division_template = "전차사단"
+			disband = yes #will refund equipment and manpower
+		}
+		delete_unit_template_and_units = {
+			division_template = "후방사단"
+			disband = yes #will refund equipment and manpower
+		}
+		delete_unit_template_and_units = {
+			division_template = "기병사단"
+			disband = yes #will refund equipment and manpower
+		}
+		delete_unit_template_and_units = {
+			division_template = "해병대"
+			disband = yes #will refund equipment and manpower
+		}
+		delete_unit_template_and_units = {
+			division_template = "시위대"
+			disband = yes #will refund equipment and manpower
+		}
+		delete_unit_template_and_units = {
+			division_template = "부산방위군"
+			disband = yes #will refund equipment and manpower
+		}
+		delete_unit_template_and_units = {
+			division_template = "보병 편제 1"
+			disband = yes #will refund equipment and manpower
+		}
+		delete_unit_template_and_units = {
+			division_template = "보병 편제 2"
+			disband = yes #will refund equipment and manpower
+		}
+		delete_unit_template_and_units = {
+			division_template = "보병 편제 3"
+			disband = yes #will refund equipment and manpower
+		}
+		delete_unit_template_and_units = {
+			division_template = "보병 편제 4"
+			disband = yes #will refund equipment and manpower
+		}
+		delete_unit_template_and_units = {
+			division_template = "보병 편제 5"
+			disband = yes #will refund equipment and manpower
+		}
+		delete_unit_template_and_units = {
+			division_template = "보병 편제 6"
+			disband = yes #will refund equipment and manpower
+		}
+		delete_unit_template_and_units = {
+			division_template = "보병 편제 7"
+			disband = yes #will refund equipment and manpower
+		}
+		delete_unit_template_and_units = {
+			division_template = "보병 편제 8"
+			disband = yes #will refund equipment and manpower
+		}
+		delete_unit_template_and_units = {
+			division_template = "보병 편제 9"
+			disband = yes #will refund equipment and manpower
+		}
+		delete_unit_template_and_units = {
+			division_template = "보병 편제 10"
+			disband = yes #will refund equipment and manpower
+		}
+		delete_unit_template_and_units = {
+			division_template = "민병대"
+			disband = yes #will refund equipment and manpower
+		}
+		delete_unit_template_and_units = {
+			division_template = "해병 편제 1"
+			disband = yes #will refund equipment and manpower
+		}
+		delete_unit_template_and_units = {
+			division_template = "해병 편제 2"
+			disband = yes #will refund equipment and manpower
+		}
+		delete_unit_template_and_units = {
+			division_template = "해병 편제 3"
+			disband = yes #will refund equipment and manpower
+		}
+		delete_unit_template_and_units = {
+			division_template = "수도방위군"
+			disband = yes #will refund equipment and manpower
+		}
+		delete_unit_template_and_units = {
+			division_template = "청도 공격군"
+			disband = yes #will refund equipment and manpower
+		}
+		delete_unit_template_and_units = {
+			division_template = "상하이 진공군"
+			disband = yes #will refund equipment and manpower
+		}
+		delete_unit_template_and_units = {
+			division_template = "중형전차 편제 1"
+			disband = yes #will refund equipment and manpower
+		}
+		delete_unit_template_and_units = {
+			division_template = "중형전차 편제 2"
+			disband = yes #will refund equipment and manpower
+		}
+		delete_unit_template_and_units = {
+			division_template = "중형전차 편제 3"
+			disband = yes #will refund equipment and manpower
+		}
+		delete_unit_template_and_units = {
+			division_template = "중형전차 편제 4"
+			disband = yes #will refund equipment and manpower
+		}
+		delete_unit_template_and_units = {
+			division_template = "중형전차 편제 5"
+			disband = yes #will refund equipment and manpower
+		}
+		delete_unit_template_and_units = {
+			division_template = "중형전차 편제 6"
+			disband = yes #will refund equipment and manpower
+		}
+		delete_unit_template_and_units = {
+			division_template = "중형전차 편제 7"
+			disband = yes #will refund equipment and manpower
+		}
+		delete_unit_template_and_units = {
+			division_template = "중형전차 편제 8"
+			disband = yes #will refund equipment and manpower
+		}
+		delete_unit_template_and_units = {
+			division_template = "중형전차 편제 9"
+			disband = yes #will refund equipment and manpower
+		}
+		delete_unit_template_and_units = {
+			division_template = "경전차 편제 1"
+			disband = yes #will refund equipment and manpower
+		}
+		delete_unit_template_and_units = {
+			division_template = "경전차 편제 2"
+			disband = yes #will refund equipment and manpower
+		}
+		delete_unit_template_and_units = {
+			division_template = "경전차 편제 3"
+			disband = yes #will refund equipment and manpower
+		}
+		delete_unit_template_and_units = {
+			division_template = "경전차 편제 4"
+			disband = yes #will refund equipment and manpower
+		}
+		delete_unit_template_and_units = {
+			division_template = "경전차 편제 5"
+			disband = yes #will refund equipment and manpower
+		}
+		delete_unit_template_and_units ={
+			division_template = "구주-북해도 방위군"
+			disband = yes #will refund equipment and manpower
+		}
+		delete_unit_template_and_units ={
+			division_template = "부산방위군"
+			disband = yes #will refund equipment and manpower
+		}
+		set_cosmetic_tag = KOR_GHQ
+	}
+	if = {
+		limit = {
+			is_historical_focus_on = yes
+		}
+		
+		every_country = {
+			limit = {
+				has_war_with = CHI
+			}
+			white_peace = CHI
+		}
+		every_country = {
+			limit = {
+				has_war_with = CHI
+			}
+			white_peace = ZLC
+		}
+	}
+    if = {
+		limit = {
+			KOR = {
+				owns_state = 671
+				owns_state = 286
+				owns_state = 741
+				owns_state = 670
+			}
+		}
+		FRA = {
+			transfer_state = 286
+			transfer_state = 741
+			transfer_state = 670
+			transfer_state = 671
+		}
+	}
+	set_country_flag = TLE_THE_WAR_IS_ENDED
+	USA = {
+		country_event = {
+			id = korea.44
+		}
+	}
+	if = { #소련이 극동공화국과 전쟁할 때
+		limit = {
+			SOV = {
+				has_war_with = KOR
+			}
+		}
+		SOV = {
+			transfer_state = 637
+			transfer_state = 644
+			transfer_state = 562
+			transfer_state = 574
+			transfer_state = 565
+			transfer_state = 564
+			transfer_state = 563
+			transfer_state = 561
+			transfer_state = 657
+			transfer_state = 560
+			transfer_state = 555
+			transfer_state = 537
+			transfer_state = 655
+			transfer_state = 922
+			transfer_state = 923
+			transfer_state = 409
+			transfer_state = 408
+			
+			add_state_core = 637
+			add_state_core = 644
+			add_state_core = 562
+			add_state_core = 574
+			add_state_core = 565
+			add_state_core = 564
+			add_state_core = 563
+			add_state_core = 561
+			add_state_core = 657
+			add_state_core = 560
+			add_state_core = 555
+			add_state_core = 537
+			add_state_core = 655
+			add_state_core = 922
+			add_state_core = 923
+			add_state_core = 409
+			add_state_core = 408
+		}
+	}
+	every_other_country = {
+		limit = {
+			owns_state = 608
+		}
+		transfer_state = 743
+		transfer_state = 611
+		transfer_state = 621
+		annex_country = {
+			target = MEN
+		}
+	}
+    every_country = {
+    	limit = {
+    		is_chinese_clique = yes
+    	}
+    	leave_faction = yes
+    }
+    every_other_country = {
+    	limit = {
+    		OR = {
+    			TAG = CHI
+    			TAG = WZC
+    			TAG = ZLC
+    			TAG = YUN
+    			TAG = GXC
+    			TAG = PRC
+    			TAG = XSM
+    			TAG = AHC
+    			TAG = HNC
+    			TAG = SND
+    			TAG = SZC
+    			TAG = SIK
+    		}
+    		owns_state = 613
+    	}
+    	transfer_state = 931
+    }
+    MON = {
+    	transfer_state = 330
+    	transfer_state = 818
+    	transfer_state = 817
+    	transfer_state = 819
+    	transfer_state = 820
+		transfer_state = 612
+    	set_cosmetic_tag = MON
+    }
+	if = {
+		limit = {
+			NOT = {
+				has_global_flag = TLE_soviet_union_defeat
+			}
+		}
+		SOV = {
+			puppet = MON
+			add_state_core = 923
+			add_state_core = 922
+			add_state_core = 409
+			add_state_core = 408
+			transfer_state = 329
+			transfer_state = 655
+			transfer_state = 537
+			transfer_state = 555
+			transfer_state = 561
+			transfer_state = 560
+			transfer_state = 657
+			transfer_state = 409
+			transfer_state = 408
+			transfer_state = 922
+			transfer_state = 923
+		}
+	}	
+	if = {
+		limit = {
+			has_global_flag = TLE_soviet_union_defeat
+		}
+		FER = {
+			set_cosmetic_tag = RUS
+			transfer_state = 655
+			transfer_state = 537
+			transfer_state = 555
+			transfer_state = 561
+			transfer_state = 560
+			transfer_state = 657
+			transfer_state = 409
+			transfer_state = 408
+			transfer_state = 922
+			transfer_state = 923
+		}
+		MON = {
+			transfer_state = 329
+		}
+	}
+    every_country = {
+    	limit = {
+    		is_japan_clique = yes
+    		owns_state = 282
+    	}
+    	transfer_state = 960
+    	transfer_state = 961
+    	transfer_state = 962
+    	transfer_state = 528
+    	transfer_state = 924
+    	transfer_state = 959
+    	transfer_state = 536
+    	transfer_state = 645
+    	add_state_core = 536
+    	add_state_core = 924
+    	add_state_core = 645
+    }
+	every_country = {
+		limit = {
+    		owns_state = 608
+		}
+    	transfer_state = 524
+	}
+    every_country = {
+    	limit = {
+    		owns_state = 613
+    	}
+    	transfer_state = 931
+    }
+    USA = {
+    	transfer_state = 526
+    	transfer_state = 648
+    	transfer_state = 633
+    	transfer_state = 684
+    	transfer_state = 647
+    	transfer_state = 646
+    }
+    KMN = {
+    	set_cosmetic_tag = KMN_REP
+		set_party_name = {
+			ideology = democratic
+			long_name = "국민민주당"
+			name = "국민민주당"
+		}
+		set_party_name = {
+			ideology = fascism
+			long_name = "민족재건당"
+			name = "민족재건당"
+		}
+		set_party_name = {
+			ideology = communism
+			long_name = "만주공산당"
+			name = "만주공산당"
+		}
+		set_party_name = {
+			ideology = neutrality
+			long_name = "황국협회"
+			name = "황국협회"
+		}
+		create_country_leader = {
+			name = "염동진"
+			desc = ""
+			picture = "gfx/leaders/KOR/Portrait_yeom_dong_jin.png"
+			expire = "1965.1.1"
+			ideology = conservatism
+			traits = {
+				#
+			}	
+		}
+		create_country_leader = {
+			name = "이범석"
+			desc = ""
+			picture = "gfx/leaders/KOR/Portrait_KOR_Lee_Beom_seok.png"
+			expire = "1965.1.1"
+			ideology = rexism
+			traits = {
+				#
+			}	
+		}
+		create_country_leader = {
+			name = "남일"
+			desc = ""
+			picture = "gfx/leaders/KOR/Portrait_KOR_Nam_Il.png"
+			expire = "1965.1.1"
+			ideology = marxism
+			traits = {
+				#
+			}	
+		}
+		create_country_leader = {
+			name = "정친왕 이영"
+			desc = ""
+			picture = "gfx/leaders/KOR/Portrait_KOR_yi_yeong.png"
+			expire = "1965.1.1"
+			ideology = despotism
+			traits = {
+				#
+			}	
+		}
+    }	
+	CHI = {
+		annex_country = {
+			target = WZC
+			transfer_troops = yes
+		}
+	}
+	408 = {
+		set_state_name = "프리모리예"
+	}
+	409 = {
+		set_state_name = "유즈노하바롭스카야"
+	}
+	561 = {
+		set_state_name = "세베르노아무르스카야"
+	}
+	657 = {
+		set_state_name = "유즈노아무르스카야"
+	}
+	560 = {
+		set_state_name = "세베르노하바롭스카야"
+	}
+	655 = {
+		set_state_name = "세베르노사할린스카야"
+	}
+	537 = {
+		set_state_name = "유즈노사할린스카야"
+	}
+	923 = {
+		set_state_name = "우수리스크"
+	}
+    set_province_name = {
+        id = 6961
+        name = "나홋카"
+    }
+    set_province_name = {
+        id = 3977
+        name = "우수리스크"
+    }
+    set_province_name = {
+        id = 12189
+        name = "하바롭스크"
+    }
+    set_province_name = {
+        id = 9639
+        name = "베르크네페레발스크"
+    }
+    set_province_name = {
+        id = 12446
+        name = "유즈노사할린스크"
+    }
+	if = {
+		limit = {
+			KOR = {
+				has_completed_focus = KOR_baekje_kisadan
+			}
+		}
+		JAP = {
+			annex_country = {
+				target = DKG
+				transfer_troops = no
+			}
+			annex_country = {
+				target = FJP
+				transfer_troops = no
+			}
+			annex_country = {
+				target = EJP
+				transfer_troops = no
+			}
+			annex_country = {
+				target = TBJ
+				transfer_troops = no
+			}
+			annex_country = {
+				target = NBJ
+				transfer_troops = no
+			}
+		}
+	}
+	if = {
+		limit = {
+			JAP = {
+				exists = no
+			}
+		}
+		JAP = {
+			transfer_state = 282
+			transfer_state = 526
+			transfer_state = 528
+			transfer_state = 529
+			transfer_state = 530
+			transfer_state = 531
+			transfer_state = 532
+			transfer_state = 533
+			transfer_state = 534
+			transfer_state = 535
+			transfer_state = 960
+			transfer_state = 961
+			transfer_state = 962
+			transfer_state = 963
+			transfer_state = 964
+			transfer_state = 965
+			transfer_state = 966
+			transfer_state = 967
+			transfer_state = 968
+			
+			transfer_state = 960
+			transfer_state = 961
+			transfer_state = 962
+			transfer_state = 528
+			transfer_state = 924
+			transfer_state = 959
+			transfer_state = 536
+			transfer_state = 645
+			add_state_core = 536
+			add_state_core = 924
+			add_state_core = 645
+		}
+	}
+	every_country = {
+		limit = {
+			has_idea = JAP_showa_hirohito_4
+		}
+		remove_ideas = JAP_showa_hirohito_4
+	}	
+}
+TLE_german_defeat_effect = {
+	set_global_flag = TLE_germany_union_defeat
+	add_named_threat = { threat = -10000 name = TLE_germany_union_defeat }
+	SOV = {
+		set_faction_name = "바르샤바 조약기구"
+	}
+	USA = {
+		activate_decision = NATO_brussels_treaty
+	}
+	every_country = {
+		add_ideas = TLE_afterwar_idea
+	}
+	every_country = {
+		limit = {
+			NOT = {
+				original_tag = KOR
+			}
+			is_japan_clique = no
+			is_chinese_clique = no
+			is_ai = yes
+		}
+		add_ideas = TLE_army_nuffer
+	}
+	BUL = {
+		set_politics = {
+			ruling_party = communism
+			last_election = "1932.3.8"
+			election_frequency = 60
+			elections_allowed = yes
+		}
+		set_popularities = {
+			democratic = 8 #liberalism
+			fascism = 1 #nazism
+			communism = 81 #marxism
+			neutrality = 10 #despotism
+		}
+		transfer_state = 48
+		transfer_state = 212
+		transfer_state = 801
+		transfer_state = 211
+		transfer_state = 77
+	}
+    every_country = {
+    	limit = {
+    		has_war_with = GER
+    	}
+    	white_peace = GER
+    }
+    every_country = {
+    	limit = {
+    		is_in_faction_with = GER
+    	}
+    	leave_faction = yes
+		white_peace = ENG
+		white_peace = SOV
+    }
+    POL = {
+    	transfer_state = 97
+    	transfer_state = 5
+    	transfer_state = 762
+    	transfer_state = 67
+    	transfer_state = 66
+    	transfer_state = 68
+    	transfer_state = 63
+    	transfer_state = 98
+    	transfer_state = 10
+    	transfer_state = 92
+    	transfer_state = 88
+    	transfer_state = 90
+    	transfer_state = 87
+    	transfer_state = 86
+    	transfer_state = 807
+    	transfer_state = 85
+		set_cosmetic_tag = POL_WW2
+		annex_country = {
+			target = POL
+			transfer_troops = yes
+		}
+    }
+	ROM = {
+		set_cosmetic_tag = ROM_WW2
+	}
+	HUN = {
+		set_cosmetic_tag = HUN_WW2
+	}
+	ALB = {
+		set_cosmetic_tag = ALB_WW2
+	}
+	CZE = {
+		set_cosmetic_tag = CZE_WW2
+	}
+	every_country = {
+		limit = {
+			original_tag = BUL
+			has_government = communism
+		}
+		set_cosmetic_tag = BUL_WW2
+	}
+    SOV = {
+    	transfer_state = 146
+    	transfer_state = 763
+    	transfer_state = 188
+    	transfer_state = 73
+    	transfer_state = 722
+    	#독일
+    	transfer_state = 64
+    	transfer_state = 62
+    	transfer_state = 61
+    	transfer_state = 65
+    	transfer_state = 60
+		
+		transfer_state = 784
+		transfer_state = 96
+		transfer_state = 95
+		transfer_state = 94
+		transfer_state = 93
+		transfer_state = 91
+		transfer_state = 89
+		
+		transfer_state = 80
+		transfer_state = 78
+		transfer_state = 766
+		
+    	add_state_core = 146
+    	add_state_core = 763
+    	add_state_core = 188
+    	add_state_core = 73
+    	add_state_core = 722
+    	#독일
+    	add_state_core = 64
+    	add_state_core = 62
+    	add_state_core = 61
+    	add_state_core = 65
+    	add_state_core = 60
+		
+		add_state_core = 784
+		add_state_core = 96
+		add_state_core = 95
+		add_state_core = 94
+		add_state_core = 93
+		add_state_core = 91
+		add_state_core = 89
+		
+		add_state_core = 80
+		add_state_core = 78
+		add_state_core = 766
+		
+		every_state = {
+			limit = {
+				OR = {
+					is_core_of = LIT
+					is_core_of = LAT
+					is_core_of = EST
+				}
+			}
+			add_core_of = SOV
+		}
+    	puppet = POL
+    	puppet = ROM
+    	puppet = HUN
+    	puppet = ALB
+    	puppet = BUL
+		if = {
+			limit = {
+				is_historical_focus_on = yes
+				EST = {
+					is_ai = yes
+				}
+			}	
+			annex_country = {
+				target = EST
+				transfer_troops = yes
+			}	
+		}
+		if = {
+			limit = {
+				is_historical_focus_on = yes
+				LIT = {
+					is_ai = yes
+				}
+			}	
+			annex_country = {
+				target = LIT
+				transfer_troops = yes
+			}	
+		}
+		if = {
+			limit = {
+				is_historical_focus_on = yes
+				LAT = {
+					is_ai = yes
+				}
+			}	
+			annex_country = {
+				target = LAT
+				transfer_troops = yes
+			}	
+		}
+    }
+    USA = {
+    	transfer_state = 54
+    	transfer_state = 53
+    	transfer_state = 52
+    	transfer_state = 55
+    	country_event = {
+    		id = korea.175
+    		days = 2
+    	}
+    }
+    ENG = {
+    	transfer_state = 51
+    	transfer_state = 57
+    	transfer_state = 56
+    	transfer_state = 59
+    	transfer_state = 58
+		
+		transfer_state = 448
+		transfer_state = 661
+		transfer_state = 662
+		transfer_state = 449
+		transfer_state = 450
+		transfer_state = 663
+		transfer_state = 451
+		transfer_state = 273
+		
+		transfer_state = 453
+		transfer_state = 455
+		transfer_state = 454
+		add_to_faction = CZE
+    }
+    FRA = {
+		
+		transfer_state = 33
+		transfer_state = 26
+		transfer_state = 25
+		transfer_state = 31
+		transfer_state = 22
+		transfer_state = 20
+		transfer_state = 32
+		transfer_state = 21
+		transfer_state = 28
+		transfer_state = 735
+		transfer_state = 851
+		transfer_state = 1
+	
+    	transfer_state = 42
+    	transfer_state = 50
+		
+		transfer_state = 458
+		transfer_state = 665
+		transfer_state = 460
+		transfer_state = 513
+		transfer_state = 459
+		transfer_state = 461
+		transfer_state = 462
+		transfer_state = 514
+		transfer_state = 775
+		
+		transfer_state = 706
+		transfer_state = 543
+		transfer_state = 708
+		transfer_state = 713
+		transfer_state = 713
+		
+		transfer_state = 550
+		
+		transfer_state = 786
+		transfer_state = 782
+		transfer_state = 515
+		transfer_state = 898
+		transfer_state = 774
+		transfer_state = 660
+		transfer_state = 773
+		transfer_state = 539
+		transfer_state = 776
+		transfer_state = 781
+		transfer_state = 778
+		transfer_state = 779
+		transfer_state = 556
+		transfer_state = 780
+		transfer_state = 272
+		transfer_state = 899
+		transfer_state = 557	
+		transfer_state = 777		
+		transfer_state = 772
+    }
+	ALB = {
+		transfer_state = 44
+		transfer_state = 805
+	}
+	ETH = {
+		transfer_state = 908
+	}
+    AUS = {
+    	transfer_state = 4
+    	transfer_state = 152
+    	transfer_state = 153
+    	transfer_state = 848
+    }
+    CZE = {
+    	transfer_state = 9
+    	transfer_state = 69
+    	transfer_state = 75
+    	transfer_state = 74
+    	transfer_state = 72
+    	transfer_state = 70
+    	transfer_state = 71
+    	transfer_state = 664
+		add_ideas = TLE_afterwar_idea
+    }
+	GRE = {
+		transfer_state = 731
+		transfer_state = 184
+	}
+    every_state = {
+    	limit = {
+    		is_core_of = GER
+    	}
+    	remove_core_of = GER
+    }
+    every_state = {
+    	limit = {
+    		is_claimed_by = GER
+    	}
+    	remove_claim_by = GER
+    }
+	every_state = {
+		limit = {
+			is_claimed_by = SOV
+			NOT = {
+				is_core_of = SOV
+			}
+			is_owned_by = SOV
+		}
+		add_core_of = SOV
+	}
+	YUG = {
+		transfer_state = 736
+		transfer_state = 852
+		transfer_state = 163
+		
+		transfer_state = 105
+		transfer_state = 803
+		transfer_state = 106
+		transfer_state = 853
+		transfer_state = 103
+	}
+	if = {
+		limit = {
+			tag = ITA 
+			has_government = democratic
+		}
+		transfer_state = 39
+		transfer_state = 850
+		transfer_state = 160
+		transfer_state = 159	
+		transfer_state = 158
+		transfer_state = 161
+		transfer_state = 162
+		transfer_state = 157
+		transfer_state = 2
+		transfer_state = 849
+		transfer_state = 117
+		transfer_state = 156
+		transfer_state = 115
+	}
+	if = {
+		limit = {
+			ITA = {
+				NOT = {
+					has_government = democratic
+				}
+			}
+		}
+		every_country = {
+			limit = {
+				original_tag = ITA
+				NOT = {
+					tag = ITA
+				}
+				NOT = {
+					has_government = fascism
+				}
+			}
+			transfer_state = 39
+			transfer_state = 850
+			transfer_state = 160
+			transfer_state = 159	
+			transfer_state = 158
+			transfer_state = 161
+			transfer_state = 162
+			transfer_state = 157
+			transfer_state = 2
+			transfer_state = 849
+			transfer_state = 117
+			transfer_state = 156
+			transfer_state = 115
+		}
+	}
+	ITA = {
+		set_politics = {
+			ruling_party = democratic
+			last_election = "1932.3.8"
+			election_frequency = 60
+			elections_allowed = yes
+		}
+		set_popularities = {
+			democratic = 70 #liberalism
+			fascism = 8 #nazism
+			communism = 12 #marxism
+			neutrality = 10 #despotism
+		}
+		set_cosmetic_tag = ITA_WW2
+		remove_ideas = vittorio_emanuele
+		remove_ideas = vittorio_emanuele_emperor_of_ethiopia
+		remove_ideas = vittorio_emanuele_king_of_albania
+		remove_ideas = vittorio_emanuele_albania_ethiopia
+		add_ideas = ITA_umberto_ii_king
+		#
+		remove_ideas = ITA_camicie_nere
+		remove_ideas = ITA_german_military_cooperation_focus
+		remove_ideas = ITA_italian_irredentism_ns
+		retire_character = ITA_benito_mussolini
+		remove_country_leader_role = {
+			character = ITA_vittorio_emanuele_iii
+			ideology = despotism
+		}
+		add_country_leader_role = {
+			character = ITA_prince_umberto
+			ideology = despotism
+		}
+	}	
+	ROM = {
+		transfer_state = 76
+	}
+	188 = {
+		set_state_name = "클라이페다"
+	}
+    set_province_name = {
+        id = 3288
+        name = "클라이페다"
+    }
+	763 = {
+		set_state_name = "칼리닌그라드"
+	}
+    set_province_name = {
+        id = 6332
+        name = "칼리닌그라드"
+    }
+	5 = {
+		set_state_name = "바르미야-마주리야"
+	}
+    set_province_name = {
+        id = 6375
+        name = "올슈틴"
+    }
+	67 = {
+		set_state_name = "실롱스크"
+	}
+    set_province_name = {
+        id = 11467
+        name = "글리비체"
+    }
+    set_province_name = {
+        id = 9511
+        name = "오폴레"
+    }
+	66 = {
+		set_state_name = "돌니실롱스크"
+	}
+    set_province_name = {
+        id = 9570
+        name = "브로츠와프"
+    }
+	63 = {
+		set_state_name = "포모제"
+	}
+    set_province_name = {
+        id = 11372
+        name = "코잘린"
+    }
+    set_province_name = {
+        id = 6282
+        name = "슈체친"
+    }
+	68 = {
+		set_state_name = "루부시"
+	}
+    set_province_name = {
+        id = 3473
+        name = "코스트신나트오드롱"
+    }
+	85 = {
+		set_state_name = "그단스크"
+	}
+    set_province_name = {
+        id = 362
+        name = "그단스크"
+    }
+	if = {
+		limit = {
+			GER = {
+				owns_state = 671
+				owns_state = 286
+				owns_state = 741
+				owns_state = 670
+			}
+		}
+		FRA = {
+			transfer_state = 671
+			transfer_state = 286
+			transfer_state = 741
+			transfer_state = 670
+		}
+	}
+}
+TLE_soviet_defeat_effect = {
+	set_global_flag = TLE_soviet_union_defeat
+	add_named_threat = { threat = -1000 name = TLE_germany_union_defeat }
+	every_country = {
+		add_ideas = TLE_afterwar_idea
+	}
+    every_country = {
+    	limit = {
+    		has_war_with = SOV
+    	}
+    	white_peace = SOV
+    }
+	ITA = {
+		set_cosmetic_tag = ITA_EMPIRE
+		end_puppet = ITA
+		
+	}
+    GER = {
+    	white_peace = SOV
+		end_puppet = ITA
+		country_event = {
+			id = korea.178
+		}
+		transfer_state = 807
+		transfer_state = 85
+		transfer_state = 86
+		transfer_state = 762
+		add_state_core = 807
+		add_state_core = 85
+		add_state_core = 86
+		add_state_core = 762
+		#
+    	transfer_state = 91
+    	transfer_state = 89
+    	transfer_state = 93
+    	transfer_state = 94
+    	transfer_state = 95
+    	transfer_state = 784
+    	transfer_state = 96
+    	transfer_state = 97
+    	transfer_state = 814
+    	transfer_state = 11
+    	transfer_state = 815
+    	transfer_state = 188
+    	transfer_state = 190
+    	transfer_state = 809
+    	transfer_state = 810
+    	transfer_state = 808
+    	transfer_state = 12
+    	transfer_state = 191
+    	transfer_state = 13
+    	transfer_state = 813
+    	transfer_state = 812
+    	transfer_state = 811
+    	transfer_state = 201
+    	transfer_state = 199
+    	transfer_state = 202
+    	transfer_state = 203
+    	transfer_state = 197
+    	transfer_state = 193
+    	transfer_state = 225
+    	transfer_state = 259
+    	transfer_state = 226
+    	transfer_state = 196
+    	transfer_state = 200
+    	transfer_state = 227
+    	transfer_state = 228
+    	transfer_state = 221
+    	transfer_state = 137
+    	transfer_state = 224
+    	transfer_state = 194
+    	transfer_state = 241
+    	transfer_state = 204
+    	transfer_state = 206
+    	transfer_state = 207
+    	transfer_state = 189
+    	transfer_state = 208
+    	transfer_state = 209
+    	transfer_state = 210
+    	transfer_state = 242
+    	transfer_state = 243
+    	transfer_state = 205
+    	transfer_state = 223
+    	transfer_state = 222
+    	transfer_state = 220
+    	transfer_state = 240
+    	transfer_state = 260
+    	transfer_state = 265
+    	transfer_state = 245
+    	transfer_state = 218
+    	transfer_state = 237
+    	transfer_state = 234
+    	transfer_state = 235
+    	transfer_state = 232
+    	transfer_state = 233
+    	transfer_state = 827
+    	transfer_state = 828
+    	transfer_state = 821
+    	transfer_state = 826
+    	transfer_state = 231
+    	transfer_state = 229
+    	transfer_state = 230
+    	transfer_state = 238
+    	transfer_state = 217
+    	transfer_state = 236
+    	transfer_state = 258
+    	transfer_state = 257
+    	transfer_state = 254
+    	transfer_state = 219
+    	transfer_state = 247
+    	transfer_state = 246
+    	transfer_state = 263
+    	transfer_state = 244
+    	transfer_state = 195
+    	transfer_state = 264
+    	transfer_state = 248
+    	transfer_state = 253
+    	transfer_state = 351
+    	transfer_state = 879
+    	transfer_state = 214
+    	transfer_state = 880
+    }
+	ROM = {
+    	transfer_state = 78
+    	transfer_state = 766
+    	transfer_state = 80
+		
+    	transfer_state = 834
+    	transfer_state = 192
+    	transfer_state = 198
+	}
+    SOV = {
+    	set_capital = { state = 398 }
+    	set_cosmetic_tag = SOV_perm_government
+    	add_country_leader_role = {
+    		Character = SOV_lavrenty_beriya
+    		country_leader = {
+    			expire = "1965.1.1"
+    			ideology = stalinism
+    			traits = { head_of_the_nkvd_beriya_initial }
+    		}
+    		promote_leader = yes
+    	}
+    }
+    if = {
+    	limit = {
+    		FIN = {
+    			exists = yes
+    		}
+    	}
+    	FIN = {
+    		transfer_state = 146
+    		transfer_state = 147
+    		transfer_state = 722
+    		transfer_state = 213
+    		transfer_state = 215
+    		transfer_state = 216
+    	}
+    }
+    if = {
+    	limit = {
+    		FIN = {
+    			exists = no
+    		}
+    	}
+    	GER = {
+    		release = FIN
+    	}
+    	FIN = {
+    		transfer_state = 146
+    		transfer_state = 147
+    		transfer_state = 722
+    		transfer_state = 213
+    		transfer_state = 215
+    		transfer_state = 216
+    	}
+    }
+	SOV = {
+		annex_country = {
+			target = SOV
+			transfer_troops = yes
+		}
+	}
+}
+GER_victory_at_ww2 = {
+	set_global_flag = GB_Germany_victory_at_ww2
+	hidden_effect = {
+		ITA = {
+			create_faction = "트라움비라투스"
+			transfer_state = 2
+			transfer_state = 157
+			transfer_state = 117
+			transfer_state = 849
+			transfer_state = 156
+			transfer_state = 115
+			transfer_state = 114
+			transfer_state = 1
+			transfer_state = 162
+			transfer_state = 161
+			transfer_state = 158
+			transfer_state = 159
+			transfer_state = 160
+			transfer_state = 850
+			transfer_state = 39
+			transfer_state = 736
+			transfer_state = 852
+			transfer_state = 103
+			transfer_state = 853
+			transfer_state = 735
+			transfer_state = 452
+			transfer_state = 447
+			transfer_state = 907
+			transfer_state = 552
+			transfer_state = 456
+			transfer_state = 457
+			transfer_state = 454
+			transfer_state = 453
+			transfer_state = 455
+			transfer_state = 269
+			transfer_state = 268
+			transfer_state = 908
+			transfer_state = 458
+			transfer_state = 665
+			annex_country = {
+				target = ETH
+				transfer_troops = no
+			}
+		}
+		if = {
+			limit = {
+				ITA = {
+					NOT = {
+						has_idea = vittorio_emanuele
+						has_idea = vittorio_emanuele_emperor_of_ethiopia
+						has_idea = vittorio_emanuele_king_of_albania
+						has_idea = vittorio_emanuele_albania_ethiopia
+					}
+				}
+			}
+			ITA = {
+				add_ideas = ITA_umberto_ii_king
+			}
+		}
+		if = {
+			limit = {
+				KOR = {
+					has_government = fascism
+				}
+			}
+			KOR = {
+				transfer_state = 671
+				transfer_state = 670
+				transfer_state = 741
+				transfer_state = 286
+			}
+		}
+		every_country = {
+			limit = {
+				original_tag = ITA 
+				NOT = {
+					tag = ITA
+					has_government = fascism
+				}
+			}
+			white_peace = ITA
+		}
+		every_country = {
+			limit = {
+				has_war_with = GER
+			}
+			white_peace = GER
+			white_peace = ROM
+			white_peace = ITA
+			white_peace = BUL
+			white_peace = SPR
+		}
+		ENG = {
+			transfer_state = 101
+			
+			transfer_state = 774
+			transfer_state = 660
+			transfer_state = 773
+			transfer_state = 772
+			transfer_state = 539
+			
+			transfer_state = 776
+			transfer_state = 777
+			transfer_state = 781
+			transfer_state = 778
+			transfer_state = 898
+			transfer_state = 556
+			transfer_state = 779
+			transfer_state = 899
+			transfer_state = 780
+			transfer_state = 272
+		}
+		BUL = {
+			leave_faction = yes
+		}
+		HUN = {
+			leave_faction = yes
+		}
+		ROM = {
+			leave_faction = yes
+		}
+		SER = {
+			leave_faction = yes
+		}
+		every_country = {
+			limit = {
+				original_tag = FRA 
+				NOT = {
+					tag = FRA
+				}
+				has_government = fascism 
+			}
+			transfer_state = 806
+			transfer_state = 19
+			transfer_state = 23
+			transfer_state = 30
+			transfer_state = 14
+			transfer_state = 24
+			transfer_state = 27
+			transfer_state = 16
+			transfer_state = 15
+			transfer_state = 461
+			transfer_state = 462
+			transfer_state = 459
+			transfer_state = 513
+			transfer_state = 514
+			transfer_state = 782
+			transfer_state = 786
+			transfer_state = 515
+			set_capital = { state = 16 }
+		}
+		GER = {
+			transfer_state = 446
+			annex_country = {
+				target = POL
+				transfer_troops = no
+			}
+			annex_country = {
+				target = AUS
+				transfer_troops = no
+			}
+			annex_country = {
+				target = CZE
+				transfer_troops = no
+			}
+			set_autonomy = {
+				target = UKR
+				autonomous_state = autonomy_reichskommissariat
+			}
+			set_autonomy = {
+				target = BLR
+				autonomous_state = autonomy_reichskommissariat
+			}
+			set_autonomy = {
+				target = GEO
+				autonomous_state = autonomy_reichskommissariat
+			}
+			set_autonomy = {
+				target = NOR
+				autonomous_state = autonomy_reichskommissariat
+			}
+			set_autonomy = {
+				target = SIL
+				autonomous_state = autonomy_reichskommissariat
+			}
+			add_state_core = 85
+			add_state_core = 807
+			add_state_core = 86
+			add_state_core = 762
+			add_state_core = 102
+			add_state_core = 4
+			add_state_core = 152
+			add_state_core = 153
+			add_state_core = 848
+			add_state_core = 28
+			add_state_core = 8
+			
+			transfer_state = 188
+			transfer_state = 35
+			transfer_state = 7
+			transfer_state = 36
+			transfer_state = 34
+			transfer_state = 6
+			transfer_state = 37
+			transfer_state = 99
+			
+			transfer_state = 8
+			transfer_state = 28
+			transfer_state = 29
+			transfer_state = 785
+			transfer_state = 18
+			transfer_state = 17
+			transfer_state = 764
+			transfer_state = 102
+		
+			transfer_state = 845
+			transfer_state = 3
+			transfer_state = 151
+		}
+		NOR = {
+			set_cosmetic_tag = NOR_reichskommissariat
+			transfer_state = 110
+			transfer_state = 142
+			transfer_state = 143
+			transfer_state = 144
+		}
+		CRO = {
+			transfer_state = 109
+			transfer_state = 104
+			transfer_state = 804
+		}
+		HUN = {
+			transfer_state = 664
+			transfer_state = 73
+			transfer_state = 45
+		}
+		SER = {
+			transfer_state = 107
+			transfer_state = 108
+			transfer_state = 802
+		}
+		BUL = {
+			transfer_state = 803
+			transfer_state = 106
+			transfer_state = 184
+			transfer_state = 731
+		}
+		every_country = {
+			limit = {
+				original_tag = FRA
+				has_government = fascism
+			}
+			transfer_state = 557
+			transfer_state = 461
+			transfer_state = 462
+			transfer_state = 459
+			transfer_state = 513
+			transfer_state = 514
+			transfer_state = 782
+			transfer_state = 786
+			transfer_state = 515
+		}	
+		every_country = {
+			limit = {
+				original_tag = ITA
+				has_government = fascism
+			}
+			transfer_state = 39
+			transfer_state = 850
+			transfer_state = 160
+			transfer_state = 159	
+			transfer_state = 158
+			transfer_state = 161
+			transfer_state = 162
+			transfer_state = 157
+			transfer_state = 2
+			transfer_state = 849
+			transfer_state = 117
+			transfer_state = 156
+			transfer_state = 115
+			puppet = MNT
+			puppet = GRE
+			transfer_state = 853
+			transfer_state = 103
+			transfer_state = 735
+			transfer_state = 1
+			
+			transfer_state = 847
+			transfer_state = 846
+			transfer_state = 665
+			transfer_state = 458
+			annex_country = {
+				target = ETH
+				transfer_troops = yes
+			}
+		}
+		MNT = {
+			transfer_state = 105
+		}
+		15 = {
+			set_demilitarized_zone = yes
+		}
+		16 = {
+			set_demilitarized_zone = yes
+		}
+		27 = {
+			set_demilitarized_zone = yes
+		}
+		20 = {
+			set_demilitarized_zone = yes
+		}
+		32 = {
+			set_demilitarized_zone = yes
+		}
+		21 = {
+			set_demilitarized_zone = yes
+		}
+		851 = {
+			set_demilitarized_zone = yes
+		}
+	}
+}

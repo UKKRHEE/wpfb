@@ -69,3 +69,36 @@ country_event = { #파시
 		}
 	}
 }
+country_event = { #악!
+	id = korea.994
+	title = korea.994.t
+	desc = korea.994.d
+	picture = GFX_report_event_KOR_korea
+
+	is_triggered_only = yes
+	
+	option = {
+		name = korea.0.
+		uncomplete_national_focus = {
+			focus = KOR_socialdemocracy0
+			uncomplete_children = yes
+			refund_political_power = no
+		}
+	}
+	option = {
+		name = korea.0.
+		uncomplete_national_focus = {
+			focus = KOR_liberalism0
+			uncomplete_children = yes
+			refund_political_power = no
+		}
+	}
+	option = {
+		name = korea.0.
+		uncomplete_national_focus = {
+			focus = KOR_conservatism0
+			uncomplete_children = yes
+			refund_political_power = no
+		}
+	}
+}

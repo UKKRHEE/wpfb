@@ -45,6 +45,11 @@
  KOR_labor_rights_no:0 "노동권 부재"
  KOR_labor_rights_no_desc:0 "한국의 자본주의는 이제 막 태동기를 거쳐 성장 중이지만 모순은 어느 열강에 못지 않습니다. 자본가들은 노동자를 찍어 누르기 바쁘며 노동자들은 이에 맞서 파업을 일삼기 바쁩니다."
  KOR_labor_rights_n2:0 "어용노조"
+ KOR_labor_rights_sd:0 "생존권 보장"
+ KOR_labor_rights_sd2:0 "노조 합법화"
+ KOR_labor_rights_sd3:0 "노동삼권 보장"
+ KOR_labor_rights_sd4:0 "해소된 빈부격차"
+ KOR_laboralism:0 "복지주의"
  KOR_intel:0 "제국익문사"
  KOR_intel_desc:0 "제국익문사는 황제 직속의 정보기관입니다. 그들의 정보력과 첩보력은 믿음직스럽지만 황제에게만 책임을 지는 구조상 정부는 익문사에 지원을 받을 수는 있지만 명령을 할 수는 없습니다."
  KOR_great_depression:0 "대공황"
@@ -53,6 +58,12 @@
  KOR_price_control:0 "물가 통제"
  KOR_yi_sun_sin_legacy:0 "필사즉생 필생즉사"
  KOR_money_use:0 "사용된 예산"
+ KOR_the_started_public_education:0 "공교육 확대"
+ KOR_land_problem_sd:0 "지주들의 반발"
+ KOR_sde_empire:0 "평등의 나라"
+ KOR_daejunghwa:0 "정부통제 강화"
+ 
+ TLE_up_the_economic_level_tt:0 "§Y경제법§! §G1§!단계 §Y강화§!."
  
  ### 한국 지도자 ###
  #공산주의

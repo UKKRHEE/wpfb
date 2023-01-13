@@ -2739,7 +2739,14 @@
 		
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
-			add_political_power = 100
+			add_political_power = 120
+			hidden_effect = {
+				set_party_name = {
+					ideology = democratic
+					long_name = "신한청년당"
+					name = "신한청년당"
+				}
+			}
 		}
 	}
 	
@@ -2760,7 +2767,17 @@
 		
 		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
 		completion_reward = {
-			add_political_power = 100
+			add_popularity = {
+				ideology = neutrality
+				popularity = -0.1
+			}
+			hidden_effect = {
+				set_party_name = {
+					ideology = neutrality
+					long_name = "황국협회"
+					name = "황국협회"
+				}
+			}
 		}
 	}
 	
@@ -2781,7 +2798,11 @@
 		
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-			add_political_power = 100
+			add_stability = 0.05
+			swap_ideas = {
+				add_idea = KOR_labor_rights_sd
+				remove_idea = KOR_labor_rights_no
+			}
 		}
 	}
 	
@@ -2802,8 +2823,10 @@
 		
 		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_STABILITY }
 		completion_reward = {
-			add_political_power = 100
-			add_stability = 0.05
+			swap_ideas = {
+				add_idea = KOR_questions_government2
+				remove_idea = KOR_questions_government
+			}
 		}
 	}
 	
@@ -2821,10 +2844,22 @@
 		available = {
 			#
 		}
+		bypass = {
+			OR = {
+				has_country_flag = flag_KOR_socialdemocracy4
+				has_country_flag = flag_KOR_liberalism4
+				has_country_flag = flag_KOR_conservatism4
+			}
+		}
 		
 		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_RESEARCH }
 		completion_reward = {
-			add_political_power = 100
+			add_research_slot = 1
+			add_timed_idea = {
+				idea = KOR_the_started_public_education
+				days = 720
+			}
+			set_country_flag = flag_KOR_socialdemocracy4
 		}
 	}
 	
@@ -2854,7 +2889,10 @@
 		
 		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
 		completion_reward = {
-			add_political_power = 100
+			swap_ideas = {
+				add_idea = KOR_intel_sd
+				remove_idea = KOR_intel
+			}
 		}
 	}
 	
@@ -2884,7 +2922,10 @@
 		
 		search_filters = { FOCUS_FILTER_RESEARCH }
 		completion_reward = {
-			add_political_power = 100
+			swap_ideas = {
+				add_idea = KOR_labor_rights_sd2
+				remove_idea = KOR_labor_rights_sd
+			}
 		}
 	}
 	
@@ -2914,7 +2955,23 @@
 		
 		search_filters = { FOCUS_FILTER_RESEARCH }
 		completion_reward = {
-			add_political_power = 100
+			custom_effect_tooltip = KOR_socialdemocracy7_tt
+			hidden_effect = {
+				remove_ideas = KOR_land_problem
+				add_timed_idea = {
+					idea = KOR_land_problem_sd
+					days = 720
+				}
+				every_state = {
+					limit = {
+						is_core_of = KOR
+						NOT = {
+							is_core_of = CHI
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+				}
+			}
 		}
 	}
 	
@@ -2935,7 +2992,11 @@
 		
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-			add_political_power = 100
+			add_stability = 0.05
+			add_popularity = {
+				ideology = democratic
+				popularity = 0.1
+			}
 		}
 	}
 	
@@ -2962,7 +3023,10 @@
 		
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-			add_political_power = 100
+			swap_ideas = {
+				add_idea = KOR_labor_rights_sd4
+				remove_idea = KOR_labor_rights_sd3
+			}
 		}
 	}
 	
@@ -2983,7 +3047,10 @@
 		
 		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_STABILITY }
 		completion_reward = {
-			add_political_power = 100
+			add_timed_idea = {
+				idea = KOR_laboralism
+				days = 720
+			}
 		}
 	}
 	
@@ -3111,10 +3178,18 @@
 		available = {
 			#
 		}
+		bypass = {
+			OR = {
+				has_country_flag = flag_KOR_socialdemocracy4
+				has_country_flag = flag_KOR_liberalism4
+				has_country_flag = flag_KOR_conservatism4
+			}
+		}
 
 		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_RESEARCH }
 		completion_reward = {
 			add_political_power = 80
+			set_country_flag = flag_KOR_liberalism4
 		}
 	}
 	
@@ -3409,11 +3484,19 @@
 		available = {
 			#
 		}
+		bypass = {
+			OR = {
+				has_country_flag = flag_KOR_socialdemocracy4
+				has_country_flag = flag_KOR_liberalism4
+				has_country_flag = flag_KOR_conservatism4
+			}
+		}
 		
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
 			#
 			add_political_power = 100
+			set_country_flag = flag_KOR_conservatism4
 		}
 	}
 	
@@ -4317,7 +4400,8 @@
 		
 		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
 		completion_reward = {
-			add_stability = 0.05
+			add_political_power = 200
+			add_stability = -0.1
 		}
 	}
 	
@@ -4375,7 +4459,7 @@
 		
 		search_filters = {  }
 		completion_reward = {
-			#
+			TLE_up_the_economic_level = yes
 		}
 	}
 	
@@ -4397,7 +4481,7 @@
 
 		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
 		completion_reward = {
-			add_stability = 0.075
+			add_war_support = 0.05
 			#
 		}
 	}
@@ -4416,7 +4500,10 @@
 
 		search_filters = { FOCUS_FILTER_INTERNAL_AFFAIRS FOCUS_FILTER_RESEARCH }
 		completion_reward = {
-			#
+			add_timed_idea = {
+				idea = KOR_daejunghwa
+				days = 365
+			}
 		}
 	}
 	
@@ -4434,7 +4521,13 @@
 
 		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
 		completion_reward = {
-			add_stability = 0.05
+			add_popularity = { ideology = fascism popularity = 1 }
+			set_temp_variable = { democratic_temp = party_popularity@democratic }
+			multiply_temp_variable = { democratic_temp = -0.25 }
+			add_stability = democratic_temp
+			set_temp_variable = { neutrality_temp = party_popularity@neutrality }
+			multiply_temp_variable = { neutrality_temp = -0.25 }
+			add_stability = neutrality_temp
 		}
 	}
 	
@@ -4452,7 +4545,10 @@
 		
 		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-			add_stability = 0.02
+			swap_ideas = {
+				add_idea = KOR_intel_f
+				remove_idea = KOR_intel
+			}
 		}
 	}
 	
@@ -4544,7 +4640,25 @@
 
 		search_filters = { FOCUS_FILTER_INTERNAL_AFFAIRS FOCUS_FILTER_POLITICAL }
 		completion_reward = {
-			add_political_power = 75
+			add_political_power = 100
+			custom_effect_tooltip = KOR_national_populist13_tt
+			hidden_effect = {
+				set_party_name = {
+					ideology = neutrality
+					long_name = "대한민족청년단 보수파"
+					name = "대한민족청년단"
+				}
+				set_party_name = {
+					ideology = democratic
+					long_name = "대한민족청년단 개혁파"
+					name = "대한민족청년단"
+				}
+				set_party_name = {
+					ideology = communism
+					long_name = "대한민족청년단 좌파"
+					name = "대한민족청년단"
+				}
+			}
 		}
 	}
 	
