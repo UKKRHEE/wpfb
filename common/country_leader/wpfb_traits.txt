@@ -56,6 +56,20 @@ leader_traits = {
 	daemagliji = {
 		random = no
 		
+		war_support_factor = 0.15
+		air_chief_cost_factor = -0.15
+		army_chief_cost_factor = -0.15
+		navy_chief_cost_factor = -0.15
+		high_command_cost_factor = -0.15
+		fascism_acceptance = 25
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	daemagliji2 = {
+		random = no
+		
 		war_support_factor = 0.25
 		air_chief_cost_factor = -0.25
 		army_chief_cost_factor = -0.25

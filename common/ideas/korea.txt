@@ -1,8 +1,37 @@
 ideas = {
 	country = {
-		KOR_daejunghwa = {
+		############# 
+		### 입헌군주 ###
+		#############
 		
-			picture = SOV_third_five_year_plan
+		### 건흥제 이우 ###
+		KOR_constitutional_monarch_yi_wu = {
+			
+			available = {
+				NOT = {
+					has_government = communism
+				}
+			}
+
+			allowed = {
+				original_tag = KOR
+			}
+
+			allowed_civil_war = {
+				NOT ={
+					has_government = communism
+				}
+			}
+			
+			removal_cost = -1
+			
+			traits = {
+				emperor_geonheung
+			}
+		}
+		
+		### 유제 이청 ###
+		KOR_constitutional_monarch_yi_cheong = {
 			
 			allowed = {
 				always = no
@@ -14,77 +43,16 @@ ideas = {
 
 			removal_cost = -1
 			
-			modifier = {
-				political_power_factor = -0.05
-				stability_weekly = 0.001
-				war_support_weekly = 0.001
+			traits = {
+				underage_monarch
 			}
 		}
-		KOR_the_started_public_education = {
-			name = KOR_the_started_public_education
-			
-			picture = SOV_third_five_year_plan
-			
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = no			
-			}
-
-			removal_cost = -1
-			
-			modifier = {
-				research_speed_factor = 0.05
-				stability_factor = 0.05
-				consumer_goods_factor = 0.075
-			}
-		}
-		KOR_sde_empire = {
-			
-			picture = ENG_imperial_conscription_idea #교체요망
-			
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = no			
-			}
-			
-			removal_cost = -1
-			
-			modifier = {
-				consumer_goods_factor = 0.05
-				stability_factor = 0.1
-				monthly_population = 0.005
-				surrender_limit = 0.1
-				max_surrender_limit_offset = 0.1
-			}
-		}
-		KOR_laboralism = {
-			
-			picture = ENG_imperial_conscription_idea #교체요망
-			
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = no			
-			}
-			
-			removal_cost = -1
-			
-			modifier = {
-				political_power_factor = -0.1
-				consumer_goods_factor = 0.1
-				conscription_factor = 0.2
-				monthly_population = 0.01
-				stability_weekly = 0.001	
-			}
-		}
+		
+		############# 
+		### 기본보유 ###
+		#############
+		
+		### 정부에 대한 의문 ###
 		KOR_questions_government = {
 
 			allowed = {
@@ -106,6 +74,8 @@ ideas = {
 				economy_cost_factor = 0.25
 			}
 		}
+		
+		### 정부에 대한 의문(효과 완화) ###
 		KOR_questions_government2 = {
 			name = KOR_questions_government
 			
@@ -130,6 +100,8 @@ ideas = {
 				economy_cost_factor = 0.15
 			}
 		}
+		
+		### 육주해종 ###
 		KOR_army_up = {
 
 			picture = jap_interservice_rivalry_army_dominant
@@ -153,6 +125,8 @@ ideas = {
 				production_speed_dockyard_factor = -0.2
 			}
 		}
+		
+		### 육주해종(효과 완화) ###
 		KOR_army_up_2 = {
 			name = KOR_army_up
 			
@@ -177,6 +151,8 @@ ideas = {
 				production_speed_dockyard_factor = -0.1
 			}
 		}
+		
+		### 토지 문제 ###
 		KOR_land_problem = {
 
 			allowed = {
@@ -195,6 +171,8 @@ ideas = {
 				production_speed_buildings_factor = -0.3
 			}
 		}
+		
+		### 토지 문제(권위주의) ###
 		KOR_land_problem_n = {
 			name = KOR_land_problem
 			
@@ -215,25 +193,7 @@ ideas = {
 				production_speed_buildings_factor = -0.3
 			}
 		}
-		KOR_land_problem_sd = {
-			
-			picture = KOR_land_problem
-			
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = no			
-			}
-
-			removal_cost = -1
-			
-			modifier = {
-				conscription_factor = -0.25
-				production_speed_buildings_factor = -0.15
-			}
-		}
+		
 		### 노동권 부재 ###
 		KOR_labor_rights_no = {
 
@@ -253,7 +213,52 @@ ideas = {
 				industrial_capacity_dockyard = -0.1
 			}
 		}
-		### 노동권 부재 - 비동맹 ###
+		
+		### 노동권 부재(사민주의) ###
+		KOR_labor_rights_sd = {
+			name = KOR_labor_rights_no
+			
+			picture = KOR_labor_rights_no
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no			
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = -0.02
+				industrial_capacity_factory = -0.05
+				industrial_capacity_dockyard = -0.05
+			}
+		}
+		KOR_labor_rights_sd2 = {
+			name = KOR_socialdemocracy6
+			
+			picture = generic_production_bonus
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no			
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = 0.05
+				industrial_capacity_factory = 0.15
+				industrial_capacity_dockyard = 0.15
+			}
+		}
+		
+		### 노동권 부재(권위주의) ###
 		KOR_labor_rights_n = {
 			name = KOR_labor_rights_no
 			
@@ -317,8 +322,10 @@ ideas = {
 				industrial_capacity_dockyard = 0.06
 			}
 		}
-		### 노동권 부재 - 사회민주 ###
-		KOR_labor_rights_sd = {
+		
+		### 노동권 부재(파시스트) ###
+		KOR_labor_rights_f = {
+			name = KOR_labor_rights_no
 			
 			picture = KOR_labor_rights_no
 			
@@ -333,14 +340,15 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				consumer_goods_factor = 0.00
-				industrial_capacity_factory = -0.05
-				industrial_capacity_dockyard = -0.05
+				consumer_goods_factor = -0.03
+				industrial_capacity_factory = -0.07
+				industrial_capacity_dockyard = -0.07
 			}
 		}
-		KOR_labor_rights_sd2 = {
+		KOR_labor_rights_f2 = {
+			name = KOR_national_populist9
 			
-			picture = KOR_labor_rights_no
+			picture = tur_etatism
 			
 			allowed = {
 				always = no
@@ -353,14 +361,16 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				consumer_goods_factor = 0.03
-				industrial_capacity_factory = -0.03
-				industrial_capacity_dockyard = -0.03
+				production_factory_efficiency_gain_factor = 0.10
+				production_factory_max_efficiency_factor = 0.10
+				industrial_capacity_factory = 0.03
+				industrial_capacity_dockyard = 0.03
 			}
 		}
-		KOR_labor_rights_sd3 = {
+		KOR_labor_rights_f3 = {
+			name = KOR_national_populist9
 			
-			picture = KOR_labor_rights_no
+			picture = tur_etatism
 			
 			allowed = {
 				always = no
@@ -373,32 +383,14 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				consumer_goods_factor = 0.05
-				industrial_capacity_factory = 0.02
-				industrial_capacity_dockyard = 0.02
+				production_factory_efficiency_gain_factor = 0.20
+				production_factory_max_efficiency_factor = 0.20
+				industrial_capacity_factory = 0.10
+				industrial_capacity_dockyard = 0.10
 			}
 		}
-		KOR_labor_rights_sd4 = {
-			
-			picture = KOR_labor_rights_no
-			
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = no			
-			}
-
-			removal_cost = -1
-			
-			modifier = {
-				consumer_goods_factor = 0.07
-				industrial_capacity_factory = 0.05
-				industrial_capacity_dockyard = 0.05
-			}
-		}
-		### 노동권 부재 - 사회자유 ###
+		
+		### 제국익문사 ###
 		KOR_intel = {
 
 			allowed = {
@@ -417,31 +409,10 @@ ideas = {
 				decryption = 1
 			}
 		}
-		KOR_intel_n = {
-			name = KOR_intel
-			
-			picture = KOR_intel
-			
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = no			
-			}
-
-			removal_cost = -1
-			
-			modifier = {
-				political_power_factor = -0.25
-				encryption = 1
-				decryption = 1
-				operative_slot = 1
-				agency_upgrade_time = -0.15	
-			}
-		}
+		
+		### 제국익문사(사민주의) ###
 		KOR_intel_sd = {
-			name = KOR_intel
+			name = KOR_intel_d
 			
 			picture = KOR_intel
 			
@@ -456,12 +427,14 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				agency_upgrade_time = 0.15
-				operative_slot = 2
+				intelligence_agency_defense = 0.5
+				drift_defence_factor = 0.15
 			}
 		}
+		
+		### 제국익문사(자유주의) ###
 		KOR_intel_sl = {
-			name = KOR_intel
+			name = KOR_intel_d
 			
 			picture = KOR_intel
 			
@@ -476,15 +449,16 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				political_power_factor = -0.25
-				encryption = 1
-				decryption = 1
-				operative_slot = 1
-				agency_upgrade_time = -0.15	
+				civilian_intel_decryption_bonus = 50
+				army_intel_decryption_bonus = 50
+				navy_intel_decryption_bonus = 50
+				airforce_intel_decryption_bonus = 50
 			}
 		}
+		
+		### 제국익문사(보수주의) ###
 		KOR_intel_sc = {
-			name = KOR_intel
+			name = KOR_intel_d
 			
 			picture = KOR_intel
 			
@@ -499,15 +473,39 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				political_power_factor = -0.25
-				encryption = 1
-				decryption = 1
-				operative_slot = 1
-				agency_upgrade_time = -0.15	
+				intel_network_gain_factor = 0.2
+				intel_network_gain = 0.2
 			}
 		}
+		
+		### 제국익문사(권위주의) ###
+		KOR_intel_n = {
+			
+			picture = KOR_intel
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no			
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = -0.3
+				encryption = 1
+				decryption = 1
+				intel_network_gain_factor = 0.1
+				intel_network_gain = 0.10
+				intelligence_agency_defense = 0.5
+				operative_slot = 1
+			}
+		}
+		
+		### 제국익문사(파시스트) ###	
 		KOR_intel_f = {
-			name = KOR_intel
 			
 			picture = KOR_intel
 			
@@ -522,13 +520,16 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				political_power_factor = -0.25
 				encryption = 1
 				decryption = 1
-				operative_slot = 1
-				agency_upgrade_time = -0.15	
+				resistance_damage_to_garrison = -0.10
+				intel_network_gain = 0.10
+				intelligence_agency_defense = 0.5
+				resistance_growth = -0.1
 			}
 		}
+		
+		### 대공황 ###
 		KOR_great_depression = {
 			
 			picture = usa_great_depression_3
@@ -660,9 +661,15 @@ ideas = {
 				conscription_factor = -0.05
 			}
 		}
+		
+		#############
+		### 경제공용 ###
+		#############
+		
+		### 예산 확보 ###
 		KOR_securing_budget = {
 			
-			picture = SPR_seize_the_gold_reserves
+			picture = generic_foreign_capital
 			
 			allowed = {
 				always = no
@@ -678,6 +685,28 @@ ideas = {
 				consumer_goods_factor = -0.05
 			}
 		}
+		
+		### 사용된 예산 ###
+		KOR_money_use = {
+			
+			picture = ETH_customs_barrier_ITA
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no			
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = 0.05
+			}
+		}
+		
+		### 물가 통제 ###
 		KOR_price_control = {
 			
 			picture = chi_hyper_inflation
@@ -697,6 +726,54 @@ ideas = {
 				political_power_factor = -0.05
 			}
 		}
+		
+		### 태평성대 ###
+		KOR_reign_of_peace = {
+			name = KOR_f_factory_2
+			
+			picture = FRA_national_mobilization_focus
+
+			modifier = {
+				consumer_goods_factor = -0.05
+				production_speed_industrial_complex_factor = 0.05
+				production_speed_rail_way_factor = 0.05
+			}
+		}
+		
+		### 전군무장 ###
+		KOR_all_armed = {
+			name = KOR_munitions_industry
+			
+			picture = generic_license_production
+
+			modifier = {
+				production_speed_arms_factory_factor = 0.05
+				production_speed_dockyard_factor = 0.05
+			}
+		}
+		
+		### 한강의 기적 ###
+		KOR_han_river = {
+			name = KOR_miracle_on_the_han_river
+			
+			picture = generic_economic_increase
+
+			modifier = {
+				consumer_goods_factor = -0.10
+				industrial_capacity_factory = 0.10
+				industrial_capacity_dockyard = 0.10
+				production_speed_industrial_complex_factor = 0.05
+				production_speed_arms_factory_factor = 0.05
+				production_speed_dockyard_factor = 0.05
+				production_speed_rail_way_factor = 0.05
+			}
+		}
+		
+		#############
+		### 육군기동 ###
+		#############
+		
+		### 전차부대 양성 ###
 		KOR_armor = {
 			name = KOR_army_lee1
 			
@@ -719,6 +796,8 @@ ideas = {
 				}
 			}
 		}
+		
+		### 기갑사관학교 ###
 		KOR_armor_2 = {
 			name = KOR_army_lee3
 			
@@ -745,6 +824,12 @@ ideas = {
 				armor = 0.1
 			}
 		}
+		
+		#############
+		### 육군화력 ###
+		#############
+		
+		### 더 많은 총기! ###
 		KOR_fire = {
 			name = KOR_army_kim1
 			
@@ -770,6 +855,8 @@ ideas = {
 				infantry_weapons = 0.1
 			}
 		}
+		
+		### 더 많은 야포! ###
 		KOR_fire_2 = {
 			name = KOR_army_kim3
 			
@@ -795,6 +882,8 @@ ideas = {
 				artillery = 0.1
 			}
 		}
+		
+		### 압도적 화력 ###
 		KOR_fire_attack = {
 			name = KOR_army_kim4
 			
@@ -814,6 +903,12 @@ ideas = {
 				army_attack_factor = 0.15
 			}
 		}
+		
+		#############
+		### 육군전략 ###
+		#############
+		
+		### 재빠른 동원 ###
 		KOR_army_rate = {
 			name = KOR_army_sin2
 			
@@ -834,6 +929,8 @@ ideas = {
 				conscription = 0.02
 			}
 		}
+		
+		### 지휘사관학교 ###
 		KOR_command_formation_school = {
 			name = KOR_army_sin4
 			
@@ -854,6 +951,12 @@ ideas = {
 				land_doctrine_cost_factor = -0.1
 			}
 		}
+		
+		#############
+		### 해군공용 ###
+		#############
+		
+		### 필사즉생 필생즉사 ###
 		KOR_yi_sun_sin_legacy = {
 			
 			allowed = {
@@ -873,6 +976,12 @@ ideas = {
 				positioning = 0.1
 			}
 		}
+		
+		#############
+		### 공군공용 ###
+		#############
+		
+		### 한국제 전투기와 한국인 에이스 ###
 		KOR_fighter_ace = {
 			name = KOR_air4
 			
@@ -893,6 +1002,12 @@ ideas = {
 		        air_ace_generation_chance_factor = 0.30
 			}
 		}
+		
+		#############
+		### 공군지원 ###
+		#############
+		
+		### 노백린의 개혁안 ###
 		KOR_air_roh_reform = {
 			name = KOR_air_roh0
 			
@@ -928,6 +1043,8 @@ ideas = {
 				}
 			}
 		}
+		
+		### 지상지원형 공군 ###
 		KOR_air_roh_reform2 = {
 			name = KOR_air_roh4
 			
@@ -963,6 +1080,12 @@ ideas = {
 				}
 			}
 		}
+		
+		#############
+		### 공군폭격 ###
+		#############
+		
+		### 최용덕의 개혁안 ###
 		KOR_air_choi_reform = {
 			name = KOR_air_choi0
 			
@@ -994,6 +1117,8 @@ ideas = {
 				}
 			}
 		}
+		
+		### 공중우세형 공군 ###
 		KOR_air_choi_reform2 = {
 			name = KOR_air_choi4
 			
@@ -1025,42 +1150,183 @@ ideas = {
 				}
 			}
 		}
-		KOR_reign_of_peace = {
-			name = KOR_f_factory_2
+		
+		#############
+		### 사민주의 ###
+		#############
+		
+		### 의무교육 실시 ###
+		KOR_compulsory_education = {
+			name = KOR_socialdemocracy4
 			
-			picture = FRA_national_mobilization_focus
+			picture = jap_supremacy_of_technology
+			
+			allowed = {
+				always = no
+			}
+			
+			available = {
+				OR = {
+					has_country_leader = {
+						ruling_only = yes 
+						character = KOR_lyuh_woon_hyung
+					}
+					has_country_leader = {
+						ruling_only = yes 
+						character = KOR_ahn_chang_ho
+					}
+				}
+			}
 
+			allowed_civil_war = {
+				always = no			
+			}
+
+			removal_cost = -1
+			
 			modifier = {
-				consumer_goods_factor = -0.05
-				production_speed_industrial_complex_factor = 0.05
-				production_speed_rail_way_factor = 0.05
+				consumer_goods_factor = 0.07
+				political_power_factor = 0.15
+				research_speed_factor = 0.15
 			}
 		}
-		KOR_all_armed = {
-			name = KOR_munitions_industry
+		
+		### 상류층의 반발 ###
+		KOR_upper_opposition = {
 			
-			picture = generic_license_production
+			picture = generic_disjointed_gov
+			
+			allowed = {
+				always = no
+			}
+			
+			available = {
+				#
+			}
 
+			allowed_civil_war = {
+				always = no			
+			}
+
+			removal_cost = -1
+			
 			modifier = {
-				production_speed_arms_factory_factor = 0.05
-				production_speed_dockyard_factor = 0.05
+				stability_weekly = -0.001
+				political_power_factor = -0.15
 			}
 		}
-		KOR_han_river = {
-			name = KOR_miracle_on_the_han_river
+		
+		### 빈부격차 해소 ###
+		KOR_no_polarization = {
+			name = KOR_socialdemocracy9
 			
-			picture = generic_economic_increase
+			picture = generic_goods_red_bonus
+			
+			allowed = {
+				always = no
+			}
+			
+			available = {
+				OR = {
+					has_country_leader = {
+						ruling_only = yes 
+						character = KOR_lyuh_woon_hyung
+					}
+					has_country_leader = {
+						ruling_only = yes 
+						character = KOR_ahn_chang_ho
+					}
+				}
+			}
 
+			allowed_civil_war = {
+				always = no			
+			}
+
+			removal_cost = -1
+			
 			modifier = {
-				consumer_goods_factor = -0.10
-				industrial_capacity_factory = 0.10
-				industrial_capacity_dockyard = 0.10
-				production_speed_industrial_complex_factor = 0.05
-				production_speed_arms_factory_factor = 0.05
-				production_speed_dockyard_factor = 0.05
-				production_speed_rail_way_factor = 0.05
+				global_building_slots = 0.1
 			}
 		}
+		
+		### 복지주의 ###
+		KOR_laboralism = {
+			name = KOR_socialdemocracy10
+			
+			picture = generic_constitutional_guarantees
+			
+			allowed = {
+				always = no
+			}
+			
+			available = {
+				OR = {
+					has_country_leader = {
+						ruling_only = yes 
+						character = KOR_lyuh_woon_hyung
+					}
+					has_country_leader = {
+						ruling_only = yes 
+						character = KOR_ahn_chang_ho
+					}
+				}
+			}
+
+			allowed_civil_war = {
+				always = no			
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_weekly = 0.001
+				conscription_factor = 0.10
+			}
+		}
+		
+		### 평등의 푸른 언덕 ###
+		KOR_sde_empire = {
+			name = KOR_socialdemocracy11
+			
+			picture = KOR_blue_hill
+			
+			allowed = {
+				always = no
+			}
+			
+			available = {
+				OR = {
+					has_country_leader = {
+						ruling_only = yes 
+						character = KOR_lyuh_woon_hyung
+					}
+					has_country_leader = {
+						ruling_only = yes 
+						character = KOR_ahn_chang_ho
+					}
+				}
+			}
+
+			allowed_civil_war = {
+				always = no			
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = 0.20
+				conscription_factor = 0.1
+				conscription = 0.01
+				monthly_population = 0.1
+			}
+		}
+		
+		#############
+		### 권위주의 ###
+		#############
+		
+		### 자애로운 손길 ###
 		KOR_benevolent_touch = {
 			name = KOR_paternal_autocrat4
 			
@@ -1068,6 +1334,10 @@ ideas = {
 			
 			allowed = {
 				always = no
+			}
+			
+			available = {
+				has_government = neutrality
 			}
 
 			allowed_civil_war = {
@@ -1080,6 +1350,8 @@ ideas = {
 				stability_weekly = 0.001
 			}
 		}
+		
+		### 금광 국영화 ###
 		KOR_gold = {
 			name = KOR_paternal_autocrat17
 			
@@ -1087,6 +1359,10 @@ ideas = {
 			
 			allowed = {
 				always = no
+			}
+			
+			available = {
+				has_government = neutrality
 			}
 
 			allowed_civil_war = {
@@ -1100,11 +1376,17 @@ ideas = {
 				min_export = -0.25
 			}
 		}
+		
+		### 건흥유신 ###
 		KOR_geonheung_restoration = {
 			name = KOR_paternal_autocrat25
 			
 			allowed = {
 				always = no
+			}
+			
+			available = {
+				has_government = neutrality
 			}
 
 			allowed_civil_war = {
@@ -1117,7 +1399,7 @@ ideas = {
 				neutrality_drift = 0.03
 				surrender_limit = 0.30
 				max_surrender_limit_offset = 0.03
-				conscription_factor = 0.30
+				conscription_factor = 0.03
 				consumer_goods_factor = -0.03
 				industrial_capacity_factory = 0.03
 				experience_gain_army = 0.03
@@ -1125,12 +1407,26 @@ ideas = {
 				experience_gain_navy = 0.03
 			}
 		}
-		KOR_money_use = {
+		
+		#############
+		### 파시획득 ###
+		#############
+		
+		### 화랑 부활 ###
+		KOR_hwarang = {
 			
-			picture = ROM_king_carol_emptied_accounts
+			picture = eng_imperial_conscription
 			
 			allowed = {
 				always = no
+			}
+			
+			available = {
+				has_government = fascism
+			}
+			
+			available = {
+				#
 			}
 
 			allowed_civil_war = {
@@ -1140,7 +1436,145 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				consumer_goods_factor = 0.05
+				weekly_manpower = 1000
+				conscription_factor = 0.10
+			}
+		}
+		
+		### 국가헌병대 ###
+		KOR_gendarmerie = {
+			
+			picture = generic_reserve_divisions
+			
+			allowed = {
+				always = no
+			}
+			
+			available = {
+				has_government = fascism
+			}
+
+			allowed_civil_war = {
+				always = no			
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				drift_defence_factor = 0.05
+				army_org_factor = 0.05
+				army_core_defence_factor = 0.05
+				army_core_attack_factor = 0.05
+			}
+		}
+		KOR_gendarmerie2 = {
+			name = KOR_gendarmerie
+			
+			picture = generic_reserve_divisions
+			
+			allowed = {
+				always = no
+			}
+			
+			available = {
+				has_government = fascism
+			}
+
+			allowed_civil_war = {
+				always = no			
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				drift_defence_factor = 0.15
+				army_org_factor = 0.15
+				army_core_defence_factor = 0.05
+				army_core_attack_factor = 0.05
+			}
+		}
+		
+		### 군대를 위한 금광 ###
+		KOR_army_gold = {
+			name = KOR_national_populist17
+			
+			picture = SPR_seize_the_gold_reserves
+			
+			allowed = {
+				always = no
+			}
+			
+			available = {
+				has_government = fascism
+			}
+
+			allowed_civil_war = {
+				always = no			
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = -0.07
+				production_speed_arms_factory_factor = 0.07
+				production_speed_dockyard_factor = 0.07
+			}
+		}
+		
+		### 군대를 위한 철도 ###
+		KOR_army_rail = {
+			name = KOR_national_populist18
+			
+			picture = generic_build_infrastructure
+			
+			allowed = {
+				always = no
+			}
+			
+			available = {
+				has_government = fascism
+			}
+
+			allowed_civil_war = {
+				always = no			
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				production_speed_rail_way_factor = 0.15
+				production_speed_supply_node_factor = 0.15
+			}
+		}
+		
+		### 하나의 국민, 하나의 국가, 하나의 대막리지 ###
+		KOR_idea_daemagliji = {
+			name = KOR_national_populist25
+			
+			allowed = {
+				always = no
+			}
+			
+			available = {
+				has_government = fascism
+			}
+
+			allowed_civil_war = {
+				always = no			
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				fascism_drift = 0.05
+				offensive_war_stability_factor = 0.10
+				defensive_war_stability_factor = 0.10
+				defence = 0.10
+				offence = 0.10
+				army_morale_factor = 0.10
+				training_time_factor = -0.10
+				breakthrough_factor = 0.10
+				no_supply_grace = 48
 			}
 		}
 	}

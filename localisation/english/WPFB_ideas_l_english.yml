@@ -36,6 +36,10 @@
  KOR_imperial_family_desc:0 "§L이 사람은 대한 황실의 일원이며 오랜 전통과 충성에 충실합니다.§!"
  
  ### 한국 국민정신 ###
+ #국가원수
+ KOR_constitutional_monarch_yi_wu:0 "건흥제 이우"
+ KOR_constitutional_monarch_yi_cheong:0 "유제 이청"
+ #시작 보유
  KOR_questions_government:0 "정부에 대한 의문"
  KOR_questions_government_desc:0 "현재 우리의 정부는 '비효율'이라는 한단어로 정리할 수 있을 것입니다. 황실, 대신, 보수파, 개혁파 모두가 각자의 이상만을 고수하며 타협하지 않는 자세는 국민들이 정부를 불신하게 만들기 충분할 것입니다."
  KOR_army_up:0 "육주해종"
@@ -44,26 +48,32 @@
  KOR_land_problem_desc:0 "한국의 토지 상황은 절망적입니다. 10명도 되지 않는 지주들이 국토의 60%를 차지 중이고 자작농들은 지주들의 욕심 가득한 손이 다가올까 두려워하며 소작농들은 힘겹게 땅을 일구며 지주들에게 저주를 퍼붓고 있습니다."
  KOR_labor_rights_no:0 "노동권 부재"
  KOR_labor_rights_no_desc:0 "한국의 자본주의는 이제 막 태동기를 거쳐 성장 중이지만 모순은 어느 열강에 못지 않습니다. 자본가들은 노동자를 찍어 누르기 바쁘며 노동자들은 이에 맞서 파업을 일삼기 바쁩니다."
- KOR_labor_rights_n2:0 "어용노조"
- KOR_labor_rights_sd:0 "생존권 보장"
- KOR_labor_rights_sd2:0 "노조 합법화"
- KOR_labor_rights_sd3:0 "노동삼권 보장"
- KOR_labor_rights_sd4:0 "해소된 빈부격차"
- KOR_laboralism:0 "복지주의"
  KOR_intel:0 "제국익문사"
  KOR_intel_desc:0 "제국익문사는 황제 직속의 정보기관입니다. 그들의 정보력과 첩보력은 믿음직스럽지만 황제에게만 책임을 지는 구조상 정부는 익문사에 지원을 받을 수는 있지만 명령을 할 수는 없습니다."
  KOR_great_depression:0 "대공황"
+ #경제 관련
  KOR_depression:0 "대공황의 여파"
  KOR_securing_budget:0 "예산 확보"
- KOR_price_control:0 "물가 통제"
- KOR_yi_sun_sin_legacy:0 "필사즉생 필생즉사"
  KOR_money_use:0 "사용된 예산"
- KOR_the_started_public_education:0 "공교육 확대"
- KOR_land_problem_sd:0 "지주들의 반발"
- KOR_sde_empire:0 "평등의 나라"
- KOR_daejunghwa:0 "정부통제 강화"
- 
+ KOR_price_control:0 "물가 통제"
  TLE_up_the_economic_level_tt:0 "§Y경제법§! §G1§!단계 §Y강화§!."
+ #해군
+ KOR_yi_sun_sin_legacy:0 "필사즉생 필생즉사"
+ #사민주의
+ KOR_intel_d:0 "제국익문사"
+ KOR_intel_d_desc:0 "제국익문사는 한국의 정보기관입니다. 원래는 황실 직속으로서 정부는 이들의 활동에 관여할 수 없었지만, 진정한 민주주의 체제를 확립시키기 위해서는 그들의 역량이 다소 감소할지라도 정부 역시 제국익문사에 관여할 수 있어야만 합니다."
+ KOR_upper_opposition:0 "상류층의 반발"
+ KOR_laboralism:0 "복지주의"
+ KOR_sde_empire:0 "평등의 푸른 언덕"
+ #권위주의
+ KOR_intel_n:0 "제국익문사"
+ KOR_intel_n_desc:0 "제국익문사는 황제 직속의 정보기관으로 그들의 정보력과 첩보력은 신성한 황권과 국가를 보호하는데 매우 효과적입니다. 몇몇은 정부가 이들에 관여할 수 없다는 점을 문제 삼지만, 그게 무슨 상관입니까? 황제 폐하께서 곧 국가이시니 이들도 곧 제국의 정보기관인 것이 아니겠습니까?"
+ KOR_labor_rights_n2:0 "어용노조"
+ #파시스트
+ KOR_intel_f:0 "제국익문사"
+ KOR_intel_f_desc:0 "제국익문사는 제국의 정보기관입니다. 원래는 황실 직속으로서 정부는 이들의 활동에 관여할 수 없었지만, 황제 폐하께서는 대한의 영광을 위해 기꺼이 대막리지께 제국익문사를 통제할 권한을 위임하셨습니다."
+ KOR_hwarang:0 "화랑"
+ KOR_gendarmerie:0 "국가헌병대"
  
  ### 한국 지도자 ###
  #공산주의
@@ -86,6 +96,7 @@
  #파시스트
  KOR_lee_beom_seok:0 "이범석"
  daemagliji:0 "대막리지"
+ daemagliji2:0 "대막리지"
  KOR_sin_chae_ho:0 "신채호"
  nationalist_historian:0 "민족주의 사학자"
  #권위주의

@@ -6,6 +6,16 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/Joint/idea_Joint_self_management.dds"
 	}
 	
+	### 한국 입헌군주 ###
+	spriteType = {
+		name = "GFX_idea_KOR_constitutional_monarch_yi_wu"
+		texturefile = "gfx/interface/ideas/KOR/idea_KOR_constitutional_monarch_yi_wu.png"
+	}
+	spriteType = {
+		name = "GFX_idea_KOR_constitutional_monarch_yi_cheong"
+		texturefile = "gfx/interface/ideas/KOR/idea_KOR_constitutional_monarch_yi_cheong.png"
+	}
+	
 	### 한국 국민정신 ###
 	spriteType = {
 		name = "GFX_idea_KOR_questions_government"
@@ -24,6 +34,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/KOR/idea_KOR_intel.png"
 	}
 	spriteType = {
+		name = "GFX_idea_KOR_blue_hill"
+		texturefile = "gfx/interface/ideas/KOR/idea_KOR_blue_hill.png"
+	}
+	spriteType = {
 		name = "GFX_idea_KOR_command_formation_school"
 		texturefile = "gfx/interface/ideas/KOR/idea_KOR_command_formation_school.png"
 	}
@@ -33,6 +47,10 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_idea_KOR_geonheung_restoration"
-		texturefile = "gfx/interface/ideas/KOR/idea_KOR_geonheung_restoration.dds"
+		texturefile = "gfx/interface/ideas/KOR/idea_KOR_geonheung_restoration.png"
+	}
+	spriteType = {
+		name = "GFX_idea_KOR_idea_daemagliji"
+		texturefile = "gfx/interface/ideas/KOR/idea_KOR_idea_daemagliji.png"
 	}
 }

@@ -1035,7 +1035,7 @@
 		y = 0
 		
 		available = {
-			#	
+			has_completed_focus = KOR_bm1
 		}
 		search_filters = {
 			FOCUS_FILTER_ARMY_XP
@@ -2717,7 +2717,6 @@
 		
 		completion_reward = {
 			custom_effect_tooltip = KOR_tt_bypass_democratic_focus
-			#
 		}
 	}
 	
@@ -2734,19 +2733,26 @@
 			focus = KOR_democracy
 		}
 		available = {
-			#
-		}
-		
-		search_filters = { FOCUS_FILTER_POLITICAL }
-		completion_reward = {
-			add_political_power = 120
-			hidden_effect = {
-				set_party_name = {
-					ideology = democratic
-					long_name = "신한청년당"
-					name = "신한청년당"
+			has_completed_focus = KOR_bm1
+			OR = {
+				has_country_leader = {
+					ruling_only = yes 
+					character = KOR_lyuh_woon_hyung
+				}
+				has_country_leader = {
+					ruling_only = yes 
+					character = KOR_ahn_chang_ho
 				}
 			}
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+			FOCUS_FILTER_STABILITY
+		}
+		
+		completion_reward = {
+			add_stability = 0.15
+			add_political_power = -100
 		}
 	}
 	
@@ -2764,19 +2770,18 @@
 		available = {
 			#
 		}
+		search_filters = { 
+			FOCUS_FILTER_POLITICAL
+		}
 		
-		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
 		completion_reward = {
+			add_popularity = {
+				ideology = democratic
+				popularity = 0.1
+			}
 			add_popularity = {
 				ideology = neutrality
 				popularity = -0.1
-			}
-			hidden_effect = {
-				set_party_name = {
-					ideology = neutrality
-					long_name = "황국협회"
-					name = "황국협회"
-				}
 			}
 		}
 	}
@@ -2795,10 +2800,11 @@
 		available = {
 			#
 		}
+		search_filters = { 
+			FOCUS_FILTER_INDUSTRY
+		}
 		
-		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-			add_stability = 0.05
 			swap_ideas = {
 				add_idea = KOR_labor_rights_sd
 				remove_idea = KOR_labor_rights_no
@@ -2820,8 +2826,13 @@
 		available = {
 			#
 		}
+		search_filters = { 
+			FOCUS_FILTER_POLITICAL
+			FOCUS_FILTER_INTERNAL_AFFAIRS
+			FOCUS_FILTER_STABILITY
+			FOCUS_FILTER_WAR_SUPPORT
+		}
 		
-		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_STABILITY }
 		completion_reward = {
 			swap_ideas = {
 				add_idea = KOR_questions_government2
@@ -2844,22 +2855,21 @@
 		available = {
 			#
 		}
-		bypass = {
-			OR = {
-				has_country_flag = flag_KOR_socialdemocracy4
-				has_country_flag = flag_KOR_liberalism4
-				has_country_flag = flag_KOR_conservatism4
-			}
+		search_filters = { 
+			FOCUS_FILTER_RESEARCH
 		}
 		
-		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_RESEARCH }
 		completion_reward = {
-			add_research_slot = 1
-			add_timed_idea = {
-				idea = KOR_the_started_public_education
-				days = 720
+			if = {
+				limit = { NOT = { has_country_flag = KOR_flag_education } }
+				add_research_slot = 1
+				add_ideas = KOR_compulsory_education
+				set_country_flag = KOR_flag_education
 			}
-			set_country_flag = flag_KOR_socialdemocracy4
+			else_if = {
+				limit = { has_country_flag = KOR_flag_education }
+				add_ideas = KOR_compulsory_education
+			}
 		}
 	}
 	
@@ -2886,12 +2896,23 @@
 		available = {
 			#
 		}
+		search_filters = { 
+			FOCUS_FILTER_INTERNAL_AFFAIRS
+		}
 		
-		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
 		completion_reward = {
-			swap_ideas = {
-				add_idea = KOR_intel_sd
-				remove_idea = KOR_intel
+			if = {
+				limit = { NOT = { has_country_flag = KOR_flag_intel } }
+				add_research_slot = 1
+				swap_ideas = {
+					add_idea = KOR_intel_sd
+					remove_idea = KOR_intel
+				}
+				set_country_flag = KOR_flag_intel
+			}
+			else_if = {
+				limit = { has_country_flag = KOR_flag_intel }
+				add_ideas = KOR_intel_sd
 			}
 		}
 	}
@@ -2919,8 +2940,10 @@
 		available = {
 			#
 		}
+		search_filters = { 
+			FOCUS_FILTER_INDUSTRY
+		}
 		
-		search_filters = { FOCUS_FILTER_RESEARCH }
 		completion_reward = {
 			swap_ideas = {
 				add_idea = KOR_labor_rights_sd2
@@ -2952,25 +2975,27 @@
 		available = {
 			#
 		}
+		search_filters = { 
+			FOCUS_FILTER_POLITICAL
+			FOCUS_FILTER_INDUSTRY
+			FOCUS_FILTER_STABILITY
+			FOCUS_FILTER_MANPOWER
+		}
 		
-		search_filters = { FOCUS_FILTER_RESEARCH }
 		completion_reward = {
-			custom_effect_tooltip = KOR_socialdemocracy7_tt
-			hidden_effect = {
-				remove_ideas = KOR_land_problem
-				add_timed_idea = {
-					idea = KOR_land_problem_sd
-					days = 720
-				}
-				every_state = {
-					limit = {
-						is_core_of = KOR
-						NOT = {
-							is_core_of = CHI
-						}
+			remove_ideas = KOR_land_problem
+			add_timed_idea = {
+				idea = KOR_upper_opposition
+				days = 720
+			}
+			every_state = {
+				limit = {
+					is_core_of = KOR
+					NOT = {
+						is_core_of = CHI
 					}
-					add_extra_state_shared_building_slots = 1
 				}
+				add_extra_state_shared_building_slots = 1
 			}
 		}
 	}
@@ -2987,15 +3012,21 @@
 			focus = KOR_socialdemocracy1
 		}
 		available = {
-			#
+			has_completed_focus = KOR_socialdemocracy3 
+		}
+		search_filters = { 
+			FOCUS_FILTER_POLITICAL
+			FOCUS_FILTER_INTERNAL_AFFAIRS
+			FOCUS_FILTER_STABILITY
+			FOCUS_FILTER_WAR_SUPPORT
 		}
 		
-		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
+			remove_ideas = KOR_questions_government2
 			add_stability = 0.05
 			add_popularity = {
 				ideology = democratic
-				popularity = 0.1
+				popularity = 0.15
 			}
 		}
 	}
@@ -3020,13 +3051,12 @@
 		available = {
 			#
 		}
+		search_filters = { 
+			FOCUS_FILTER_INDUSTRY
+		}
 		
-		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-			swap_ideas = {
-				add_idea = KOR_labor_rights_sd4
-				remove_idea = KOR_labor_rights_sd3
-			}
+			add_ideas = KOR_no_polarization
 		}
 	}
 	
@@ -3044,13 +3074,17 @@
 		available = {
 			#
 		}
+		search_filters = { 
+			FOCUS_FILTER_INDUSTRY
+			FOCUS_FILTER_INTERNAL_AFFAIRS
+		}
 		
-		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_STABILITY }
 		completion_reward = {
 			add_timed_idea = {
-				idea = KOR_laboralism
+				idea = KOR_money_use
 				days = 720
 			}
+			add_ideas = KOR_laboralism
 		}
 	}
 	
@@ -3074,8 +3108,12 @@
 		available = {
 			#
 		}
+		search_filters = { 
+			FOCUS_FILTER_INTERNAL_AFFAIRS
+			FOCUS_FILTER_STABILITY
+			FOCUS_FILTER_MANPOWER
+		}
 		
-		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
 			add_ideas = KOR_sde_empire
 		}
@@ -3093,12 +3131,23 @@
 			focus = KOR_democracy
 		}
 		available = {
-			#
+			has_completed_focus = KOR_bm1
+			OR = {
+				has_country_leader = {
+					ruling_only = yes 
+					character = KOR_kim_kyu_sik
+				}
+				has_country_leader = {
+					ruling_only = yes 
+					character = KOR_syngman_rhee
+				}
+			}
 		}
 		
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
-			add_political_power = 100
+			add_stability = 0.10
+			add_political_power = -50
 		}
 	}
 	
@@ -3392,12 +3441,22 @@
 			focus = KOR_democracy
 		}
 		available = {
-			#
+			has_completed_focus = KOR_bm1
+			OR = {
+				has_country_leader = {
+					ruling_only = yes 
+					character = KOR_kim_koo
+				}
+				has_country_leader = {
+					ruling_only = yes 
+					character = KOR_yi_sang_sul
+				}
+			}
 		}
 		
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
-			add_political_power = 100
+			add_stability = 0.05
 		}
 	}
 	
@@ -3731,6 +3790,9 @@
 		prerequisite = {
 			focus = KOR_paternal_autocrat0
 		}
+		available = {
+			has_completed_focus = KOR_bm1
+		}
 		search_filters = { 
 			FOCUS_FILTER_POLITICAL
 			FOCUS_FILTER_STABILITY
@@ -3755,6 +3817,9 @@
 		prerequisite = {
 			focus = KOR_paternal_autocrat0
 		}
+		available = {
+			has_completed_focus = KOR_bm1
+		}
 		search_filters = { 
 			FOCUS_FILTER_POLITICAL
 		}
@@ -3773,6 +3838,9 @@
 		
 		prerequisite = {
 			focus = KOR_paternal_autocrat0
+		}
+		available = {
+			has_completed_focus = KOR_bm1
 		}
 		search_filters = { 
 			FOCUS_FILTER_INDUSTRY
@@ -3799,6 +3867,9 @@
 		prerequisite = {
 			focus = KOR_paternal_autocrat0
 		}
+		available = {
+			has_completed_focus = KOR_bm1
+		}
 		search_filters = { 
 			FOCUS_FILTER_INTERNAL_AFFAIRS
 			FOCUS_FILTER_STABILITY
@@ -3820,7 +3891,7 @@
 			focus = KOR_paternal_autocrat0
 		}
 		available = {
-			#
+			has_completed_focus = KOR_bm1
 		}
 		search_filters = { 
 			FOCUS_FILTER_STABILITY
@@ -4382,7 +4453,6 @@
 		
 		completion_reward = {
 			custom_effect_tooltip = KOR_tt_bypass_fascism_focus
-			#
 		}
 	}
 	
@@ -4397,8 +4467,14 @@
 		prerequisite = {
 			focus = KOR_national_populist0
 		}
+		available = {
+			has_completed_focus = KOR_bm1
+		}
+		search_filters = { 
+			FOCUS_FILTER_POLITICAL
+			FOCUS_FILTER_STABILITY
+		}
 		
-		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
 		completion_reward = {
 			add_political_power = 200
 			add_stability = -0.1
@@ -4416,11 +4492,20 @@
 		prerequisite = {
 			focus = KOR_national_populist0
 		}
+		available = {
+			has_completed_focus = KOR_bm1
+		}
+		search_filters = { 
+			FOCUS_FILTER_POLITICAL
+			FOCUS_FILTER_STABILITY
+		}
 		
-		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_STABILITY FOCUS_FILTER_POLITICAL }
 		completion_reward = {
-			add_stability = -0.03
-			add_political_power = 100
+			add_stability = 0.05
+			add_popularity = {
+                ideology = fascism
+                popularity = 0.15
+            }
 		}
 	}
 	
@@ -4435,12 +4520,20 @@
 		prerequisite = {
 			focus = KOR_national_populist0
 		}
+		available = {
+			has_completed_focus = KOR_bm1
+		}
+		search_filters = { 
+			FOCUS_FILTER_POLITICAL
+			FOCUS_FILTER_INDUSTRY
+			FOCUS_FILTER_INTERNAL_AFFAIRS
+		}
 		
-		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-			add_offsite_building = {
-				type = arms_factory
-				level = 2
+			add_political_power = -150
+			swap_ideas = {
+				add_idea = KOR_labor_rights_f
+				remove_idea = KOR_labor_rights_no
 			}
 		}
 	}
@@ -4456,8 +4549,13 @@
 		prerequisite = {
 			focus = KOR_national_populist0
 		}
+		available = {
+			has_completed_focus = KOR_bm1
+		}
+		search_filters = { 
+			FOCUS_FILTER_INTERNAL_AFFAIRS
+		}
 		
-		search_filters = {  }
 		completion_reward = {
 			TLE_up_the_economic_level = yes
 		}
@@ -4474,15 +4572,17 @@
 		prerequisite = {
 			focus = KOR_national_populist0
 		}
-
 		available = {
-			#
+			has_completed_focus = KOR_bm1
 		}
-
-		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
+		search_filters = { 
+			FOCUS_FILTER_STABILITY
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		
 		completion_reward = {
-			add_war_support = 0.05
-			#
+		    add_stability = -0.15
+			add_war_support = 0.15
 		}
 	}
 	
@@ -4497,17 +4597,22 @@
 		prerequisite = {
 			focus = KOR_national_populist1
 		}
-
-		search_filters = { FOCUS_FILTER_INTERNAL_AFFAIRS FOCUS_FILTER_RESEARCH }
+		search_filters = { 
+			FOCUS_FILTER_POLITICAL
+			FOCUS_FILTER_INTERNAL_AFFAIRS
+			FOCUS_FILTER_STABILITY
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		
 		completion_reward = {
-			add_timed_idea = {
-				idea = KOR_daejunghwa
-				days = 365
+			swap_ideas = {
+				add_idea = KOR_questions_government2
+				remove_idea = KOR_questions_government
 			}
 		}
 	}
 	
-	focus = { #중추원 무력화
+	focus = { #중추원 내 파시스트
 		id = KOR_national_populist7
 		icon = GFX_focus_SWI_embrace_panoramaheim
 		cost = 6.00
@@ -4518,16 +4623,17 @@
 		prerequisite = {
 			focus = KOR_national_populist1
 		}
-
-		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
+		search_filters = { 
+			FOCUS_FILTER_POLITICAL
+			FOCUS_FILTER_STABILITY
+		}
+		
 		completion_reward = {
-			add_popularity = { ideology = fascism popularity = 1 }
-			set_temp_variable = { democratic_temp = party_popularity@democratic }
-			multiply_temp_variable = { democratic_temp = -0.25 }
-			add_stability = democratic_temp
-			set_temp_variable = { neutrality_temp = party_popularity@neutrality }
-			multiply_temp_variable = { neutrality_temp = -0.25 }
-			add_stability = neutrality_temp
+			add_stability = -0.15
+			add_popularity = {
+                ideology = fascism
+                popularity = 0.15
+            }
 		}
 	}
 	
@@ -4542,8 +4648,10 @@
 		prerequisite = {
 			focus = KOR_national_populist2
 		}
+		search_filters = { 
+			FOCUS_FILTER_INTERNAL_AFFAIRS
+		}
 		
-		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
 			swap_ideas = {
 				add_idea = KOR_intel_f
@@ -4563,9 +4671,15 @@
 		prerequisite = {
 			focus = KOR_national_populist3
 		}
+		search_filters = { 
+			FOCUS_FILTER_INDUSTRY
+		}
 		
 		completion_reward = {
-			#
+			swap_ideas = {
+				add_idea = KOR_labor_rights_f2
+				remove_idea = KOR_labor_rights_f
+			}
 		}
 	}
 	
@@ -4580,10 +4694,32 @@
 		prerequisite = {
 			focus = KOR_national_populist4
 		}
+		search_filters = { 
+			FOCUS_FILTER_INDUSTRY
+			FOCUS_FILTER_INTERNAL_AFFAIRS
+		}
 		
-		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_WAR_SUPPORT  }
 		completion_reward = {
-			add_stability = 0.08
+			add_timed_idea = {
+				idea = KOR_money_use
+				days = 720
+			}
+			527 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}		
+			911 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}			
+			}
 		}
 	}
 	
@@ -4598,10 +4734,12 @@
 		prerequisite = {
 			focus = KOR_national_populist5
 		}
+		search_filters = { 
+			FOCUS_FILTER_MANPOWER
+		}
 		
-		search_filters = {  }
 		completion_reward = {
-			#
+			add_ideas = KOR_hwarang
 		}
 	}
 	
@@ -4616,10 +4754,12 @@
 		prerequisite = {
 			focus = KOR_national_populist5
 		}
-
-		search_filters = { FOCUS_FILTER_INTERNAL_AFFAIRS }
+		search_filters = { 
+			FOCUS_FILTER_INTERNAL_AFFAIRS
+		}
+		
 		completion_reward = {
-			#
+			add_ideas = KOR_gendarmerie
 		}
 	}
 	
@@ -4637,28 +4777,15 @@
 		prerequisite = {
 			focus = KOR_national_populist6
 		}
-
-		search_filters = { FOCUS_FILTER_INTERNAL_AFFAIRS FOCUS_FILTER_POLITICAL }
+		search_filters = { 
+			FOCUS_FILTER_POLITICAL
+			FOCUS_FILTER_INTERNAL_AFFAIRS
+			FOCUS_FILTER_STABILITY
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		
 		completion_reward = {
-			add_political_power = 100
-			custom_effect_tooltip = KOR_national_populist13_tt
-			hidden_effect = {
-				set_party_name = {
-					ideology = neutrality
-					long_name = "대한민족청년단 보수파"
-					name = "대한민족청년단"
-				}
-				set_party_name = {
-					ideology = democratic
-					long_name = "대한민족청년단 개혁파"
-					name = "대한민족청년단"
-				}
-				set_party_name = {
-					ideology = communism
-					long_name = "대한민족청년단 좌파"
-					name = "대한민족청년단"
-				}
-			}
+			remove_ideas = KOR_questions_government2
 		}
 	}
 	
@@ -4673,17 +4800,21 @@
 		prerequisite = {
 			focus = KOR_national_populist8
 		}
+		search_filters = { 
+			FOCUS_FILTER_POLITICAL
+			FOCUS_FILTER_RESEARCH
+		}
 		
-		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-			add_offsite_building = {
-				type = industrial_complex
-				level = 3
-			}
+			add_popularity = {
+                ideology = fascism
+                popularity = 0.15
+            }
+			add_research_slot = 1
 		}
 	}
 	
-	focus = { #부패관료 처벌
+	focus = { #토지법 강제개정
 		id = KOR_national_populist15
 		icon = GFX_focus_generic_court
 		cost = 5.00
@@ -4694,10 +4825,14 @@
 		prerequisite = {
 			focus = KOR_national_populist8
 		}
+		search_filters = { 
+			FOCUS_FILTER_POLITICAL
+			FOCUS_FILTER_INDUSTRY
+		}
 		
-		search_filters = { FOCUS_FILTER_INTERNAL_AFFAIRS FOCUS_FILTER_STABILITY FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-			#
+			remove_ideas = KOR_land_problem
+			add_political_power = -300
 		}
 	}
 	
@@ -4712,11 +4847,21 @@
 		prerequisite = {
 			focus = KOR_national_populist9
 		}
+		search_filters = { 
+			FOCUS_FILTER_POLITICAL
+			FOCUS_FILTER_INDUSTRY
+			FOCUS_FILTER_STABILITY
+		}
 		
-		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_MANPOWER  }
 		completion_reward = {
-			add_political_power = 100
-			add_manpower = 20000
+			swap_ideas = {
+				add_idea = KOR_labor_rights_f3
+				remove_idea = KOR_labor_rights_f2
+			}
+			add_timed_idea = {
+				idea = KOR_upper_opposition
+				days = 720
+			}
 		}
 	}
 	
@@ -4734,10 +4879,15 @@
 		available = {
 			#
 		}
+		search_filters = { 
+			FOCUS_FILTER_INDUSTRY
+		}
 		
-		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-			#
+			add_timed_idea = {
+				idea = KOR_army_gold
+				days = 720
+			}
 		}
 	}
 	
@@ -4752,14 +4902,19 @@
 		prerequisite = {
 			focus = KOR_national_populist10
 		}
+		search_filters = { 
+			FOCUS_FILTER_INDUSTRY
+		}
 		
-		search_filters = {  }
 		completion_reward = {
-			#
+			add_timed_idea = {
+				idea = KOR_army_rail
+				days = 720
+			}
 		}
 	}
 	
-	focus = { #프로파간다
+	focus = { #정치장교와 프로파간다
 		id = KOR_national_populist19
 		icon = GFX_goal_generic_propaganda
 		cost = 3.00
@@ -4773,11 +4928,17 @@
 		prerequisite = {
 			focus = KOR_national_populist11
 		}
+		search_filters = { 
+			FOCUS_FILTER_INTERNAL_AFFAIRS
+			FOCUS_FILTER_WAR_SUPPORT
+		}
 		
-		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_POLITICAL }
 		completion_reward = {
-			add_stability = 0.05
-			add_political_power = 75
+			add_war_support = 0.15	
+			swap_ideas = {
+				add_idea = KOR_gendarmerie2
+				remove_idea = KOR_gendarmerie
+			}
 		}
 	}
 	
@@ -4792,10 +4953,15 @@
 		prerequisite = {
 			focus = KOR_national_populist13
 		}
-
-		search_filters = { FOCUS_FILTER_STABILITY }
+		search_filters = { 
+			FOCUS_FILTER_INTERNAL_AFFAIRS
+		}
+		
 		completion_reward = {
-			add_stability = 0.15
+			swap_ruler_traits = {
+                remove = daemagliji
+                add = daemagliji2
+            }
 		}
 	}
 	
@@ -4813,10 +4979,19 @@
 		prerequisite = {
 			focus = KOR_national_populist14
 		}
+		search_filters = { 
+			FOCUS_FILTER_POLITICAL
+			FOCUS_FILTER_STABILITY
+			FOCUS_FILTER_WAR_SUPPORT
+		}
 		
-		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS FOCUS_FILTER_MANPOWER }
 		completion_reward = {
-			add_stability = 0.07
+			add_stability = 0.10
+			add_war_support = 0.10
+			add_popularity = {
+                ideology = fascism
+                popularity = 0.10
+            }
 		}
 	}
 	
@@ -4831,10 +5006,35 @@
 		prerequisite = {
 			focus = KOR_national_populist16
 		}
+		search_filters = { 
+			FOCUS_FILTER_INDUSTRY
+		}
 		
-		search_filters = { FOCUS_FILTER_MANPOWER FOCUS_FILTER_INDUSTRY FOCUS_FILTER_WAR_SUPPORT }
 		completion_reward = {
-			add_manpower = 65000
+			927 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}				
+			}
+			525 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}			
+			}
+			527 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}				
+			}
 		}
 	}
 	
@@ -4852,10 +5052,20 @@
 		prerequisite = {
 			focus = KOR_national_populist17
 		}
+		search_filters = { 
+			FOCUS_FILTER_INDUSTRY
+		}
 		
-		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_WAR_SUPPORT }
 		completion_reward = {
-			#
+			every_state = {
+				limit = {
+					is_core_of = KOR
+					NOT = {
+						is_core_of = CHI
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+			}
 		}
 	}
 	
@@ -4870,10 +5080,20 @@
 		prerequisite = {
 			focus = KOR_national_populist19
 		}
-
-		search_filters = { FOCUS_FILTER_POLITICAL  FOCUS_FILTER_STABILITY FOCUS_FILTER_WAR_SUPPORT }
+		search_filters = { 
+			FOCUS_FILTER_ARMY_XP
+			FOCUS_FILTER_NAVY_XP
+			FOCUS_FILTER_AIR_XP
+			FOCUS_FILTER_STABILITY
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		
 		completion_reward = {
-			#
+			add_stability = -0.10
+			add_war_support = 0.10
+			army_experience = 100
+			navy_experience = 100
+			air_experience = 100
 		}
 	}
 	
@@ -4903,10 +5123,13 @@
 		available = {
 			#
 		}
+		search_filters = { 
+			FOCUS_FILTER_POLITICAL
+			FOCUS_FILTER_STABILITY
+		}
 		
-		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INTERNAL_AFFAIRS }
 		completion_reward = {
-			add_stability = 0.05
+			add_ideas = KOR_idea_daemagliji
 		}
 	}
 }

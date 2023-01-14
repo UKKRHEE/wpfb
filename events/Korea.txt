@@ -11,9 +11,7 @@ country_event = { #민주
 	option = {
 		name = korea.0.a
 		set_country_flag = KOR_flag_democratic_focus
-		set_country_flag = KOR_flag_democratic_focus2
-		clr_country_flag = KOR_flag_fascism_focus2
-		clr_country_flag = KOR_flag_neutrality_focus2
+		add_ideas = KOR_constitutional_monarch_yi_wu
 		meta_effect = {
 			text = {
 				set_politics = {
@@ -28,7 +26,7 @@ country_event = { #민주
 	}
 }
 
-country_event = { #
+country_event = { #권위
 	id = korea.992
 	title = korea.992.t
 	desc = korea.992.d
@@ -39,12 +37,23 @@ country_event = { #
 	option = {
 		name = korea.0.a
 		set_country_flag = KOR_flag_neutrality_focus
-		set_country_flag = KOR_flag_neutrality_focus2
-		clr_country_flag = KOR_flag_fascism_focus2
-		clr_country_flag = KOR_flag_democratic_focus2
 		set_politics = {
 			ruling_party = neutrality
 			elections_allowed = no
+		}
+		hidden_effect = {
+			add_country_leader_role = {
+				character = KOR_yi_wu
+				country_leader={
+					desc = "POLITICS_YI_WU_DESC"
+					expire = "1965.1.1"
+					ideology = despotism
+					traits = {
+						emperor_geonheung
+					}
+				}
+				promote_leader = yes
+			}
 		}
 	}
 }
@@ -60,45 +69,10 @@ country_event = { #파시
 	option = {
 		name = korea.0.a
 		set_country_flag = KOR_flag_fascism_focus
-		set_country_flag = KOR_flag_fascism_focus2
-		clr_country_flag = KOR_flag_neutrality_focus2
-		clr_country_flag = KOR_flag_democratic_focus2
+		add_ideas = KOR_constitutional_monarch_yi_cheong
 		set_politics = {
 			ruling_party = fascism
 			elections_allowed = no
-		}
-	}
-}
-country_event = { #악!
-	id = korea.994
-	title = korea.994.t
-	desc = korea.994.d
-	picture = GFX_report_event_KOR_korea
-
-	is_triggered_only = yes
-	
-	option = {
-		name = korea.0.
-		uncomplete_national_focus = {
-			focus = KOR_socialdemocracy0
-			uncomplete_children = yes
-			refund_political_power = no
-		}
-	}
-	option = {
-		name = korea.0.
-		uncomplete_national_focus = {
-			focus = KOR_liberalism0
-			uncomplete_children = yes
-			refund_political_power = no
-		}
-	}
-	option = {
-		name = korea.0.
-		uncomplete_national_focus = {
-			focus = KOR_conservatism0
-			uncomplete_children = yes
-			refund_political_power = no
 		}
 	}
 }
