@@ -31,7 +31,7 @@ recruit_character = KOR_ahn_chang_ho
 recruit_character = KOR_jo_so_ang
 #공산주의
 recruit_character = KOR_alexandra_kim
-recruit_character = KOR_kim_du_bong
+recruit_character = KOR_kim_tu_bong
 #파시스트
 recruit_character = KOR_ahn_ho_sang
 recruit_character = KOR_gang_se_hyeong

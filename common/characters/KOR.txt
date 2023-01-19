@@ -5,6 +5,7 @@ characters = {
 		portraits={
 			army={
 				large=GFX_portrait_KOR_yi_dong_hwi
+				small=GFX_idea_KOR_yi_dong_hwi
 			}
 		}
 		country_leader={
@@ -118,6 +119,7 @@ characters = {
 		portraits={
 			civilian={
 				large=GFX_portrait_KOR_yi_wu
+				small=GFX_idea_KOR_yi_wu
 			}
 		}
 		country_leader={
@@ -193,6 +195,7 @@ characters = {
 		name=KOR_yun_il_zung
 		portraits={
 			civilian={
+				large=GFX_portrait_KOR_yun_il_zung
 				small=GFX_idea_KOR_yun_il_zung
 			}
 		}
@@ -213,6 +216,7 @@ characters = {
 		name=KOR_cho_bong_am
 		portraits={
 			civilian={
+				large=GFX_portrait_KOR_cho_bong_am
 				small=GFX_idea_KOR_cho_bong_am
 			}
 		}
@@ -234,6 +238,7 @@ characters = {
 		name=KOR_hyeon_jun_ho
 		portraits={
 			civilian={
+				large=GFX_portrait_KOR_hyeon_jun_ho
 				small=GFX_idea_KOR_hyeon_jun_ho
 			}
 		}
@@ -257,6 +262,7 @@ characters = {
 		name=KOR_park_heung_sik
 		portraits={
 			civilian={
+				large=GFX_portrait_KOR_park_heung_sik
 				small=GFX_idea_KOR_park_heung_sik
 			}
 		}
@@ -334,6 +340,7 @@ characters = {
 		name=KOR_jo_so_ang
 		portraits={
 			civilian={
+				large=GFX_portrait_KOR_jo_so_ang
 				small=GFX_idea_KOR_jo_so_ang
 			}
 		}
@@ -358,6 +365,7 @@ characters = {
 		name=KOR_alexandra_kim
 		portraits={
 			civilian={
+				large=GFX_portrait_KOR_alexandra_kim
 				small=GFX_idea_KOR_alexandra_kim
 			}
 		}
@@ -375,16 +383,17 @@ characters = {
 			}
 		}
 	}
-	KOR_kim_du_bong={
-		name=KOR_kim_du_bong
+	KOR_kim_tu_bong={
+		name=KOR_kim_tu_bong
 		portraits={
 			civilian={
-				small=GFX_idea_KOR_kim_du_bong
+				large=GFX_portrait_KOR_kim_tu_bong
+				small=GFX_idea_KOR_kim_tu_bong
 			}
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = kim_du_bong
+			idea_token = kim_tu_bong
 			available = {
 				has_government = communism
 			}
@@ -402,6 +411,7 @@ characters = {
 		name=KOR_ahn_ho_sang
 		portraits={
 			civilian={
+				large=GFX_portrait_KOR_ahn_ho_sang
 				small=GFX_idea_KOR_ahn_ho_sang
 			}
 		}
@@ -423,6 +433,7 @@ characters = {
 		name=KOR_gang_se_hyeong
 		portraits={
 			civilian={
+				large=GFX_portrait_KOR_gang_se_hyeong
 				small=GFX_idea_KOR_gang_se_hyeong
 			}
 		}
@@ -474,6 +485,7 @@ characters = {
 		name=KOR_min_young_hwan
 		portraits={
 			civilian={
+				large=GFX_portrait_KOR_min_young_hwan
 				small=GFX_idea_KOR_min_young_hwan
 			}
 		}
@@ -519,6 +531,7 @@ characters = {
 		name=KOR_yi_kyu_wan
 		portraits={
 			civilian={
+				large=GFX_portrait_KOR_yi_kyu_wan
 				small=GFX_idea_KOR_yi_kyu_wan
 			}
 		}
@@ -567,7 +580,7 @@ characters = {
 		name=KOR_council_of_theorists
 		portraits = {
 			army = {
-				small = "gfx/interface/ideas/KOR/advisors_korea.png"
+				small = "gfx/interface/ideas/KOR/theorist/advisors_korea.png"
 			}
 		}
 		advisor={
@@ -590,6 +603,7 @@ characters = {
 		name=KOR_do_sang_log
 		portraits={
 			army={
+				large=GFX_portrait_KOR_do_sang_log
 				small=GFX_idea_KOR_do_sang_log
 			}
 		}
@@ -797,6 +811,7 @@ characters = {
 		name=KOR_no_baek_rin
 		portraits={
 			army={
+				large=GFX_portrait_KOR_no_baek_rin
 				small=GFX_idea_KOR_no_baek_rin
 			}
 		}
@@ -820,6 +835,7 @@ characters = {
 		name=KOR_seo_wal_bo
 		portraits={
 			army={
+				large=GFX_portrait_KOR_seo_wal_bo
 				small=GFX_idea_KOR_seo_wal_bo
 			}
 		}
@@ -1099,6 +1115,7 @@ characters = {
 		name=KOR_ahn_chang_nam
 		portraits={
 			army={
+				large=GFX_portrait_KOR_ahn_chang_nam
 				small=GFX_idea_KOR_ahn_chang_nam
 			}
 		}
@@ -1122,6 +1139,7 @@ characters = {
 		name=KOR_choe_yong_duk
 		portraits={
 			army={
+				large=GFX_portrait_KOR_choe_yong_duk
 				small=GFX_idea_KOR_choe_yong_duk
 			}
 		}
@@ -1145,6 +1163,7 @@ characters = {
 		name=KOR_jang_duk_chang
 		portraits={
 			army={
+				large=GFX_portrait_KOR_jang_duk_chang
 				small=GFX_idea_KOR_jang_duk_chang
 			}
 		}
@@ -1171,6 +1190,7 @@ characters = {
 		portraits={
 			army={
 				large=GFX_portrait_KOR_yu_dong_yeol
+				small=GFX_idea_KOR_yu_dong_yeol
 			}
 		}
 		field_marshal={
@@ -1194,6 +1214,7 @@ characters = {
 		portraits={
 			army={
 				large=GFX_portrait_KOR_yi_won
+				small=GFX_idea_KOR_yi_won
 			}
 		}
 		corps_commander={
@@ -1216,6 +1237,7 @@ characters = {
 		portraits={
 			army={
 				large=GFX_portrait_KOR_kim_won_bong
+				small=GFX_idea_KOR_kim_won_bong
 			}
 		}
 		corps_commander={
@@ -1236,6 +1258,7 @@ characters = {
 		portraits={
 			army={
 				large=GFX_portrait_KOR_oh_dong_jin
+				small=GFX_idea_KOR_oh_dong_jin
 			}
 		}
 		corps_commander={
@@ -1256,6 +1279,7 @@ characters = {
 		portraits={
 			army={
 				large=GFX_portrait_KOR_hwang_byeong_gil
+				small=GFX_idea_KOR_hwang_byeong_gil
 			}
 		}
 		corps_commander={
@@ -1276,6 +1300,7 @@ characters = {
 		portraits={
 			army={
 				large=GFX_portrait_KOR_song_ho_seong
+				small=GFX_idea_KOR_song_ho_seong
 			}
 		}
 		corps_commander={
@@ -1295,6 +1320,7 @@ characters = {
 		portraits={
 			army={
 				large=GFX_portrait_KOR_lee_eung_jun
+				small=GFX_idea_KOR_lee_eung_jun
 			}
 		}
 		corps_commander={
@@ -1316,6 +1342,7 @@ characters = {
 		portraits={
 			army={
 				large=GFX_portrait_KOR_sohn_won_yil
+				small=GFX_idea_KOR_sohn_won_yil
 			}
 		}
 		navy_leader={
@@ -1335,6 +1362,7 @@ characters = {
 		portraits={
 			army={
 				large=GFX_portrait_KOR_yi_un
+				small=GFX_idea_KOR_yi_un
 			}
 		}
 		navy_leader={
@@ -1356,6 +1384,7 @@ characters = {
 		portraits={
 			army={
 				large=GFX_portrait_KOR_yi_jae_gak
+				small=GFX_idea_KOR_yi_jae_gak
 			}
 		}
 		navy_leader={
@@ -1377,6 +1406,7 @@ characters = {
 		portraits={
 			army={
 				large=GFX_portrait_KOR_yi_geon
+				small=GFX_idea_KOR_yi_geon
 			}
 		}
 		navy_leader={
@@ -1396,6 +1426,7 @@ characters = {
 		portraits={
 			army={
 				large=GFX_portrait_KOR_shin_sung_mo
+				small=GFX_idea_KOR_shin_sung_mo
 			}
 		}
 		navy_leader={

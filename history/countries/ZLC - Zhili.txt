@@ -70,6 +70,7 @@ recruit_character = ZLC_wu_peifu
 recruit_character = ZLC_cao_kun
 
 ### 정치고문 ###
+recruit_character = ZLC_yan_huiqing
 recruit_character = ZLC_li_linsi
 recruit_character = ZLC_wellington_koo
 recruit_character = ZLC_diao_zuoqian

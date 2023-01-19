@@ -31,7 +31,7 @@ recruit_character = ROK_syngman_rhee
 
 ### 정치고문 ###
 recruit_character = ROK_yun_il_zung
-recruit_character = ROK_kim_du_bong
+recruit_character = ROK_kim_tu_bong
 recruit_character = ROK_alexandra_kim
 recruit_character = ROK_cho_bong_am
 recruit_character = ROK_jo_so_ang

@@ -120,6 +120,24 @@ characters={
 	}
 	
 	### 정치고문 ###
+	ZLC_yan_huiqing={
+		name=ZLC_yan_huiqing
+		portraits={
+			civilian={
+				small=GFX_idea_ZLC_yan_huiqing
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = yan_huiqing
+			allowed = {
+				original_tag = ZLC
+			}
+			traits = {
+				silent_workhorse
+			}
+		}
+	}
 	ZLC_li_linsi={
 		name=ZLC_li_linsi
 		portraits={

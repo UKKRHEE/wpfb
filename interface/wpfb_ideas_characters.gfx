@@ -87,257 +87,321 @@ spriteTypes = {
 	### 대한제국 ###
 	#############
 	
+	### 한국 지도자 ###
+	spriteType = {
+		name = "GFX_idea_KOR_yi_dong_hwi"
+		texturefile = "gfx/interface/ideas/KOR/army/idea_KOR_yi_dong_hwi.png"
+	}
+	spriteType = {
+		name = "GFX_idea_KOR_lyuh_woon_hyung"
+		texturefile = "gfx/interface/ideas/KOR/advisors/idea_KOR_lyuh_woon_hyung.png"
+	}
+	spriteType = {
+		name = "GFX_idea_KOR_lee_beom_seok"
+		texturefile = "gfx/interface/ideas/KOR/army/idea_KOR_lee_beom_seok.png"
+	}
+	spriteType = {
+		name = "GFX_idea_KOR_lee_beom_seok2"
+		texturefile = "gfx/interface/ideas/KOR/army/idea_KOR_lee_beom_seok2.png"
+	}
+	spriteType = {
+		name = "GFX_idea_KOR_yi_wu"
+		texturefile = "gfx/interface/ideas/KOR/advisors/idea_KOR_yi_wu.png"
+	}
+	#조선인민공화국
+	spriteType = {
+		name = "GFX_idea_KOR_pak_hon_yong"
+		texturefile = "gfx/interface/ideas/KOR/advisors/idea_KOR_pak_hon_yong.png"
+	}
+	
 	### 한국 정치고문 ###
 	#조건 없음
 	spriteType = {
 		name = "GFX_idea_KOR_jo_wan_gu"
-		texturefile = "gfx/interface/ideas/KOR/idea_KOR_jo_wan_gu.png"
+		texturefile = "gfx/interface/ideas/KOR/advisors/idea_KOR_jo_wan_gu.png"
 	}
 	spriteType = {
 		name = "GFX_idea_KOR_kim_byung_ro"
-		texturefile = "gfx/interface/ideas/KOR/idea_KOR_kim_byung_ro.png"
+		texturefile = "gfx/interface/ideas/KOR/advisors/idea_KOR_kim_byung_ro.png"
 	}
 	spriteType = {
 		name = "GFX_idea_KOR_kim_kyu_sik"
-		texturefile = "gfx/interface/ideas/KOR/idea_KOR_kim_kyu_sik.png"
+		texturefile = "gfx/interface/ideas/KOR/advisors/idea_KOR_kim_kyu_sik.png"
 	}
 	spriteType = {
 		name = "GFX_idea_KOR_yun_il_zung"
-		texturefile = "gfx/interface/ideas/KOR/idea_KOR_yun_il_zung.png"
+		texturefile = "gfx/interface/ideas/KOR/advisors/idea_KOR_yun_il_zung.png"
 	}
 	#중점 달성
 	spriteType = {
 		name = "GFX_idea_KOR_cho_bong_am"
-		texturefile = "gfx/interface/ideas/KOR/idea_KOR_cho_bong_am.png"
+		texturefile = "gfx/interface/ideas/KOR/advisors/idea_KOR_cho_bong_am.png"
 	}
 	spriteType = {
 		name = "GFX_idea_KOR_hyeon_jun_ho"
-		texturefile = "gfx/interface/ideas/KOR/idea_KOR_hyeon_jun_ho.png"
+		texturefile = "gfx/interface/ideas/KOR/advisors/idea_KOR_hyeon_jun_ho.png"
 	}
 	#반공주의
 	spriteType = {
 		name = "GFX_idea_KOR_park_heung_sik"
-		texturefile = "gfx/interface/ideas/KOR/idea_KOR_park_heung_sik.png"
+		texturefile = "gfx/interface/ideas/KOR/advisors/idea_KOR_park_heung_sik.png"
 	}
 	spriteType = {
 		name = "GFX_idea_KOR_syngman_rhee"
-		texturefile = "gfx/interface/ideas/KOR/idea_KOR_syngman_rhee.png"
+		texturefile = "gfx/interface/ideas/KOR/advisors/idea_KOR_syngman_rhee.png"
 	}
 	#민주주의
 	spriteType = {
 		name = "GFX_idea_KOR_ahn_chang_ho"
-		texturefile = "gfx/interface/ideas/KOR/idea_KOR_ahn_chang_ho.png"
+		texturefile = "gfx/interface/ideas/KOR/advisors/idea_KOR_ahn_chang_ho.png"
 	}
 	spriteType = {
 		name = "GFX_idea_KOR_jo_so_ang"
-		texturefile = "gfx/interface/ideas/KOR/idea_KOR_jo_so_ang.png"
-	}
-	spriteType = {
-		name = "GFX_idea_KOR_lyuh_woon_hyung"
-		texturefile = "gfx/interface/ideas/KOR/idea_KOR_lyuh_woon_hyung.png"
+		texturefile = "gfx/interface/ideas/KOR/advisors/idea_KOR_jo_so_ang.png"
 	}
 	#공산주의
 	spriteType = {
 		name = "GFX_idea_KOR_alexandra_kim"
-		texturefile = "gfx/interface/ideas/KOR/idea_KOR_alexandra_kim.png"
+		texturefile = "gfx/interface/ideas/KOR/advisors/idea_KOR_alexandra_kim.png"
 	}
 	spriteType = {
-		name = "GFX_idea_KOR_kim_du_bong"
-		texturefile = "gfx/interface/ideas/KOR/idea_KOR_kim_du_bong.png"
+		name = "GFX_idea_KOR_kim_tu_bong"
+		texturefile = "gfx/interface/ideas/KOR/advisors/idea_KOR_kim_tu_bong.png"
 	}
 	#파시스트
 	spriteType = {
 		name = "GFX_idea_KOR_ahn_ho_sang"
-		texturefile = "gfx/interface/ideas/KOR/idea_KOR_ahn_ho_sang.png"
+		texturefile = "gfx/interface/ideas/KOR/advisors/idea_KOR_ahn_ho_sang.png"
 	}
 	spriteType = {
 		name = "GFX_idea_KOR_gang_se_hyeong"
-		texturefile = "gfx/interface/ideas/KOR/idea_KOR_gang_se_hyeong.png"
+		texturefile = "gfx/interface/ideas/KOR/advisors/idea_KOR_gang_se_hyeong.png"
 	}
 	spriteType = {
 		name = "GFX_idea_KOR_sin_chae_ho"
-		texturefile = "gfx/interface/ideas/KOR/idea_KOR_sin_chae_ho.png"
+		texturefile = "gfx/interface/ideas/KOR/advisors/idea_KOR_sin_chae_ho.png"
 	}
 	#권위주의
 	spriteType = {
 		name = "GFX_idea_KOR_min_young_hwan"
-		texturefile = "gfx/interface/ideas/KOR/idea_KOR_min_young_hwan.png"
+		texturefile = "gfx/interface/ideas/KOR/advisors/idea_KOR_min_young_hwan.png"
 	}
 	spriteType = {
 		name = "GFX_idea_KOR_yi_kang"
-		texturefile = "gfx/interface/ideas/KOR/idea_KOR_yi_kang.png"
+		texturefile = "gfx/interface/ideas/KOR/advisors/idea_KOR_yi_kang.png"
 	}
 	spriteType = {
 		name = "GFX_idea_KOR_yi_kyu_wan"
-		texturefile = "gfx/interface/ideas/KOR/idea_KOR_yi_kyu_wan.png"
+		texturefile = "gfx/interface/ideas/KOR/advisors/idea_KOR_yi_kyu_wan.png"
 	}
 	#정보기관
 	spriteType = {
 		name = "GFX_idea_KOR_kim_koo"
-		texturefile = "gfx/interface/ideas/KOR/idea_KOR_kim_koo.png"
+		texturefile = "gfx/interface/ideas/KOR/advisors/idea_KOR_kim_koo.png"
 	}
-	#기타
+	#조선인민공화국
+	spriteType = {
+		name = "GFX_idea_KOR_park_il_wu"
+		texturefile = "gfx/interface/ideas/KOR/advisors/idea_KOR_park_il_wu.png"
+	}
+	#대한민국
 	spriteType = {
 		name = "GFX_idea_KOR_chang_myon"
-		texturefile = "gfx/interface/ideas/KOR/idea_KOR_chang_myon.png"
+		texturefile = "gfx/interface/ideas/KOR/advisors/idea_KOR_chang_myon.png"
 	}
 	spriteType = {
 		name = "GFX_idea_KOR_ho_chong"
-		texturefile = "gfx/interface/ideas/KOR/idea_KOR_ho_chong.png"
+		texturefile = "gfx/interface/ideas/KOR/advisors/idea_KOR_ho_chong.png"
 	}
 	spriteType = {
 		name = "GFX_idea_KOR_chang_taek_sang"
-		texturefile = "gfx/interface/ideas/KOR/idea_KOR_chang_taek_sang.png"
-	}
-	spriteType = {
-		name = "GFX_idea_KOR_park_il_wu"
-		texturefile = "gfx/interface/ideas/KOR/idea_KOR_park_il_wu.png"
+		texturefile = "gfx/interface/ideas/KOR/advisors/idea_KOR_chang_taek_sang.png"
 	}
 	
 	### 한국 이론가 ###
 	spriteType = {
-		name = "GFX_idea_KOR_kim_hong_il"
-		texturefile = "gfx/interface/ideas/KOR/idea_KOR_kim_hong_il.png"
-	}
-	spriteType = {
-		name = "GFX_idea_KOR_kim_hong_il2"
-		texturefile = "gfx/interface/ideas/KOR/idea_KOR_kim_hong_il2.png"
-	}
-	spriteType = {
-		name = "GFX_idea_KOR_park_ok_kyu"
-		texturefile = "gfx/interface/ideas/KOR/idea_KOR_park_ok_kyu.png"
-	}
-	spriteType = {
-		name = "GFX_idea_KOR_jang_duk_chang"
-		texturefile = "gfx/interface/ideas/KOR/idea_KOR_jang_duk_chang.png"
-	}
-	spriteType = {
 		name = "GFX_idea_KOR_do_sang_log"
-		texturefile = "gfx/interface/ideas/KOR/idea_KOR_do_sang_log.png"
+		texturefile = "gfx/interface/ideas/KOR/theorist/idea_KOR_do_sang_log.png"
 	}
 	
 	### 한국 육군참모총장 ###
 	spriteType = {
 		name = "GFX_idea_KOR_ahn_jung_geun"
-		texturefile = "gfx/interface/ideas/KOR/idea_KOR_ahn_jung_geun.png"
+		texturefile = "gfx/interface/ideas/KOR/army/idea_KOR_ahn_jung_geun.png"
 	}
 	spriteType = {
 		name = "GFX_idea_KOR_kim_chwa_chin"
-		texturefile = "gfx/interface/ideas/KOR/idea_KOR_kim_chwa_chin.png"
-	}
-	spriteType = {
-		name = "GFX_idea_KOR_lee_beom_seok"
-		texturefile = "gfx/interface/ideas/KOR/idea_KOR_lee_beom_seok.png"
-	}
-	spriteType = {
-		name = "GFX_idea_KOR_lee_beom_seok2"
-		texturefile = "gfx/interface/ideas/KOR/idea_KOR_lee_beom_seok2.png"
+		texturefile = "gfx/interface/ideas/KOR/army/idea_KOR_kim_chwa_chin.png"
 	}
 	spriteType = {
 		name = "GFX_idea_KOR_shin_pal_gyun"
-		texturefile = "gfx/interface/ideas/KOR/idea_KOR_shin_pal_gyun.png"
-	} 
-	#기타
-	spriteType = {
-		name = "GFX_idea_KOR_kim_won_bong"
-		texturefile = "gfx/interface/ideas/KOR/idea_KOR_kim_won_bong.png"
+		texturefile = "gfx/interface/ideas/KOR/army/idea_KOR_shin_pal_gyun.png"
 	}
 	
 	### 한국 해군참모총장 ###
 	spriteType = {
 		name = "GFX_idea_KOR_sin_sun_sung"
-		texturefile = "gfx/interface/ideas/KOR/idea_KOR_sin_sun_sung.png"
+		texturefile = "gfx/interface/ideas/KOR/navy/idea_KOR_sin_sun_sung.png"
 	}
 	spriteType = {
 		name = "GFX_idea_KOR_yi_kyu_gap"
-		texturefile = "gfx/interface/ideas/KOR/idea_KOR_yi_kyu_gap.png"
+		texturefile = "gfx/interface/ideas/KOR/navy/idea_KOR_yi_kyu_gap.png"
 	}
-	#기타
+	#조선인민공화국
 	spriteType = {
-		name = "GFX_idea_KOR_sohn_won_yil"
-		texturefile = "gfx/interface/ideas/KOR/idea_KOR_sohn_won_yil.png"
+		name = "GFX_idea_KOR_han_il_mu"
+		texturefile = "gfx/interface/ideas/KOR/navy/idea_KOR_han_il_mu.png"
 	}
 	
 	### 한국 공군참모총장 ###
 	spriteType = {
 		name = "GFX_idea_KOR_no_baek_rin"
-		texturefile = "gfx/interface/ideas/KOR/idea_KOR_no_baek_rin.png"
+		texturefile = "gfx/interface/ideas/KOR/air/idea_KOR_no_baek_rin.png"
 	}
 	spriteType = {
 		name = "GFX_idea_KOR_seo_wal_bo"
-		texturefile = "gfx/interface/ideas/KOR/idea_KOR_seo_wal_bo.png"
-	}
-	#기타
-	spriteType = {
-		name = "GFX_idea_KOR_han_il_mu"
-		texturefile = "gfx/interface/ideas/KOR/idea_KOR_han_il_mu.png"
+		texturefile = "gfx/interface/ideas/KOR/air/idea_KOR_seo_wal_bo.png"
 	}
 	
 	### 한국 최고사령부 ###
+	#육군
 	spriteType = {
 		name = "GFX_idea_KOR_hong_sa_ik"
-		texturefile = "gfx/interface/ideas/KOR/idea_KOR_hong_sa_ik.png"
+		texturefile = "gfx/interface/ideas/KOR/army/idea_KOR_hong_sa_ik.png"
 	}
 	spriteType = {
 		name = "GFX_idea_KOR_hong_sa_ik2"
-		texturefile = "gfx/interface/ideas/KOR/idea_KOR_hong_sa_ik2.png"
+		texturefile = "gfx/interface/ideas/KOR/army/idea_KOR_hong_sa_ik2.png"
 	}
 	spriteType = {
 		name = "GFX_idea_KOR_ji_cheong_cheon"
-		texturefile = "gfx/interface/ideas/KOR/idea_KOR_ji_cheong_cheon.png"
+		texturefile = "gfx/interface/ideas/KOR/army/idea_KOR_ji_cheong_cheon.png"
 	}
 	spriteType = {
 		name = "GFX_idea_KOR_ji_cheong_cheon2"
-		texturefile = "gfx/interface/ideas/KOR/idea_KOR_ji_cheong_cheon2.png"
+		texturefile = "gfx/interface/ideas/KOR/army/idea_KOR_ji_cheong_cheon2.png"
+	}
+	spriteType = {
+		name = "GFX_idea_KOR_kim_hong_il"
+		texturefile = "gfx/interface/ideas/KOR/army/idea_KOR_kim_hong_il.png"
+	}
+	spriteType = {
+		name = "GFX_idea_KOR_kim_hong_il2"
+		texturefile = "gfx/interface/ideas/KOR/army/idea_KOR_kim_hong_il2.png"
 	}
 	spriteType = {
 		name = "GFX_idea_KOR_kim_kyung_cheon"
-		texturefile = "gfx/interface/ideas/KOR/idea_KOR_kim_kyung_cheon.png"
+		texturefile = "gfx/interface/ideas/KOR/army/idea_KOR_kim_kyung_cheon.png"
 	}
 	spriteType = {
 		name = "GFX_idea_KOR_kim_suk_won"
-		texturefile = "gfx/interface/ideas/KOR/idea_KOR_kim_suk_won.png"
+		texturefile = "gfx/interface/ideas/KOR/army/idea_KOR_kim_suk_won.png"
 	}
 	spriteType = {
 		name = "GFX_idea_KOR_kim_suk_won2"
-		texturefile = "gfx/interface/ideas/KOR/idea_KOR_kim_suk_won2.png"
+		texturefile = "gfx/interface/ideas/KOR/army/idea_KOR_kim_suk_won2.png"
 	}
-	spriteType = {
-		name = "GFX_idea_KOR_yu_dong_yeol"
-		texturefile = "gfx/interface/ideas/KOR/idea_KOR_yu_dong_yeol.png"
-	}
-	spriteType = {
-		name = "GFX_idea_KOR_yu_dong_yeol2"
-		texturefile = "gfx/interface/ideas/KOR/idea_KOR_yu_dong_yeol2.png"
-	}
+	#해군
 	spriteType = {
 		name = "GFX_idea_KOR_choi_sung_hak"
-		texturefile = "gfx/interface/ideas/KOR/idea_KOR_choi_sung_hak.png"
+		texturefile = "gfx/interface/ideas/KOR/navy/idea_KOR_choi_sung_hak.png"
 	}
 	spriteType = {
+		name = "GFX_idea_KOR_park_ok_kyu"
+		texturefile = "gfx/interface/ideas/KOR/navy/idea_KOR_park_ok_kyu.png"
+	}
+	#공군
+	spriteType = {
 		name = "GFX_idea_KOR_ahn_chang_nam"
-		texturefile = "gfx/interface/ideas/KOR/idea_KOR_ahn_chang_nam.png"
+		texturefile = "gfx/interface/ideas/KOR/air/idea_KOR_ahn_chang_nam.png"
 	}
 	spriteType = {
 		name = "GFX_idea_KOR_choe_yong_duk"
-		texturefile = "gfx/interface/ideas/KOR/idea_KOR_choe_yong_duk.png"
+		texturefile = "gfx/interface/ideas/KOR/air/idea_KOR_choe_yong_duk.png"
 	}
-	#기타
+	spriteType = {
+		name = "GFX_idea_KOR_jang_duk_chang"
+		texturefile = "gfx/interface/ideas/KOR/air/idea_KOR_jang_duk_chang.png"
+	}
+	#조선인민공화국
 	spriteType = {
 		name = "GFX_idea_KOR_choe_yong_gon"
-		texturefile = "gfx/interface/ideas/KOR/idea_KOR_choe_yong_gon.png"
+		texturefile = "gfx/interface/ideas/KOR/army/idea_KOR_choe_yong_gon.png"
 	}
 	spriteType = {
 		name = "GFX_idea_KOR_kim_chaek"
-		texturefile = "gfx/interface/ideas/KOR/idea_KOR_kim_chaek.png"
+		texturefile = "gfx/interface/ideas/KOR/army/idea_KOR_kim_chaek.png"
 	}
 	spriteType = {
 		name = "GFX_idea_KOR_kim_mu_chong"
-		texturefile = "gfx/interface/ideas/KOR/idea_KOR_kim_mu_chong.png"
+		texturefile = "gfx/interface/ideas/KOR/army/idea_KOR_kim_mu_chong.png"
+	}
+	
+	### 한국 원수 ###
+	spriteType = {
+		name = "GFX_idea_KOR_yu_dong_yeol"
+		texturefile = "gfx/interface/ideas/KOR/army/idea_KOR_yu_dong_yeol.png"
+	}
+	spriteType = {
+		name = "GFX_idea_KOR_yu_dong_yeol2"
+		texturefile = "gfx/interface/ideas/KOR/army/idea_KOR_yu_dong_yeol2.png"
+	}
+	
+	### 한국 장성 ###
+	spriteType = {
+		name = "GFX_idea_KOR_yi_won"
+		texturefile = "gfx/interface/ideas/KOR/army/idea_KOR_yi_won.png"
+	}
+	spriteType = {
+		name = "GFX_idea_KOR_kim_won_bong"
+		texturefile = "gfx/interface/ideas/KOR/army/idea_KOR_kim_won_bong.png"
+	}
+	spriteType = {
+		name = "GFX_idea_KOR_oh_dong_jin"
+		texturefile = "gfx/interface/ideas/KOR/army/idea_KOR_oh_dong_jin.png"
+	}
+	spriteType = {
+		name = "GFX_idea_KOR_hwang_byeong_gil"
+		texturefile = "gfx/interface/ideas/KOR/army/idea_KOR_hwang_byeong_gil.png"
+	}
+	spriteType = {
+		name = "GFX_idea_KOR_song_ho_seong"
+		texturefile = "gfx/interface/ideas/KOR/army/idea_KOR_song_ho_seong.png"
+	}
+	spriteType = {
+		name = "GFX_idea_KOR_lee_eung_jun"
+		texturefile = "gfx/interface/ideas/KOR/army/idea_KOR_lee_eung_jun.png"
+	}
+	spriteType = {
+		name = "GFX_idea_KOR_lee_eung_jun2"
+		texturefile = "gfx/interface/ideas/KOR/army/idea_KOR_lee_eung_jun2.png"
+	}
+	#대한민국
+	spriteType = {
+		name = "GFX_idea_KOR_kim_hak_kyu"
+		texturefile = "gfx/interface/ideas/KOR/army/idea_KOR_kim_hak_kyu.png"
+	}
+	
+	### 한국 제독 ###
+	spriteType = {
+		name = "GFX_idea_KOR_sohn_won_yil"
+		texturefile = "gfx/interface/ideas/KOR/navy/idea_KOR_sohn_won_yil.png"
+	}
+	spriteType = {
+		name = "GFX_idea_KOR_yi_un"
+		texturefile = "gfx/interface/ideas/KOR/navy/idea_KOR_yi_un.png"
+	}
+	spriteType = {
+		name = "GFX_idea_KOR_yi_jae_gak"
+		texturefile = "gfx/interface/ideas/KOR/navy/idea_KOR_yi_jae_gak.png"
+	}
+	spriteType = {
+		name = "GFX_idea_KOR_yi_geon"
+		texturefile = "gfx/interface/ideas/KOR/navy/idea_KOR_yi_geon.png"
 	}
 	spriteType = {
 		name = "GFX_idea_KOR_shin_sung_mo"
-		texturefile = "gfx/interface/ideas/KOR/idea_KOR_shin_sung_mo.png"
+		texturefile = "gfx/interface/ideas/KOR/navy/idea_KOR_shin_sung_mo.png"
 	}
 	
 	#############
@@ -644,6 +708,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_ZLC_cao_kun"
 		texturefile = "gfx/interface/ideas/ZLC/idea_ZLC_cao_kun.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ZLC_yan_huiqing"
+		texturefile = "gfx/interface/ideas/ZLC/idea_ZLC_yan_huiqing.png"
 	}
 	spriteType = {
 		name = "GFX_idea_ZLC_li_linsi"
