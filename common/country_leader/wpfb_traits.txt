@@ -111,6 +111,15 @@ leader_traits = {
 			factor = 1
 		}
 	}
+	underage_emperor = {
+		random = no
+		
+		stability_factor = 0.05
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
 	jade_marshal = {
 		random = no
 		
@@ -172,6 +181,24 @@ leader_traits = {
 		sprite = 13
 
 		stability_factor = -0.25
+		political_advisor_cost_factor = -0.25
+		mobilization_laws_cost_factor = -0.25
+		trade_laws_cost_factor = -0.25
+		economy_cost_factor = -0.25
+		army_chief_cost_factor = -0.25
+		navy_chief_cost_factor = -0.25
+		air_chief_cost_factor = -0.25
+		high_command_cost_factor = -0.25
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	shadow_emperor2 = {
+		random = no
+		sprite = 13
+
+		stability_weekly = 0.001
 		political_advisor_cost_factor = -0.25
 		mobilization_laws_cost_factor = -0.25
 		trade_laws_cost_factor = -0.25

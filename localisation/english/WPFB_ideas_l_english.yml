@@ -37,8 +37,9 @@
  
  ### 한국 국민정신 ###
  #국가원수
- KOR_constitutional_monarch_yi_wu:0 "건흥제 이우"
- KOR_constitutional_monarch_yi_cheong:0 "유제 이청"
+ KOR_constitutional_monarch_yi_wu:0 "이우"
+ KOR_constitutional_monarch_yi_cheong:0 "이청"
+ underage_emperor:0 "유제"
  #시작 보유
  KOR_questions_government:0 "정부에 대한 의문"
  KOR_questions_government_desc:0 "현재 우리의 정부는 '비효율'이라는 한단어로 정리할 수 있을 것입니다. 황실, 대신, 보수파, 개혁파 모두가 각자의 이상만을 고수하며 타협하지 않는 자세는 국민들이 정부를 불신하게 만들기 충분할 것입니다."
@@ -128,6 +129,7 @@
  KOR_min_young_hwan:0 "민영환"
  KOR_yi_kang:0 "이강"
  shadow_emperor:0 "그림자 황제"
+ shadow_emperor2:0 "그림자 황제"
  KOR_yi_kyu_wan:0 "이규완"
  #기타
  KOR_chang_myon:0 "장면"
@@ -336,12 +338,12 @@
  TIB_5th_reting_rinpoche:0 "제5대 레팅 린포체"
  
  ### 티베트 정치고문 ###
- TIB_lhalu_tsewang_dorje:0 "Lhalu Tsewang Dorji"
- TIB_lonchen_yapshi_langdun_kung:0 "Lonchen Yapshi Langdun Kung"
- TIB_rigzin_dorje_ringang:0 "Rigzin Dorji Ringang"
- TIB_norbhu_dhondhup:0 "Norbhu Dhondhup"
+ TIB_lhalu_tsewang_dorje:0 "라루 체왕 도제"
+ TIB_lonchen_yapshi_langdun_kung:0 "롱첸 얍시 랑둔 쿵"
+ TIB_rigzin_dorje_ringang:0 "릭진 도제 린강"
+ TIB_norbhu_dhondhup:0 "노르부 돈둡"
  TIB_tsepon_wangchuk_shakabpa:0 "체폰 왕축 샤캅파"
- TIB_lukhangpa:0 "Lukhangpa"
+ TIB_lukhangpa:0 "루캉파"
  
  ### 티베트 육군참모총장 ###
  TIB_tsarong_dzasa:0 "Tsarong Dzasa"
@@ -465,7 +467,7 @@
  ### 오성연군 최고사령부 ###
  NJC_deng_ruzuo:0 "덩루쭤"
  NJC_xuai_shuxuan:0 "샤오슈쉬안"
- NJC_zhou_yinren:0 "저우인런"`
+ NJC_zhou_yinren:0 "저우인런"
  
  ### 오성연군 육군 장성 ###
  NJC_zhou_fengqi:0 "저우펑치"
@@ -510,13 +512,13 @@
  ### 사천군벌 정치고문 ###
  SCC_shen_junru:0 "선쥔루"
  SCC_ba_jin:0 "바진"
- SCC_lu_zuofu:0 "Lu Zuofu"
+ SCC_lu_zuofu:0 "루쭤푸"
  
  ### 사천군벌 육군참모총장 ###
  SCC_wang_zuanxu:0 "왕쫜쉬"
  
  ### 사천군벌 공군참모총장 ###
- SCC_zheng_shaoyu:0 "Zhean Shaoyu"
+ SCC_zheng_shaoyu:0 "정사오위"
  
  ### 사천군벌 최고사령부 ###
  SCC_wang_lingji:0 "왕링지"
@@ -788,7 +790,7 @@
  
  ### 인도 제독 ###
  RAJ_kalyani_sen:0 "Kalyani Sen"
- RAJ_d_n_mukerji:0 "D. N. Mukerji"
+ RAJ_d_n_mukerji:0 "D. N. 무케르지"
  
  #############
  ### 류큐왕국 ###

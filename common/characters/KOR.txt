@@ -110,7 +110,7 @@ characters = {
 			defense_skill = 2
 			planning_skill = 3
 			logistics_skill = 3
-			id = 9999991
+			legacy_id = 9999991
 		}
 	}
 	KOR_yi_wu={
@@ -573,8 +573,11 @@ characters = {
 		advisor={
 			cost = 100
 			slot = theorist
-			idea_token = 
+			idea_token = KOR_council_of_theorists
 			ledger = military
+			available = {
+				has_completed_focus = KOR_korean_army
+			}
 			allowed = {
 				original_tag = KOR
 			}
@@ -1225,7 +1228,7 @@ characters = {
 			defense_skill = 1
 			planning_skill = 3
 			logistics_skill = 2
-			id = 9999992
+			legacy_id = 9999992
 		}
 	}
 	KOR_oh_dong_jin={

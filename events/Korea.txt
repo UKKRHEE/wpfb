@@ -69,10 +69,31 @@ country_event = { #파시
 	option = {
 		name = korea.0.a
 		set_country_flag = KOR_flag_fascism_focus
-		add_ideas = KOR_constitutional_monarch_yi_cheong
+		add_ideas = KOR_constitutional_monarch_yi_wu
 		set_politics = {
 			ruling_party = fascism
 			elections_allowed = no
 		}
+	}
+}
+
+country_event = { #불충한 장교 재판
+	id = korea.999
+	title = korea.999.t
+	desc = korea.999.d
+	picture = GFX_report_event_KOR_korea
+
+	is_triggered_only = yes
+	
+	option = {
+		name = korea.999.a
+		add_stability = 0.10
+		add_war_support = -0.10
+		remove_unit_leader = 9999992
+	}
+	
+	option = {
+		name = korea.999.b
+		add_stability = -0.10
 	}
 }
