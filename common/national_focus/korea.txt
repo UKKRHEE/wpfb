@@ -3923,6 +3923,16 @@
                 remove = emperor_geonheung
                 add = emperor_geonheung2
             }
+			remove_trait = {
+    			character = KOR_yi_kang
+   				slot = political_advisor
+    			trait = shadow_emperor
+			}
+			add_trait = {
+    			character = KOR_yi_kang
+     			slot = political_advisor
+    			trait = shadow_emperor2
+			}
 		}
 	}
 	focus = { #중추원 형식화
