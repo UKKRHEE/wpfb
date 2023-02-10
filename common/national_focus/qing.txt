@@ -9,7 +9,7 @@ focus_tree = {
 		}
 	}
 
-	continuous_focus_position = { x = 1300 y = 2000 }
+	continuous_focus_position = { x = 50 y = 2000 }
 
 
 	focus = {
@@ -225,6 +225,60 @@ focus_tree = {
 		
 		completion_reward = { 
 
+		}
+	}
+
+	focus = {
+		id = focus_qing_army
+		icon = GFX
+
+		cost = 1
+		
+		x = 23
+		y = 0
+		
+		completion_reward = { 
+
+		}
+	}
+
+	focus = {
+		id = focus_qing_13
+		icon = GFX
+		prerequisite = {
+			focus = focus_qing
+		}
+		mutually_exclusive = {
+			focus = focus_qing_14
+		}
+
+		cost = 1
+
+		x = 11
+		y = 1
+		
+		completion_reward = { 
+
+		}
+	}
+
+	focus = {
+		id = focus_qing_14
+		icon = GFX
+		prerequisite = {
+			focus = focus_qing
+		}
+		mutually_exclusive = {
+			focus = focus_qing_13
+		}
+
+		cost = 1
+		
+		x = 15
+		y = 1
+		
+		completion_reward = { 
+			
 		}
 	}
 }
