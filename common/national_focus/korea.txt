@@ -2903,7 +2903,6 @@
 		completion_reward = {
 			if = {
 				limit = { NOT = { has_country_flag = KOR_flag_intel } }
-				add_research_slot = 1
 				swap_ideas = {
 					add_idea = KOR_intel_sd
 					remove_idea = KOR_intel
@@ -3168,6 +3167,10 @@
 		
 		completion_reward = {
 			add_political_power = 100
+			add_popularity = {
+				ideology = democratic
+				popularity = 0.05
+			}
 		}
 	}
 	
@@ -3188,11 +3191,12 @@
 		
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-			add_political_power = 80
+			add_political_power = 100
+			add_ideas = free_trade
 		}
 	}
 	
-	focus = { #중추원 내 갈등 조정
+	focus = { #중추원 회유
 		id = KOR_liberalism3
 		icon = GFX_focus_generic_diplomatic_treaty
 		cost = 8.00
@@ -3209,11 +3213,28 @@
 		
 		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
 		completion_reward = {
-			add_political_power = 80
+			add_stability = -0.05
+			add_political_power = 150
+			add_popularity = {
+				ideology = democratic
+				popularity = 0.05
+			}
+			add_popularity = {
+				ideology = communism
+				popularity = -0.05
+			}
+			add_popularity = {
+				ideology = fascism
+				popularity = -0.05
+			}
+			add_popularity = {
+				ideology = neutrality
+				popularity = -0.05
+			}
 		}
 	}
 	
-	focus = { #대학설립운동
+	focus = { #민립대학설립운동
 		id = KOR_liberalism4
 		icon = GFX_generic_education_2
 		cost = 8.00
@@ -3228,17 +3249,21 @@
 			#
 		}
 		bypass = {
-			OR = {
-				has_country_flag = flag_KOR_socialdemocracy4
-				has_country_flag = flag_KOR_liberalism4
-				has_country_flag = flag_KOR_conservatism4
-			}
+			#
 		}
 
 		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_RESEARCH }
 		completion_reward = {
-			add_political_power = 80
-			set_country_flag = flag_KOR_liberalism4
+			if = {
+				limit = { NOT = { has_country_flag = KOR_flag_education } }
+				add_research_slot = 1
+				add_ideas = KOR_private_university
+				set_country_flag = KOR_flag_education
+			}
+			else_if = {
+				limit = { has_country_flag = KOR_flag_education }
+				add_ideas = KOR_private_university
+			}
 		}
 	}
 	
@@ -3268,11 +3293,22 @@
 		
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-			add_political_power = 80
+			if = {
+				limit = { NOT = { has_country_flag = KOR_flag_intel } }
+				swap_ideas = {
+					add_idea = KOR_intel_sl
+					remove_idea = KOR_intel
+				}
+				set_country_flag = KOR_flag_intel
+			}
+			else_if = {
+				limit = { has_country_flag = KOR_flag_intel }
+				add_ideas = KOR_intel_sl
+			}
 		}
 	}
 	
-	focus = { #노조과 타협
+	focus = { #노조와의 타협
 		id = KOR_liberalism6
 		icon = GFX_generic_union_agreement
 		cost = 8.00
@@ -3298,7 +3334,10 @@
 		
 		search_filters = { FOCUS_FILTER_RESEARCH }
 		completion_reward = {
-			add_political_power = 80
+			swap_ideas = {
+				add_idea = KOR_labor_rights_sl
+				remove_idea = KOR_labor_rights_no
+			}
 		}
 	}
 	
