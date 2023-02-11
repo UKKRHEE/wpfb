@@ -15,7 +15,7 @@
 				tag = HNC
 				tag = SHX
 				tag = XSM
-				tag = QIN
+				# tag = QIN
 				tag = MON
 				tag = SIK
 				tag = TIB

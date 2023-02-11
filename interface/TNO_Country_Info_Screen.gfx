@@ -1,0 +1,111 @@
+spriteTypes = {
+	# New Opening 
+	spriteType = {
+		name = "GFX_NEW_TLE_logo_game_tno" 
+		textureFile = "gfx/interface/country_info_screen/NEW_TLE_logo_game.png"
+	}
+	spriteType = {
+		name = "GFX_topbar_star_button"
+		textureFile = "gfx/interface/topbar/topbar_star_button.dds"
+	}
+
+	spriteType = {
+		name = "GFX_CountryInfo_background"
+		texturefile = "gfx/interface/country_info_screen/fix_background.png"
+	}
+	frameanimatedspritetype = {
+		name = "GFX_CountryInfo_animated_logo"
+		texturefile = "gfx/interface/country_info_screen/animated_logo.dds"
+		noofframes = 10
+		animation_rate_fps = 20
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0
+	}
+	spriteType = {
+		name = "GFX_CountryInfo_top_tabs"
+		texturefile = "gfx/interface/country_info_screen/top_tabs.dds"
+		noofframes = 2
+	}
+	spriteType = {
+		name = "GFX_CountryInfo_top_tabs_icon_1"
+		texturefile = "gfx/interface/country_info_screen/top_tabs_icon_1.dds"
+		noofframes = 2
+	}
+	spriteType = {
+		name = "GFX_CountryInfo_top_tabs_icon_2"
+		texturefile = "gfx/interface/country_info_screen/top_tabs_icon_2.dds"
+		noofframes = 2
+	}
+	spriteType = {
+		name = "GFX_CountryInfo_top_tabs_icon_3"
+		texturefile = "gfx/interface/country_info_screen/top_tabs_icon_3.dds"
+		noofframes = 2
+	}
+	spriteType = {
+		name = "GFX_CountryInfo_top_tabs_icon_4"
+		texturefile = "gfx/interface/country_info_screen/top_tabs_icon_2.dds"
+		noofframes = 2
+	}
+	spriteType = {
+		name = "GFX_CountryInfo_entry_folder"
+		texturefile = "gfx/interface/country_info_screen/fix_entry_folder_2.png"
+		noofframes = 2
+	}
+	frameanimatedspritetype = {
+		name = "GFX_CountryInfo_entry_content_glow"
+		texturefile = "gfx/interface/country_info_screen/fix_entry_folder_2.png" 
+		noofframes = 2
+		animation_rate_fps = 1.25
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0
+		effectfile = "gfx/FX/buttonstate_blendframes.lua"
+	}
+	spriteType = {
+		name = "GFX_CountryInfo_entry_content"
+		texturefile = "gfx/interface/country_info_screen/fix_entry_folder_2.png"
+		noofframes = 2
+	}
+
+	# Buttons
+	spriteType = {
+		name = "GFX_opening_button_next_page"
+		textureFile = "gfx/interface/opening_screen/opening_button_next_page.dds"
+	}
+	spriteType = {
+		name = "GFX_opening_button_prev_page"
+		textureFile = "gfx/interface/opening_screen/opening_button_prev_page.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_discord_button"
+		textureFile = "gfx/interface/country_info_screen/socmed/discord_button.dds"
+	}
+	spriteType = {
+		name = "GFX_reddit_button"
+		textureFile = "gfx/interface/country_info_screen/socmed/reddit_button.dds"
+	}
+	spriteType = {
+		name = "GFX_youtube_button"
+		textureFile = "gfx/interface/country_info_screen/socmed/youtube_button.dds"
+	}
+	spriteType = {
+		name = "GFX_twitter_button"
+		textureFile = "gfx/interface/country_info_screen/socmed/twitter_button.dds"
+	}
+	spriteType = {
+		name = "GFX_twitch_button"
+		textureFile = "gfx/interface/country_info_screen/socmed/twitch_button.dds"
+	}
+	spriteType = {
+		name = "GFX_tvtropes_button"
+		textureFile = "gfx/interface/country_info_screen/socmed/tvtropes_button.dds"
+	}
+
+	# Posters
+	spriteType = { 
+		name = "GFX_TNO_OpeningScreen_Poster_Korea"
+		textureFile = "gfx/interface/opening_screen/TNO_OpeningScreen_Poster_Japan.dds"
+	}
+}

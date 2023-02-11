@@ -1,0 +1,285 @@
+focus_tree = {
+	id = qing_focus
+	
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = QIN
+		}
+	}
+
+	continuous_focus_position = { x = 50 y = 2000 }
+
+
+	focus = {
+		id = focus_qing
+		icon = GFX
+
+		cost = 1
+
+		x = 13
+		y = 0
+
+		completion_reward = { 
+
+		}
+	}
+
+	focus = {
+		id = focus_qing_2
+		icon = GFX
+		prerequisite = {
+			focus = focus_qing
+		}
+
+		cost = 1
+		
+		x = 13
+		y = 5
+		
+		completion_reward = { 
+
+		}
+	}
+
+	focus = {
+		id = focus_qing_status_quo
+		icon = GFX
+		prerequisite = {
+			focus = focus_qing_2
+		}
+		mutually_exclusive = {
+			focus = focus_qing_reunite
+			focus = focus_qing_other_road
+		}
+
+		cost = 1
+		
+		x = 6
+		y = 6
+		
+		completion_reward = { 
+
+		}
+	}
+
+	focus = {
+		id = focus_qing_reunite
+		icon = GFX
+		prerequisite = {
+			focus = focus_qing_2
+		}
+		mutually_exclusive = {
+			focus = focus_qing_status_quo
+			focus = focus_qing_other_road
+		}
+
+		cost = 1
+		
+		x = 13
+		y = 6
+		
+		completion_reward = { 
+
+		}
+	}
+
+	focus = {
+		id = focus_qing_other_road
+		icon = GFX
+		prerequisite = {
+			focus = focus_qing_2
+		}
+		mutually_exclusive = {
+			focus = focus_qing_status_quo
+			focus = focus_qing_reunite
+		}
+
+
+		cost = 1
+		
+		x = 20
+		y = 6
+		
+		completion_reward = { 
+
+		}
+	}
+
+	focus = {
+		id = focus_qing_6
+		icon = GFX
+
+
+		cost = 1
+		
+		x = 4
+		y = 0
+		
+		completion_reward = { 
+
+		}
+	}
+
+	focus = {
+		id = focus_qing_7
+		icon = GFX
+		prerequisite = {
+			focus = focus_qing_6	
+		}
+
+		cost = 1
+		
+		x = 1
+		y = 1
+		
+		completion_reward = { 
+
+		}
+	}
+
+	focus = {
+		id = focus_qing_8
+		icon = GFX
+		prerequisite = {
+			focus = focus_qing_6	
+		}
+
+		cost = 1
+		
+		x = 3
+		y = 1
+		
+		completion_reward = { 
+
+		}
+	}
+
+	focus = {
+		id = focus_qing_9
+		icon = GFX
+		prerequisite = {
+			focus = focus_qing_6	
+		}
+
+		cost = 1
+		
+		x = 5
+		y = 1
+		
+		completion_reward = { 
+
+		}
+	}
+
+	focus = {
+		id = focus_qing_10
+		icon = GFX
+		prerequisite = {
+			focus = focus_qing_6	
+		}
+
+		cost = 1
+		
+		x = 7
+		y = 1
+		
+		completion_reward = { 
+
+		}
+	}
+
+	focus = {
+		id = focus_qing_11
+		icon = GFX
+		prerequisite = {
+			focus = focus_qing_reunite
+		}
+		mutually_exclusive = {
+			focus = focus_qing_12
+		}
+		cost = 1
+		
+		x = 11
+		y = 7
+		
+		completion_reward = { 
+
+		}
+	}
+
+	focus = {
+		id = focus_qing_12
+		icon = GFX
+		prerequisite = {
+			focus = focus_qing_reunite
+		}
+		mutually_exclusive = {
+			focus = focus_qing_11
+		}
+		cost = 1
+		
+		x = 15
+		y = 7
+		
+		completion_reward = { 
+
+		}
+	}
+
+	focus = {
+		id = focus_qing_army
+		icon = GFX
+
+		cost = 1
+		
+		x = 23
+		y = 0
+		
+		completion_reward = { 
+
+		}
+	}
+
+	focus = {
+		id = focus_qing_13
+		icon = GFX
+		prerequisite = {
+			focus = focus_qing
+		}
+		mutually_exclusive = {
+			focus = focus_qing_14
+		}
+
+		cost = 1
+
+		x = 11
+		y = 1
+		
+		completion_reward = { 
+
+		}
+	}
+
+	focus = {
+		id = focus_qing_14
+		icon = GFX
+		prerequisite = {
+			focus = focus_qing
+		}
+		mutually_exclusive = {
+			focus = focus_qing_13
+		}
+
+		cost = 1
+		
+		x = 15
+		y = 1
+		
+		completion_reward = { 
+			
+		}
+	}
+}
+	
