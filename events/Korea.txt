@@ -1,5 +1,151 @@
 ﻿add_namespace = korea
 
+country_event = { #대한제국 황제 이우 인물설명
+	id = korea.1
+	title = korea.1.t
+	desc = korea.1.d
+	picture = GFX_report_event_KOR_heonjong
+
+	is_triggered_only = yes
+
+	option = {
+		name = korea.1.a
+		hidden_effect = {
+			country_event = {
+				id = korea.2
+				days = 1
+			}
+		}
+	}
+}
+
+country_event = { #그림자 군주 이강 인물설명
+	id = korea.2
+	title = korea.2.t
+	desc = korea.2.d
+	picture = GFX_report_event_KOR_heonjong
+
+	is_triggered_only = yes
+
+	option = {
+		name = korea.2.a
+		hidden_effect = {
+			country_event = {
+				id = korea.3
+				days = 1
+			}
+		}
+	}
+}
+
+country_event = { #안창호&여운형 사민주의당원 인물설명
+	id = korea.3
+	title = korea.3.t
+	desc = korea.3.d
+	picture = GFX_report_event_KOR_heonjong
+
+	is_triggered_only = yes
+
+	option = {
+		name = korea.3.a
+		hidden_effect = {
+			country_event = {
+				id = korea.4
+				days = 1
+			}
+		}
+	}
+}
+
+country_event = { #이승만&자유당 인물설명
+	id = korea.4
+	title = korea.4.t
+	desc = korea.4.d
+	picture = GFX_report_event_KOR_heonjong
+
+	is_triggered_only = yes
+
+	option = {
+		name = korea.4.a
+		hidden_effect = {
+			country_event = {
+				id = korea.5
+				days = 1
+			}
+		}
+	}
+}
+
+country_event = { #이상설&황국협회 인물설명
+	id = korea.5
+	title = korea.5.t
+	desc = korea.5.d
+	picture = GFX_report_event_KOR_heonjong
+
+	is_triggered_only = yes
+
+	option = {
+		name = korea.5.a
+		hidden_effect = {
+			country_event = {
+				id = korea.6
+				days = 1
+			}
+		}
+	}
+}
+
+country_event = { #이범석 인물설명
+	id = korea.6
+	title = korea.6.t
+	desc = korea.6.d
+	picture = GFX_report_event_KOR_heonjong
+
+	is_triggered_only = yes
+
+	option = {
+		name = korea.6.a
+	}
+}
+### 인게임 스토리 이벤트 ###
+
+country_event = { #
+	id = korea.7
+	title = korea.7.t
+	desc = korea.7.d
+	picture = GFX_report_event_KOR_heonjong
+
+	is_triggered_only = yes
+
+	option = {
+		name = korea.7.a
+	}
+}
+
+country_event = { #
+	id = korea.8
+	title = korea.8.t
+	desc = korea.8.d
+	picture = GFX_report_event_KOR_heonjong
+
+	is_triggered_only = yes
+
+	option = {
+		name = korea.8.a
+	}
+}
+
+###############
+###############
+###         ###
+###         ###
+###   치트   ###
+###         ###
+###         ###
+###############
+###############
+
+
 country_event = { #민주
 	id = korea.991
 	title = korea.991.t
