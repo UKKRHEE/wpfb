@@ -31,9 +31,12 @@ characters={
 	ZLC_wu_peifu={
 		name=ZLC_wu_peifu
 		portraits={
+			civilian={
+				small=GFX_idea_ZLC_wu_peifu
+			}
 			army={
 				large=GFX_portrait_ZLC_wu_peifu
-				small=GFX_idea_ZLC_wu_peifu
+				small=GFX_idea_ZLC_wu_peifu2
 			}
 		}
 		advisor={
@@ -120,16 +123,16 @@ characters={
 	}
 	
 	### 정치고문 ###
-	ZLC_yan_huiqing={
-		name=ZLC_yan_huiqing
+	ZLC_bai_jianwu={
+		name=ZLC_bai_jianwu
 		portraits={
 			civilian={
-				small=GFX_idea_ZLC_yan_huiqing
+				small=GFX_idea_ZLC_bai_jianwu
 			}
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = yan_huiqing
+			idea_token = bai_jianwu
 			allowed = {
 				original_tag = ZLC
 			}
@@ -174,21 +177,39 @@ characters={
 			}
 		}
 	}
-	ZLC_diao_zuoqian={
-		name=ZLC_diao_zuoqian
+	ZLC_xiong_bingqi={
+		name=ZLC_xiong_bingqi
 		portraits={
 			civilian={
-				small=GFX_idea_ZLC_diao_zuoqian
+				small=GFX_idea_ZLC_xiong_bingqi
 			}
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = diao_zuoqian
+			idea_token = xiong_bingqi
 			allowed = {
 				original_tag = ZLC
 			}
 			traits = {
-				ideological_crusader
+				captain_of_industry
+			}
+		}
+	}
+	ZLC_yan_huiqing={
+		name=ZLC_yan_huiqing
+		portraits={
+			civilian={
+				small=GFX_idea_ZLC_yan_huiqing
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = yan_huiqing
+			allowed = {
+				original_tag = ZLC
+			}
+			traits = {
+				SWI_diplomat
 			}
 		}
 	}
@@ -212,6 +233,45 @@ characters={
 			traits = {
 				head_of_intelligence
 			}
+		}
+	}
+	ZLC_liu_menggeng={
+		name=ZLC_liu_menggeng
+		portraits={
+			civilian={
+				small=GFX_idea_ZLC_liu_menggeng
+			}
+			army={
+				large=GFX_portrait_ZLC_liu_menggeng
+				small=GFX_idea_ZLC_liu_menggeng2
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = liu_menggeng
+			available = {
+				has_intelligence_agency = yes
+			}
+			allowed = {
+				original_tag = ZLC
+				has_dlc = "La Resistance" 
+			}
+			traits = {
+				head_of_intelligence
+			}
+		}
+		corps_commander={
+			traits = {
+				career_officer
+				trait_cautious
+				infantry_officer
+			}
+			skill = 3
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 4
+			legacy_id=-1
 		}
 	}
 	
@@ -315,40 +375,39 @@ characters={
 			legacy_id=-1
 		}
 	}
-	
-	ZLC_liu_menggeng={
-		name=ZLC_liu_menggeng
+	ZLC_zhang_qihuang = {
+		name=ZLC_zhang_qihuang
 		portraits={
 			army={
-				large=GFX_portrait_ZLC_liu_menggeng
-				small=GFX_idea_ZLC_liu_menggeng
+				large=GFX_portrait_ZLC_zhang_qihuang
+				small=GFX_idea_ZLC_zhang_qihuang
 			}
 		}
 		advisor={
 			cost = 100
 			slot = army_chief
-			idea_token = liu_menggeng
+			idea_token = zhang_qihuang
 	    	allowed = {
 	    		original_tag = ZLC
 	    	}
 	    	traits = {
-				army_chief_morale_2
+				army_chief_maneuver_2
 			}
 	    	ai_will_do = {
 	    		factor = 1
 	    	}
 		}
-		field_marshal={
+		corps_commander={
 			traits = {
-				career_officer
-				trait_cautious
-				infantry_officer
+				cavalry_officer
+				politically_connected
+				substance_abuser
 			}
 			skill = 3
 			attack_skill = 1
 			defense_skill = 2
-			planning_skill = 3
-			logistics_skill = 4
+			planning_skill = 4
+			logistics_skill = 3
 			legacy_id=-1
 		}
 	}
@@ -428,23 +487,44 @@ characters={
 	}
 	
 	### 공군참모총장 ###
-	ZLC_ge_jingen = {
-		name=ZLC_ge_jingen
+	ZLC_liu_muqun = {
+		name=ZLC_liu_muqun
 		portraits={
 			army={
-				small=GFX_idea_ZLC_ge_jingen
+				small=GFX_idea_ZLC_liu_muqun
 			}
 		}
 		advisor={
-			cost = 100
 			slot = air_chief
-			idea_token = ge_jingen
+			idea_token = liu_muqun
 			
 	    	allowed = {
 		    	original_tag = ZLC
 		    }
 		    traits = {
-				air_chief_ground_support_2
+				air_chief_safety_1
+			}
+		    ai_will_do = {
+		    	factor = 1
+		    }
+		}
+	}
+	ZLC_shi_bangfan = {
+		name=ZLC_shi_bangfan
+		portraits={
+			army={
+				small=GFX_idea_ZLC_shi_bangfan
+			}
+		}
+		advisor={
+			slot = air_chief
+			idea_token = shi_bangfan
+			
+	    	allowed = {
+		    	original_tag = ZLC
+		    }
+		    traits = {
+				air_chief_all_weather_1
 			}
 		    ai_will_do = {
 		    	factor = 1
@@ -488,37 +568,68 @@ characters={
 			legacy_id=-1
 		}
 	}
-	ZLC_zhang_qihuang = {
-		name=ZLC_zhang_qihuang
+	ZLC_li_bingzhi = {
+		name=ZLC_li_bingzhi
 		portraits={
 			army={
-				large=GFX_portrait_ZLC_zhang_qihuang
-				small=GFX_idea_ZLC_zhang_qihuang
+				large=GFX_portrait_ZLC_li_bingzhi
+				small=GFX_idea_ZLC_li_bingzhi
 			}
 		}
 		advisor={
 			cost = 100
 			slot = high_command
-			idea_token = zhang_qihuang
+			idea_token = li_bingzhi
 			ledger = army
 		    allowed = {
 		    	original_tag = ZLC
 		    }
 		    traits = {
-				army_cavalry_2
+				army_concealment_2
 			}
 		}
 		corps_commander={
 			traits = {
-				cavalry_officer
 				politically_connected
-				substance_abuser
+				career_officer
 			}
-			skill = 3
-			attack_skill = 1
-			defense_skill = 2
-			planning_skill = 4
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
 			logistics_skill = 3
+			legacy_id=-1
+		}
+	}
+	ZLC_lu_xiangting = {
+		name=ZLC_lu_xiangting
+		portraits={
+			army={
+				large=GFX_portrait_ZLC_lu_xiangting
+				small=GFX_idea_ZLC_lu_xiangting
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = lu_xiangting
+			ledger = army
+		    allowed = {
+		    	original_tag = ZLC
+		    }
+		    traits = {
+				army_infantry_1
+			}
+		}
+		corps_commander={
+			traits = {
+				politically_connected
+				infantry_officer
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 1
 			legacy_id=-1
 		}
 	}
@@ -554,6 +665,7 @@ characters={
 			legacy_id=-1
 		}
 	}
+	
 	ZLC_wang_lingyun = {
 		name=ZLC_wang_lingyun
 		portraits={
@@ -576,9 +688,9 @@ characters={
 		}
 		corps_commander={
 			traits = {
-				infantry_officer
 				organizer
 				trait_engineer
+				infantry_officer
 			}
 			skill = 3
 			attack_skill = 2
@@ -588,6 +700,7 @@ characters={
 			legacy_id=-1
 		}
 	}
+	
 	ZLC_du_xigui = {
 		name=ZLC_du_xigui
 		portraits={
@@ -623,23 +736,43 @@ characters={
 	}
 	
 	### 육군 장성 ###
-	ZLC_guo_jijiao={
-		name=ZLC_guo_jijiao
+	ZLC_liu_zhenhua={
+		name=ZLC_liu_zhenhua
 		portraits={
 			army={
-				large=GFX_portrait_ZLC_guo_jijiao
+				large=GFX_portrait_ZLC_liu_zhenhua
 			}
 		}
 		corps_commander={
 			traits = { 
-				organizer
-				trait_engineer
+				harsh_leader
 			}
-			skill = 3
-			attack_skill = 3
-			defense_skill = 2
-			planning_skill = 3
-			logistics_skill = 2
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 3
+			legacy_id=-1
+		}
+	}
+	ZLC_wang_huaiqing={
+		name=ZLC_wang_huaiqing
+		portraits={
+			army={
+				large=GFX_portrait_ZLC_wang_huaiqing
+			}
+		}
+		corps_commander={
+			traits = { 
+				old_guard
+				trait_cautious
+				organizer
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
 			legacy_id=-1
 		}
 	}
@@ -664,17 +797,37 @@ characters={
 			legacy_id=-1
 		}
 	}
-	ZLC_du_xijun = {
-		name=ZLC_du_xijun
+	ZLC_xing_shilian={
+		name=ZLC_xing_shilian
 		portraits={
+			army={
+				large=GFX_portrait_ZLC_xing_shilian
+			}
+		}
+		corps_commander={
+			traits = { 
+				career_officer
+				urban_assault_specialist
+			}
+			skill = 2
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 4
+			logistics_skill = 1
+			legacy_id=-1
+		}
+	}
+	ZLC_du_xijun = {
+		name = ZLC_du_xijun
+		portraits = {
 			army={
 				large=GFX_portrait_ZLC_du_xijun
 			}
 		}
-		corps_commander={
-			traits = {
-				infantry_officer
+		corps_commander = {
+			traits = { 
 				politically_connected
+				infantry_officer
 			}
 			skill = 2
 			attack_skill = 2
@@ -684,24 +837,43 @@ characters={
 			legacy_id=-1
 		}
 	}
-	ZLC_cao_shijie = {
-		name=ZLC_cao_shijie
-		portraits={
+	ZLC_guo_jijiao = {
+		name = ZLC_guo_jijiao
+		portraits = {
 			army={
-				large=GFX_portrait_ZLC_cao_shijie
+				large=GFX_portrait_ZLC_guo_jijiao
 			}
 		}
-		corps_commander={
-			traits = {
-				career_officer
-				politically_connected
-				substance_abuser
+		corps_commander = {
+			traits = { 
+				organizer
+				trait_engineer
 			}
-			skill = 1
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+	ZLC_wei_yisan = {
+		name = ZLC_wei_yisan
+		portraits = {
+			army={
+				large=GFX_portrait_ZLC_wei_yisan
+			}
+		}
+		corps_commander = {
+			traits = { 
+				politically_connected
+				career_officer
+			}
+			skill = 2
 			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
 			legacy_id=-1
 		}
 	}

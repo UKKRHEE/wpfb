@@ -126,7 +126,7 @@
  ilminist:0 "일민주의 창시자"
  KOR_gang_se_hyeong:0 "강세형"
  #권위주의
- KOR_min_young_hwan:0 "민영환"
+ KOR_kim_chang_suk:0 "김창숙"
  KOR_yi_kang:0 "이강"
  shadow_emperor:0 "그림자 황제"
  shadow_emperor2:0 "그림자 황제"
@@ -229,20 +229,22 @@
  ### 청국 지도자 ###
  QIN_chen_duxiu:0 "천두슈"
  QIN_liang_qichao:0 "량치차오"
+ QIN_zhang_zuolin:0 "장쭤린"
  QIN_aisin_gioro_puyi:0 "아이신기오로 푸이"
  
  ### 청국 정치고문 ###
  QIN_aisin_gioro_pujie:0 "아이신기오로 푸제"
  QIN_aisin_gioro_zaizhen:0 "아이신기오로 짜이전"
  QIN_xie_jieshi:0 "셰제스"
+ QIN_liang_shiyi:0 "량스이"
  QIN_luo_zhenyu:0 "뤄전위"
  QIN_feng_hanqing:0 "펑한칭"
  QIN_kang_tongbi:0 "캉통비"
  QIN_yu_zhishan:0 "위즈산"
  
  ### 청국 육군참모총장 ###
- QIN_aisin_gioro_xiqia:0 "아이신기오로 시치아"
- QIN_zhang_zuolin:0 "장쭤린"
+ QIN_yang_yuting:0 "양위팅"
+ QIN_aisin_gioro_zaitao:0 "아이신기오로 짜이타오"
  
  ### 청국 해군참모총장 ###
  QIN_shen_honglie:0 "선훙례"
@@ -252,18 +254,17 @@
  QIN_gao_zhihang:0 "가오즈항"
  
  ### 청국 최고사령부 ###
- QIN_aisin_gioro_zaitao:0 "아이신기오로 짜이타오"
- QIN_zhang_xueliang:0 "장쉐량"
- QIN_yang_yuting:0 "양위팅"
- QIN_ma_zhanshan:0 "마잔산"
+ QIN_aisin_gioro_xiqia:0 "아이신기오로 시치아"
  QIN_gobulo_runqi:0 "궈부뤄룬치"
- QIN_li_bingzhi:0 "리빙즈"
+ QIN_ma_zhanshan:0 "마잔산"
+ QIN_wan_fulin:0 "완푸린"
+ QIN_zhang_xueliang:0 "장쉐량"
+ QIN_zhang_zuoxiang:0 "장쭤샹"
  QIN_yin_zuoqian:0 "인쭤첸"
  QIN_tong_yanbo:0 "퉁옌보"
  
  ### 청국 육군 장성 ###
  QIN_aisin_gioro_xianyu:0 "아이신기오로 셴위"
- QIN_zhang_zuoxiang:0 "장쭤샹"
  QIN_zhang_jinghui:0 "장징후이" 
  QIN_zhang_haipeng:0 "장하이펑"
  
@@ -375,35 +376,41 @@
  ### 북양정부 정치고문 ###
  jade_marshal_advisor:0 "옥수"
  drunken_dabbler_advisor:0 "술에 취한 애주가"
- ZLC_yan_huiqing:0 "옌후이칭"
+ ZLC_bai_jianwu:0 "바이젠우"
  ZLC_li_linsi:0 "리린쓰"
  ZLC_wellington_koo:0 "구웨이쥔"
- ZLC_diao_zuoqian:0 "댜오쭤첸"
- ZLC_yu_xuezhong:0 "위쉐쭝"
+ ZLC_xiong_bingqi:0 "슝빙치"
+ ZLC_yan_huiqing:0 "옌후이칭"
+ ZLC_liu_menggeng:0 "류멍겅"
  
  ### 북양정부 육군참모총장 ###
  ZLC_jiang_baili:0 "장바이리"
- ZLC_liu_menggeng:0 "류멍겅"
+ ZLC_zhang_qihuang:0 "장치황"
  
  ### 북양정부 해군참모총장 ###
  ZLC_sa_zhenbing:0 "싸전빙"
  ZLC_wu_renli:0 "우런리"
  
  ### 북양정부 공군참모총장 ###
- ZLC_ge_jingen:0 "거징언"
+ ZLC_liu_muqun:0 "류무췬"
+ ZLC_shi_bangfan:0 "스방판"
  
  ### 북양정부 최고사령부 ###
  ZLC_cai_chengxun:0 "차이청쉰"
- ZLC_zhang_qihuang:0 "장치황"
+ ZLC_li_bingzhi:0 "리빙즈"
+ ZLC_lu_xiangting:0 "루샹팅"
  ZLC_zhang_shaozeng:0 "장사오쩡"
- ZLC_wang_lingyun:0 "왕링원"
  ZLC_du_xigui:0 "두시구이"
+ ZLC_wang_lingyun:0 "왕링윈"
  
  ### 북양정부 육군 장성 ###
- ZLC_guo_jijiao:0 "궈지자오"
+ ZLC_liu_zhenhua:0 "류전화"
+ ZLC_wang_huaiqing:0 "왕화이칭"
  ZLC_xiao_yaonan:0 "샤오야오난"
- ZLC_du_xijun:0 "두시쥔" 
- ZLC_cao_shijie:0 "차오스제"
+ ZLC_xing_shilian:0 "싱스롄"
+ ZLC_du_xijun:0 "두시쥔"
+ ZLC_guo_jijiao:0 "궈지자오"
+ ZLC_wei_yisan:0 "웨이이싼"
  
  #############
  ### 국민당ㅡ ###
@@ -598,28 +605,28 @@
  ### 산서군벌 정치고문 ###
  SHX_zhao_daiwen:0 "자오다이웬"
  SHX_jia_jingde:0 "지아징더"
- SHX_ji_gongquan:0 "지공췐"
+ SHX_liang_huazhi:0 "량화즈"
+ SHX_su_tiren:0 "쑤티런"
  SHX_fan_xiangli:0 "판샹리"
  SHX_qiu_yangjun:0 "추양쥔"
  SHX_wang_huaiming:0 "왕화이밍"
- SHX_liang_huazhi:0 "량화지"
+ SHX_sun_chu:0 "쑨추"
  
  ### 산서군벌 이론가 ###
  SHX_chu_xichun:0 "추시춘"
+ 
+ ### 산서군벌 육군참모총장 ###
+ SHX_xu_yongchang:0 "쉬융창"
  
  ### 산서군벌 공군참모총장 ###
  SHX_zhong_jihan:0 "중지한"
  
  ### 산서군벌 최고사령부 ###
  SHX_yang_aiyuan:0 "양아이위안"
- SHX_sun_chu:0 "쑨추"
  SHX_zhao_chengshou:0 "자오청서우"
  SHX_chen_changjie:0 "천창제"
  SHX_zhou_dai:0 "저우다이"
- 
- ### 산서군벌 육군 장성 ###
- SHX_dong_qiwu:0 "둥치우"
- SHX_sun_lanfeng:0 "쑨란펑"
+ SHX_shang_zhen:0 "상전"
  
  #############
  ### 마가군벌 ###

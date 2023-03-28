@@ -37,7 +37,7 @@ recruit_character = KOR_ahn_ho_sang
 recruit_character = KOR_gang_se_hyeong
 recruit_character = KOR_sin_chae_ho
 #권위주의
-recruit_character = KOR_min_young_hwan
+recruit_character = KOR_kim_chang_suk
 recruit_character = KOR_yi_kang
 recruit_character = KOR_yi_kyu_wan
 #정보기관
@@ -94,7 +94,7 @@ add_ideas = {
 	#각료
 	yi_kang
 	
-	#경제, 법률, 징병제
+	#징병법, 무역법, 경제법
 	limited_conscription
 	export_focus
 	civilian_economy
@@ -195,7 +195,7 @@ if = {
 		icon = "gfx/interface/technologies/FKR_basic_main_tank.dds"
 	}
 	create_equipment_variant = {
-		name = "흑표 제 1식"
+		name = "흑표 1식"
 		type = light_tank_chassis_1
 		parent_version = 0
 		modules = {
@@ -212,96 +212,99 @@ if = {
 		icon = "gfx/interface/technologies/FKR_imp_light_tank.dds"
 	}
 }
+
 if = {
-	limit = { has_dlc = "Man the Guns"}
-		#전함
-		create_equipment_variant = {
-			name = "계방급"
-			name_group = KOR_BC_HISTORICAL
-			type = ship_hull_heavy_1
-			parent_version = 0
-			modules = {
-				fixed_ship_battery_slot = ship_heavy_battery_1
-				fixed_ship_anti_air_slot = empty
-				fixed_ship_fire_control_system_slot = ship_fire_control_system_0
-				fixed_ship_radar_slot = empty
-				fixed_ship_engine_slot = heavy_ship_engine_1
-				fixed_ship_secondaries_slot = ship_secondaries_1
-				fixed_ship_armor_slot = ship_armor_bc_1
-				front_1_custom_slot = ship_heavy_battery_1
-				mid_1_custom_slot = ship_secondaries_1
-				mid_2_custom_slot = ship_airplane_launcher_1
-				rear_1_custom_slot = ship_heavy_battery_1
-			}
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	#전함
+	create_equipment_variant = {
+		name = "계방급"
+		name_group = KOR_BC_HISTORICAL
+		type = ship_hull_heavy_1
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_heavy_battery_1
+			fixed_ship_anti_air_slot = empty
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = heavy_ship_engine_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			fixed_ship_armor_slot = ship_armor_bc_1
+			front_1_custom_slot = ship_heavy_battery_1
+			mid_1_custom_slot = ship_secondaries_1
+			mid_2_custom_slot = ship_airplane_launcher_1
+			rear_1_custom_slot = ship_heavy_battery_1
 		}
-		#중순양함	
-		create_equipment_variant = {
-			name = "낙동급"
-			type = ship_hull_cruiser_2
-			name_group = KOR_CA_HISTORICAL
-			parent_version = 0
-			modules = {
-				fixed_ship_battery_slot = ship_medium_battery_1
-				fixed_ship_anti_air_slot = empty
-				fixed_ship_fire_control_system_slot = ship_fire_control_system_0
-				fixed_ship_radar_slot = empty
-				fixed_ship_engine_slot = cruiser_ship_engine_1
-				fixed_ship_armor_slot = ship_armor_cruiser_1
-				fixed_ship_secondaries_slot = ship_secondaries_1
-				front_1_custom_slot = ship_medium_battery_1
-				mid_1_custom_slot = ship_torpedo_1
-				mid_2_custom_slot = ship_torpedo_1
-				rear_1_custom_slot = ship_airplane_launcher_1
-			}
+	}
+	#중순양함	
+	create_equipment_variant = {
+		name = "낙동급"
+		type = ship_hull_cruiser_2
+		name_group = KOR_CA_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_medium_battery_1
+			fixed_ship_anti_air_slot = empty
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			front_1_custom_slot = ship_medium_battery_1
+			mid_1_custom_slot = ship_torpedo_1
+			mid_2_custom_slot = ship_torpedo_1
+			rear_1_custom_slot = ship_airplane_launcher_1
 		}
-		#경순양함
-		create_equipment_variant = {
-			name = "청천급"
-			type = ship_hull_cruiser_1
-			name_group = KOR_CL_HISTORICAL
-			parent_version = 0
-			modules = {
-				fixed_ship_battery_slot = ship_light_medium_battery_1
-				fixed_ship_anti_air_slot = empty
-				fixed_ship_fire_control_system_slot = ship_fire_control_system_0
-				fixed_ship_radar_slot = empty
-				fixed_ship_engine_slot = cruiser_ship_engine_1
-				fixed_ship_armor_slot = ship_armor_cruiser_1
-				fixed_ship_secondaries_slot = empty
-				mid_1_custom_slot = empty
-				mid_2_custom_slot = empty
-				rear_1_custom_slot = empty
-			}
+	}
+	#경순양함
+	create_equipment_variant = {
+		name = "청천급"
+		type = ship_hull_cruiser_1
+		name_group = KOR_CL_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_light_medium_battery_1
+			fixed_ship_anti_air_slot = empty
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_secondaries_slot = empty
+			mid_1_custom_slot = empty
+			mid_2_custom_slot = empty
+			rear_1_custom_slot = empty
 		}
-		#구축함
-		create_equipment_variant = {
-			name = "태풍급"
-			type = ship_hull_light_1
-			name_group = KOR_DD_HISTORICAL
-			parent_version = 0
-			modules = {
-				fixed_ship_battery_slot = ship_light_battery_1
-				fixed_ship_anti_air_slot = ship_anti_air_1
-				fixed_ship_fire_control_system_slot = ship_fire_control_system_0
-				fixed_ship_radar_slot = empty
-				fixed_ship_engine_slot = light_ship_engine_1
-				fixed_ship_torpedo_slot = ship_torpedo_1
-				mid_1_custom_slot = ship_torpedo_1
-				rear_1_custom_slot = ship_depth_charge_1
-			}
+	}
+	#구축함
+	create_equipment_variant = {
+		name = "태풍급"
+		type = ship_hull_light_1
+		name_group = KOR_DD_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = ship_torpedo_1
+			rear_1_custom_slot = ship_depth_charge_1
 		}
-		#잠수함
-		create_equipment_variant = {
-			name = "부여급"
-			type = ship_hull_submarine_1
-			name_group = KOR_SS_HISTORICAL
-			parent_version = 0
-			modules = {
-				fixed_ship_torpedo_slot = ship_torpedo_sub_1
-				fixed_ship_engine_slot = sub_ship_engine_1
-				rear_1_custom_slot = ship_mine_layer_sub
-			}
+	}
+	#잠수함
+	create_equipment_variant = {
+		name = "부여급"
+		type = ship_hull_submarine_1
+		name_group = KOR_SS_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_1
+			fixed_ship_engine_slot = sub_ship_engine_1
+			rear_1_custom_slot = ship_mine_layer_sub
 		}
+	}
 }
 
 if = {

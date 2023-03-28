@@ -41,29 +41,17 @@ characters={
 			expire="1965.1.1.1"
 			id=-1
 		}
-		advisor={
-			slot = army_chief
-			idea_token = yan_xishan
-	    	allowed = {
-	    		original_tag = SHX
-	    	}
-	    	traits = {
-				army_chief_old_guard
-			}
-	    	ai_will_do = {
-	    		factor = 1
-	    	}
-		}
 		field_marshal={
 			traits = {
-				old_guard
-				logistics_wizard
+				inflexible_strategist
+				harsh_leader
+				organizer
 			}
-			skill = 3
+			skill = 2
 			attack_skill = 2
-			defense_skill = 2
-			planning_skill = 3
-			logistics_skill = 4
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 3
 			legacy_id=-1
 		}
 	}
@@ -105,27 +93,39 @@ characters={
 			}
 		}
 	}
-	SHX_ji_gongquan={
-		name=SHX_ji_gongquan
+	SHX_liang_huazhi={
+		name=SHX_liang_huazhi
 		portraits={
 			civilian={
-				small=GFX_idea_SHX_ji_gongquan
+				small=GFX_idea_SHX_liang_huazhi
 			}
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = ji_gongquan
-			available = {
-				OR = {
-					has_government = communism
-					has_government = democratic
-				}
-			}
+			idea_token = liang_huazhi
 			allowed = {
 				original_tag = SHX
 			}
 			traits = {
-				education_reformer
+				backroom_backstabber
+			}
+		}
+	}
+	SHX_su_tiren={
+		name=SHX_su_tiren
+		portraits={
+			civilian={
+				small=GFX_idea_SHX_su_tiren
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = su_tiren
+			allowed = {
+				original_tag = SHX
+			}
+			traits = {
+				economist
 			}
 		}
 	}
@@ -183,34 +183,17 @@ characters={
 			}
 		}
 	}
-	SHX_liang_huazhi={
-		name=SHX_liang_huazhi
+	SHX_sun_chu = {
+		name=SHX_sun_chu
 		portraits={
-			civilian={
-				small=GFX_idea_SHX_liang_huazhi
+			army={
+				large=GFX_portrait_SHX_sun_chu
+				small=GFX_idea_SHX_sun_chu
 			}
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = liang_huazhi
-			allowed = {
-				original_tag = SHX
-			}
-			traits = {
-				backroom_backstabber
-			}
-		}
-	}
-	SHX_shanxi_security={
-		name=joint_security
-		portraits={
-			civilian={
-				small=GFX_idea_Joint_security
-			}
-		}
-		advisor={
-			slot = political_advisor
-			idea_token = shanxi_security
+			idea_token = sun_chu
 			available = {
 				has_intelligence_agency = yes
 			}
@@ -221,6 +204,17 @@ characters={
 			traits = {
 				head_of_intelligence
 			}
+		}
+		corps_commander={
+			traits = {
+				infantry_officer
+			}
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 2
+			legacy_id=-1
 		}
 	}
 	
@@ -296,30 +290,63 @@ characters={
 			}
 		}
 		advisor={
-			cost = 200
+			cost = 100
 			slot = army_chief
 			idea_token = fu_zuoyi
 	    	allowed = {
 	    		original_tag = SHX
 	    	}
 	    	traits = {
-				army_chief_defensive_3
+				army_chief_defensive_2
 			}
 	    	ai_will_do = {
 	    		factor = 1
 	    	}
 		}
-		field_marshal={
+		corps_commander={
 			traits = {
-				inflexible_strategist
-				unyielding_defender
-				defensive_doctrine
+				war_hero
+				trickster
 			}
 			skill = 3
-			attack_skill = 3
-			defense_skill = 3
+			attack_skill = 2
+			defense_skill = 2
 			planning_skill = 3
-			logistics_skill = 2
+			logistics_skill = 3
+			legacy_id=-1
+		}
+	}
+	SHX_xu_yongchang={
+		name=SHX_xu_yongchang
+		portraits={
+			army={
+				large=GFX_portrait_SHX_xu_yongchang
+				small=GFX_idea_SHX_xu_yongchang
+			}
+		}
+		advisor={
+			cost = 100
+			slot = army_chief
+			idea_token = xu_yongchang
+	    	allowed = {
+	    		original_tag = SHX
+	    	}
+	    	traits = {
+				army_chief_drill_2
+			}
+	    	ai_will_do = {
+	    		factor = 1
+	    	}
+		}
+		corps_commander={
+			traits = {
+				cavalry_leader
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 1
+			logistics_skill = 1
 			legacy_id=-1
 		}
 	}
@@ -391,30 +418,30 @@ characters={
 				army_logistics_2
 			}
 		}
-		field_marshal={
+		corps_commander={
 			traits = {
-				politically_connected
+				infantry_officer
 			}
-			skill = 3
-			attack_skill = 2
-			defense_skill = 2
-			planning_skill = 3
-			logistics_skill = 3
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
 			legacy_id=-1
 		}
 	}
-	SHX_sun_chu = {
-		name=SHX_sun_chu
+	SHX_shang_zhen = {
+		name=SHX_shang_zhen
 		portraits={
 			army={
-				large=GFX_portrait_SHX_sun_chu
-				small=GFX_idea_SHX_sun_chu
+				large=GFX_portrait_SHX_shang_zhen
+				small=GFX_idea_SHX_shang_zhen
 			}
 		}
 		advisor={
 			cost = 100
 			slot = high_command
-			idea_token = sun_chu
+			idea_token = shang_zhen
 			ledger = army
 		    allowed = {
 		    	original_tag = SHX
@@ -425,13 +452,15 @@ characters={
 		}
 		corps_commander={
 			traits = {
+				politically_connected
 				infantry_officer
+				organizer
 			}
-			skill = 3
-			attack_skill = 2
-			defense_skill = 3
-			planning_skill = 3
-			logistics_skill = 2
+			skill = 2
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 3
 			legacy_id=-1
 		}
 	}
@@ -444,7 +473,6 @@ characters={
 			}
 		}
 		advisor={
-			cost = 100
 			slot = high_command
 			idea_token = wang_jingguo
 			ledger = army
@@ -452,18 +480,19 @@ characters={
 		    	original_tag = SHX
 		    }
 		    traits = {
-				army_regrouping_2
+				army_regrouping_1
 			}
 		}
 		corps_commander={
 			traits = {
-				#
+				politically_connected
+				trait_mountaineer
 			}
-			skill=2
-			attack_skill=2
-			defense_skill=3
-			planning_skill=2
-			logistics_skill=2
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
 			legacy_id=-1
 		}
 	}
@@ -492,13 +521,15 @@ characters={
 		}
 		corps_commander={
 			traits = {
-				cavalry_officer
+				career_officer
+				cavalry_leader
+				cavalry_expert
 			}
-			skill=2
-			attack_skill=2
-			defense_skill=3
-			planning_skill=2
-			logistics_skill=2
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
 			legacy_id=-1
 		}
 	}
@@ -559,46 +590,6 @@ characters={
 			ai_will_do = {
 				factor = 1.000
 			}
-		}
-	}
-	
-	### 육군 장성 ###
-	SHX_dong_qiwu={
-		name=SHX_dong_qiwu
-		portraits={
-			army={
-				large=GFX_portrait_SHX_dong_qiwu
-			}
-		}
-		corps_commander={
-			traits = { 
-				#
-			}
-			skill = 2
-			attack_skill = 2
-			defense_skill = 2
-			planning_skill = 2
-			logistics_skill = 1
-			legacy_id=-1
-		}
-	}
-	SHX_sun_lanfeng={
-		name=SHX_sun_lanfeng
-		portraits={
-			army={
-				large=GFX_portrait_SHX_sun_lanfeng
-			}
-		}
-		corps_commander={
-			traits = { 
-				#
-			}
-			skill = 2
-			attack_skill = 2
-			defense_skill = 2
-			planning_skill = 2
-			logistics_skill = 1
-			legacy_id=-1
 		}
 	}
 }

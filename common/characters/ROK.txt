@@ -9,6 +9,7 @@ characters = {
 			}
 		}
 		country_leader={
+			desc = "KOR_pak_hon_yong_desc"
 			expire = "1965.1.1"
 			ideology = leninism
 			traits = {

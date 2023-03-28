@@ -9,7 +9,7 @@ characters = {
 			}
 		}
 		country_leader={
-			desc = "POLITICS_YI_DONGHWI_DESC"
+			desc = "KOR_yi_dong_hwi_desc"
 			expire = "1965.1.1"
 			ideology = marxism
 			traits = {
@@ -40,7 +40,7 @@ characters = {
 			}
 		}
 		country_leader={
-			desc = ""
+			desc = "KOR_lyuh_woon_hyung_desc"
 			expire = "1965.1.1"
 			ideology = socialism
 			traits = {
@@ -77,7 +77,7 @@ characters = {
 			}
 		}
 		country_leader={
-			desc = "POLITICS_LEE_BEOMSEOK_DESC"
+			desc = "KOR_lee_beom_seok_desc"
 			expire = "1965.1.1"
 			ideology = fascism_ideology
 			traits = {
@@ -123,7 +123,7 @@ characters = {
 			}
 		}
 		country_leader={
-			desc = "POLITICS_YI_WU_DESC"
+			desc = "KOR_yi_wu_desc"
 			expire = "1965.1.1"
 			ideology = oligarchism
 			traits = {
@@ -295,6 +295,10 @@ characters = {
 			idea_token = syngman_rhee
 			available = {
                 NOT = {
+					has_country_leader = {
+						ruling_only = yes 
+						character = KOR_syngman_rhee
+					}
 					has_government = communism
 				}
             }
@@ -481,17 +485,17 @@ characters = {
 	}
 	
 	### 정치고문/권위주의 ###
-	KOR_min_young_hwan={
-		name=KOR_min_young_hwan
+	KOR_kim_chang_suk={
+		name=KOR_kim_chang_suk
 		portraits={
 			civilian={
-				large=GFX_portrait_KOR_min_young_hwan
-				small=GFX_idea_KOR_min_young_hwan
+				large=GFX_portrait_KOR_kim_chang_suk
+				small=GFX_idea_KOR_kim_chang_suk
 			}
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = min_young_hwan
+			idea_token = kim_chang_suk
 			available = {
 				has_government = neutrality
 			}
@@ -499,7 +503,7 @@ characters = {
 				original_tag = KOR
 			}
 			traits = {
-				old_figurehead
+				regional_traditionalist_leader
 			}
 		}
 	}
@@ -545,7 +549,7 @@ characters = {
 				original_tag = KOR
 			}
 			traits = {
-				noble_beurocrat
+				modernist_and_reformer
 			}
 		}
 	}

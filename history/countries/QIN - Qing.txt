@@ -101,12 +101,14 @@ set_popularities = {
 ### 지도자 ###
 recruit_character = QIN_chen_duxiu
 recruit_character = QIN_liang_qichao
+recruit_character = QIN_zhang_zuolin
 recruit_character = QIN_aisin_gioro_puyi
 
 ### 정치고문 ###
 recruit_character = QIN_aisin_gioro_pujie
 recruit_character = QIN_aisin_gioro_zaizhen
 recruit_character = QIN_xie_jieshi
+recruit_character = QIN_liang_shiyi
 recruit_character = QIN_luo_zhenyu
 recruit_character = QIN_feng_hanqing
 recruit_character = QIN_kang_tongbi
@@ -118,8 +120,8 @@ recruit_character = QIN_qing_navy_research
 recruit_character = QIN_qing_air_research
 
 ### 육군참모총장 ###
-recruit_character = QIN_aisin_gioro_xiqia
-recruit_character = QIN_zhang_zuolin
+recruit_character = QIN_yang_yuting
+recruit_character = QIN_aisin_gioro_zaitao
 
 ### 해군참모총장 ###
 recruit_character = QIN_shen_honglie
@@ -129,18 +131,17 @@ recruit_character = QIN_aisin_gioro_zaixun
 recruit_character = QIN_gao_zhihang
 
 ### 최고사령부 ###
-recruit_character = QIN_aisin_gioro_zaitao
-recruit_character = QIN_zhang_xueliang
-recruit_character = QIN_yang_yuting
-recruit_character = QIN_ma_zhanshan
+recruit_character = QIN_aisin_gioro_xiqia
 recruit_character = QIN_gobulo_runqi
-recruit_character = QIN_li_bingzhi
+recruit_character = QIN_ma_zhanshan
+recruit_character = QIN_wan_fulin
+recruit_character = QIN_zhang_xueliang
+recruit_character = QIN_zhang_zuoxiang
 recruit_character = QIN_yin_zuoqian
 recruit_character = QIN_tong_yanbo
 
 ### 육군 장성 ###
 recruit_character = QIN_aisin_gioro_xianyu
-recruit_character = QIN_zhang_zuoxiang
 recruit_character = QIN_zhang_jinghui
 recruit_character = QIN_zhang_haipeng
 
