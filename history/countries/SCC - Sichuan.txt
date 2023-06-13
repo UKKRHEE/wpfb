@@ -101,23 +101,19 @@ set_popularities = {
 ### 지도자 ###
 recruit_character = SCC_ccp
 recruit_character = SCC_zhang_lan
-recruit_character = SCC_yang_sen
+recruit_character = SCC_liu_xiang
 
 ### 정치고문 ###
-recruit_character = SCC_shen_junru
-recruit_character = SCC_ba_jin
 recruit_character = SCC_lu_zuofu
-recruit_character = SCC_sichuan_finance
-recruit_character = SCC_sichuan_education
+recruit_character = SCC_zhou_conghua
+recruit_character = SCC_tang_chun_i
+recruit_character = SCC_yang_shukan
 recruit_character = SCC_sichuan_security
 
 ### 이론가 ###
 recruit_character = SCC_sichuan_army_research
 recruit_character = SCC_sichuan_navy_research
 recruit_character = SCC_sichuan_air_research
-
-### 육군참모총장 ###
-recruit_character = SCC_wang_zuanxu
 
 ### 해군참모총장 ###
 recruit_character = SCC_sichuan_navy_department
@@ -126,9 +122,12 @@ recruit_character = SCC_sichuan_navy_department
 recruit_character = SCC_zheng_shaoyu
 
 ### 최고사령부 ###
-recruit_character = SCC_wang_lingji
-recruit_character = SCC_zhou_daogang
-recruit_character = SCC_he_guoguang
+recruit_character = SCC_tian_songyao
+recruit_character = SCC_pan_wenhua
+recruit_character = SCC_guo_xunqi
+recruit_character = SCC_yue_yiqin
 
 ### 육군 장성 ###
-recruit_character = SCC_fan_shaozeng
+recruit_character = SCC_tang_shizun
+recruit_character = SCC_zhou_daogang
+

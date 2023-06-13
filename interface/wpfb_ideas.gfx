@@ -53,4 +53,10 @@ spriteTypes = {
 		name = "GFX_idea_KOR_idea_daemagliji"
 		texturefile = "gfx/interface/ideas/KOR/idea_KOR_idea_daemagliji.png"
 	}
+	
+	### 청나라 입헌군주 ###
+	spriteType = {
+		name = "GFX_idea_QIN_constitutional_monarch_puyi"
+		texturefile = "gfx/interface/ideas/QIN/idea_QIN_constitutional_monarch_puyi.png"
+	}
 }

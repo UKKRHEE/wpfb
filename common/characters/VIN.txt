@@ -9,7 +9,9 @@ characters={
 		}
 		country_leader={
 			ideology=marxism
-			traits={ }
+			traits = {
+				#
+			}
 			expire="1960.1.1.1"
 			id=-1
 		}
@@ -23,7 +25,9 @@ characters={
 		}
 		country_leader={
 			ideology=liberalism
-			traits={ }
+			traits = {
+				#
+			}
 			expire="1960.1.1.1"
 			id=-1
 		}
@@ -37,7 +41,9 @@ characters={
 		}
 		country_leader={
 			ideology=fascism_ideology
-			traits={ }
+			traits = {
+				#
+			}
 			expire="1960.1.1.1"
 			id=-1
 		}
@@ -51,7 +57,9 @@ characters={
 		}
 		country_leader={
 			ideology=despotism
-			traits={ }
+			traits = {
+				#
+			}
 			expire="1960.1.1.1"
 			id=-1
 		}
@@ -384,9 +392,6 @@ characters={
 	    	traits = {
 				army_chief_maneuver_2
 			}
-	    	ai_will_do = {
-	    		factor = 1
-	    	}
 		}
 		corps_commander={
 			visible = {
@@ -427,9 +432,6 @@ characters={
 	    	traits = {
 				army_chief_planning_1
 			}
-	    	ai_will_do = {
-	    		factor = 1
-	    	}
 		}
 		corps_commander={
 			visible = {
@@ -469,9 +471,6 @@ characters={
 	    	traits = {
 				army_chief_organizational_2
 			}
-	    	ai_will_do = {
-	    		factor = 1
-	    	}
 		}
 		field_marshal={
 			visible = {
@@ -511,9 +510,6 @@ characters={
 	    	traits = {
 				army_chief_morale_3
 			}
-	    	ai_will_do = {
-	    		factor = 1
-	    	}
 		}
 		corps_commander={
 			visible = {
@@ -550,9 +546,6 @@ characters={
 		    traits = {
 				navy_chief_commerce_raiding_1
 			}
-		    ai_will_do = {
-		    	factor = 1
-		    }
 		}
 		navy_leader={
 			traits = {
@@ -590,9 +583,6 @@ characters={
 		    traits = {
 				air_chief_ground_support_1
 			}
-		    ai_will_do = {
-		    	factor = 1
-		    }
 		}
 		field_marshal={
 			visible = {
@@ -628,9 +618,6 @@ characters={
 		    traits = {
 				air_chief_safety_1
 			}
-		    ai_will_do = {
-		    	factor = 1
-		    }
 		}
 	}
 	

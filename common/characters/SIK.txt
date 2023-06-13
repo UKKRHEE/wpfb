@@ -10,7 +10,9 @@ characters={
 		}
 		country_leader={
 			ideology=stalinism
-			traits={ }
+			traits = {
+				#
+			}
 			expire="1960.1.1.1"
 			id=-1
 		}
@@ -29,9 +31,6 @@ characters={
 	    	traits = {
 				army_chief_organizational_1
 			}
-	    	ai_will_do = {
-	    		factor = 1
-	    	}
 		}
 		corps_commander={
 			traits = {
@@ -55,7 +54,9 @@ characters={
 		}
 		country_leader={
 			ideology=conservatism
-			traits={ }
+			traits = {
+				#
+			}
 			expire="1960.1.1.1"
 			id=-1
 		}
@@ -70,7 +71,9 @@ characters={
 		}
 		country_leader={
 			ideology=fascism_ideology
-			traits={ }
+			traits = {
+				#
+			}
 			expire="1960.1.1.1"
 			id=-1
 		}
@@ -89,9 +92,6 @@ characters={
 	    	traits = {
 				army_chief_offensive_1
 			}
-	    	ai_will_do = {
-	    		factor = 1
-	    	}
 		}
 		field_marshal={
 			traits = {
@@ -116,7 +116,9 @@ characters={
 		}
 		country_leader={
 			ideology=despotism
-			traits={ }
+			traits = {
+				#
+			}
 			expire="1960.1.1.1"
 			id=-1
 		}
@@ -135,9 +137,6 @@ characters={
 	    	traits = {
 				army_chief_defensive_1
 			}
-	    	ai_will_do = {
-	    		factor = 1
-	    	}
 		}
 		field_marshal={
 			traits = {
@@ -205,7 +204,7 @@ characters={
 				original_tag = SIK
 			}
 			traits = {
-				master_of_politics
+				great_compromiser
 			}
 		}
 		corps_commander={
@@ -314,7 +313,7 @@ characters={
 				}
 			}
 			traits = {
-				the_legitimist
+				kumul_khan_advisor
 			}
 		}
 	}
@@ -414,9 +413,6 @@ characters={
 	    	traits = {
 				army_chief_offensive_2
 			}
-	    	ai_will_do = {
-	    		factor = 1
-	    	}
 		}
 		field_marshal={
 			traits = {
@@ -456,9 +452,6 @@ characters={
 	    	traits = {
 				army_chief_offensive_1
 			}
-	    	ai_will_do = {
-	    		factor = 1
-	    	}
 		}
 		corps_commander={
 			traits = {
@@ -499,9 +492,6 @@ characters={
 	    	traits = {
 				army_chief_offensive_1
 			}
-	    	ai_will_do = {
-	    		factor = 1
-	    	}
 		}
 		field_marshal={
 			traits = {
@@ -535,9 +525,6 @@ characters={
 		    traits = {
 				navy_chief_reform_1
 			}
-		    ai_will_do = {
-		    	factor = 1
-		    }
 		}
 	}
 	
@@ -559,9 +546,6 @@ characters={
 		    traits = {
 				air_chief_safety_1
 			}
-		    ai_will_do = {
-		    	factor = 1
-		    }
 		}
 	}
 	

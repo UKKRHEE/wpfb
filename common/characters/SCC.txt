@@ -9,7 +9,9 @@ characters={
 		}
 		country_leader={
 			ideology=marxism
-			traits={ }
+			traits = {
+				#
+			}
 			expire="1960.1.1.1"
 			id=-1
 		}
@@ -18,107 +20,69 @@ characters={
 		name=SCC_zhang_lan
 		portraits={
 			civilian={
-				large=GFX_portrait_SCC_zhang_lan
+				large=GFX_portrait_prc_zhang_lan
 			}
 		}
 		country_leader={
 			ideology=socialism
-			traits={ }
+			traits = {
+				#
+			}
 			expire="1960.1.1.1"
 			id=-1
 		}
 	}
-	SCC_yang_sen={
-		name=SCC_yang_sen
+	SCC_liu_xiang={
+		name=SCC_liu_xiang
 		portraits={
 			army={
-				large=GFX_portrait_SCC_yang_sen
-				small=GFX_idea_SCC_yang_sen
+				large=GFX_portrait_SCC_liu_xiang
+				small=GFX_idea_SCC_liu_xiang
 			}
 		}
 		country_leader={
 			ideology=fascism_ideology
-			traits={ }
+			traits = {
+				#
+			}
 			expire="1960.1.1.1"
 			id=-1
 		}
 		country_leader={
 			ideology=despotism
-			traits={ }
+			traits = {
+				#
+			}
 			expire="1960.1.1.1"
 			id=-1
 		}
 		advisor={
 			cost = 100
 			slot = army_chief
-			idea_token = yang_sen
+			idea_token = liu_xiang
 			allowed = {
 	    		original_tag = SCC
 	    	}
 	    	traits = {
 				army_chief_defensive_2
 			}
-	    	ai_will_do = {
-	    		factor = 1
-	    	}
 		}
 		field_marshal={
 			traits = {
 				inflexible_strategist
+				old_guard
 				politically_connected
 			}
 			skill = 2
 			attack_skill = 2
 			defense_skill = 2
-			planning_skill = 1
-			logistics_skill = 2
+			planning_skill = 2
+			logistics_skill = 1
 			legacy_id=-1
 		}
 	}
 	
 	### 정치고문 ###
-	SCC_shen_junru={
-		name=SCC_shen_junru
-		portraits={
-			civilian={
-				small=GFX_idea_SCC_shen_junru
-			}
-		}
-		advisor={
-			slot = political_advisor
-			idea_token = shen_junru
-			available = {
-				has_government = democratic
-			}
-			allowed = {
-				original_tag = SCC
-			}
-			traits = {
-				social_reformer
-			}
-		}
-	}
-	SCC_ba_jin={
-		name=SCC_ba_jin
-		portraits={
-			civilian={
-				small=GFX_idea_SCC_ba_jin
-			}
-		}
-		advisor={
-			slot = political_advisor
-			idea_token = ba_jin
-			available = {
-				has_government = communism
-			}
-			allowed = {
-				original_tag = SCC
-			}
-			traits = {
-				socialist_novelist
-			}
-		}
-	}
 	SCC_lu_zuofu={
 		name=SCC_lu_zuofu
 		portraits={
@@ -137,39 +101,57 @@ characters={
 			}
 		}
 	}
-	SCC_sichuan_finance={
-		name=joint_finance
+	SCC_zhou_conghua={
+		name=SCC_zhou_conghua
 		portraits={
 			civilian={
-				small=GFX_idea_Joint_finance
+				small=GFX_idea_SCC_zhou_conghua
 			}
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = sichuan_finance
+			idea_token = zhou_conghua
 			allowed = {
 				original_tag = SCC
 			}
 			traits = {
-				financial_expert
+				efficient_propagandist
 			}
 		}
 	}
-	SCC_sichuan_education={
-		name=joint_education
+	SCC_tang_chun_i={
+		name=SCC_tang_chun_i
 		portraits={
 			civilian={
-				small=GFX_idea_Joint_education
+				small=GFX_idea_SCC_tang_chun_i
 			}
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = sichuan_education
+			idea_token = tang_chun_i
 			allowed = {
 				original_tag = SCC
 			}
 			traits = {
-				education_reformer
+				enlightened_academic
+			}
+		}
+	}
+	SCC_yang_shukan={
+		name=SCC_yang_shukan
+		portraits={
+			civilian={
+				small=GFX_idea_SCC_yang_shukan
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = yang_shukan
+			allowed = {
+				original_tag = SCC
+			}
+			traits = {
+				silent_workhorse
 			}
 		}
 	}
@@ -258,43 +240,6 @@ characters={
 		}
 	}
 	
-	### 육군참모총장 ###
-	SCC_wang_zuanxu={
-		name=SCC_wang_zuanxu
-		portraits={
-			army={
-				large=GFX_portrait_SCC_wang_zuanxu
-				small=GFX_idea_SCC_wang_zuanxu
-			}
-		}
-		advisor={
-			slot = army_chief
-			idea_token = wang_zuanxu
-	    	allowed = {
-	    		original_tag = SCC
-	    	}
-	    	traits = {
-				army_chief_organizational_1
-			}
-	    	ai_will_do = {
-	    		factor = 1
-	    	}
-		}
-		corps_commander={
-			traits = {
-				trait_reckless
-				harsh_leader
-				politically_connected
-			}
-			skill = 2
-			attack_skill = 1
-			defense_skill = 2
-			planning_skill = 1
-			logistics_skill = 3
-			legacy_id=-1
-		}
-	}
-	
 	### 해군참모총장 ###
 	SCC_sichuan_navy_department = {
 		name=joint_navy_department
@@ -312,9 +257,6 @@ characters={
 		    traits = {
 				navy_chief_reform_1
 			}
-		    ai_will_do = {
-		    	factor = 1
-		    }
 		}
 	}
 	
@@ -337,89 +279,21 @@ characters={
 		    traits = {
 				air_chief_reform_2
 			}
-		    ai_will_do = {
-		    	factor = 1
-		    }
 		}
 	}
 	
 	### 최고사령부 ###
-	SCC_wang_lingji = {
-		name=SCC_wang_lingji
+	SCC_tian_songyao = {
+		name=SCC_tian_songyao
 		portraits={
 			army={
-				large=GFX_portrait_SCC_wang_lingji
-				small=GFX_idea_SCC_wang_lingji
-			}
-		}
-		advisor={
-			cost = 100
-			slot = high_command
-			idea_token = wang_lingji
-			ledger = army
-		    allowed = {
-		    	original_tag = SCC
-		    }
-		    traits = {
-				army_infantry_2
-			}
-		}
-		corps_commander={
-			traits = {
-				brilliant_strategist
-				infantry_officer
-			}
-			skill = 2
-			attack_skill = 2
-			defense_skill = 1
-			planning_skill = 3
-			logistics_skill = 1
-			legacy_id=-1
-		}
-	}
-	SCC_zhou_daogang = {
-		name=SCC_zhou_daogang
-		portraits={
-			army={
-				large=GFX_portrait_SCC_zhou_daogang
-				small=GFX_idea_SCC_zhou_daogang
+				large=GFX_portrait_SCC_tian_songyao
+				small=GFX_idea_SCC_tian_songyao
 			}
 		}
 		advisor={
 			slot = high_command
-			idea_token = zhou_daogang
-			ledger = army
-		    allowed = {
-		    	original_tag = SCC
-		    }
-		    traits = {
-				army_chief_drill_1
-			}
-		}
-		corps_commander={
-			traits = {
-				old_guard
-				politically_connected
-			}
-			skill = 2
-			attack_skill = 1
-			defense_skill = 3
-			planning_skill = 1
-			logistics_skill = 2
-			legacy_id=-1
-		}
-	}
-	SCC_he_guoguang = {
-		name=SCC_he_guoguang
-		portraits={
-			army={
-				large=GFX_portrait_SCC_he_guoguang
-				small=GFX_idea_SCC_he_guoguang
-			}
-		}
-		advisor={
-			slot = high_command
-			idea_token = he_guoguang
+			idea_token = tian_songyao
 			ledger = army
 		    allowed = {
 		    	original_tag = SCC
@@ -430,6 +304,7 @@ characters={
 		}
 		corps_commander={
 			traits = {
+				inflexible_strategist
 				old_guard
 			}
 			skill = 1
@@ -440,25 +315,131 @@ characters={
 			legacy_id=-1
 		}
 	}
-	
-	### 육군 장성 ###
-	SCC_fan_shaozeng={
-		name=SCC_fan_shaozeng
+	SCC_pan_wenhua = {
+		name=SCC_pan_wenhua
 		portraits={
 			army={
-				large=GFX_portrait_SCC_fan_shaozeng
+				large=GFX_portrait_SCC_pan_wenhua
+				small=GFX_idea_SCC_pan_wenhua
 			}
 		}
-		corps_commander={
+		advisor={
+			cost = 100
+			slot = high_command
+			idea_token = pan_wenhua
+			ledger = army
+		    allowed = {
+		    	original_tag = SCC
+		    }
+		    traits = {
+				army_regrouping_2
+			}
+		}
+		corps_commander = {
 			traits = {
-				old_guard
-				substance_abuser
+				brilliant_strategist
+				war_hero
+			}
+			skill = 2
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+	SCC_guo_xunqi = {
+		name=SCC_guo_xunqi
+		portraits={
+			army={
+				large=GFX_portrait_SCC_guo_xunqi
+				small=GFX_idea_SCC_guo_xunqi
+			}
+		}
+		advisor={
+			cost = 100
+			slot = high_command
+			idea_token = guo_xunqi
+			ledger = army
+		    allowed = {
+		    	original_tag = SCC
+		    }
+		    traits = {
+				army_artillery_2
+			}
+		}
+		corps_commander = {
+			traits = {
+				career_officer
 			}
 			skill = 1
 			attack_skill = 1
 			defense_skill = 1
 			planning_skill = 1
 			logistics_skill = 1
+			legacy_id=-1
+		}
+	}
+	SCC_yue_yiqin = {
+		name=SCC_yue_yiqin
+		portraits={
+			army={
+				small=GFX_idea_SCC_yue_yiqin
+			}
+		}
+		advisor={
+			cost = 100
+			slot = high_command
+			idea_token = yue_yiqin
+			ledger = air
+		    allowed = {
+		    	original_tag = SCC
+		    }
+		    traits = {
+				air_bomber_interception_2
+			}
+		}
+	}
+	
+	### 육군 장성 ###
+	SCC_tang_shizun={
+		name=SCC_tang_shizun
+		portraits={
+			army={
+				large=GFX_portrait_SCC_tang_shizun
+			}
+		}
+		corps_commander = {
+			traits = {
+				trait_reckless
+				infantry_officer
+				politically_connected
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+	SCC_zhou_daogang={
+		name=SCC_zhou_daogang
+		portraits={
+			army={
+				large=GFX_portrait_SCC_zhou_daogang
+			}
+		}
+		corps_commander = {
+			traits = {
+				old_guard
+				politically_connected
+			}
+			skill = 2
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 1
+			logistics_skill = 2
 			legacy_id=-1
 		}
 	}

@@ -1,0 +1,58 @@
+﻿capital = 613
+
+oob = "RGC_1936"
+
+set_technology = {
+	infantry_weapons = 1
+	mass_assault = 1
+}
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	democratic = 10
+	fascism = 40
+	communism = 0
+	neutrality = 50
+}
+
+### 지도자 ###
+recruit_character = RGC_ccp
+recruit_character = RGC_wang_kemin
+recruit_character = RGC_qi_xieyuan
+recruit_character = RGC_liang_hongzhi
+
+### 정치고문 ###
+recruit_character = RGC_yin_jukeng
+recruit_character = RGC_wen_tsungyao
+recruit_character = RGC_ding_mocun
+
+### 이론가 ###
+recruit_character = RGC_nanjing_army_research
+recruit_character = RGC_nanjing_navy_research
+recruit_character = RGC_nanjing_air_research
+
+### 육군참모총장 ###
+recruit_character = RGC_sun_dianying
+
+### 해군참모총장 ###
+recruit_character = RGC_ren_yuandao
+
+### 공군참모총장 ###
+recruit_character = RGC_chen_zuchang
+
+### 최고사령부 ###
+recruit_character = RGC_zhang_jingyao
+recruit_character = RGC_deng_ruzuo
+recruit_character = RGC_xuai_shuxuan
+recruit_character = RGC_zhou_yinren
+
+### 육군 장성 ###
+recruit_character = RGC_zhou_fengqi
+recruit_character = RGC_shi_yousan
+

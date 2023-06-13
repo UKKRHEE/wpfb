@@ -30,7 +30,7 @@ characters = {
 			expire = "1965.1.1"
 			ideology = socialism
 			traits = {
-				resolute_social_democrat_kor
+				resolute_social_democrat_leader
 			}
 			id=-1
 		}
@@ -67,9 +67,6 @@ characters = {
 	    	traits = {
 				army_chief_maneuver_2
 			}
-	    	ai_will_do = {
-	    		factor = 1
-	    	}
 		}
 		field_marshal={
 			visible = {
@@ -104,7 +101,7 @@ characters = {
 			expire = "1965.1.1"
 			ideology = despotism
 			traits = {
-				backroom_backstabber_kor
+				backroom_backstabber_leader
 			}
 			id=-1
 		}
@@ -484,9 +481,6 @@ characters = {
 		    traits = {
 				army_chief_drill_2
 			}
-		    ai_will_do = {
-		    	factor = 1
-		    }
 		}
 		field_marshal={
 			visible = {
@@ -530,9 +524,6 @@ characters = {
 	    	traits = {
 				army_chief_organizational_2
 			}
-	    	ai_will_do = {
-	    		factor = 1
-	    	}
 		}
 		field_marshal={
 			visible = {
@@ -577,9 +568,6 @@ characters = {
 		    traits = {
 				navy_chief_commerce_raiding_1
 			}
-		    ai_will_do = {
-		    	factor = 1
-		    }
 		}
 		navy_leader={
 			visible = {
@@ -622,9 +610,6 @@ characters = {
 		    traits = {
 				navy_chief_commerce_raiding_2
 			}
-		    ai_will_do = {
-		    	factor = 1
-		    }
 		}
 		navy_leader={
 			visible = {
@@ -667,9 +652,6 @@ characters = {
 		    traits = {
 				air_chief_ground_support_1
 			}
-		    ai_will_do = {
-		    	factor = 1
-		    }
 		}
 	}
 	ROK_choe_yong_duk = {
@@ -695,9 +677,6 @@ characters = {
 		    traits = {
 				air_chief_ground_support_2
 			}
-		    ai_will_do = {
-		    	factor = 1
-		    }
 		}
 	}
 	
@@ -726,9 +705,6 @@ characters = {
 		    traits = {
 				army_regrouping_1
 			}
-		    ai_will_do = {
-		    	factor = 1
-		    }
 		}
 		corps_commander={
 			visible = {
@@ -772,9 +748,6 @@ characters = {
 		    traits = {
 				army_commando_1
 			}
-		    ai_will_do = {
-		    	factor = 1
-		    }
 		}
 		corps_commander={
 			visible = {
@@ -818,9 +791,6 @@ characters = {
 		    traits = {
 				army_artillery_1
 			}
-		    ai_will_do = {
-		    	factor = 1
-		    }
 		}
 		corps_commander={
 			visible = {
@@ -864,9 +834,6 @@ characters = {
 		    traits = {
 				army_artillery_3
 			}
-		    ai_will_do = {
-		    	factor = 1
-		    }
 		}
 		corps_commander={
 			visible = {
@@ -910,9 +877,6 @@ characters = {
 		    traits = {
 				army_infantry_3
 			}
-		    ai_will_do = {
-		    	factor = 1
-		    }
 		}
 		corps_commander={
 			visible = {
@@ -958,9 +922,6 @@ characters = {
 		    traits = {
 				army_cavalry_2
 			}
-		    ai_will_do = {
-		    	factor = 1
-		    }
 		}
 		corps_commander={
 			visible = {
@@ -1005,9 +966,6 @@ characters = {
 	    	traits = {
 				navy_screen_2
 			}
-	    	ai_will_do = {
-	    		factor = 1
-	    	}
 		}
 		navy_leader={
 			visible = {
@@ -1050,9 +1008,6 @@ characters = {
 		    traits = {
 				air_air_combat_training_2
 			}
-		    ai_will_do = {
-		    	factor = 1
-	    	}
 		}
 	}
 	

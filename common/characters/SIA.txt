@@ -9,7 +9,9 @@ characters={
 		}
 		country_leader={
 			ideology=marxism
-			traits={ }
+			traits = {
+				#
+			}
 			expire="1960.1.1.1"
 			id=-1
 		}
@@ -23,7 +25,9 @@ characters={
 		}
 		country_leader={
 			ideology=socialism
-			traits={ }
+			traits = {
+				#
+			}
 			expire="1960.1.1.1"
 			id=-1
 		}
@@ -38,7 +42,9 @@ characters={
 		}
 		country_leader={
 			ideology=fascism_ideology
-			traits={ }
+			traits = {
+				#
+			}
 			expire="1960.1.1.1"
 			id=-1
 		}
@@ -58,9 +64,6 @@ characters={
 	    	traits = {
 				army_chief_organizational_2
 			}
-	    	ai_will_do = {
-	    		factor = 1
-	    	}
 		}
 		field_marshal={
 			visible = {
@@ -90,7 +93,9 @@ characters={
 		}
 		country_leader={
 			ideology=despotism
-			traits={ }
+			traits = {
+				#
+			}
 			expire="1960.1.1.1"
 			id=-1
 		}
@@ -109,9 +114,6 @@ characters={
 	    	traits = {
 				army_chief_organizational_1
 			}
-	    	ai_will_do = {
-	    		factor = 1
-	    	}
 		}
 		field_marshal={
 			visible = {
@@ -200,12 +202,16 @@ characters={
 			}
 		}
 		corps_commander = {
-			traits = { career_officer trait_engineer }
+			traits = {
+				career_officer
+				trait_engineer
+			}
 			skill = 2
 			attack_skill = 2
 			defense_skill = 1
 			planning_skill = 3
 			logistics_skill = 1
+			legacy_id=-1
 		}
 	}
 	SIA_seni_pramoj={
@@ -285,12 +291,15 @@ characters={
 					has_government = communism
 				}
             }
-			traits = { politically_connected }
+			traits = {
+				politically_connected
+			}
 			skill = 1
 			attack_skill = 1
 			defense_skill = 1
 			planning_skill = 1
 			logistics_skill = 1
+			legacy_id=-1
 		}
 	}
 	SIA_phao_sriyanond={
@@ -362,12 +371,16 @@ characters={
 			}
 		}
 		field_marshal = {
-			traits = { organizer logistics_wizard }
+			traits = {
+				organizer
+				logistics_wizard
+			}
 			skill = 2
 			attack_skill = 2
 			defense_skill = 1
 			planning_skill = 1
 			logistics_skill = 3
+			legacy_id=-1
 		}
 	}
 	SIA_thawan_thamrongnawasawat={
@@ -391,12 +404,15 @@ characters={
 			}
 		}
 		navy_leader = {
-			traits = { fleet_protector }
+			traits = {
+				fleet_protector
+			}
 			skill = 2
 			attack_skill = 2
 			defense_skill = 1
 			maneuvering_skill = 1
 			coordination_skill = 3
+			legacy_id=-1
 		}
 	}
 	SIA_sunee_suwanprateep={
@@ -438,17 +454,18 @@ characters={
 			traits = {
 				army_chief_defensive_1
 			}
-			ai_will_do = {
-				factor = 1.000
-			}
 		}
 		corps_commander = {
-			traits = { war_hero skilled_staffer }
+			traits = {
+				war_hero
+				skilled_staffer
+			}
 			skill = 2
 			attack_skill = 1
 			defense_skill = 2
 			planning_skill = 2
 			logistics_skill = 2
+			legacy_id=-1
 		}
 	}
 	
@@ -471,17 +488,18 @@ characters={
 		    traits = {
 				navy_chief_maneuver_2
 			}
-		    ai_will_do = {
-		    	factor = 1
-		    }
 		}
 		navy_leader = {
-			traits = { naval_lineage blockade_runner }
+			traits = {
+				naval_lineage
+				blockade_runner
+			}
 			skill = 3
 			attack_skill = 3
 			defense_skill = 2
 			maneuvering_skill = 2
 			coordination_skill = 3
+			legacy_id=-1
 		}
 	}
 	
@@ -502,9 +520,6 @@ characters={
 			}
 			traits = {
 				air_chief_night_operations_2
-			}
-			ai_will_do = {
-				factor = 1.000
 			}
 		}
 	}
@@ -530,12 +545,15 @@ characters={
 			}
 		}
 		corps_commander = {
-			traits = { infantry_officer }
+			traits = {
+				infantry_officer
+			}
 			skill = 1
 			attack_skill = 1
 			defense_skill = 1
 			planning_skill = 1
 			logistics_skill = 1
+			legacy_id=-1
 		}
 	}
 	SIA_mongkol_mongkolnawin = {
@@ -556,17 +574,17 @@ characters={
 	    	traits = {
 				navy_capital_ship_1
 			}
-	    	ai_will_do = {
-	    		factor = 1
-	    	}
 		}
 		navy_leader = {
-			traits = { fly_swatter }
+			traits = {
+				fly_swatter
+			}
 			skill = 2
 			attack_skill = 1
 			defense_skill = 3
 			maneuvering_skill = 2
 			coordination_skill = 1
+			legacy_id=-1
 		}
 	}
 	SIA_munee_mahasantana = {
@@ -586,9 +604,6 @@ characters={
 		    traits = {
 				air_tactical_bombing_1
 			}
-		    ai_will_do = {
-		    	factor = 1
-	    	}
 		}
 	}
 	
@@ -601,12 +616,17 @@ characters={
 			}
 		}
 		corps_commander = {
-			traits = { harsh_leader politically_connected hill_fighter }
+			traits = {
+				harsh_leader
+				politically_connected
+				hill_fighter
+			}
 			skill = 2
 			attack_skill = 2
 			defense_skill = 3
 			planning_skill = 1
 			logistics_skill = 1
+			legacy_id=-1
 		}
 	}
 	SIA_pichit_kriengsakpichit={
@@ -617,12 +637,15 @@ characters={
 			}
 		}
 		corps_commander = {
-			traits = { infantry_officer }
+			traits = {
+				infantry_officer
+			}
 			skill = 2
 			attack_skill = 2
 			defense_skill = 1
 			planning_skill = 2
 			logistics_skill = 2
+			legacy_id=-1
 		}
 	}
 	SIA_mangkorn_promyothee={
@@ -633,12 +656,16 @@ characters={
 			}
 		}
 		corps_commander = {
-			traits = { career_officer infantry_officer }
+			traits = {
+				career_officer
+				infantry_officer
+			}
 			skill = 1
 			attack_skill = 1
 			defense_skill = 1
 			planning_skill = 1
 			logistics_skill = 1
+			legacy_id=-1
 		}
 	}
 }

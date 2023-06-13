@@ -9,7 +9,9 @@ characters={
 		}
 		country_leader={
 			ideology=marxism
-			traits={ }
+			traits = {
+				#
+			}
 			expire="1960.1.1.1"
 			id=-1
 		}
@@ -27,18 +29,25 @@ characters={
 		}
 		country_leader={
 			ideology=socialism
-			traits={ }
+			traits = {
+				#
+			}
 			expire="1960.1.1.1"
 			id=-1
 		}
 		country_leader={
 			ideology=fascism_ideology
-			traits={ }
+			traits = {
+				#
+			}
 			expire="1960.1.1.1"
 			id=-1
 		}
 		country_leader={
 			ideology=despotism
+			traits = {
+				#
+			}
 			expire="1965.1.1.1"
 			id=-1
 		}
@@ -52,9 +61,6 @@ characters={
 	    	traits = {
 				army_chief_organizational_3
 			}
-	    	ai_will_do = {
-	    		factor = 1
-	    	}
 		}
 		field_marshal={
 			traits = {
@@ -246,9 +252,6 @@ characters={
 	    	traits = {
 				army_chief_planning_3
 			}
-	    	ai_will_do = {
-	    		factor = 1
-	    	}
 		}
 		field_marshal={
 			traits = {
@@ -282,9 +285,6 @@ characters={
 		    traits = {
 				navy_chief_reform_1
 			}
-		    ai_will_do = {
-		    	factor = 1
-		    }
 		}
 	}
 	
@@ -304,9 +304,6 @@ characters={
 			}
 			traits = {
 				air_chief_reform_1
-			}
-			ai_will_do = {
-				factor = 1.000
 			}
 		}
 	}

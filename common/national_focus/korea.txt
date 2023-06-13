@@ -3959,8 +3959,8 @@
 		
 		completion_reward = {
 			swap_ruler_traits = {
-                remove = emperor_geonheung
-                add = emperor_geonheung2
+                remove = geonheung_emperor
+                add = geonheung_emperor2
             }
 			custom_effect_tooltip = KOR_paternal_autocrat6_tt
 			hidden_effect = {

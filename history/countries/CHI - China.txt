@@ -22,27 +22,23 @@ if = {
 
 ### 지도자 ###
 recruit_character = CHI_ccp
-recruit_character = CHI_wang_jingwei
+recruit_character = CHI_sun_fo
 recruit_character = CHI_dai_li
 recruit_character = CHI_chiang_kaishek
 
 ### 정치고문 ###
 recruit_character = CHI_soong_mei_ling
-recruit_character = CHI_lin_sen
 recruit_character = CHI_t_v_soong
-recruit_character = CHI_h_h_kung
-recruit_character = CHI_sun_fo
 recruit_character = CHI_zhang_qun
 recruit_character = CHI_chen_lifu
-recruit_character = CHI_zhang_naiqi
-recruit_character = CHI_zou_taofen
-recruit_character = CHI_shi_liang
+recruit_character = CHI_hu_shih
+recruit_character = CHI_dai_jitao
+recruit_character = CHI_chen_bulei
 
 ### 이론가 ###
 recruit_character = CHI_xiong_shihui
 recruit_character = CHI_gui_yongqing
 recruit_character = CHI_huang_bingheng
-recruit_character = CHI_wu_dayou
 
 ### 육군참모총장 ###
 recruit_character = CHI_he_yingqin
@@ -69,7 +65,6 @@ recruit_character = CHI_mao_bangchu
 ### 육군 장성 ###
 recruit_character = CHI_hu_zongnan
 recruit_character = CHI_hsueh_yueh
-recruit_character = CHI_zhang_fakui
 recruit_character = CHI_zhang_zhizhong
 
 set_stability = 0.2

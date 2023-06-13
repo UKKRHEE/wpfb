@@ -9,6 +9,9 @@ characters={
 		}
 		country_leader={
 			ideology=marxism
+			traits = {
+				#
+			}
 			expire="1965.1.1.1"
 			id=-1
 		}
@@ -22,6 +25,9 @@ characters={
 		}
 		country_leader={
 			ideology=socialism
+			traits = {
+				#
+			}
 			expire="1965.1.1.1"
 			id=-1
 		}
@@ -35,6 +41,9 @@ characters={
 		}
 		country_leader={
 			ideology=falangism
+			traits = {
+				#
+			}
 			expire="1965.1.1.1"
 			id=-1
 		}
@@ -48,6 +57,9 @@ characters={
 		}
 		country_leader={
 			ideology=despotism
+			traits = {
+				#
+			}
 			expire="1965.1.1.1"
 			id=-1
 		}
@@ -177,9 +189,6 @@ characters={
 					has_government = communism 
 				}
 			}
-			ai_will_do = {
-				factor = 0.000
-			}
 		}
 	}
 	
@@ -220,9 +229,6 @@ characters={
 				NOT = {
 					has_government = democratic 
 				}
-			}
-			ai_will_do = {
-				factor = 0.000
 			}
 		}		
 	}
@@ -289,9 +295,6 @@ characters={
 	#		}
 	#		traits = {
 	#			backroom_backstabber 
-	#		}
-	#		ai_will_do = {
-	#			factor = 0.000
 	#		}
 	#	}
 	#}
@@ -425,9 +428,6 @@ characters={
 				army_chief_reform_2
 			}
 			cost = 100
-			ai_will_do = {
-				factor = 1.000
-			}
 		}
 	}
 	RAJ_reginald_savory={
@@ -450,9 +450,6 @@ characters={
 				army_chief_drill_2
 			}
 			cost = 100
-			ai_will_do = {
-				factor = 1.000
-			}
 		}
 	}
 	RAJ_mohan_singh={
@@ -472,9 +469,6 @@ characters={
 				army_chief_offensive_2
 			}
 			cost = 100
-			ai_will_do = {
-				factor = 1.000
-			}
 		}
 	}
 	RAJ_kodandera_cariappa={
@@ -494,9 +488,6 @@ characters={
 				army_chief_morale_2
 			}
 			cost = 100
-			ai_will_do = {
-				factor = 1.000
-			}
 		}
 	}
 
@@ -521,9 +512,6 @@ characters={
 				navy_chief_maneuver_2
 			}
 			cost = 100
-			ai_will_do = {
-				factor = 1.000
-			}
 		}
 	}
 	RAJ_william_e_parry={
@@ -546,9 +534,6 @@ characters={
 				navy_chief_commerce_raiding_2
 			}
 			cost = 100
-			ai_will_do = {
-				factor = 1.000
-			}
 		}
 	}
 	RAJ_bhaskar_soman={
@@ -568,9 +553,6 @@ characters={
 				navy_chief_decisive_battle_2
 			}
 			cost = 100
-			ai_will_do = {
-				factor = 1.000
-			}
 		}
 	}
 	RAJ_ram_dass_katari={
@@ -591,9 +573,6 @@ characters={
 				navy_chief_reform_2
 			}
 			cost = 100
-			ai_will_do = {
-				factor = 1.000
-			}
 		}
 		navy_leader={
 			traits = {
@@ -629,9 +608,6 @@ characters={
 				air_chief_safety_2
 			}
 			cost = 100
-			ai_will_do = {
-				factor = 1.000
-			}
 		}
 	}
 	RAJ_subroto_mukherjee={
@@ -651,9 +627,6 @@ characters={
 				air_chief_ground_support_2
 			}
 			cost = 100
-			ai_will_do = {
-				factor = 1.000
-			}
 		}
 	}
 	RAJ_ravindra_darshan_singh={
@@ -673,9 +646,6 @@ characters={
 				air_chief_night_operations_2
 			}
 			cost = 100
-			ai_will_do = {
-				factor = 1.000
-			}
 		}
 	}
 
@@ -698,9 +668,6 @@ characters={
 				army_infantry_2
 			}
 			cost = 100
-			ai_will_do = {
-				factor = 1.000
-			}
 		}
 	}
 	RAJ_arjan_singh_vibhusan={
@@ -721,9 +688,6 @@ characters={
 				air_air_combat_training_3
 			}
 			cost = 200
-			ai_will_do = {
-				factor = 1.000
-			}
 		}
 	}
 	RAJ_aspy_merwan_engineer={
@@ -744,9 +708,6 @@ characters={
 				air_naval_strike_2
 			}
 			cost = 100
-			ai_will_do = {
-				factor = 1.000
-			}
 		}		
 	}
 	RAJ_mehar_singh={
@@ -767,9 +728,6 @@ characters={
 				air_close_air_support_3
 			}
 			cost = 200
-			ai_will_do = {
-				factor = 1.000
-			}
 		}
 	}
 	RAJ_w_h_gould_bradford={
@@ -793,9 +751,6 @@ characters={
 				navy_anti_submarine_2
 			}
 			cost = 100
-			ai_will_do = {
-				factor = 1.000
-			}
 		}		
 	}
 	
@@ -813,11 +768,11 @@ characters={
                 is_puppet_of = ENG
             }
 			traits={ armor_officer }
-			skill=3
-			attack_skill=3
-			defense_skill=3
-			planning_skill=3
-			logistics_skill=1
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 1
 			legacy_id=-1
 		}
 	}
@@ -834,11 +789,11 @@ characters={
                 is_puppet_of = ENG
             }
 			traits={ hill_fighter }
-			skill=3
-			attack_skill=2
-			defense_skill=2
-			planning_skill=3
-			logistics_skill=3
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
 			legacy_id=-1
 		}
 	}
@@ -855,11 +810,11 @@ characters={
                 is_puppet_of = ENG
             }
 			traits={ desert_fox }
-			skill=3
-			attack_skill=1
-			defense_skill=3
-			planning_skill=3
-			logistics_skill=3
+			skill = 3
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
 			legacy_id=-1
 		}
 	}
@@ -875,11 +830,11 @@ characters={
 		}
 		navy_leader={
 			traits={ old_guard_navy }
-			skill=2
-			attack_skill=2
-			defense_skill=2
-			maneuvering_skill=1
-			coordination_skill=2
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			maneuvering_skill = 1
+			coordination_skill = 2
 			legacy_id=-1
 		}
 	}

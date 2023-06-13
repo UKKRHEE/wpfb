@@ -1,6 +1,21 @@
 leader_traits = {
 
-	resolute_social_democrat_kor = {
+	#############
+	### 지도자ㅡ ###
+	#############
+
+	### 공용 ###
+	social_reformer_leader = { #사회개혁가
+		random = no
+		
+		stability_factor = 0.15
+		democratic_acceptance = 50
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	resolute_social_democrat_leader = { #확고한 사민주의자
 		random = no
 		
 		stability_factor = 0.05
@@ -12,17 +27,7 @@ leader_traits = {
 			factor = 1
 		}
 	}
-	social_reformer_kor = {
-		random = no
-		
-		stability_factor = 0.15
-		democratic_acceptance = 50
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	linguistic_genius = {
+	linguistic_genius = { #어학의 천재
 		random = no
 		
 		improve_relations_maintain_cost_factor = -0.75
@@ -33,7 +38,7 @@ leader_traits = {
 			factor = 1
 		}
 	}
-	backroom_backstabber_kor = {
+	backroom_backstabber_leader = { #밀실 모략가
 		name = backroom_backstabber
 		random = no
 		
@@ -44,7 +49,7 @@ leader_traits = {
 			factor = 1
 		}
 	}
-	academic_genius = {
+	academic_genius = { #학문학의 제일류
 		random = no
 		
 		research_speed_factor = 0.10
@@ -53,7 +58,19 @@ leader_traits = {
 			factor = 1
 		}
 	}
-	daemagliji = {
+	nationalist_historian = { #민족주의 사학자
+		random = no
+		
+		stability_factor = 0.1
+		fascism_acceptance = 50
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	### 한국 ###
+	daemagliji = { #대막리지
 		random = no
 		
 		war_support_factor = 0.15
@@ -81,17 +98,7 @@ leader_traits = {
 			factor = 1
 		}
 	}
-	nationalist_historian = {
-		random = no
-		
-		stability_factor = 0.1
-		fascism_acceptance = 50
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	emperor_geonheung = {
+	geonheung_emperor = { #건흥제
 		random = no
 		
 		stability_factor = 0.3
@@ -101,7 +108,7 @@ leader_traits = {
 			factor = 1
 		}
 	}
-	emperor_geonheung2 = {
+	geonheung_emperor2 = {
 		random = no
 		
 		stability_factor = 0.6
@@ -111,7 +118,7 @@ leader_traits = {
 			factor = 1
 		}
 	}
-	underage_emperor = {
+	underage_emperor = { #유제
 		random = no
 		
 		stability_factor = 0.05
@@ -120,38 +127,244 @@ leader_traits = {
 			factor = 1
 		}
 	}
-	jade_marshal = {
+	
+	### 청나라 ###
+	xuantong_emperor = { #선통제
 		random = no
 		
-		army_attack_factor = 0.10
-		political_power_gain = 0.10
-		supply_consumption_factor = 0.05
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	drunken_dabbler = {
-		random = no
-		
-		political_advisor_cost_factor = 0.15
-		stability_factor = -0.10
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	old_figurehead_zlc = {
-		random = no
+		stability_factor = 0.05
 
-		political_power_factor = 0.15
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	second_hongzhang = { #두 번째 이홍장
+		random = no
+		
+		custom_modifier_tooltip = second_hongzhang_tt
+		hidden_modifier = {
+			stability_factor = -0.05
+			political_power_factor = 0.05
+			consumer_goods_factor = 0.05
+			production_speed_arms_factory_factor = 0.05
+			production_speed_dockyard_factor = 0.05
+			production_speed_naval_base_factor = 0.05
+			production_speed_bunker_factor = 0.05
+			production_speed_coastal_bunker_factor = 0.05
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	second_hongzhang2 = {
+		random = no
+		
+		custom_modifier_tooltip = second_hongzhang2_tt
+		hidden_modifier = {
+			political_power_factor = 0.10
+			production_speed_arms_factory_factor = 0.10
+			production_speed_dockyard_factor = 0.10
+			production_speed_naval_base_factor = 0.10
+			production_speed_bunker_factor = 0.10
+			production_speed_coastal_bunker_factor = 0.10
+		}
 
 		ai_will_do = {
 			factor = 1
 		}
 	}
 	
+	### 신강/쿠물 ###
+	kumul_khan = { #쿠물 칸
+		random = no
+
+		stability_factor = 0.05
+		political_power_factor = 0.05
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	### 중화민국 북경정부/산서군벌 ###
+	model_chairmen = { #모범주석
+		random = no
+
+		army_attack_factor = 0.05
+		land_reinforce_rate = 0.02
+		command_power_gain = 0.10
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	christian_general = { #기독교도 장군
+		random = no
+
+		war_stability_factor = 0.20
+		resistance_damage_to_garrison = -0.2
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	traitorous_general = { #배신자 장군
+		random = no
+
+		stability_factor = -0.10
+		opinion_gain_monthly_factor = -0.15
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	### 산동군벌 ###
+	duke_yansheng = { #연성공
+		random = no
+
+		stability_factor = 0.25
+		political_power_factor = 0.25
+		drift_defence_factor = 0.25
+		neutrality_acceptance = 25
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	#############
 	### 정치고문 ###
+	#############
+	
+	### 공용 ###
+	political_specialist = { #정치적 전문가
+		random = no
+		sprite = 13
+
+		mobilization_laws_cost_factor = -0.33
+		trade_laws_cost_factor = -0.33
+		economy_cost_factor = -0.33
+		political_advisor_cost_factor = -0.33
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	spiritual_leader = { #정신적 지주
+		random = no
+		sprite = 13
+
+		stability_factor = 0.1
+		army_morale_factor = 0.05
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	efficient_propagandist = { #효율적 선전가
+		random = no
+		sprite = 13
+
+		political_power_factor = 0.08
+		stability_factor = 0.02
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	enlightened_academic = { #계몽된 학자
+		random = no
+		sprite = 13
+
+		research_speed_factor = 0.06
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	iron_fisted_brute = {
+		random = no
+		sprite = 13
+		
+		resistance_target = -0.05
+		war_support_factor = 0.1
+		army_attack_factor = 0.05
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	man_of_the_people = {
+		random = no
+		sprite = 13
+		
+		stability_factor = 0.10
+		conscription_factor = 0.10
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	dynamic_materialist = {
+		random = no
+		sprite = 13
+		
+		production_speed_buildings_factor = 0.15
+		political_power_gain = -0.05
+		research_speed_factor = 0.05
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	tireless_organiser = {
+		random = no
+		sprite = 13
+		
+		stability_factor = 0.05
+		political_power_factor = 0.1
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	great_compromiser = {
+		random = no
+		sprite = 13
+		
+		political_power_factor = 0.05
+		political_advisor_cost_factor = -0.33
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	influential_intellectual = {
+		random = no
+		sprite = 13
+		
+		political_power_factor = 0.05
+		stability_factor = 0.1
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	war_propagandist = {
+		random = no
+		sprite = 13
+		
+		war_support_factor = 0.10
+		conscription_factor = 0.05
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	### 한국 ###
 	three_equalities = {
 		random = no
 		sprite = 13
@@ -212,19 +425,70 @@ leader_traits = {
 			factor = 1
 		}
 	}
-	jade_marshal_advisor = {
+	
+	### 신강/쿠물 ###
+	kumul_khan_advisor = { #쿠물 칸
 		random = no
 		sprite = 13
+
+		stability_factor = 0.05
+		political_power_factor = 0.05
 		
-		army_attack_factor = 0.10
-		political_power_gain = 0.10
-		supply_consumption_factor = 0.05
+		ai_will_do = {
+			factor = 1
+		}
 	}
-	drunken_dabbler_advisor = {
+	
+	### 중화민국 북경정부/산서군벌 ###
+	christian_general_advisor = { #기독교도 장군
 		random = no
 		sprite = 13
 		
-		political_advisor_cost_factor = 0.15
+		war_stability_factor = 0.20
+		resistance_damage_to_garrison = -0.2
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	traitorous_general_advisor = { #배신자 장군
+		random = no
+		sprite = 13
+		
 		stability_factor = -0.10
+		opinion_gain_monthly_factor = -0.15
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	### 중화민국 국민정부/중국국민당 ###
+	president_of_examination_yuan = { #고시원장
+		random = no
+		sprite = 13
+
+		stability_factor = 0.05
+		political_power_factor = 0.05
+		drift_defence_factor = 0.20
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	### 산동군벌 ###
+	duke_yansheng_advisor = { #연성공
+		random = no
+		sprite = 13
+
+		stability_factor = 0.05
+		political_power_factor = 0.05
+		drift_defence_factor = 0.10
+		neutrality_acceptance = 10
+		
+		ai_will_do = {
+			factor = 1
+		}
 	}
 }

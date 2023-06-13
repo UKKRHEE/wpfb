@@ -98,11 +98,16 @@ set_popularities = {
 	neutrality = 40
 }
 
+add_ideas = {
+	#국민정신
+	QIN_constitutional_monarch_puyi
+}
+
 ### 지도자 ###
-recruit_character = QIN_chen_duxiu
+recruit_character = QIN_ma_zhanshan
 recruit_character = QIN_liang_qichao
 recruit_character = QIN_zhang_zuolin
-recruit_character = QIN_aisin_gioro_puyi
+#recruit_character = QIN_aisin_gioro_puyi
 
 ### 정치고문 ###
 recruit_character = QIN_aisin_gioro_pujie
@@ -121,6 +126,7 @@ recruit_character = QIN_qing_air_research
 
 ### 육군참모총장 ###
 recruit_character = QIN_yang_yuting
+recruit_character = QIN_liu_menggeng
 recruit_character = QIN_aisin_gioro_zaitao
 
 ### 해군참모총장 ###
@@ -133,10 +139,10 @@ recruit_character = QIN_gao_zhihang
 ### 최고사령부 ###
 recruit_character = QIN_aisin_gioro_xiqia
 recruit_character = QIN_gobulo_runqi
-recruit_character = QIN_ma_zhanshan
 recruit_character = QIN_wan_fulin
 recruit_character = QIN_zhang_xueliang
 recruit_character = QIN_zhang_zuoxiang
+recruit_character = QIN_xing_shilian
 recruit_character = QIN_yin_zuoqian
 recruit_character = QIN_tong_yanbo
 

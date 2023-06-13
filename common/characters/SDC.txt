@@ -1,0 +1,415 @@
+characters={
+	SDC_ccp={
+		name=SDC_ccp
+		portraits={
+			civilian={
+				large=GFX_portrait_China_ccp
+			}
+		}
+		country_leader={
+			ideology=marxism
+			traits = {
+				#
+			}
+			expire="1960.1.1.1"
+			id=-1
+		}
+	}
+	SDC_fu_sinian={
+		name=SDC_fu_sinian
+		portraits={
+			civilian={
+				large=GFX_portrait_SDC_fu_sinian
+				small=GFX_idea_SDC_fu_sinian
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			traits = {
+				#
+			}
+			expire="1960.1.1.1"
+			id=-1
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = fu_sinian
+			allowed = {
+				original_tag = SDC
+			}
+			traits = {
+				influential_intellectual
+			}
+		}
+	}
+	SDC_han_fuju={
+		name=SDC_han_fuju
+		portraits={
+			army={
+				large=GFX_portrait_SDC_han_fuju
+				small=GFX_idea_SDC_han_fuju
+			}
+		}
+		country_leader={
+			ideology=fascism_ideology
+			traits = {
+				#
+			}
+			expire="1960.1.1.1"
+			id=-1
+		}
+		country_leader={
+			ideology=despotism
+			traits = {
+				#
+			}
+			expire="1965.1.1.1"
+			id=-1
+		}
+		advisor={
+			slot = army_chief
+			idea_token = han_fuju
+	    	allowed = {
+	    		original_tag = SDC
+	    	}
+	    	traits = {
+				army_chief_maneuver_1
+			}
+		}
+		field_marshal={
+			traits = {
+				infantry_leader
+				infantry_expert
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 1
+			legacy_id=-1
+		}
+	}
+	
+	### 정치고문 ###
+	SDC_kong_dechong={
+		name=SDC_kong_dechong
+		portraits={
+			civilian={
+				large=GFX_portrait_SDC_kong_dechong
+				small=GFX_idea_SDC_kong_dechong
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = kong_dechong
+			available = {
+                NOT = {
+					has_government = communism
+				}
+            }
+			allowed  = {
+				original_tag = SDC
+			}
+			traits  = {
+				duke_yansheng_advisor
+			}
+		}
+	}
+	SDC_zhang_fuyun={
+		name=SDC_zhang_fuyun
+		portraits={
+			civilian={
+				large=GFX_portrait_SDC_zhang_fuyun
+				small=GFX_idea_SDC_zhang_fuyun
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = zhang_fuyun
+			allowed  = {
+				original_tag = SDC
+			}
+			traits  = {
+				financial_expert
+			}
+		}
+	}
+	SDC_shandong_industry={
+		name=joint_industry
+		portraits={
+			civilian={
+				small=GFX_idea_Joint_industry
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = shandong_industry
+			allowed  = {
+				original_tag = SDC
+			}
+			traits  = {
+				captain_of_industry 
+			}
+		}
+	}
+	SDC_shandong_security={
+		name=joint_security
+		portraits={
+			civilian={
+				small=GFX_idea_Joint_security
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = shandong_security
+			available = {
+				has_intelligence_agency = yes
+			}
+			allowed = {
+				original_tag = SDC
+				has_dlc = "La Resistance" 
+			}
+			traits = {
+				head_of_intelligence
+			}
+		}
+	}
+	
+	### 이론가 ###
+	SDC_shandong_army_research={
+		name=joint_army_research
+		portraits={
+			army={
+				small=GFX_idea_Joint_army_research
+			}
+		}
+		advisor={
+			cost = 100
+			slot = theorist
+			idea_token = shandong_army_research
+			ledger = army
+			allowed = {
+				original_tag = SDC
+			}
+			traits = {
+				military_theorist
+			}
+		}
+	}
+	SDC_shandong_navy_research={
+		name=joint_navy_research
+		portraits={
+			army={
+				small=GFX_idea_Joint_navy_research
+			}
+		}
+		advisor={
+			cost = 100
+			slot = theorist
+			idea_token = shandong_navy_research
+			ledger = navy
+			allowed = {
+				original_tag = SDC
+			}
+			traits = {
+				naval_theorist
+			}
+		}
+	}
+	SDC_shandong_air_research={
+		name=joint_air_research
+		portraits={
+			army={
+				small=GFX_idea_Joint_air_research
+			}
+		}
+		advisor={
+			cost = 100
+			slot = theorist
+			idea_token = shandong_air_research
+			ledger = air
+			allowed = {
+				original_tag = SDC
+			}
+			traits = {
+				air_warfare_theorist
+			}
+		}
+	}
+	
+	### 해군참모총장 ###
+	SDC_lin_jianzhang = {
+		name=SDC_lin_jianzhang
+		portraits={
+			army={
+				large=GFX_portrait_SDC_lin_jianzhang
+				small=GFX_idea_SDC_lin_jianzhang
+			}
+		}
+		advisor={
+			cost = 100
+			slot = navy_chief
+			idea_token = lin_jianzhang
+		    allowed = {
+		    	original_tag = SDC
+	    	}
+		    traits = {
+				navy_chief_reform_1
+			}
+		}
+		navy_leader={
+			traits = {
+				navy_media_personality
+				navy_career_officer
+			}
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			maneuvering_skill = 3
+			coordination_skill = 1
+			legacy_id=-1
+		}
+	}
+	
+	### 공군참모총장 ###
+	SDC_shandong_air_department = {
+		name=joint_air_department
+		portraits={
+			army={
+				small=GFX_idea_Joint_air_department
+			}
+		}
+		advisor={
+			slot = air_chief
+			idea_token = shandong_air_department
+		    allowed = {
+		    	original_tag = SDC
+	    	}
+		    traits = {
+				air_chief_reform_1
+			}
+		}
+	}
+	
+	### 최고사령부 ###
+	SDC_sun_tongxuan = {
+		name=SDC_sun_tongxuan
+		portraits={
+			army={
+				large=GFX_portrait_SDC_sun_tongxuan
+				small=GFX_idea_SDC_sun_tongxuan
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = sun_tongxuan
+			ledger = army
+		    allowed = {
+		    	original_tag = SDC
+		    }
+		    traits = {
+				army_regrouping_1
+			}
+		}
+		corps_commander={
+			traits = {
+				#
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 1
+			legacy_id=-1
+		}
+	}
+	SDC_wu_huawen = {
+		name=SDC_wu_huawen
+		portraits={
+			army={
+				large=GFX_portrait_SDC_wu_huawen
+				small=GFX_idea_SDC_wu_huawen
+			}
+		}
+		advisor={
+			cost = 100
+			slot = high_command
+			idea_token = wu_huawen
+			ledger = army
+		    allowed = {
+		    	original_tag = SDC
+		    }
+		    traits = {
+				army_concealment_2
+			}
+		}
+		corps_commander={
+			traits = {
+				#
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id=-1
+		}
+	}
+	SDC_shandong_infantry = {
+		name=joint_infantry
+		portraits={
+			army={
+				small=GFX_idea_Joint_infantry
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = shandong_infantry
+			ledger = army
+		    allowed = {
+		    	original_tag = SDC
+		    }
+		    traits = {
+				army_infantry_1
+			}
+		}
+	}
+	SDC_shandong_artillery = {
+		name=joint_artillery
+		portraits={
+			army={
+				small=GFX_idea_Joint_artillery
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = shandong_artillery
+			ledger = army
+		    allowed = {
+		    	original_tag = SDC
+		    }
+		    traits = {
+				army_artillery_1
+			}
+		}
+	}
+	SDC_shandong_logistics = {
+		name=joint_logistics
+		portraits={
+			army={
+				small=GFX_idea_Joint_logistics
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = shandong_logistics
+			ledger = army
+		    allowed = {
+		    	original_tag = SDC
+		    }
+		    traits = {
+				army_logistics_1
+			}
+		}
+	}
+}

@@ -1,0 +1,74 @@
+﻿capital = 595
+
+oob = "ROC_1936"
+
+set_stability = 0.2
+set_war_support = 0.4
+
+set_research_slots = 3
+
+set_technology = {
+	infantry_weapons = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	mass_assault = 1
+	fleet_in_being = 1
+	basic_train = 1
+}
+
+add_ideas = {
+	#
+}
+
+set_politics = {
+	ruling_party = communism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	communism = 50
+	democratic = 40
+	fascism = 0
+	neutrality = 10
+}
+
+### 지도자 ###
+recruit_character = ROC_chen_mingshu
+recruit_character = ROC_wang_jingwei
+recruit_character = ROC_li_jishen
+
+### 정치고문 ###
+#왕징웨이 파벌
+recruit_character = ROC_chen_gongbo
+recruit_character = ROC_zhou_fohai
+recruit_character = ROC_gu_mengyu
+#무소속
+recruit_character = ROC_eugene_chen
+recruit_character = ROC_zhang_dongsun
+recruit_character = ROC_zou_taofen
+recruit_character = ROC_li_zhangda
+
+### 이론가 ###
+recruit_character = ROC_fujian_army_research
+recruit_character = ROC_fujian_navy_research
+recruit_character = ROC_fujian_air_research
+
+### 육군참모총장 ###
+recruit_character = ROC_cai_tingkai
+
+### 해군참모총장 ###
+recruit_character = ROC_li_qingwen
+
+### 공군참모총장 ###
+recruit_character = ROC_liu_muqun
+
+### 최고사령부 ###
+recruit_character = ROC_chen_jitang
+recruit_character = ROC_jiang_guangnai
+recruit_character = ROC_li_yangjing
+recruit_character = ROC_li_zhilong
+
+### 육군 장성 ###
+recruit_character = ROC_zhang_fakui
+

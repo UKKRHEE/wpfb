@@ -7,15 +7,16 @@
 		modifier = {
 			add = 10
 			OR = {
-				tag = ZLC
-				tag = NJC
-				tag = GXC
-				tag = SCC
-				tag = YUN
-				tag = HNC
 				tag = SHX
+				tag = SDC
 				tag = XSM
-				# tag = QIN
+				tag = SCC
+				tag = HNC
+				tag = YUN
+				tag = GXC
+				tag = ROC
+				tag = RGC
+				
 				tag = MON
 				tag = SIK
 				tag = TIB

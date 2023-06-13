@@ -12,16 +12,18 @@ add_ideas = {
 }
 
 ### 지도자 ###
-recruit_character = MON_khorloogiin_choibalsan
+recruit_character = MON_peljidiin_genden
 recruit_character = MON_unenbayan
 recruit_character = MON_7th_changkya_khutukhtu
 recruit_character = MON_demchugdongrub
 
 ### 정치고문 ###
+recruit_character = MON_tserendorj
 recruit_character = MON_altanochir
 recruit_character = MON_jamsrangiin_tseveen
 recruit_character = MON_davizavyn_losol
 recruit_character = MON_anandyn_amar
+recruit_character = MON_dorjjavyn_luvsansharav
 
 ### 이론가 ###
 recruit_character = MON_mongolia_army_research
@@ -31,17 +33,21 @@ recruit_character = MON_mongolia_air_research
 ### 육군참모총장 ###
 recruit_character = MON_manlaibaatar_damdinsuren
 recruit_character = MON_khatanbaatar_magsarjav
+recruit_character = MON_khorloogiin_choibalsan
 
 ### 해군참모총장 ###
 recruit_character = MON_mongolia_navy_department
 
 ### 공군참모총장 ###
 recruit_character = MON_li_shouxin
+recruit_character = MON_mongolia_air_department
 
 ### 최고사령부 ###
 recruit_character = MON_urzhin_garmaev
 recruit_character = MON_darijaya
 recruit_character = MON_zhamyangiyn_lhagvasuren
+recruit_character = MON_yumjaagiin_tsedenbal
+recruit_character = MON_gelegdorjiin_demid
 
 1939.1.1 = {
 

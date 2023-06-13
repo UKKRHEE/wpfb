@@ -44,7 +44,7 @@ characters = {
 			expire = "1965.1.1"
 			ideology = socialism
 			traits = {
-				resolute_social_democrat_kor
+				resolute_social_democrat_leader
 			}
 			id=-1
 		}
@@ -95,9 +95,6 @@ characters = {
 	    	traits = {
 				army_chief_maneuver_2
 			}
-	    	ai_will_do = {
-	    		factor = 1
-	    	}
 		}
 		corps_commander={
 			traits = {
@@ -111,7 +108,7 @@ characters = {
 			defense_skill = 2
 			planning_skill = 3
 			logistics_skill = 3
-			legacy_id = 9999991
+			legacy_id=-1
 		}
 	}
 	KOR_yi_wu={
@@ -127,7 +124,7 @@ characters = {
 			expire = "1965.1.1"
 			ideology = oligarchism
 			traits = {
-				emperor_geonheung
+				geonheung_emperor
 			}
 			id=-1
 		}
@@ -647,9 +644,6 @@ characters = {
 	    	traits = {
 	    		army_chief_defensive_2
 			}
-		    ai_will_do = {
-		    	factor = 1
-		    }
 		}
 		field_marshal={
 			traits = {
@@ -682,9 +676,6 @@ characters = {
 	    	traits = {
 				army_chief_offensive_2
 			}
-	    	ai_will_do = {
-		    	factor = 1
-	    	}
 		}
 		corps_commander={
 			traits = {
@@ -719,9 +710,6 @@ characters = {
 	    	traits = {
 				army_chief_organizational_2
 			}
-	    	ai_will_do = {
-	    		factor = 1
-	    	}
 		}
 		corps_commander={
 			traits = {
@@ -756,9 +744,6 @@ characters = {
 		    traits = {
 				navy_chief_decisive_battle_2
 			}
-		    ai_will_do = {
-		    	factor = 1
-		    }
 		}
 		navy_leader={
 			traits = {
@@ -791,9 +776,6 @@ characters = {
 		    traits = {
 				navy_chief_commerce_raiding_3
 			}
-		    ai_will_do = {
-		    	factor = 1
-		    }
 		}
 		navy_leader={
 			traits = {
@@ -830,9 +812,6 @@ characters = {
 		    traits = {
 				air_chief_reform_2
 			}
-		    ai_will_do = {
-		    	factor = 1
-		    }
 		}
 	}
 	KOR_seo_wal_bo = {
@@ -854,9 +833,6 @@ characters = {
 		    traits = {
 				air_chief_ground_support_2
 			}
-		    ai_will_do = {
-		    	factor = 1
-		    }
 		}
 	}
 	
@@ -880,9 +856,6 @@ characters = {
 		    traits = {
 				army_logistics_2
 			}
-		    ai_will_do = {
-		    	factor = 1
-		    }
 		}
 		corps_commander={
 			traits = {
@@ -917,9 +890,6 @@ characters = {
 		    traits = {
 				army_regrouping_2
 			}
-		    ai_will_do = {
-		    	factor = 1
-		    }
 		}
 		corps_commander={
 			traits = {
@@ -953,9 +923,6 @@ characters = {
 			traits = {
 				army_artillery_3
 			}
-		    ai_will_do = {
-		    	factor = 1
-		    }
 		}
 		corps_commander={
 			traits = {
@@ -989,9 +956,6 @@ characters = {
 			traits = {
 				army_armored_3
 			}
-		    ai_will_do = {
-		    	factor = 1
-		    }
 		}
 		corps_commander={
 			traits = {
@@ -1026,9 +990,6 @@ characters = {
 		    traits = {
 				army_infantry_3
 			}
-		    ai_will_do = {
-		    	factor = 1
-		    }
 		}
 		corps_commander={
 			traits = {
@@ -1064,9 +1025,6 @@ characters = {
 	    	traits = {
 				navy_screen_2
 			}
-	    	ai_will_do = {
-	    		factor = 1
-	    	}
 		}
 		navy_leader={
 			traits = {
@@ -1099,9 +1057,6 @@ characters = {
 	    	traits = {
 				navy_fleet_logistics_2
 			}
-	    	ai_will_do = {
-	    		factor = 1
-	    	}
 		}
 		navy_leader={
 			traits = {
@@ -1134,9 +1089,6 @@ characters = {
 		    traits = {
 				air_close_air_support_2
 			}
-		    ai_will_do = {
-		    	factor = 1
-	    	}
 		}
 	}
 	KOR_choe_yong_duk = {
@@ -1158,9 +1110,6 @@ characters = {
 		    traits = {
 				air_strategic_bombing_2
 			}
-		    ai_will_do = {
-		    	factor = 1
-	    	}
 		}
 	}
 	KOR_jang_duk_chang={
@@ -1182,9 +1131,6 @@ characters = {
 		    traits = {
 				air_air_combat_training_2
 			}
-		    ai_will_do = {
-		    	factor = 1
-	    	}
 		}
 	}
 	
@@ -1254,7 +1200,7 @@ characters = {
 			defense_skill = 1
 			planning_skill = 3
 			logistics_skill = 2
-			legacy_id = 9999992
+			legacy_id=-1
 		}
 	}
 	KOR_oh_dong_jin={

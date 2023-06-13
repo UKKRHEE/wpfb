@@ -9,7 +9,9 @@ characters = {
 		}
 		country_leader={
 			ideology=leninism
-			traits={ }
+			traits = {
+				#
+			}
 			expire="1960.1.1.1"
 			id=-1
 		}
@@ -23,6 +25,9 @@ characters = {
 		}
 		country_leader={
 			ideology=socialism
+			traits = {
+				#
+			}
 			expire="1965.1.1.1"
 			id=-1
 		}
@@ -36,7 +41,9 @@ characters = {
 		}
 		country_leader = {
 			ideology = fascism_ideology
-			traits = { fascist_orchestrator }
+			traits = {
+				fascist_orchestrator
+			}
 			expire = "1953.3.1.1"
 			id = -1
 		}
@@ -50,7 +57,9 @@ characters = {
 		}
 		country_leader = {
 			ideology = despotism
-			traits = { emperor_and_autocrat_of_all_the_russias }
+			traits = {
+				emperor_and_autocrat_of_all_the_russias
+			}
 			expire = "1953.3.1.1"
 			id = -1
 		}
@@ -400,9 +409,6 @@ characters = {
 				army_chief_drill_2
 			}
 			cost = 100
-			ai_will_do = {
-				factor = 1.000
-			}
 		}
 		field_marshal = {
 			traits = { war_hero organizer skilled_staffer }
@@ -432,9 +438,6 @@ characters = {
 	    	traits = {
 				army_chief_offensive_2
 			}
-	    	ai_will_do = {
-	    		factor = 1
-	    	}
 		}
 		field_marshal = {
 			traits = { harsh_leader infantry_officer war_hero }
@@ -464,9 +467,6 @@ characters = {
 	    	traits = {
 	    		army_chief_defensive_2
 			}
-		    ai_will_do = {
-		    	factor = 1
-		    }
 		}
 		corps_commander={
 			traits = {
@@ -501,9 +501,6 @@ characters = {
 		    traits = {
 				navy_chief_decisive_battle_2
 			}
-		    ai_will_do = {
-		    	factor = 1
-		    }
 		}
 		navy_leader={
 			traits = {
@@ -574,9 +571,6 @@ characters = {
 		    traits = {
 				army_armored_1
 			}
-		    ai_will_do = {
-		    	factor = 1
-		    }
 		}
 		corps_commander={
 			traits = {
@@ -610,9 +604,6 @@ characters = {
 		    traits = {
 				army_cavalry_3
 			}
-		    ai_will_do = {
-		    	factor = 1
-		    }
 		}
 		corps_commander={
 			traits = {
@@ -648,9 +639,6 @@ characters = {
 		    traits = {
 				army_artillery_2
 			}
-		    ai_will_do = {
-		    	factor = 1
-		    }
 		}
 		corps_commander={
 			traits = {
@@ -685,9 +673,6 @@ characters = {
 		    traits = {
 				army_infantry_2
 			}
-		    ai_will_do = {
-		    	factor = 1
-		    }
 		}
 		corps_commander={
 			traits = {

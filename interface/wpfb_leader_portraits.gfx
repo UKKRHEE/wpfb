@@ -354,8 +354,8 @@ spriteTypes = {
 	
 	### 청국 지도자 ###
 	spriteType = {
-		name = "GFX_portrait_QIN_chen_duxiu"
-		texturefile = "gfx/leaders/QIN/Portrait_QIN_Chen_Duxiu.png"
+		name = "GFX_portrait_QIN_ma_zhanshan"
+		texturefile = "gfx/leaders/QIN/Portrait_QIN_Ma_Zhanshan.png"
 	}
 	spriteType = {
 		name = "GFX_portrait_QIN_liang_qichao"
@@ -386,16 +386,16 @@ spriteTypes = {
 		texturefile = "gfx/leaders/QIN/Portrait_QIN_Zaitao.png"
 	}
 	spriteType = {
+		name = "GFX_portrait_QIN_liu_menggeng"
+		texturefile = "gfx/leaders/QIN/Portrait_QIN_Liu_Menggeng.png"
+	}
+	spriteType = {
 		name = "GFX_portrait_QIN_zhang_xueliang"
 		texturefile = "gfx/leaders/QIN/Portrait_QIN_Zhang_Xueliang.png"
 	}
 	spriteType = {
 		name = "GFX_portrait_QIN_yang_yuting"
 		texturefile = "gfx/leaders/QIN/Portrait_QIN_Yang_Yuting.png"
-	}
-	spriteType = {
-		name = "GFX_portrait_QIN_ma_zhanshan"
-		texturefile = "gfx/leaders/QIN/Portrait_QIN_Ma_Zhanshan.png"
 	}
 	spriteType = {
 		name = "GFX_portrait_QIN_gobulo_runqi"
@@ -421,6 +421,14 @@ spriteTypes = {
 		name = "GFX_portrait_QIN_zhang_jinghui"
 		texturefile = "gfx/leaders/QIN/Portrait_QIN_Zhang_Jinghui.png"
 	}
+	spriteType = {
+		name = "GFX_portrait_QIN_xing_shilian"
+		texturefile = "gfx/leaders/QIN/Portrait_QIN_Xing_Shilian.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_QIN_lu_jin"
+		texturefile = "gfx/leaders/QIN/Portrait_QIN_Lu_Jin.png"
+	}
 	
 	### 청국 제독 ###
 	spriteType = {
@@ -442,8 +450,8 @@ spriteTypes = {
 	
 	### 몽골 지도자 ###
 	spriteType = {
-		name = "GFX_portrait_MON_khorloogiin_choibalsan"
-		texturefile = "gfx/leaders/MON/Portrait_MON_Khorloogiin_Choibalsan.png"
+		name = "GFX_portrait_MON_peljidiin_genden"
+		texturefile = "gfx/leaders/MON/Portrait_MON_Peljidiin_Genden.png"
 	}
 	spriteType = {
 		name = "GFX_portrait_MON_unenbayan"
@@ -463,6 +471,10 @@ spriteTypes = {
 		name = "GFX_portrait_MON_manlaibaatar_damdinsuren"
 		texturefile = "gfx/leaders/MON/Portrait_MON_Manlaibaatar_Damdinsuren.png"
 	}
+	spriteType = {
+		name = "GFX_portrait_MON_khorloogiin_choibalsan"
+		texturefile = "gfx/leaders/MON/Portrait_MON_Khorloogiin_Choibalsan.png"
+	}
 	
 	### 몽골 장성 ###
 	spriteType = {
@@ -474,10 +486,6 @@ spriteTypes = {
 		texturefile = "gfx/leaders/MON/Portrait_MON_Urzhin_Garmaev.png"
 	}
 	spriteType = {
-		name = "GFX_portrait_MON_li_shouxin"
-		texturefile = "gfx/leaders/MON/Portrait_MON_Li_Shouxin.png"
-	}
-	spriteType = {
 		name = "GFX_portrait_MON_altanochir"
 		texturefile = "gfx/leaders/MON/Portrait_MON_Altanochir.png"
 	}
@@ -486,8 +494,12 @@ spriteTypes = {
 		texturefile = "gfx/leaders/MON/Portrait_MON_Zhamyangiyn_Lhagvasuren.png"
 	}
 	spriteType = {
-		name = "GFX_portrait_MON_darijaya"
-		texturefile = "gfx/leaders/MON/Portrait_MON_Darijaya.png"
+		name = "GFX_portrait_MON_yumjaagiin_tsedenbal"
+		texturefile = "gfx/leaders/MON/Portrait_MON_Yumjaagiin_Tsedenbal.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_MON_gelegdorjiin_demid"
+		texturefile = "gfx/leaders/MON/Portrait_MON_Gelegdorjiin_Demid.png"
 	}
 	
 	#############
@@ -617,118 +629,139 @@ spriteTypes = {
 	}
 	
 	#############
-	### 북양정부 ###
+	### 북경정부 ###
 	#############
 	
-	### 북양정부 지도자 ###
+	### 중화민국 북경정부/산서군벌 지도자 ###
 	spriteType = {
-		name = "GFX_portrait_ZLC_hu_shih"
-		texturefile = "gfx/leaders/ZLC/Portrait_ZLC_Hu_Shih.png"
+		name = "GFX_portrait_SHX_li_huang"
+		texturefile = "gfx/leaders/SHX/Portrait_SHX_Li_Huang.png"
 	}
 	spriteType = {
-		name = "GFX_portrait_ZLC_wu_peifu"
-		texturefile = "gfx/leaders/ZLC/Portrait_ZLC_Wu_Peifu.png"
-	}
-	spriteType = {
-		name = "GFX_portrait_ZLC_cao_kun"
-		texturefile = "gfx/leaders/ZLC/Portrait_ZLC_Cao_Kun.png"
+		name = "GFX_portrait_SHX_feng_yuxiang"
+		texturefile = "gfx/leaders/SHX/Portrait_SHX_Feng_Yuxiang.png"
 	}
 	
-	### 북양정부 원수 ###
+	### 중화민국 북경정부/산서군벌 정치고문 ###
 	spriteType = {
-		name = "GFX_portrait_ZLC_jiang_baili"
-		texturefile = "gfx/leaders/ZLC/Portrait_ZLC_Jiang_Baili.png"
+		name = "GFX_portrait_SHX_sun_chu"
+		texturefile = "gfx/leaders/SHX/Portrait_SHX_Sun_Chu.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_SHX_tang_shaoyi"
+		texturefile = "gfx/leaders/SHX/Portrait_SHX_Tang_Shaoyi.png"
 	}
 	
-	### 북양정부 장성 ###
+	### 중화민국 북경정부/산서군벌 육군참모총장 ###
+	#염계
 	spriteType = {
-		name = "GFX_portrait_ZLC_cai_chengxun"
-		texturefile = "gfx/leaders/ZLC/Portrait_ZLC_Cai_Chengxun.png"
+		name = "GFX_portrait_SHX_xu_yongchang"
+		texturefile = "gfx/leaders/SHX/Portrait_SHX_Xu_Yongchang.png"
 	}
+	#국민군
 	spriteType = {
-		name = "GFX_portrait_ZLC_li_bingzhi"
-		texturefile = "gfx/leaders/ZLC/Portrait_ZLC_Li_Bingzhi.png"
-	}
-	spriteType = {
-		name = "GFX_portrait_ZLC_liu_menggeng"
-		texturefile = "gfx/leaders/ZLC/Portrait_ZLC_Liu_Menggeng.png"
-	}
-	spriteType = {
-		name = "GFX_portrait_ZLC_liu_zhenhua"
-		texturefile = "gfx/leaders/ZLC/Portrait_ZLC_Liu_Zhenhua.png"
-	}
-	spriteType = {
-		name = "GFX_portrait_ZLC_lu_xiangting"
-		texturefile = "gfx/leaders/ZLC/Portrait_ZLC_Lu_Xiangting.png"
-	}
-	spriteType = {
-		name = "GFX_portrait_ZLC_wang_huaiqing"
-		texturefile = "gfx/leaders/ZLC/Portrait_ZLC_Wang_Huaiqing.png"
-	}
-	spriteType = {
-		name = "GFX_portrait_ZLC_xiao_yaonan"
-		texturefile = "gfx/leaders/ZLC/Portrait_ZLC_Xiao_Yaonan.png"
-	}
-	spriteType = {
-		name = "GFX_portrait_ZLC_xing_shilian"
-		texturefile = "gfx/leaders/ZLC/Portrait_ZLC_Xing_Shilian.png"
-	}
-	spriteType = {
-		name = "GFX_portrait_ZLC_zhang_qihuang"
-		texturefile = "gfx/leaders/ZLC/Portrait_ZLC_Zhang_Qihuang.png"
-	}
-	spriteType = {
-		name = "GFX_portrait_ZLC_zhang_shaozeng"
-		texturefile = "gfx/leaders/ZLC/Portrait_ZLC_Zhang_Shaozeng.png"
-	}
-	spriteType = {
-		name = "GFX_portrait_ZLC_wang_lingyun"
-		texturefile = "gfx/leaders/ZLC/Portrait_ZLC_Wang_Lingyun.png"
-	}
-	spriteType = {
-		name = "GFX_portrait_ZLC_du_xijun"
-		texturefile = "gfx/leaders/ZLC/Portrait_ZLC_Du_Xijun.png"
-	}
-	spriteType = {
-		name = "GFX_portrait_ZLC_guo_jijiao"
-		texturefile = "gfx/leaders/ZLC/Portrait_ZLC_Guo_Jijiao.png"
-	}
-	spriteType = {
-		name = "GFX_portrait_ZLC_wei_yisan"
-		texturefile = "gfx/leaders/ZLC/Portrait_ZLC_Wei_Yisan.png"
+		name = "GFX_portrait_SHX_sun_yue"
+		texturefile = "gfx/leaders/SHX/Portrait_SHX_Sun_Yue.png"
 	}
 	
-	### 북양정부 제독 ###
+	### 중화민국 북경정부/산서군벌 해군참모총장 ###
 	spriteType = {
-		name = "GFX_portrait_ZLC_sa_zhenbing"
-		texturefile = "gfx/leaders/ZLC/Portrait_ZLC_Sa_Zhenbing.png"
+		name = "GFX_portrait_SHX_sa_zhenbing"
+		texturefile = "gfx/leaders/SHX/Portrait_SHX_Sa_Zhenbing.png"
 	}
 	spriteType = {
-		name = "GFX_portrait_ZLC_wu_renli"
-		texturefile = "gfx/leaders/ZLC/Portrait_ZLC_Wu_Renli.png"
+		name = "GFX_portrait_SHX_wu_renli"
+		texturefile = "gfx/leaders/SHX/Portrait_SHX_Wu_Renli.png"
+	}
+	
+	### 중화민국 북경정부/산서군벌 최고사령부 ###
+	#염계
+	spriteType = {
+		name = "GFX_portrait_SHX_yang_aiyuan"
+		texturefile = "gfx/leaders/SHX/Portrait_SHX_Yang_Aiyuan.png"
 	}
 	spriteType = {
-		name = "GFX_portrait_ZLC_du_xigui"
-		texturefile = "gfx/leaders/ZLC/Portrait_ZLC_Du_Xigui.png"
+		name = "GFX_portrait_SHX_shang_zhen"
+		texturefile = "gfx/leaders/SHX/Portrait_SHX_Shang_Zhen.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_SHX_wang_jingguo2"
+		texturefile = "gfx/leaders/SHX/Portrait_SHX_Wang_Jingguo.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_SHX_zhao_chengshou"
+		texturefile = "gfx/leaders/SHX/Portrait_SHX_Zhao_Chengshou.png"
+	}
+	#국민군
+	spriteType = {
+		name = "GFX_portrait_SHX_zhang_zizhong"
+		texturefile = "gfx/leaders/SHX/Portrait_SHX_Zhang_Zizhong.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_SHX_sun_lianzhong"
+		texturefile = "gfx/leaders/SHX/Portrait_SHX_Sun_Lianzhong.png"
+	}
+	#무소속
+	spriteType = {
+		name = "GFX_portrait_SHX_du_xigui"
+		texturefile = "gfx/leaders/SHX/Portrait_SHX_Du_Xigui.png"
+	}
+	
+	### 중화민국 북경정부/산서군벌 육군 장성 ###
+	#염계
+	spriteType = {
+		name = "GFX_portrait_SHX_chen_changjie"
+		texturefile = "gfx/leaders/SHX/Portrait_SHX_Chen_Changjie.png"
+	}
+	#국민군
+	spriteType = {
+		name = "GFX_portrait_SHX_song_zheyuan"
+		texturefile = "gfx/leaders/SHX/Portrait_SHX_Song_Zheyuan.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_SHX_gao_guizi"
+		texturefile = "gfx/leaders/SHX/Portrait_SHX_Gao_Guizi.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_SHX_yang_hucheng"
+		texturefile = "gfx/leaders/SHX/Portrait_SHX_Yang_Hucheng.png"
 	}
 	
 	#############
-	### 국민당ㅡ ###
+	### 국민정부 ###
 	#############
 	
-	### 국민당 지도자 ###
+	### 중화민국 국민정부/중국국민당 지도자 ###
+	spriteType = {
+		name = "GFX_portrait_CHI_sun_fo"
+		texturefile = "gfx/leaders/CHI/Portrait_CHI_Sun_Fo.png"
+	}
 	spriteType = {
 		name = "GFX_portrait_CHI_dai_li"
 		texturefile = "gfx/leaders/CHI/Portrait_CHI_Dai_Li.png"
 	}
 	
-	### 국민당 원수 ###
+	### 중화민국 국민정부/중국국민당 정치고문 ###
+	spriteType = {
+		name = "GFX_portrait_CHI_dai_jitao"
+		texturefile = "gfx/leaders/CHI/Portrait_CHI_Dai_Jitao.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_CHI_chen_bulei"
+		texturefile = "gfx/leaders/CHI/Portrait_CHI_Chen_Bulei.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_CHI_hu_shih"
+		texturefile = "gfx/leaders/CHI/Portrait_CHI_Hu_Shih.png"
+	}
+	
+	### 중화민국 국민정부/중국국민당 원수 ###
 	spriteType = {
 		name = "GFX_portrait_CHI_cheng_qian"
 		texturefile = "gfx/leaders/CHI/Portrait_CHI_Cheng_Qian.png"
 	}
 	
-	### 국민당 장성 ###
+	### 중화민국 국민정부/중국국민당 장성 ###
 	spriteType = {
 		name = "GFX_portrait_CHI_chen_cheng"
 		texturefile = "gfx/leaders/CHI/Portrait_CHI_Chen_Cheng.png"
@@ -742,7 +775,7 @@ spriteTypes = {
 		texturefile = "gfx/leaders/CHI/Portrait_CHI_Zhang_Zhizhong.png"
 	}
 	
-	### 국민당 제독 ###
+	### 중화민국 국민정부/중국국민당 제독 ###
 	spriteType = {
 		name = "GFX_portrait_CHI_chen_shaokuan"
 		texturefile = "gfx/leaders/CHI/Portrait_CHI_Chen_Shaokuan.png"
@@ -757,205 +790,43 @@ spriteTypes = {
 	}
 	
 	#############
-	### 오성연군 ###
+	### 산동군벌 ###
 	#############
 	
-	### 오성연군 지도자 ###
+	### 산동군벌 지도자 ###
 	spriteType = {
-		name = "GFX_portrait_NJC_wang_kemin"
-		texturefile = "gfx/leaders/NJC/Portrait_NJC_Wang_Kemin.png"
+		name = "GFX_portrait_SDC_fu_sinian"
+		texturefile = "gfx/leaders/SDC/Portrait_SDC_Fu_Sinian.png"
 	}
 	spriteType = {
-		name = "GFX_portrait_NJC_sun_chuanfang"
-		texturefile = "gfx/leaders/NJC/Portrait_NJC_Sun_Chuanfang.png"
-	}
-	
-	### 오성연군 장성 ###
-	spriteType = {
-		name = "GFX_portrait_NJC_qi_xieyuan"
-		texturefile = "gfx/leaders/NJC/Portrait_NJC_Qi_Xieyuan.png"
-	}
-	spriteType = {
-		name = "GFX_portrait_NJC_zhou_yinren"
-		texturefile = "gfx/leaders/NJC/Portrait_NJC_Zhou_Yinren.png"
-	}
-	spriteType = {
-		name = "GFX_portrait_NJC_zhou_fengqi"
-		texturefile = "gfx/leaders/NJC/Portrait_NJC_Zhou_Fengqi.png"
-	}
-	spriteType = {
-		name = "GFX_portrait_NJC_shi_yousan"
-		texturefile = "gfx/leaders/NJC/Portrait_NJC_Shi_Yousan.png"
-	}
-	spriteType = {
-		name = "GFX_portrait_NJC_deng_ruzuo"
-		texturefile = "gfx/leaders/NJC/Portrait_NJC_Deng_Ruzuo.png"
+		name = "GFX_portrait_SDC_han_fuju"
+		texturefile = "gfx/leaders/SDC/Portrait_SDC_Han_Fuju.png"
 	}
 	
-	### 오성연군 제독 ###
+	### 산동군벌 정치고문 ###
 	spriteType = {
-		name = "GFX_portrait_NJC_ren_yuandao"
-		texturefile = "gfx/leaders/NJC/Portrait_NJC_Ren_Yuandao.png"
+		name = "GFX_portrait_SDC_kong_dechong"
+		texturefile = "gfx/leaders/SDC/Portrait_SDC_Kong_Dechong.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_SDC_zhang_fuyun"
+		texturefile = "gfx/leaders/SDC/Portrait_SDC_Zhang_Fuyun.png"
 	}
 	
-	#############
-	### 광서군벌 ###
-	#############
-	
-	### 광서군벌 원수 ###
+	### 산동군벌 해군참모총장 ###
 	spriteType = {
-		name = "GFX_portrait_GXC_bai_chongxi"
-		texturefile = "gfx/leaders/GXC/Portrait_GXC_Bai_Chongxi.png"
+		name = "GFX_portrait_SDC_lin_jianzhang"
+		texturefile = "gfx/leaders/SDC/Portrait_SDC_Lin_Jianzhang.png"
 	}
 	
-	### 광서군벌 장성 ###
+	### 산동군벌 최고사령부 ###
 	spriteType = {
-		name = "GFX_portrait_GXC_li_pinxian"
-		texturefile = "gfx/leaders/GXC/Portrait_GXC_Li_Pinxian.png"
+		name = "GFX_portrait_SDC_sun_tongxuan"
+		texturefile = "gfx/leaders/SDC/Portrait_SDC_Sun_Tongxuan.png"
 	}
 	spriteType = {
-		name = "GFX_portrait_GXC_liao_lei"
-		texturefile = "gfx/leaders/GXC/Portrait_GXC_Liao_Lei.png"
-	}
-	spriteType = {
-		name = "GFX_portrait_GXC_xia_wei"
-		texturefile = "gfx/leaders/GXC/Portrait_GXC_Xia_Wei.png"
-	}
-	spriteType = {
-		name = "GFX_portrait_GXC_zhang_gan"
-		texturefile = "gfx/leaders/GXC/Portrait_GXC_Zhang_Gan.png"
-	}
-	
-	#############
-	### 사천군벌 ###
-	#############
-	
-	### 사천군벌 지도자 ###
-	spriteType = {
-		name = "GFX_portrait_SCC_zhang_lan"
-		texturefile = "gfx/leaders/SCC/Portrait_SCC_Zhang_Lan.png"
-	}
-	spriteType = {
-		name = "GFX_portrait_SCC_yang_sen"
-		texturefile = "gfx/leaders/SCC/Portrait_SCC_Yang_Sen.png"
-	}
-	
-	### 사천군벌 장성 ###
-	spriteType = {
-		name = "GFX_portrait_SCC_wang_zuanxu"
-		texturefile = "gfx/leaders/SCC/Portrait_SCC_Wang_Zuanxu.png"
-	}
-	spriteType = {
-		name = "GFX_portrait_SCC_wang_lingji"
-		texturefile = "gfx/leaders/SCC/Portrait_SCC_Wang_Lingji.png"
-	}
-	spriteType = {
-		name = "GFX_portrait_SCC_zhou_daogang"
-		texturefile = "gfx/leaders/SCC/Portrait_SCC_Zhou_Daogang.png"
-	}
-	spriteType = {
-		name = "GFX_portrait_SCC_he_guoguang"
-		texturefile = "gfx/leaders/SCC/Portrait_SCC_He_Guoguang.png"
-	}
-	spriteType = {
-		name = "GFX_portrait_SCC_fan_shaozeng"
-		texturefile = "gfx/leaders/SCC/Portrait_SCC_Fan_Shaozeng.png"
-	}
-	
-	#############
-	### 운남군벌 ###
-	#############
-	
-	### 운남군벌 장성 ###
-	spriteType = {
-		name = "GFX_portrait_YUN_lu_han2"
-		texturefile = "gfx/leaders/YUN/Portrait_YUN_Lu_Han.png"
-	}
-	spriteType = {
-		name = "GFX_portrait_YUN_lu_daoyuan"
-		texturefile = "gfx/leaders/YUN/Portrait_YUN_Lu_Daoyuan.png"
-	}
-	spriteType = {
-		name = "GFX_portrait_YUN_sun_du"
-		texturefile = "gfx/leaders/YUN/Portrait_YUN_Sun_Du.png"
-	}
-	spriteType = {
-		name = "GFX_portrait_YUN_an_enpu"
-		texturefile = "gfx/leaders/YUN/Portrait_YUN_An_Enpu.png"
-	}
-	
-	#############
-	### 호남군벌 ###
-	#############
-	
-	### 호남군벌 지도자 ###
-	spriteType = {
-		name = "GFX_portrait_HNC_chen_jiongming"
-		texturefile = "gfx/leaders/HNC/Portrait_HNC_Chen_Jiongming.png"
-	}
-	spriteType = {
-		name = "GFX_portrait_HNC_zhao_hengti"
-		texturefile = "gfx/leaders/HNC/Portrait_HNC_Zhao_Hengti.png"
-	}
-	
-	### 호남군벌 장성 ###
-	spriteType = {
-		name = "GFX_portrait_HNC_tang_shengzhi"
-		texturefile = "gfx/leaders/HNC/Portrait_HNC_Tang_Shengzhi.png"
-	}
-	spriteType = {
-		name = "GFX_portrait_HNC_tang_shengming"
-		texturefile = "gfx/leaders/HNC/Portrait_HNC_Tang_Shengming.png"
-	}
-	spriteType = {
-		name = "GFX_portrait_HNC_he_yaozu"
-		texturefile = "gfx/leaders/HNC/Portrait_HNC_He_Yaozu.png"
-	}
-	spriteType = {
-		name = "GFX_portrait_HNC_he_jian"
-		texturefile = "gfx/leaders/HNC/Portrait_HNC_He_Jian.png"
-	}
-	
-	#############
-	### 산서군벌 ###
-	#############
-	
-	### 산서군벌 장성 ###
-	spriteType = {
-		name = "GFX_portrait_SHX_yang_aiyuan"
-		texturefile = "gfx/leaders/SHX/Portrait_SHX_Yang_Aiyuan.png"
-	}
-	spriteType = {
-		name = "GFX_portrait_SHX_sun_chu"
-		texturefile = "gfx/leaders/SHX/Portrait_SHX_Sun_Chu.png"
-	}
-	spriteType = {
-		name = "GFX_portrait_SHX_wang_jingguo2"
-		texturefile = "gfx/leaders/SHX/Portrait_SHX_Wang_Jingguo.png"
-	}
-	spriteType = {
-		name = "GFX_portrait_SHX_zhao_chengshou"
-		texturefile = "gfx/leaders/SHX/Portrait_SHX_Zhao_Chengshou.png"
-	}
-	spriteType = {
-		name = "GFX_portrait_SHX_chen_changjie"
-		texturefile = "gfx/leaders/SHX/Portrait_SHX_Chen_Changjie.png"
-	}
-	spriteType = {
-		name = "GFX_portrait_SHX_dong_qiwu"
-		texturefile = "gfx/leaders/SHX/Portrait_SHX_Dong_Qiwu.png"
-	}
-	spriteType = {
-		name = "GFX_portrait_SHX_sun_lanfeng"
-		texturefile = "gfx/leaders/SHX/Portrait_SHX_Sun_Lanfeng.png"
-	}
-	spriteType = {
-		name = "GFX_portrait_SHX_xu_yongchang"
-		texturefile = "gfx/leaders/SHX/Portrait_SHX_Xu_Yongchang.png"
-	}
-	spriteType = {
-		name = "GFX_portrait_SHX_shang_zhen"
-		texturefile = "gfx/leaders/SHX/Portrait_SHX_Shang_Zhen.png"
+		name = "GFX_portrait_SDC_wu_huawen"
+		texturefile = "gfx/leaders/SDC/Portrait_SDC_Wu_Huawen.png"
 	}
 	
 	#############
@@ -994,6 +865,311 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_portrait_XSM_ma_dunjing"
 		texturefile = "gfx/leaders/XSM/Portrait_XSM_Ma_Dunjing.png"
+	}
+	
+	#############
+	### 사천군벌 ###
+	#############
+	
+	### 사천군벌 지도자 ###
+	spriteType = {
+		name = "GFX_portrait_SCC_liu_xiang"
+		texturefile = "gfx/leaders/SCC/Portrait_SCC_Liu_Xiang.png"
+	}
+	
+	### 사천군벌 최고사령부 ###
+	spriteType = {
+		name = "GFX_portrait_SCC_tian_songyao"
+		texturefile = "gfx/leaders/SCC/Portrait_SCC_Tian_Songyao.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_SCC_pan_wenhua"
+		texturefile = "gfx/leaders/SCC/Portrait_SCC_Pan_Wenhua.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_SCC_guo_xunqi"
+		texturefile = "gfx/leaders/SCC/Portrait_SCC_Guo_Xunqi.png"
+	}
+	
+	### 사천군벌 육군 장성 ###
+	spriteType = {
+		name = "GFX_portrait_SCC_tang_shizun"
+		texturefile = "gfx/leaders/SCC/Portrait_SCC_Tang_Shizun.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_SCC_zhou_daogang"
+		texturefile = "gfx/leaders/SCC/Portrait_SCC_Zhou_Daogang.png"
+	}
+	
+	#############
+	### 호남군벌 ###
+	#############
+	
+	### 호남군벌 지도자 ###
+	spriteType = {
+		name = "GFX_portrait_HNC_he_shuheng"
+		texturefile = "gfx/leaders/HNC/Portrait_HNC_He_Shuheng.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_HNC_tang_shengzhi"
+		texturefile = "gfx/leaders/HNC/Portrait_HNC_Tang_Shengzhi.png"
+	}
+	
+	### 호남군벌 최고사령부 ###
+	spriteType = {
+		name = "GFX_portrait_HNC_he_yaozu"
+		texturefile = "gfx/leaders/HNC/Portrait_HNC_He_Yaozu.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_HNC_he_jian"
+		texturefile = "gfx/leaders/HNC/Portrait_HNC_He_Jian.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_HNC_chen_mingren"
+		texturefile = "gfx/leaders/HNC/Portrait_HNC_Chen_Mingren.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_HNC_liao_yaoxiang"
+		texturefile = "gfx/leaders/HNC/Portrait_HNC_Liao_Yaoxiang.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_HNC_men_bingyue"
+		texturefile = "gfx/leaders/HNC/Portrait_HNC_Men_Bingyue.png"
+	}
+	
+	### 호남군벌 육군 장성 ###
+	spriteType = {
+		name = "GFX_portrait_HNC_tang_shengming"
+		texturefile = "gfx/leaders/HNC/Portrait_HNC_Tang_Shengming.png"
+	}
+	
+	#############
+	### 운남군벌 ###
+	#############
+	
+	### 운남군벌 장성 ###
+	spriteType = {
+		name = "GFX_portrait_YUN_lu_han2"
+		texturefile = "gfx/leaders/YUN/Portrait_YUN_Lu_Han.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_YUN_lu_daoyuan"
+		texturefile = "gfx/leaders/YUN/Portrait_YUN_Lu_Daoyuan.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_YUN_sun_du"
+		texturefile = "gfx/leaders/YUN/Portrait_YUN_Sun_Du.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_YUN_an_enpu"
+		texturefile = "gfx/leaders/YUN/Portrait_YUN_An_Enpu.png"
+	}
+	
+	#############
+	### 광서군벌 ###
+	#############
+	
+	### 광서군벌 원수 ###
+	spriteType = {
+		name = "GFX_portrait_GXC_bai_chongxi"
+		texturefile = "gfx/leaders/GXC/Portrait_GXC_Bai_Chongxi.png"
+	}
+	
+	### 광서군벌 장성 ###
+	spriteType = {
+		name = "GFX_portrait_GXC_li_pinxian"
+		texturefile = "gfx/leaders/GXC/Portrait_GXC_Li_Pinxian.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_GXC_liao_lei"
+		texturefile = "gfx/leaders/GXC/Portrait_GXC_Liao_Lei.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_GXC_xia_wei"
+		texturefile = "gfx/leaders/GXC/Portrait_GXC_Xia_Wei.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_GXC_zhang_gan"
+		texturefile = "gfx/leaders/GXC/Portrait_GXC_Zhang_Gan.png"
+	}
+	
+	#############
+	### ㅡ중공ㅡ ###
+	#############
+	
+	### 중국공산당 지도자 ###
+	spriteType = {
+		name = "GFX_portrait_PRC_chen_duxiu"
+		texturefile = "gfx/leaders/PRC/Portrait_PRC_Chen_Duxiu.png"
+	}
+	
+	### 중국공산당 정치고문 ###
+	spriteType = {
+		name = "GFX_portrait_PRC_zhou_enlai"
+		texturefile = "gfx/leaders/PRC/Portrait_PRC_Zhou_Enlai.png"
+	}
+	
+	### 중국공산당 이론가 ###
+	spriteType = {
+		name = "GFX_portrait_PRC_liu_bocheng"
+		texturefile = "gfx/leaders/PRC/Portrait_PRC_Liu_Bocheng.png"
+	}
+	
+	### 중국공산당 해군참모총장 ###
+	spriteType = {
+		name = "GFX_portrait_PRC_xiao_jinguang"
+		texturefile = "gfx/leaders/PRC/Portrait_PRC_Xiao_Jinguang.png"
+	}
+	
+	### 중국공산당 최고사령부 ###
+	spriteType = {
+		name = "GFX_portrait_PRC_lin_biao2"
+		texturefile = "gfx/leaders/PRC/Portrait_PRC_Lin_Biao.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_PRC_luo_ronghuan"
+		texturefile = "gfx/leaders/PRC/Portrait_PRC_Luo_Ronghuan.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_PRC_xu_xiangqian"
+		texturefile = "gfx/leaders/PRC/portrait_PRC_xu_xiangqian.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_PRC_nie_rongzhen"
+		texturefile = "gfx/leaders/PRC/Portrait_PRC_Nie_Rongzhen.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_PRC_su_yu"
+		texturefile = "gfx/leaders/PRC/Portrait_PRC_Su_Yu.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_PRC_chen_geng"
+		texturefile = "gfx/leaders/PRC/Portrait_PRC_Chen_Geng.png"
+	}
+	
+	### 중국공산당 육군 장성 ###
+	spriteType = {
+		name = "GFX_portrait_PRC_ye_jianying"
+		texturefile = "gfx/leaders/PRC/Portrait_PRC_Ye_Jianying.png"
+	}
+	
+	#############
+	### 복건정부 ###
+	#############
+	
+	### 중화공화국 지도자 ###
+	spriteType = {
+		name = "GFX_portrait_ROC_chen_mingshu"
+		texturefile = "gfx/leaders/ROC/Portrait_ROC_Chen_Mingshu.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_ROC_chen_mingshu2"
+		texturefile = "gfx/leaders/ROC/Portrait_ROC_Chen_Mingshu2.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_ROC_li_jishen"
+		texturefile = "gfx/leaders/ROC/Portrait_ROC_Li_Jishen.png"
+	}
+	
+	### 중화공화국 정치고문 ###
+	#왕징웨이 파벌
+	spriteType = {
+		name = "GFX_portrait_ROC_chen_gongbo"
+		texturefile = "gfx/leaders/ROC/Portrait_ROC_Chen_Gongbo.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_ROC_zhou_fohai"
+		texturefile = "gfx/leaders/ROC/Portrait_ROC_Zhou_Fohai.png"
+	}
+	
+	### 중화공화국 육군참모총장 ###
+	spriteType = {
+		name = "GFX_portrait_ROC_cai_tingkai"
+		texturefile = "gfx/leaders/ROC/Portrait_ROC_Cai_Tingkai.png"
+	}
+	
+	### 중화공화국 해군참모총장 ###
+	spriteType = {
+		name = "GFX_portrait_ROC_li_qingwen"
+		texturefile = "gfx/leaders/ROC/Portrait_ROC_Li_Qingwen.png"
+	}
+	
+	### 중화공화국 최고사령부 ###
+	spriteType = {
+		name = "GFX_portrait_ROC_chen_jitang"
+		texturefile = "gfx/leaders/ROC/Portrait_ROC_Chen_Jitang.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_ROC_jiang_guangnai"
+		texturefile = "gfx/leaders/ROC/Portrait_ROC_Jiang_Guangnai.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_ROC_li_yangjing"
+		texturefile = "gfx/leaders/ROC/Portrait_ROC_Li_Yangjing.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_ROC_li_zhilong"
+		texturefile = "gfx/leaders/ROC/Portrait_ROC_Li_Zhilong.png"
+	}
+	
+	### 중화공화국 육군 장성 ###
+	spriteType = {
+		name = "GFX_portrait_ROC_zhang_fakui"
+		texturefile = "gfx/leaders/ROC/Portrait_ROC_Zhang_Fakui.png"
+	}
+	
+	#############
+	### 유신정부 ###
+	#############
+	
+	### 유신정부 지도자 ###
+	spriteType = {
+		name = "GFX_portrait_RGC_wang_kemin"
+		texturefile = "gfx/leaders/RGC/Portrait_RGC_Wang_Kemin.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_RGC_qi_xieyuan"
+		texturefile = "gfx/leaders/RGC/Portrait_RGC_Qi_Xieyuan.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_RGC_liang_hongzhi"
+		texturefile = "gfx/leaders/RGC/Portrait_RGC_Liang_Hongzhi.png"
+	}
+	
+	### 유신정부 육군참모총장 ###
+	spriteType = {
+		name = "GFX_portrait_RGC_sun_dianying"
+		texturefile = "gfx/leaders/RGC/Portrait_RGC_Sun_Dianying.png"
+	}
+	
+	### 유신정부 해군참모총장 ###
+	spriteType = {
+		name = "GFX_portrait_RGC_ren_yuandao"
+		texturefile = "gfx/leaders/RGC/Portrait_RGC_Ren_Yuandao.png"
+	}
+	
+	### 유신정부 최고사령부 ###
+	spriteType = {
+		name = "GFX_portrait_RGC_zhang_jingyao"
+		texturefile = "gfx/leaders/RGC/Portrait_RGC_Zhang_Jingyao.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_RGC_deng_ruzuo"
+		texturefile = "gfx/leaders/RGC/Portrait_RGC_Deng_Ruzuo.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_RGC_zhou_yinren"
+		texturefile = "gfx/leaders/RGC/Portrait_RGC_Zhou_Yinren.png"
+	}
+	
+	### 유신정부 육군 장성 ###
+	spriteType = {
+		name = "GFX_portrait_RGC_zhou_fengqi"
+		texturefile = "gfx/leaders/RGC/Portrait_RGC_Zhou_Fengqi.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_RGC_shi_yousan"
+		texturefile = "gfx/leaders/RGC/Portrait_RGC_Shi_Yousan.png"
 	}
 	
 	#############

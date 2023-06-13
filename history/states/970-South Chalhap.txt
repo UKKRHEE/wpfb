@@ -5,10 +5,10 @@ state={
 		1590 3955 6904 9776 
 	}
 	history={
-		owner = ZLC
+		owner = SHX
 		add_core_of = MON
 		add_core_of = CHI
-		add_core_of = ZLC
+		add_core_of = SHX
 		add_core_of = PRC
 		buildings = {
 			infrastructure = 2

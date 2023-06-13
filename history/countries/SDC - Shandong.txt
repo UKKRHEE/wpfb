@@ -1,0 +1,64 @@
+﻿capital = 597
+
+oob = "ROC_1936"
+
+set_stability = 0.2
+set_war_support = 0.4
+
+set_research_slots = 3
+
+set_technology = {
+	infantry_weapons = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	mass_assault = 1
+	fleet_in_being = 1
+	basic_train = 1
+}
+
+add_ideas = {
+	#
+}
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	communism = 0
+	democratic = 0
+	fascism = 0
+	neutrality = 100
+}
+
+### 지도자 ###
+recruit_character = SDC_ccp
+recruit_character = SDC_fu_sinian
+recruit_character = SDC_han_fuju
+
+### 정치고문 ###
+recruit_character = SDC_kong_dechong
+recruit_character = SDC_zhang_fuyun
+recruit_character = SDC_shandong_industry
+recruit_character = SDC_shandong_security
+
+### 이론가 ###
+recruit_character = SDC_shandong_army_research
+recruit_character = SDC_shandong_navy_research
+recruit_character = SDC_shandong_air_research
+
+### 해군참모총장 ###
+recruit_character = SDC_lin_jianzhang
+
+### 공군참모총장 ###
+recruit_character = SDC_shandong_air_department
+
+### 최고사령부 ###
+recruit_character = SDC_sun_tongxuan
+recruit_character = SDC_wu_huawen
+recruit_character = SDC_shandong_infantry
+recruit_character = SDC_shandong_artillery
+recruit_character = SDC_shandong_logistics
+

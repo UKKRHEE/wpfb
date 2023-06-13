@@ -341,12 +341,12 @@ characters = {
 				politically_connected
 				fortress_buster
 			}
-			skill=3
-			attack_skill=1
-			defense_skill=3
-			planning_skill=3
-			logistics_skill=3
-			legacy_id=0
+			skill = 3
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id=-1
 		}
 	}
 	
@@ -386,12 +386,12 @@ characters = {
 				JAP_samurai_lineage
 				offensive_doctrine
 			}
-			skill=4
-			attack_skill=4
-			defense_skill=4
-			planning_skill=3
-			logistics_skill=2
-			legacy_id=0
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 2
+			legacy_id=-1
 		}
 	}
 	JAP_obata_toshiro = {
@@ -450,12 +450,12 @@ characters = {
 				}
             }
 			traits={ bold aviation_enthusiast superior_tactician spotter air_controller flight_deck_manager }
-			skill=5
-			attack_skill=5
-			defense_skill=2
-			maneuvering_skill=3
-			coordination_skill=6
-			legacy_id=0
+			skill = 5
+			attack_skill = 5
+			defense_skill = 2
+			maneuvering_skill = 3
+			coordination_skill = 6
+			legacy_id=-1
 		}
 	}
 	JAP_minoru_genda={
@@ -592,9 +592,6 @@ characters = {
 	    	traits = {
 				army_chief_offensive_1
 			}
-	    	ai_will_do = {
-	    		factor = 1
-	    	}
 		}
 	}
 	JAP_iwane_matsui={
@@ -620,9 +617,6 @@ characters = {
 	    	traits = {
 				army_chief_planning_2
 			}
-	    	ai_will_do = {
-		    	factor = 1
-	    	}
 		}
 		corps_commander={
 			visible = {
@@ -631,12 +625,12 @@ characters = {
 				}
             }
 			traits={ old_guard trait_reckless }
-			skill=1
-			attack_skill=1
-			defense_skill=1
-			planning_skill=1
-			logistics_skill=1
-			legacy_id=0
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id=-1
 		}
 	}
 	JAP_tomoyuki_yamashita={
@@ -661,9 +655,6 @@ characters = {
 	    	traits = {
 	    		army_chief_morale_3
 			}
-		    ai_will_do = {
-		    	factor = 1
-		    }
 		}
 		corps_commander={
 			visible = {
@@ -672,12 +663,12 @@ characters = {
 				}
             }
 			traits={ brilliant_strategist politically_connected trickster trait_engineer }
-			skill=5
-			attack_skill=4
-			defense_skill=5
-			planning_skill=3
-			logistics_skill=4
-			legacy_id=0
+			skill = 5
+			attack_skill = 4
+			defense_skill = 5
+			planning_skill = 3
+			logistics_skill = 4
+			legacy_id=-1
 		}
 	}
 	JAP_hideki_tojo={
@@ -702,9 +693,6 @@ characters = {
 	    	traits = {
 	    		army_chief_morale_2
 			}
-		    ai_will_do = {
-		    	factor = 1
-		    }
 		}
 	}
 	JAP_hitoshi_imamura={
@@ -728,18 +716,15 @@ characters = {
 	    	traits = {
 	    		army_chief_organizational_2
 			}
-		    ai_will_do = {
-		    	factor = 1
-		    }
 		}
 		corps_commander={
 			traits={ career_officer infantry_officer commando }
-			skill=3
-			attack_skill=3
-			defense_skill=1
-			planning_skill=3
-			logistics_skill=3
-			legacy_id=0
+			skill = 3
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id=-1
 		}
 	}
 	
@@ -766,9 +751,6 @@ characters = {
 		    traits = {
 				navy_chief_naval_aviation_2
 			}
-		    ai_will_do = {
-		    	factor = 1
-		    }
 		}
 	}
 	JAP_osami_nagano = {
@@ -793,9 +775,6 @@ characters = {
 		    traits = {
 				navy_chief_decisive_battle_2
 			}
-		    ai_will_do = {
-		    	factor = 1
-		    }
 		}
 	}
 	JAP_shigetaro_shimada = {
@@ -819,9 +798,6 @@ characters = {
 		    traits = {
 				navy_chief_commerce_raiding_1
 			}
-		    ai_will_do = {
-		    	factor = 1
-		    }
 		}
 	}
 	JAP_jisaburo_ozawa = {
@@ -845,18 +821,15 @@ characters = {
 		    traits = {
 				navy_chief_naval_aviation_2
 			}
-		    ai_will_do = {
-		    	factor = 1
-		    }
 		}
 		navy_leader={
 			traits={ bold navy_career_officer aviation_enthusiast blockade_runner superior_tactician }
-			skill=5
-			attack_skill=5
-			defense_skill=3
-			maneuvering_skill=3
-			coordination_skill=4
-			legacy_id=0
+			skill = 5
+			attack_skill = 5
+			defense_skill = 3
+			maneuvering_skill = 3
+			coordination_skill = 4
+			legacy_id=-1
 		}
 	}
 	
@@ -878,9 +851,6 @@ characters = {
 		    traits = {
 				air_chief_night_operations_1
 			}
-		    ai_will_do = {
-		    	factor = 1
-		    }
 		}
 	}
 	JAP_korechika_anami = {
@@ -904,9 +874,6 @@ characters = {
 		    traits = {
 				air_chief_ground_support_1
 			}
-		    ai_will_do = {
-		    	factor = 1
-		    }
 		}
 	}
 	
@@ -935,9 +902,6 @@ characters = {
 		    traits = {
 				army_concealment_2
 			}
-		    ai_will_do = {
-		    	factor = 1
-		    }
 		}
 		field_marshal={
 			visible = {
@@ -946,12 +910,12 @@ characters = {
 				}
             }
 			traits={ JAP_samurai_lineage offensive_doctrine }
-			skill=4
-			attack_skill=3
-			defense_skill=4
-			planning_skill=2
-			logistics_skill=4
-			legacy_id=0
+			skill = 4
+			attack_skill = 3
+			defense_skill = 4
+			planning_skill = 2
+			logistics_skill = 4
+			legacy_id=-1
 		}
 	}
 	JAP_yasuji_okamura={
@@ -979,9 +943,6 @@ characters = {
 		    traits = {
 				army_infantry_2
 			}
-		    ai_will_do = {
-		    	factor = 1
-		    }
 		}
 		corps_commander={
 			visible = {
@@ -991,12 +952,12 @@ characters = {
 				}
             }
 			traits={ trait_reckless }
-			skill=1
-			attack_skill=1
-			defense_skill=1
-			planning_skill=1
-			logistics_skill=1
-			legacy_id=0
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id=-1
 		}
 	}
 	JAP_soemu_toyoda={
@@ -1022,9 +983,6 @@ characters = {
 		    traits = {
 				navy_capital_ship_1
 			}
-		    ai_will_do = {
-		    	factor = 1
-		    }
 		}
 		navy_leader={
 			visible = {
@@ -1033,12 +991,12 @@ characters = {
 				}
             }
 			traits={ old_guard_navy bold ironside }
-			skill=3
-			attack_skill=5
-			defense_skill=1
-			maneuvering_skill=2
-			coordination_skill=2
-			legacy_id=0
+			skill = 3
+			attack_skill = 5
+			defense_skill = 1
+			maneuvering_skill = 2
+			coordination_skill = 2
+			legacy_id=-1
 		}
 	}
 	JAP_mitsuo_fuchida = {
@@ -1059,9 +1017,6 @@ characters = {
 			traits = {
 				air_tactical_bombing_2
 			}
-		    ai_will_do = {
-		    	factor = 1
-		    }
 		}
 	}
 	JAP_nishizo_tsukahara = {
@@ -1081,9 +1036,6 @@ characters = {
 	    	traits = {
 				air_naval_strike_1
 			}
-	    	ai_will_do = {
-	    		factor = 1
-	    	}
 		}
 	}
 	JAP_tateo_kato = {
@@ -1104,9 +1056,6 @@ characters = {
 		    traits = {
 				air_air_combat_training_3
 			}
-		    ai_will_do = {
-		    	factor = 1
-	    	}
 		}
 	}
 	JAP_matome_ugaki = {
@@ -1132,9 +1081,6 @@ characters = {
 		    traits = {
 				navy_naval_air_defense_2
 			}
-		    ai_will_do = {
-		    	factor = 1
-	    	}
 		}
 	}
 	JAP_chuichi_nagumo = {
@@ -1160,9 +1106,6 @@ characters = {
 		    traits = {
 				navy_carrier_2
 			}
-		    ai_will_do = {
-		    	factor = 1
-	    	}
 		}
 	}
 	JAP_otozo_yamada = {
@@ -1186,18 +1129,15 @@ characters = {
 		    traits = {
 				army_cavalry_1
 			}
-		    ai_will_do = {
-		    	factor = 1
-	    	}
 		}
 		corps_commander={
 			traits={ career_officer cavalry_officer }
-			skill=3
-			attack_skill=3
-			defense_skill=1
-			planning_skill=3
-			logistics_skill=3
-			legacy_id=0
+			skill = 3
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id=-1
 		}
 	}
 	JAP_harukichi_hyakutake = {
@@ -1221,18 +1161,15 @@ characters = {
 		    traits = {
 				army_infantry_1
 			}
-		    ai_will_do = {
-		    	factor = 1
-	    	}
 		}
 		corps_commander={
 			traits={ infantry_officer }
-			skill=3
-			attack_skill=2
-			defense_skill=2
-			planning_skill=3
-			logistics_skill=3
-			legacy_id=0
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id=-1
 		}
 	}
 	
@@ -1252,12 +1189,12 @@ characters = {
 				}
             }
 			traits={ career_officer infantry_officer trickster }
-			skill=4
-			attack_skill=4
-			defense_skill=3
-			planning_skill=2
-			logistics_skill=4
-			legacy_id=0
+			skill = 4
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 4
+			legacy_id=-1
 		}
 	}
 	JAP_kenkichi_ueda={
@@ -1275,12 +1212,12 @@ characters = {
 				}
             }
 			traits={ old_guard trait_reckless cavalry_officer }
-			skill=4
-			attack_skill=3
-			defense_skill=2
-			planning_skill=4
-			logistics_skill=4
-			legacy_id=0
+			skill = 4
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 4
+			legacy_id=-1
 		}
 	}
 	JAP_toshizo_nishio={
@@ -1298,12 +1235,12 @@ characters = {
 				}
             }
 			traits={ brilliant_strategist infantry_officer }
-			skill=3
-			attack_skill=3
-			defense_skill=2
-			planning_skill=3
-			logistics_skill=2
-			legacy_id=0
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+			legacy_id=-1
 		}
 	}
 	JAP_rikichi_ando={
@@ -1321,12 +1258,12 @@ characters = {
 				}
             }
 			traits={ career_officer }
-			skill=3
-			attack_skill=1
-			defense_skill=3
-			planning_skill=3
-			logistics_skill=3
-			legacy_id=0
+			skill = 3
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id=-1
 		}
 	}
 	JAP_naruhiko_higashikuni={
@@ -1344,12 +1281,12 @@ characters = {
 				}
             }
 			traits={ politically_connected JAP_samurai_lineage }
-			skill=3
-			attack_skill=3
-			defense_skill=3
-			planning_skill=2
-			logistics_skill=2
-			legacy_id=0
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id=-1
 		}
 	}
 	JAP_seishiro_itagaki={
@@ -1367,12 +1304,12 @@ characters = {
 				}
             }
 			traits={ inflexible_strategist trait_reckless JAP_samurai_lineage }
-			skill=3
-			attack_skill=3
-			defense_skill=3
-			planning_skill=2
-			logistics_skill=2
-			legacy_id=0
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id=-1
 		}
 	}
 	JAP_takashi_sakai={
@@ -1390,12 +1327,12 @@ characters = {
 				}
             }
 			traits={ trait_reckless infantry_officer }
-			skill=3
-			attack_skill=2
-			defense_skill=2
-			planning_skill=3
-			logistics_skill=3
-			legacy_id=0
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id=-1
 		}
 	}
 	JAP_yoshijiro_umezu={
@@ -1408,12 +1345,12 @@ characters = {
 		}
 		corps_commander={
 			traits={ trait_cautious politically_connected }
-			skill=3
-			attack_skill=3
-			defense_skill=3
-			planning_skill=1
-			logistics_skill=3
-			legacy_id=0
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 1
+			logistics_skill = 3
+			legacy_id=-1
 		}
 	}
 	JAP_akira_muto={
@@ -1431,12 +1368,12 @@ characters = {
 				}
             }
 			traits={ career_officer }
-			skill=2
-			attack_skill=2
-			defense_skill=2
-			planning_skill=2
-			logistics_skill=1
-			legacy_id=0
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 1
+			legacy_id=-1
 		}
 	}
 	JAP_hatazo_adachi={
@@ -1454,12 +1391,12 @@ characters = {
 				}
             }
 			traits={ trait_reckless infantry_officer JAP_samurai_lineage trickster }
-			skill=2
-			attack_skill=1
-			defense_skill=2
-			planning_skill=2
-			logistics_skill=2
-			legacy_id=0
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id=-1
 		}
 	}
 	JAP_sadao_araki={
@@ -1477,12 +1414,12 @@ characters = {
 				}
             }
 			traits={ JAP_samurai_lineage }
-			skill=2
-			attack_skill=1
-			defense_skill=2
-			planning_skill=2
-			logistics_skill=2
-			legacy_id=0
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id=-1
 		}
 	}
 	JAP_kiichiro_higuchi={
@@ -1495,12 +1432,12 @@ characters = {
 		}
 		corps_commander={
 			traits={ career_officer trait_cautious }
-			skill=2
-			attack_skill=2
-			defense_skill=2
-			planning_skill=2
-			logistics_skill=1
-			legacy_id=0
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 1
+			legacy_id=-1
 		}
 	}
 	JAP_masaharu_homma={
@@ -1518,12 +1455,12 @@ characters = {
 				}
             }
 			traits={ trait_cautious media_personality }
-			skill=2
-			attack_skill=2
-			defense_skill=2
-			planning_skill=1
-			logistics_skill=2
-			legacy_id=0
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 2
+			legacy_id=-1
 		}
 	}
 	JAP_jo_iimura={
@@ -1536,12 +1473,12 @@ characters = {
 		}
 		corps_commander={
 			traits={ career_officer }
-			skill=2
-			attack_skill=1
-			defense_skill=2
-			planning_skill=2
-			logistics_skill=2
-			legacy_id=0
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id=-1
 		}
 	}
 	JAP_masatane_kanda={
@@ -1559,12 +1496,12 @@ characters = {
 				}
             }
 			traits={ trait_cautious }
-			skill=2
-			attack_skill=2
-			defense_skill=2
-			planning_skill=1
-			logistics_skill=2
-			legacy_id=0
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 2
+			legacy_id=-1
 		}
 	}
 	JAP_kuniaki_koiso={
@@ -1582,12 +1519,12 @@ characters = {
 				}
             }
 			traits={ old_guard politically_connected JAP_samurai_lineage }
-			skill=2
-			attack_skill=2
-			defense_skill=2
-			planning_skill=2
-			logistics_skill=1
-			legacy_id=0
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 1
+			legacy_id=-1
 		}
 	}
 	JAP_kanji_ishiwara={
@@ -1609,12 +1546,12 @@ characters = {
 				}
             }
 			traits={ JAP_samurai_lineage }
-			skill=1
-			attack_skill=1
-			defense_skill=1
-			planning_skill=1
-			logistics_skill=1
-			legacy_id=0
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id=-1
 		}
 	}
 	JAP_kenji_doihara={
@@ -1632,12 +1569,12 @@ characters = {
 				}
             }
 			traits={ career_officer substance_abuser }
-			skill=1
-			attack_skill=1
-			defense_skill=1
-			planning_skill=1
-			logistics_skill=1
-			legacy_id=0
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id=-1
 		}
 	}
 	JAP_shigeru_honjo={
@@ -1655,12 +1592,12 @@ characters = {
 				}
             }
 			traits={ old_guard war_hero }
-			skill=1
-			attack_skill=1
-			defense_skill=1
-			planning_skill=1
-			logistics_skill=1
-			legacy_id=0
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id=-1
 		}
 	}
 	
@@ -1675,12 +1612,12 @@ characters = {
 		}
 		navy_leader={
 			traits={ bold battleship_adherent superior_tactician spotter }
-			skill=4
-			attack_skill=4
-			defense_skill=2
-			maneuvering_skill=4
-			coordination_skill=3
-			legacy_id=0
+			skill = 4
+			attack_skill = 4
+			defense_skill = 2
+			maneuvering_skill = 4
+			coordination_skill = 3
+			legacy_id=-1
 		}
 	}
 	JAP_nobutake_kondo = {
@@ -1693,12 +1630,12 @@ characters = {
 		}
 		navy_leader={
 			traits={ battleship_adherent naval_lineage fly_swatter }
-			skill=3
-			attack_skill=4
-			defense_skill=2
-			maneuvering_skill=2
-			coordination_skill=2
-			legacy_id=0
+			skill = 3
+			attack_skill = 4
+			defense_skill = 2
+			maneuvering_skill = 2
+			coordination_skill = 2
+			legacy_id=-1
 		}
 	}
 	JAP_takeo_takagi = {
@@ -1711,12 +1648,12 @@ characters = {
 		}
 		navy_leader={
 			traits={ spotter }
-			skill=3
-			attack_skill=3
-			defense_skill=1
-			maneuvering_skill=3
-			coordination_skill=3
-			legacy_id=0
+			skill = 3
+			attack_skill = 3
+			defense_skill = 1
+			maneuvering_skill = 3
+			coordination_skill = 3
+			legacy_id=-1
 		}
 	}
 	JAP_kiyoshi_hasegawa = {
@@ -1729,12 +1666,12 @@ characters = {
 		}
 		navy_leader={
 			traits={ gentlemanly }
-			skill=2
-			attack_skill=2
-			defense_skill=2
-			maneuvering_skill=1
-			coordination_skill=2
-			legacy_id=0
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			maneuvering_skill = 1
+			coordination_skill = 2
+			legacy_id=-1
 		}
 	}
 	JAP_shigeyoshi_inoue = {
@@ -1747,12 +1684,12 @@ characters = {
 		}
 		navy_leader={
 			traits={ navy_career_officer aviation_enthusiast }
-			skill=2
-			attack_skill=2
-			defense_skill=1
-			maneuvering_skill=1
-			coordination_skill=3
-			legacy_id=0
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 3
+			legacy_id=-1
 		}
 	}
 	JAP_zengo_yoshida = {
@@ -1765,12 +1702,12 @@ characters = {
 		}
 		navy_leader={
 			traits={ old_guard_navy }
-			skill=2
-			attack_skill=2
-			defense_skill=2
-			maneuvering_skill=1
-			coordination_skill=2
-			legacy_id=0
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			maneuvering_skill = 1
+			coordination_skill = 2
+			legacy_id=-1
 		}
 	}
 	JAP_hiroaki_abe = {
@@ -1783,12 +1720,12 @@ characters = {
 		}
 		navy_leader={
 			traits={ battleship_adherent }
-			skill=2
-			attack_skill=3
-			defense_skill=1
-			maneuvering_skill=2
-			coordination_skill=1
-			legacy_id=0
+			skill = 2
+			attack_skill = 3
+			defense_skill = 1
+			maneuvering_skill = 2
+			coordination_skill = 1
+			legacy_id=-1
 		}
 	}
 	JAP_gengo_hyakutake = {
@@ -1801,12 +1738,12 @@ characters = {
 		}
 		navy_leader={
 			traits={ gentlemanly }
-			skill=2
-			attack_skill=1
-			defense_skill=2
-			maneuvering_skill=2
-			coordination_skill=2
-			legacy_id=0
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			maneuvering_skill = 2
+			coordination_skill = 2
+			legacy_id=-1
 		}
 	}
 	JAP_tadashige_daigo = {
@@ -1824,12 +1761,12 @@ characters = {
 				}
             }
 			traits={ navy_career_officer seawolf }
-			skill=1
-			attack_skill=1
-			defense_skill=1
-			maneuvering_skill=1
-			coordination_skill=1
-			legacy_id=0
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+			legacy_id=-1
 		}
 	}
 }

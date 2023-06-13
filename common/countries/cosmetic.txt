@@ -1,3 +1,57 @@
+#############
+### 오얏꽃ㅡ ###
+#############
+
+beijing_government = {
+	color = rgb { 161 103 33 }
+	color_ui = rgb { 161 103 33 }
+}
+
+zhongyuan_government = {
+	color = rgb { 161 103 33 }
+	color_ui = rgb { 161 103 33 }
+}
+
+china_small = {
+	color = rgb { 255  244  190 }
+	color_ui = rgb { 255  244  190 }
+}
+
+china_greater = {
+	color = rgb { 255  244  190 }
+	color_ui = rgb { 255  244  190 }
+}
+
+china_ming = {
+	color = rgb { 255  244  190 }
+	color_ui = rgb { 255  244  190 }
+}
+
+china_monarchist = {
+	color = rgb { 255  244  190 }
+	color_ui = rgb { 255  244  190 }
+}
+
+ROK_right = {
+	color = rgb { 0 0 220 }
+	color_ui = rgb { 0 0 220 }
+}
+
+QIN_communism = {
+	color = rgb { 255 120 71 }
+	color_ui = rgb { 255 120 71 }
+}
+
+QIN_puppet = {
+	color = rgb { 8 99 156 }
+	color_ui = rgb { 8 99 156 }
+}
+
+QIN_puppet_communism = {
+	color = rgb { 255 120 71 }
+	color_ui = rgb { 255 120 71 }
+}
+
 MAL_UK = {
     color = rgb { 201 56 93 }
     color_ui = rgb { 255 73 121 }
@@ -954,26 +1008,4 @@ SWI_helvetic_republic = {
 	color_ui = rgb { 140 140 140 }
 }
 
-#############
-### 오얏꽃ㅡ ###
-#############
 
-ROK_right = {
-	color = rgb { 0 0 220 }
-	color_ui = rgb { 0 0 220 }
-}
-
-QIN_communism = {
-	color = rgb { 255 120 71 }
-	color_ui = rgb { 255 120 71 }
-}
-
-QIN_puppet = {
-	color = rgb { 8 99 156 }
-	color_ui = rgb { 8 99 156 }
-}
-
-QIN_puppet_communism = {
-	color = rgb { 255 120 71 }
-	color_ui = rgb { 255 120 71 }
-}

@@ -8,8 +8,9 @@ RYU = "countries/Ryukyu.txt" #류큐
 QIN = "countries/Qing.txt" #청나라
 
 ###중국계###
-ZLC = "countries/Zhili.txt" #직예군벌
-NJC = "countries/Nanjing.txt" #오성연군
+ROC = "countries/ChinaRepublic.txt" #중화공화국
+RGC = "countries/PuppetChina.txt" #중화민국 유신정부
+SDC = "countries/Shandong.txt" #산동군벌
 SCC = "countries/Hunan.txt" #사천군벌
 HNC = "countries/Sichuan.txt" #호남군벌
 

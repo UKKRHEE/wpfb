@@ -1,17 +1,45 @@
 characters={
 	### 지도자 ###
-	QIN_chen_duxiu={
-		name=QIN_chen_duxiu
+	QIN_ma_zhanshan = {
+		name=QIN_ma_zhanshan
 		portraits={
-			civilian={
-				large=GFX_portrait_QIN_chen_duxiu
+			army={
+				large=GFX_portrait_QIN_ma_zhanshan
+				small=GFX_idea_QIN_ma_zhanshan
 			}
 		}
 		country_leader={
 			ideology=marxism
-			traits={ }
+			traits = {
+				#
+			}
 			expire="1960.1.1.1"
 			id=-1
+		}
+		advisor={
+			cost = 100
+			slot = high_command
+			idea_token = ma_zhanshan
+			ledger = army
+		    allowed = {
+		    	original_tag = QIN
+		    }
+		    traits = {
+				army_commando_2
+			}
+		}
+		corps_commander={
+			traits = {
+				commando
+				trait_reckless
+				trickster
+			}
+			skill = 3
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 1
+			legacy_id=-1
 		}
 	}
 	QIN_liang_qichao={
@@ -23,7 +51,9 @@ characters={
 		}
 		country_leader={
 			ideology=conservatism
-			traits={ }
+			traits = {
+				#
+			}
 			expire="1960.1.1.1"
 			id=-1
 		}
@@ -38,7 +68,17 @@ characters={
 		}
 		country_leader={
 			ideology=fascism_ideology
-			traits={ }
+			traits = {
+				second_hongzhang2
+			}
+			expire="1960.1.1.1"
+			id=-1
+		}
+		country_leader={
+			ideology=despotism
+			traits = {
+				second_hongzhang
+			}
 			expire="1960.1.1.1"
 			id=-1
 		}
@@ -57,20 +97,22 @@ characters={
 			legacy_id=-1
 		}
 	}
-	QIN_aisin_gioro_puyi={
-		name=QIN_aisin_gioro_puyi
-		portraits={
-			civilian={
-				large=GFX_portrait_QIN_puyi
-			}
-		}
-		country_leader={
-			ideology=despotism
-			traits={ warrior_code }
-			expire="1960.1.1.1"
-			id=-1
-		}
-	}
+	#QIN_aisin_gioro_puyi={
+	#	name=QIN_aisin_gioro_puyi
+	#	portraits={
+	#		civilian={
+	#			large=GFX_portrait_QIN_puyi
+	#		}
+	#	}
+	#	country_leader={
+	#		ideology=despotism 
+	#		traits = {
+	#			warrior_code
+	#		}
+	#		expire="1960.1.1.1"
+	#		id=-1
+	#	}
+	#}
 	
 	### 정치고문 ###
 	QIN_aisin_gioro_pujie={
@@ -332,6 +374,39 @@ characters={
 			legacy_id=-1
 		}
 	}
+	QIN_liu_menggeng={
+		name=QIN_liu_menggeng
+		portraits={
+			army={
+				large=GFX_portrait_QIN_liu_menggeng
+				small=GFX_idea_QIN_liu_menggeng
+			}
+		}
+		advisor={
+			cost = 100
+			slot = army_chief
+			idea_token = liu_menggeng
+		    allowed = {
+		    	original_tag = QIN
+		    }
+		    traits = {
+				army_chief_reform_2
+			}
+		}
+		corps_commander={
+			traits = {
+				career_officer
+				trait_cautious
+				infantry_officer
+			}
+			skill = 3
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 4
+			legacy_id=-1
+		}
+	}
 	QIN_aisin_gioro_zaitao = {
 		name=QIN_aisin_gioro_zaitao
 		portraits={
@@ -384,9 +459,6 @@ characters={
 		    traits = {
 				navy_chief_decisive_battle_2
 			}
-		    ai_will_do = {
-		    	factor = 1
-		    }
 		}
 		navy_leader={
 			traits = {
@@ -418,9 +490,6 @@ characters={
 		    traits = {
 				navy_chief_reform_1
 			}
-		    ai_will_do = {
-		    	factor = 1
-		    }
 		}
 		navy_leader={
 			traits = {
@@ -447,16 +516,12 @@ characters={
 			cost = 100
 			slot = air_chief
 			idea_token = gao_zhihang
-			
 	    	allowed = {
 		    	original_tag = QIN
 		    }
 		    traits = {
 				air_chief_reform_2
 			}
-		    ai_will_do = {
-		    	factor = 1
-		    }
 		}
 	}
 	
@@ -479,9 +544,6 @@ characters={
 	    	traits = {
 				army_cavalry_1
 			}
-	    	ai_will_do = {
-	    		factor = 1
-	    	}
 		}
 		corps_commander={
 			traits = {
@@ -527,40 +589,6 @@ characters={
 			attack_skill = 1
 			defense_skill = 1
 			planning_skill = 1
-			logistics_skill = 1
-			legacy_id=-1
-		}
-	}
-	QIN_ma_zhanshan = {
-		name=QIN_ma_zhanshan
-		portraits={
-			army={
-				large=GFX_portrait_QIN_ma_zhanshan
-				small=GFX_idea_QIN_ma_zhanshan
-			}
-		}
-		advisor={
-			cost = 100
-			slot = high_command
-			idea_token = ma_zhanshan
-			ledger = army
-		    allowed = {
-		    	original_tag = QIN
-		    }
-		    traits = {
-				army_commando_2
-			}
-		}
-		corps_commander={
-			traits = {
-				commando
-				trait_reckless
-				trickster
-			}
-			skill = 3
-			attack_skill = 4
-			defense_skill = 3
-			planning_skill = 2
 			logistics_skill = 1
 			legacy_id=-1
 		}
@@ -663,6 +691,69 @@ characters={
 			legacy_id=-1
 		}
 	}
+	QIN_xing_shilian={
+		name=QIN_xing_shilian
+		portraits={
+			army={
+				large=GFX_portrait_QIN_xing_shilian
+				small=GFX_idea_QIN_xing_shilian
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = xing_shilian
+			ledger = army
+	    	allowed = {
+	    		original_tag = QIN
+	    	}
+	    	traits = {
+				army_regrouping_1
+			}
+		}
+		corps_commander={
+			traits = { 
+				career_officer
+				urban_assault_specialist
+			}
+			skill = 2
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 4
+			logistics_skill = 1
+			legacy_id=-1
+		}
+	}
+	QIN_lu_jin = {
+		name=QIN_lu_jin
+		portraits={
+			army={
+				large=GFX_portrait_QIN_lu_jin
+				small=GFX_idea_QIN_lu_jin
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = lu_jin
+			ledger = army
+	    	allowed = {
+	    		original_tag = QIN
+	    	}
+	    	traits = {
+				army_artillery_1
+			}
+		}
+		corps_commander={
+			traits = {
+				#
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id=-1
+		}
+	}
 	QIN_yin_zuoqian = {
 		name=QIN_yin_zuoqian
 		portraits={
@@ -682,9 +773,6 @@ characters={
 	    	traits = {
 				navy_screen_2
 			}
-	    	ai_will_do = {
-	    		factor = 1
-	    	}
 		}
 		navy_leader={
 			traits = {
@@ -716,9 +804,6 @@ characters={
 		    traits = {
 				air_close_air_support_1
 			}
-		    ai_will_do = {
-		    	factor = 1
-	    	}
 		}
 	}
 	

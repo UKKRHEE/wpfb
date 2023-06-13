@@ -1,0 +1,31 @@
+ideas = {
+	country = {
+		############# 
+		### 입헌군주 ###
+		#############
+		
+		### 푸이 ###
+		QIN_constitutional_monarch_puyi = {
+			
+			available = {
+				NOT = { has_government = communism }
+			}
+
+			allowed = {
+				original_tag = QIN
+			}
+
+			allowed_civil_war = {
+				NOT ={
+					has_government = communism
+				}
+			}
+			
+			removal_cost = -1
+			
+			traits = {
+				xuantong_emperor
+			}
+		}
+	}
+}

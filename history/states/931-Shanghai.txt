@@ -19,11 +19,10 @@ state={
 			}
 
 		}
-			owner = NJC
-			add_core_of = NJC
-			add_core_of = CHI
-			add_core_of = PRC
-			buildings = {
-			}
+		owner = CHI
+		add_core_of = CHI
+		add_core_of = PRC
+		buildings = {
 		}
+	}
 }

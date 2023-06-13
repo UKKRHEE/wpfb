@@ -9,20 +9,25 @@ characters={
 		}
 		country_leader={
 			ideology=marxism
-			traits={ }
+			traits = {
+				#
+			}
 			expire="1960.1.1.1"
 			id=-1
 		}
 	}
-	CHI_wang_jingwei={
-		name=CHI_wang_jingwei
+	CHI_sun_fo={
+		name=CHI_sun_fo
 		portraits={
 			civilian={
-				large="GFX_portrait_chi_wang_jingwei"
+				large="GFX_portrait_CHI_sun_fo"
 			}
 		}
 		country_leader={
-			ideology=socialism
+			ideology=liberalism
+			traits = {
+				#
+			}
 			expire="1965.1.1.1"
 			id=-1
 		}
@@ -37,6 +42,9 @@ characters={
 		}
 		country_leader={
 			ideology=fascism_ideology
+			traits = {
+				#
+			}
 			expire="1965.1.1.1"
 			id=-1
 		}
@@ -64,7 +72,9 @@ characters={
 		}
 		country_leader={
 			ideology=despotism
-			traits={ generallissimo }
+			traits = {
+				generallissimo
+			}
 			expire="1965.1.1.1"
 			id=-1
 		}
@@ -88,31 +98,50 @@ characters={
 					character  = CHI_chiang_kaishek
 				}
 			}
-			allowed  = {
-				original_tag  = CHI
+			allowed = {
+				original_tag = CHI
 				has_dlc = "Waking the Tiger"
 			}
-			traits  = {
+			traits = {
 				first_lady 
 			}
 		}
 	}
-	CHI_lin_sen={
-		name=CHI_lin_sen
+	CHI_dai_jitao={
+		name=CHI_dai_jitao
 		portraits={
 			civilian={
-				small="GFX_idea_CHI_lin_sen"
+				large=GFX_portrait_CHI_dai_jitao
+				small=GFX_idea_CHI_dai_jitao
 			}
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = lin_sen
-			allowed  = {
-				original_tag  = CHI
-				has_dlc = "Waking the Tiger"
+			idea_token = dai_jitao
+			allowed = {
+				original_tag = CHI
 			}
-			traits  = {
-				popular_figurehead 
+			traits = {
+				president_of_examination_yuan
+			}
+		}
+	}
+	CHI_chen_bulei={
+		name=CHI_chen_bulei
+		portraits={
+			civilian={
+				large=GFX_portrait_CHI_chen_bulei
+				small=GFX_idea_CHI_chen_bulei
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = chen_bulei
+			allowed = {
+				original_tag = CHI
+			}
+			traits = {
+				war_propagandist
 			}
 		}
 	}
@@ -126,47 +155,11 @@ characters={
 		advisor={
 			slot = political_advisor
 			idea_token = t_v_soong
-			allowed  = {
-				original_tag  = CHI
+			allowed = {
+				original_tag = CHI
 			}
-			traits  = {
+			traits = {
 				financial_expert 
-			}
-		}
-	}
-	CHI_h_h_kung={
-		name = CHI_h_h_kung
-		portraits = {
-			civilian = {
-				small = "GFX_idea_CHI_h_h_kung"
-			}
-		}
-		advisor={
-			slot = political_advisor
-			idea_token = CHI_h_h_kung
-			allowed  = {
-				original_tag  = CHI
-			}
-			traits  = {
-				captain_of_industry 
-			}
-		}
-	}
-	CHI_sun_fo={
-		name=CHI_sun_fo
-		portraits={
-			civilian={
-				small=GFX_idea_CHI_sun_fo
-			}
-		}
-		advisor={
-			slot = political_advisor
-			idea_token = sun_fo
-			allowed  = {
-				original_tag  = CHI
-			}
-			traits  = {
-				compassionate_gentleman 
 			}
 		}
 	}
@@ -180,10 +173,10 @@ characters={
 		advisor={
 			slot = political_advisor
 			idea_token = zhang_qun
-			allowed  = {
-				original_tag  = CHI
+			allowed = {
+				original_tag = CHI
 			}
-			traits  = {
+			traits = {
 				silent_workhorse 
 			}
 		}
@@ -198,89 +191,30 @@ characters={
 		advisor={
 			slot = political_advisor
 			idea_token = chen_lifu
-			allowed  = {
-				original_tag  = CHI
+			allowed = {
+				original_tag = CHI
 			}
-			traits  = {
+			traits = {
 				backroom_backstabber 
 			}
 		}
 	}
-	CHI_zhang_naiqi={
-		name=CHI_zhang_naiqi
+	CHI_hu_shih={
+		name=CHI_hu_shih
 		portraits={
 			civilian={
-				small=GFX_idea_CHI_zhang_naiqi
+				large=GFX_portrait_CHI_hu_shih
+				small=GFX_idea_CHI_hu_shih
 			}
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = zhang_naiqi
-			available = {
-				NOT = {
-					has_country_leader = {
-						character = CHI_chiang_kaishek
-						ruling_only = yes 
-					}
-				}
+			idea_token = hu_shih
+			allowed = {
+				original_tag = CHI
 			}
-			allowed  = {
-				original_tag  = CHI
-			}
-			traits  = {
-				 resistance_banker
-			}
-		}
-	}
-	CHI_zou_taofen={
-		name=CHI_zou_taofen
-		portraits={
-			civilian={
-				small=GFX_idea_CHI_zou_taofen
-			}
-		}
-		advisor={
-			slot = political_advisor
-			idea_token = zou_taofen
-			available = {
-				NOT = {
-					has_country_leader = {
-						character = CHI_chiang_kaishek
-						ruling_only = yes 
-					}
-				}
-			}
-			allowed  = {
-				original_tag  = CHI
-			}
-			traits  = {
-				 liberal_journalist
-			}
-		}
-	}
-	CHI_shi_liang={
-		name=CHI_shi_liang
-		portraits={
-			civilian={
-				small=GFX_idea_CHI_shi_liang
-			}
-		}
-		advisor={
-			slot = political_advisor
-			idea_token = shi_liang
-			available = {
-				NOT = {
-					has_country_leader = {
-						character = CHI_chiang_kaishek
-						ruling_only = yes 
-					}
-				}
-			}
-			allowed  = {
-				original_tag  = CHI
-			}
-			traits  = {
-				 sharp_tongued_lawyer
+			traits = {
+				modernizer_and_diplomat
 			}
 		}
 	}
@@ -346,29 +280,6 @@ characters={
 			}
 		}
 	}
-	CHI_wu_dayou={
-		name=CHI_wu_dayou
-		portraits={
-			army={
-				small=GFX_idea_CHI_wu_dayou
-			}
-		}
-		advisor={
-			cost = 100		
-			slot = theorist
-			idea_token = wu_dayou
-			ledger = air
-			allowed = {
-				original_tag = CHI
-			}
-			research_bonus = {
-				nuclear = 0.10
-			}
-			traits = {
-				nuclear_scientist
-			}
-		}
-	}
 	
 	### 육군참모총장 ###
 	CHI_he_yingqin={
@@ -388,9 +299,6 @@ characters={
 			}
 			traits = {
 				army_chief_organizational_3
-			}
-			ai_will_do = {
-				factor = 1.000
 			}
 		}
 		field_marshal={
@@ -422,9 +330,6 @@ characters={
 			traits = {
 				army_chief_drill_1
 			}
-			ai_will_do = {
-				factor = 1.000
-			}
 		}
 	}
 	CHI_cheng_qian={
@@ -444,9 +349,6 @@ characters={
 			}
 			traits = {
 				army_chief_planning_2
-			}
-			ai_will_do = {
-				factor = 1.000
 			}
 		}
 		field_marshal={
@@ -479,20 +381,17 @@ characters={
 			traits = {
 				army_chief_reform_3
 			}
-			ai_will_do = {
-				factor = 1.000
-			}
 		}
 		corps_commander={
 			traits = {
 				politically_connected
 				infantry_officer
 			}
-			skill=3
-			attack_skill=2
-			defense_skill=2
-			planning_skill=3
-			logistics_skill=4
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 4
 			legacy_id=-1
 		}
 	}
@@ -516,9 +415,6 @@ characters={
 			traits = {
 				navy_chief_decisive_battle_2
 			}
-			ai_will_do = {
-				factor = 0.200
-			}
 		}
 		navy_leader={
 			traits = {
@@ -530,7 +426,7 @@ characters={
 			defense_skill = 3
 			maneuvering_skill = 2
 			coordination_skill = 3
-			legacy_id=-1
+			legacy_id = -1
 		}
 	}
 	
@@ -551,9 +447,6 @@ characters={
 			}
 			traits = {
 				air_chief_ground_support_2
-			}
-			ai_will_do = {
-				factor = 0.500
 			}
 		}
 	}
@@ -578,19 +471,16 @@ characters={
 			traits = {
 				army_commando_2
 			}
-			ai_will_do = {
-				factor = 2.000
-			}
 		}
 		field_marshal={
 			traits = {
 				politically_connected
 			}
-			skill=3
-			attack_skill=2
-			defense_skill=2
-			planning_skill=3
-			logistics_skill=3
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
 			legacy_id=-1
 		}
 	}
@@ -613,20 +503,17 @@ characters={
 			traits = {
 				army_entrenchment_2
 			}
-			ai_will_do = {
-				factor = 2.000
-			}
 		}
 		corps_commander={
 			traits = {
 				career_officer
 				infantry_officer
 			}
-			skill=3
-			attack_skill=3
-			defense_skill=3
-			planning_skill=3
-			logistics_skill=3
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
 			legacy_id=-1
 		}
 	}
@@ -649,9 +536,6 @@ characters={
 			traits = {
 				army_armored_2
 			}
-			ai_will_do = {
-				factor = 2.000
-			}
 		}
 		corps_commander={
 			traits = {
@@ -659,11 +543,11 @@ characters={
 				harsh_leader
 				armor_officer
 			}
-			skill=4
-			attack_skill=4
-			defense_skill=4
-			planning_skill=2
-			logistics_skill=3
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 2
+			logistics_skill = 3
 			legacy_id=-1
 		}
 	}
@@ -686,19 +570,16 @@ characters={
 			traits = {
 				army_artillery_2
 			}
-			ai_will_do = {
-				factor = 2.000
-			}
 		}
 		corps_commander={
 			traits = {
 				infantry_officer
 			}
-			skill=3
-			attack_skill=3
-			defense_skill=3
-			planning_skill=3
-			logistics_skill=2
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 2
 			legacy_id=-1
 		}
 	}
@@ -719,9 +600,6 @@ characters={
 			}
 			traits = {
 				army_concealment_2
-			}
-			ai_will_do = {
-				factor = 2.000
 			}
 		}
 	}
@@ -744,9 +622,6 @@ characters={
 	    	traits = {
 				navy_capital_ship_2
 			}
-	    	ai_will_do = {
-	    		factor = 1
-	    	}
 		}
 		navy_leader={
 			traits = {
@@ -780,9 +655,6 @@ characters={
 	    	traits = {
 				navy_screen_2
 			}
-	    	ai_will_do = {
-	    		factor = 1
-	    	}
 		}
 		navy_leader={
 			traits = {
@@ -814,9 +686,6 @@ characters={
 		    traits = {
 				air_close_air_support_2
 			}
-		    ai_will_do = {
-		    	factor = 1
-	    	}
 		}
 	}
 	
@@ -833,11 +702,11 @@ characters={
 			traits = {
 				infantry_officer
 			}
-			skill=3
-			attack_skill=2
-			defense_skill=3
-			planning_skill=2
-			logistics_skill=3
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 3
 			legacy_id=-1
 		}
 	}
@@ -854,31 +723,11 @@ characters={
 				career_officer
 				infantry_officer
 			}
-			skill=3
-			attack_skill=4
-			defense_skill=3
-			planning_skill=3
-			logistics_skill=2
-			legacy_id=-1
-		}
-	}
-	CHI_zhang_fakui={
-		name=CHI_zhang_fakui
-		portraits={
-			army={
-				large=GFX_portrait_CHI_zhang_fakui
-			}
-		}
-		corps_commander={
-			traits = {
-				career_officer
-				infantry_officer
-			}
-			skill=3
-			attack_skill=3
-			defense_skill=3
-			planning_skill=3
-			logistics_skill=2
+			skill = 3
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 2
 			legacy_id=-1
 		}
 	}
@@ -893,11 +742,11 @@ characters={
 			traits = {
 				career_officer
 			}
-			skill=3
-			attack_skill=2
-			defense_skill=2
-			planning_skill=3
-			logistics_skill=3
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
 			legacy_id=-1
 		}
 	}

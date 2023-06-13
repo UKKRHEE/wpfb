@@ -1,0 +1,536 @@
+characters={
+	ROC_chen_mingshu={
+		name=ROC_chen_mingshu
+		portraits={
+			civilian={
+				large=GFX_portrait_ROC_chen_mingshu
+			}
+			army={
+				large=GFX_portrait_ROC_chen_mingshu2
+			}
+		}
+		country_leader={
+			ideology=anti_revisionism
+			traits={ }
+			expire="1960.1.1.1"
+			id=-1
+		}
+	}
+	ROC_wang_jingwei={
+		name=CHI_wang_jingwei
+		portraits={
+			civilian={
+				large="GFX_portrait_chi_wang_jingwei"
+			}
+		}
+		country_leader={
+			ideology=socialism
+			traits={ }
+			expire="1960.1.1.1"
+			id=-1
+		}
+		country_leader={
+			ideology=centrism
+			traits={ }
+			expire="1960.1.1.1"
+			id=-1
+		}
+	}
+	ROC_li_jishen={
+		name=ROC_li_jishen
+		portraits={
+			army={
+				large=GFX_portrait_ROC_li_jishen
+				small=GFX_idea_ROC_li_jishen
+			}
+		}
+		country_leader={
+			ideology=fascism_ideology
+			traits={ }
+			expire="1960.1.1.1"
+			id=-1
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = ROC_li_jishen
+			allowed = {
+	    		original_tag = ROC
+	    	}
+			traits = {
+				army_chief_offensive_1
+			}
+		}
+		field_marshal = {
+			traits = {
+				irregulars_officer
+				infantry_officer
+				war_hero
+				organisational_leader
+			}
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+	
+	### 정치고문 ###
+	#왕징웨이 파벌
+	ROC_chen_gongbo={
+		name=ROC_chen_gongbo
+		portraits={
+			civilian={
+				large=GFX_portrait_ROC_chen_gongbo
+				small=GFX_idea_ROC_chen_gongbo
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = chen_gongbo
+			available = {
+				has_country_leader = {
+					ruling_only = yes 
+					character = ROC_wang_jingwei
+				}
+			}
+			allowed  = {
+				original_tag = ROC
+			}
+			traits  = {
+				dynamic_materialist
+			}
+		}
+	}
+	ROC_zhou_fohai={
+		name=ROC_zhou_fohai
+		portraits={
+			civilian={
+				large=GFX_portrait_ROC_zhou_fohai
+				small=GFX_idea_ROC_zhou_fohai
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = zhou_fohai
+			available = {
+				has_country_leader = {
+					ruling_only = yes 
+					character = ROC_wang_jingwei
+				}
+			}
+			allowed  = {
+				original_tag = ROC
+			}
+			traits  = {
+				tireless_organiser
+			}
+		}
+	}
+	ROC_gu_mengyu={
+		name=ROC_gu_mengyu
+		portraits={
+			civilian={
+				small=GFX_idea_ROC_gu_mengyu
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = gu_mengyu
+			available = {
+				has_country_leader = {
+					ruling_only = yes 
+					character = ROC_wang_jingwei
+				}
+			}
+			allowed = {
+				original_tag = ROC
+			}
+			traits = {
+				great_compromiser
+			}
+		}
+	}
+	#무소속
+	ROC_eugene_chen={
+		name=ROC_eugene_chen
+		portraits={
+			civilian={
+				small=GFX_idea_ROC_eugene_chen
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = eugene_chen
+			allowed = {
+				original_tag = ROC
+			}
+			traits = {
+				SWI_diplomat
+			}
+		}
+	}
+	ROC_zhang_dongsun={
+		name=ROC_zhang_dongsun
+		portraits={
+			civilian={
+				small=GFX_idea_ROC_zhang_dongsun
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = zhang_dongsun
+			allowed = {
+				original_tag = ROC
+			}
+			traits = {
+				political_specialist
+			}
+		}
+	}
+	ROC_zou_taofen={
+		name=ROC_zou_taofen
+		portraits={
+			civilian={
+				small=GFX_idea_ROC_zou_taofen
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = zou_taofen
+			allowed  = {
+				original_tag  = ROC
+			}
+			traits  = {
+				 liberal_journalist
+			}
+		}
+	}
+	ROC_li_zhangda={
+		name=ROC_li_zhangda
+		portraits={
+			civilian={
+				small=GFX_idea_ROC_li_zhangda
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = li_zhangda
+			available = {
+				has_intelligence_agency = yes
+			}
+			allowed = {
+				original_tag = ROC
+				has_dlc = "La Resistance" 
+			}
+			traits = {
+				head_of_intelligence
+			}
+		}
+	}
+	
+	### 이론가 ###
+	ROC_fujian_army_research={
+		name=joint_army_research
+		portraits={
+			army={
+				small=GFX_idea_Joint_army_research
+			}
+		}
+		advisor={
+			cost = 100
+			slot = theorist
+			idea_token = fujian_army_research
+			ledger = army
+			allowed = {
+				original_tag = ROC
+			}
+			traits = {
+				military_theorist
+			}
+		}
+	}
+	ROC_fujian_navy_research={
+		name=joint_navy_research
+		portraits={
+			army={
+				small=GFX_idea_Joint_navy_research
+			}
+		}
+		advisor={
+			cost = 100
+			slot = theorist
+			idea_token = fujian_navy_research
+			ledger = navy
+			allowed = {
+				original_tag = ROC
+			}
+			traits = {
+				naval_theorist
+			}
+		}
+	}
+	ROC_fujian_air_research={
+		name=joint_air_research
+		portraits={
+			army={
+				small=GFX_idea_Joint_air_research
+			}
+		}
+		advisor={
+			cost = 100
+			slot = theorist
+			idea_token = fujian_air_research
+			ledger = air
+			allowed = {
+				original_tag = ROC
+			}
+			traits = {
+				air_warfare_theorist
+			}
+		}
+	}
+	
+	### 육군참모총장 ###
+	ROC_cai_tingkai={
+		name=ROC_cai_tingkai
+		portraits={
+			army={
+				large=GFX_portrait_ROC_cai_tingkai
+				small=GFX_idea_ROC_cai_tingkai
+			}
+		}
+		advisor={
+			cost = 100
+			slot = army_chief
+			idea_token = cai_tingkai
+	    	allowed = {
+	    		original_tag = ROC
+	    	}
+	    	traits = {
+				army_chief_defensive_2
+			}
+		}
+		corps_commander = {
+			traits = {
+				career_officer
+				infantry_officer
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+	
+	### 해군참모총장 ###
+	ROC_li_qingwen = {
+		name=ROC_li_qingwen
+		portraits={
+			army={
+				large=GFX_portrait_ROC_li_qingwen
+				small=GFX_idea_ROC_li_qingwen
+			}
+		}
+		advisor={
+			slot = navy_chief
+			idea_token = li_qingwen
+		    allowed = {
+		    	original_tag = ROC
+	    	}
+		    traits = {
+				navy_chief_reform_1
+			}
+		}
+		navy_leader = {
+			traits = {
+				navy_career_officer
+				green_water_expert
+			}
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			maneuvering_skill = 3
+			coordination_skill = 1
+			legacy_id=-1
+		}
+	}
+	
+	### 공군참모총장 ###
+	ROC_liu_muqun = {
+		name=ROC_liu_muqun
+		portraits={
+			army={
+				small=GFX_idea_ROC_liu_muqun
+			}
+		}
+		advisor={
+			slot = air_chief
+			idea_token = liu_muqun
+	    	allowed = {
+		    	original_tag = ROC
+		    }
+		    traits = {
+				air_chief_safety_1
+			}
+		}
+	}
+	
+	### 최고사령부 ###
+	ROC_chen_jitang = {
+		name=ROC_chen_jitang
+		portraits={
+			army={
+				large=GFX_portrait_ROC_chen_jitang
+				small=GFX_idea_ROC_chen_jitang
+			}
+		}
+		advisor={
+			cost = 100
+			slot = high_command
+			idea_token = chen_jitang
+			ledger = army
+		    allowed = {
+		    	original_tag = ROC
+		    }
+		    traits = {
+				army_logistics_2
+			}
+		}
+		corps_commander={
+			traits = {
+				brilliant_strategist
+				career_officer
+				war_hero
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+	ROC_jiang_guangnai = {
+		name=ROC_jiang_guangnai
+		portraits={
+			army={
+				large=GFX_portrait_ROC_jiang_guangnai
+				small=GFX_idea_ROC_jiang_guangnai
+			}
+		}
+		advisor={
+			cost = 100
+			slot = high_command
+			idea_token = jiang_guangnai
+			ledger = army
+		    allowed = {
+		    	original_tag = ROC
+		    }
+		    traits = {
+				army_infantry_2
+			}
+		}
+		corps_commander={
+			traits = {
+				career_officer
+				infantry_officer
+				war_hero
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+	ROC_li_yangjing={
+		name=ROC_li_yangjing
+		portraits={
+			army={
+				large=GFX_portrait_ROC_li_yangjing
+				small=GFX_idea_ROC_li_yangjing
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = li_yangjing
+			ledger = army
+		    allowed = {
+		    	original_tag = ROC
+		    }
+		    traits = {
+				army_artillery_1
+			}
+		}
+		corps_commander={
+			traits = {
+				#
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+	ROC_li_zhilong = {
+		name=ROC_li_zhilong
+		portraits={
+			army={
+				large=GFX_portrait_ROC_li_zhilong
+				small=GFX_idea_ROC_li_zhilong
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = li_zhilong
+			ledger = navy
+		    allowed = {
+		    	original_tag = ROC
+		    }
+		    traits = {
+				navy_chief_maneuver_1
+			}
+		}
+		navy_leader={
+			traits = {
+				navy_career_officer
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+			legacy_id=-1
+		}
+	}
+	
+	### 육군 장성 ###
+	ROC_zhang_fakui={
+		name=ROC_zhang_fakui
+		portraits={
+			army={
+				large=GFX_portrait_ROC_zhang_fakui
+			}
+		}
+		corps_commander={
+			traits = {
+				harsh_leader
+				infantry_officer
+				war_hero
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
+			legacy_id=-1
+		}
+	}
+}

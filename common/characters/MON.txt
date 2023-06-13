@@ -1,15 +1,17 @@
 characters={
 	### 지도자 ###
-	MON_khorloogiin_choibalsan={
-		name=MON_khorloogiin_choibalsan
+	MON_peljidiin_genden={
+		name=MON_peljidiin_genden
 		portraits={
 			civilian={
-				large=GFX_portrait_MON_khorloogiin_choibalsan
+				large=GFX_portrait_MON_peljidiin_genden
 			}
 		}
 		country_leader={
-			ideology=stalinism
-			traits={ staunch_stalinist }
+			ideology=marxism
+			traits = {
+				#
+			}
 			expire="1960.1.1.1"
 			id=-1
 		}
@@ -23,7 +25,9 @@ characters={
 		}
 		country_leader={
 			ideology=conservatism
-			traits={ }
+			traits = {
+				#
+			}
 			expire="1960.1.1.1"
 			id=-1
 		}
@@ -37,7 +41,9 @@ characters={
 		}
 		country_leader={
 			ideology=fascism_ideology
-			traits={ }
+			traits = {
+				#
+			}
 			expire="1960.1.1.1"
 			id=-1
 		}
@@ -51,13 +57,38 @@ characters={
 		}
 		country_leader={
 			ideology=despotism
-			traits={ spirit_of_genghis }
+			traits = {
+				spirit_of_genghis
+			}
 			expire="1960.1.1.1"
 			id=-1
 		}
 	}
 	
 	### 정치고문 ###
+	MON_tserendorj={
+		name=MON_tserendorj
+		portraits={
+			civilian={
+				small=GFX_idea_MON_tserendorj
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = tserendorj
+			available = {
+				NOT = {
+					has_government = communism
+				}
+			}
+			allowed = {
+				original_tag = MON
+			}
+			traits = {
+				silent_workhorse
+			}
+		}
+	}
 	MON_altanochir={
 		name=MON_altanochir
 		portraits={
@@ -102,7 +133,7 @@ characters={
 				original_tag = MON
 			}
 			traits = {
-				the_academic
+				enlightened_academic
 			}
 		}
 	}
@@ -128,7 +159,7 @@ characters={
 		name=MON_anandyn_amar
 		portraits={
 			civilian={
-				small=GFX_idea_MON_anandyn_amar
+				small=GFX_idea_MON_anandyn_amar2
 			}
 		}
 		advisor={
@@ -139,6 +170,28 @@ characters={
 			}
 			traits = {
 				smooth_talking_charmer
+			}
+		}
+	}
+	MON_dorjjavyn_luvsansharav={
+		name=MON_dorjjavyn_luvsansharav
+		portraits={
+			civilian={
+				small=GFX_idea_MON_dorjjavyn_luvsansharav
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = dorjjavyn_luvsansharav
+			available = {
+				has_intelligence_agency = yes
+			}
+			allowed = {
+				original_tag = MON
+				has_dlc = "La Resistance" 
+			}
+			traits = {
+				head_of_intelligence
 			}
 		}
 	}
@@ -217,17 +270,24 @@ characters={
 		advisor={
 			slot = army_chief
 			idea_token = manlaibaatar_damdinsuren
-	    	allowed = {
+	    	available = {
+				NOT = {
+					has_government = communism
+				}
+			}
+			allowed = {
 	    		original_tag = MON
 	    	}
 	    	traits = {
 				army_chief_planning_1
 			}
-	    	ai_will_do = {
-	    		factor = 1
-	    	}
 		}
 		field_marshal={
+			visible = {
+                NOT = {
+					has_government = communism
+				}
+            }
 			traits = {
 				old_guard
 				war_hero
@@ -251,17 +311,24 @@ characters={
 		advisor={
 			slot = army_chief
 			idea_token = khatanbaatar_magsarjav
-	    	allowed = {
+	    	available = {
+				NOT = {
+					has_government = communism
+				}
+			}
+			allowed = {
 	    		original_tag = MON
 	    	}
 	    	traits = {
 				army_chief_morale_1
 			}
-	    	ai_will_do = {
-	    		factor = 1
-	    	}
 		}
 		corps_commander={
+			visible = {
+                NOT = {
+					has_government = communism
+				}
+            }
 			traits = {
 				cavalry_officer
 				war_hero
@@ -273,6 +340,43 @@ characters={
 			defense_skill = 1
 			planning_skill = 3
 			logistics_skill = 1
+			legacy_id=-1
+		}
+	}
+	MON_khorloogiin_choibalsan={
+		name=MON_khorloogiin_choibalsan
+		portraits={
+			army={
+				large=GFX_portrait_MON_khorloogiin_choibalsan
+				small=GFX_idea_MON_khorloogiin_choibalsan
+			}
+		}
+		advisor={
+			cost = 200
+			slot = army_chief
+			idea_token = khorloogiin_choibalsan
+		    available = {
+                has_government = communism
+            }
+			allowed = {
+		    	original_tag = MON
+	    	}
+		    traits = {
+				army_chief_morale_3
+			}
+		}
+		field_marshal={
+			visible = {
+                has_government = communism
+            }
+			traits = {
+				inspirational_leader
+			}
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
 			legacy_id=-1
 		}
 	}
@@ -294,9 +398,6 @@ characters={
 		    traits = {
 				navy_chief_reform_1
 			}
-		    ai_will_do = {
-		    	factor = 1
-		    }
 		}
 	}
 	
@@ -305,25 +406,31 @@ characters={
 		name=MON_li_shouxin
 		portraits={
 			army={
-				large=GFX_portrait_MON_li_shouxin
-				small=GFX_idea_MON_li_shouxin
+				large=GFX_portrait_asia_generic_land_13
+				small=GFX_idea_asia_generic_land_13
 			}
 		}
 		advisor={
 			slot = air_chief
 			idea_token = li_shouxin
-			
+			available = {
+				NOT = {
+					has_government = communism
+				}
+			}
 	    	allowed = {
 		    	original_tag = MON
 		    }
 		    traits = {
 				air_chief_safety_1
 			}
-		    ai_will_do = {
-		    	factor = 1
-		    }
 		}
 		corps_commander={
+			visible = {
+                NOT = {
+					has_government = communism
+				}
+            }
 			traits = {
 				cavalry_officer
 				organizer
@@ -334,6 +441,27 @@ characters={
 			planning_skill = 2
 			logistics_skill = 3
 			legacy_id=-1
+		}
+	}
+	MON_mongolia_air_department = {
+		name=joint_air_department
+		portraits={
+			army={
+				small=GFX_idea_Joint_air_department
+			}
+		}
+		advisor={
+			slot = air_chief
+			idea_token = mongolia_air_department
+		    visible = {
+                has_government = communism
+            }
+			allowed = {
+		    	original_tag = MON
+	    	}
+		    traits = {
+				air_chief_reform_1
+			}
 		}
 	}
 	
@@ -350,6 +478,11 @@ characters={
 			slot = high_command
 			idea_token = urzhin_garmaev
 			ledger = army
+			available = {
+				NOT = {
+					has_government = communism
+				}
+			}
 		    allowed = {
 		    	original_tag = MON
 		    }
@@ -358,6 +491,11 @@ characters={
 			}
 		}
 		corps_commander={
+			visible = {
+                NOT = {
+					has_government = communism
+				}
+            }
 			traits = {
 				media_personality
 				organizer
@@ -374,8 +512,8 @@ characters={
 		name=MON_darijaya
 		portraits={
 			army={
-				large=GFX_portrait_MON_darijaya
-				small=GFX_idea_MON_darijaya
+				large=GFX_portrait_asia_generic_land_14
+				small=GFX_idea_asia_generic_land_14
 			}
 		}
 		advisor={
@@ -430,6 +568,82 @@ characters={
 			defense_skill = 1
 			planning_skill = 1
 			logistics_skill = 1
+			legacy_id=-1
+		}
+	}
+	MON_yumjaagiin_tsedenbal={
+		name=MON_yumjaagiin_tsedenbal
+		portraits={
+			army={
+				large=GFX_portrait_MON_yumjaagiin_tsedenbal
+				small=GFX_idea_MON_yumjaagiin_tsedenbal
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = yumjaagiin_tsedenbal
+			ledger = army
+		    available = {
+                has_government = communism
+            }
+			allowed = {
+		    	original_tag = MON
+		    }
+		    traits = {
+				army_logistics_1
+			}
+		}
+		corps_commander={
+			visible = {
+                has_government = communism
+            }
+			traits = {
+				politically_connected
+			}
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+	MON_gelegdorjiin_demid={
+		name=MON_gelegdorjiin_demid
+		portraits={
+			army={
+				large=GFX_portrait_MON_gelegdorjiin_demid
+				small=GFX_idea_MON_gelegdorjiin_demid
+			}
+		}
+		advisor={
+			cost = 100
+			slot = high_command
+			idea_token = gelegdorjiin_demid
+			ledger = army
+		    available = {
+                has_government = communism
+            }
+			allowed = {
+		    	original_tag = MON
+		    }
+		    traits = {
+				army_CombinedArms_2
+			}
+		}
+		corps_commander={
+			visible = {
+                has_government = communism
+            }
+			traits = {
+				organisational_leader
+				cavalry_leader
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
 			legacy_id=-1
 		}
 	}

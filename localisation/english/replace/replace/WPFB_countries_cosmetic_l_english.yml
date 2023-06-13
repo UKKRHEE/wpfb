@@ -55,6 +55,36 @@
  JAP_republic_neutrality_DEF:0 "일본 군사정부"
  JAP_republic_neutrality_ADJ:0 "일본"
  
+ SHX_guominjun:0 "국민군"
+ SHX_guominjun_DEF:0 "국민군"
+ SHX_guominjun_ADJ:0 "국민군"
+ 
+ beijing_government_communism:0 "중화민국 인민정부"
+ beijing_government_communism_DEF:0 "중화민국 인민정부"
+ beijing_government_communism_ADJ:0 "중국"
+ beijing_government_democratic:0 "중화민국 민주정부"
+ beijing_government_democratic_DEF:0 "중화민국 민주정부"
+ beijing_government_democratic_ADJ:0 "중국"
+ beijing_government_fascism:0 "중화민국 북경정부"
+ beijing_government_fascism_DEF:0 "중화민국 북경정부"
+ beijing_government_fascism_ADJ:0 "중국"
+ beijing_government_neutrality:0 "중화민국 북경정부"
+ beijing_government_neutrality_DEF:0 "중화민국 북경정부"
+ beijing_government_neutrality_ADJ:0 "중국"
+ 
+ zhongyuan_government_communism:0 "중화민국 인민정부"
+ zhongyuan_government_communism_DEF:0 "중화민국 인민정부"
+ zhongyuan_government_communism_ADJ:0 "중국"
+ zhongyuan_government_democratic:0 "중화민국 민주정부"
+ zhongyuan_government_democratic_DEF:0 "중화민국 민주정부"
+ zhongyuan_government_democratic_ADJ:0 "중국"
+ zhongyuan_government_fascism:0 "중화민국 중원정부"
+ zhongyuan_government_fascism_DEF:0 "중화민국 중원정부"
+ zhongyuan_government_fascism_ADJ:0 "중국"
+ zhongyuan_government_neutrality:0 "중화민국 중원정부"
+ zhongyuan_government_neutrality_DEF:0 "중화민국 중원정부"
+ zhongyuan_government_neutrality_ADJ:0 "중국"
+ 
  china_greater_communism:0 "대중화인민공화국"
  china_greater_communism_DEF:0 "대중화인민공화국"
  china_greater_communism_ADJ:0 "대중공"
@@ -80,19 +110,6 @@
  china_small_neutrality:0 "중화민국"
  china_small_neutrality_DEF:0 "중화민국"
  china_small_neutrality_ADJ:0 "중국"
- 
- china_federalist_communism:0 "중화사회주의합중국연방"
- china_federalist_communism_DEF:0 "중화사회주의합중국연방"
- china_federalist_communism_ADJ:0 "중련"
- china_federalist_democratic:0 "중화합중국"
- china_federalist_democratic_DEF:0 "중화합중국"
- china_federalist_democratic_ADJ:0 "중화합중국"
- china_federalist_fascism:0 "중화연방국"
- china_federalist_fascism_DEF:0 "중화연방국"
- china_federalist_fascism_ADJ:0 "중화연방국"
- china_federalist_neutrality:0 "중화합중국"
- china_federalist_neutrality_DEF:0 "중화합중국"
- china_federalist_neutrality_ADJ:0 "중화합중국"
 
  china_ming_neutrality:0 "명나라"
  china_ming_neutrality_DEF:0 "명나라"
@@ -144,76 +161,4 @@
  TIB_QIN_neutrality_subject:0 "티베트"
  TIB_QIN_neutrality_subject_DEF:0 "티베트"
  TIB_QIN_neutrality_subject_ADJ:0 "티베트"
- 
- #############
- ### 국민당ㅡ ###
- #############
- 
- ZLC_autonomy:0 "즈리 자치구"
- ZLC_autonomy_DEF:0 "즈리 자치구"
- ZLC_autonomy_ADJ:0 "즈리 자치구"
- 
- NJC_autonomy:0 "장난 자치구"
- NJC_autonomy_DEF:0 "장난 자치구"
- NJC_autonomy_ADJ:0 "장난 자치구"
- 
- GXC_autonomy:0 "광시 자치구"
- GXC_autonomy_DEF:0 "광시 자치구"
- GXC_autonomy_ADJ:0 "광시 자치구"
- 
- SCC_autonomy:0 "쓰촨 자치구"
- SCC_autonomy_DEF:0 "쓰촨 자치구"
- SCC_autonomy_ADJ:0 "쓰촨 자치구"
- 
- YUN_autonomy:0 "윈난 자치구"
- YUN_autonomy_DEF:0 "윈난 자치구"
- YUN_autonomy_ADJ:0 "윈난 자치구"
- 
- HNC_autonomy:0 "후난 자치구"
- HNC_autonomy_DEF:0 "후난 자치구"
- HNC_autonomy_ADJ:0 "후난 자치구"
- 
- SHX_autonomy:0 "산시 자치구"
- SHX_autonomy_DEF:0 "산시 자치구"
- SHX_autonomy_ADJ:0 "산시 자치구"
- 
- XSM_autonomy:0 "후이장 자치구"
- XSM_autonomy_DEF:0 "후이장 자치구"
- XSM_autonomy_ADJ:0 "후이장 자치구"
- 
- #############
- ### 치공당ㅡ ###
- #############
- 
- ZLC_federalist:0 "즈리 자치성"
- ZLC_federalist_DEF:0 "즈리 자치성"
- ZLC_federalist_ADJ:0 "즈리 자치성"
- 
- NJC_federalist:0 "장난 자치성"
- NJC_federalist_DEF:0 "장난 자치성"
- NJC_federalist_ADJ:0 "장난 자치성"
- 
- GXC_federalist:0 "광시 자치성"
- GXC_federalist_DEF:0 "광시 자치성"
- GXC_federalist_ADJ:0 "광시 자치성"
- 
- SCC_federalist:0 "쓰촨 자치성"
- SCC_federalist_DEF:0 "쓰촨 자치성"
- SCC_federalist_ADJ:0 "쓰촨 자치성"
- 
- YUN_federalist:0 "윈난 자치성"
- YUN_federalist_DEF:0 "윈난 자치성"
- YUN_federalist_ADJ:0 "윈난 자치성"
- 
- HNC_federalist:0 "후난 자치성"
- HNC_federalist_DEF:0 "후난 자치성"
- HNC_federalist_ADJ:0 "후난 자치성"
- 
- SHX_federalist:0 "산시 자치성"
- SHX_federalist_DEF:0 "산시 자치성"
- SHX_federalist_ADJ:0 "산시 자치성"
- 
- XSM_federalist:0 "후이장 자치성"
- XSM_federalist_DEF:0 "후이장 자치성"
- XSM_federalist_ADJ:0 "후이장 자치성"
  

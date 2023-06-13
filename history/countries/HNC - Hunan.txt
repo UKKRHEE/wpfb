@@ -22,24 +22,19 @@ set_popularities = {
 }
 
 ### 지도자 ###
-recruit_character = HNC_ccp
-recruit_character = HNC_chen_jiongming
-recruit_character = HNC_zhao_hengti
+recruit_character = HNC_he_shuheng
+recruit_character = HNC_tang_shengzhi
 
 ### 정치고문 ###
-recruit_character = HNC_chen_yansheng
 recruit_character = HNC_hu_shuhua
-recruit_character = HNC_cao_bowen
+recruit_character = HNC_luo_shujia
 recruit_character = HNC_yi_peiji
-recruit_character = HNC_wang_zhi
+recruit_character = HNC_hunan_security
 
 ### 이론가 ###
 recruit_character = HNC_hunan_army_research
 recruit_character = HNC_hunan_navy_research
 recruit_character = HNC_hunan_air_research
-
-### 육군참모총장 ###
-recruit_character = HNC_tang_shengzhi
 
 ### 해군참모총장 ###
 recruit_character = HNC_hunan_navy_department
@@ -51,6 +46,8 @@ recruit_character = HNC_liu_zhesheng
 recruit_character = HNC_he_yaozu
 recruit_character = HNC_he_jian
 recruit_character = HNC_chen_mingren
+recruit_character = HNC_liao_yaoxiang
+recruit_character = HNC_men_bingyue
 
 ### 육군 장성 ###
 recruit_character = HNC_tang_shengming

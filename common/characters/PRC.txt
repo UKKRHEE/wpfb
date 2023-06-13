@@ -1,0 +1,615 @@
+characters={
+	### 지도자 ###
+	PRC_mao_zedong={
+		name=PRC_mao_zedong
+		portraits={
+			army={
+				large="GFX_portrait_prc_mao_zedong"
+				small=GFX_portrait_PRC_mao_zedong_small
+			}
+			civilian={
+				large="GFX_portrait_prc_mao_zedong"
+				small=GFX_portrait_PRC_mao_zedong_small
+			}
+		}
+		country_leader={
+			ideology=marxism
+			traits = {
+				cornered_fox
+			}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	PRC_chen_duxiu={
+		name=PRC_chen_duxiu
+		portraits={
+			civilian={
+				large=GFX_portrait_PRC_chen_duxiu
+			}
+		}
+		country_leader={
+			ideology=socialism
+			traits = {
+				#
+			}
+			expire="1960.1.1.1"
+			id=-1
+		}
+	}
+	PRC_cmc={
+		name=PRC_cmc
+		portraits={
+			civilian={
+				large=GFX_portrait_China_ccp
+			}
+		}
+		country_leader={
+			ideology=fascism_ideology
+			traits = {
+				#
+			}
+			expire="1965.1.1.1"
+			id=-1
+		}
+		country_leader={
+			ideology=despotism
+			traits = {
+				#
+			}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	
+	### 정치고문 ###
+	PRC_zhou_enlai={
+		name=PRC_zhou_enlai
+		portraits={
+			civilian={
+				large=GFX_portrait_PRC_zhou_enlai
+				small="GFX_idea_PRC_zhou_enlai"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = zhou_enlai
+			allowed = {
+				original_tag = PRC
+			}
+			traits = {
+				compassionate_gentleman
+			}
+		}
+	}
+	PRC_liu_shaoqi={
+		name=PRC_liu_shaoqi
+		portraits={
+			civilian={
+				small="GFX_idea_PRC_liu_shaoqi"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = liu_shaoqi
+			allowed = {
+				original_tag = PRC
+			}
+			traits = {
+				guerilla_warfare_expert
+			}
+		}
+	}
+	PRC_deng_xiaoping={
+		name=PRC_deng_xiaoping
+		portraits={
+			civilian={
+				small="GFX_idea_PRC_deng_xiaoping"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = deng_xiaoping
+			allowed = {
+				original_tag = PRC
+			}
+			traits = {
+				captain_of_industry
+			}
+		}
+	}
+	PRC_dong_biwu={
+		name=PRC_dong_biwu
+		portraits={
+			civilian={
+				small="GFX_idea_PRC_dong_biwu"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = dong_biwu
+			allowed = {
+				original_tag = PRC
+			}
+			traits = {
+				popular_figurehead
+			}
+		}
+	}
+	PRC_xu_teli={
+		name=PRC_xu_teli
+		portraits={
+			civilian={
+				small=GFX_idea_PRC_xu_teli
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = xu_teli
+			allowed = {
+				original_tag = PRC
+			}
+			traits = {
+				education_reformer
+			}
+		}
+	}
+	PRC_ren_bishi={
+		name=PRC_ren_bishi
+		portraits={
+			civilian={
+				small=GFX_idea_PRC_ren_bishi
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = ren_bishi
+			allowed = {
+				original_tag = PRC
+			}
+			traits = {
+				political_commissar
+			}
+		}
+	}
+	PRC_lin_boqu={
+		name=PRC_lin_boqu
+		portraits={
+			civilian={
+				small=GFX_idea_PRC_lin_boqu
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = lin_boqu
+			allowed = {
+				original_tag = PRC
+			}
+			traits = {
+				financial_expert
+			}
+		}
+	}
+	PRC_deng_fa={
+		name=PRC_deng_fa
+		portraits={
+			civilian={
+				small=GFX_idea_PRC_deng_fa
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = deng_fa
+			available = {
+				has_intelligence_agency = yes
+			}
+			allowed = {
+				original_tag = PRC
+				has_dlc = "La Resistance" 
+			}
+			traits = {
+				head_of_intelligence
+			}
+		}
+	}
+	
+	### 이론가 ###
+	PRC_liu_bocheng={
+		name=PRC_liu_bocheng
+		portraits={
+			army={
+				large=GFX_portrait_PRC_liu_bocheng
+				small="GFX_idea_PRC_liu_bocheng"
+			}
+		}
+		advisor={
+			cost = 100
+			slot = theorist
+			idea_token = PRC_liu_bocheng
+			ledger = army
+			allowed = {
+				original_tag = PRC
+			}
+			traits = {
+				military_theorist
+			}
+		}
+	}
+	PRC_ccp_navy_research={
+		name=joint_navy_research
+		portraits={
+			army={
+				small=GFX_idea_Joint_navy_research
+			}
+		}
+		advisor={
+			cost = 100
+			slot = theorist
+			idea_token = ccp_navy_research
+			ledger = navy
+			allowed = {
+				original_tag = PRC
+			}
+			traits = {
+				naval_theorist
+			}
+		}
+	}
+	PRC_ccp_air_research={
+		name=joint_air_research
+		portraits={
+			army={
+				small=GFX_idea_Joint_air_research
+			}
+		}
+		advisor={
+			cost = 100
+			slot = theorist
+			idea_token = ccp_air_research
+			ledger = air
+			allowed = {
+				original_tag = PRC
+			}
+			traits = {
+				air_warfare_theorist
+			}
+		}
+	}
+	
+	### 육군참모총장 ###
+	PRC_zhu_de={
+		name=PRC_zhu_de
+		portraits={
+			army={
+				large="GFX_portrait_prc_zhu_de"
+				small="GFX_idea_PRC_zhu_de"
+			}
+		}
+		advisor={
+			cost = 200
+			slot = army_chief
+			idea_token = zhu_de
+			allowed = {
+				original_tag = PRC
+			}
+			traits = {
+				army_chief_morale_3
+			}
+		}
+		field_marshal={
+			traits = {
+				infantry_officer
+				organizer
+			}
+			skill = 4
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 4
+			legacy_id=-1
+		}
+	}
+	PRC_peng_dehuai={
+		name=PRC_peng_dehuai
+		portraits={
+			army={
+				large="GFX_portrait_prc_peng_dehuai"
+				small=GFX_portrait_PRC_peng_dehuai_small
+			}
+		}
+		advisor={
+			cost = 200
+			slot = army_chief
+			idea_token = peng_dehuai
+			allowed = {
+				original_tag = PRC
+			}
+			traits = {
+				army_chief_organizational_3
+			}
+		}
+		field_marshal={
+			traits = {
+				infantry_officer
+				aggressive_assaulter
+				organisational_leader
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id=-1
+		}
+	}
+	
+	### 해군참모총장 ###
+	PRC_xiao_jinguang = {
+		name=PRC_xiao_jinguang
+		portraits={
+			army={
+				large=GFX_portrait_PRC_xiao_jinguang
+				small=GFX_idea_PRC_xiao_jinguang
+			}
+		}
+		advisor={
+			slot = navy_chief
+			idea_token = xiao_jinguang
+		    allowed = {
+		    	original_tag = PRC
+	    	}
+		    traits = {
+				navy_chief_commerce_raiding_1
+			}
+		}
+		navy_leader={
+			traits = {
+				#
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 3
+			maneuvering_skill = 2
+			coordination_skill = 3
+			legacy_id=-1
+		}
+	}
+	
+	### 공군참모총장 ###
+	PRC_liu_yalou = {
+		name=PRC_liu_yalou
+		portraits={
+			army={
+				small=GFX_idea_PRC_liu_yalou
+			}
+		}
+		advisor={
+			slot = air_chief
+			idea_token = liu_yalou
+	    	allowed = {
+		    	original_tag = PRC
+		    }
+		    traits = {
+				air_chief_ground_support_1
+			}
+		}
+	}
+	
+	### 최고사령부 ###
+	PRC_lin_biao={
+		name=PRC_lin_biao
+		portraits={
+			army={
+				large=GFX_portrait_PRC_lin_biao2
+				small=GFX_idea_PRC_lin_biao
+			}
+		}
+		advisor={
+			cost = 200
+			slot = high_command
+			idea_token = lin_biao
+			ledger = army
+	    	allowed = {
+	    		original_tag = PRC
+	    	}
+	    	traits = {
+				army_infantry_3
+			}
+		}
+		corps_commander={
+			traits = {
+				brilliant_strategist
+				career_officer
+				infantry_officer
+				skilled_staffer
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 3
+			legacy_id=-1
+		}
+	}
+	PRC_chen_yi={
+		name=PRC_chen_yi
+		portraits={
+			army={
+				large="GFX_portrait_prc_chen_yi"
+				small=GFX_portrait_PRC_chen_yi_small
+			}
+		}
+		advisor={
+			cost = 100
+			slot = high_command
+			idea_token = PRC_chen_yi
+			ledger = army
+	    	allowed = {
+	    		original_tag = PRC
+	    	}
+	    	traits = {
+				army_regrouping_2
+			}
+		}
+	}
+	PRC_luo_ronghuan={
+		name=PRC_luo_ronghuan
+		portraits={
+			army={
+				large=GFX_portrait_PRC_luo_ronghuan
+				small=GFX_idea_PRC_luo_ronghuan
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = luo_ronghuan
+			ledger = army
+	    	allowed = {
+	    		original_tag = PRC
+	    	}
+	    	traits = {
+				army_concealment_1
+			}
+		}
+		corps_commander={
+			traits = {
+				politically_connected
+			}
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 4
+			legacy_id=-1
+		}
+	}
+	PRC_xu_xiangqian={
+		name=PRC_xu_xiangqian
+		portraits={
+			army={
+				large=GFX_portrait_PRC_xu_xiangqian
+				small=GFX_idea_PRC_xu_xiangqian2
+			}
+		}
+		advisor={	
+			cost = 100
+			slot = high_command
+			idea_token = xu_xiangqian
+			ledger = army
+			allowed = {
+				original_tag = PRC
+			}
+			traits = {
+				army_entrenchment_2
+			}
+		}
+	}
+	PRC_nie_rongzhen={
+		name=PRC_nie_rongzhen
+		portraits={
+			army={
+				large=GFX_portrait_PRC_nie_rongzhen
+				small=GFX_idea_PRC_nie_rongzhen
+			}
+		}
+		advisor={
+			cost = 100
+			slot = high_command
+			idea_token = nie_rongzhen
+			ledger = army
+	    	allowed = {
+	    		original_tag = PRC
+	    	}
+	    	traits = {
+				army_logistics_2
+			}
+		}
+		corps_commander={
+			traits = {
+				career_officer
+			}
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id=-1
+		}
+	}
+	PRC_su_yu={
+		name=PRC_su_yu
+		portraits={
+			army={
+				large=GFX_portrait_PRC_su_yu
+				small="GFX_idea_PRC_su_yu"
+			}
+		}
+		advisor={
+			cost = 100
+			slot = high_command
+			idea_token = su_yu
+			ledger = army
+	    	allowed = {
+	    		original_tag = PRC
+	    	}
+	    	traits = {
+				army_CombinedArms_2
+			}
+		}
+	}
+	PRC_chen_geng={
+		name=PRC_chen_geng
+		portraits={
+			army={
+				large=GFX_portrait_PRC_chen_geng
+				small="GFX_idea_PRC_chen_geng"
+			}
+		}
+		advisor={
+			cost = 100
+			slot = high_command
+			idea_token = chen_geng
+			ledger = army
+	    	allowed = {
+	    		original_tag = PRC
+	    	}
+	    	traits = {
+				army_commando_2
+			}
+		}
+		corps_commander={
+			traits = {
+				#
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id=-1
+		}
+	}
+	
+	### 육군 장성 ###
+	PRC_ye_jianying={
+		name=PRC_ye_jianying
+		portraits={
+			army={
+				large=GFX_portrait_PRC_ye_jianying
+				small=GFX_idea_PRC_ye_jianying
+			}
+		}
+		corps_commander={
+			traits = {
+				career_officer
+				organizer
+			}
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 3
+			legacy_id=-1
+		}
+	}
+}
