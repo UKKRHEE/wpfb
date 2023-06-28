@@ -18,62 +18,6 @@ add_ideas = {
 	JAP_militarism
 }
 
-609 = {
-	start_resistance = yes
-	set_compliance = 5
-	set_resistance = 5
-	set_garrison_strength = 1.0
-}
-
-527 = {
-	start_resistance = yes
-	set_compliance = 5
-	set_resistance = 5
-	set_garrison_strength = 1.0
-}
-
-525 = {
-	start_resistance = yes
-	set_compliance = 5
-	set_resistance = 5
-	set_garrison_strength = 1.0
-}
-
-745 = {
-	start_resistance = yes
-	set_compliance = 5
-	set_resistance = 5
-	set_garrison_strength = 1.0
-}
-
-524 = {
-	start_resistance = yes
-	set_compliance = 5
-	set_resistance = 5
-	set_garrison_strength = 1.0
-}
-
-647 = {
-	start_resistance = yes
-	set_compliance = 20
-	set_resistance = 0
-	set_garrison_strength = 1.0
-}
-
-684 = {
-	start_resistance = yes
-	set_compliance = 20
-	set_resistance = 0
-	set_garrison_strength = 1.0
-}
-
-633 = {
-	start_resistance = yes
-	set_compliance = 20
-	set_resistance = 0
-	set_garrison_strength = 1.0
-}
-
 if = {
 	limit = { has_dlc = "Waking the Tiger" }
 	add_ideas = {
@@ -439,49 +383,71 @@ recruit_character = JAP_emperor_hirohito
 recruit_character = JAP_tokugawa_iesato
 
 ### 정치고문 ###
+#조건 없음
 recruit_character = JAP_chiune_sugihara
+#반공주의
 recruit_character = JAP_takuo_godo
 recruit_character = JAP_fujiwara_ginjiro
 recruit_character = JAP_kishi_nobusuke
+#공산주의
 recruit_character = JAP_sanzo_nosaka
 recruit_character = JAP_miyamoto_kenji
 recruit_character = JAP_takano_minoru
+#민주주의
 recruit_character = JAP_kijuro_shidehara
 recruit_character = JAP_ishibashi_tanzan
 recruit_character = JAP_ozaki_yukio
+#파시즘
 recruit_character = JAP_kingoro_hashimoto
-recruit_character = JAP_keisuke_fujie
+#정보기관
+recruit_character = JAP_kenji_doihara
+recruit_character = JAP_japan_security
 
 ### 이론가 ###
+#통제파
 recruit_character = JAP_hisaichi_terauchi
+#황도파
 recruit_character = JAP_obata_toshiro
+#반공주의
 recruit_character = JAP_isoroku_yamamoto
 recruit_character = JAP_minoru_genda
 recruit_character = JAP_yoshitoshi_tokugawa
+#조건 없음
 recruit_character = JAP_hino_kumazo
 recruit_character = JAP_yoshio_nishina
 recruit_character = JAP_hideo_itokawa
 
 ### 육군참모총장 ###
+#조건 없음
 recruit_character = JAP_kanin_kotohito
 recruit_character = JAP_iwane_matsui
+#황도파
 recruit_character = JAP_tomoyuki_yamashita
+#통제파
 recruit_character = JAP_hideki_tojo
-recruit_character = JAP_hitoshi_imamura
+#공산주의
+recruit_character = JAP_hitoshi_imamura2
 
 ### 해군참모총장 ###
+#반공주의
 recruit_character = JAP_fushimi_hiroyasu
 recruit_character = JAP_osami_nagano
 recruit_character = JAP_shigetaro_shimada
-recruit_character = JAP_jisaburo_ozawa
+#공산주의
+recruit_character = JAP_jisaburo_ozawa2
 
 ### 공군참모총장 ###
+#반공주의
 recruit_character = JAP_torashiro_kawabe
 recruit_character = JAP_korechika_anami
+#공산주의
+recruit_character = JAP_yoshitoshi_tokugawa2
 
 ### 최고사령부 ###
-recruit_character = JAP_shunroku_hata
+#반공주의, 반민주주의
 recruit_character = JAP_yasuji_okamura
+#반공주의
+recruit_character = JAP_shunroku_hata
 recruit_character = JAP_soemu_toyoda
 recruit_character = JAP_mitsuo_fuchida
 recruit_character = JAP_nishizo_tsukahara
@@ -490,10 +456,16 @@ recruit_character = JAP_matome_ugaki
 recruit_character = JAP_chuichi_nagumo
 recruit_character = JAP_otozo_yamada
 recruit_character = JAP_harukichi_hyakutake
+#공산주의
+recruit_character = JAP_miyazaki_shigesaburo
+recruit_character = JAP_kimura_masatomi
+recruit_character = JAP_japan_logistics
 
 ### 육군 장성 ###
 recruit_character = JAP_shizuichi_tanaka
 recruit_character = JAP_kenkichi_ueda
+recruit_character = JAP_keisuke_fujie
+recruit_character = JAP_hitoshi_imamura
 recruit_character = JAP_toshizo_nishio
 recruit_character = JAP_rikichi_ando
 recruit_character = JAP_naruhiko_higashikuni
@@ -509,10 +481,10 @@ recruit_character = JAP_jo_iimura
 recruit_character = JAP_masatane_kanda
 recruit_character = JAP_kuniaki_koiso
 recruit_character = JAP_kanji_ishiwara
-recruit_character = JAP_kenji_doihara
 recruit_character = JAP_shigeru_honjo
 
 ### 해군 제독 ###
+recruit_character = JAP_jisaburo_ozawa
 recruit_character = JAP_mineichi_koga
 recruit_character = JAP_nobutake_kondo
 recruit_character = JAP_takeo_takagi

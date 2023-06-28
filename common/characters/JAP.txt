@@ -72,7 +72,8 @@ characters = {
 		name=JAP_chiune_sugihara
 		portraits={
 			civilian={
-				small=GFX_idea_generic_political_advisor_asia_3
+				large=GFX_portrait_JAP_chiune_sugihara
+				small=GFX_idea_JAP_chiune_sugihara
 			}
 		}
 		advisor={
@@ -98,7 +99,7 @@ characters = {
 		advisor={
 			slot = political_advisor
 			idea_token = takuo_godo
-			available = {
+			visible = {
                 NOT = {
 					has_government = communism
 				}
@@ -121,7 +122,7 @@ characters = {
 		advisor={
 			slot = political_advisor
 			idea_token = fujiwara_ginjiro
-			available = {
+			visible = {
                 NOT = {
 					has_government = communism
 				}
@@ -144,7 +145,7 @@ characters = {
 		advisor={
 			slot = political_advisor
 			idea_token = kishi_nobusuke
-			available = {
+			visible = {
                 NOT = {
 					has_government = communism
 				}
@@ -169,7 +170,7 @@ characters = {
 		advisor={
 			slot = political_advisor
 			idea_token = sanzo_nosaka
-			available = {
+			visible = {
 				has_government = communism
 			}
 			allowed = {
@@ -184,13 +185,14 @@ characters = {
 		name=JAP_miyamoto_kenji
 		portraits={
 			civilian={
+				large=GFX_portrait_JAP_miyamoto_kenji
 				small=GFX_idea_JAP_miyamoto_kenji
 			}
 		}
 		advisor={
 			slot = political_advisor
 			idea_token = miyamoto_kenji
-			available = {
+			visible = {
 				has_government = communism
 			}
 			allowed = {
@@ -205,13 +207,14 @@ characters = {
 		name=JAP_takano_minoru
 		portraits={
 			civilian={
-				small=GFX_idea_asia_generic_communism
+				large=GFX_portrait_JAP_takano_minoru
+				small=GFX_idea_JAP_takano_minoru
 			}
 		}
 		advisor={
 			slot = political_advisor
 			idea_token = takano_minoru
-			available = {
+			visible = {
 				has_government = communism
 			}
 			allowed = {
@@ -234,7 +237,7 @@ characters = {
 		advisor={
 			slot = political_advisor
 			idea_token = kijuro_shidehara
-			available = {
+			visible = {
 				has_government = democratic
 			}
 			allowed = {
@@ -249,14 +252,14 @@ characters = {
 		name=JAP_ishibashi_tanzan
 		portraits={
 			civilian={
-				large=GFX_portrait_JAP_Ishibashi_Tanzan
+				large=GFX_portrait_JAP_ishibashi_tanzan
 				small=GFX_idea_JAP_ishibashi_tanzan
 			}
 		}
 		advisor={
 			slot = political_advisor
 			idea_token = ishibashi_tanzan
-			available = {
+			visible = {
 				has_government = democratic
 			}
 			allowed = {
@@ -271,20 +274,21 @@ characters = {
 		name=JAP_ozaki_yukio
 		portraits={
 			civilian={
-				small=GFX_idea_asia_generic_democracy
+				large=GFX_portrait_JAP_ozaki_yukio
+				small=GFX_idea_JAP_ozaki_yukio
 			}
 		}
 		advisor={
 			slot = political_advisor
 			idea_token = ozaki_yukio
-			available = {
+			visible = {
 				has_government = democratic
 			}
 			allowed = {
 				original_tag = JAP
 			}
 			traits = {
-				staunch_constitutionalist
+				great_compromiser
 			}
 		}
 	}
@@ -300,7 +304,7 @@ characters = {
 		advisor={
 			slot = political_advisor
 			idea_token = kingoro_hashimoto
-			available = {
+			visible = {
 				has_government = fascism
 			}
 			allowed = {
@@ -313,17 +317,22 @@ characters = {
 	}
 	
 	### 정치고문/정보기관 ###
-	JAP_keisuke_fujie={
-		name=JAP_keisuke_fujie
+	JAP_kenji_doihara={
+		name=JAP_kenji_doihara
 		portraits={
 			army={
-				large=GFX_portrait_JAP_keisuke_fujie
-				small=GFX_portrait_JAP_keisuke_fujie_small
+				large=GFX_portrait_JAP_kenji_doihara
+				small=GFX_idea_JAP_kenji_doihara2
 			}
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = keisuke_fujie
+			idea_token = kenji_doihara
+			visible = {
+				NOT = {
+					has_government = communism
+				}
+			}
 			available = {
 				has_intelligence_agency = yes
 			}
@@ -336,17 +345,46 @@ characters = {
 			}
 		}
 		corps_commander={
+			visible = {
+                NOT = {
+					has_government = communism
+				}
+            }
 			traits = {
 				career_officer
-				politically_connected
-				fortress_buster
+				substance_abuser
 			}
-			skill = 3
+			skill = 1
 			attack_skill = 1
-			defense_skill = 3
-			planning_skill = 3
-			logistics_skill = 3
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
 			legacy_id=-1
+		}
+	}
+	JAP_japan_security={
+		name=joint_security
+		portraits={
+			civilian={
+				small=GFX_idea_Joint_security
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = japan_security
+			visible = {
+				has_government = communism
+			}
+			available = {
+				has_intelligence_agency = yes
+			}
+			allowed = {
+				original_tag = JAP
+				has_dlc = "La Resistance" 
+			}
+			traits = {
+				head_of_intelligence
+			}
 		}
 	}
 	
@@ -364,9 +402,11 @@ characters = {
 			slot = theorist
 			idea_token = hisaichi_terauchi
 			ledger = army
-		    available = {
+		    visible = {
 				has_country_flag = JAP_toseiha_win
-				is_subject = no
+				NOT = {
+					has_government = communism
+				}
 			}
 			allowed = {
 		    	original_tag = JAP
@@ -398,6 +438,7 @@ characters = {
 		name=JAP_obata_toshiro
 		portraits={
 			army={
+				large=GFX_portrait_JAP_obata_toshiro
 				small=GFX_idea_JAP_obata_toshiro
 			}
 		}
@@ -406,9 +447,11 @@ characters = {
 			slot = theorist
 			idea_token = obata_toshiro
 			ledger = army
-			available = {
+			visible = {
 				has_country_flag = JAP_kodoha_win
-				is_subject = no
+				NOT = {
+					has_government = communism
+				}
 			}
 			allowed = {
 				original_tag = JAP
@@ -431,7 +474,7 @@ characters = {
 			slot = theorist
 			idea_token = isoroku_yamamoto
 			ledger = navy
-			available = {
+			visible = {
                 NOT = {
 					has_government = communism
 				}
@@ -449,7 +492,14 @@ characters = {
 					has_government = communism
 				}
             }
-			traits={ bold aviation_enthusiast superior_tactician spotter air_controller flight_deck_manager }
+			traits = {
+				bold
+				aviation_enthusiast
+				superior_tactician
+				spotter
+				air_controller
+				flight_deck_manager
+			}
 			skill = 5
 			attack_skill = 5
 			defense_skill = 2
@@ -470,7 +520,7 @@ characters = {
 			slot = theorist
 			idea_token = minoru_genda
 			ledger = navy
-			available = {
+			visible = {
                 NOT = {
 					has_government = communism
 				}
@@ -495,6 +545,11 @@ characters = {
 			slot = theorist
 			idea_token = yoshitoshi_tokugawa
 			ledger = air
+			visible = {
+                NOT = {
+					has_government = communism
+				}
+            }
 			allowed = {
 				original_tag = JAP
 			}
@@ -581,7 +636,7 @@ characters = {
 		advisor={
 			slot = army_chief
 			idea_token = kanin_kotohito
-	    	available = {
+	    	visible = {
                 NOT = {
 					has_government = communism
 				}
@@ -606,7 +661,7 @@ characters = {
 			cost = 100
 			slot = army_chief
 			idea_token = iwane_matsui
-	    	available = {
+	    	visible = {
                 NOT = {
 					has_government = communism
 				}
@@ -624,7 +679,10 @@ characters = {
 					has_government = communism
 				}
             }
-			traits={ old_guard trait_reckless }
+			traits = {
+				old_guard
+				trait_reckless
+			}
 			skill = 1
 			attack_skill = 1
 			defense_skill = 1
@@ -645,9 +703,11 @@ characters = {
 			cost = 200
 			slot = army_chief
 			idea_token = tomoyuki_yamashita
-		    available = {
+		    visible = {
 				has_country_flag = JAP_kodoha_win
-				is_subject = no
+				NOT = {
+					has_government = communism
+				}
 			}
 			allowed = {
 	    		original_tag = JAP
@@ -662,7 +722,12 @@ characters = {
 					has_government = communism
 				}
             }
-			traits={ brilliant_strategist politically_connected trickster trait_engineer }
+			traits = {
+				brilliant_strategist
+				politically_connected
+				trickster
+				trait_engineer
+			}
 			skill = 5
 			attack_skill = 4
 			defense_skill = 5
@@ -683,19 +748,22 @@ characters = {
 			cost = 100
 			slot = army_chief
 			idea_token = hideki_tojo
-		    available = {
+		    visible = {
 				has_country_flag = JAP_toseiha_win
-				is_subject = no
+				NOT = {
+					has_government = communism
+				}
 			}
 			allowed = {
 	    		original_tag = JAP
 		    }
 	    	traits = {
-	    		army_chief_morale_2
+	    		army_chief_organizational_1
 			}
 		}
 	}
-	JAP_hitoshi_imamura={
+	#공산주의
+	JAP_hitoshi_imamura2={
 		name=JAP_hitoshi_imamura
 		portraits={
 			army={
@@ -706,7 +774,7 @@ characters = {
 		advisor={
 			cost = 100
 			slot = army_chief
-			idea_token = hitoshi_imamura
+			idea_token = hitoshi_imamura2
 		    visible = {
                 has_government = communism
             }
@@ -714,11 +782,19 @@ characters = {
 	    		original_tag = JAP
 		    }
 	    	traits = {
-	    		army_chief_organizational_2
+	    		army_chief_planning_2
 			}
 		}
-		corps_commander={
-			traits={ career_officer infantry_officer commando }
+		field_marshal={
+			visible = {
+                has_government = communism
+            }
+			traits = {
+				career_officer
+				infantry_officer
+				commando
+				adaptable
+			}
 			skill = 3
 			attack_skill = 3
 			defense_skill = 1
@@ -740,7 +816,7 @@ characters = {
 			cost = 100
 			slot = navy_chief
 			idea_token = fushimi_hiroyasu
-		    available = {
+		    visible = {
 				NOT = {
 					has_government = communism
 				}
@@ -764,7 +840,7 @@ characters = {
 			cost = 100
 			slot = navy_chief
 			idea_token = osami_nagano
-		    available = {
+		    visible = {
 				NOT = {
 					has_government = communism
 				}
@@ -787,7 +863,7 @@ characters = {
 		advisor={
 			slot = navy_chief
 			idea_token = shigetaro_shimada
-		    available = {
+		    visible = {
 				NOT = {
 					has_government = communism
 				}
@@ -800,7 +876,8 @@ characters = {
 			}
 		}
 	}
-	JAP_jisaburo_ozawa = {
+	#공산주의
+	JAP_jisaburo_ozawa2 = {
 		name=JAP_jisaburo_ozawa
 		portraits={
 			army={
@@ -811,7 +888,7 @@ characters = {
 		advisor={
 			cost = 100
 			slot = navy_chief
-			idea_token = jisaburo_ozawa
+			idea_token = jisaburo_ozawa2
 		    visible = {
 				has_government = communism
 			}
@@ -823,7 +900,16 @@ characters = {
 			}
 		}
 		navy_leader={
-			traits={ bold navy_career_officer aviation_enthusiast blockade_runner superior_tactician }
+			visible = {
+                has_government = communism
+            }
+			traits = {
+				bold
+				navy_career_officer
+				aviation_enthusiast
+				aviation_enthusiast
+				superior_tactician
+			}
 			skill = 5
 			attack_skill = 5
 			defense_skill = 3
@@ -844,7 +930,11 @@ characters = {
 		advisor={
 			slot = air_chief
 			idea_token = torashiro_kawabe
-			
+			visible = {
+				NOT = {
+					has_government = communism
+				}
+			}
 	    	allowed = {
 		    	original_tag = JAP
 		    }
@@ -863,10 +953,32 @@ characters = {
 		advisor={
 			slot = air_chief
 			idea_token = korechika_anami
-			available = {
+			visible = {
 				NOT = {
 					has_government = communism
 				}
+			}
+	    	allowed = {
+		    	original_tag = JAP
+		    }
+		    traits = {
+				air_chief_ground_support_1
+			}
+		}
+	}
+	#공산주의
+	JAP_yoshitoshi_tokugawa2={
+		name=JAP_yoshitoshi_tokugawa
+		portraits={
+			army={
+				small=GFX_idea_yoshitoshi_tokugawa
+			}
+		}
+		advisor={
+			slot = air_chief
+			idea_token = yoshitoshi_tokugawa2
+			visible = {
+				has_government = communism
 			}
 	    	allowed = {
 		    	original_tag = JAP
@@ -891,7 +1003,7 @@ characters = {
 			slot = high_command
 			idea_token = shunroku_hata
 			ledger = army
-		    available = {
+		    visible = {
 				NOT = {
 					has_government = communism
 				}
@@ -909,7 +1021,10 @@ characters = {
 					has_government = communism
 				}
             }
-			traits={ JAP_samurai_lineage offensive_doctrine }
+			traits = {
+				JAP_samurai_lineage
+				offensive_doctrine
+			}
 			skill = 4
 			attack_skill = 3
 			defense_skill = 4
@@ -931,7 +1046,7 @@ characters = {
 			slot = high_command
 			idea_token = yasuji_okamura
 			ledger = army
-		    available = {
+		    visible = {
 				NOT = {
 					has_government = communism
 					has_government = democratic
@@ -951,7 +1066,9 @@ characters = {
 					has_government = democratic
 				}
             }
-			traits={ trait_reckless }
+			traits = {
+				trait_reckless
+			}
 			skill = 1
 			attack_skill = 1
 			defense_skill = 1
@@ -972,7 +1089,7 @@ characters = {
 			slot = high_command
 			idea_token = soemu_toyoda
 			ledger = navy
-		    available = {
+		    visible = {
 				NOT = {
 					has_government = communism
 				}
@@ -990,7 +1107,11 @@ characters = {
 					has_government = communism
 				}
             }
-			traits={ old_guard_navy bold ironside }
+			traits = {
+				old_guard_navy
+				bold
+				ironside
+			}
 			skill = 3
 			attack_skill = 5
 			defense_skill = 1
@@ -1011,7 +1132,12 @@ characters = {
 			slot = high_command
 			idea_token = mitsuo_fuchida
 			ledger = air
-	    	allowed = {
+	    	visible = {
+                NOT = {
+					has_government = communism
+				}
+            }
+			allowed = {
 		    	original_tag = JAP
 	    	}
 			traits = {
@@ -1030,7 +1156,12 @@ characters = {
 			slot = high_command
 			idea_token = nishizo_tsukahara
 			ledger = navy
-	    	allowed = {
+	    	visible = {
+                NOT = {
+					has_government = communism
+				}
+            }
+			allowed = {
 	    		original_tag = JAP
 	    	}
 	    	traits = {
@@ -1050,7 +1181,12 @@ characters = {
 			slot = high_command
 			idea_token = tateo_kato
 			ledger = air
-		    allowed = {
+		    visible = {
+                NOT = {
+					has_government = communism
+				}
+            }
+			allowed = {
 		    	original_tag = JAP
 		    }
 		    traits = {
@@ -1070,7 +1206,7 @@ characters = {
 			slot = high_command
 			idea_token = matome_ugaki
 			ledger = navy
-		    available = {
+		    visible = {
 				NOT = {
 					has_government = communism
 				}
@@ -1095,7 +1231,7 @@ characters = {
 			slot = high_command
 			idea_token = chuichi_nagumo
 			ledger = air
-		    available = {
+		    visible = {
 				NOT = {
 					has_government = communism
 				}
@@ -1108,68 +1244,104 @@ characters = {
 			}
 		}
 	}
-	JAP_otozo_yamada = {
-		name=JAP_otozo_yamada
+	#공산주의
+	JAP_miyazaki_shigesaburo = {
+		name=JAP_miyazaki_shigesaburo
 		portraits={
 			army={
-				large=GFX_portrait_JAP_otozo_yamada
-				small=GFX_portrait_JAP_otozo_yamada_small
+				large=GFX_portrait_JAP_miyazaki_shigesaburo
+				small=GFX_idea_JAP_miyazaki_shigesaburo
 			}
 		}
 		advisor={
+			cost = 100
 			slot = high_command
-			idea_token = otozo_yamada
+			idea_token = miyazaki_shigesaburo
 			ledger = army
-			visible = {
+		    visible = {
 				has_government = communism
 			}
 			allowed = {
 		    	original_tag = JAP
 		    }
 		    traits = {
-				army_cavalry_1
+				army_regrouping_2 
 			}
 		}
-		corps_commander={
-			traits={ career_officer cavalry_officer }
-			skill = 3
-			attack_skill = 3
-			defense_skill = 1
-			planning_skill = 3
-			logistics_skill = 3
+		field_marshal={
+			visible = {
+                has_government = communism
+            }
+			traits = {
+				guerilla_fighter
+				trickster
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 4
 			legacy_id=-1
 		}
 	}
-	JAP_harukichi_hyakutake = {
-		name=JAP_harukichi_hyakutake
+	JAP_kimura_masatomi = {
+		name=JAP_kimura_masatomi
 		portraits={
 			army={
-				large=GFX_portrait_JAP_harukichi_hyakutake
-				small=GFX_portrait_JAP_harukichi_hyakutake_small
+				large=GFX_portrait_JAP_kimura_masatomi
+				small=GFX_idea_JAP_kimura_masatomi
 			}
 		}
 		advisor={
+			cost = 100
 			slot = high_command
-			idea_token = harukichi_hyakutake
-			ledger = army
-			visible = {
+			idea_token = kimura_masatomi
+			ledger = navy
+		    visible = {
 				has_government = communism
 			}
 			allowed = {
 		    	original_tag = JAP
 		    }
 		    traits = {
-				army_infantry_1
+				navy_screen_2
 			}
 		}
-		corps_commander={
-			traits={ infantry_officer }
-			skill = 3
-			attack_skill = 2
-			defense_skill = 2
-			planning_skill = 3
-			logistics_skill = 3
+		navy_leader={
+			visible = {
+                has_government = communism
+            }
+			traits = {
+				destroyer_leader
+			}
+			skill = 2
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 4
+			coordination_skill = 4
 			legacy_id=-1
+		}
+	}
+	JAP_japan_logistics = {
+		name=joint_logistics
+		portraits={
+			army={
+				small=GFX_idea_Joint_logistics
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = japan_logistics
+			ledger = army
+		    visible = {
+                has_government = communism
+            }
+			allowed = {
+		    	original_tag = JAP
+		    }
+		    traits = {
+				army_logistics_1
+			}
 		}
 	}
 	
@@ -1188,7 +1360,11 @@ characters = {
 					has_government = communism
 				}
             }
-			traits={ career_officer infantry_officer trickster }
+			traits = {
+				career_officer
+				infantry_officer
+				trickster
+			}
 			skill = 4
 			attack_skill = 4
 			defense_skill = 3
@@ -1211,12 +1387,122 @@ characters = {
 					has_government = communism
 				}
             }
-			traits={ old_guard trait_reckless cavalry_officer }
+			traits = {
+				old_guard
+				trait_reckless
+				cavalry_officer
+			}
 			skill = 4
 			attack_skill = 3
 			defense_skill = 2
 			planning_skill = 4
 			logistics_skill = 4
+			legacy_id=-1
+		}
+	}
+	JAP_keisuke_fujie={
+		name=JAP_keisuke_fujie
+		portraits={
+			army={
+				large=GFX_portrait_JAP_keisuke_fujie
+				small=GFX_portrait_JAP_keisuke_fujie_small
+			}
+		}
+		corps_commander={
+			visible = {
+                NOT = {
+					has_government = communism
+				}
+            }
+			traits = {
+				career_officer
+				politically_connected
+				fortress_buster
+			}
+			skill = 3
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id=-1
+		}
+	}
+	JAP_hitoshi_imamura={
+		name=JAP_hitoshi_imamura
+		portraits={
+			army={
+				large=GFX_portrait_JAP_hitoshi_imamura
+				small=GFX_idea_hitoshi_imamura
+			}
+		}
+		corps_commander={
+			visible = {
+                NOT = {
+					has_government = communism
+				}
+            }
+			traits = {
+				career_officer
+				infantry_officer
+				commando
+				adaptable
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id=-1
+		}
+	}
+	JAP_otozo_yamada = {
+		name=JAP_otozo_yamada
+		portraits={
+			army={
+				large=GFX_portrait_JAP_otozo_yamada
+				small=GFX_portrait_JAP_otozo_yamada_small
+			}
+		}
+		corps_commander={
+			visible = {
+                NOT = {
+					has_government = communism
+				}
+            }
+			traits = {
+				career_officer
+				cavalry_officer
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id=-1
+		}
+	}
+	JAP_harukichi_hyakutake = {
+		name=JAP_harukichi_hyakutake
+		portraits={
+			army={
+				large=GFX_portrait_JAP_harukichi_hyakutake
+				small=GFX_portrait_JAP_harukichi_hyakutake_small
+			}
+		}
+		corps_commander={
+			visible = {
+                NOT = {
+					has_government = communism
+				}
+            }
+			traits = {
+				infantry_officer
+			}
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
 			legacy_id=-1
 		}
 	}
@@ -1234,7 +1520,10 @@ characters = {
 					has_government = communism
 				}
             }
-			traits={ brilliant_strategist infantry_officer }
+			traits = {
+				brilliant_strategist
+				infantry_officer
+			}
 			skill = 3
 			attack_skill = 3
 			defense_skill = 2
@@ -1257,7 +1546,9 @@ characters = {
 					has_government = communism
 				}
             }
-			traits={ career_officer }
+			traits = {
+				career_officer
+			}
 			skill = 3
 			attack_skill = 1
 			defense_skill = 3
@@ -1280,7 +1571,10 @@ characters = {
 					has_government = communism
 				}
             }
-			traits={ politically_connected JAP_samurai_lineage }
+			traits = {
+				politically_connected
+				JAP_samurai_lineage
+			}
 			skill = 3
 			attack_skill = 3
 			defense_skill = 3
@@ -1303,7 +1597,11 @@ characters = {
 					has_government = communism
 				}
             }
-			traits={ inflexible_strategist trait_reckless JAP_samurai_lineage }
+			traits = {
+				inflexible_strategist
+				trait_reckless
+				JAP_samurai_lineage
+			}
 			skill = 3
 			attack_skill = 3
 			defense_skill = 3
@@ -1326,7 +1624,10 @@ characters = {
 					has_government = communism
 				}
             }
-			traits={ trait_reckless infantry_officer }
+			traits = {
+				trait_reckless
+				infantry_officer
+			}
 			skill = 3
 			attack_skill = 2
 			defense_skill = 2
@@ -1344,7 +1645,15 @@ characters = {
 			}
 		}
 		corps_commander={
-			traits={ trait_cautious politically_connected }
+			visible = {
+                NOT = {
+					has_government = communism
+				}
+            }
+			traits = {
+				trait_cautious
+				politically_connected
+			}
 			skill = 3
 			attack_skill = 3
 			defense_skill = 3
@@ -1367,7 +1676,9 @@ characters = {
 					has_government = communism
 				}
             }
-			traits={ career_officer }
+			traits = {
+				career_officer
+			}
 			skill = 2
 			attack_skill = 2
 			defense_skill = 2
@@ -1390,7 +1701,12 @@ characters = {
 					has_government = communism
 				}
             }
-			traits={ trait_reckless infantry_officer JAP_samurai_lineage trickster }
+			traits = {
+				trait_reckless
+				infantry_officer
+				JAP_samurai_lineage
+				trickster
+			}
 			skill = 2
 			attack_skill = 1
 			defense_skill = 2
@@ -1413,7 +1729,9 @@ characters = {
 					has_government = communism
 				}
             }
-			traits={ JAP_samurai_lineage }
+			traits = {
+				JAP_samurai_lineage
+			}
 			skill = 2
 			attack_skill = 1
 			defense_skill = 2
@@ -1431,7 +1749,15 @@ characters = {
 			}
 		}
 		corps_commander={
-			traits={ career_officer trait_cautious }
+			visible = {
+                NOT = {
+					has_government = communism
+				}
+            }
+			traits = {
+				career_officer
+				trait_cautious
+			}
 			skill = 2
 			attack_skill = 2
 			defense_skill = 2
@@ -1454,7 +1780,10 @@ characters = {
 					has_government = communism
 				}
             }
-			traits={ trait_cautious media_personality }
+			traits = {
+				trait_cautious
+				media_personality
+			}
 			skill = 2
 			attack_skill = 2
 			defense_skill = 2
@@ -1472,7 +1801,14 @@ characters = {
 			}
 		}
 		corps_commander={
-			traits={ career_officer }
+			visible = {
+                NOT = {
+					has_government = communism
+				}
+            }
+			traits = {
+				career_officer
+			}
 			skill = 2
 			attack_skill = 1
 			defense_skill = 2
@@ -1495,7 +1831,9 @@ characters = {
 					has_government = communism
 				}
             }
-			traits={ trait_cautious }
+			traits = {
+				trait_cautious
+			}
 			skill = 2
 			attack_skill = 2
 			defense_skill = 2
@@ -1518,7 +1856,11 @@ characters = {
 					has_government = communism
 				}
             }
-			traits={ old_guard politically_connected JAP_samurai_lineage }
+			traits = {
+				old_guard
+				politically_connected
+				JAP_samurai_lineage
+			}
 			skill = 2
 			attack_skill = 2
 			defense_skill = 2
@@ -1545,30 +1887,9 @@ characters = {
 					}
 				}
             }
-			traits={ JAP_samurai_lineage }
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
-			legacy_id=-1
-		}
-	}
-	JAP_kenji_doihara={
-		name=JAP_kenji_doihara
-		portraits={
-			army={
-				large=GFX_portrait_JAP_kenji_doihara
-				small=GFX_idea_kenji_doihara
+			traits = {
+				JAP_samurai_lineage
 			}
-		}
-		corps_commander={
-			visible = {
-                NOT = {
-					has_government = communism
-				}
-            }
-			traits={ career_officer substance_abuser }
 			skill = 1
 			attack_skill = 1
 			defense_skill = 1
@@ -1591,7 +1912,10 @@ characters = {
 					has_government = communism
 				}
             }
-			traits={ old_guard war_hero }
+			traits = {
+				old_guard
+				war_hero
+			}
 			skill = 1
 			attack_skill = 1
 			defense_skill = 1
@@ -1602,6 +1926,35 @@ characters = {
 	}
 	
 	### 해군 제독 ###
+	JAP_jisaburo_ozawa = {
+		name=JAP_jisaburo_ozawa
+		portraits={
+			army={
+				large=GFX_portrait_JAP_jisaburo_ozawa
+				small=GFX_portrait_JAP_jisaburo_ozawa_small
+			}
+		}
+		navy_leader={
+			visible = {
+                NOT = {
+					has_government = communism
+				}
+            }
+			traits = {
+				bold
+				navy_career_officer
+				aviation_enthusiast
+				aviation_enthusiast
+				superior_tactician
+			}
+			skill = 5
+			attack_skill = 5
+			defense_skill = 3
+			maneuvering_skill = 3
+			coordination_skill = 4
+			legacy_id=-1
+		}
+	}
 	JAP_mineichi_koga = {
 		name=JAP_mineichi_koga
 		portraits={
@@ -1611,7 +1964,17 @@ characters = {
 			}
 		}
 		navy_leader={
-			traits={ bold battleship_adherent superior_tactician spotter }
+			visible = {
+                NOT = {
+					has_government = communism
+				}
+            }
+			traits = {
+				bold
+				battleship_adherent
+				superior_tactician
+				spotter
+			}
 			skill = 4
 			attack_skill = 4
 			defense_skill = 2
@@ -1629,7 +1992,16 @@ characters = {
 			}
 		}
 		navy_leader={
-			traits={ battleship_adherent naval_lineage fly_swatter }
+			visible = {
+                NOT = {
+					has_government = communism
+				}
+            }
+			traits = {
+				battleship_adherent
+				naval_lineage
+				fly_swatter
+			}
 			skill = 3
 			attack_skill = 4
 			defense_skill = 2
@@ -1647,7 +2019,14 @@ characters = {
 			}
 		}
 		navy_leader={
-			traits={ spotter }
+			visible = {
+                NOT = {
+					has_government = communism
+				}
+            }
+			traits = {
+				spotter
+			}
 			skill = 3
 			attack_skill = 3
 			defense_skill = 1
@@ -1665,7 +2044,14 @@ characters = {
 			}
 		}
 		navy_leader={
-			traits={ gentlemanly }
+			visible = {
+                NOT = {
+					has_government = communism
+				}
+            }
+			traits = {
+				gentlemanly
+			}
 			skill = 2
 			attack_skill = 2
 			defense_skill = 2
@@ -1683,7 +2069,15 @@ characters = {
 			}
 		}
 		navy_leader={
-			traits={ navy_career_officer aviation_enthusiast }
+			visible = {
+                NOT = {
+					has_government = communism
+				}
+            }
+			traits = {
+				navy_career_officer
+				aviation_enthusiast
+			}
 			skill = 2
 			attack_skill = 2
 			defense_skill = 1
@@ -1701,7 +2095,14 @@ characters = {
 			}
 		}
 		navy_leader={
-			traits={ old_guard_navy }
+			visible = {
+                NOT = {
+					has_government = communism
+				}
+            }
+			traits = {
+				old_guard_navy
+			}
 			skill = 2
 			attack_skill = 2
 			defense_skill = 2
@@ -1719,7 +2120,14 @@ characters = {
 			}
 		}
 		navy_leader={
-			traits={ battleship_adherent }
+			visible = {
+                NOT = {
+					has_government = communism
+				}
+            }
+			traits = {
+				battleship_adherent
+			}
 			skill = 2
 			attack_skill = 3
 			defense_skill = 1
@@ -1737,7 +2145,14 @@ characters = {
 			}
 		}
 		navy_leader={
-			traits={ gentlemanly }
+			visible = {
+                NOT = {
+					has_government = communism
+				}
+            }
+			traits = {
+				gentlemanly
+			}
 			skill = 2
 			attack_skill = 1
 			defense_skill = 2
@@ -1760,7 +2175,10 @@ characters = {
 					has_government = communism
 				}
             }
-			traits={ navy_career_officer seawolf }
+			traits = {
+				navy_career_officer
+				seawolf
+			}
 			skill = 1
 			attack_skill = 1
 			defense_skill = 1

@@ -409,17 +409,55 @@ spriteTypes = {
 	#############
 	
 	### 일본 정치고문 ###
+	#조건 없음
+	spriteType = {
+		name = "GFX_idea_JAP_chiune_sugihara"
+		texturefile = "gfx/interface/ideas/JAP/idea_JAP_chiune_sugihara.png"
+	}
+	#반공주의
 	spriteType = {
 		name = "GFX_idea_JAP_kishi_nobusuke"
 		texturefile = "gfx/interface/ideas/JAP/idea_JAP_nobusuke_kishi.png"
 	}
+	#공산주의
 	spriteType = {
 		name = "GFX_idea_JAP_miyamoto_kenji"
 		texturefile = "gfx/interface/ideas/JAP/idea_JAP_miyamoto_kenji.png"
 	}
 	spriteType = {
+		name = "GFX_idea_JAP_takano_minoru"
+		texturefile = "gfx/interface/ideas/JAP/idea_JAP_takano_minoru.png"
+	}
+	#민주주의
+	spriteType = {
 		name = "GFX_idea_JAP_ishibashi_tanzan"
 		texturefile = "gfx/interface/ideas/JAP/idea_JAP_ishibashi_tanzan.png"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_ozaki_yukio"
+		texturefile = "gfx/interface/ideas/JAP/idea_JAP_ozaki_yukio.png"
+	}
+	#정보기관
+	spriteType = {
+		name = "GFX_idea_JAP_kenji_doihara2"
+		texturefile = "gfx/interface/ideas/JAP/idea_JAP_kenji_doihara2.png"
+	}
+	
+	### 일본 이론가 ###
+	#황도파
+	spriteType = {
+		name = "GFX_idea_JAP_obata_toshiro"
+		texturefile = "gfx/interface/ideas/JAP/idea_JAP_obata_toshiro.png"
+	}
+	
+	### 일본 최고사령부 ###
+	spriteType = {
+		name = "GFX_idea_JAP_miyazaki_shigesaburo"
+		texturefile = "gfx/interface/ideas/JAP/idea_JAP_miyazaki_shigesaburo.png"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_kimura_masatomi"
+		texturefile = "gfx/interface/ideas/JAP/idea_JAP_kimura_masatomi.png"
 	}
 	
 	#############

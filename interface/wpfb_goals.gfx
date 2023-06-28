@@ -462,5 +462,9 @@ spriteTypes = {
 		name = "GFX_QIN_symbol_manchu"
 		texturefile = "gfx/interface/goals/QIN/QIN_symbol_manchu.png"
 	}
+	SpriteType = {
+		name = "GFX_QIN_zhang"
+		texturefile = "gfx/interface/goals/QIN/QIN_zhang.png"
+	}
 
 }

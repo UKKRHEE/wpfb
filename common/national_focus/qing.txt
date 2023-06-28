@@ -12,273 +12,1120 @@ focus_tree = {
 	continuous_focus_position = { x = 50 y = 2000 }
 
 
-	focus = {
-		id = focus_qing
-		icon = GFX
-
-		cost = 1
-
-		x = 13
+	#############
+	### 장계중점 ###
+	#############
+	
+	### 장쭤린 정권 ###
+	focus = { #원수여, 우리는 이곳에!
+		id = QIN_zhang0
+		icon = GFX_QIN_zhang
+		cost = 8.00
+		x = 0
 		y = 0
-
-		completion_reward = { 
-
+		
+		available = {
+			#
+		}
+		search_filters = { 
+			#
+		}
+		
+		completion_reward = {
+			#
 		}
 	}
-
-	focus = {
-		id = focus_qing_2
-		icon = GFX
-		prerequisite = {
-			focus = focus_qing
-		}
-
-		cost = 1
+	
+	focus = { #후계구도 공식화
+		id = QIN_zhang1
+		icon = GFX_
+		cost = 8.00
+		x = -4
+		y = 1
 		
-		x = 13
+		available = {
+			#
+		}
+		search_filters = { 
+			#
+		}
+		
+		completion_reward = {
+			#
+		}
+	}
+	
+	focus = { #모든 신문 통제
+		id = QIN_zhang2
+		icon = GFX_
+		cost = 8.00
+		x = -5
+		y = 2
+		
+		available = {
+			#
+		}
+		search_filters = { 
+			#
+		}
+		
+		completion_reward = {
+			#
+		}
+	}
+	
+	focus = { #반대파 분쇄
+		id = QIN_zhang3
+		icon = GFX_
+		cost = 8.00
+		x = -3
+		y = 2
+		
+		available = {
+			#
+		}
+		search_filters = { 
+			#
+		}
+		
+		completion_reward = {
+			#
+		}
+	}
+	
+	focus = { #질서와 규율
+		id = QIN_zhang4
+		icon = GFX_
+		cost = 8.00
+		x = -4
+		y = 3
+		
+		available = {
+			#
+		}
+		search_filters = { 
+			#
+		}
+		
+		completion_reward = {
+			#
+		}
+	}
+	
+	focus = { #장계군벌 결집
+		id = QIN_zhang5
+		icon = GFX_
+		cost = 8.00
+		x = -5
+		y = 4
+		
+		available = {
+			#
+		}
+		search_filters = { 
+			#
+		}
+		
+		completion_reward = {
+			#
+		}
+	}
+	
+	focus = { #개헌
+		id = QIN_zhang6
+		icon = GFX_
+		cost = 8.00
+		x = -3
+		y = 4
+		
+		available = {
+			#
+		}
+		search_filters = { 
+			#
+		}
+		
+		completion_reward = {
+			#
+		}
+	}
+	
+	focus = { #대원수의 지위 확보
+		id = QIN_zhang7
+		icon = GFX_
+		cost = 8.00
+		x = -4
 		y = 5
 		
-		completion_reward = { 
-
+		available = {
+			#
+		}
+		search_filters = { 
+			#
+		}
+		
+		completion_reward = {
+			#
 		}
 	}
-
-	focus = {
-		id = focus_qing_status_quo
-		icon = GFX
-		prerequisite = {
-			focus = focus_qing_2
-		}
-		mutually_exclusive = {
-			focus = focus_qing_reunite
-			focus = focus_qing_other_road
-		}
-
-		cost = 1
-		
-		x = 6
-		y = 6
-		
-		completion_reward = { 
-
-		}
-	}
-
-	focus = {
-		id = focus_qing_reunite
-		icon = GFX
-		prerequisite = {
-			focus = focus_qing_2
-		}
-		mutually_exclusive = {
-			focus = focus_qing_status_quo
-			focus = focus_qing_other_road
-		}
-
-		cost = 1
-		
-		x = 13
-		y = 6
-		
-		completion_reward = { 
-
-		}
-	}
-
-	focus = {
-		id = focus_qing_other_road
-		icon = GFX
-		prerequisite = {
-			focus = focus_qing_2
-		}
-		mutually_exclusive = {
-			focus = focus_qing_status_quo
-			focus = focus_qing_reunite
-		}
-
-
-		cost = 1
-		
-		x = 20
-		y = 6
-		
-		completion_reward = { 
-
-		}
-	}
-
-	focus = {
-		id = focus_qing_6
-		icon = GFX
-
-
-		cost = 1
-		
-		x = 4
-		y = 0
-		
-		completion_reward = { 
-
-		}
-	}
-
-	focus = {
-		id = focus_qing_7
-		icon = GFX
-		prerequisite = {
-			focus = focus_qing_6	
-		}
-
-		cost = 1
-		
-		x = 1
+	
+	focus = { #현상 유지
+		id = QIN_zhang8
+		icon = GFX_
+		cost = 8.00
+		x = 2
 		y = 1
 		
-		completion_reward = { 
-
+		available = {
+			#
+		}
+		search_filters = { 
+			#
+		}
+		
+		completion_reward = {
+			#
 		}
 	}
-
-	focus = {
-		id = focus_qing_8
-		icon = GFX
-		prerequisite = {
-			focus = focus_qing_6	
-		}
-
-		cost = 1
+	
+	focus = { #사회개혁
+		id = QIN_zhang9
+		icon = GFX_
+		cost = 8.00
+		x = 0
+		y = 2
 		
+		available = {
+			#
+		}
+		search_filters = { 
+			#
+		}
+		
+		completion_reward = {
+			#
+		}
+	}
+	
+	focus = { #계층 간 협력
+		id = QIN_zhang10
+		icon = GFX_
+		cost = 8.00
 		x = 3
-		y = 1
+		y = 2
 		
-		completion_reward = { 
-
+		available = {
+			#
+		}
+		search_filters = { 
+			#
+		}
+		
+		completion_reward = {
+			#
 		}
 	}
-
-	focus = {
-		id = focus_qing_9
-		icon = GFX
-		prerequisite = {
-			focus = focus_qing_6	
-		}
-
-		cost = 1
-		
+	
+	focus = { #경제개혁
+		id = QIN_zhang11
+		icon = GFX_
+		cost = 8.00
 		x = 5
-		y = 1
+		y = 2
 		
-		completion_reward = { 
-
+		available = {
+			#
+		}
+		search_filters = { 
+			#
+		}
+		
+		completion_reward = {
+			#
 		}
 	}
-
-	focus = {
-		id = focus_qing_10
-		icon = GFX
-		prerequisite = {
-			focus = focus_qing_6	
+	
+	focus = { #증교층의 지지 확보
+		id = QIN_zhang12
+		icon = GFX_
+		cost = 8.00
+		x = -1
+		y = 3
+		
+		available = {
+			#
 		}
-
-		cost = 1
+		search_filters = { 
+			#
+		}
 		
-		x = 7
-		y = 1
-		
-		completion_reward = { 
-
+		completion_reward = {
+			#
 		}
 	}
-
-	focus = {
-		id = focus_qing_11
-		icon = GFX
-		prerequisite = {
-			focus = focus_qing_reunite
-		}
-		mutually_exclusive = {
-			focus = focus_qing_12
-		}
-		cost = 1
+	
+	focus = { #지역별 일터
+		id = QIN_zhang13
+		icon = GFX_
+		cost = 8.00
+		x = 1
+		y = 3
 		
-		x = 11
-		y = 7
+		available = {
+			#
+		}
+		search_filters = { 
+			#
+		}
 		
-		completion_reward = { 
-
+		completion_reward = {
+			#
 		}
 	}
-
-	focus = {
-		id = focus_qing_12
-		icon = GFX
-		prerequisite = {
-			focus = focus_qing_reunite
-		}
-		mutually_exclusive = {
-			focus = focus_qing_11
-		}
-		cost = 1
+	
+	focus = { #기술혁신
+		id = QIN_zhang14
+		icon = GFX_
+		cost = 8.00
+		x = 3
+		y = 3
 		
-		x = 15
-		y = 7
+		available = {
+			#
+		}
+		search_filters = { 
+			#
+		}
 		
-		completion_reward = { 
-
+		completion_reward = {
+			#
 		}
 	}
-
-	focus = {
-		id = focus_qing_army
-		icon = GFX
-
-		cost = 1
+	
+	focus = { #지역기업 설립
+		id = QIN_zhang15
+		icon = GFX_
+		cost = 8.00
+		x = 5
+		y = 3
 		
-		x = 23
+		available = {
+			#
+		}
+		search_filters = { 
+			#
+		}
+		
+		completion_reward = {
+			#
+		}
+	}
+	
+	focus = { #전통적 질서 재건
+		id = QIN_zhang16
+		icon = GFX_
+		cost = 8.00
+		x = -1
+		y = 4
+		
+		available = {
+			#
+		}
+		search_filters = { 
+			#
+		}
+		
+		completion_reward = {
+			#
+		}
+	}
+	
+	focus = { #주택 공급
+		id = QIN_zhang17
+		icon = GFX_
+		cost = 8.00
+		x = 1
+		y = 4
+		
+		available = {
+			#
+		}
+		search_filters = { 
+			#
+		}
+		
+		completion_reward = {
+			#
+		}
+	}
+	
+	focus = { #관민화합
+		id = QIN_zhang18
+		icon = GFX_
+		cost = 8.00
+		x = 4
+		y = 4
+		
+		available = {
+			#
+		}
+		search_filters = { 
+			#
+		}
+		
+		completion_reward = {
+			#
+		}
+	}
+	
+	focus = { #느슨하되, 끊어지지 않았다
+		id = QIN_zhang19
+		icon = GFX_
+		cost = 8.00
+		x = 2
+		y = 5
+		
+		available = {
+			#
+		}
+		search_filters = { 
+			#
+		}
+		
+		completion_reward = {
+			#
+		}
+	}
+	
+	#############
+	### 선통유신 ###
+	#############
+	
+	### 선통유신 ###
+	focus = { #선통유신
+		id = QIN_manchu0
+		icon = GFX_QIN_puyi_restored
+		cost = 8.00
+		x = 12
 		y = 0
 		
-		completion_reward = { 
-
+		available = {
+			#
+		}
+		search_filters = { 
+			#
+		}
+		
+		completion_reward = {
+			#
 		}
 	}
-
-	focus = {
-		id = focus_qing_13
-		icon = GFX
-		prerequisite = {
-			focus = focus_qing
+	
+	focus = { #제2의 천고일제
+		id = QIN_manchu1
+		icon = GFX_
+		cost = 8.00
+		x = 8
+		y = 1
+		
+		available = {
+			#
 		}
-		mutually_exclusive = {
-			focus = focus_qing_14
+		search_filters = { 
+			#
 		}
-
-		cost = 1
-
+		
+		completion_reward = {
+			#
+		}
+	}
+	
+	focus = { #자치를 통한 단결
+		id = QIN_manchu2
+		icon = GFX_
+		cost = 8.00
+		x = 10
+		y = 1
+		
+		available = {
+			#
+		}
+		search_filters = { 
+			#
+		}
+		
+		completion_reward = {
+			#
+		}
+	}
+	
+	focus = { #두 번째 대관식
+		id = QIN_manchu3
+		icon = GFX_
+		cost = 8.00
+		x = 12
+		y = 1
+		
+		available = {
+			#
+		}
+		search_filters = { 
+			#
+		}
+		
+		completion_reward = {
+			#
+		}
+	}
+	
+	focus = { #산해관 너머를 바라보다
+		id = QIN_manchu4
+		icon = GFX_
+		cost = 8.00
+		x = 14
+		y = 1
+		
+		available = {
+			#
+		}
+		search_filters = { 
+			#
+		}
+		
+		completion_reward = {
+			#
+		}
+	}
+	
+	focus = { #신해의 변을 되새기다
+		id = QIN_manchu5
+		icon = GFX_
+		cost = 8.00
+		x = 16
+		y = 1
+		
+		available = {
+			#
+		}
+		search_filters = { 
+			#
+		}
+		
+		completion_reward = {
+			#
+		}
+	}
+	
+	focus = { #지역민심 확보
+		id = QIN_manchu6
+		icon = GFX_
+		cost = 8.00
+		x = 9
+		y = 2
+		
+		available = {
+			#
+		}
+		search_filters = { 
+			#
+		}
+		
+		completion_reward = {
+			#
+		}
+	}
+	
+	focus = { #지역문화 보호
+		id = QIN_manchu7
+		icon = GFX_
+		cost = 8.00
 		x = 11
-		y = 1
+		y = 2
 		
-		completion_reward = { 
-
+		available = {
+			#
+		}
+		search_filters = { 
+			#
+		}
+		
+		completion_reward = {
+			#
 		}
 	}
-
-	focus = {
-		id = focus_qing_14
-		icon = GFX
-		prerequisite = {
-			focus = focus_qing
-		}
-		mutually_exclusive = {
-			focus = focus_qing_13
-		}
-
-		cost = 1
+	
+	focus = { #황족 장교 재교육
+		id = QIN_manchu8
+		icon = GFX_
+		cost = 8.00
+		x = 13
+		y = 2
 		
+		available = {
+			#
+		}
+		search_filters = { 
+			#
+		}
+		
+		completion_reward = {
+			#
+		}
+	}
+	
+	focus = { #협동조합주의
+		id = QIN_manchu9
+		icon = GFX_
+		cost = 8.00
 		x = 15
+		y = 2
+		
+		available = {
+			#
+		}
+		search_filters = { 
+			#
+		}
+		
+		completion_reward = {
+			#
+		}
+	}
+	
+	focus = { #복벽주의 선전
+		id = QIN_manchu10
+		icon = GFX_
+		cost = 8.00
+		x = 17
+		y = 2
+		
+		available = {
+			#
+		}
+		search_filters = { 
+			#
+		}
+		
+		completion_reward = {
+			#
+		}
+	}
+	
+	focus = { #의회 내 불충분자 처리
+		id = QIN_manchu11
+		icon = GFX_
+		cost = 8.00
+		x = 8
+		y = 3
+		
+		available = {
+			#
+		}
+		search_filters = { 
+			#
+		}
+		
+		completion_reward = {
+			#
+		}
+	}
+	
+	focus = { #화해와 합의
+		id = QIN_manchu12
+		icon = GFX_
+		cost = 8.00
+		x = 10
+		y = 3
+		
+		available = {
+			#
+		}
+		search_filters = { 
+			#
+		}
+		
+		completion_reward = {
+			#
+		}
+	}
+	
+	focus = { #선통평정운동
+		id = QIN_manchu13
+		icon = GFX_
+		cost = 8.00
+		x = 15
+		y = 3
+		
+		available = {
+			#
+		}
+		search_filters = { 
+			#
+		}
+		
+		completion_reward = {
+			#
+		}
+	}
+	
+	focus = { #갈등과 선동의 끝
+		id = QIN_manchu14
+		icon = GFX_
+		cost = 8.00
+		x = 8
+		y = 4
+		
+		available = {
+			#
+		}
+		search_filters = { 
+			#
+		}
+		
+		completion_reward = {
+			#
+		}
+	}
+	
+	focus = { #이름뿐이 아닌 연방제
+		id = QIN_manchu15
+		icon = GFX_
+		cost = 8.00
+		x = 10
+		y = 4
+		
+		available = {
+			#
+		}
+		search_filters = { 
+			#
+		}
+		
+		completion_reward = {
+			#
+		}
+	}
+	
+	focus = { #일심동체의 군민
+		id = QIN_manchu16
+		icon = GFX_
+		cost = 8.00
+		x = 14
+		y = 4
+		
+		available = {
+			#
+		}
+		search_filters = { 
+			#
+		}
+		
+		completion_reward = {
+			#
+		}
+	}
+	
+	focus = { #도적떼와 강도떼 처단
+		id = QIN_manchu17
+		icon = GFX_
+		cost = 8.00
+		x = 16
+		y = 4
+		
+		available = {
+			#
+		}
+		search_filters = { 
+			#
+		}
+		
+		completion_reward = {
+			#
+		}
+	}
+	
+	focus = { #천명
+		id = QIN_manchu18
+		icon = GFX_
+		cost = 8.00
+		x = 9
+		y = 5
+		
+		available = {
+			#
+		}
+		search_filters = { 
+			#
+		}
+		
+		completion_reward = {
+			#
+		}
+	}
+	
+	focus = { #애민정신
+		id = QIN_manchu19
+		icon = GFX_
+		cost = 8.00
+		x = 15
+		y = 5
+		
+		available = {
+			#
+		}
+		search_filters = { 
+			#
+		}
+		
+		completion_reward = {
+			#
+		}
+	}
+	
+	#############
+	### 경제중점 ###
+	#############
+	
+	### 경제중점 ###
+	focus = { #산업 개발 5개년 계획
+		id = QIN_economy0
+		icon = GFX_generic_union_puppet
+		cost = 8.00
+		x = 24
+		y = 0
+		
+		available = {
+			#
+		}
+		search_filters = { 
+			#
+		}
+		
+		completion_reward = {
+			#
+		}
+	}
+	
+	focus = { #비료 대량 확산
+		id = QIN_economy1
+		icon = GFX_
+		cost = 8.00
+		x = 22
 		y = 1
 		
-		completion_reward = { 
-			
+		available = {
+			#
+		}
+		search_filters = { 
+			#
+		}
+		
+		completion_reward = {
+			#
+		}
+	}
+	
+	focus = { #산업화
+		id = QIN_economy2
+		icon = GFX_
+		cost = 8.00
+		x = 25
+		y = 1
+		
+		available = {
+			#
+		}
+		search_filters = { 
+			#
+		}
+		
+		completion_reward = {
+			#
+		}
+	}
+	
+	focus = { #철도청 수립
+		id = QIN_economy3
+		icon = GFX_
+		cost = 8.00
+		x = 27
+		y = 1
+		
+		available = {
+			#
+		}
+		search_filters = { 
+			#
+		}
+		
+		completion_reward = {
+			#
+		}
+	}
+	
+	focus = { #신민의 보금자리
+		id = QIN_economy4
+		icon = GFX_
+		cost = 8.00
+		x = 29
+		y = 1
+		
+		available = {
+			#
+		}
+		search_filters = { 
+			#
+		}
+		
+		completion_reward = {
+			#
+		}
+	}
+	
+	focus = { #농민을 위하여
+		id = QIN_economy5
+		icon = GFX_
+		cost = 8.00
+		x = 20
+		y = 2
+		
+		available = {
+			#
+		}
+		search_filters = { 
+			#
+		}
+		
+		completion_reward = {
+			#
+		}
+	}
+	
+	focus = { #국립 라디오 방송국
+		id = QIN_economy6
+		icon = GFX_
+		cost = 8.00
+		x = 22
+		y = 2
+		
+		available = {
+			#
+		}
+		search_filters = { 
+			#
+		}
+		
+		completion_reward = {
+			#
+		}
+	}
+	
+	focus = { #산업단지 부흥
+		id = QIN_economy7
+		icon = GFX_
+		cost = 8.00
+		x = 24
+		y = 2
+		
+		available = {
+			#
+		}
+		search_filters = { 
+			#
+		}
+		
+		completion_reward = {
+			#
+		}
+	}
+	
+	focus = { #광물 매장지 탐사
+		id = QIN_economy8
+		icon = GFX_
+		cost = 8.00
+		x = 26
+		y = 2
+		
+		available = {
+			#
+		}
+		search_filters = { 
+			#
+		}
+		
+		completion_reward = {
+			#
+		}
+	}
+	
+	focus = { #제2의 수도
+		id = QIN_economy9
+		icon = GFX_
+		cost = 8.00
+		x = 28
+		y = 2
+		
+		available = {
+			#
+		}
+		search_filters = { 
+			#
+		}
+		
+		completion_reward = {
+			#
+		}
+	}
+	
+	focus = { #대규모 도시화 계획
+		id = QIN_economy10
+		icon = GFX_
+		cost = 8.00
+		x = 30
+		y = 2
+		
+		available = {
+			#
+		}
+		search_filters = { 
+			#
+		}
+		
+		completion_reward = {
+			#
+		}
+	}
+	
+	focus = { #대학 전문화
+		id = QIN_economy11
+		icon = GFX_
+		cost = 8.00
+		x = 21
+		y = 3
+		
+		available = {
+			#
+		}
+		search_filters = { 
+			#
+		}
+		
+		completion_reward = {
+			#
+		}
+	}
+	
+	focus = { #발전소 건설
+		id = QIN_economy12
+		icon = GFX_
+		cost = 8.00
+		x = 23
+		y = 3
+		
+		available = {
+			#
+		}
+		search_filters = { 
+			#
+		}
+		
+		completion_reward = {
+			#
+		}
+	}
+	
+	focus = { #보조금 지급
+		id = QIN_economy13
+		icon = GFX_
+		cost = 8.00
+		x = 25
+		y = 3
+		
+		available = {
+			#
+		}
+		search_filters = { 
+			#
+		}
+		
+		completion_reward = {
+			#
+		}
+	}
+	
+	focus = { #철로를 깔아라
+		id = QIN_economy14
+		icon = GFX_
+		cost = 8.00
+		x = 27
+		y = 3
+		
+		available = {
+			#
+		}
+		search_filters = { 
+			#
+		}
+		
+		completion_reward = {
+			#
+		}
+	}
+	
+	focus = { #검은 황금
+		id = QIN_economy15
+		icon = GFX_
+		cost = 8.00
+		x = 24
+		y = 4
+		
+		available = {
+			#
+		}
+		search_filters = { 
+			#
+		}
+		
+		completion_reward = {
+			#
+		}
+	}
+	
+	focus = { #경치 좋은 노선
+		id = QIN_economy16
+		icon = GFX_
+		cost = 8.00
+		x = 26
+		y = 4
+		
+		available = {
+			#
+		}
+		search_filters = { 
+			#
+		}
+		
+		completion_reward = {
+			#
+		}
+	}
+	
+	focus = { #무역 활성화
+		id = QIN_economy17
+		icon = GFX_
+		cost = 8.00
+		x = 28
+		y = 4
+		
+		available = {
+			#
+		}
+		search_filters = { 
+			#
+		}
+		
+		completion_reward = {
+			#
 		}
 	}
 }

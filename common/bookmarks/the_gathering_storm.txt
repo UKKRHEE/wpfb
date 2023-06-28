@@ -480,9 +480,9 @@ bookmarks = {
 				QIN_constitutional_monarch_puyi
 			}
 			focuses = {
-				CHI_join_the_republican_government
-				CHI_provoke_border_clashes
-				CHI_join_the_chinese_soviet
+				QIN_zhang0
+				QIN_manchu0
+				QIN_economy0
 			}
 		}
 		"MON"={
