@@ -41,24 +41,24 @@ recruit_character = SDC_han_fuju
 ### 정치고문 ###
 recruit_character = SDC_kong_dechong
 recruit_character = SDC_zhang_fuyun
-recruit_character = SDC_shandong_industry
-recruit_character = SDC_shandong_security
+recruit_character = SDC_industry
+recruit_character = SDC_security
 
 ### 이론가 ###
-recruit_character = SDC_shandong_army_research
-recruit_character = SDC_shandong_navy_research
-recruit_character = SDC_shandong_air_research
+recruit_character = SDC_army_research
+recruit_character = SDC_navy_research
+recruit_character = SDC_air_research
 
 ### 해군참모총장 ###
 recruit_character = SDC_lin_jianzhang
 
 ### 공군참모총장 ###
-recruit_character = SDC_shandong_air_department
+recruit_character = SDC_air_department
 
 ### 최고사령부 ###
 recruit_character = SDC_sun_tongxuan
 recruit_character = SDC_wu_huawen
-recruit_character = SDC_shandong_infantry
-recruit_character = SDC_shandong_artillery
-recruit_character = SDC_shandong_logistics
+recruit_character = SDC_infantry
+recruit_character = SDC_artillery
+recruit_character = SDC_logistics
 

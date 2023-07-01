@@ -59,6 +59,11 @@ characters={
 			id=-1
 		}
 		field_marshal={
+			visible = {
+				NOT = {
+					has_country_flag = SHX_yan_out
+				}
+			}
 			traits = {
 				inflexible_strategist
 				harsh_leader
@@ -84,11 +89,15 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = zhao_daiwen
+			idea_token = SHX_zhao_daiwen
+			visible = {
+				NOT = {
+					has_country_flag = SHX_yan_out
+				}
+			}
 			available = {
-				has_country_leader = {
-					ruling_only = yes 
-					character = SHX_yan_xishan
+				NOT = {
+					has_country_flag = SHX_yan_out
 				}
 			}
 			allowed = {
@@ -108,11 +117,15 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = jia_jingde
+			idea_token = SHX_jia_jingde
+			visible = {
+				NOT = {
+					has_country_flag = SHX_yan_out
+				}
+			}
 			available = {
-				has_country_leader = {
-					ruling_only = yes 
-					character = SHX_yan_xishan
+				NOT = {
+					has_country_flag = SHX_yan_out
 				}
 			}
 			allowed = {
@@ -132,35 +145,15 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = liang_huazhi
-			available = {
-				has_country_leader = {
-					ruling_only = yes 
-					character = SHX_yan_xishan
+			idea_token = SHX_liang_huazhi
+			visible = {
+				NOT = {
+					has_country_flag = SHX_yan_out
 				}
 			}
-			allowed = {
-				original_tag = SHX
-			}
-			traits = {
-				backroom_backstabber
-			}
-		}
-	}
-	SHX_liang_huazhi={
-		name=SHX_liang_huazhi
-		portraits={
-			civilian={
-				small=GFX_idea_SHX_liang_huazhi
-			}
-		}
-		advisor={
-			slot = political_advisor
-			idea_token = liang_huazhi
 			available = {
-				has_country_leader = {
-					ruling_only = yes 
-					character = SHX_yan_xishan
+				NOT = {
+					has_country_flag = SHX_yan_out
 				}
 			}
 			allowed = {
@@ -181,10 +174,14 @@ characters={
 		advisor={
 			slot = political_advisor
 			idea_token = SHX_h_h_kung
+			visible = {
+				NOT = {
+					has_country_flag = SHX_yan_out
+				}
+			}
 			available = {
-				has_country_leader = {
-					ruling_only = yes 
-					character = SHX_yan_xishan
+				NOT = {
+					has_country_flag = SHX_yan_out
 				}
 			}
 			allowed = {
@@ -205,18 +202,16 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = sun_chu
+			idea_token = SHX_sun_chu
 			visible = {
-                has_country_leader = {
-					ruling_only = yes 
-					character = SHX_yan_xishan
+                NOT = {
+					has_country_flag = SHX_yan_out
 				}
             }
 			available = {
 				has_intelligence_agency = yes
-				has_country_leader = {
-					ruling_only = yes 
-					character = SHX_yan_xishan
+				NOT = {
+					has_country_flag = SHX_yan_out
 				}
 			}
 			allowed = {
@@ -228,6 +223,11 @@ characters={
 			}
 		}
 		corps_commander={
+			visible = {
+				NOT = {
+					has_country_flag = SHX_yan_out
+				}
+			}
 			traits = {
 				infantry_officer
 			}
@@ -251,14 +251,17 @@ characters={
 		advisor={
 			slot = political_advisor
 			can_be_fired = no
-			idea_token = feng_yuxiang
+			idea_token = SHX_feng_yuxiang
 			visible = {
                 NOT = {
 					is_subject = yes
-					has_country_leader = {
-						ruling_only = yes 
-						character = SHX_feng_yuxiang
-					}
+					has_country_flag = SHX_feng_out
+				}
+            }
+			available = {
+                NOT = {
+					is_subject = yes
+					has_country_flag = SHX_feng_out
 				}
             }
 			allowed = {
@@ -270,6 +273,11 @@ characters={
 			}
 		}
 		field_marshal = {
+			visible = {
+                NOT = {
+					has_country_flag = SHX_feng_out
+				}
+            }
 			traits = {
 				infantry_leader
 				aggressive_assaulter
@@ -292,13 +300,17 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = hu_jingtong
-			available = {
-				has_country_leader = {
-					ruling_only = yes 
-					character = SHX_feng_yuxiang
+			idea_token = SHX_hu_jingtong
+			visible = {
+				NOT = {
+					has_country_flag = SHX_feng_out
 				}
 			}
+			available = {
+                NOT = {
+					has_country_flag = SHX_feng_out
+				}
+            }
 			allowed = {
 				original_tag  = SHX
 			}
@@ -316,13 +328,17 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = yu_xinqing
-			available = {
-				has_country_leader = {
-					ruling_only = yes 
-					character = SHX_feng_yuxiang
+			idea_token = SHX_yu_xinqing
+			visible = {
+				NOT = {
+					has_country_flag = SHX_feng_out
 				}
 			}
+			available = {
+                NOT = {
+					has_country_flag = SHX_feng_out
+				}
+            }
 			allowed = {
 				original_tag  = SHX
 			}
@@ -340,13 +356,17 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = bo_yibo
-			available = {
-				has_country_leader = {
-					ruling_only = yes 
-					character = SHX_feng_yuxiang
+			idea_token = SHX_bo_yibo
+			visible = {
+				NOT = {
+					has_country_flag = SHX_feng_out
 				}
 			}
+			available = {
+                NOT = {
+					has_country_flag = SHX_feng_out
+				}
+            }
 			allowed = {
 				original_tag  = SHX
 			}
@@ -355,7 +375,7 @@ characters={
 			}
 		}
 	}
-	SHX_shanxi_security = {
+	SHX_security = {
 		name=joint_security
 		portraits={
 			civilian = {
@@ -364,18 +384,16 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = shanxi_security
+			idea_token = SHX_security
 			visible = {
-                has_country_leader = {
-					ruling_only = yes 
-					character = SHX_feng_yuxiang
+                NOT = {
+					has_country_flag = SHX_feng_out
 				}
             }
 			available = {
 				has_intelligence_agency = yes
-				has_country_leader = {
-					ruling_only = yes 
-					character = SHX_feng_yuxiang
+				NOT = {
+					has_country_flag = SHX_feng_out
 				}
 			}
 			allowed = {
@@ -397,7 +415,7 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = wellington_koo
+			idea_token = SHX_wellington_koo
 			allowed = {
 				original_tag = SHX
 			}
@@ -415,7 +433,7 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = yan_huiqing
+			idea_token = SHX_yan_huiqing
 			allowed = {
 				original_tag = SHX
 			}
@@ -433,7 +451,7 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = tang_shaoyi
+			idea_token = SHX_tang_shaoyi
 			allowed = {
 				original_tag = SHX
 			}
@@ -451,7 +469,7 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = zhao_pilian
+			idea_token = SHX_zhao_pilian
 			allowed = {
 				original_tag = SHX
 			}
@@ -469,7 +487,7 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = lian_tianxiang
+			idea_token = SHX_lian_tianxiang
 			allowed = {
 				original_tag = SHX
 			}
@@ -480,7 +498,7 @@ characters={
 	}
 	
 	### 이론가 ###
-	SHX_shanxi_army_research={
+	SHX_army_research={
 		name=joint_army_research
 		portraits={
 			army={
@@ -490,7 +508,7 @@ characters={
 		advisor={
 			cost = 100
 			slot = theorist
-			idea_token = shanxi_army_research
+			idea_token = SHX_army_research
 			ledger = army
 			allowed = {
 				original_tag = SHX
@@ -500,7 +518,7 @@ characters={
 			}
 		}
 	}
-	SHX_shanxi_navy_research={
+	SHX_navy_research={
 		name=joint_navy_research
 		portraits={
 			army={
@@ -510,7 +528,7 @@ characters={
 		advisor={
 			cost = 100
 			slot = theorist
-			idea_token = shanxi_navy_research
+			idea_token = SHX_navy_research
 			ledger = navy
 			allowed = {
 				original_tag = SHX
@@ -520,7 +538,7 @@ characters={
 			}
 		}
 	}
-	SHX_shanxi_air_research={
+	SHX_air_research={
 		name=joint_air_research
 		portraits={
 			army={
@@ -530,7 +548,7 @@ characters={
 		advisor={
 			cost = 100
 			slot = theorist
-			idea_token = shanxi_air_research
+			idea_token = SHX_air_research
 			ledger = air
 			allowed = {
 				original_tag = SHX
@@ -554,11 +572,15 @@ characters={
 		advisor={
 			cost = 100
 			slot = army_chief
-			idea_token = fu_zuoyi
-	    	available = {
-				has_country_leader = {
-					ruling_only = yes 
-					character = SHX_yan_xishan
+			idea_token = SHX_fu_zuoyi
+	    	visible = {
+				NOT = {
+					has_country_flag = SHX_yan_out
+				}
+			}
+			available = {
+				NOT = {
+					has_country_flag = SHX_yan_out
 				}
 			}
 			allowed = {
@@ -569,6 +591,11 @@ characters={
 			}
 		}
 		corps_commander={
+			visible = {
+				NOT = {
+					has_country_flag = SHX_yan_out
+				}
+			}
 			traits = {
 				war_hero
 				trickster
@@ -592,11 +619,15 @@ characters={
 		advisor={
 			cost = 100
 			slot = army_chief
-			idea_token = xu_yongchang
-	    	available = {
-				has_country_leader = {
-					ruling_only = yes 
-					character = SHX_yan_xishan
+			idea_token = SHX_xu_yongchang
+	    	visible = {
+				NOT = {
+					has_country_flag = SHX_yan_out
+				}
+			}
+			available = {
+				NOT = {
+					has_country_flag = SHX_yan_out
 				}
 			}
 			allowed = {
@@ -607,6 +638,11 @@ characters={
 			}
 		}
 		corps_commander={
+			visible = {
+				NOT = {
+					has_country_flag = SHX_yan_out
+				}
+			}
 			traits = {
 				cavalry_leader
 			}
@@ -630,11 +666,15 @@ characters={
 		advisor={
 			cost = 100
 			slot = army_chief
-			idea_token = sun_yue
-	    	available = {
-				has_country_leader = {
-					ruling_only = yes 
-					character = SHX_feng_yuxiang
+			idea_token = SHX_sun_yue
+	    	visible = {
+				NOT = {
+					has_country_flag = SHX_feng_out
+				}
+			}
+			available = {
+				NOT = {
+					has_country_flag = SHX_feng_out
 				}
 			}
 			allowed = {
@@ -645,6 +685,11 @@ characters={
 			}
 		}
 		corps_commander={
+			visible = {
+				NOT = {
+					has_country_flag = SHX_feng_out
+				}
+			}
 			traits = {
 				old_guard
 				politically_connected
@@ -672,7 +717,7 @@ characters={
 		advisor={
 			cost = 100
 			slot = navy_chief
-			idea_token = sa_zhenbing
+			idea_token = SHX_sa_zhenbing
 		    allowed = {
 		    	original_tag = SHX
 	    	}
@@ -706,7 +751,7 @@ characters={
 		advisor={
 			cost = 100
 			slot = navy_chief
-			idea_token = wu_renli
+			idea_token = SHX_wu_renli
 		    allowed = {
 		    	original_tag = SHX
 	    	}
@@ -739,11 +784,15 @@ characters={
 		}
 		advisor={		
 			slot = air_chief
-			idea_token = zhong_jihan
+			idea_token = SHX_zhong_jihan
+			visible = {
+				NOT = {
+					has_country_flag = SHX_yan_out
+				}
+			}
 			available = {
-				has_country_leader = {
-					ruling_only = yes 
-					character = SHX_yan_xishan
+				NOT = {
+					has_country_flag = SHX_yan_out
 				}
 			}
 			allowed = {
@@ -764,11 +813,15 @@ characters={
 		}
 		advisor={		
 			slot = air_chief
-			idea_token = cao_baoqing
+			idea_token = SHX_cao_baoqing
+			visible = {
+				NOT = {
+					has_country_flag = SHX_feng_out
+				}
+			}
 			available = {
-				has_country_leader = {
-					ruling_only = yes 
-					character = SHX_feng_yuxiang
+				NOT = {
+					has_country_flag = SHX_feng_out
 				}
 			}
 			allowed = {
@@ -793,12 +846,16 @@ characters={
 		advisor={
 			cost = 100
 			slot = high_command
-			idea_token = yang_aiyuan
+			idea_token = SHX_yang_aiyuan
 			ledger = army
-		    available = {
-				has_country_leader = {
-					ruling_only = yes 
-					character = SHX_yan_xishan
+		    visible = {
+				NOT = {
+					has_country_flag = SHX_yan_out
+				}
+			}
+			available = {
+				NOT = {
+					has_country_flag = SHX_yan_out
 				}
 			}
 			allowed = {
@@ -809,6 +866,11 @@ characters={
 			}
 		}
 		corps_commander={
+			visible = {
+				NOT = {
+					has_country_flag = SHX_yan_out
+				}
+			}
 			traits = {
 				infantry_officer
 			}
@@ -831,12 +893,16 @@ characters={
 		advisor={
 			cost = 100
 			slot = high_command
-			idea_token = shang_zhen
+			idea_token = SHX_shang_zhen
 			ledger = army
-		    available = {
-				has_country_leader = {
-					ruling_only = yes 
-					character = SHX_yan_xishan
+		    visible = {
+				NOT = {
+					has_country_flag = SHX_yan_out
+				}
+			}
+			available = {
+				NOT = {
+					has_country_flag = SHX_yan_out
 				}
 			}
 			allowed = {
@@ -847,6 +913,11 @@ characters={
 			}
 		}
 		corps_commander={
+			visible = {
+				NOT = {
+					has_country_flag = SHX_yan_out
+				}
+			}
 			traits = {
 				politically_connected
 				infantry_officer
@@ -870,12 +941,16 @@ characters={
 		}
 		advisor={
 			slot = high_command
-			idea_token = wang_jingguo
+			idea_token = SHX_wang_jingguo
 			ledger = army
-		    available = {
-				has_country_leader = {
-					ruling_only = yes 
-					character = SHX_yan_xishan
+		    visible = {
+				NOT = {
+					has_country_flag = SHX_yan_out
+				}
+			}
+			available = {
+				NOT = {
+					has_country_flag = SHX_yan_out
 				}
 			}
 			allowed = {
@@ -886,6 +961,11 @@ characters={
 			}
 		}
 		corps_commander={
+			visible = {
+				NOT = {
+					has_country_flag = SHX_yan_out
+				}
+			}
 			traits = {
 				politically_connected
 				trait_mountaineer
@@ -909,12 +989,16 @@ characters={
 		advisor={		
 			cost = 100
 			slot = high_command
-			idea_token = zhao_chengshou
+			idea_token = SHX_zhao_chengshou
 			ledger = army
+			visible = {
+				NOT = {
+					has_country_flag = SHX_yan_out
+				}
+			}
 			available = {
-				has_country_leader = {
-					ruling_only = yes 
-					character = SHX_yan_xishan
+				NOT = {
+					has_country_flag = SHX_yan_out
 				}
 			}
 			allowed = {
@@ -925,6 +1009,11 @@ characters={
 			}
 		}
 		corps_commander={
+			visible = {
+				NOT = {
+					has_country_flag = SHX_yan_out
+				}
+			}
 			traits = {
 				career_officer
 				cavalry_leader
@@ -950,12 +1039,16 @@ characters={
 		advisor={		
 			cost = 100
 			slot = high_command
-			idea_token = zhang_zizhong
+			idea_token = SHX_zhang_zizhong
 			ledger = army
+			visible = {
+				NOT = {
+					has_country_flag = SHX_feng_out
+				}
+			}
 			available = {
-				has_country_leader = {
-					ruling_only = yes 
-					character = SHX_feng_yuxiang
+				NOT = {
+					has_country_flag = SHX_feng_out
 				}
 			}
 			allowed = {
@@ -966,6 +1059,11 @@ characters={
 			}
 		}
 		corps_commander={
+			visible = {
+				NOT = {
+					has_country_flag = SHX_feng_out
+				}
+			}
 			traits = {
 				career_officer
 				trait_reckless
@@ -990,12 +1088,16 @@ characters={
 		advisor={		
 			cost = 100
 			slot = high_command
-			idea_token = sun_lianzhong
+			idea_token = SHX_sun_lianzhong
 			ledger = army
+			visible = {
+				NOT = {
+					has_country_flag = SHX_feng_out
+				}
+			}
 			available = {
-				has_country_leader = {
-					ruling_only = yes 
-					character = SHX_feng_yuxiang
+				NOT = {
+					has_country_flag = SHX_feng_out
 				}
 			}
 			allowed = {
@@ -1006,6 +1108,11 @@ characters={
 			}
 		}
 		corps_commander={
+			visible = {
+				NOT = {
+					has_country_flag = SHX_feng_out
+				}
+			}
 			traits = {
 				organizer
 			}
@@ -1029,7 +1136,7 @@ characters={
 		advisor={
 			cost = 100
 			slot = high_command
-			idea_token = du_xigui
+			idea_token = SHX_du_xigui
 			ledger = navy
 		    allowed = {
 		    	original_tag = SHX
@@ -1063,6 +1170,11 @@ characters={
 			}
 		}
 		corps_commander={
+			visible = {
+				NOT = {
+					has_country_flag = SHX_yan_out
+				}
+			}
 			traits = {
 				#
 			}
@@ -1083,6 +1195,11 @@ characters={
 			}
 		}
 		corps_commander={
+			visible = {
+				NOT = {
+					has_country_flag = SHX_feng_out
+				}
+			}
 			traits = {
 				urban_assault_specialist
 				politically_connected
@@ -1103,6 +1220,11 @@ characters={
 			}
 		}
 		corps_commander={
+			visible = {
+				NOT = {
+					has_country_flag = SHX_feng_out
+				}
+			}
 			traits = {
 				expert_improviser
 			}
@@ -1122,6 +1244,11 @@ characters={
 			}
 		}
 		corps_commander={
+			visible = {
+				NOT = {
+					has_country_flag = SHX_feng_out
+				}
+			}
 			traits = {
 				inflexible_strategist
 			}

@@ -66,40 +66,21 @@ characters = {
 	}
 	
 	### 정치고문/반공주의 ###
-	RUS_sofia_panina={
-		name=RUS_sofia_panina
-		portraits={
-			civilian={
-				small=GFX_idea_generic_political_advisor_female_europe
-			}
-		}
-		gender = female
-		advisor={
-			slot = political_advisor
-			idea_token = sofia_panina
-			available = {
-                NOT = {
-					has_government = communism
-				}
-            }
-			allowed = {
-				original_tag = RUS
-			}
-			traits = {
-				financial_expert
-			}
-		}
-	}
 	RUS_aleksandr_verkhovsky={
 		name=RUS_aleksandr_verkhovsky
 		portraits={
 			civilian={
-				small=GFX_idea_generic_political_advisor_europe_3
+				small=GFX_idea_RUS_aleksandr_verkhovsky
 			}
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = aleksandr_verkhovsky
+			idea_token = RUS_aleksandr_verkhovsky
+			visible = {
+                NOT = {
+					has_government = communism
+				}
+            }
 			available = {
                 NOT = {
 					has_government = communism
@@ -110,6 +91,34 @@ characters = {
 			}
 			traits = {
 				quartermaster_general
+			}
+		}
+	}
+	RUS_vasily_kharlamov={
+		name=RUS_vasily_kharlamov
+		portraits={
+			civilian={
+				small=GFX_idea_RUS_vasily_kharlamov
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = RUS_vasily_kharlamov
+			visible = {
+                NOT = {
+					has_government = communism
+				}
+            }
+			available = {
+                NOT = {
+					has_government = communism
+				}
+            }
+			allowed = {
+				original_tag = RUS
+			}
+			traits = {
+				compassionate_gentleman
 			}
 		}
 	}
@@ -124,15 +133,43 @@ characters = {
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = pavel_milyukov
-			available = {
+			idea_token = RUS_pavel_milyukov
+			visible = {
 				has_government = democratic
 			}
+			available = {
+                has_government = democratic
+            }
 			allowed = {
 				original_tag = RUS
 			}
 			traits = {
 				democratic_reformer
+			}
+		}
+	}
+	RUS_sofia_panina={
+		name=RUS_sofia_panina
+		portraits={
+			civilian={
+				small=GFX_idea_RUS_sofia_panina
+			}
+		}
+		gender = female
+		advisor={
+			slot = political_advisor
+			idea_token = RUS_sofia_panina
+			visible = {
+				has_government = democratic
+			}
+			available = {
+                has_government = democratic
+            }
+			allowed = {
+				original_tag = RUS
+			}
+			traits = {
+				education_reformer
 			}
 		}
 	}
@@ -147,12 +184,15 @@ characters = {
 		}
 		advisor = {
 			slot = political_advisor
-			idea_token = anastasy_vonsyatsky
-			allowed = {
-				original_tag = RUS
+			idea_token = RUS_anastasy_vonsyatsky
+			visible = {
+				has_government = fascism
 			}
 			available = {
-				has_government = fascism
+                has_government = fascism
+            }
+			allowed = {
+				original_tag = RUS
 			}
 			traits = {
 				the_foreign_connection
@@ -170,12 +210,15 @@ characters = {
 		}
 		advisor = {
 			slot = political_advisor
-			idea_token = aleksandr_kazembek
-			allowed = {
-				original_tag = RUS
+			idea_token = RUS_aleksandr_kazembek
+			visible = {
+				has_government = neutrality
 			}
 			available = {
-				has_government = neutrality
+                has_government = neutrality
+            }
+			allowed = {
+				original_tag = RUS
 			}
 			traits = {
 				mladorossi_theorist
@@ -193,16 +236,22 @@ characters = {
 		}
 		advisor = {
 			slot = political_advisor
-			idea_token = patriarch_sergy
-			allowed = {
-				original_tag = RUS
-			}
+			idea_token = RUS_patriarch_sergy
+			visible = {
+                NOT = {
+					has_government = communism
+					has_government = democratic
+				}
+            }
 			available = {
                 NOT = {
 					has_government = communism
 					has_government = democratic
 				}
             }
+			allowed = {
+				original_tag = RUS
+			}
 			traits = {
 				patriarch_of_moscow_and_all_russia 
 			}
@@ -217,16 +266,22 @@ characters = {
 		}
 		advisor = {
 			slot = political_advisor
-			idea_token = metropolitan_anastasy
-			allowed = {
-				original_tag = RUS
-			}
+			idea_token = RUS_metropolitan_anastasy
+			visible = {
+                NOT = {
+					has_government = communism
+					has_government = democratic
+				}
+            }
 			available = {
                 NOT = {
 					has_government = communism
 					has_government = democratic
 				}
             }
+			allowed = {
+				original_tag = RUS
+			}
 			traits = {
 				orthodox_rabblerouser
 			}
@@ -241,16 +296,22 @@ characters = {
 		}
 		advisor = {
 			slot = political_advisor
-			idea_token = metropolitan_nikolay
-			allowed = {
-				original_tag = RUS
-			}
+			idea_token = RUS_metropolitan_nikolay
+			visible = {
+                NOT = {
+					has_government = communism
+					has_government = democratic
+				}
+            }
 			available = {
                 NOT = {
 					has_government = communism
 					has_government = democratic
 				}
             }
+			allowed = {
+				original_tag = RUS
+			}
 			traits = {
 				theocratic_diplomat
 			}
@@ -265,16 +326,22 @@ characters = {
 		}
 		advisor = {
 			slot = political_advisor
-			idea_token = metropolitan_aleksy
-			allowed = {
-				original_tag = RUS
-			}
+			idea_token = RUS_metropolitan_aleksy
+			visible = {
+                NOT = {
+					has_government = communism
+					has_government = democratic
+				}
+            }
 			available = {
                 NOT = {
 					has_government = communism
 					has_government = democratic
 				}
             }
+			allowed = {
+				original_tag = RUS
+			}
 			traits = {
 				driver_of_the_faithful
 			}
@@ -291,9 +358,17 @@ characters = {
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = klavdiy_foss
+			idea_token = RUS_klavdiy_foss
+			visible = {
+                NOT = {
+					has_government = communism
+				}
+            }
 			available = {
 				has_intelligence_agency = yes
+				NOT = {
+					has_government = communism
+				}
 			}
 			allowed = {
 				original_tag = RUS
@@ -317,7 +392,7 @@ characters = {
 		advisor={
 			cost = 100
 			slot = theorist
-			idea_token = vladimir_vitkovsky
+			idea_token = RUS_vladimir_vitkovsky
 			ledger = army
 		    allowed = {
 		    	original_tag = RUS
@@ -350,7 +425,7 @@ characters = {
 		advisor={
 			cost = 100
 			slot = theorist
-			idea_token = nestor_monastyrev
+			idea_token = RUS_nestor_monastyrev
 			ledger = navy
 			allowed = {
 				original_tag = RUS
@@ -381,7 +456,7 @@ characters = {
 		advisor = {
 			cost = 100
 			slot = theorist
-			idea_token = aleksandr_prokofyev_seversky
+			idea_token = RUS_aleksandr_prokofyev_seversky
 			ledger = air
 			allowed = {
 				original_tag = RUS
@@ -401,7 +476,7 @@ characters = {
 		}
 		advisor = {
 			slot = army_chief
-			idea_token = anton_denikin
+			idea_token = RUS_anton_denikin
 			allowed = {
 				original_tag = RUS
 			}				
@@ -411,7 +486,11 @@ characters = {
 			cost = 100
 		}
 		field_marshal = {
-			traits = { war_hero organizer skilled_staffer }
+			traits = {
+				war_hero
+				organizer
+				skilled_staffer
+			}
 			skill = 4
 			attack_skill = 2
 			defense_skill = 4
@@ -431,7 +510,7 @@ characters = {
 		advisor={
 			cost = 100
 			slot = army_chief
-			idea_token = konstantin_nechayev
+			idea_token = RUS_konstantin_nechayev
 	    	allowed = {
 	    		original_tag = RUS
 	    	}
@@ -440,7 +519,11 @@ characters = {
 			}
 		}
 		field_marshal = {
-			traits = { harsh_leader infantry_officer war_hero }
+			traits = {
+				harsh_leader
+				infantry_officer
+				war_hero
+			}
 			skill = 3
 			attack_skill = 3
 			defense_skill = 2
@@ -460,7 +543,7 @@ characters = {
 		advisor={
 			cost = 100
 			slot = army_chief
-			idea_token = vasily_flug
+			idea_token = RUS_vasily_flug
 		    allowed = {
 	    		original_tag = RUS
 		    }
@@ -494,7 +577,7 @@ characters = {
 		advisor={
 			cost = 100
 			slot = navy_chief
-			idea_token = mikhail_kedrov
+			idea_token = RUS_mikhail_kedrov
 		    allowed = {
 		    	original_tag = RUS
 	    	}
@@ -527,7 +610,7 @@ characters = {
 		advisor = {
 			cost = 100
 			slot = air_chief
-			idea_token = vyacheslav_tkachyov
+			idea_token = RUS_vyacheslav_tkachyov
 			allowed = {
 				original_tag = RUS
 			}
@@ -544,7 +627,7 @@ characters = {
 		advisor = {
 			cost = 100
 			slot = air_chief
-			idea_token = yan_nagursky
+			idea_token = RUS_yan_nagursky
 			allowed = {
 				original_tag = RUS
 			}
@@ -563,7 +646,7 @@ characters = {
 		}
 		advisor={
 			slot = high_command
-			idea_token = pyotr_pisarev
+			idea_token = RUS_pyotr_pisarev
 			ledger = army
 		    allowed = {
 		    	original_tag = RUS
@@ -596,7 +679,7 @@ characters = {
 		advisor={
 			cost = 200
 			slot = high_command
-			idea_token = fedor_abramov
+			idea_token = RUS_fedor_abramov
 			ledger = army
 		    allowed = {
 		    	original_tag = RUS
@@ -631,7 +714,7 @@ characters = {
 		advisor={
 			cost = 100
 			slot = high_command
-			idea_token = mikhail_promtov
+			idea_token = RUS_mikhail_promtov
 			ledger = army
 		    allowed = {
 		    	original_tag = RUS
@@ -665,7 +748,7 @@ characters = {
 		advisor={
 			cost = 100
 			slot = high_command
-			idea_token = vladimir_marushevsky
+			idea_token = RUS_vladimir_marushevsky
 			ledger = army
 		    allowed = {
 		    	original_tag = RUS
@@ -699,7 +782,7 @@ characters = {
 		advisor = {
 			cost = 100
 			slot = high_command
-			idea_token = vasily_yanchenko
+			idea_token = RUS_vasily_yanchenko
 			ledger = air
 			allowed = {
 				original_tag = RUS
@@ -718,7 +801,9 @@ characters = {
 			}
 		}
 		field_marshal = {
-			traits = { cavalry_officer }
+			traits = {
+				cavalry_officer
+			}
 			skill = 2
 			attack_skill = 2
 			defense_skill = 2
@@ -736,7 +821,10 @@ characters = {
 			}
 		}
 		field_marshal = {
-			traits = { trait_reckless cavalry_officer }
+			traits = {
+				trait_reckless
+				cavalry_officer
+			}
 			skill = 2
 			attack_skill = 2
 			defense_skill = 1
@@ -756,7 +844,11 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { old_guard cavalry_officer politically_connected }
+			traits = {
+				old_guard
+				cavalry_officer
+				politically_connected
+			}
 			skill = 3
 			attack_skill = 2
 			defense_skill = 3
@@ -774,7 +866,12 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { infantry_officer cavalry_officer war_hero trickster }
+			traits = {
+				infantry_officer
+				cavalry_officer
+				war_hero
+				trickster
+			}
 			skill = 3
 			attack_skill = 4
 			defense_skill = 2
@@ -930,7 +1027,10 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { winter_expert trait_mountaineer }
+			traits = {
+				winter_expert
+				trait_mountaineer
+			}
 			skill = 1
 			attack_skill = 1
 			defense_skill = 1
@@ -1022,7 +1122,7 @@ characters = {
 		name=RUS_mikhail_berens
 		portraits={
 			army={
-				large=GFX_portrait_RUS_navy_1
+				large=GFX_portrait_RUS_mikhail_berens
 			}
 		}
 		navy_leader={

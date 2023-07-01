@@ -123,9 +123,9 @@ recruit_character = VIN_ngo_dinh_can
 recruit_character = VIN_tran_quoc_hoan
 
 ### 이론가 ###
-recruit_character = VIN_vietnam_army_research
-recruit_character = VIN_vietnam_navy_research
-recruit_character = VIN_vietnam_air_research
+recruit_character = VIN_army_research
+recruit_character = VIN_navy_research
+recruit_character = VIN_air_research
 
 ### 육군참모총장 ###
 recruit_character = VIN_le_van_ty
@@ -138,7 +138,7 @@ recruit_character = VIN_ta_xuan_thu
 
 ### 공군참모총장 ###
 recruit_character = VIN_nguyen_van_hinh
-recruit_character = VIN_vietnam_air_department
+recruit_character = VIN_air_department
 
 ### 티베트 최고사령부 ###
 recruit_character = VIN_duong_van_minh

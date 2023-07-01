@@ -88,7 +88,13 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = chen_gongbo
+			idea_token = ROC_chen_gongbo
+			visible = {
+				has_country_leader = {
+					ruling_only = yes 
+					character = ROC_wang_jingwei
+				}
+			}
 			available = {
 				has_country_leader = {
 					ruling_only = yes 
@@ -113,7 +119,13 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = zhou_fohai
+			idea_token = ROC_zhou_fohai
+			visible = {
+				has_country_leader = {
+					ruling_only = yes 
+					character = ROC_wang_jingwei
+				}
+			}
 			available = {
 				has_country_leader = {
 					ruling_only = yes 
@@ -137,7 +149,13 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = gu_mengyu
+			idea_token = ROC_gu_mengyu
+			visible = {
+				has_country_leader = {
+					ruling_only = yes 
+					character = ROC_wang_jingwei
+				}
+			}
 			available = {
 				has_country_leader = {
 					ruling_only = yes 
@@ -162,7 +180,7 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = eugene_chen
+			idea_token = ROC_eugene_chen
 			allowed = {
 				original_tag = ROC
 			}
@@ -180,7 +198,7 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = zhang_dongsun
+			idea_token = ROC_zhang_dongsun
 			allowed = {
 				original_tag = ROC
 			}
@@ -198,7 +216,7 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = zou_taofen
+			idea_token = ROC_zou_taofen
 			allowed  = {
 				original_tag  = ROC
 			}
@@ -216,7 +234,7 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = li_zhangda
+			idea_token = ROC_li_zhangda
 			available = {
 				has_intelligence_agency = yes
 			}
@@ -231,7 +249,7 @@ characters={
 	}
 	
 	### 이론가 ###
-	ROC_fujian_army_research={
+	ROC_army_research={
 		name=joint_army_research
 		portraits={
 			army={
@@ -241,7 +259,7 @@ characters={
 		advisor={
 			cost = 100
 			slot = theorist
-			idea_token = fujian_army_research
+			idea_token = ROC_army_research
 			ledger = army
 			allowed = {
 				original_tag = ROC
@@ -251,7 +269,7 @@ characters={
 			}
 		}
 	}
-	ROC_fujian_navy_research={
+	ROC_navy_research={
 		name=joint_navy_research
 		portraits={
 			army={
@@ -261,7 +279,7 @@ characters={
 		advisor={
 			cost = 100
 			slot = theorist
-			idea_token = fujian_navy_research
+			idea_token = ROC_navy_research
 			ledger = navy
 			allowed = {
 				original_tag = ROC
@@ -271,7 +289,7 @@ characters={
 			}
 		}
 	}
-	ROC_fujian_air_research={
+	ROC_air_research={
 		name=joint_air_research
 		portraits={
 			army={
@@ -281,7 +299,7 @@ characters={
 		advisor={
 			cost = 100
 			slot = theorist
-			idea_token = fujian_air_research
+			idea_token = ROC_air_research
 			ledger = air
 			allowed = {
 				original_tag = ROC
@@ -304,7 +322,7 @@ characters={
 		advisor={
 			cost = 100
 			slot = army_chief
-			idea_token = cai_tingkai
+			idea_token = ROC_cai_tingkai
 	    	allowed = {
 	    		original_tag = ROC
 	    	}
@@ -337,7 +355,7 @@ characters={
 		}
 		advisor={
 			slot = navy_chief
-			idea_token = li_qingwen
+			idea_token = ROC_li_qingwen
 		    allowed = {
 		    	original_tag = ROC
 	    	}
@@ -369,7 +387,7 @@ characters={
 		}
 		advisor={
 			slot = air_chief
-			idea_token = liu_muqun
+			idea_token = ROC_liu_muqun
 	    	allowed = {
 		    	original_tag = ROC
 		    }
@@ -391,7 +409,7 @@ characters={
 		advisor={
 			cost = 100
 			slot = high_command
-			idea_token = chen_jitang
+			idea_token = ROC_chen_jitang
 			ledger = army
 		    allowed = {
 		    	original_tag = ROC
@@ -425,7 +443,7 @@ characters={
 		advisor={
 			cost = 100
 			slot = high_command
-			idea_token = jiang_guangnai
+			idea_token = ROC_jiang_guangnai
 			ledger = army
 		    allowed = {
 		    	original_tag = ROC
@@ -458,7 +476,7 @@ characters={
 		}
 		advisor={
 			slot = high_command
-			idea_token = li_yangjing
+			idea_token = ROC_li_yangjing
 			ledger = army
 		    allowed = {
 		    	original_tag = ROC
@@ -489,7 +507,7 @@ characters={
 		}
 		advisor={
 			slot = high_command
-			idea_token = li_zhilong
+			idea_token = ROC_li_zhilong
 			ledger = navy
 		    allowed = {
 		    	original_tag = ROC

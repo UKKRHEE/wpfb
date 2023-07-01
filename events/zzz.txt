@@ -1,0 +1,122 @@
+﻿add_namespace = zzz
+
+country_event = { #
+	id = zzz.1
+	title = zzz.1.t
+	desc = zzz.1.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = zzz.1.a
+		KOR_lyuh_woon_hyung = {
+			if = {
+				limit = { has_ideology = socialism }
+				promote_character = socialism
+			}
+			else = {
+				add_country_leader_role = {
+					country_leader = {
+						ideology = socialism
+						traits = {
+							resolute_social_democrat_leader
+						}
+					}
+					promote_leader = yes
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = zzz.1.b
+		KOR_ahn_chang_ho = {
+			if = {
+				limit = { has_ideology = liberalism }
+				promote_character = liberalism
+			}
+			else = {
+				add_country_leader_role = {
+					country_leader = {
+						ideology = liberalism
+						traits = {
+							social_reformer_leader
+						}
+					}
+					promote_leader = yes
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = zzz.1.c
+		KOR_syngman_rhee = {
+			if = {
+				limit = { has_ideology = conservatism }
+				promote_character = conservatism
+			}
+			else = {
+				add_country_leader_role = {
+					country_leader = {
+						ideology = conservatism
+						traits = {
+							backroom_backstabber_leader
+						}
+					}
+					promote_leader = yes
+				}
+			}
+		}
+	}
+}
+
+country_event = { #
+	id = zzz.2
+	title = zzz.2.t
+	desc = zzz.2.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = zzz.2.a
+		JAP_emperor_hirohito = {
+			if = {
+				limit = { has_ideology = fascism_ideology }
+				promote_character = fascism_ideology
+			}
+			else = {
+				add_country_leader_role = {
+					country_leader = {
+						ideology = fascism_ideology
+						traits = {
+							#
+						}
+					}
+					promote_leader = yes
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = zzz.2.b
+		JAP_yasuhito = {
+			if = {
+				limit = { has_ideology = fascism_ideology }
+				promote_character = fascism_ideology
+			}
+			else = {
+				add_country_leader_role = {
+					country_leader = {
+						ideology = fascism_ideology
+						traits = {
+							#
+						}
+					}
+					promote_leader = yes
+				}
+			}
+		}
+	}
+}

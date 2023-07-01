@@ -243,7 +243,7 @@ characters={
 		}
 		advisor = {
 			slot = political_advisor
-			idea_token = asit_krishna_mukherji
+			idea_token = RAJ_asit_krishna_mukherji
 			allowed = {
 				original_tag = RAJ
 			}
@@ -266,7 +266,7 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = subbier_appadurai_ayer
+			idea_token = RAJ_subbier_appadurai_ayer
 			available = {
 				has_intelligence_agency = yes
 			}
@@ -319,7 +319,7 @@ characters={
 	#}
 	
 	### 이론가 ###
-	RAJ_india_army_research = {
+	RAJ_army_research = {
 		name=joint_army_research
 		portraits={
 			army={
@@ -329,7 +329,7 @@ characters={
 		advisor={
 			cost = 100
 			slot = theorist
-			idea_token = india_army_research
+			idea_token = RAJ_army_research
 			ledger = army
 		    allowed = {
 		    	original_tag = RAJ
@@ -339,7 +339,7 @@ characters={
 			}
 		}
 	}
-	RAJ_india_navy_research={
+	RAJ_navy_research={
 		name=joint_navy_research
 		portraits={
 			army={
@@ -349,7 +349,7 @@ characters={
 		advisor={
 			cost = 100
 			slot = theorist
-			idea_token = india_navy_research
+			idea_token = RAJ_navy_research
 			ledger = navy
 			allowed = {
 				original_tag = RAJ
@@ -359,7 +359,7 @@ characters={
 			}
 		}
 	}
-	RAJ_india_air_research={
+	RAJ_air_research={
 		name=joint_air_research
 		portraits={
 			army={
@@ -369,7 +369,7 @@ characters={
 		advisor={
 			cost = 100
 			slot = theorist
-			idea_token = india_air_research
+			idea_token = RAJ_air_research
 			ledger = air
 			allowed = {
 				original_tag = RAJ

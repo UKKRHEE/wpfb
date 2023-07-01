@@ -27,8 +27,8 @@ recruit_character = PRC_deng_fa
 
 ### 이론가 ###
 recruit_character = PRC_liu_bocheng
-recruit_character = PRC_ccp_navy_research
-recruit_character = PRC_ccp_air_research
+recruit_character = PRC_navy_research
+recruit_character = PRC_air_research
 
 ### 육군참모총장 ###
 recruit_character = PRC_zhu_de

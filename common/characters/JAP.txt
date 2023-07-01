@@ -16,16 +16,48 @@ characters = {
 			id=-1
 		}
 	}
-	JAP_tetsu_katayama={
-		name=JAP_tetsu_katayama
+	JAP_ichiki_kitokuro={
+		name=JAP_ichiki_kitokuro
 		portraits={
 			civilian={
-				large=GFX_Portrait_tetsu_katayama
+				large=GFX_portrait_JAP_ichiki_kitokuro
 			}
 		}
 		country_leader={
 			expire = "1965.1.1"
-			ideology = socialism
+			ideology = liberalism
+			traits = {
+				#
+			}
+			id=-1
+		}
+	}
+	JAP_yasuhito={
+		name=JAP_yasuhito
+		portraits={
+			civilian={
+				large=GFX_portrait_JAP_yasuhito
+			}
+		}
+		country_leader={
+			expire = "1965.1.1"
+			ideology = fascism_ideology
+			traits = {
+				#
+			}
+			id=-1
+		}
+	}
+	JAP_ugaki_kazushige={
+		name=JAP_ugaki_kazushige
+		portraits={
+			civilian={
+				large=GFX_portrait_JAP_ugaki_kazushige
+			}
+		}
+		country_leader={
+			expire = "1965.1.1"
+			ideology = oligarchism
 			traits = {
 				#
 			}
@@ -38,32 +70,6 @@ characters = {
 			civilian={
 				large=GFX_portrait_JAP_emperor_hirohito
 			}
-		}
-		country_leader={
-			expire = "1965.1.1"
-			ideology = fascism_ideology
-			traits = {
-				warrior_code
-				emperor_showa
-				imperial_sanction
-			}
-			id=-1
-		}
-	}
-	JAP_tokugawa_iesato={
-		name=JAP_tokugawa_iesato
-		portraits={
-			civilian={
-				large=GFX_portrait_JAP_tokugawa_iesato
-			}
-		}
-		country_leader={
-			expire = "1965.1.1"
-			ideology = despotism
-			traits = {
-				#
-			}
-			id=-1
 		}
 	}
 	
@@ -98,8 +104,13 @@ characters = {
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = takuo_godo
+			idea_token = JAP_takuo_godo
 			visible = {
+                NOT = {
+					has_government = communism
+				}
+            }
+			available = {
                 NOT = {
 					has_government = communism
 				}
@@ -121,8 +132,13 @@ characters = {
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = fujiwara_ginjiro
+			idea_token = JAP_fujiwara_ginjiro
 			visible = {
+                NOT = {
+					has_government = communism
+				}
+            }
+			available = {
                 NOT = {
 					has_government = communism
 				}
@@ -144,8 +160,13 @@ characters = {
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = kishi_nobusuke
+			idea_token = JAP_kishi_nobusuke
 			visible = {
+                NOT = {
+					has_government = communism
+				}
+            }
+			available = {
                 NOT = {
 					has_government = communism
 				}
@@ -169,8 +190,11 @@ characters = {
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = sanzo_nosaka
+			idea_token = JAP_sanzo_nosaka
 			visible = {
+				has_government = communism
+			}
+			available = {
 				has_government = communism
 			}
 			allowed = {
@@ -191,8 +215,11 @@ characters = {
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = miyamoto_kenji
+			idea_token = JAP_miyamoto_kenji
 			visible = {
+				has_government = communism
+			}
+			available = {
 				has_government = communism
 			}
 			allowed = {
@@ -213,8 +240,11 @@ characters = {
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = takano_minoru
+			idea_token = JAP_takano_minoru
 			visible = {
+				has_government = communism
+			}
+			available = {
 				has_government = communism
 			}
 			allowed = {
@@ -236,8 +266,11 @@ characters = {
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = kijuro_shidehara
+			idea_token = JAP_kijuro_shidehara
 			visible = {
+				has_government = democratic
+			}
+			available = {
 				has_government = democratic
 			}
 			allowed = {
@@ -258,8 +291,11 @@ characters = {
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = ishibashi_tanzan
+			idea_token = JAP_ishibashi_tanzan
 			visible = {
+				has_government = democratic
+			}
+			available = {
 				has_government = democratic
 			}
 			allowed = {
@@ -280,8 +316,11 @@ characters = {
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = ozaki_yukio
+			idea_token = JAP_ozaki_yukio
 			visible = {
+				has_government = democratic
+			}
+			available = {
 				has_government = democratic
 			}
 			allowed = {
@@ -303,8 +342,11 @@ characters = {
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = kingoro_hashimoto
+			idea_token = JAP_kingoro_hashimoto
 			visible = {
+				has_government = fascism
+			}
+			available = {
 				has_government = fascism
 			}
 			allowed = {
@@ -327,7 +369,7 @@ characters = {
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = kenji_doihara
+			idea_token = JAP_kenji_doihara
 			visible = {
 				NOT = {
 					has_government = communism
@@ -335,6 +377,9 @@ characters = {
 			}
 			available = {
 				has_intelligence_agency = yes
+				NOT = {
+					has_government = communism
+				}
 			}
 			allowed = {
 				original_tag = JAP
@@ -362,7 +407,7 @@ characters = {
 			legacy_id=-1
 		}
 	}
-	JAP_japan_security={
+	JAP_security={
 		name=joint_security
 		portraits={
 			civilian={
@@ -371,12 +416,13 @@ characters = {
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = japan_security
+			idea_token = JAP_security
 			visible = {
 				has_government = communism
 			}
 			available = {
 				has_intelligence_agency = yes
+				has_government = communism
 			}
 			allowed = {
 				original_tag = JAP
@@ -400,12 +446,17 @@ characters = {
 		advisor={
 			cost = 100
 			slot = theorist
-			idea_token = hisaichi_terauchi
+			idea_token = JAP_hisaichi_terauchi
 			ledger = army
 		    visible = {
-				has_country_flag = JAP_toseiha_win
 				NOT = {
 					has_government = communism
+				}
+			}
+			available = {
+				NOT = {
+					has_government = communism
+					has_country_flag = JAP_toseiha_out
 				}
 			}
 			allowed = {
@@ -445,12 +496,17 @@ characters = {
 		advisor={
 			cost = 100
 			slot = theorist
-			idea_token = obata_toshiro
+			idea_token = JAP_obata_toshiro
 			ledger = army
 			visible = {
-				has_country_flag = JAP_kodoha_win
 				NOT = {
 					has_government = communism
+				}
+			}
+			available = {
+				NOT = {
+					has_government = communism
+					has_country_flag = JAP_kodoha_out
 				}
 			}
 			allowed = {
@@ -472,9 +528,14 @@ characters = {
 		advisor={
 			cost = 150
 			slot = theorist
-			idea_token = isoroku_yamamoto
+			idea_token = JAP_isoroku_yamamoto
 			ledger = navy
 			visible = {
+                NOT = {
+					has_government = communism
+				}
+            }
+			available = {
                 NOT = {
 					has_government = communism
 				}
@@ -518,9 +579,14 @@ characters = {
 		advisor={
 			cost = 100
 			slot = theorist
-			idea_token = minoru_genda
+			idea_token = JAP_minoru_genda
 			ledger = navy
 			visible = {
+                NOT = {
+					has_government = communism
+				}
+            }
+			available = {
                 NOT = {
 					has_government = communism
 				}
@@ -543,9 +609,14 @@ characters = {
 		advisor={
 			cost = 150
 			slot = theorist
-			idea_token = yoshitoshi_tokugawa
+			idea_token = JAP_yoshitoshi_tokugawa
 			ledger = air
 			visible = {
+                NOT = {
+					has_government = communism
+				}
+            }
+			available = {
                 NOT = {
 					has_government = communism
 				}
@@ -555,6 +626,58 @@ characters = {
 			}
 			traits = {
 				assault_avaition
+			}
+		}
+	}
+	JAP_army_research = {
+		name=joint_army_research
+		portraits={
+			army={
+				small=GFX_idea_Joint_army_research
+			}
+		}
+		advisor={
+			cost = 100
+			slot = theorist
+			idea_token = JAP_army_research
+			ledger = army
+		    visible = {
+                has_government = communism
+            }
+			available = {
+                has_government = communism
+            }
+			allowed = {
+		    	original_tag = JAP
+		    }
+		    traits = {
+				military_theorist
+			}
+		}
+	}
+	JAP_navy_research={
+		name=joint_navy_research
+		portraits={
+			army={
+				small=GFX_idea_Joint_navy_research
+			}
+		}
+		advisor={
+			cost = 100
+			slot = theorist
+			idea_token = JAP_navy_research
+			ledger = navy
+			visible = {
+                has_government = communism
+            }
+			available = {
+                has_government = communism
+            }
+			allowed = {
+				original_tag = JAP
+			}
+			traits = {
+				naval_theorist
 			}
 		}
 	}
@@ -568,7 +691,7 @@ characters = {
 		advisor={
 			cost = 100
 			slot = theorist
-			idea_token = hino_kumazo
+			idea_token = JAP_hino_kumazo
 			ledger = air
 			allowed = {
 				original_tag = JAP
@@ -588,7 +711,7 @@ characters = {
 		advisor={
 			cost = 100
 			slot = theorist
-			idea_token = yoshio_nishina
+			idea_token = JAP_yoshio_nishina
 			ledger = army
 			allowed = {
 				original_tag = JAP
@@ -611,7 +734,7 @@ characters = {
 		advisor={
 			cost = 100
 			slot = theorist
-			idea_token = hideo_itokawa
+			idea_token = JAP_hideo_itokawa
 			ledger = air
 			allowed = {
 				original_tag = JAP
@@ -635,8 +758,13 @@ characters = {
 		}
 		advisor={
 			slot = army_chief
-			idea_token = kanin_kotohito
+			idea_token = JAP_kanin_kotohito
 	    	visible = {
+                NOT = {
+					has_government = communism
+				}
+            }
+			available = {
                 NOT = {
 					has_government = communism
 				}
@@ -660,8 +788,13 @@ characters = {
 		advisor={
 			cost = 100
 			slot = army_chief
-			idea_token = iwane_matsui
+			idea_token = JAP_iwane_matsui
 	    	visible = {
+                NOT = {
+					has_government = communism
+				}
+            }
+			available = {
                 NOT = {
 					has_government = communism
 				}
@@ -702,11 +835,16 @@ characters = {
 		advisor={
 			cost = 200
 			slot = army_chief
-			idea_token = tomoyuki_yamashita
+			idea_token = JAP_tomoyuki_yamashita
 		    visible = {
-				has_country_flag = JAP_kodoha_win
 				NOT = {
 					has_government = communism
+				}
+			}
+			available = {
+				NOT = {
+					has_government = communism
+					has_country_flag = JAP_kodoha_out
 				}
 			}
 			allowed = {
@@ -747,11 +885,16 @@ characters = {
 		advisor={
 			cost = 100
 			slot = army_chief
-			idea_token = hideki_tojo
+			idea_token = JAP_hideki_tojo
 		    visible = {
-				has_country_flag = JAP_toseiha_win
 				NOT = {
 					has_government = communism
+				}
+			}
+			available = {
+				NOT = {
+					has_government = communism
+					has_country_flag = JAP_toseiha_out
 				}
 			}
 			allowed = {
@@ -774,8 +917,11 @@ characters = {
 		advisor={
 			cost = 100
 			slot = army_chief
-			idea_token = hitoshi_imamura2
+			idea_token = JAP_hitoshi_imamura2
 		    visible = {
+                has_government = communism
+            }
+			available = {
                 has_government = communism
             }
 			allowed = {
@@ -815,8 +961,13 @@ characters = {
 		advisor={
 			cost = 100
 			slot = navy_chief
-			idea_token = fushimi_hiroyasu
+			idea_token = JAP_fushimi_hiroyasu
 		    visible = {
+				NOT = {
+					has_government = communism
+				}
+			}
+			available = {
 				NOT = {
 					has_government = communism
 				}
@@ -839,8 +990,13 @@ characters = {
 		advisor={
 			cost = 100
 			slot = navy_chief
-			idea_token = osami_nagano
+			idea_token = JAP_osami_nagano
 		    visible = {
+				NOT = {
+					has_government = communism
+				}
+			}
+			available = {
 				NOT = {
 					has_government = communism
 				}
@@ -862,8 +1018,13 @@ characters = {
 		}
 		advisor={
 			slot = navy_chief
-			idea_token = shigetaro_shimada
+			idea_token = JAP_shigetaro_shimada
 		    visible = {
+				NOT = {
+					has_government = communism
+				}
+			}
+			available = {
 				NOT = {
 					has_government = communism
 				}
@@ -888,8 +1049,11 @@ characters = {
 		advisor={
 			cost = 100
 			slot = navy_chief
-			idea_token = jisaburo_ozawa2
+			idea_token = JAP_jisaburo_ozawa2
 		    visible = {
+				has_government = communism
+			}
+			available = {
 				has_government = communism
 			}
 			allowed = {
@@ -929,8 +1093,13 @@ characters = {
 		}
 		advisor={
 			slot = air_chief
-			idea_token = torashiro_kawabe
+			idea_token = JAP_torashiro_kawabe
 			visible = {
+				NOT = {
+					has_government = communism
+				}
+			}
+			available = {
 				NOT = {
 					has_government = communism
 				}
@@ -952,8 +1121,13 @@ characters = {
 		}
 		advisor={
 			slot = air_chief
-			idea_token = korechika_anami
+			idea_token = JAP_korechika_anami
 			visible = {
+				NOT = {
+					has_government = communism
+				}
+			}
+			available = {
 				NOT = {
 					has_government = communism
 				}
@@ -967,24 +1141,29 @@ characters = {
 		}
 	}
 	#공산주의
-	JAP_yoshitoshi_tokugawa2={
-		name=JAP_yoshitoshi_tokugawa
+	JAP_tateo_kato2 = {
+		name=JAP_tateo_kato
 		portraits={
 			army={
-				small=GFX_idea_yoshitoshi_tokugawa
+				small=GFX_idea_tateo_kato
 			}
 		}
 		advisor={
+			cost = 200
 			slot = air_chief
-			idea_token = yoshitoshi_tokugawa2
-			visible = {
+			idea_token = JAP_tateo_kato2
+			ledger = air
+		    visible = {
+                has_government = communism
+            }
+			available = {
 				has_government = communism
-			}
-	    	allowed = {
+            }
+			allowed = {
 		    	original_tag = JAP
 		    }
 		    traits = {
-				air_chief_ground_support_1
+				air_chief_reform_3
 			}
 		}
 	}
@@ -1001,9 +1180,14 @@ characters = {
 		advisor={
 			cost = 100
 			slot = high_command
-			idea_token = shunroku_hata
+			idea_token = JAP_shunroku_hata
 			ledger = army
 		    visible = {
+				NOT = {
+					has_government = communism
+				}
+			}
+			available = {
 				NOT = {
 					has_government = communism
 				}
@@ -1044,9 +1228,15 @@ characters = {
 		advisor={
 			cost = 100
 			slot = high_command
-			idea_token = yasuji_okamura
+			idea_token = JAP_yasuji_okamura
 			ledger = army
 		    visible = {
+				NOT = {
+					has_government = communism
+					has_government = democratic
+				}
+			}
+			available = {
 				NOT = {
 					has_government = communism
 					has_government = democratic
@@ -1087,9 +1277,14 @@ characters = {
 		}
 		advisor={
 			slot = high_command
-			idea_token = soemu_toyoda
+			idea_token = JAP_soemu_toyoda
 			ledger = navy
 		    visible = {
+				NOT = {
+					has_government = communism
+				}
+			}
+			available = {
 				NOT = {
 					has_government = communism
 				}
@@ -1130,13 +1325,18 @@ characters = {
 		advisor={
 			cost = 100
 			slot = high_command
-			idea_token = mitsuo_fuchida
+			idea_token = JAP_mitsuo_fuchida
 			ledger = air
 	    	visible = {
                 NOT = {
 					has_government = communism
 				}
             }
+			available = {
+				NOT = {
+					has_government = communism
+				}
+			}
 			allowed = {
 		    	original_tag = JAP
 	    	}
@@ -1154,13 +1354,18 @@ characters = {
 		}
 		advisor={
 			slot = high_command
-			idea_token = nishizo_tsukahara
+			idea_token = JAP_nishizo_tsukahara
 			ledger = navy
 	    	visible = {
                 NOT = {
 					has_government = communism
 				}
             }
+			available = {
+				NOT = {
+					has_government = communism
+				}
+			}
 			allowed = {
 	    		original_tag = JAP
 	    	}
@@ -1179,13 +1384,18 @@ characters = {
 		advisor={
 			cost = 200
 			slot = high_command
-			idea_token = tateo_kato
+			idea_token = JAP_tateo_kato
 			ledger = air
 		    visible = {
                 NOT = {
 					has_government = communism
 				}
             }
+			available = {
+				NOT = {
+					has_government = communism
+				}
+			}
 			allowed = {
 		    	original_tag = JAP
 		    }
@@ -1204,9 +1414,14 @@ characters = {
 		advisor={
 			cost = 100
 			slot = high_command
-			idea_token = matome_ugaki
+			idea_token = JAP_matome_ugaki
 			ledger = navy
 		    visible = {
+				NOT = {
+					has_government = communism
+				}
+			}
+			available = {
 				NOT = {
 					has_government = communism
 				}
@@ -1229,9 +1444,14 @@ characters = {
 		advisor={
 			cost = 100
 			slot = high_command
-			idea_token = chuichi_nagumo
+			idea_token = JAP_chuichi_nagumo
 			ledger = air
 		    visible = {
+				NOT = {
+					has_government = communism
+				}
+			}
+			available = {
 				NOT = {
 					has_government = communism
 				}
@@ -1256,9 +1476,12 @@ characters = {
 		advisor={
 			cost = 100
 			slot = high_command
-			idea_token = miyazaki_shigesaburo
+			idea_token = JAP_miyazaki_shigesaburo
 			ledger = army
 		    visible = {
+				has_government = communism
+			}
+			available = {
 				has_government = communism
 			}
 			allowed = {
@@ -1295,9 +1518,12 @@ characters = {
 		advisor={
 			cost = 100
 			slot = high_command
-			idea_token = kimura_masatomi
+			idea_token = JAP_kimura_masatomi
 			ledger = navy
 		    visible = {
+				has_government = communism
+			}
+			available = {
 				has_government = communism
 			}
 			allowed = {
@@ -1322,25 +1548,29 @@ characters = {
 			legacy_id=-1
 		}
 	}
-	JAP_japan_logistics = {
-		name=joint_logistics
+	JAP_iwamoto_tetsuzo = {
+		name=JAP_iwamoto_tetsuzo
 		portraits={
 			army={
-				small=GFX_idea_Joint_logistics
+				small=GFX_idea_JAP_iwamoto_tetsuzo
 			}
 		}
 		advisor={
+			cost = 100
 			slot = high_command
-			idea_token = japan_logistics
-			ledger = army
+			idea_token = JAP_iwamoto_tetsuzo
+			ledger = air
 		    visible = {
-                has_government = communism
-            }
+				has_government = communism
+			}
+			available = {
+				has_government = communism
+			}
 			allowed = {
 		    	original_tag = JAP
 		    }
 		    traits = {
-				army_logistics_1
+				air_air_superiority_3 
 			}
 		}
 	}

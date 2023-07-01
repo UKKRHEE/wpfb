@@ -18,16 +18,22 @@ characters={
 		}
 		advisor={
 			slot = army_chief
-			idea_token = sheng_shicai
-	    	allowed = {
-	    		original_tag = SIK
-	    	}
+			idea_token = SIK_sheng_shicai
+			visible = {
+				has_country_leader = {
+					character = SIK_sheng_shicai
+					ruling_only = yes 
+				}
+			}
 			available = {
 				has_country_leader = {
 					character = SIK_sheng_shicai
 					ruling_only = yes 
 				}
 			}
+			allowed = {
+	    		original_tag = SIK
+	    	}
 	    	traits = {
 				army_chief_organizational_1
 			}
@@ -79,21 +85,39 @@ characters={
 		}
 		advisor={
 			slot = army_chief
-			idea_token = jin_shuren
-	    	allowed = {
-	    		original_tag = SIK
-	    	}
+			idea_token = SIK_jin_shuren
+			visible = {
+				has_country_leader = {
+					character = SIK_jin_shuren
+					ruling_only = yes 
+				}
+			}
 			available = {
 				has_country_leader = {
 					character = SIK_jin_shuren
 					ruling_only = yes 
 				}
 			}
+			allowed = {
+	    		original_tag = SIK
+	    	}
 	    	traits = {
 				army_chief_offensive_1
 			}
 		}
 		field_marshal={
+			visible = {
+				OR = {
+					has_country_leader = {
+						character = SIK_yang_zengxin
+						ruling_only = yes 
+					}
+					has_country_leader = {
+						character = SIK_jin_shuren
+						ruling_only = yes 
+					}
+				}
+			}
 			traits = {
 				old_guard
 				substance_abuser
@@ -124,21 +148,33 @@ characters={
 		}
 		advisor={
 			slot = army_chief
-			idea_token = yang_zengxin
-	    	allowed = {
-	    		original_tag = SIK
-	    	}
+			idea_token = SIK_yang_zengxin
+			visible = {
+				has_country_leader = {
+					character = SIK_yang_zengxin
+					ruling_only = yes 
+				}
+			}
 			available = {
 				has_country_leader = {
 					character = SIK_yang_zengxin
 					ruling_only = yes 
 				}
 			}
+			allowed = {
+	    		original_tag = SIK
+	    	}
 	    	traits = {
 				army_chief_defensive_1
 			}
 		}
 		field_marshal={
+			visible = {
+				has_country_leader = {
+					character = SIK_yang_zengxin
+					ruling_only = yes 
+				}
+			}
 			traits = {
 				old_guard
 				politically_connected
@@ -162,7 +198,7 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = huashengmu
+			idea_token = SIK_huashengmu
 			allowed = {
 				original_tag = SIK
 			}
@@ -180,7 +216,7 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = guanglu
+			idea_token = SIK_guanglu
 			allowed = {
 				original_tag = SIK
 			}
@@ -199,7 +235,7 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = burhan_shahidi
+			idea_token = SIK_burhan_shahidi
 			allowed = {
 				original_tag = SIK
 			}
@@ -228,9 +264,14 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = masud_sabri
-			allowed = {
-				original_tag = SIK
+			idea_token = SIK_masud_sabri
+			visible = {
+				NOT = {
+					has_country_leader = {
+						character = SIK_jin_shuren
+						ruling_only = yes 
+					}
+				}
 			}
 			available = {
 				NOT = {
@@ -239,6 +280,9 @@ characters={
 						ruling_only = yes 
 					}
 				}
+			}
+			allowed = {
+				original_tag = SIK
 			}
 			traits = {
 				silent_workhorse
@@ -255,9 +299,14 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = muhammad_amin_bughra
-			allowed = {
-				original_tag = SIK
+			idea_token = SIK_muhammad_amin_bughra
+			visible = {
+				NOT = {
+					has_country_leader = {
+						character = SIK_jin_shuren
+						ruling_only = yes 
+					}
+				}
 			}
 			available = {
 				NOT = {
@@ -267,11 +316,22 @@ characters={
 					}
 				}
 			}
+			allowed = {
+				original_tag = SIK
+			}
 			traits = {
 				ideological_crusader
 			}
 		}
 		corps_commander={
+			visible = {
+				NOT = {
+					has_country_leader = {
+						character = SIK_jin_shuren
+						ruling_only = yes 
+					}
+				}
+			}
 			traits = {
 				trait_reckless
 				politically_connected
@@ -294,9 +354,20 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = nasir
-			allowed = {
-				original_tag = SIK
+			idea_token = SIK_nasir
+			visible = {
+				NOT = {
+					OR = {
+						has_country_leader = {
+							character = SIK_sheng_shicai
+							ruling_only = yes 
+						}
+						has_country_leader = {
+							character = SIK_jin_shuren
+							ruling_only = yes 
+						}
+					}
+				}
 			}
 			available = {
 				NOT = {
@@ -312,6 +383,9 @@ characters={
 					}
 				}
 			}
+			allowed = {
+				original_tag = SIK
+			}
 			traits = {
 				kumul_khan_advisor
 			}
@@ -319,7 +393,7 @@ characters={
 	}
 	
 	### 이론가 ###
-	SIK_xinjiang_army_research = {
+	SIK_army_research = {
 		name=joint_army_research
 		portraits={
 			army={
@@ -329,7 +403,7 @@ characters={
 		advisor={
 			cost = 100
 			slot = theorist
-			idea_token = xinjiang_army_research
+			idea_token = SIK_army_research
 			ledger = army
 		    allowed = {
 		    	original_tag = SIK
@@ -339,7 +413,7 @@ characters={
 			}
 		}
 	}
-	SIK_xinjiang_navy_research={
+	SIK_navy_research={
 		name=joint_navy_research
 		portraits={
 			army={
@@ -349,7 +423,7 @@ characters={
 		advisor={
 			cost = 100
 			slot = theorist
-			idea_token = xinjiang_navy_research
+			idea_token = SIK_navy_research
 			ledger = navy
 			allowed = {
 				original_tag = SIK
@@ -359,7 +433,7 @@ characters={
 			}
 		}
 	}
-	SIK_xinjiang_air_research={
+	SIK_air_research={
 		name=joint_air_research
 		portraits={
 			army={
@@ -369,7 +443,7 @@ characters={
 		advisor={
 			cost = 100
 			slot = theorist
-			idea_token = xinjiang_air_research
+			idea_token = SIK_air_research
 			ledger = air
 			allowed = {
 				original_tag = SIK
@@ -392,10 +466,21 @@ characters={
 		advisor={
 			cost = 100
 			slot = army_chief
-			idea_token = yulbars_khan
-	    	allowed = {
-	    		original_tag = SIK
-	    	}
+			idea_token = SIK_yulbars_khan
+			visible = {
+				NOT = {
+					OR = {
+						has_country_leader = {
+							character = SIK_sheng_shicai
+							ruling_only = yes 
+						}
+						has_country_leader = {
+							character = SIK_jin_shuren
+							ruling_only = yes 
+						}
+					}
+				}
+			}
 			available = {
 				NOT = {
 					OR = {
@@ -410,11 +495,28 @@ characters={
 					}
 				}
 			}
+			allowed = {
+	    		original_tag = SIK
+	    	}
 	    	traits = {
 				army_chief_offensive_2
 			}
 		}
 		field_marshal={
+			visible = {
+				NOT = {
+					OR = {
+						has_country_leader = {
+							character = SIK_sheng_shicai
+							ruling_only = yes 
+						}
+						has_country_leader = {
+							character = SIK_jin_shuren
+							ruling_only = yes 
+						}
+					}
+				}
+			}
 			traits = {
 				cavalry_officer
 				politically_connected
@@ -437,10 +539,15 @@ characters={
 		}
 		advisor={
 			slot = army_chief
-			idea_token = timur_beg
-	    	allowed = {
-	    		original_tag = SIK
-	    	}
+			idea_token = SIK_timur_beg
+			visible = {
+				NOT = {
+					has_country_leader = {
+						character = SIK_jin_shuren
+						ruling_only = yes
+					}
+				}
+			}
 			available = {
 				NOT = {
 					has_country_leader = {
@@ -449,11 +556,22 @@ characters={
 					}
 				}
 			}
+			allowed = {
+	    		original_tag = SIK
+	    	}
 	    	traits = {
 				army_chief_offensive_1
 			}
 		}
 		corps_commander={
+			visible = {
+				NOT = {
+					has_country_leader = {
+						character = SIK_jin_shuren
+						ruling_only = yes
+					}
+				}
+			}
 			traits = {
 				infantry_officer
 				politically_connected
@@ -477,10 +595,15 @@ characters={
 		}
 		advisor={
 			slot = army_chief
-			idea_token = sabit_damulla_abdulbaki
-	    	allowed = {
-	    		original_tag = SIK
-	    	}
+			idea_token = SIK_sabit_damulla_abdulbaki
+			visible = {
+				NOT = {
+					has_country_leader = {
+						character = SIK_jin_shuren
+						ruling_only = yes
+					}
+				}
+			}
 			available = {
 				NOT = {
 					has_country_leader = {
@@ -489,11 +612,22 @@ characters={
 					}
 				}
 			}
+			allowed = {
+	    		original_tag = SIK
+	    	}
 	    	traits = {
 				army_chief_offensive_1
 			}
 		}
 		field_marshal={
+			visible = {
+				NOT = {
+					has_country_leader = {
+						character = SIK_jin_shuren
+						ruling_only = yes
+					}
+				}
+			}
 			traits = {
 				infantry_officer
 				war_hero
@@ -509,7 +643,7 @@ characters={
 	}
 	
 	### 해군참모총장 ###
-	SIK_xinjiang_navy_department = {
+	SIK_navy_department = {
 		name=joint_navy_department
 		portraits={
 			army={
@@ -518,7 +652,7 @@ characters={
 		}
 		advisor={
 			slot = navy_chief
-			idea_token = xinjiang_navy_department
+			idea_token = SIK_navy_department
 		    allowed = {
 		    	original_tag = SIK
 	    	}
@@ -529,7 +663,7 @@ characters={
 	}
 	
 	### 공군참모총장 ###
-	SIK_xinjiang_air_department = {
+	SIK_air_department = {
 		name=joint_air_department
 		portraits={
 			army={
@@ -538,7 +672,7 @@ characters={
 		}
 		advisor={
 			slot = air_chief
-			idea_token = xinjiang_air_department
+			idea_token = SIK_air_department
 			
 	    	allowed = {
 		    	original_tag = SIK
@@ -550,63 +684,6 @@ characters={
 	}
 	
 	### 최고사령부 ###
-	SIK_xinjiang_infantry = {
-		name=SIK_xinjiang_infantry
-		portraits={
-			army={
-				small=GFX_idea_Joint_infantry
-			}
-		}
-		advisor={
-			slot = high_command
-			idea_token = xinjiang_infantry
-			ledger = army
-		    allowed = {
-		    	original_tag = SIK
-		    }
-		    traits = {
-				army_infantry_1
-			}
-		}
-	}
-	SIK_xinjiang_artillery = {
-		name=SIK_xinjiang_artillery
-		portraits={
-			army={
-				small=GFX_idea_Joint_artillery
-			}
-		}
-		advisor={
-			slot = high_command
-			idea_token = xinjiang_artillery
-			ledger = army
-		    allowed = {
-		    	original_tag = SIK
-		    }
-		    traits = {
-				army_artillery_1
-			}
-		}
-	}
-	SIK_xinjiang_cavalry = {
-		name=SIK_xinjiang_cavalry
-		portraits={
-			army={
-				small=GFX_idea_Joint_cavalry
-			}
-		}
-		advisor={
-			slot = high_command
-			idea_token = xinjiang_cavalry
-			ledger = army
-		    allowed = {
-		    	original_tag = SIK
-		    }
-		    traits = {
-				army_cavalry_1
-			}
-		}
-	}
 	SIK_hoja_niyaz_haji = {
 		name=SIK_hoja_niyaz_haji
 		portraits={
@@ -618,11 +695,22 @@ characters={
 		advisor={
 			cost = 100
 			slot = high_command
-			idea_token = hoja_niyaz_haji
+			idea_token = SIK_hoja_niyaz_haji
 			ledger = army
-		    allowed = {
-		    	original_tag = SIK
-		    }
+			visible = {
+				NOT = {
+					OR = {
+						has_country_leader = {
+							character = SIK_sheng_shicai
+							ruling_only = yes 
+						}
+						has_country_leader = {
+							character = SIK_jin_shuren
+							ruling_only = yes 
+						}
+					}
+				}
+			}
 			available = {
 				NOT = {
 					OR = {
@@ -637,11 +725,28 @@ characters={
 					}
 				}
 			}
+			allowed = {
+		    	original_tag = SIK
+		    }
 		    traits = {
 				army_regrouping_2
 			}
 		}
 		corps_commander={
+			visible = {
+				NOT = {
+					OR = {
+						has_country_leader = {
+							character = SIK_sheng_shicai
+							ruling_only = yes 
+						}
+						has_country_leader = {
+							character = SIK_jin_shuren
+							ruling_only = yes 
+						}
+					}
+				}
+			}
 			traits = {
 				politically_connected
 				trickster
@@ -664,11 +769,16 @@ characters={
 		}
 		advisor={
 			slot = high_command
-			idea_token = nur_ahmadjan_bughra
+			idea_token = SIK_nur_ahmadjan_bughra
 			ledger = army
-		    allowed = {
-		    	original_tag = SIK
-		    }
+			visible = {
+				NOT = {
+					has_country_leader = {
+						character = SIK_jin_shuren
+						ruling_only = yes
+					}
+				}
+			}
 			available = {
 				NOT = {
 					has_country_leader = {
@@ -677,11 +787,22 @@ characters={
 					}
 				}
 			}
+			allowed = {
+		    	original_tag = SIK
+		    }
 		    traits = {
 				army_regrouping_1
 			}
 		}
 		corps_commander={
+			visible = {
+				NOT = {
+					has_country_leader = {
+						character = SIK_jin_shuren
+						ruling_only = yes
+					}
+				}
+			}
 			traits = {
 				politically_connected
 				organizer
@@ -704,11 +825,16 @@ characters={
 		}
 		advisor={
 			slot = high_command
-			idea_token = abdullah_bughra
+			idea_token = SIK_abdullah_bughra
 			ledger = army
-		    allowed = {
-		    	original_tag = SIK
-		    }
+			visible = {
+				NOT = {
+					has_country_leader = {
+						character = SIK_jin_shuren
+						ruling_only = yes
+					}
+				}
+			}
 			available = {
 				NOT = {
 					has_country_leader = {
@@ -717,11 +843,22 @@ characters={
 					}
 				}
 			}
+			allowed = {
+		    	original_tag = SIK
+		    }
 		    traits = {
 				army_commando_1
 			}
 		}
 		corps_commander={
+			visible = {
+				NOT = {
+					has_country_leader = {
+						character = SIK_jin_shuren
+						ruling_only = yes
+					}
+				}
+			}
 			traits = {
 				politically_connected
 				trait_mountaineer
@@ -732,6 +869,63 @@ characters={
 			planning_skill = 1
 			logistics_skill = 1
 			legacy_id=-1
+		}
+	}
+	SIK_infantry = {
+		name=SIK_xinjiang_infantry
+		portraits={
+			army={
+				small=GFX_idea_Joint_infantry
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = SIK_infantry
+			ledger = army
+		    allowed = {
+		    	original_tag = SIK
+		    }
+		    traits = {
+				army_infantry_1
+			}
+		}
+	}
+	SIK_artillery = {
+		name=SIK_xinjiang_artillery
+		portraits={
+			army={
+				small=GFX_idea_Joint_artillery
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = SIK_artillery
+			ledger = army
+		    allowed = {
+		    	original_tag = SIK
+		    }
+		    traits = {
+				army_artillery_1
+			}
+		}
+	}
+	SIK_cavalry = {
+		name=SIK_xinjiang_cavalry
+		portraits={
+			army={
+				small=GFX_idea_Joint_cavalry
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = SIK_cavalry
+			ledger = army
+		    allowed = {
+		    	original_tag = SIK
+		    }
+		    traits = {
+				army_cavalry_1
+			}
 		}
 	}
 	

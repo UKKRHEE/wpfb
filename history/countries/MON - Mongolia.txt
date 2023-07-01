@@ -26,9 +26,9 @@ recruit_character = MON_anandyn_amar
 recruit_character = MON_dorjjavyn_luvsansharav
 
 ### 이론가 ###
-recruit_character = MON_mongolia_army_research
-recruit_character = MON_mongolia_navy_research
-recruit_character = MON_mongolia_air_research
+recruit_character = MON_army_research
+recruit_character = MON_navy_research
+recruit_character = MON_air_research
 
 ### 육군참모총장 ###
 recruit_character = MON_manlaibaatar_damdinsuren
@@ -36,11 +36,11 @@ recruit_character = MON_khatanbaatar_magsarjav
 recruit_character = MON_khorloogiin_choibalsan
 
 ### 해군참모총장 ###
-recruit_character = MON_mongolia_navy_department
+recruit_character = MON_navy_department
 
 ### 공군참모총장 ###
 recruit_character = MON_li_shouxin
-recruit_character = MON_mongolia_air_department
+recruit_character = MON_air_department
 
 ### 최고사령부 ###
 recruit_character = MON_urzhin_garmaev

@@ -54,7 +54,7 @@ characters={
 		advisor={
 			cost = 100
 			slot = army_chief
-			idea_token = ma_bufang
+			idea_token = XSM_ma_bufang
 	    	allowed = {
 	    		original_tag = XSM
 	    	}
@@ -86,7 +86,7 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = hu_songshan
+			idea_token = XSM_hu_songshan
 			allowed = {
 				original_tag = XSM
 			}
@@ -104,7 +104,7 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = tien_chungchin
+			idea_token = XSM_tien_chungchin
 			allowed = {
 				original_tag = XSM
 			}
@@ -122,7 +122,7 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = ma_bukang
+			idea_token = XSM_ma_bukang
 			available = {
 				has_intelligence_agency = yes
 			}
@@ -135,7 +135,7 @@ characters={
 			}
 		}
 	}
-	XSM_xibei_interior={
+	XSM_interior={
 		name=joint_interior
 		portraits={
 			civilian={
@@ -144,7 +144,7 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = xibei_interior
+			idea_token = XSM_interior
 			allowed  = {
 				original_tag = XSM
 			}
@@ -153,7 +153,7 @@ characters={
 			}
 		}
 	}
-	XSM_xibei_finance={
+	XSM_finance={
 		name=joint_finance
 		portraits={
 			civilian={
@@ -162,7 +162,7 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = xibei_finance
+			idea_token = XSM_finance
 			allowed  = {
 				original_tag = XSM
 			}
@@ -171,7 +171,7 @@ characters={
 			}
 		}
 	}
-	XSM_xibei_industry={
+	XSM_industry={
 		name=joint_industry
 		portraits={
 			civilian={
@@ -180,7 +180,7 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = xibei_industry
+			idea_token = XSM_industry
 			allowed  = {
 				original_tag = XSM
 			}
@@ -191,7 +191,7 @@ characters={
 	}
 	
 	### 이론가 ###
-	XSM_xibei_army_research = {
+	XSM_army_research = {
 		name=joint_army_research
 		portraits={
 			army={
@@ -201,7 +201,7 @@ characters={
 		advisor={
 			cost = 100
 			slot = theorist
-			idea_token = xibei_army_research
+			idea_token = XSM_army_research
 			ledger = army
 		    allowed = {
 		    	original_tag = XSM
@@ -211,7 +211,7 @@ characters={
 			}
 		}
 	}
-	XSM_xibei_navy_research={
+	XSM_navy_research={
 		name=joint_navy_research
 		portraits={
 			army={
@@ -221,7 +221,7 @@ characters={
 		advisor={
 			cost = 100
 			slot = theorist
-			idea_token = xibei_navy_research
+			idea_token = XSM_navy_research
 			ledger = navy
 			allowed = {
 				original_tag = XSM
@@ -231,7 +231,7 @@ characters={
 			}
 		}
 	}
-	XSM_xibei_air_research={
+	XSM_air_research={
 		name=joint_air_research
 		portraits={
 			army={
@@ -241,7 +241,7 @@ characters={
 		advisor={
 			cost = 100
 			slot = theorist
-			idea_token = xibei_air_research
+			idea_token = XSM_air_research
 			ledger = air
 			allowed = {
 				original_tag = XSM
@@ -263,7 +263,7 @@ characters={
 		}
 		advisor={
 			slot = army_chief
-			idea_token = ma_hushan
+			idea_token = XSM_ma_hushan
 			allowed = {
 				original_tag = XSM
 			}
@@ -285,7 +285,7 @@ characters={
 	}
 
 	### 해군참모총장 ###
-	XSM_xibei_navy_department = {
+	XSM_navy_department = {
 		name=joint_navy_department
 		portraits={
 			army={
@@ -294,7 +294,7 @@ characters={
 		}
 		advisor={
 			slot = navy_chief
-			idea_token = xibei_navy_department
+			idea_token = XSM_navy_department
 		    allowed = {
 		    	original_tag = XSM
 	    	}
@@ -314,7 +314,7 @@ characters={
 		}
 		advisor={		
 			slot = air_chief
-			idea_token = zhou_zhikai
+			idea_token = XSM_zhou_zhikai
 			allowed = {
 				original_tag = XSM
 			}
@@ -335,7 +335,7 @@ characters={
 		}
 		advisor={
 			slot = high_command
-			idea_token = ma_hongkui
+			idea_token = XSM_ma_hongkui
 			ledger = army
 		    allowed = {
 		    	original_tag = XSM
@@ -367,7 +367,7 @@ characters={
 		}
 		advisor={
 			slot = high_command
-			idea_token = ma_jiyuan
+			idea_token = XSM_ma_jiyuan
 			ledger = army
 		    allowed = {
 		    	original_tag = XSM
@@ -398,7 +398,7 @@ characters={
 		}
 		advisor={
 			slot = high_command
-			idea_token = ma_buqing
+			idea_token = XSM_ma_buqing
 			ledger = army
 		    allowed = {
 		    	original_tag = XSM
@@ -429,7 +429,7 @@ characters={
 		}
 		advisor={
 			slot = high_command
-			idea_token = han_youwen
+			idea_token = XSM_han_youwen
 			ledger = army
 		    allowed = {
 		    	original_tag = XSM

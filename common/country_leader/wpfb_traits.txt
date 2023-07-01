@@ -363,6 +363,18 @@ leader_traits = {
 			factor = 1
 		}
 	}
+	eager_collaborator_advisor = {
+		random = no
+		sprite = 13
+		
+		send_volunteer_size = 2
+		improve_relations_maintain_cost_factor = -1
+		fascism_acceptance = 75
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
 	
 	### 한국 ###
 	three_equalities = {

@@ -22,9 +22,9 @@ recruit_character = SIK_muhammad_amin_bughra
 recruit_character = SIK_nasir
 
 ### 이론가 ###
-recruit_character = SIK_xinjiang_army_research
-recruit_character = SIK_xinjiang_navy_research
-recruit_character = SIK_xinjiang_air_research
+recruit_character = SIK_army_research
+recruit_character = SIK_navy_research
+recruit_character = SIK_air_research
 
 ### 육군참모총장 ###
 recruit_character = SIK_yulbars_khan
@@ -32,18 +32,18 @@ recruit_character = SIK_timur_beg
 recruit_character = SIK_sabit_damulla_abdulbaki
 
 ### 해군참모총장 ###
-recruit_character = SIK_xinjiang_navy_department
+recruit_character = SIK_navy_department
 
 ### 공군참모총장 ###
-recruit_character = SIK_xinjiang_air_department
+recruit_character = SIK_air_department
 
 ### 최고사령부 ###
-recruit_character = SIK_xinjiang_infantry
-recruit_character = SIK_xinjiang_artillery
-recruit_character = SIK_xinjiang_cavalry
 recruit_character = SIK_hoja_niyaz_haji
 recruit_character = SIK_abdullah_bughra
 recruit_character = SIK_nur_ahmadjan_bughra
+recruit_character = SIK_infantry
+recruit_character = SIK_artillery
+recruit_character = SIK_cavalry
 
 ### 육군 장성 ###
 recruit_character = SIK_ma_shaowu

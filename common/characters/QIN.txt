@@ -19,7 +19,7 @@ characters={
 		advisor={
 			cost = 100
 			slot = high_command
-			idea_token = ma_zhanshan
+			idea_token = QIN_ma_zhanshan
 			ledger = army
 		    allowed = {
 		    	original_tag = QIN
@@ -97,22 +97,14 @@ characters={
 			legacy_id=-1
 		}
 	}
-	#QIN_aisin_gioro_puyi={
-	#	name=QIN_aisin_gioro_puyi
-	#	portraits={
-	#		civilian={
-	#			large=GFX_portrait_QIN_puyi
-	#		}
-	#	}
-	#	country_leader={
-	#		ideology=despotism 
-	#		traits = {
-	#			warrior_code
-	#		}
-	#		expire="1960.1.1.1"
-	#		id=-1
-	#	}
-	#}
+	QIN_aisin_gioro_puyi={
+		name=QIN_aisin_gioro_puyi
+		portraits={
+			civilian={
+				large=GFX_portrait_QIN_puyi
+			}
+		}
+	}
 	
 	### 정치고문 ###
 	QIN_aisin_gioro_pujie={
@@ -125,7 +117,7 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = aisin_gioro_pujie
+			idea_token = QIN_aisin_gioro_pujie
 			allowed = {
 				original_tag = QIN
 			}
@@ -155,7 +147,7 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = aisin_gioro_zaizhen
+			idea_token = QIN_aisin_gioro_zaizhen
 			allowed = {
 				original_tag = QIN
 			}
@@ -173,7 +165,7 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = xie_jieshi
+			idea_token = QIN_xie_jieshi
 			allowed = {
 				original_tag = QIN
 			}
@@ -191,7 +183,7 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = liang_shiyi
+			idea_token = QIN_liang_shiyi
 			allowed = {
 				original_tag = QIN
 			}
@@ -209,7 +201,7 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = luo_zhenyu
+			idea_token = QIN_luo_zhenyu
 			allowed = {
 				original_tag = QIN
 			}
@@ -227,7 +219,7 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = feng_hanqing
+			idea_token = QIN_feng_hanqing
 			allowed = {
 				original_tag = QIN
 			}
@@ -245,7 +237,7 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = kang_tongbi
+			idea_token = QIN_kang_tongbi
 			available = {
 				has_government = democratic
 			}
@@ -266,7 +258,7 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = yu_zhishan
+			idea_token = QIN_yu_zhishan
 			available = {
 				has_intelligence_agency = yes
 			}
@@ -281,7 +273,7 @@ characters={
 	}
 	
 	### 이론가 ###
-	QIN_qing_army_research = {
+	QIN_army_research = {
 		name=joint_army_research
 		portraits={
 			army={
@@ -291,7 +283,7 @@ characters={
 		advisor={
 			cost = 100
 			slot = theorist
-			idea_token = qing_army_research
+			idea_token = QIN_army_research
 			ledger = army
 		    allowed = {
 		    	original_tag = QIN
@@ -301,7 +293,7 @@ characters={
 			}
 		}
 	}
-	QIN_qing_navy_research={
+	QIN_navy_research={
 		name=joint_navy_research
 		portraits={
 			army={
@@ -311,7 +303,7 @@ characters={
 		advisor={
 			cost = 100
 			slot = theorist
-			idea_token = qing_navy_research
+			idea_token = QIN_navy_research
 			ledger = navy
 			allowed = {
 				original_tag = QIN
@@ -321,7 +313,7 @@ characters={
 			}
 		}
 	}
-	QIN_qing_air_research={
+	QIN_air_research={
 		name=joint_air_research
 		portraits={
 			army={
@@ -331,7 +323,7 @@ characters={
 		advisor={
 			cost = 100
 			slot = theorist
-			idea_token = qing_air_research
+			idea_token = QIN_air_research
 			ledger = air
 			allowed = {
 				original_tag = QIN
@@ -354,7 +346,7 @@ characters={
 		advisor={
 			cost = 100
 			slot = army_chief
-			idea_token = yang_yuting
+			idea_token = QIN_yang_yuting
 		    allowed = {
 		    	original_tag = QIN
 		    }
@@ -385,7 +377,7 @@ characters={
 		advisor={
 			cost = 100
 			slot = army_chief
-			idea_token = liu_menggeng
+			idea_token = QIN_liu_menggeng
 		    allowed = {
 		    	original_tag = QIN
 		    }
@@ -417,7 +409,7 @@ characters={
 		}
 		advisor={
 			slot = army_chief
-			idea_token = aisin_gioro_zaitao
+			idea_token = QIN_aisin_gioro_zaitao
 		    allowed = {
 		    	original_tag = QIN
 		    }
@@ -452,7 +444,7 @@ characters={
 		advisor={
 			cost = 100
 			slot = navy_chief
-			idea_token = shen_honglie
+			idea_token = QIN_shen_honglie
 		    allowed = {
 		    	original_tag = QIN
 	    	}
@@ -483,7 +475,7 @@ characters={
 		}
 		advisor={
 			slot = navy_chief
-			idea_token = aisin_gioro_zaixun
+			idea_token = QIN_aisin_gioro_zaixun
 		    allowed = {
 		    	original_tag = QIN
 	    	}
@@ -515,7 +507,7 @@ characters={
 		advisor={
 			cost = 100
 			slot = air_chief
-			idea_token = gao_zhihang
+			idea_token = QIN_gao_zhihang
 	    	allowed = {
 		    	original_tag = QIN
 		    }
@@ -536,7 +528,7 @@ characters={
 		}
 		advisor={
 			slot = high_command
-			idea_token = aisin_gioro_xiqia
+			idea_token = QIN_aisin_gioro_xiqia
 			ledger = army
 	    	allowed = {
 	    		original_tag = QIN
@@ -569,7 +561,7 @@ characters={
 		}
 		advisor={
 			slot = high_command
-			idea_token = gobulo_runqi
+			idea_token = QIN_gobulo_runqi
 			ledger = army
 		    allowed = {
 		    	original_tag = QIN
@@ -604,7 +596,7 @@ characters={
 		advisor={
 			cost = 100
 			slot = high_command
-			idea_token = wan_fulin
+			idea_token = QIN_wan_fulin
 			ledger = army
 		    allowed = {
 		    	original_tag = QIN
@@ -635,7 +627,7 @@ characters={
 		}
 		advisor={
 			slot = high_command
-			idea_token = zhang_xueliang
+			idea_token = QIN_zhang_xueliang
 			ledger = army
 		    allowed = {
 		    	original_tag = QIN
@@ -669,7 +661,7 @@ characters={
 		advisor={
 			cost = 100
 			slot = high_command
-			idea_token = zhang_zuoxiang
+			idea_token = QIN_zhang_zuoxiang
 			ledger = army
 		    allowed = {
 		    	original_tag = QIN
@@ -701,7 +693,7 @@ characters={
 		}
 		advisor={
 			slot = high_command
-			idea_token = xing_shilian
+			idea_token = QIN_xing_shilian
 			ledger = army
 	    	allowed = {
 	    		original_tag = QIN
@@ -733,7 +725,7 @@ characters={
 		}
 		advisor={
 			slot = high_command
-			idea_token = lu_jin
+			idea_token = QIN_lu_jin
 			ledger = army
 	    	allowed = {
 	    		original_tag = QIN
@@ -765,7 +757,7 @@ characters={
 		advisor={
 			cost = 100
 			slot = high_command
-			idea_token = yin_zuoqian
+			idea_token = QIN_yin_zuoqian
 			ledger = navy
 	    	allowed = {
 	    		original_tag = QIN
@@ -796,7 +788,7 @@ characters={
 		}
 		advisor={
 			slot = high_command
-			idea_token = tong_yanbo
+			idea_token = QIN_tong_yanbo
 			ledger = air
 		    allowed = {
 		    	original_tag = QIN

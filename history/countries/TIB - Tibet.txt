@@ -21,19 +21,19 @@ recruit_character = TIB_tsepon_wangchuk_shakabpa
 recruit_character = TIB_lukhangpa
 
 ### 이론가 ###
-recruit_character = TIB_tibet_army_research
-recruit_character = TIB_tibet_navy_research
-recruit_character = TIB_tibet_air_research
+recruit_character = TIB_army_research
+recruit_character = TIB_navy_research
+recruit_character = TIB_air_research
 
 ### 육군참모총장 ###
 recruit_character = TIB_tsarong_dzasa
 recruit_character = TIB_changra
 
 ### 해군참모총장 ###
-recruit_character = TIB_tibet_navy_department
+recruit_character = TIB_navy_department
 
 ### 공군참모총장 ###
-recruit_character = TIB_tibet_air_department
+recruit_character = TIB_air_department
 
 ### 티베트 최고사령부 ###
 recruit_character = TIB_trimon

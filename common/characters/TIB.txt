@@ -67,7 +67,7 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = lhalu_tsewang_dorje
+			idea_token = TIB_lhalu_tsewang_dorje
 			allowed = {
 				original_tag = TIB
 			}
@@ -85,7 +85,7 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = lonchen_yapshi_langdun_kung
+			idea_token = TIB_lonchen_yapshi_langdun_kung
 			allowed = {
 				original_tag = TIB
 			}
@@ -103,7 +103,7 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = rigzin_dorje_ringang
+			idea_token = TIB_rigzin_dorje_ringang
 			allowed = {
 				original_tag = TIB
 			}
@@ -121,7 +121,7 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = norbhu_dhondhup
+			idea_token = TIB_norbhu_dhondhup
 			allowed = {
 				original_tag = TIB
 			}
@@ -139,7 +139,7 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = tsepon_wangchuk_shakabpa
+			idea_token = TIB_tsepon_wangchuk_shakabpa
 			allowed = {
 				original_tag = TIB
 			}
@@ -157,7 +157,7 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = lukhangpa
+			idea_token = TIB_lukhangpa
 			allowed = {
 				original_tag = TIB
 			}
@@ -168,7 +168,7 @@ characters={
 	}
 	
 	### 이론가 ###
-	TIB_tibet_army_research = {
+	TIB_army_research = {
 		name=joint_army_research
 		portraits={
 			army={
@@ -178,7 +178,7 @@ characters={
 		advisor={
 			cost = 100
 			slot = theorist
-			idea_token = tibet_army_research
+			idea_token = TIB_army_research
 			ledger = army
 		    allowed = {
 		    	original_tag = TIB
@@ -188,7 +188,7 @@ characters={
 			}
 		}
 	}
-	TIB_tibet_navy_research={
+	TIB_navy_research={
 		name=joint_navy_research
 		portraits={
 			army={
@@ -198,7 +198,7 @@ characters={
 		advisor={
 			cost = 100
 			slot = theorist
-			idea_token = tibet_navy_research
+			idea_token = TIB_navy_research
 			ledger = navy
 			allowed = {
 				original_tag = TIB
@@ -208,7 +208,7 @@ characters={
 			}
 		}
 	}
-	TIB_tibet_air_research={
+	TIB_air_research={
 		name=joint_air_research
 		portraits={
 			army={
@@ -218,7 +218,7 @@ characters={
 		advisor={
 			cost = 100
 			slot = theorist
-			idea_token = tibet_air_research
+			idea_token = TIB_air_research
 			ledger = air
 			allowed = {
 				original_tag = TIB
@@ -240,7 +240,7 @@ characters={
 		}
 		advisor={
 			slot = army_chief
-			idea_token = tsarong_dzasa
+			idea_token = TIB_tsarong_dzasa
 	    	allowed = {
 	    		original_tag = TIB
 	    	}
@@ -271,7 +271,7 @@ characters={
 		}
 		advisor={
 			slot = army_chief
-			idea_token = changra
+			idea_token = TIB_changra
 	    	allowed = {
 	    		original_tag = TIB
 	    	}
@@ -294,7 +294,7 @@ characters={
 	}
 	
 	### 해군참모총장 ###
-	TIB_tibet_navy_department = {
+	TIB_navy_department = {
 		name=joint_navy_department
 		portraits={
 			army={
@@ -303,7 +303,7 @@ characters={
 		}
 		advisor={
 			slot = navy_chief
-			idea_token = tibet_navy_department
+			idea_token = TIB_navy_department
 		    allowed = {
 		    	original_tag = TIB
 	    	}
@@ -314,7 +314,7 @@ characters={
 	}
 	
 	### 공군참모총장 ###
-	TIB_tibet_air_department = {
+	TIB_air_department = {
 		name=joint_air_department
 		portraits={
 			army={
@@ -323,7 +323,7 @@ characters={
 		}
 		advisor={
 			slot = air_chief
-			idea_token = tibet_air_department
+			idea_token = TIB_air_department
 			
 	    	allowed = {
 		    	original_tag = TIB
@@ -345,7 +345,7 @@ characters={
 		}
 		advisor={
 			slot = high_command
-			idea_token = trimon
+			idea_token = TIB_trimon
 			ledger = army
 		    allowed = {
 		    	original_tag = TIB
@@ -377,7 +377,7 @@ characters={
 		}
 		advisor={
 			slot = high_command
-			idea_token = ngapoi_ngawang_jigme
+			idea_token = TIB_ngapoi_ngawang_jigme
 			ledger = army
 		    allowed = {
 		    	original_tag = TIB
@@ -408,7 +408,7 @@ characters={
 		}
 		advisor={
 			slot = high_command
-			idea_token = dingja
+			idea_token = TIB_dingja
 			ledger = army
 		    allowed = {
 		    	original_tag = TIB
@@ -439,7 +439,7 @@ characters={
 		}
 		advisor={
 			slot = high_command
-			idea_token = dingja
+			idea_token = TIB_dingja
 			ledger = army
 		    allowed = {
 		    	original_tag = TIB

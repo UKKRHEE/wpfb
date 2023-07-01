@@ -33,7 +33,7 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = fu_sinian
+			idea_token = SDC_fu_sinian
 			allowed = {
 				original_tag = SDC
 			}
@@ -68,7 +68,7 @@ characters={
 		}
 		advisor={
 			slot = army_chief
-			idea_token = han_fuju
+			idea_token = SDC_han_fuju
 	    	allowed = {
 	    		original_tag = SDC
 	    	}
@@ -101,7 +101,12 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = kong_dechong
+			idea_token = SDC_kong_dechong
+			visible = {
+                NOT = {
+					has_government = communism
+				}
+            }
 			available = {
                 NOT = {
 					has_government = communism
@@ -125,7 +130,7 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = zhang_fuyun
+			idea_token = SDC_zhang_fuyun
 			allowed  = {
 				original_tag = SDC
 			}
@@ -134,7 +139,7 @@ characters={
 			}
 		}
 	}
-	SDC_shandong_industry={
+	SDC_industry={
 		name=joint_industry
 		portraits={
 			civilian={
@@ -143,7 +148,7 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = shandong_industry
+			idea_token = SDC_industry
 			allowed  = {
 				original_tag = SDC
 			}
@@ -152,7 +157,7 @@ characters={
 			}
 		}
 	}
-	SDC_shandong_security={
+	SDC_security={
 		name=joint_security
 		portraits={
 			civilian={
@@ -161,7 +166,7 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = shandong_security
+			idea_token = SDC_security
 			available = {
 				has_intelligence_agency = yes
 			}
@@ -176,7 +181,7 @@ characters={
 	}
 	
 	### 이론가 ###
-	SDC_shandong_army_research={
+	SDC_army_research={
 		name=joint_army_research
 		portraits={
 			army={
@@ -186,7 +191,7 @@ characters={
 		advisor={
 			cost = 100
 			slot = theorist
-			idea_token = shandong_army_research
+			idea_token = SDC_army_research
 			ledger = army
 			allowed = {
 				original_tag = SDC
@@ -196,7 +201,7 @@ characters={
 			}
 		}
 	}
-	SDC_shandong_navy_research={
+	SDC_navy_research={
 		name=joint_navy_research
 		portraits={
 			army={
@@ -206,7 +211,7 @@ characters={
 		advisor={
 			cost = 100
 			slot = theorist
-			idea_token = shandong_navy_research
+			idea_token = SDC_navy_research
 			ledger = navy
 			allowed = {
 				original_tag = SDC
@@ -216,7 +221,7 @@ characters={
 			}
 		}
 	}
-	SDC_shandong_air_research={
+	SDC_air_research={
 		name=joint_air_research
 		portraits={
 			army={
@@ -226,7 +231,7 @@ characters={
 		advisor={
 			cost = 100
 			slot = theorist
-			idea_token = shandong_air_research
+			idea_token = SDC_air_research
 			ledger = air
 			allowed = {
 				original_tag = SDC
@@ -249,7 +254,7 @@ characters={
 		advisor={
 			cost = 100
 			slot = navy_chief
-			idea_token = lin_jianzhang
+			idea_token = SDC_lin_jianzhang
 		    allowed = {
 		    	original_tag = SDC
 	    	}
@@ -272,7 +277,7 @@ characters={
 	}
 	
 	### 공군참모총장 ###
-	SDC_shandong_air_department = {
+	SDC_air_department = {
 		name=joint_air_department
 		portraits={
 			army={
@@ -281,7 +286,7 @@ characters={
 		}
 		advisor={
 			slot = air_chief
-			idea_token = shandong_air_department
+			idea_token = SDC_air_department
 		    allowed = {
 		    	original_tag = SDC
 	    	}
@@ -302,7 +307,7 @@ characters={
 		}
 		advisor={
 			slot = high_command
-			idea_token = sun_tongxuan
+			idea_token = SDC_sun_tongxuan
 			ledger = army
 		    allowed = {
 		    	original_tag = SDC
@@ -334,7 +339,7 @@ characters={
 		advisor={
 			cost = 100
 			slot = high_command
-			idea_token = wu_huawen
+			idea_token = SDC_wu_huawen
 			ledger = army
 		    allowed = {
 		    	original_tag = SDC
@@ -355,7 +360,7 @@ characters={
 			legacy_id=-1
 		}
 	}
-	SDC_shandong_infantry = {
+	SDC_infantry = {
 		name=joint_infantry
 		portraits={
 			army={
@@ -364,7 +369,7 @@ characters={
 		}
 		advisor={
 			slot = high_command
-			idea_token = shandong_infantry
+			idea_token = SDC_infantry
 			ledger = army
 		    allowed = {
 		    	original_tag = SDC
@@ -374,7 +379,7 @@ characters={
 			}
 		}
 	}
-	SDC_shandong_artillery = {
+	SDC_artillery = {
 		name=joint_artillery
 		portraits={
 			army={
@@ -383,7 +388,7 @@ characters={
 		}
 		advisor={
 			slot = high_command
-			idea_token = shandong_artillery
+			idea_token = SDC_artillery
 			ledger = army
 		    allowed = {
 		    	original_tag = SDC
@@ -393,7 +398,7 @@ characters={
 			}
 		}
 	}
-	SDC_shandong_logistics = {
+	SDC_logistics = {
 		name=joint_logistics
 		portraits={
 			army={
@@ -402,7 +407,7 @@ characters={
 		}
 		advisor={
 			slot = high_command
-			idea_token = shandong_logistics
+			idea_token = SDC_logistics
 			ledger = army
 		    allowed = {
 		    	original_tag = SDC

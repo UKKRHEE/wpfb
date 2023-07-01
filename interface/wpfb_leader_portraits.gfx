@@ -330,6 +330,18 @@ spriteTypes = {
 	
 	### 일본 지도자 ###
 	spriteType = {
+		name = "GFX_portrait_JAP_ichiki_kitokuro"
+		texturefile = "gfx/leaders/JAP/Portrait_JAP_Ichiki_Kitokuro.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_yasuhito"
+		texturefile = "gfx/leaders/JAP/Portrait_JAP_Yasuhito.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_ugaki_kazushige"
+		texturefile = "gfx/leaders/JAP/Portrait_JAP_Ugaki_Kazushige.png"
+	}
+	spriteType = {
 		name = "GFX_portrait_JAP_okada_keisuke"
 		texturefile = "gfx/leaders/JAP/Portrait_JAP_Okada_Keisuke.png"
 	}
@@ -1311,8 +1323,8 @@ spriteTypes = {
 		texturefile = "gfx/leaders/RUS/Portrait_RUS_Nestor_Monastyrev.png"
 	}
 	spriteType = {
-		name = "GFX_portrait_RUS_navy_1"
-		texturefile = "gfx/leaders/RUS/Portrait_RUS_navy_1.png"
+		name = "GFX_portrait_RUS_mikhail_berens"
+		texturefile = "gfx/leaders/RUS/Portrait_RUS_Mikhail_Berens.png"
 	}
 	
 	#############

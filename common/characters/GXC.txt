@@ -54,7 +54,7 @@ characters={
 		advisor={
 			cost = 200
 			slot = army_chief
-			idea_token = li_zongren
+			idea_token = GXC_li_zongren
 	    	allowed = {
 	    		original_tag = GXC
 	    	}
@@ -85,7 +85,7 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = huang_xuchu
+			idea_token = GXC_huang_xuchu
 			allowed  = {
 				original_tag = GXC
 			}
@@ -103,7 +103,7 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = lei_peihong
+			idea_token = GXC_lei_peihong
 			allowed  = {
 				original_tag = GXC
 			}
@@ -121,7 +121,7 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = lei_yin
+			idea_token = GXC_lei_yin
 			allowed = {
 				original_tag = GXC
 			}
@@ -139,7 +139,7 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = huang_zhongyue
+			idea_token = GXC_huang_zhongyue
 			allowed = {
 				original_tag = GXC
 			}
@@ -148,7 +148,7 @@ characters={
 			}
 		}
 	}
-	GXC_guangxi_security={
+	GXC_security={
 		name=joint_security
 		portraits={
 			civilian={
@@ -157,7 +157,7 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = guangxi_security
+			idea_token = GXC_security
 			available = {
 				has_intelligence_agency = yes
 			}
@@ -182,7 +182,7 @@ characters={
 		advisor={
 			cost = 100
 			slot = theorist
-			idea_token = liu_shiyi
+			idea_token = GXC_liu_shiyi
 			ledger = army
 		    allowed = {
 		    	original_tag = GXC
@@ -192,7 +192,7 @@ characters={
 			}
 		}
 	}
-	GXC_guangxi_navy_research={
+	GXC_navy_research={
 		name=joint_navy_research
 		portraits={
 			army={
@@ -202,7 +202,7 @@ characters={
 		advisor={
 			cost = 100
 			slot = theorist
-			idea_token = guangxi_navy_research
+			idea_token = GXC_navy_research
 			ledger = navy
 			allowed = {
 				original_tag = GXC
@@ -212,7 +212,7 @@ characters={
 			}
 		}
 	}
-	GXC_guangxi_air_research={
+	GXC_air_research={
 		name=joint_air_research
 		portraits={
 			army={
@@ -222,7 +222,7 @@ characters={
 		advisor={
 			cost = 100
 			slot = theorist
-			idea_token = guangxi_air_research
+			idea_token = GXC_air_research
 			ledger = air
 			allowed = {
 				original_tag = GXC
@@ -245,7 +245,7 @@ characters={
 		advisor={
 			cost = 200
 			slot = army_chief
-			idea_token = bai_chongxi
+			idea_token = GXC_bai_chongxi
 	    	allowed = {
 	    		original_tag = GXC
 	    	}
@@ -269,7 +269,7 @@ characters={
 	}
 	
 	### 해군참모총장 ###
-	GXC_guangxi_navy_department = {
+	GXC_navy_department = {
 		name=joint_navy_department
 		portraits={
 			army={
@@ -278,7 +278,7 @@ characters={
 		}
 		advisor={
 			slot = navy_chief
-			idea_token = guangxi_navy_department
+			idea_token = GXC_guangxi_navy_department
 		    allowed = {
 		    	original_tag = GXC
 	    	}
@@ -298,7 +298,7 @@ characters={
 		}
 		advisor={		
 			slot = air_chief
-			idea_token = lin_weicheng
+			idea_token = GXC_lin_weicheng
 			allowed = {
 				original_tag = GXC
 			}
@@ -320,7 +320,7 @@ characters={
 		advisor={
 			cost = 100
 			slot = high_command
-			idea_token = li_pinxian
+			idea_token = GXC_li_pinxian
 			ledger = army
 		    allowed = {
 		    	original_tag = GXC
@@ -352,7 +352,7 @@ characters={
 		advisor={
 			cost = 100
 			slot = high_command
-			idea_token = liao_lei
+			idea_token = GXC_liao_lei
 			ledger = army
 		    allowed = {
 		    	original_tag = GXC
@@ -384,7 +384,7 @@ characters={
 		advisor={
 			cost = 100
 			slot = high_command
-			idea_token = xia_wei
+			idea_token = GXC_xia_wei
 			ledger = army
 		    allowed = {
 		    	original_tag = GXC
@@ -415,7 +415,7 @@ characters={
 		}
 		advisor={
 			slot = high_command
-			idea_token = zhang_gan
+			idea_token = GXC_zhang_gan
 			ledger = army
 		    allowed = {
 		    	original_tag = GXC
@@ -445,7 +445,7 @@ characters={
 		}
 		advisor={
 			slot = high_command
-			idea_token = wei_yunshong
+			idea_token = GXC_wei_yunshong
 			ledger = army
 		    allowed = {
 		    	original_tag = GXC
@@ -464,7 +464,7 @@ characters={
 		}
 		advisor={
 			slot = high_command
-			idea_token = zhou_zuhuang
+			idea_token = GXC_zhou_zuhuang
 			ledger = army
 		    allowed = {
 		    	original_tag = GXC

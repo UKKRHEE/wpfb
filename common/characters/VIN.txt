@@ -75,7 +75,7 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = hoang_xuan_han
+			idea_token = VIN_hoang_xuan_han
 			allowed = {
 				original_tag = VIN
 			}
@@ -93,7 +93,7 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = tran_trong_kim
+			idea_token = VIN_tran_trong_kim
 			allowed = {
 				original_tag = VIN
 			}
@@ -111,7 +111,7 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = kha_vang_can
+			idea_token = VIN_kha_vang_can
 			allowed = {
 				original_tag = VIN
 			}
@@ -130,7 +130,10 @@ characters={
 		
 		advisor={
 			slot = political_advisor
-			idea_token = truong_chinh
+			idea_token = VIN_truong_chinh
+			visible = {
+				has_government = communism
+			}
 			available = {
 				has_government = communism
 			}
@@ -152,7 +155,10 @@ characters={
 		
 		advisor={
 			slot = political_advisor
-			idea_token = ha_huy_tap
+			idea_token = VIN_ha_huy_tap
+			visible = {
+				has_government = communism
+			}
 			available = {
 				has_government = communism
 			}
@@ -174,7 +180,13 @@ characters={
 		
 		advisor={
 			slot = political_advisor
-			idea_token = nguyen_an_ninh
+			idea_token = VIN_nguyen_an_ninh
+			visible = {
+				OR = {
+					has_government = communism
+					has_government = democratic
+				}
+			}
 			available = {
 				OR = {
 					has_government = communism
@@ -199,7 +211,12 @@ characters={
 		
 		advisor={
 			slot = political_advisor
-			idea_token = tran_van_chuong
+			idea_token = VIN_tran_van_chuong
+			visible = {
+				NOT = {
+					has_government = communism
+				}
+			}
 			available = {
 				NOT = {
 					has_government = communism
@@ -223,7 +240,10 @@ characters={
 		
 		advisor={
 			slot = political_advisor
-			idea_token = tran_khanh_giu
+			idea_token = VIN_tran_khanh_giu
+			visible = {
+				has_government = democratic
+			}
 			available = {
 				has_government = democratic
 			}
@@ -245,7 +265,10 @@ characters={
 		
 		advisor={
 			slot = political_advisor
-			idea_token = truong_tu_anh
+			idea_token = VIN_truong_tu_anh
+			visible = {
+				has_government = fascism
+			}
 			available = {
 				has_government = fascism
 			}
@@ -266,12 +289,17 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = ngo_dinh_can
-			available = {
+			idea_token = VIN_ngo_dinh_can
+			visible = {
 				NOT = {
 					has_government = communism
 				}
+			}
+			available = {
 				has_intelligence_agency = yes
+				NOT = {
+					has_government = communism
+				}
 			}
 			allowed = {
 				original_tag = VIN
@@ -291,10 +319,13 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = tran_quoc_hoan
-			available = {
+			idea_token = VIN_tran_quoc_hoan
+			visible = {
 				has_government = communism
+			}
+			available = {
 				has_intelligence_agency = yes
+				has_government = communism
 			}
 			allowed = {
 				original_tag = VIN
@@ -307,7 +338,7 @@ characters={
 	}
 	
 	### 이론가 ###
-	VIN_vietnam_army_research = {
+	VIN_army_research = {
 		name=joint_army_research
 		portraits={
 			army={
@@ -317,7 +348,7 @@ characters={
 		advisor={
 			cost = 100
 			slot = theorist
-			idea_token = vietnam_army_research
+			idea_token = VIN_army_research
 			ledger = army
 		    allowed = {
 		    	original_tag = VIN
@@ -327,7 +358,7 @@ characters={
 			}
 		}
 	}
-	VIN_vietnam_navy_research={
+	VIN_navy_research={
 		name=joint_navy_research
 		portraits={
 			army={
@@ -337,7 +368,7 @@ characters={
 		advisor={
 			cost = 100
 			slot = theorist
-			idea_token = vietnam_navy_research
+			idea_token = VIN_navy_research
 			ledger = navy
 			allowed = {
 				original_tag = VIN
@@ -347,7 +378,7 @@ characters={
 			}
 		}
 	}
-	VIN_vietnam_air_research={
+	VIN_air_research={
 		name=joint_air_research
 		portraits={
 			army={
@@ -357,7 +388,7 @@ characters={
 		advisor={
 			cost = 100
 			slot = theorist
-			idea_token = vietnam_air_research
+			idea_token = VIN_air_research
 			ledger = air
 			allowed = {
 				original_tag = VIN
@@ -380,8 +411,13 @@ characters={
 		advisor={
 			cost = 100
 			slot = army_chief
-			idea_token = le_van_ty
-	    	available = {
+			idea_token = VIN_le_van_ty
+	    	visible = {
+				NOT = {
+					has_government = communism
+				}
+			}
+			available = {
 				NOT = {
 					has_government = communism
 				}
@@ -420,8 +456,13 @@ characters={
 		}
 		advisor={
 			slot = army_chief
-			idea_token = tran_quang_vinh
-	    	available = {
+			idea_token = VIN_tran_quang_vinh
+	    	visible = {
+				NOT = {
+					has_government = communism
+				}
+			}
+			available = {
 				NOT = {
 					has_government = communism
 				}
@@ -461,8 +502,11 @@ characters={
 		advisor={
 			cost = 100
 			slot = army_chief
-			idea_token = vo_nguyen_giap
-	    	available = {
+			idea_token = VIN_vo_nguyen_giap
+	    	visible = {
+				has_government = communism
+			}
+			available = {
 				has_government = communism
 			}
 			allowed = {
@@ -500,8 +544,11 @@ characters={
 		advisor={
 			cost = 200
 			slot = army_chief
-			idea_token = nguyen_binh
-	    	available = {
+			idea_token = VIN_nguyen_binh
+	    	visible = {
+				has_government = communism
+			}
+			available = {
 				has_government = communism
 			}
 			allowed = {
@@ -539,7 +586,7 @@ characters={
 		}
 		advisor={
 			slot = navy_chief
-			idea_token = ta_xuan_thu
+			idea_token = VIN_ta_xuan_thu
 		    allowed = {
 		    	original_tag = VIN
 	    	}
@@ -571,7 +618,12 @@ characters={
 		}
 		advisor={
 			slot = air_chief
-			idea_token = nguyen_van_hinh
+			idea_token = VIN_nguyen_van_hinh
+			visible = {
+				NOT = {
+					has_government = communism
+				}
+			}
 			available = {
 				NOT = {
 					has_government = communism
@@ -601,7 +653,7 @@ characters={
 			legacy_id=-1
 		}
 	}
-	VIN_vietnam_air_department = {
+	VIN_air_department = {
 		name=joint_air_department
 		portraits={
 			army={
@@ -610,8 +662,13 @@ characters={
 		}
 		advisor={
 			slot = air_chief
-			idea_token = vietnam_air_department
-			
+			idea_token = VIN_air_department
+			visible = {
+                has_government = communism
+            }
+			available = {
+                has_government = communism
+            }
 	    	allowed = {
 		    	original_tag = VIN
 		    }
@@ -633,9 +690,14 @@ characters={
 		advisor={
 			cost = 100
 			slot = high_command
-			idea_token = duong_van_minh
+			idea_token = VIN_duong_van_minh
 			ledger = army
-		    available = {
+		    visible = {
+				NOT = {
+					has_government = communism
+				}
+			}
+			available = {
 				NOT = {
 					has_government = communism
 				}
@@ -646,17 +708,6 @@ characters={
 		    traits = {
 				army_infantry_2
 			}
-		}
-		corps_commander={
-			traits = {
-				infantry_officer
-			}
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
-			legacy_id=-1
 		}
 		field_marshal={
 			visible = {
@@ -685,8 +736,11 @@ characters={
 		}
 		advisor={
 			slot = high_command
-			idea_token = nguyen_chi_thanh
+			idea_token = VIN_nguyen_chi_thanh
 			ledger = army
+			visible = {
+				has_government = communism
+			}
 			available = {
 				has_government = communism
 			}
@@ -724,7 +778,7 @@ characters={
 		}
 		advisor={
 			slot = high_command
-			idea_token = chu_van_tan
+			idea_token = VIN_chu_van_tan
 			ledger = army
 		    allowed = {
 		    	original_tag = VIN
@@ -756,7 +810,7 @@ characters={
 		}
 		advisor={
 			slot = high_command
-			idea_token = tran_van_don
+			idea_token = VIN_tran_van_don
 			ledger = army
 		    allowed = {
 		    	original_tag = VIN

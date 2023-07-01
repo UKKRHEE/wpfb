@@ -54,7 +54,7 @@ characters={
 		advisor={
 			cost = 100
 			slot = army_chief
-			idea_token = long_yun
+			idea_token = YUN_long_yun
 	    	allowed = {
 	    		original_tag = YUN
 	    	}
@@ -85,7 +85,7 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = hu_ying
+			idea_token = YUN_hu_ying
 			allowed  = {
 				original_tag = YUN
 			}
@@ -103,7 +103,7 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = zhang_banghan
+			idea_token = YUN_zhang_banghan
 			allowed  = {
 				original_tag = YUN
 			}
@@ -121,7 +121,7 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = ding_zhaoguan
+			idea_token = YUN_ding_zhaoguan
 			allowed = {
 				original_tag = YUN
 			}
@@ -139,7 +139,7 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = miao_yuntai
+			idea_token = YUN_miao_yuntai
 			allowed = {
 				original_tag = YUN
 			}
@@ -157,7 +157,7 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = gong_zizhi
+			idea_token = YUN_gong_zizhi
 			allowed = {
 				original_tag = YUN
 			}
@@ -175,7 +175,7 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = lu_chongren
+			idea_token = YUN_lu_chongren
 			allowed = {
 				original_tag = YUN
 			}
@@ -184,7 +184,7 @@ characters={
 			}
 		}
 	}
-	YUN_yunnan_security={
+	YUN_security={
 		name=joint_security
 		portraits={
 			civilian={
@@ -193,7 +193,7 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = yunnan_security
+			idea_token = YUN_security
 			available = {
 				has_intelligence_agency = yes
 			}
@@ -218,7 +218,7 @@ characters={
 		advisor={
 			cost = 100
 			slot = theorist
-			idea_token = ma_ying
+			idea_token = YUN_ma_ying
 			ledger = army
 		    allowed = {
 		    	original_tag = YUN
@@ -228,7 +228,7 @@ characters={
 			}
 		}
 	}
-	YUN_yunnan_navy_research={
+	YUN_navy_research={
 		name=joint_navy_research
 		portraits={
 			army={
@@ -238,7 +238,7 @@ characters={
 		advisor={
 			cost = 100
 			slot = theorist
-			idea_token = yunnan_navy_research
+			idea_token = YUN_navy_research
 			ledger = navy
 			allowed = {
 				original_tag = YUN
@@ -248,7 +248,7 @@ characters={
 			}
 		}
 	}
-	YUN_yunnan_air_research={
+	YUN_air_research={
 		name=joint_air_research
 		portraits={
 			army={
@@ -258,7 +258,7 @@ characters={
 		advisor={
 			cost = 100
 			slot = theorist
-			idea_token = yunnan_air_research
+			idea_token = YUN_air_research
 			ledger = air
 			allowed = {
 				original_tag = YUN
@@ -281,7 +281,7 @@ characters={
 		advisor={
 			cost = 100
 			slot = army_chief
-			idea_token = lu_han
+			idea_token = YUN_lu_han
 	    	allowed = {
 	    		original_tag = YUN
 	    	}
@@ -304,7 +304,7 @@ characters={
 	}
 	
 	### 해군참모총장 ###
-	YUN_yunnan_navy_department = {
+	YUN_navy_department = {
 		name=joint_navy_department
 		portraits={
 			army={
@@ -313,7 +313,7 @@ characters={
 		}
 		advisor={
 			slot = navy_chief
-			idea_token = yunnan_navy_department
+			idea_token = YUN_navy_department
 		    allowed = {
 		    	original_tag = YUN
 	    	}
@@ -333,7 +333,7 @@ characters={
 		}
 		advisor={		
 			slot = air_chief
-			idea_token = liu_peiquan
+			idea_token = YUN_liu_peiquan
 			allowed = {
 				original_tag = YUN
 			}
@@ -355,7 +355,7 @@ characters={
 		advisor={
 			cost = 100
 			slot = high_command
-			idea_token = sun_du
+			idea_token = YUN_sun_du
 			ledger = army
 		    allowed = {
 		    	original_tag = YUN
@@ -386,7 +386,7 @@ characters={
 		}
 		advisor={
 			slot = high_command
-			idea_token = an_enpu
+			idea_token = YUN_an_enpu
 			ledger = army
 		    allowed = {
 		    	original_tag = YUN
@@ -417,7 +417,7 @@ characters={
 		}
 		advisor={
 			slot = high_command
-			idea_token = lu_daoyuan
+			idea_token = YUN_lu_daoyuan
 			ledger = army
 		    allowed = {
 		    	original_tag = YUN
@@ -447,7 +447,7 @@ characters={
 		}
 		advisor={
 			slot = high_command
-			idea_token = zhang_chong
+			idea_token = YUN_zhang_chong
 			ledger = army
 		    allowed = {
 		    	original_tag = YUN
@@ -466,7 +466,7 @@ characters={
 		}
 		advisor={
 			slot = high_command
-			idea_token = gao_yinhuai
+			idea_token = YUN_gao_yinhuai
 			ledger = army
 		    allowed = {
 		    	original_tag = YUN

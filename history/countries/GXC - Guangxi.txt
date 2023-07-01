@@ -19,18 +19,18 @@ recruit_character = GXC_huang_xuchu
 recruit_character = GXC_lei_peihong
 recruit_character = GXC_lei_yin
 recruit_character = GXC_huang_zhongyue
-recruit_character = GXC_guangxi_security
+recruit_character = GXC_security
 
 ### 이론가 ###
 recruit_character = GXC_liu_shiyi
-recruit_character = GXC_guangxi_navy_research
-recruit_character = GXC_guangxi_air_research
+recruit_character = GXC_navy_research
+recruit_character = GXC_air_research
 
 ### 육군참모총장 ###
 recruit_character = GXC_bai_chongxi
 
 ### 해군참모총장 ###
-recruit_character = GXC_guangxi_navy_department
+recruit_character = GXC_navy_department
 
 ### 공군참모총장 ###
 recruit_character = GXC_lin_weicheng

@@ -10,7 +10,7 @@
  KOR_fascism_party:0 "혁명일심회"
  KOR_fascism_party_long:0 "혁명일심회"
  KOR_neutrality_party:0 "건흥대연정"
- KOR_neutrality_party_long:0 "건흥원년 황국협회-신한청년당-신민회 대연정"
+ KOR_neutrality_party_long:0 "건흥원년 개화당-신민회-신한청년당 대연정"
  KOR_monarchism_party:0 "황국협회"
  KOR_monarchism_party_long:0 "황국협회 충군애국파"
  
@@ -25,12 +25,12 @@
  
  JAP_communism_party:0 "일본공산당"
  JAP_communism_party_long:0 "일본공산당"
- JAP_democratic_party:0 "사회대중당"
- JAP_democratic_party_long:0 "사회대중당"
- JAP_fascism_party:0 "거국일치내각"
- JAP_fascism_party_long:0 "거국일치내각"
- JAP_neutrality_party:0 "좌막파"
- JAP_neutrality_party_long:0 "좌막파"
+ JAP_democratic_party:0 "입헌정우회-입헌민정당 연정"
+ JAP_democratic_party_long:0 "입헌정우회-입헌민정당 연정"
+ JAP_fascism_party:0 "황도파"
+ JAP_fascism_party_long:0 "황도파"
+ JAP_neutrality_party:0 "통제파"
+ JAP_neutrality_party_long:0 "통제파"
  
  QIN_communism_party:0 "만주공산당"
  QIN_communism_party_long:0 "만주공산당"

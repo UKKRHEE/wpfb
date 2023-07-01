@@ -34,7 +34,15 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = wang_kemin
+			idea_token = RGC_wang_kemin
+			visible = {
+				NOT = {
+					has_country_leader = {
+						ruling_only = yes 
+						character = RGC_wang_kemin
+					}
+				}
+			}
 			available = {
 				NOT = {
 					has_country_leader = {
@@ -69,7 +77,7 @@ characters={
 		}
 		advisor={
 			slot = army_chief
-			idea_token = qi_xieyuan
+			idea_token = RGC_qi_xieyuan
 	    	allowed = {
 	    		original_tag = RGC
 	    	}
@@ -111,7 +119,15 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = liang_hongzhi
+			idea_token = RGC_liang_hongzhi
+			visible = {
+				NOT = {
+					has_country_leader = {
+						ruling_only = yes 
+						character = RGC_liang_hongzhi
+					}
+				}
+			}
 			available = {
 				NOT = {
 					has_country_leader = {
@@ -139,12 +155,12 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = yin_jukeng
+			idea_token = RGC_yin_jukeng
 			allowed = {
 				original_tag = RGC
 			}
 			traits = {
-				eager_collaborator
+				eager_collaborator_advisor
 			}
 		}
 	}
@@ -157,7 +173,7 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = wen_tsungyao
+			idea_token = RGC_wen_tsungyao
 			allowed = {
 				original_tag = RGC
 			}
@@ -175,7 +191,7 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = ding_mocun
+			idea_token = RGC_ding_mocun
 			available = {
 				has_intelligence_agency = yes
 			}
@@ -190,7 +206,7 @@ characters={
 	}
 	
 	### 이론가 ###
-	RGC_nanjing_army_research = {
+	RGC_army_research = {
 		name=joint_army_research
 		portraits={
 			army={
@@ -200,7 +216,7 @@ characters={
 		advisor={
 			cost = 100
 			slot = theorist
-			idea_token = nanjing_army_research
+			idea_token = RGC_army_research
 			ledger = army
 		    allowed = {
 		    	original_tag = RGC
@@ -210,7 +226,7 @@ characters={
 			}
 		}
 	}
-	RGC_nanjing_navy_research={
+	RGC_navy_research={
 		name=joint_navy_research
 		portraits={
 			army={
@@ -220,7 +236,7 @@ characters={
 		advisor={
 			cost = 100
 			slot = theorist
-			idea_token = nanjing_navy_research
+			idea_token = RGC_navy_research
 			ledger = navy
 			allowed = {
 				original_tag = RGC
@@ -230,7 +246,7 @@ characters={
 			}
 		}
 	}
-	RGC_nanjing_air_research={
+	RGC_air_research={
 		name=joint_air_research
 		portraits={
 			army={
@@ -240,7 +256,7 @@ characters={
 		advisor={
 			cost = 100
 			slot = theorist
-			idea_token = nanjing_air_research
+			idea_token = RGC_air_research
 			ledger = air
 			allowed = {
 				original_tag = RGC
@@ -263,7 +279,7 @@ characters={
 		advisor={
 			cost = 100
 			slot = army_chief
-			idea_token = sun_dianying
+			idea_token = RGC_sun_dianying
 	    	allowed = {
 	    		original_tag = RGC
 	    	}
@@ -297,7 +313,7 @@ characters={
 		}
 		advisor={
 			slot = navy_chief
-			idea_token = ren_yuandao
+			idea_token = RGC_ren_yuandao
 		    allowed = {
 		    	original_tag = RGC
 	    	}
@@ -328,7 +344,7 @@ characters={
 		}
 		advisor={
 			slot = air_chief
-			idea_token = chen_zuchang
+			idea_token = RGC_chen_zuchang
 			
 	    	allowed = {
 		    	original_tag = RGC
@@ -350,7 +366,7 @@ characters={
 		}
 		advisor={
 			slot = high_command
-			idea_token = deng_ruzuo
+			idea_token = RGC_deng_ruzuo
 			ledger = army
 		    allowed = {
 		    	original_tag = RGC
@@ -383,7 +399,7 @@ characters={
 		}
 		advisor={
 			slot = high_command
-			idea_token = xuai_shuxuan
+			idea_token = RGC_xuai_shuxuan
 			ledger = army
 		    allowed = {
 		    	original_tag = RGC
@@ -403,7 +419,7 @@ characters={
 		}
 		advisor={
 			slot = high_command
-			idea_token = zhou_yinren
+			idea_token = RGC_zhou_yinren
 			ledger = army
 		    allowed = {
 		    	original_tag = RGC
@@ -436,7 +452,7 @@ characters={
 		}
 		advisor={
 			slot = high_command
-			idea_token = zhang_jingyao
+			idea_token = RGC_zhang_jingyao
 			ledger = army
 		    allowed = {
 		    	original_tag = RGC

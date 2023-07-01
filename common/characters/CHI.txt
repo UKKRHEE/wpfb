@@ -50,7 +50,7 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = dai_li
+			idea_token = CHI_dai_li
 			available = {
 				has_intelligence_agency = yes
 			}
@@ -91,11 +91,11 @@ characters={
 		gender = female
 		advisor={
 			slot = political_advisor
-			idea_token = soong_mei_ling
-			available  = {
-				has_country_leader  = {
-					ruling_only  = yes 
-					character  = CHI_chiang_kaishek
+			idea_token = CHI_soong_mei_ling
+			available = {
+				has_country_leader = {
+					ruling_only = yes 
+					character = CHI_chiang_kaishek
 				}
 			}
 			allowed = {
@@ -117,7 +117,7 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = dai_jitao
+			idea_token = CHI_dai_jitao
 			allowed = {
 				original_tag = CHI
 			}
@@ -136,7 +136,7 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = chen_bulei
+			idea_token = CHI_chen_bulei
 			allowed = {
 				original_tag = CHI
 			}
@@ -154,7 +154,7 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = t_v_soong
+			idea_token = CHI_t_v_soong
 			allowed = {
 				original_tag = CHI
 			}
@@ -172,7 +172,7 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = zhang_qun
+			idea_token = CHI_zhang_qun
 			allowed = {
 				original_tag = CHI
 			}
@@ -190,7 +190,7 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = chen_lifu
+			idea_token = CHI_chen_lifu
 			allowed = {
 				original_tag = CHI
 			}
@@ -209,7 +209,7 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = hu_shih
+			idea_token = CHI_hu_shih
 			allowed = {
 				original_tag = CHI
 			}
@@ -230,7 +230,7 @@ characters={
 		advisor={
 			cost = 100			
 			slot = theorist
-			idea_token = xiong_shihui
+			idea_token = CHI_xiong_shihui
 			ledger = army
 			allowed = {
 				original_tag = CHI
@@ -250,7 +250,7 @@ characters={
 		advisor={
 			cost = 100
 			slot = theorist
-			idea_token = gui_yongqing
+			idea_token = CHI_gui_yongqing
 			ledger = navy
 			allowed = {
 				original_tag = CHI
@@ -270,7 +270,7 @@ characters={
 		advisor={
 			cost = 100		
 			slot = theorist
-			idea_token = huang_bingheng
+			idea_token = CHI_huang_bingheng
 			ledger = air
 			allowed = {
 				original_tag = CHI
@@ -293,7 +293,7 @@ characters={
 		advisor={	
 			cost = 200
 			slot = army_chief
-			idea_token = he_yingqin
+			idea_token = CHI_he_yingqin
 			allowed = {
 				original_tag = CHI
 			}
@@ -323,7 +323,7 @@ characters={
 		}
 		advisor={
 			slot = army_chief
-			idea_token = zhu_peide
+			idea_token = CHI_zhu_peide
 			allowed = {
 				original_tag = CHI
 			}
@@ -343,7 +343,7 @@ characters={
 		advisor={	
 			cost = 100
 			slot = army_chief
-			idea_token = cheng_qian
+			idea_token = CHI_cheng_qian
 			allowed = {
 				original_tag = CHI
 			}
@@ -374,7 +374,7 @@ characters={
 		advisor={	
 			cost = 200
 			slot = army_chief
-			idea_token = chen_cheng
+			idea_token = CHI_chen_cheng
 			allowed = {
 				original_tag = CHI
 			}
@@ -441,7 +441,7 @@ characters={
 		advisor={
 			cost = 100
 			slot = air_chief
-			idea_token = wang_shuming
+			idea_token = CHI_wang_shuming
 			allowed = {
 				original_tag = CHI
 			}
@@ -463,7 +463,7 @@ characters={
 		advisor={	
 			cost = 100
 			slot = high_command
-			idea_token = gu_zhutong
+			idea_token = CHI_gu_zhutong
 			ledger = army
 			allowed = {
 				original_tag = CHI
@@ -495,7 +495,7 @@ characters={
 		advisor={	
 			cost = 100
 			slot = high_command
-			idea_token = wei_lihuang
+			idea_token = CHI_wei_lihuang
 			ledger = army
 			allowed = {
 				original_tag = CHI
@@ -528,7 +528,7 @@ characters={
 		advisor={	
 			cost = 100
 			slot = high_command
-			idea_token = tu_yuming
+			idea_token = CHI_tu_yuming
 			ledger = army
 			allowed = {
 				original_tag = CHI
@@ -562,7 +562,7 @@ characters={
 		advisor={	
 			cost = 100
 			slot = high_command
-			idea_token = wang_yaowu
+			idea_token = CHI_wang_yaowu
 			ledger = army
 			allowed = {
 				original_tag = CHI
@@ -593,7 +593,7 @@ characters={
 		advisor={	
 			cost = 100
 			slot = high_command
-			idea_token = huang_zhenqiu
+			idea_token = CHI_huang_zhenqiu
 			ledger = army
 			allowed = {
 				original_tag = CHI
@@ -614,7 +614,7 @@ characters={
 		advisor={
 			cost = 100
 			slot = high_command
-			idea_token = chen_jiliang
+			idea_token = CHI_chen_jiliang
 			ledger = navy
 	    	allowed = {
 	    		original_tag = CHI
@@ -647,7 +647,7 @@ characters={
 		advisor={
 			cost = 100
 			slot = high_command
-			idea_token = chan_chak
+			idea_token = CHI_chan_chak
 			ledger = navy
 	    	allowed = {
 	    		original_tag = CHI
@@ -678,7 +678,7 @@ characters={
 		advisor={
 			cost = 100
 			slot = high_command
-			idea_token = mao_bangchu
+			idea_token = CHI_mao_bangchu
 			ledger = air
 		    allowed = {
 		    	original_tag = CHI

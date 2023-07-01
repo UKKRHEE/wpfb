@@ -29,15 +29,15 @@ recruit_character = HNC_tang_shengzhi
 recruit_character = HNC_hu_shuhua
 recruit_character = HNC_luo_shujia
 recruit_character = HNC_yi_peiji
-recruit_character = HNC_hunan_security
+recruit_character = HNC_security
 
 ### 이론가 ###
-recruit_character = HNC_hunan_army_research
-recruit_character = HNC_hunan_navy_research
-recruit_character = HNC_hunan_air_research
+recruit_character = HNC_army_research
+recruit_character = HNC_navy_research
+recruit_character = HNC_air_research
 
 ### 해군참모총장 ###
-recruit_character = HNC_hunan_navy_department
+recruit_character = HNC_navy_department
 
 ### 공군참모총장 ###
 recruit_character = HNC_liu_zhesheng

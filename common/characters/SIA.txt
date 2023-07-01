@@ -51,8 +51,14 @@ characters={
 		advisor={
 			cost = 100
 			slot = army_chief
-			idea_token = plaek_phibunsongkhram
-	    	available = {
+			idea_token = SIA_plaek_phibunsongkhram
+	    	visible = {
+				OR = {
+					has_government = fascism
+					has_government = neutrality
+				}
+			}
+			available = {
 				OR = {
 					has_government = fascism
 					has_government = neutrality
@@ -101,8 +107,14 @@ characters={
 		}
 		advisor={
 			slot = army_chief
-			idea_token = phot_phahonyothin
-	    	available = {
+			idea_token = SIA_phot_phahonyothin
+	    	visible = {
+				OR = {
+					has_government = fascism
+					has_government = neutrality
+				}
+			}
+			available = {
 				OR = {
 					has_government = fascism
 					has_government = neutrality
@@ -144,7 +156,10 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = sun_kijjumnong
+			idea_token = SIA_sun_kijjumnong
+			visible = {
+                has_government = communism
+            }
 			available = {
                 has_government = communism
             }
@@ -165,7 +180,10 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = phayom_chulanont
+			idea_token = SIA_phayom_chulanont
+			visible = {
+                has_government = communism
+            }
 			available = {
                 has_government = communism
             }
@@ -187,7 +205,13 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = thep_panthumasaen
+			idea_token = SIA_thep_panthumasaen
+			visible = {
+				OR = {
+					has_government = communism
+					has_government = democratic
+				}
+			}
 			available = {
 				OR = {
 					has_government = communism
@@ -223,7 +247,13 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = seni_pramoj
+			idea_token = SIA_seni_pramoj
+			visible = {
+				NOT = {
+					has_government = communism
+					has_government = fascism
+				}
+			}
 			available = {
 				NOT = {
 					has_government = communism
@@ -247,7 +277,12 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = pote_sarasin
+			idea_token = SIA_pote_sarasin
+			visible = {
+				NOT = {
+					has_government = communism
+				}
+			}
 			available = {
 				NOT = {
 					has_government = communism
@@ -271,7 +306,13 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = adul_adulyadejchrat
+			idea_token = SIA_adul_adulyadejchrat
+			visible = {
+				OR = {
+					has_government = fascism
+					has_government = neutrality
+				}
+			}
 			available = {
 				OR = {
 					has_government = fascism
@@ -311,7 +352,13 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = phao_sriyanond
+			idea_token = SIA_phao_sriyanond
+			visible = {
+				OR = {
+					has_government = fascism
+					has_government = neutrality
+				}
+			}
 			available = {
 				OR = {
 					has_government = fascism
@@ -335,7 +382,7 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = pijarn_dullalampha
+			idea_token = SIA_pijarn_dullalampha
 			available = {
 				has_intelligence_agency = yes
 			}
@@ -361,7 +408,7 @@ characters={
 		advisor={
 			cost = 100
 			slot = theorist
-			idea_token = jarun_rattanakul_seriroengrit
+			idea_token = SIA_jarun_rattanakul_seriroengrit
 			ledger = army
 		    allowed = {
 		    	original_tag = SIA
@@ -394,7 +441,7 @@ characters={
 		advisor={
 			cost = 100
 			slot = theorist
-			idea_token = thawan_thamrongnawasawat
+			idea_token = SIA_thawan_thamrongnawasawat
 			ledger = navy
 			allowed = {
 				original_tag = SIA
@@ -425,7 +472,7 @@ characters={
 		advisor={
 			cost = 100
 			slot = theorist
-			idea_token = sunee_suwanprateep
+			idea_token = SIA_sunee_suwanprateep
 			ledger = air
 			allowed = {
 				original_tag = SIA
@@ -447,7 +494,7 @@ characters={
 		}
 		advisor={
 			slot = army_chief
-			idea_token = wan_chuthin
+			idea_token = SIA_wan_chuthin
 			allowed = {
 				original_tag = SIA
 			}
@@ -481,7 +528,7 @@ characters={
 		advisor={
 			cost = 100 
 			slot = navy_chief
-			idea_token = sindhu_kamolnawin
+			idea_token = SIA_sindhu_kamolnawin
 		    allowed = {
 		    	original_tag = SIA
 	    	}
@@ -514,7 +561,7 @@ characters={
 		advisor={		
 			cost = 100
 			slot = air_chief
-			idea_token = boonjeam_komolmit
+			idea_token = SIA_boonjeam_komolmit
 			allowed = {
 				original_tag = SIA
 			}
@@ -535,7 +582,7 @@ characters={
 		}
 		advisor={
 			slot = high_command
-			idea_token = karj_karjsongkhram
+			idea_token = SIA_karj_karjsongkhram
 			ledger = army
 		    allowed = {
 		    	original_tag = SIA
@@ -566,7 +613,7 @@ characters={
 		}
 		advisor={
 			slot = high_command
-			idea_token = mongkol_mongkolnawin
+			idea_token = SIA_mongkol_mongkolnawin
 			ledger = navy
 	    	allowed = {
 	    		original_tag = SIA
@@ -596,7 +643,7 @@ characters={
 		}
 		advisor={
 			slot = high_command
-			idea_token = munee_mahasantana
+			idea_token = SIA_munee_mahasantana
 			ledger = air
 		    allowed = {
 		    	original_tag = SIA

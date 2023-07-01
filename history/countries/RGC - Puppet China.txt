@@ -33,9 +33,9 @@ recruit_character = RGC_wen_tsungyao
 recruit_character = RGC_ding_mocun
 
 ### 이론가 ###
-recruit_character = RGC_nanjing_army_research
-recruit_character = RGC_nanjing_navy_research
-recruit_character = RGC_nanjing_air_research
+recruit_character = RGC_army_research
+recruit_character = RGC_navy_research
+recruit_character = RGC_air_research
 
 ### 육군참모총장 ###
 recruit_character = RGC_sun_dianying

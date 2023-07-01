@@ -459,6 +459,10 @@ spriteTypes = {
 		name = "GFX_idea_JAP_kimura_masatomi"
 		texturefile = "gfx/interface/ideas/JAP/idea_JAP_kimura_masatomi.png"
 	}
+	spriteType = {
+		name = "GFX_idea_JAP_iwamoto_tetsuzo"
+		texturefile = "gfx/interface/ideas/JAP/idea_JAP_iwamoto_tetsuzo.png"
+	}
 	
 	#############
 	### 대청제국 ###
@@ -1525,10 +1529,25 @@ spriteTypes = {
 	#############
 	
 	### 러시아 정치고문 ###
+	#반공주의
+	spriteType = {
+		name = "GFX_idea_RUS_aleksandr_verkhovsky"
+		texturefile = "gfx/interface/ideas/RUS/idea_RUS_aleksandr_verkhovsky.png"
+	}
+	spriteType = {
+		name = "GFX_idea_RUS_vasily_kharlamov"
+		texturefile = "gfx/interface/ideas/RUS/idea_RUS_vasily_kharlamov.png"
+	}
+	#민주주의
 	spriteType = {
 		name = "GFX_idea_RUS_pavel_milyukov"
 		texturefile = "gfx/interface/ideas/RUS/idea_RUS_pavel_milyukov.png"
 	}
+	spriteType = {
+		name = "GFX_idea_RUS_sofia_panina"
+		texturefile = "gfx/interface/ideas/RUS/idea_RUS_sofia_panina.png"
+	}
+	#정보기관
 	spriteType = {
 		name = "GFX_idea_RUS_klavdiy_foss"
 		texturefile = "gfx/interface/ideas/RUS/idea_RUS_klavdiy_foss.png"

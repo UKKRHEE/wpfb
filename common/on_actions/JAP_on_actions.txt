@@ -1,0 +1,80 @@
+on_actions = {	
+	on_ruling_party_change = {
+		effect = {
+			if = {
+				limit = {
+					original_tag = JAP
+					has_government = communism
+				}
+				if = {
+					limit = { has_idea = JAP_hirohito }
+					remove_ideas = JAP_hirohito
+				}
+			}
+			if = {
+				limit = {
+					original_tag = JAP
+					NOT = {
+						has_government = communism
+					}
+				}
+				if = {
+					limit = {
+						NOT = {
+							has_cosmetic_tag = JAP_republic
+							has_idea = JAP_hirohito
+						}
+					}
+					add_ideas = JAP_hirohito
+				}
+			}
+		}
+	}	
+	
+	on_daily_JAP = {
+		effect = {
+			if = {
+				limit = {
+					original_tag = JAP
+					has_country_leader = { character = JAP_emperor_hirohito }
+					has_idea = JAP_hirohito
+					NOT = {
+						has_cosmetic_tag = JAP_republic
+					}
+				}
+				if = {
+					limit = { has_idea = JAP_hirohito }
+					remove_ideas = JAP_hirohito
+				}
+			}
+			if = {
+				limit = {
+					original_tag = JAP
+					NOT = {
+						has_government = communism
+						has_country_leader = { character = JAP_emperor_hirohito }
+						has_idea = JAP_hirohito
+						has_cosmetic_tag = JAP_republic
+					}
+				}
+				if = {
+					limit = {
+						NOT = { has_idea = JAP_hirohito }
+					}
+					add_ideas = JAP_hirohito
+				}
+			}
+			if = {
+				limit = {
+					original_tag = JAP
+					has_cosmetic_tag = JAP_republic
+					has_idea = JAP_hirohito
+				}
+				if = {
+					limit = { has_idea = JAP_hirohito }
+					remove_ideas = JAP_hirohito
+				}
+			}
+		}
+	}	
+}

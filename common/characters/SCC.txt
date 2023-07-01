@@ -59,7 +59,7 @@ characters={
 		advisor={
 			cost = 100
 			slot = army_chief
-			idea_token = liu_xiang
+			idea_token = SCC_liu_xiang
 			allowed = {
 	    		original_tag = SCC
 	    	}
@@ -92,7 +92,7 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = lu_zuofu
+			idea_token = SCC_lu_zuofu
 			allowed = {
 				original_tag = SCC
 			}
@@ -110,7 +110,7 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = zhou_conghua
+			idea_token = SCC_zhou_conghua
 			allowed = {
 				original_tag = SCC
 			}
@@ -128,7 +128,7 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = tang_chun_i
+			idea_token = SCC_tang_chun_i
 			allowed = {
 				original_tag = SCC
 			}
@@ -146,7 +146,7 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = yang_shukan
+			idea_token = SCC_yang_shukan
 			allowed = {
 				original_tag = SCC
 			}
@@ -155,7 +155,7 @@ characters={
 			}
 		}
 	}
-	SCC_sichuan_security={
+	SCC_security={
 		name=joint_security
 		portraits={
 			civilian={
@@ -164,7 +164,7 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = sichuan_security
+			idea_token = SCC_security
 			available = {
 				has_intelligence_agency = yes
 			}
@@ -179,7 +179,7 @@ characters={
 	}
 	
 	### 이론가 ###
-	SCC_sichuan_army_research = {
+	SCC_army_research = {
 		name=joint_army_research
 		portraits={
 			army={
@@ -189,7 +189,7 @@ characters={
 		advisor={
 			cost = 100
 			slot = theorist
-			idea_token = sichuan_army_research
+			idea_token = SCC_army_research
 			ledger = army
 		    allowed = {
 		    	original_tag = SCC
@@ -199,7 +199,7 @@ characters={
 			}
 		}
 	}
-	SCC_sichuan_navy_research={
+	SCC_navy_research={
 		name=joint_navy_research
 		portraits={
 			army={
@@ -209,7 +209,7 @@ characters={
 		advisor={
 			cost = 100
 			slot = theorist
-			idea_token = sichuan_navy_research
+			idea_token = SCC_navy_research
 			ledger = navy
 			allowed = {
 				original_tag = SCC
@@ -219,7 +219,7 @@ characters={
 			}
 		}
 	}
-	SCC_sichuan_air_research={
+	SCC_air_research={
 		name=joint_air_research
 		portraits={
 			army={
@@ -229,7 +229,7 @@ characters={
 		advisor={
 			cost = 100
 			slot = theorist
-			idea_token = sichuan_air_research
+			idea_token = SCC_air_research
 			ledger = air
 			allowed = {
 				original_tag = SCC
@@ -241,7 +241,7 @@ characters={
 	}
 	
 	### 해군참모총장 ###
-	SCC_sichuan_navy_department = {
+	SCC_navy_department = {
 		name=joint_navy_department
 		portraits={
 			army={
@@ -250,7 +250,7 @@ characters={
 		}
 		advisor={
 			slot = navy_chief
-			idea_token = sichuan_navy_department
+			idea_token = SCC_navy_department
 		    allowed = {
 		    	original_tag = SCC
 	    	}
@@ -271,7 +271,7 @@ characters={
 		advisor={
 			cost = 100
 			slot = air_chief
-			idea_token = zheng_shaoyu
+			idea_token = SCC_zheng_shaoyu
 			
 	    	allowed = {
 		    	original_tag = SCC
@@ -293,7 +293,7 @@ characters={
 		}
 		advisor={
 			slot = high_command
-			idea_token = tian_songyao
+			idea_token = SCC_tian_songyao
 			ledger = army
 		    allowed = {
 		    	original_tag = SCC
@@ -326,7 +326,7 @@ characters={
 		advisor={
 			cost = 100
 			slot = high_command
-			idea_token = pan_wenhua
+			idea_token = SCC_pan_wenhua
 			ledger = army
 		    allowed = {
 		    	original_tag = SCC
@@ -359,7 +359,7 @@ characters={
 		advisor={
 			cost = 100
 			slot = high_command
-			idea_token = guo_xunqi
+			idea_token = SCC_guo_xunqi
 			ledger = army
 		    allowed = {
 		    	original_tag = SCC
@@ -390,7 +390,7 @@ characters={
 		advisor={
 			cost = 100
 			slot = high_command
-			idea_token = yue_yiqin
+			idea_token = SCC_yue_yiqin
 			ledger = air
 		    allowed = {
 		    	original_tag = SCC

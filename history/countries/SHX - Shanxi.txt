@@ -44,7 +44,7 @@ recruit_character = SHX_feng_yuxiang
 recruit_character = SHX_hu_jingtong
 recruit_character = SHX_yu_xinqing
 recruit_character = SHX_bo_yibo
-recruit_character = SHX_shanxi_security
+recruit_character = SHX_security
 #무소속
 recruit_character = SHX_wellington_koo
 recruit_character = SHX_yan_huiqing
@@ -53,9 +53,9 @@ recruit_character = SHX_zhao_pilian
 recruit_character = SHX_lian_tianxiang
 
 ### 이론가 ###
-recruit_character = SHX_shanxi_army_research
-recruit_character = SHX_shanxi_navy_research
-recruit_character = SHX_shanxi_air_research
+recruit_character = SHX_army_research
+recruit_character = SHX_navy_research
+recruit_character = SHX_air_research
 
 ### 육군참모총장 ###
 #염계
@@ -94,6 +94,6 @@ recruit_character = SHX_yang_hucheng
 
 add_ideas = {
 	#각료
-	feng_yuxiang
+	SHX_feng_yuxiang
 }
 

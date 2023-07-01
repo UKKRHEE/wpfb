@@ -7,15 +7,6 @@ ideas = {
 		### 이우 ###
 		KOR_constitutional_monarch_yi_wu = {
 			
-			available = {
-				NOT = {
-					has_country_leader = {
-						ruling_only = yes 
-						character = KOR_pak_hon_yong
-					}
-				}
-			}
-
 			allowed = {
 				original_tag = KOR
 			}
@@ -39,15 +30,6 @@ ideas = {
 		### 이청 ###
 		KOR_constitutional_monarch_yi_cheong = {
 			
-			available = {
-				NOT = {
-					has_country_leader = {
-						ruling_only = yes 
-						character = KOR_pak_hon_yong
-					}
-				}
-			}
-
 			allowed = {
 				original_tag = KOR
 			}

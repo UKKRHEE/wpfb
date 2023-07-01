@@ -1,0 +1,26 @@
+on_actions = {	
+	on_ruling_party_change = {
+		effect = {
+			if = {
+				limit = {
+					original_tag = ROK
+					OR = {
+						has_government = fascism
+						has_government = neutrality
+					}
+				}
+				set_cosmetic_tag = ROK_right
+			}
+			if = {
+				limit = {
+					original_tag = ROK
+					NOT = {
+						has_government = fascism
+						has_government = neutrality
+					}
+				}
+				drop_cosmetic_tag = ROK_right
+			}
+		}
+	}	
+}

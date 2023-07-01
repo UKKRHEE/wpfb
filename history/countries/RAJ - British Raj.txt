@@ -76,9 +76,9 @@ recruit_character = RAJ_asit_krishna_mukherji #
 recruit_character = RAJ_subbier_appadurai_ayer #
 recruit_character = RAJ_kalyani_sen #
 recruit_character = RAJ_d_n_mukerji #
-recruit_character = RAJ_india_army_research #
-recruit_character = RAJ_india_navy_research #
-recruit_character = RAJ_india_air_research #
+recruit_character = RAJ_army_research #
+recruit_character = RAJ_navy_research #
+recruit_character = RAJ_air_research #
 
 set_variable = { RAJ_agrarian_society_increment = 0.05 }
 

@@ -107,7 +107,7 @@ add_ideas = {
 recruit_character = QIN_ma_zhanshan
 recruit_character = QIN_liang_qichao
 recruit_character = QIN_zhang_zuolin
-#recruit_character = QIN_aisin_gioro_puyi
+recruit_character = QIN_aisin_gioro_puyi
 
 ### 정치고문 ###
 recruit_character = QIN_aisin_gioro_pujie
@@ -120,9 +120,9 @@ recruit_character = QIN_kang_tongbi
 recruit_character = QIN_yu_zhishan
 
 ### 이론가 ###
-recruit_character = QIN_qing_army_research
-recruit_character = QIN_qing_navy_research
-recruit_character = QIN_qing_air_research
+recruit_character = QIN_army_research
+recruit_character = QIN_navy_research
+recruit_character = QIN_air_research
 
 ### 육군참모총장 ###
 recruit_character = QIN_yang_yuting

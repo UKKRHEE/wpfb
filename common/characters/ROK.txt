@@ -54,8 +54,14 @@ characters = {
 		advisor={
 			cost = 100
 			slot = army_chief
-			idea_token = lee_beom_seok
-	    	available = {
+			idea_token = ROK_lee_beom_seok
+	    	visible = {
+				NOT = {
+					has_government = communism
+					has_government = democratic
+				}
+			}
+			available = {
 				NOT = {
 					has_government = communism
 					has_government = democratic
@@ -118,7 +124,7 @@ characters = {
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = yun_il_zung
+			idea_token = ROK_yun_il_zung
 			allowed = {
 				original_tag = ROK
 			}
@@ -139,7 +145,10 @@ characters = {
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = kim_tu_bong
+			idea_token = ROK_kim_tu_bong
+			visible = {
+				has_government = communism
+			}
 			available = {
 				has_government = communism
 			}
@@ -161,7 +170,10 @@ characters = {
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = alexandra_kim
+			idea_token = ROK_alexandra_kim
+			visible = {
+				has_government = communism
+			}
 			available = {
 				has_government = communism
 			}
@@ -185,7 +197,13 @@ characters = {
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = cho_bong_am
+			idea_token = ROK_cho_bong_am
+			visible = {
+				OR = {
+					has_government = communism
+					has_government = democratic
+				}
+			}
 			available = {
 				OR = {
 					has_government = communism
@@ -210,7 +228,13 @@ characters = {
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = jo_so_ang
+			idea_token = ROK_jo_so_ang
+			visible = {
+				OR = {
+					has_government = communism
+					has_government = democratic
+				}
+			}
 			available = {
 				OR = {
 					has_government = communism
@@ -235,13 +259,13 @@ characters = {
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = park_il_wu
+			idea_token = ROK_park_il_wu
+			visible = {
+				has_government = communism
+			}
 			available = {
+				has_government = communism
 				has_intelligence_agency = yes
-				OR = {
-					has_government = communism
-					has_government = democratic
-				}
 			}
 			allowed = {
 				original_tag = ROK
@@ -264,7 +288,12 @@ characters = {
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = chang_myon
+			idea_token = ROK_chang_myon
+			visible = {
+				NOT = {
+					has_government = communism
+				}
+			}
 			available = {
 				NOT = {
 					has_government = communism
@@ -288,7 +317,12 @@ characters = {
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = ho_chong
+			idea_token = ROK_ho_chong
+			visible = {
+				NOT = {
+					has_government = communism
+				}
+			}
 			available = {
 				NOT = {
 					has_government = communism
@@ -312,7 +346,12 @@ characters = {
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = hyeon_jun_ho
+			idea_token = ROK_hyeon_jun_ho
+			visible = {
+				NOT = {
+					has_government = communism
+				}
+			}
 			available = {
 				NOT = {
 					has_government = communism
@@ -336,7 +375,12 @@ characters = {
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = park_heung_sik
+			idea_token = ROK_park_heung_sik
+			visible = {
+				NOT = {
+					has_government = communism
+				}
+			}
 			available = {
 				NOT = {
 					has_government = communism
@@ -360,7 +404,12 @@ characters = {
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = chang_taek_sang
+			idea_token = ROK_chang_taek_sang
+			visible = {
+				NOT = {
+					has_government = communism
+				}
+			}
 			available = {
 				has_intelligence_agency = yes
 				NOT = {
@@ -388,8 +437,14 @@ characters = {
 		advisor={
 			cost = 100
 			slot = theorist
-			idea_token = 
+			idea_token = ROK_council_of_theorists_red
 			ledger = military
+			visible = {
+				OR = {
+					has_government = communism
+					has_government = democratic
+				}
+			}
 			available = {
 				OR = {
 					has_government = communism
@@ -414,8 +469,14 @@ characters = {
 		advisor={
 			cost = 100
 			slot = theorist
-			idea_token = 
+			idea_token = ROK_council_of_theorists
 			ledger = military
+			visible = {
+				OR = {
+					has_government = fascism
+					has_government = neutrality
+				}
+			}
 			available = {
 				OR = {
 					has_government = fascism
@@ -441,7 +502,7 @@ characters = {
 		advisor={
 			cost = 100
 			slot = theorist
-			idea_token = do_sang_log
+			idea_token = ROK_do_sang_log
 			ledger = air
 			allowed = {
 				original_tag = ROK
@@ -467,9 +528,15 @@ characters = {
 		advisor={
 			cost = 100
 			slot = army_chief
-			idea_token = kim_won_bong
+			idea_token = ROK_kim_won_bong
 			ledger = army
-		    available = {
+		    visible = {
+				OR = {
+					has_government = communism
+					has_government = democratic
+				}
+			}
+			available = {
 				OR = {
 					has_government = communism
 					has_government = democratic
@@ -512,8 +579,13 @@ characters = {
 		advisor={
 			cost = 100
 			slot = army_chief
-			idea_token = ji_cheong_cheon
-	    	available = {
+			idea_token = ROK_ji_cheong_cheon
+	    	visible = {
+				NOT = {
+					has_government = communism
+				}
+			}
+			available = {
 				NOT = {
 					has_government = communism
 				}
@@ -555,12 +627,12 @@ characters = {
 		}
 		advisor={
 			slot = navy_chief
-			idea_token = han_il_mu
-		    available = {
-                OR = {
-					has_government = communism
-					has_government = democratic
-				}
+			idea_token = ROK_han_il_mu
+		    visible = {
+                has_government = communism
+            }
+			available = {
+                has_government = communism
             }
 			allowed = {
 		    	original_tag = ROK
@@ -598,8 +670,13 @@ characters = {
 		advisor={
 			cost = 100
 			slot = navy_chief
-			idea_token = sohn_won_yil
-		    available = {
+			idea_token = ROK_sohn_won_yil
+		    visible = {
+				NOT = {
+					has_government = communism
+				}
+			}
+			available = {
 				NOT = {
 					has_government = communism
 				}
@@ -639,12 +716,12 @@ characters = {
 		}
 		advisor={
 			slot = air_chief
-			idea_token = wang_ryeon
+			idea_token = ROK_wang_ryeon
+			visible = {
+                has_government = communism
+            }
 			available = {
-                OR = {
-					has_government = communism
-					has_government = democratic
-				}
+                has_government = communism
             }
 	    	allowed = {
 		    	original_tag = ROK
@@ -665,7 +742,12 @@ characters = {
 		advisor={
 			cost = 100
 			slot = air_chief
-			idea_token = choe_yong_duk
+			idea_token = ROK_choe_yong_duk
+			visible = {
+                NOT = {
+					has_government = communism
+				}
+            }
 			available = {
                 NOT = {
 					has_government = communism
@@ -691,8 +773,14 @@ characters = {
 		}
 		advisor={
 			slot = high_command
-			idea_token = choe_yong_gon
+			idea_token = ROK_choe_yong_gon
 			ledger = army
+			visible = {
+                OR = {
+					has_government = communism
+					has_government = democratic
+				}
+            }
 			available = {
                 OR = {
 					has_government = communism
@@ -734,8 +822,14 @@ characters = {
 		}
 		advisor={
 			slot = high_command
-			idea_token = kim_chaek
+			idea_token = ROK_kim_chaek
 			ledger = army
+			visible = {
+                OR = {
+					has_government = communism
+					has_government = democratic
+				}
+            }
 			available = {
                 OR = {
 					has_government = communism
@@ -777,8 +871,14 @@ characters = {
 		}
 		advisor={
 			slot = high_command
-			idea_token = kim_mu_chong
+			idea_token = ROK_kim_mu_chong
 			ledger = army
+			visible = {
+                OR = {
+					has_government = communism
+					has_government = democratic
+				}
+            }
 			available = {
                 OR = {
 					has_government = communism
@@ -821,9 +921,14 @@ characters = {
 		advisor={
 			cost = 200
 			slot = high_command
-			idea_token = kim_hong_il
+			idea_token = ROK_kim_hong_il
 			ledger = army
-		    available = {
+		    visible = {
+                NOT = {
+					has_government = communism
+				}
+            }
+			available = {
                 NOT = {
 					has_government = communism
 				}
@@ -864,9 +969,14 @@ characters = {
 		advisor={
 			cost = 200
 			slot = high_command
-			idea_token = kim_suk_won
+			idea_token = ROK_kim_suk_won
 			ledger = army
-		    available = {
+		    visible = {
+                NOT = {
+					has_government = communism
+				}
+            }
+			available = {
                 NOT = {
 					has_government = communism
 				}
@@ -909,9 +1019,14 @@ characters = {
 		advisor={
 			cost = 100
 			slot = high_command
-			idea_token = yu_dong_yeol
+			idea_token = ROK_yu_dong_yeol
 			ledger = army
-		    available = {
+		    visible = {
+                NOT = {
+					has_government = communism
+				}
+            }
+			available = {
                 NOT = {
 					has_government = communism
 				}
@@ -953,9 +1068,14 @@ characters = {
 		advisor={
 			cost = 100
 			slot = high_command
-			idea_token = park_ok_kyu
+			idea_token = ROK_park_ok_kyu
 			ledger = navy
-	    	available = {
+	    	visible = {
+                NOT = {
+					has_government = communism
+				}
+            }
+			available = {
                 NOT = {
 					has_government = communism
 				}
@@ -995,9 +1115,14 @@ characters = {
 		advisor={
 			cost = 100
 			slot = high_command
-			idea_token = jang_duk_chang
+			idea_token = ROK_jang_duk_chang
 			ledger = air
-		    available = {
+		    visible = {
+                NOT = {
+					has_government = communism
+				}
+            }
+			available = {
                 NOT = {
 					has_government = communism
 				}

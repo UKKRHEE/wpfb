@@ -143,11 +143,11 @@ bookmarks = {
 		}
 		"JAP"={
 			history = "JAP_GATHERING_STORM_DESC"
-			ideology = fascism
+			ideology = democratic
 			ideas = {
-				state_shintoism
+				JAP_hirohito
 				JAP_zaibatsus
-				JAP_militarism
+				JAP_interservice_rivalry_balanced
 			}	
 			focuses = {
 				JAP_the_zero
@@ -157,7 +157,7 @@ bookmarks = {
 		}
 		"KOR"={
 			history = "KOR_GATHERING_STORM_DESC"
-			ideology = fascism
+			ideology = neutrality
 			ideas = {
 				KOR_questions_government
 				KOR_land_problem

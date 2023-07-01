@@ -50,7 +50,16 @@ characters = {
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = lyuh_woon_hyung
+			idea_token = KOR_lyuh_woon_hyung
+			visible = {
+                has_government = democratic
+				NOT = {
+					has_country_leader = {
+						ruling_only = yes 
+						character = KOR_lyuh_woon_hyung
+					}
+				}
+            }
 			available = {
 				has_government = democratic
 				NOT = {
@@ -88,7 +97,7 @@ characters = {
 		advisor={
 			cost = 100
 			slot = army_chief
-			idea_token = lee_beom_seok
+			idea_token = KOR_lee_beom_seok
 	    	allowed = {
 	    		original_tag = KOR
 	    	}
@@ -141,7 +150,7 @@ characters = {
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = jo_wan_gu
+			idea_token = KOR_jo_wan_gu
 			allowed = {
 				original_tag = KOR
 			}
@@ -160,7 +169,7 @@ characters = {
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = kim_byung_ro
+			idea_token = KOR_kim_byung_ro
 			allowed = {
 				original_tag = KOR
 			}
@@ -179,7 +188,7 @@ characters = {
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = kim_kyu_sik
+			idea_token = KOR_kim_kyu_sik
 			allowed = {
 				original_tag = KOR
 			}
@@ -198,7 +207,7 @@ characters = {
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = yun_il_zung
+			idea_token = KOR_yun_il_zung
 			allowed = {
 				original_tag = KOR
 			}
@@ -219,7 +228,7 @@ characters = {
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = cho_bong_am
+			idea_token = KOR_cho_bong_am
 			available = {
 				has_completed_focus = KOR_bm_rural0
 			}
@@ -241,7 +250,7 @@ characters = {
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = hyeon_jun_ho
+			idea_token = KOR_hyeon_jun_ho
 			available = {
                 has_completed_focus = KOR_bm_city0
             }
@@ -265,7 +274,12 @@ characters = {
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = park_heung_sik
+			idea_token = KOR_park_heung_sik
+			visible = {
+                NOT = {
+					has_government = communism
+				}
+            }
 			available = {
                 NOT = {
 					has_government = communism
@@ -289,14 +303,25 @@ characters = {
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = syngman_rhee
-			available = {
+			idea_token = KOR_syngman_rhee
+			visible = {
                 NOT = {
+					has_government = communism
+					has_government = fascism
 					has_country_leader = {
 						ruling_only = yes 
 						character = KOR_syngman_rhee
 					}
+				}
+            }
+			available = {
+                NOT = {
 					has_government = communism
+					has_government = fascism
+					has_country_leader = {
+						ruling_only = yes 
+						character = KOR_syngman_rhee
+					}
 				}
             }
 			allowed = {
@@ -319,7 +344,16 @@ characters = {
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = ahn_chang_ho
+			idea_token = KOR_ahn_chang_ho
+			visible = {
+                has_government = democratic
+				NOT = {
+					has_country_leader = {
+						ruling_only = yes 
+						character = KOR_ahn_chang_ho
+					}
+				}
+            }
 			available = {
 				has_government = democratic
 				NOT = {
@@ -347,10 +381,13 @@ characters = {
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = jo_so_ang
+			idea_token = KOR_jo_so_ang
+			visible = {
+                has_government = democratic
+            }
 			available = {
-				has_government = democratic
-			}
+                has_government = democratic
+            }
 			allowed = {
 				original_tag = KOR
 			}
@@ -372,7 +409,10 @@ characters = {
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = alexandra_kim
+			idea_token = KOR_alexandra_kim
+			visible = {
+				has_government = communism
+			}
 			available = {
 				has_government = communism
 			}
@@ -394,7 +434,10 @@ characters = {
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = kim_tu_bong
+			idea_token = KOR_kim_tu_bong
+			visible = {
+				has_government = communism
+			}
 			available = {
 				has_government = communism
 			}
@@ -418,9 +461,12 @@ characters = {
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = ahn_ho_sang
-			available = {
+			idea_token = KOR_ahn_ho_sang
+			visible = {
 				has_government = fascism 
+			}
+			available = {
+				has_government = fascism
 			}
 			allowed = {
 				original_tag = KOR
@@ -440,7 +486,10 @@ characters = {
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = gang_se_hyeong
+			idea_token = KOR_gang_se_hyeong
+			visible = {
+				has_government = fascism
+			}
 			available = {
 				has_government = fascism
 			}
@@ -462,7 +511,10 @@ characters = {
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = sin_chae_ho
+			idea_token = KOR_sin_chae_ho
+			visible = {
+				has_government = fascism
+			}
 			available = {
 				has_government = fascism
 				NOT = {
@@ -492,7 +544,10 @@ characters = {
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = kim_chang_suk
+			idea_token = KOR_kim_chang_suk
+			visible = {
+				has_government = neutrality
+			}
 			available = {
 				has_government = neutrality
 			}
@@ -515,7 +570,11 @@ characters = {
 		advisor={
 			slot = political_advisor
 			can_be_fired = no
-			idea_token = yi_kang
+			idea_token = KOR_yi_kang
+			visible = {
+				has_government = neutrality
+				is_subject = no
+			}
 			available = {
 				has_government = neutrality
 				is_subject = no
@@ -538,7 +597,10 @@ characters = {
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = yi_kyu_wan
+			idea_token = KOR_yi_kyu_wan
+			visible = {
+				has_government = neutrality
+			}
 			available = {
 				has_government = neutrality
 			}
@@ -562,7 +624,7 @@ characters = {
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = kim_koo
+			idea_token = KOR_kim_koo
 			available = {
 				has_intelligence_agency = yes
 			}
@@ -611,7 +673,7 @@ characters = {
 		advisor={
 			cost = 100
 			slot = theorist
-			idea_token = do_sang_log
+			idea_token = KOR_do_sang_log
 			ledger = air
 			allowed = {
 				original_tag = KOR
@@ -637,7 +699,7 @@ characters = {
 		advisor={
 			cost = 100
 			slot = army_chief
-			idea_token = ahn_jung_geun
+			idea_token = KOR_ahn_jung_geun
 		    allowed = {
 	    		original_tag = KOR
 		    }
@@ -669,7 +731,7 @@ characters = {
 		advisor={
 			cost = 100
 			slot = army_chief
-			idea_token = kim_chwa_chin
+			idea_token = KOR_kim_chwa_chin
 	    	allowed = {
 		    	original_tag = KOR
 		    }
@@ -703,7 +765,7 @@ characters = {
 		advisor={
 			cost = 100
 			slot = army_chief
-			idea_token = shin_pal_gyun
+			idea_token = KOR_shin_pal_gyun
 	    	allowed = {
 	    		original_tag = KOR
 	    	}
@@ -737,7 +799,7 @@ characters = {
 		advisor={
 			cost = 100
 			slot = navy_chief
-			idea_token = sin_sun_sung
+			idea_token = KOR_sin_sun_sung
 		    allowed = {
 		    	original_tag = KOR
 	    	}
@@ -769,7 +831,7 @@ characters = {
 		advisor={
 			cost = 200
 			slot = navy_chief
-			idea_token = yi_kyu_gap
+			idea_token = KOR_yi_kyu_gap
 		    allowed = {
 		    	original_tag = KOR
 	    	}
@@ -804,7 +866,7 @@ characters = {
 		advisor={
 			cost = 100
 			slot = air_chief
-			idea_token = no_baek_rin
+			idea_token = KOR_no_baek_rin
 			
 	    	allowed = {
 		    	original_tag = KOR
@@ -825,7 +887,7 @@ characters = {
 		advisor={
 			cost = 100
 			slot = air_chief
-			idea_token = seo_wal_bo
+			idea_token = KOR_seo_wal_bo
 			
 	    	allowed = {
 		    	original_tag = KOR
@@ -848,7 +910,7 @@ characters = {
 		advisor={
 			cost = 100
 			slot = high_command
-			idea_token = hong_sa_ik
+			idea_token = KOR_hong_sa_ik
 			ledger = army
 		    allowed = {
 		    	original_tag = KOR
@@ -882,7 +944,7 @@ characters = {
 		advisor={
 			cost = 100
 			slot = high_command
-			idea_token = ji_cheong_cheon
+			idea_token = KOR_ji_cheong_cheon
 			ledger = army
 		    allowed = {
 		    	original_tag = KOR
@@ -915,7 +977,7 @@ characters = {
 		advisor={
 			cost = 200
 			slot = high_command
-			idea_token = kim_hong_il
+			idea_token = KOR_kim_hong_il
 			ledger = army
 	    	allowed = {
 		    	original_tag = KOR
@@ -948,7 +1010,7 @@ characters = {
 		advisor={
 			cost = 200
 			slot = high_command
-			idea_token = kim_kyung_cheon
+			idea_token = KOR_kim_kyung_cheon
 			ledger = army
 	    	allowed = {
 		    	original_tag = KOR
@@ -982,7 +1044,7 @@ characters = {
 		advisor={
 			cost = 200
 			slot = high_command
-			idea_token = kim_suk_won
+			idea_token = KOR_kim_suk_won
 			ledger = army
 		    allowed = {
 		    	original_tag = KOR
@@ -1017,7 +1079,7 @@ characters = {
 		advisor={
 			cost = 100
 			slot = high_command
-			idea_token = choi_sung_hak
+			idea_token = KOR_choi_sung_hak
 			ledger = navy
 	    	allowed = {
 	    		original_tag = KOR
@@ -1049,7 +1111,7 @@ characters = {
 		advisor={
 			cost = 100
 			slot = high_command
-			idea_token = park_ok_kyu
+			idea_token = KOR_park_ok_kyu
 			ledger = navy
 	    	allowed = {
 	    		original_tag = KOR
@@ -1081,7 +1143,7 @@ characters = {
 		advisor={
 			cost = 100
 			slot = high_command
-			idea_token = ahn_chang_nam
+			idea_token = KOR_ahn_chang_nam
 			ledger = air
 		    allowed = {
 		    	original_tag = KOR
@@ -1102,7 +1164,7 @@ characters = {
 		advisor={
 			cost = 100
 			slot = high_command
-			idea_token = choe_yong_duk
+			idea_token = KOR_choe_yong_duk
 			ledger = air
 		    allowed = {
 		    	original_tag = KOR
@@ -1123,7 +1185,7 @@ characters = {
 		advisor={
 			cost = 100
 			slot = high_command
-			idea_token = jang_duk_chang
+			idea_token = KOR_jang_duk_chang
 			ledger = air
 		    allowed = {
 		    	original_tag = KOR

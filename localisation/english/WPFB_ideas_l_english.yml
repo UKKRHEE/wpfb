@@ -189,6 +189,9 @@
  #############
  
  ### 일본 지도자 ###
+ JAP_ichiki_kitokuro:0 "이치키 키토쿠로"
+ JAP_yasuhito:0 "야스히토"
+ JAP_ugaki_kazushige:0 "우가키 카즈시게"
  JAP_okada_keisuke:0 "오카다 게이스케"
  JAP_tokugawa_iesato:0 "도쿠가와 이에사토"
 
@@ -206,10 +209,11 @@
  ### 일본 최고사령부 ###
  JAP_miyazaki_shigesaburo:0 "미야자키 시게사부로"
  JAP_kimura_masatomi:0 "기무라 마사토미"
+ JAP_iwamoto_tetsuzo:0 "이와모토 테츠조"
  
  ### 일본 flag ###
- JAP_toseiha_win:0 "통제파가 정권을 잡음"
- JAP_kodoha_win:0 "황도파가 정권을 잡음"
+ JAP_toseiha_out:0 "통제파가 축출됨"
+ JAP_kodoha_out:0 "황도파가 축출됨"
  
  #############
  ### 대청제국 ###
@@ -418,6 +422,10 @@
  SHX_song_zheyuan:0 "쑹저위안"
  SHX_gao_guizi:0 "가오구이쯔"
  SHX_yang_hucheng:0 "양후청"
+ 
+ ### 북경정부 flag ###
+ SHX_yan_out:0 "염계가 축출됨"
+ SHX_feng_out:0 "국민군이 축출됨"
  
  #############
  ### 국민정부 ###
@@ -713,9 +721,13 @@
  RUS_bolsheviks:0 "볼셰비키"
  
  ### 러시아 정치고문 ###
- RUS_sofia_panina:0 "소피야 파니나"
+ #반공주의
  RUS_aleksandr_verkhovsky:0 "알렉산드르 베르홉스키"
+ RUS_vasily_kharlamov:0 "바실리 하를라모프"
+ #민주주의
  RUS_pavel_milyukov:0 "파벨 밀류코프"
+ RUS_sofia_panina:0 "소피야 파니나"
+ #정보기관
  RUS_klavdiy_foss:0 "클라브디 포스"
  
  ### 러시아 이론가 ###
@@ -857,6 +869,6 @@
  
  ### 류큐 지도자 ###
  RYU_kamejiro_senaga:0 "세나가 카메지로"
- RYU_chotoku_ogimi:0 "오기미 쵸토쿠"
+ RYU_nakasone_genwa:0 "나카소네 겐와"
  RYU_hiroshi_sho:0 "쇼 히로시"
  

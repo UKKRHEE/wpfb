@@ -7,10 +7,6 @@ ideas = {
 		### 푸이 ###
 		QIN_constitutional_monarch_puyi = {
 			
-			available = {
-				NOT = { has_government = communism }
-			}
-
 			allowed = {
 				original_tag = QIN
 			}

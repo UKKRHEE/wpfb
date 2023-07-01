@@ -26,18 +26,18 @@ recruit_character = YUN_ding_zhaoguan
 recruit_character = YUN_miao_yuntai
 recruit_character = YUN_gong_zizhi
 recruit_character = YUN_lu_chongren
-recruit_character = YUN_yunnan_security
+recruit_character = YUN_security
 
 ### 이론가 ###
 recruit_character = YUN_ma_ying
-recruit_character = YUN_yunnan_navy_research
-recruit_character = YUN_yunnan_air_research
+recruit_character = YUN_navy_research
+recruit_character = YUN_air_research
 
 ### 육군참모총장 ###
 recruit_character = YUN_lu_han
 
 ### 해군참모총장 ###
-recruit_character = YUN_yunnan_navy_department
+recruit_character = YUN_navy_department
 
 ### 공군참모총장 ###
 recruit_character = YUN_liu_peiquan

@@ -30,9 +30,10 @@ recruit_character = RUS_konstantin_rodzaevsky
 recruit_character = RUS_vladimir_kirillovich
 
 ### 정치고문 ###
-recruit_character = RUS_sofia_panina
 recruit_character = RUS_aleksandr_verkhovsky
+recruit_character = RUS_vasily_kharlamov
 recruit_character = RUS_pavel_milyukov
+recruit_character = RUS_sofia_panina
 recruit_character = RUS_anastasy_vonsyatsky
 recruit_character = RUS_aleksandr_kazembek
 recruit_character = RUS_patriarch_sergy

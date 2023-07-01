@@ -50,9 +50,9 @@ recruit_character = ROC_zou_taofen
 recruit_character = ROC_li_zhangda
 
 ### 이론가 ###
-recruit_character = ROC_fujian_army_research
-recruit_character = ROC_fujian_navy_research
-recruit_character = ROC_fujian_air_research
+recruit_character = ROC_army_research
+recruit_character = ROC_navy_research
+recruit_character = ROC_air_research
 
 ### 육군참모총장 ###
 recruit_character = ROC_cai_tingkai

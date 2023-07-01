@@ -4,7 +4,7 @@ characters={
 		name=RYU_kamejiro_senaga
 		portraits={
 			civilian={
-				large = "gfx/leaders/Asia/Portrait_Asia_Generic_communism.dds"
+				large = "gfx/leaders/JAP/Portrait_RYU_Kamejiro_Senaga.png"
 			}
 		}
 		country_leader={
@@ -16,11 +16,11 @@ characters={
 			id=-1
 		}
 	}
-	RYU_chotoku_ogimi={
-		name=RYU_chotoku_ogimi
+	RYU_nakasone_genwa={
+		name=RYU_nakasone_genwa
 		portraits={
 			civilian={
-				large = "gfx/leaders/Asia/Portrait_Asia_Generic_2.dds"
+				large = "gfx/leaders/JAP/Portrait_RYU_Nakasone_Genwa.png"
 			}
 		}
 		country_leader={
@@ -58,7 +58,7 @@ characters={
 	}
 	
 	### 정치고문 ###
-	RYU_ryukyu_foreign={
+	RYU_foreign={
 		name=joint_foreign
 		portraits={
 			civilian={
@@ -67,7 +67,7 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = ryukyu_foreign
+			idea_token = RYU_foreign
 			allowed = {
 				original_tag = RYU
 			}
@@ -76,7 +76,7 @@ characters={
 			}
 		}
 	}
-	RYU_ryukyu_finance={
+	RYU_finance={
 		name=joint_finance
 		portraits={
 			civilian={
@@ -85,7 +85,7 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = ryukyu_finance
+			idea_token = RYU_finance
 			allowed = {
 				original_tag = RYU
 			}
@@ -94,7 +94,7 @@ characters={
 			}
 		}
 	}
-	RYU_ryukyu_industry={
+	RYU_industry={
 		name=joint_industry
 		portraits={
 			civilian={
@@ -103,7 +103,7 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = ryukyu_industry
+			idea_token = RYU_industry
 			allowed  = {
 				original_tag = RYU
 			}
@@ -112,7 +112,7 @@ characters={
 			}
 		}
 	}
-	RYU_ryukyu_security={
+	RYU_security={
 		name=joint_security
 		portraits={
 			civilian={
@@ -121,7 +121,7 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = ryukyu_security
+			idea_token = RYU_security
 			available = {
 				has_intelligence_agency = yes
 			}
@@ -136,7 +136,7 @@ characters={
 	}
 	
 	### 이론가 ###
-	RYU_ryukyu_army_research = {
+	RYU_army_research = {
 		name=joint_army_research
 		portraits={
 			army={
@@ -146,7 +146,7 @@ characters={
 		advisor={
 			cost = 100
 			slot = theorist
-			idea_token = ryukyu_army_research
+			idea_token = RYU_army_research
 			ledger = army
 		    allowed = {
 		    	original_tag = RYU
@@ -156,7 +156,7 @@ characters={
 			}
 		}
 	}
-	RYU_ryukyu_navy_research={
+	RYU_navy_research={
 		name=joint_navy_research
 		portraits={
 			army={
@@ -166,7 +166,7 @@ characters={
 		advisor={
 			cost = 100
 			slot = theorist
-			idea_token = ryukyu_navy_research
+			idea_token = RYU_navy_research
 			ledger = navy
 			allowed = {
 				original_tag = RYU
@@ -176,7 +176,7 @@ characters={
 			}
 		}
 	}
-	RYU_ryukyu_air_research={
+	RYU_air_research={
 		name=joint_air_research
 		portraits={
 			army={
@@ -186,7 +186,7 @@ characters={
 		advisor={
 			cost = 100
 			slot = theorist
-			idea_token = ryukyu_air_research
+			idea_token = RYU_air_research
 			ledger = air
 			allowed = {
 				original_tag = RYU
@@ -198,7 +198,7 @@ characters={
 	}
 	
 	### 육군참모총장 ###
-	RYU_ryukyu_army_department={
+	RYU_army_department={
 		name=joint_army_department
 		portraits={
 			army={
@@ -207,7 +207,7 @@ characters={
 		}
 		advisor={
 			slot = army_chief
-			idea_token = ryukyu_army_department
+			idea_token = RYU_army_department
 	    	allowed = {
 	    		original_tag = RYU
 	    	}
@@ -218,7 +218,7 @@ characters={
 	}
 	
 	### 해군참모총장 ###
-	RYU_ryukyu_navy_department = {
+	RYU_navy_department = {
 		name=joint_navy_department
 		portraits={
 			army={
@@ -227,7 +227,7 @@ characters={
 		}
 		advisor={
 			slot = navy_chief
-			idea_token = ryukyu_navy_department
+			idea_token = RYU_navy_department
 		    allowed = {
 		    	original_tag = RYU
 	    	}
@@ -238,7 +238,7 @@ characters={
 	}
 	
 	### 공군참모총장 ###
-	RYU_ryukyu_air_department = {
+	RYU_air_department = {
 		name=joint_air_department
 		portraits={
 			army={
@@ -247,7 +247,7 @@ characters={
 		}
 		advisor={
 			slot = air_chief
-			idea_token = ryukyu_navy_department
+			idea_token = RYU_air_department
 		    allowed = {
 		    	original_tag = RYU
 	    	}
@@ -258,7 +258,7 @@ characters={
 	}
 	
 	### 최고사령부 ###
-	RYU_ryukyu_infantry = {
+	RYU_infantry = {
 		name=joint_infantry
 		portraits={
 			army={
@@ -267,7 +267,7 @@ characters={
 		}
 		advisor={
 			slot = high_command
-			idea_token = ryukyu_infantry
+			idea_token = RYU_infantry
 			ledger = army
 		    allowed = {
 		    	original_tag = RYU
@@ -277,7 +277,7 @@ characters={
 			}
 		}
 	}
-	RYU_ryukyu_artillery = {
+	RYU_artillery = {
 		name=joint_artillery
 		portraits={
 			army={
@@ -286,7 +286,7 @@ characters={
 		}
 		advisor={
 			slot = high_command
-			idea_token = ryukyu_artillery
+			idea_token = RYU_artillery
 			ledger = army
 		    allowed = {
 		    	original_tag = RYU
@@ -296,7 +296,7 @@ characters={
 			}
 		}
 	}
-	RYU_ryukyu_logistics = {
+	RYU_logistics = {
 		name=joint_logistics
 		portraits={
 			army={
@@ -305,7 +305,7 @@ characters={
 		}
 		advisor={
 			slot = high_command
-			idea_token = ryukyu_logistics
+			idea_token = RYU_logistics
 			ledger = army
 		    allowed = {
 		    	original_tag = RYU

@@ -51,7 +51,7 @@ characters={
 		advisor={
 			cost = 100
 			slot = army_chief
-			idea_token = tang_shengzhi
+			idea_token = HNC_tang_shengzhi
 			allowed = {
 	    		original_tag = HNC
 	    	}
@@ -83,7 +83,7 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = hu_shuhua
+			idea_token = HNC_hu_shuhua
 			allowed = {
 				original_tag = HNC
 			}
@@ -101,7 +101,7 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = luo_shujia
+			idea_token = HNC_luo_shujia
 			allowed = {
 				original_tag = HNC
 			}
@@ -119,7 +119,7 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = yi_peiji
+			idea_token = HNC_yi_peiji
 			allowed = {
 				original_tag = HNC
 			}
@@ -128,7 +128,7 @@ characters={
 			}
 		}
 	}
-	HNC_hunan_security={
+	HNC_security={
 		name=joint_security
 		portraits={
 			civilian={
@@ -137,7 +137,7 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = hunan_security
+			idea_token = HNC_security
 			available = {
 				has_intelligence_agency = yes
 			}
@@ -152,7 +152,7 @@ characters={
 	}
 	
 	### 이론가 ###
-	HNC_hunan_army_research = {
+	HNC_army_research = {
 		name=joint_army_research
 		portraits={
 			army={
@@ -162,7 +162,7 @@ characters={
 		advisor={
 			cost = 100
 			slot = theorist
-			idea_token = hunan_army_research
+			idea_token = HNC_army_research
 			ledger = army
 		    allowed = {
 		    	original_tag = HNC
@@ -172,7 +172,7 @@ characters={
 			}
 		}
 	}
-	HNC_hunan_navy_research={
+	HNC_navy_research={
 		name=joint_navy_research
 		portraits={
 			army={
@@ -182,7 +182,7 @@ characters={
 		advisor={
 			cost = 100
 			slot = theorist
-			idea_token = hunan_navy_research
+			idea_token = HNC_navy_research
 			ledger = navy
 			allowed = {
 				original_tag = HNC
@@ -192,7 +192,7 @@ characters={
 			}
 		}
 	}
-	HNC_hunan_air_research={
+	HNC_air_research={
 		name=joint_air_research
 		portraits={
 			army={
@@ -202,7 +202,7 @@ characters={
 		advisor={
 			cost = 100
 			slot = theorist
-			idea_token = hunan_air_research
+			idea_token = HNC_air_research
 			ledger = air
 			allowed = {
 				original_tag = HNC
@@ -214,7 +214,7 @@ characters={
 	}
 	
 	### 해군참모총장 ###
-	HNC_hunan_navy_department = {
+	HNC_navy_department = {
 		name=joint_navy_department
 		portraits={
 			army={
@@ -223,7 +223,7 @@ characters={
 		}
 		advisor={
 			slot = navy_chief
-			idea_token = hunan_navy_department
+			idea_token = HNC_navy_department
 		    allowed = {
 		    	original_tag = HNC
 	    	}
@@ -243,7 +243,7 @@ characters={
 		}
 		advisor={
 			slot = air_chief
-			idea_token = liu_zhesheng
+			idea_token = HNC_liu_zhesheng
 			
 	    	allowed = {
 		    	original_tag = HNC
@@ -265,7 +265,7 @@ characters={
 		}
 		advisor={
 			slot = high_command
-			idea_token = he_yaozu
+			idea_token = HNC_he_yaozu
 			ledger = army
 		    allowed = {
 		    	original_tag = HNC
@@ -296,7 +296,7 @@ characters={
 		}
 		advisor={
 			slot = high_command
-			idea_token = he_jian
+			idea_token = HNC_he_jian
 			ledger = army
 		    allowed = {
 		    	original_tag = HNC
@@ -331,7 +331,7 @@ characters={
 		}
 		advisor={
 			slot = high_command
-			idea_token = chen_mingren
+			idea_token = HNC_chen_mingren
 			ledger = army
 		    allowed = {
 		    	original_tag = HNC
@@ -362,7 +362,7 @@ characters={
 		}
 		advisor={
 			slot = high_command
-			idea_token = liao_yaoxiang
+			idea_token = HNC_liao_yaoxiang
 			ledger = army
 		    allowed = {
 		    	original_tag = HNC
@@ -394,7 +394,7 @@ characters={
 		advisor={
 			cost = 100
 			slot = high_command
-			idea_token = men_bingyue
+			idea_token = HNC_men_bingyue
 			ledger = army
 		    allowed = {
 		    	original_tag = HNC

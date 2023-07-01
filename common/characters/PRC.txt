@@ -73,7 +73,7 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = zhou_enlai
+			idea_token = PRC_zhou_enlai
 			allowed = {
 				original_tag = PRC
 			}
@@ -91,7 +91,7 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = liu_shaoqi
+			idea_token = PRC_liu_shaoqi
 			allowed = {
 				original_tag = PRC
 			}
@@ -109,7 +109,7 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = deng_xiaoping
+			idea_token = PRC_deng_xiaoping
 			allowed = {
 				original_tag = PRC
 			}
@@ -127,7 +127,7 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = dong_biwu
+			idea_token = PRC_dong_biwu
 			allowed = {
 				original_tag = PRC
 			}
@@ -145,7 +145,7 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = xu_teli
+			idea_token = PRC_xu_teli
 			allowed = {
 				original_tag = PRC
 			}
@@ -163,7 +163,7 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = ren_bishi
+			idea_token = PRC_ren_bishi
 			allowed = {
 				original_tag = PRC
 			}
@@ -181,7 +181,7 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = lin_boqu
+			idea_token = PRC_lin_boqu
 			allowed = {
 				original_tag = PRC
 			}
@@ -199,7 +199,7 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = deng_fa
+			idea_token = PRC_deng_fa
 			available = {
 				has_intelligence_agency = yes
 			}
@@ -235,7 +235,7 @@ characters={
 			}
 		}
 	}
-	PRC_ccp_navy_research={
+	PRC_navy_research={
 		name=joint_navy_research
 		portraits={
 			army={
@@ -245,7 +245,7 @@ characters={
 		advisor={
 			cost = 100
 			slot = theorist
-			idea_token = ccp_navy_research
+			idea_token = PRC_navy_research
 			ledger = navy
 			allowed = {
 				original_tag = PRC
@@ -255,7 +255,7 @@ characters={
 			}
 		}
 	}
-	PRC_ccp_air_research={
+	PRC_air_research={
 		name=joint_air_research
 		portraits={
 			army={
@@ -265,7 +265,7 @@ characters={
 		advisor={
 			cost = 100
 			slot = theorist
-			idea_token = ccp_air_research
+			idea_token = PRC_air_research
 			ledger = air
 			allowed = {
 				original_tag = PRC
@@ -288,7 +288,7 @@ characters={
 		advisor={
 			cost = 200
 			slot = army_chief
-			idea_token = zhu_de
+			idea_token = PRC_zhu_de
 			allowed = {
 				original_tag = PRC
 			}
@@ -320,7 +320,7 @@ characters={
 		advisor={
 			cost = 200
 			slot = army_chief
-			idea_token = peng_dehuai
+			idea_token = PRC_peng_dehuai
 			allowed = {
 				original_tag = PRC
 			}
@@ -354,7 +354,7 @@ characters={
 		}
 		advisor={
 			slot = navy_chief
-			idea_token = xiao_jinguang
+			idea_token = PRC_xiao_jinguang
 		    allowed = {
 		    	original_tag = PRC
 	    	}
@@ -385,7 +385,7 @@ characters={
 		}
 		advisor={
 			slot = air_chief
-			idea_token = liu_yalou
+			idea_token = PRC_liu_yalou
 	    	allowed = {
 		    	original_tag = PRC
 		    }
@@ -407,7 +407,7 @@ characters={
 		advisor={
 			cost = 200
 			slot = high_command
-			idea_token = lin_biao
+			idea_token = PRC_lin_biao
 			ledger = army
 	    	allowed = {
 	    		original_tag = PRC
@@ -462,7 +462,7 @@ characters={
 		}
 		advisor={
 			slot = high_command
-			idea_token = luo_ronghuan
+			idea_token = PRC_luo_ronghuan
 			ledger = army
 	    	allowed = {
 	    		original_tag = PRC
@@ -494,7 +494,7 @@ characters={
 		advisor={	
 			cost = 100
 			slot = high_command
-			idea_token = xu_xiangqian
+			idea_token = PRC_xu_xiangqian
 			ledger = army
 			allowed = {
 				original_tag = PRC
@@ -515,7 +515,7 @@ characters={
 		advisor={
 			cost = 100
 			slot = high_command
-			idea_token = nie_rongzhen
+			idea_token = PRC_nie_rongzhen
 			ledger = army
 	    	allowed = {
 	    		original_tag = PRC
@@ -547,7 +547,7 @@ characters={
 		advisor={
 			cost = 100
 			slot = high_command
-			idea_token = su_yu
+			idea_token = PRC_su_yu
 			ledger = army
 	    	allowed = {
 	    		original_tag = PRC
@@ -568,7 +568,7 @@ characters={
 		advisor={
 			cost = 100
 			slot = high_command
-			idea_token = chen_geng
+			idea_token = PRC_chen_geng
 			ledger = army
 	    	allowed = {
 	    		original_tag = PRC

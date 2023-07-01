@@ -75,7 +75,12 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = tserendorj
+			idea_token = MON_tserendorj
+			visible = {
+				NOT = {
+					has_government = communism
+				}
+			}
 			available = {
 				NOT = {
 					has_government = communism
@@ -99,7 +104,7 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = altanochir
+			idea_token = MON_altanochir
 			allowed = {
 				original_tag = MON
 			}
@@ -128,7 +133,7 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = jamsrangiin_tseveen
+			idea_token = MON_jamsrangiin_tseveen
 			allowed = {
 				original_tag = MON
 			}
@@ -146,7 +151,7 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = davizavyn_losol
+			idea_token = MON_davizavyn_losol
 			allowed = {
 				original_tag = MON
 			}
@@ -164,7 +169,7 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = anandyn_amar
+			idea_token = MON_anandyn_amar
 			allowed = {
 				original_tag = MON
 			}
@@ -182,7 +187,7 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = dorjjavyn_luvsansharav
+			idea_token = MON_dorjjavyn_luvsansharav
 			available = {
 				has_intelligence_agency = yes
 			}
@@ -197,7 +202,7 @@ characters={
 	}
 	
 	### 이론가 ###
-	MON_mongolia_army_research = {
+	MON_army_research = {
 		name=joint_army_research
 		portraits={
 			army={
@@ -207,7 +212,7 @@ characters={
 		advisor={
 			cost = 100
 			slot = theorist
-			idea_token = mongolia_army_research
+			idea_token = MON_army_research
 			ledger = army
 		    allowed = {
 		    	original_tag = MON
@@ -217,7 +222,7 @@ characters={
 			}
 		}
 	}
-	MON_mongolia_navy_research={
+	MON_navy_research={
 		name=joint_navy_research
 		portraits={
 			army={
@@ -227,7 +232,7 @@ characters={
 		advisor={
 			cost = 100
 			slot = theorist
-			idea_token = mongolia_navy_research
+			idea_token = MON_navy_research
 			ledger = navy
 			allowed = {
 				original_tag = MON
@@ -237,7 +242,7 @@ characters={
 			}
 		}
 	}
-	MON_mongolia_air_research={
+	MON_air_research={
 		name=joint_air_research
 		portraits={
 			army={
@@ -247,7 +252,7 @@ characters={
 		advisor={
 			cost = 100
 			slot = theorist
-			idea_token = mongolia_air_research
+			idea_token = MON_air_research
 			ledger = air
 			allowed = {
 				original_tag = MON
@@ -269,8 +274,13 @@ characters={
 		}
 		advisor={
 			slot = army_chief
-			idea_token = manlaibaatar_damdinsuren
-	    	available = {
+			idea_token = MON_manlaibaatar_damdinsuren
+	    	visible = {
+				NOT = {
+					has_government = communism
+				}
+			}
+			available = {
 				NOT = {
 					has_government = communism
 				}
@@ -310,8 +320,13 @@ characters={
 		}
 		advisor={
 			slot = army_chief
-			idea_token = khatanbaatar_magsarjav
-	    	available = {
+			idea_token = MON_khatanbaatar_magsarjav
+	    	visible = {
+				NOT = {
+					has_government = communism
+				}
+			}
+			available = {
 				NOT = {
 					has_government = communism
 				}
@@ -354,10 +369,13 @@ characters={
 		advisor={
 			cost = 200
 			slot = army_chief
-			idea_token = khorloogiin_choibalsan
-		    available = {
+			idea_token = MON_khorloogiin_choibalsan
+		    visible = {
                 has_government = communism
             }
+			available = {
+				has_government = communism
+			}
 			allowed = {
 		    	original_tag = MON
 	    	}
@@ -382,7 +400,7 @@ characters={
 	}
 	
 	### 해군참모총장 ###
-	MON_mongolia_navy_department = {
+	MON_navy_department = {
 		name=joint_navy_department
 		portraits={
 			army={
@@ -391,7 +409,7 @@ characters={
 		}
 		advisor={
 			slot = navy_chief
-			idea_token = mongolia_navy_department
+			idea_token = MON_navy_department
 		    allowed = {
 		    	original_tag = MON
 	    	}
@@ -412,7 +430,12 @@ characters={
 		}
 		advisor={
 			slot = air_chief
-			idea_token = li_shouxin
+			idea_token = MON_li_shouxin
+			visible = {
+				NOT = {
+					has_government = communism
+				}
+			}
 			available = {
 				NOT = {
 					has_government = communism
@@ -443,7 +466,7 @@ characters={
 			legacy_id=-1
 		}
 	}
-	MON_mongolia_air_department = {
+	MON_air_department = {
 		name=joint_air_department
 		portraits={
 			army={
@@ -452,8 +475,11 @@ characters={
 		}
 		advisor={
 			slot = air_chief
-			idea_token = mongolia_air_department
+			idea_token = MON_air_department
 		    visible = {
+                has_government = communism
+            }
+			available = {
                 has_government = communism
             }
 			allowed = {
@@ -476,8 +502,13 @@ characters={
 		}
 		advisor={
 			slot = high_command
-			idea_token = urzhin_garmaev
+			idea_token = MON_urzhin_garmaev
 			ledger = army
+			visible = {
+				NOT = {
+					has_government = communism
+				}
+			}
 			available = {
 				NOT = {
 					has_government = communism
@@ -518,7 +549,7 @@ characters={
 		}
 		advisor={
 			slot = high_command
-			idea_token = darijaya
+			idea_token = MON_darijaya
 			ledger = army
 		    allowed = {
 		    	original_tag = MON
@@ -549,7 +580,7 @@ characters={
 		}
 		advisor={
 			slot = high_command
-			idea_token = zhamyangiyn_lhagvasuren
+			idea_token = MON_zhamyangiyn_lhagvasuren
 			ledger = army
 		    allowed = {
 		    	original_tag = MON
@@ -581,9 +612,12 @@ characters={
 		}
 		advisor={
 			slot = high_command
-			idea_token = yumjaagiin_tsedenbal
+			idea_token = MON_yumjaagiin_tsedenbal
 			ledger = army
-		    available = {
+		    visible = {
+                has_government = communism
+            }
+			available = {
                 has_government = communism
             }
 			allowed = {
@@ -619,9 +653,12 @@ characters={
 		advisor={
 			cost = 100
 			slot = high_command
-			idea_token = gelegdorjiin_demid
+			idea_token = MON_gelegdorjiin_demid
 			ledger = army
-		    available = {
+		    visible = {
+                has_government = communism
+            }
+			available = {
                 has_government = communism
             }
 			allowed = {
