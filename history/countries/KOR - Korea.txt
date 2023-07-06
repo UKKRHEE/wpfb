@@ -92,7 +92,7 @@ recruit_character = KOR_shin_sung_mo
 
 add_ideas = {
 	#각료
-	yi_kang
+	KOR_yi_kang
 	
 	#징병법, 무역법, 경제법
 	limited_conscription

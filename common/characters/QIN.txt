@@ -206,7 +206,7 @@ characters={
 				original_tag = QIN
 			}
 			traits = {
-				gentle_scholar
+				enlightened_academic
 			}
 		}
 	}

@@ -60,8 +60,8 @@
  ### 한국 ###
  three_equalities:0 "삼균주의 창시자" #조소앙
  ilminist:0 "일민주의 창시자" #안호상
- shadow_emperor:0 "그림자 황제" #이강
- shadow_emperor2:0 "그림자 황제" #이강
+ shadow_emperor:0 "의화대원왕\n그림자 황제" #이강
+ shadow_emperor2:0 "의화대원왕\n그림자 황제" #이강
  
  ### 신강/쿠물 ###
  kumul_khan_advisor:0 "쿠물 칸"
