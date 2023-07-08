@@ -1,0 +1,143 @@
+#대일본제국 디시전 
+
+    JAP_test_the_soviet_union = { #소비에트 연방 극동함대 시험
+	    JAP_test_the_union = {
+    	icon = border_war
+		
+		allowed = {
+			original_tag = JAP
+		}
+		
+		available = {
+			OR = {
+				has_completed_focus = JAP_purge_the_kodoha_faction
+				has_completed_focus = JAP_support_the_kodoha_faction
+			}
+			NOT = {
+				has_war_with = SOV
+				is_in_faction_with = SOV
+				has_non_aggression_pact_with = SOV
+				SOV = { is_puppet_of = JAP }
+				JAP = { is_puppet_of = SOV }
+			}
+		    any_state = {
+			is_coastal = yes
+			is_controlled_by = JAP
+			}
+		}
+		
+	   visible = {
+			NOT = {
+				has_global_flag = JAP_end_of_test
+			}
+		}
+		
+		fire_only_once = yes
+		ai_will_do = { #임시, 추후 변경예정
+			factor = 0
+			modifier = {
+				is_historical_focus_on = yes
+				date < 1945.8.15
+				factor = 100
+			}
+		}
+		cost = 75
+		days_remove = 14
+		war_with_on_remove = SOV
+		
+		complete_effect = {
+			SOV = {
+				country_event = { id = japan.50 hours = 6 }
+				activate_targeted_decision = { target = JAP decision = JAP_japanese_tests_union }
+			}
+			set_global_flag = JAP_testing_soviet_navys
+		}
+		
+		remove_effect = { #일정 확률로. 소련이 높은 확률로 짐
+	    custom_effect_tooltip = JAP_test_percent
+	    hidden_effect = {
+		     if = {
+			     limit = {
+			       JAP = {
+				     NOT = {
+			         has_completed_focus = JAP_new_naval_estimates
+				     }
+			       }
+			     }
+				 country_event = { id = japan.51 days = 1 }
+			     SOV = {
+			     country_event = { id = japan.51 days = 1 }
+			     }
+		     }	
+		     if = {
+			     limit = {
+			       JAP = {
+			       has_completed_focus = JAP_new_naval_estimates
+			       }
+			     }
+				 country_event = { id = japan.52 days = 1 }
+				 SOV = {
+				 country_event = { id = japan.52 days = 1 }
+				 }
+		     }	
+             set_global_flag = JAP_end_of_test			 
+	       }			 
+	    }
+	   }
+    }
+	
+	JAP_japanese_tests_union = {
+
+		icon = border_war
+
+		allowed = { #발동시 표시
+			always = no
+		}
+
+		available = {
+			hidden_trigger = { always = no }
+		}
+		
+		visible = {
+		    has_global_flag = JAP_testing_soviet_navys
+		}
+
+		war_with_target_on_timeout = yes
+
+		days_mission_timeout = 14
+
+		fire_only_once = yes
+
+		is_good = no
+		
+		timeout_effect = {
+	    custom_effect_tooltip = JAP_test_percent
+		   hidden_effect = {
+		     if = {
+			     limit = {
+			       JAP = {
+				     NOT = {
+			         has_completed_focus = JAP_new_naval_estimates
+				     }
+			       }
+			     }
+				 country_event = { id = japan.51 days = 1 }
+			     SOV = {
+			     country_event = { id = japan.51 days = 1 }
+			     }
+		     }	
+		     if = {
+			     limit = {
+			       JAP = {
+			       has_completed_focus = JAP_new_naval_estimates
+			       }
+			     }
+				 country_event = { id = japan.52 days = 1 }
+				 SOV = {
+				 country_event = { id = japan.52 days = 1 }
+				 }
+		     }	
+             set_global_flag = JAP_end_of_test			 
+	       }
+		}
+	}
