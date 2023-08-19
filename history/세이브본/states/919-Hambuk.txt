@@ -1,0 +1,32 @@
+
+state={
+	id=919
+	name="STATE_919"
+
+	history={
+		owner = KOR
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			6944 = {
+				naval_base = 3
+
+			}
+			6822 = {
+				naval_base = 3
+
+			}
+
+		}
+		add_core_of = KOR
+
+	}
+
+	provinces={
+		898 959 3860 6822 6944 
+	}
+	manpower=1043689
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

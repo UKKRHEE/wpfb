@@ -5,7 +5,6 @@ state={
 	resources={
 		tungsten=6.000
 	}
-	local_supplies=0.0 
 
 	history={
 		owner = HNC
@@ -34,9 +33,10 @@ state={
 	}
 
 	provinces={
-		1640 4480 7097 7502 7665 9999 10335 10377 10517 12017 12053 12310 12483 13140 13143 
+		1640 4480 7097 7101 7279 7434 7665 9999 10006 10335 10517 12017 12053 12310 12483 13140 13143 
 	}
 	manpower=20293700
 	buildings_max_level_factor=1.000
 	state_category=town
+	local_supplies=0.000
 }

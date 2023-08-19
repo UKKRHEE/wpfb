@@ -1,0 +1,22 @@
+state={
+	id=962
+	name="STATE_962"
+	provinces={
+		9998 
+	}
+	manpower=168900
+	state_category=city
+	buildings_max_level_factor=1.000
+	history={
+		buildings = {
+			infrastructure = 3
+			9998 = {
+				naval_base = 8
+			}
+		}
+		owner = JAP
+		add_core_of = JAP
+		#add_core_of = USA
+	}
+	local_supplies=0.0 
+}

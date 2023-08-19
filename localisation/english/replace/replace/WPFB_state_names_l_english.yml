@@ -15,41 +15,47 @@
  STATE_919:0 "함경북도"
  STATE_920:0 "평안북도"
  STATE_921:0 "경상북도"
- STATE_8921:0 "경상북도"
  ###북부 영토###
- STATE_922:0 "용강북도"
- STATE_923:0 "푸위안"
+ STATE_408:0 "세베르노하바롭스크"
+ STATE_409:0 "유즈노하바롭스크"
+ STATE_922:0 "블라디보스토크"
+ STATE_923:0 "우수리스크"
  STATE_924:0 "쓰시마"
- STATE_925:0 "용강남도"
- STATE_926:0 "통백도"
+ STATE_925:0 "용계도"
+ STATE_926:0 "환길도"
  STATE_927:0 "심요도"
  STATE_745:0 "다롄"
  STATE_716:0 "랴오둥"
  STATE_717:0 "쑹장"
- STATE_328:0 "하얼빈"
+ STATE_328:0 "지린"
  ###식민지###
+ STATE_743:0 "칭다오"
+ #STATE_524:0 "대만"
+ #STATE_528:0 "장기"
  ###보호령###
+ #STATE_526:0 "류큐"
 
  ###중국###
+ STATE_746:0 "이커자오"
  STATE_605:0 "충칭"
  STATE_609:0 "탕산"
  STATE_614:0 "바오딩"
  STATE_592:0 "포산"
  STATE_928:0 "톈진"
- STATE_929:0 "웨이하이"
+ STATE_929:0 "웨이하이" #웨이하이
  STATE_930:0 "옌타이"
  STATE_931:0 "상하이"
  STATE_932:0 "쑤저우"
- STATE_933:0 "자싱"
+ STATE_933:0 "창저우"
  STATE_934:0 "난퉁"
- STATE_935:0 "타이저우"
+ STATE_935:0 "양저우"
  STATE_936:0 "닝보"
  STATE_937:0 "항저우"
  STATE_938:0 "푸저우"
  STATE_939:0 "샤먼"
  STATE_940:0 "잔장"
  STATE_941:0 "광저우"
- STATE_942:0 "쓰촨"
+ STATE_942:0 "청두"
  STATE_943:0 "우한"
  STATE_944:0 "웨이팡"
  STATE_945:0 "둥잉"
@@ -62,30 +68,43 @@
  STATE_951:0 "이창"
  STATE_952:0 "뤄양"
  STATE_598:0 "쑤첸"
- STATE_622:0 "위린"
+ STATE_622:0 "옌안"
  STATE_953:0 "쳰난"
- STATE_954:0 "싱안맹"
- STATE_955:0 "진저우"
+ STATE_954:0 "금산"
+ STATE_955:0 "금주"
  STATE_956:0 "간저우"
  STATE_957:0 "이춘"
  STATE_615:0 "타이위안"
  STATE_597:0 "지난"
  STATE_607:0 "카이펑"
+ STATE_750:0 "언스"
  STATE_620:0 "쑤이저우"
  STATE_958:0 "장예"
- STATE_959:0 "규슈"
- STATE_528:0 "나가사키"
- STATE_555:0 "치시마 열도"
+ STATE_959:0 "구주"
  STATE_960:0 "고치"
  STATE_961:0 "나가토"
  STATE_962:0 "요코하마"
  STATE_969:0 "허비"
- STATE_748:0 "동부 충칭"
- STATE_970:0 "즈리"
+ STATE_748:0 "루저우"
+ STATE_754:0 "거얼무"
+ STATE_604:0 "위수"
+ STATE_970:0 "옌칭"
  STATE_971:0 "친저우"
- STATE_972:0 "산시"
- STATE_973:0 "북부 산동"
+ STATE_972:0 "양취안"
+ STATE_973:0 "랴오청"
  STATE_974:0 "스자좡"
+ STATE_325:0 "쿤밍"
+ STATE_602:0 "창더"
+ STATE_600:0 "난창"
+ STATE_595:0 "난핑"
+ STATE_596:0 "사오싱"
+ STATE_606:0 "허페이"
+ STATE_283:0 "톈수이"
+ STATE_616:0 "우하이"
+ STATE_601:0 "참도"
+ STATE_603:0 "구이양"
+ STATE_599:0 "류저우"
+ STATE_593:0 "선전"
  
  STATE_963:0 "모리오카"
  STATE_964:0 "카가"
@@ -98,27 +117,238 @@
  STATE_715:0 "랴오닝"
  STATE_610:0 "러허"
  STATE_761:0 "후룬베이얼"
- STATE_612:0 "차하르"
- STATE_611:0 "남차하르"
+ STATE_612:0 "시린하오터"
+ STATE_611:0 "장베이"
+ STATE_621:0 "바오터우"
+ STATE_756:0 "어지나"
  
- STATE_529:0 "히로시마"
+ STATE_529:0 "주고쿠"
+ STATE_645:0 "황도"
+ STATE_648:0 "남조도"
  STATE_68:0 "퀴스트린"
  
+ STATE_555:0 "천도 열도"
  STATE_330:0 "후레"
  
  STATE_154:0 "허이두비허르"
+ STATE_800:0 "반 지역"
+ STATE_20:0 "론알프"
+ 
+ STATE_638:0 "괌 섬"
+ 
+ STATE_975:0 "드루스키닝카이"
+ STATE_976:0 "흐로드나"
+ STATE_977:0 "남부 부코비나"
+ STATE_978:0 "비엘스코비아와"
+ STATE_979:0 "북슐레스비히"
+ STATE_980:0 "오이펜"
+ STATE_981:0 "부드바"
+ STATE_982:0 "동부 라인란트"
+ STATE_983:0 "프레크무레"
+ STATE_984:0 "부르겐란트"
+ STATE_985:0 "낭시-스당"
+ STATE_986:0 "케른텐-슈타이어마르크"
+ STATE_987:0 "북부 도브루자"
+ STATE_87:0 "코닌"
+
+ STATE_988:0 "마이즈루"
+ STATE_989:0 "구레"
+ STATE_990:0 "간토"
+ STATE_991:0 "미에"
+ STATE_282:0 "에도"
+ 
+ STATE_992:0 "켕퉁"
+ STATE_993:0 "사이냐불리"
+ STATE_994:0 "참파삭"
+ STATE_995:0 "씨엠립"
+ STATE_996:0 "칭양"
+ 
+ STATE_997:0 "뷔르템베르크"
+ STATE_998:0 "튀빙겐"
+ STATE_999:0 "서마케도니아"
+ STATE_1000:0 "동몬테네그로"
+ STATE_1001:0 "샤를루아"
+ STATE_1002:0 "치리크베니차"
+ STATE_1003:0 "리토랄레"
+ STATE_1004:0 "원덩"
+ STATE_1005:0 "남더르너드"
+ STATE_1006:0 "동부 고비"
+ STATE_1007:0 "다저우"
+ 
+ STATE_736:0 "트리에스테"
+ STATE_50:0 "바덴"
 
  STRATEGICREGION_250:0 "서강"
- STRATEGICREGION_79:0 "동해"
- STRATEGICREGION_77:0 "황해"
+ STRATEGICREGION_79:0 "한국해"
+ LOC_TLE_SEA_OF_KOREA_PROBLEM_1:0 "한국해"
+ LOC_TLE_SEA_OF_KOREA_PROBLEM_2:0 "동해"
+ STRATEGICREGION_77:0 "서해"
  
  STRATEGICREGION_143:0 "화북"
  STRATEGICREGION_245:0 "산서"
  STRATEGICREGION_244:0 "내몽골"
- STRATEGICREGION_247:0 "강동"
+ STRATEGICREGION_247:0 "화동"
  STRATEGICREGION_248:0 "양광"
  STRATEGICREGION_249:0 "운남"
  STRATEGICREGION_200:1 "청해"
  STRATEGICREGION_252:0 "천산"
- STRATEGICREGION_164:0 "화동"
+ STRATEGICREGION_164:0 "강남"
  STRATEGICREGION_165:0 "화남"
+ STRATEGICREGION_144:0 "화서"
+ 
+ 
+ #중점
+ #독일
+ Elsass-Lothringen:0 "엘자스-로트링겐" #알자스-로젠
+ Strassburg:0 "슈트라스부르크" #스트라스부르
+ Mulhausen:0 "뮐하우젠" #뮐루즈
+
+ #결정/디시전
+
+ #독일
+ Germania:0 "게르마니아"
+
+ #리투아니아
+ Vilnius:0 "빌뉴스" #빌노
+
+ #이벤트
+ #그리스/BFTB_Greece
+ #아르메니아어 번역 확실x
+ Trapizon:0 "트라피존" #트라브존
+ Gyumushkhana:0 "갸무샤네" #귀무샤네
+ Ghars:0 "칼스" #카르스
+
+ #루마니아/DOD_Romania
+ #부인 이름
+ Magdagrad:0 "마그다그라드" #스탈린그라드
+ Zizigrad:0 "지지그라드" #레닌그라드
+
+ #독일/Germany
+ Hindenburg:0 "힌덴부르크" #스탈린그라드
+ Ludendorff:0 "루덴도르프" #레닌그라드
+
+ #독일/WTT_Germany
+ Posen:0 "포젠"  #포즈난
+ Kattowitz:0 "카토비츠" #카토비체
+ Tsingtao:0 "칭다오"  #칭다오
+
+ #멕시코/Mexico
+ Belice:0 "벨리스" #벨리즈
+
+ #터키/BFTB_NewsEvents
+ Konstantiniyye:0 "콘스탄티니예" #이스탄불
+
+ #아일랜드/07_nsb_on_actions
+ Derry:0 "데리"
+ 
+ Gdańsk:0 "그단스크"
+ 
+ West-Preussen:0 "서프로이센"
+ Bromberg:0 "브롬베르크"
+ Thorn:0 "토른"
+ Gdingen:0 "그딩겐"
+ 
+ 
+ #그리스-터키
+ Constantinople:0 "콘스탄티노플"
+ Thessalonica:0 "테살로니카"
+ Strymon:0 "스트리몬"
+ Thracia:0 "트라키아" #부르사
+ Prusa:0 "푸르사" #부르사
+ Samos:0 "사모스" #이즈미르
+ Smyrna:0 "스미르나" #이즈미르
+ Cibyrrhaeot:0 "키비레오테스" #안탈리아
+ Attaleia:0 "앗달리아" #안탈리아 Ἀττάλεια
+ Thrakesion:0 "트로키시온" #아피온
+ Nicopolis:0 "니코폴리스" #아피온
+ Attouda:0 "아뚜다" #데니즐리 #확실 X
+ Optimaton:0 "옵티마티" #이즈미트
+ Nikomedeia:0 "니코메디아" #이즈미트
+ Pontoheraclea:0 "포토이라키아" #아다파자리 #확실x
+ Bukellarion:0 "부켈라리온" #앙카라
+ Ancyra:0 "안키라" #앙카라
+ Dorylaion:0 "도릴레온" #에스키셰히르
+ Anatolikon:0 "아나톨리콘" #코니아
+ Ikonion:0 "이코니온" #승점 없음 #확실x 나무위키 코니온/ Ikónion=Kónio(n)
+ Seleucia:0 "셀레우키아" #메르신
+ Hadrianopolis:0 "하드리아노폴리스" #메르신
+ Paphlagonia:0 "파플라고니아" #카스타모누
+ Sinope:0 "시노페" #시노프
+ Kastamone:0 "카스타몬" #카스타모누 #확실x
+ Cappadocia:0 "카페도키아" #카이세리
+ Caesarea:0 "카이사레아" #카이세리
+ Cilicia:0 "킬리키아" #아다나
+ Tarsus:0 "타르수스" #아다나
+ Germanicia:0 "게르마니키아" #승점 없음 #확식x
+ Ravanda:0 "라벤더" #가지안테프 #확실x
+ Armeniakon:0 "아르메니아콘" #삼순
+ Amisos:0 "아미소스" #삼순
+ Koloneia:0 "콜로네이아" #시바스
+ Sebasteia:0 "세베스티아" #시바스
+ Carsiano:0 "카르시아노" #아마시아 #확실x
+ Amaseia:0 "아마세이아" #아마시아
+ Taouion:0 "타우이온" #요즈가트 #확실x
+ Melitene:0 "멜리티니" #말라티아
+ Justinopolis:0 "저스티노폴리스" #샨리우르파 #확실x
+ Amida:0 "아미다" #디야르바키르 #확실x
+ Chaldia:0 "칼디아" #트라브존
+ Trebizond:0 "트라페준타" #트라브존
+ Manzikert:0 "만지케르트" #툰젤리
+ Theodosiopolis:0 "테오도시오폴리스" #에르주룸
+ Hubushkia:0 "후우쉬키아" #하카리 #확실x
+ Kondylis:0 "콘딜리스" #하카리 #확실x
+ Vaspurakan:0 "바스푸라칸" #반
+ Eua:0 "에바" #반 #확실x
+ Antioch:0 "안티오크" #하타이
+ Antiochia:0 "안티오키아" #안타키아
+
+ #그리스-알바니아
+ Illyria:0 "일리리아" #알바니아
+ Kastrioti:0 "카스트이로티" #티라나
+ Aulon:0 "아울론" #블로러
+ Dyrrhachion:0 "뒤라키움" #몬테네그로
+ Dyrrhachium:0 "뒤라키움" #포드고리차 #Dyrrhachium(그리스어)=Dyrrhachion(고대그리스어)
+ Argyrokastro:0 "아르지로카스트로" #지로카스터르 #확실x
+
+ #그리스-루마니아
+ Pannonia:0 "판노니아" #파노니아
+ Wallachia:0 "왈라키아" #소피아
+ Pelendava:0 "펠렌다바" #크라이오바 #확실x
+ Paristrion:0 "파리스트리온" #문테니아 #확실x
+ Kosmidis:0 "코스미디스" #부쿠레슈티
+ Tarnovo:0 "터르노보" #문테니아
+ Anchialus:0 "앙키알로스" #도브루자
+ Mesembria:0 "메셈브리아" #도브리치
+ Silistra:0 "실리스트라" #남베사라비아
+ Velissarios:0 "벨리사리오스" #체타테아알버 #확실x
+
+ Gdańsk:0 "그단스크"
+ #그리스-불가리아
+ Philippopolis:0 "필리포폴리스"
+ Serdica:0 "세르디카" #소피아
+ Pyrgos:0 "피르고스" #부르가스
+ Poros:0 "포루스" #부르가스
+ Odessos:0 "오데소스" #바르나
+ Boulgarias:0 "불가리아스" #마케도니아 #확실x
+ Scupi:0 "스쿠피" #스코페
+ Macedonia:0 "마케도니아" #중앙 마케도니아
+
+ #그리스-유고슬라비아
+ Spalatum:0 "스팔라툼" #스플리트
+ Venizelos:0 "베니젤로스" #자그래브
+ Bosona:0 "보소나" #보스니아
+ Sirmium:0 "시르미움" #세르비아
+ Belograd:0 "벨로그라드" #베오그라드
+ Pizren:0 "피즈렌" #모라바 #확실x
+ Naissus:0 "나이수스" #니시
+
+ #그리스-터키
+ Prousa:0 "푸르사" #부르사
+ Palaeokastron:0 "팔레오카스트론" #부르사
+ Thrace:0 "트라키" #에디르네 Thrace=트라키=Thrake=트라케
+ Adrianople:0 "아드리아노플" #에디르네
+ Eastern Macedonia:0 "동 마케도니아" #트라키아
+ Smyrni:0 "스미르니" #이즈미르
+ Magnesia:0 "마그니시아" #마니사 #확실 x
+ Kieros:0 "키에로스" #아다파자리 #확실x
+ Attalis:0 "아탈리스" #안탈리아 #확실x

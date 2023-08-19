@@ -2,7 +2,6 @@
 state={
 	id=756
 	name="STATE_756"
-	local_supplies=0.0 
 
 	history={
 		owner = XSM
@@ -13,30 +12,17 @@ state={
 			infrastructure = 1
 
 		}
-		1938.10.25 = {
-			if = {
-				limit = {
-					NOT = {
-						has_dlc = Waking the Tiger
-
-					}
-
-				}
-				CHI = {
-					transfer_state = PREV
-
-				}
-
-			}
-
+		victory_points = {
+			10770 3 
 		}
 
 	}
 
 	provinces={
-		4783 7727 7803 8102 10770 10899 
+		4783 7803 10770 10899 
 	}
 	manpower=482412
 	buildings_max_level_factor=1.000
 	state_category=town
+	local_supplies=0.000
 }

@@ -1,0 +1,27 @@
+
+state={
+	id=954
+	name="STATE_954"
+	local_supplies=0.0 
+	provinces={
+		1502 1847 4876 7873 7894 12485 
+	}
+	manpower=1124783
+	history={
+		owner = QIN
+		add_core_of = CHI
+		add_core_of = QIN
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 2
+
+		}
+		1936.8.1 = {
+			owner = JAP
+
+		}
+
+	}
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

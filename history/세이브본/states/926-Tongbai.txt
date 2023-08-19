@@ -1,0 +1,31 @@
+
+state={
+	id=926
+	name="STATE_926"
+	resources={
+		aluminium=7.000
+	}
+
+	history={
+		owner = KOR
+		add_core_of = CHI
+		add_core_of = KOR
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 2
+
+		}
+		victory_points = {
+			4572 1 
+		}
+
+	}
+
+	provinces={
+		800 861 945 946 1567 3888 3913 3932 3949 6868 6905 6947 7591 7663 9759 9803 9841 9848 9866 9913 11781 11850 11864 
+	}
+	manpower=1101909
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

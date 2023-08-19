@@ -1,0 +1,25 @@
+
+state={
+	id=925
+	name="STATE_925"
+
+	history={
+		owner = KOR
+		add_core_of = CHI
+		add_core_of = KOR
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+
+	provinces={
+		927 944 973 3929 3944 3947 6806 6964 9883 9897 11823 11862 
+	}
+	manpower=1324174
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

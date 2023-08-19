@@ -19,6 +19,45 @@ state={
 		buildings = {
 			infrastructure = 1
 		}
+		victory_points = {
+			3427 1 
+		}
+		victory_points = {
+			12776 1 
+		}
+		victory_points = {
+			10817 1 
+		}
+		victory_points = {
+			9966 1 
+		}
+		victory_points = {
+			7911 3 
+		}
+		victory_points = {
+			10257 3 
+		}
+		victory_points = {
+			4066 3 
+		}
+		victory_points = {
+			7074 3 
+		}
+		victory_points = {
+			12436 1 
+		}
+		victory_points = {
+			7095 3 
+		}
+		victory_points = {
+			1018 3 
+		}
+		victory_points = {
+			7128 3 
+		}
+		victory_points = {
+			9938 1 
+		}
 
 		1938.10.25 = {
 			controller = JAP
@@ -27,7 +66,7 @@ state={
 		1939.1.1 = {
 			
 			owner = PRC
-			controller = JAP
+			controller = KOR
 
 		}
 	}

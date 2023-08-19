@@ -1,38 +1,38 @@
 
 state={
 	id=532
-	name="STATE_532" # Tokai
-	manpower = 6174000
-	state_category = large_town
+	name="STATE_532"
 
-	local_supplies=0.0 
 	history={
 		owner = JAP
 		add_core_of = JAP
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 2
-                        arms_factory = 2
-                        dockyard  = 1
+			infrastructure = 2
+			industrial_complex = 1
+
 		}
-		
 		victory_points = {
 			7087 3 
 		}
-		
 		victory_points = {
-			10125 20
+			10125 20 
 		}
 		1939.1.1 = {
 			buildings = {
 				arms_factory = 2
 				industrial_complex = 3
+
 			}
+
 		}
 
 	}
 
 	provinces={
-		4069 4172 7087 7157 7187 10100 10125 12072 12097 
+		7087 7157 10125 12097 
 	}
+	manpower=6174000
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
 }

@@ -6,6 +6,8 @@ state={
 	history={
 		owner = CHI
 		add_core_of = CHI
+		add_core_of = CHI
+		add_core_of = CHI
 		add_core_of = PRC
 		buildings = {
 			infrastructure = 2
@@ -24,6 +26,24 @@ state={
 		}
 		victory_points = {
 			10076 3 
+		}
+		victory_points = {
+			7120 3 
+		}
+		victory_points = {
+			4042 3 
+		}
+		victory_points = {
+			1089 1 
+		}
+		victory_points = {
+			4001 3 
+		}
+		victory_points = {
+			1066 3 
+		}
+		victory_points = {
+			10501 1 
 		}
 		1938.10.25 = {
 			controller = JAP

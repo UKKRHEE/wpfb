@@ -5,7 +5,6 @@ state={
 	resources={
 		tungsten=2.000
 	}
-	local_supplies=0.0 
 
 	history={
 		owner = TIB
@@ -19,9 +18,10 @@ state={
 	}
 
 	provinces={
-		2010 2093 4994 5011 5080 7926 8068 10755 10918 
+		2010 2093 4994 5011 5080 7926 8037 8068 10755 10918 
 	}
 	manpower=1722000
 	buildings_max_level_factor=1.000
 	state_category=pastoral
+	local_supplies=0.000
 }

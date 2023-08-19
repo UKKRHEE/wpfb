@@ -3,14 +3,26 @@ state={
 	id=597
 	name="STATE_597"
 
-	local_supplies=0.0 
 	history={
-		owner = SDC
+		owner = SHX
 		add_core_of = SDC
+		add_core_of = SHX
 		add_core_of = CHI
 		add_core_of = PRC
 		victory_points = {
-			1069 3 
+			1069 5 
+		}
+		victory_points = {
+			4037 3 
+		}
+		victory_points = {
+			1124 3 
+		}
+		victory_points = {
+			10043 3 
+		}
+		victory_points = {
+			11980 3 
 		}
 		buildings = {
 			infrastructure = 2
@@ -24,6 +36,9 @@ state={
 			}
 
 		}
+		1929.6.21 = {
+			set_demilitarized_zone = yes
+		}
 		1938.10.25 = {
 			controller = JAP
 
@@ -32,9 +47,10 @@ state={
 	}
 
 	provinces={
-		1069 4037 10043 10072 10102 12015 12045 12069 
+		1069 4010 4037 7025 7085 7129 9956 10043 10072 10102 12015 12045 12069 
 	}
 	manpower=18504521
 	buildings_max_level_factor=1.000
 	state_category=town
+	local_supplies=0.000
 }

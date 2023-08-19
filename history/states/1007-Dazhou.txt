@@ -1,0 +1,36 @@
+state={
+	id=1007
+	name="STATE_1007"
+	provinces={
+		1893 2030 2091 4041 5048 7256 7948 8026 10144 11865 12274 
+	}
+	history={
+		owner = SCC
+		add_core_of = SCC
+		add_core_of = CHI
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			5048 3 
+		}
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 2
+				infrastructure = 6
+				arms_factory = 2
+
+			}
+
+		}
+
+	}
+	manpower=26123900
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=town
+}

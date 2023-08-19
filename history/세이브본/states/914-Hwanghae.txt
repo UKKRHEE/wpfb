@@ -1,0 +1,38 @@
+
+state={
+	id=914
+	name="STATE_914"
+
+	history={
+		owner = KOR
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+			7155 = {
+				naval_base = 3
+
+			}
+			13268 = {
+				naval_base = 3
+
+			}
+
+		}
+		victory_points = {
+			10065 5 
+		}
+		victory_points = {
+			11915 3 
+		}
+		add_core_of = KOR
+
+	}
+
+	provinces={
+		1003 4107 7070 7155 10065 11915 13267 13268 
+	}
+	manpower=6334105
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

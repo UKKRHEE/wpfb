@@ -6,7 +6,6 @@ state={
 		steel=14.000
 	}
 
-	local_supplies=0.0 
 	history={
 		owner = SCC
 		add_core_of = SCC
@@ -14,23 +13,23 @@ state={
 		add_core_of = PRC
 		buildings = {
 			infrastructure = 2
-			arms_factory = 3
-			industrial_complex = 2
+			arms_factory = 2
+			industrial_complex = 1
 			air_base = 2
 
 		}
 		victory_points = {
-			4925 5 
+			4925 10 
 		}
 		victory_points = {
-			6999 20 
+			12141 3 
 		}
 		1939.1.1 = {
 			buildings = {
-				industrial_complex = 6
+				industrial_complex = 5
 				infrastructure = 6
 				air_base = 3
-				arms_factory = 3
+				arms_factory = 2
 
 			}
 
@@ -39,9 +38,10 @@ state={
 	}
 
 	provinces={
-		1367 1893 2030 2091 4925 5048 7256 8026 10132 10144 11865 12274 12767 
+		1367 4375 4925 10132 12141 12767 
 	}
-	manpower=52963300
+	manpower=25063300
 	buildings_max_level_factor=1.000
 	state_category=city
+	local_supplies=0.000
 }

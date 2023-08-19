@@ -3,7 +3,6 @@ state={
 	id=937
 	name="STATE_937"
 
-	local_supplies=0.0 
 	history={
 		buildings = {
 			infrastructure = 2
@@ -15,6 +14,8 @@ state={
 
 		}
 		owner = CHI
+		add_core_of = CHI
+		add_core_of = CHI
 		add_core_of = CHI
 		add_core_of = PRC
 		buildings = {
@@ -29,4 +30,5 @@ state={
 	manpower=1301230
 	buildings_max_level_factor=1.000
 	state_category=city
+	local_supplies=0.000
 }

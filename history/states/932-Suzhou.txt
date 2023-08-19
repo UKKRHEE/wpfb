@@ -9,18 +9,19 @@ state={
 	buildings_max_level_factor=1.000
 	state_category=city
 	history={
+		owner = CHI
+		add_core_of = CHI
+		add_core_of = CHI
+		add_core_of = CHI
+		add_core_of = PRC
+		buildings = {
+		
+		10076 = {
+			naval_base = 3
 
-			owner = CHI
-			add_core_of = CHI
-			add_core_of = PRC
-			buildings = {
-			
-			10076 = {
-				naval_base = 3
-
-			}
-			infrastructure = 1
-				industrial_complex = 1
-			}
 		}
+		infrastructure = 1
+			industrial_complex = 1
+		}
+	}
 }

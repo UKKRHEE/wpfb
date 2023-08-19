@@ -1,0 +1,19 @@
+state={
+	id=981
+	name="STATE_981"
+	provinces={
+		13273 
+	}
+	history={
+		owner = YUG
+		add_core_of = YUG
+		add_core_of = MNT
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=167118
+	state_category=large_town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

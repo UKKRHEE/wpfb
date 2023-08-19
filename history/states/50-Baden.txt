@@ -1,0 +1,40 @@
+
+state={
+	id=50
+	name="STATE_50"
+	resources={
+		aluminium=6.000
+	}
+
+	history={
+		owner = GER
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			11640 3 
+		}
+		add_core_of = GER
+		set_demilitarized_zone = yes
+		1939.1.1 = {
+			buildings = {
+				arms_factory = 2
+				industrial_complex = 2
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		3530 3679 6542 6568 6712 11640 
+	}
+	manpower=1086854
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

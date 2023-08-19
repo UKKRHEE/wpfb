@@ -1,0 +1,27 @@
+
+state={
+	id=935
+	name="STATE_935"
+
+	local_supplies=0.0 
+	history={
+		buildings = {
+			infrastructure = 2
+
+		}
+		owner = CHI
+		add_core_of = CHI
+		add_core_of = PRC
+		buildings = {
+
+		}
+
+	}
+
+	provinces={
+		1001 1089 4001 4005 4148 7181 10095 
+	}
+	manpower=3240000
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

@@ -2,7 +2,7 @@ state={
 	id=930
 	name="STATE_930"
 	provinces={
-		1104 1200 4186 7105 
+		1104 1200 4186 7105 13279
 	}
 	local_supplies=0.0 
 	manpower=7000000
@@ -16,10 +16,17 @@ state={
 
 		}
 		victory_points = {
-			1200 1
+			13279 5
 		}
-			owner = SDC
+		victory_points = {
+			1200 3
+		}
+		1929.6.21 = {
+			set_demilitarized_zone = yes
+		}
+			owner = SHX
 			add_core_of = SDC
+			add_core_of = SHX
 			add_core_of = CHI
 			add_core_of = PRC
 			buildings = {

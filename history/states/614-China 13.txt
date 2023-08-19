@@ -14,10 +14,13 @@ state={
 
 		}
 		victory_points = {
-			4032 5 
+			10022 5 
 		}
 		victory_points = {
 			4190 3 
+		}
+		victory_points = {
+			1134 1 
 		}
 		1938.10.25 = {
 			controller = JAP

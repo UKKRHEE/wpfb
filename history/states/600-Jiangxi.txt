@@ -3,9 +3,9 @@ state={
 	id=600
 	name="STATE_600"
 
-	local_supplies=0.0 
 	history={
 		owner = PRC
+		add_core_of = CHI
 		add_core_of = CHI
 		add_core_of = PRC
 		buildings = {
@@ -34,9 +34,10 @@ state={
 	}
 
 	provinces={
-		1066 1110 3992 4038 4083 4185 7054 7172 9984 11961 13141 
+		1066 1110 1153 3992 4038 4083 4185 7007 7054 7172 9984 11961 13141 
 	}
 	manpower=5820400
 	buildings_max_level_factor=1.000
 	state_category=town
+	local_supplies=0.000
 }

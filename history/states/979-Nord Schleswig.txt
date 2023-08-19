@@ -1,0 +1,18 @@
+state={
+	id=979
+	name="STATE_979"
+	provinces={
+		332 11251 
+	}
+	history={
+		owner = DEN
+		add_core_of = DEN
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=240118
+	state_category=large_town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

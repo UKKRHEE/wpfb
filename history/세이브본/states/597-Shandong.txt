@@ -1,0 +1,40 @@
+
+state={
+	id=597
+	name="STATE_597"
+
+	local_supplies=0.0 
+	history={
+		owner = SDC
+		add_core_of = SDC
+		add_core_of = CHI
+		add_core_of = PRC
+		victory_points = {
+			1069 3 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 3
+			4205 = {
+				naval_base = 2
+				coastal_bunker = 1
+				bunker = 1
+
+			}
+
+		}
+		1938.10.25 = {
+			controller = JAP
+
+		}
+
+	}
+
+	provinces={
+		1069 4037 10043 10072 10102 12015 12045 12069 
+	}
+	manpower=18504521
+	buildings_max_level_factor=1.000
+	state_category=town
+}

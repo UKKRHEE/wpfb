@@ -5,12 +5,11 @@ state={
 	resources={
 		steel=12.000
 	}
+	local_supplies=0.0 
 
 	history={
 		owner = KOR
-		add_core_of = CHI
 		add_core_of = KOR
-		add_core_of = PRC
 		buildings = {
 			infrastructure = 2
 			arms_factory = 1
@@ -25,16 +24,20 @@ state={
 			836 3 
 		}
 		victory_points = {
-			6981 10 
+			6981 10 #단동 
 		}
+		#set_demilitarized_zone = yes
+		#1936.3.7 = {
+		#	set_demilitarized_zone = no
+		#
+		#}
 
 	}
 
 	provinces={
-		836 887 3839 3849 3895 3970 6804 6860 6910 6981 9854 
+		836 3839 3895 3970 6804 6860 6910 6981 9854 
 	}
 	manpower=2164620
 	buildings_max_level_factor=1.000
 	state_category=city
-	local_supplies=0.000
 }

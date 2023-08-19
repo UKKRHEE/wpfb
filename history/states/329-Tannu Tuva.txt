@@ -11,7 +11,7 @@ state={
 	state_category = rural
 
 	history={
-		owner = TAN
+		owner = MON
 		buildings = {
 			infrastructure = 2
 			arms_factory = 1
@@ -21,6 +21,8 @@ state={
 			10627 3
 		}
 		add_core_of = MON
+		add_core_of = MON
+		add_core_of = MEN
 		add_core_of = TAN
 		add_core_of = SOV
 	}

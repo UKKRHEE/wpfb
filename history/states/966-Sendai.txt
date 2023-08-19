@@ -6,12 +6,12 @@ state={
 	}
 	history={
 		owner = JAP
-		add_core_of = JAP
+		add_core_of = SDJ
 		add_core_of = JAP
 		buildings = {
 			arms_factory = 1
 			industrial_complex = 1
-			infrastructure = 2
+			infrastructure = 1
 			9859 = {
 				naval_base = 3
 

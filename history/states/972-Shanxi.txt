@@ -13,14 +13,17 @@ state={
 			infrastructure = 2
 			industrial_complex = 1
 			10480 = {
-				bunker = 8
+				bunker = 4
 
 			}
 
 		}
+		victory_points = {
+			12078 3 
+		}
 		1938.10.25 = {
 			owner = PRC
-			controller = JAP
+			controller = KOR
 			PRC = {
 				set_province_controller = 1034
 				set_province_controller = 1531

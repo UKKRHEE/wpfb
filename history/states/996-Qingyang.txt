@@ -1,0 +1,30 @@
+state={
+	id=996
+	name="STATE_996"
+	provinces={
+		517 1647 1933 4939 
+	}
+
+	history={
+		owner = SHX
+		add_core_of = SHX
+		add_core_of = PRC
+		add_core_of = CHI
+		add_core_of = SHX
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+		victory_points = {
+			517 1 
+		}
+		victory_points = {
+			1628 3 
+		}
+
+	}
+	manpower=521238
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=rural
+}

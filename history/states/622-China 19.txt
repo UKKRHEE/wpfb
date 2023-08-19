@@ -6,10 +6,10 @@ state={
 		steel=3.000
 		tungsten=3.000
 	}
-	local_supplies=0.0 
 
 	history={
 		owner = SHX
+		add_core_of = SHX
 		add_core_of = PRC
 		add_core_of = CHI
 		add_core_of = SHX
@@ -38,9 +38,10 @@ state={
 	}
 
 	provinces={
-		517 1458 1647 1933 4939 5007 7208 7314 7659 8049 10733 10880 12156 12356 
+		1458 2006 3745 5007 7208 7314 7659 8049 10733 10880 12156 12356 
 	}
-	manpower=7006200
+	manpower=6506200
 	buildings_max_level_factor=1.000
 	state_category=city
+	local_supplies=0.000
 }

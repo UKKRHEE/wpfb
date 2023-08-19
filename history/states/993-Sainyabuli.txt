@@ -1,0 +1,20 @@
+state={
+	id=993
+	name="STATE_993"
+	provinces={
+		10330 10356 10456 
+	}
+	history={
+		owner = FRA
+		add_core_of = LAO
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	manpower=124000
+	buildings_max_level_factor=1.000
+	state_category=town
+}

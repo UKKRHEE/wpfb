@@ -7,6 +7,7 @@ state={
 		owner = ROC
 		add_core_of = ROC
 		add_core_of = CHI
+		add_core_of = CHI
 		add_core_of = PRC
 		buildings = {
 			infrastructure = 1
@@ -31,20 +32,24 @@ state={
 		victory_points = {
 			10010 1 
 		}
-		victory_points = {
+		victory_points = {	
 			4196 3 
 		}
 		victory_points = {
 			7071 1 
 		}
-		1938.10.25 = {
-			JAP = {
-				set_province_controller = 4196
-				set_province_controller = 7071
+		# 1929.6.21 = {
+		# 	set_demilitarized_zone = yes
+		# }
+		# what is this shit
+		# 1938.10.25 = {
+		# 	JAP = {
+		# 		set_province_controller = 4196
+		# 		set_province_controller = 7071
 
-			}
+		# 	}
 
-		}
+		# }
 
 	}
 

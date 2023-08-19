@@ -1,0 +1,16 @@
+state={
+	id=994
+	name="STATE_994"
+	provinces={
+		1592 
+	}
+	history={
+		add_core_of = LAO
+		owner = FRA
+
+	}
+	manpower=43512
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=town
+}

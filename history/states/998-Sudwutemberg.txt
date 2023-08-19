@@ -1,0 +1,33 @@
+state={
+	id=998
+	name="STATE_998"
+	provinces={
+		519 694 3690 3692 6934 9655 11486 13126 
+	}
+	history={
+		owner = GER
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			air_base = 2
+
+		}
+		add_core_of = GER
+		1939.1.1 = {
+			buildings = {
+				arms_factory = 3
+				industrial_complex = 3
+
+			}
+
+		}
+		victory_points = {
+			519 5
+		}
+
+	}
+	manpower=2121580
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

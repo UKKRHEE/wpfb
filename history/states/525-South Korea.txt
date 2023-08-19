@@ -33,36 +33,6 @@ state={
 		victory_points = {
 			7221 10 
 		}
-		victory_points = {
-			4004 3 
-		}
-		victory_points = {
-			3803 3 
-		}
-		victory_points = {
-			852 3 
-		}
-		victory_points = {
-			11775 1 
-		}
-		victory_points = {
-			1100 5 
-		}
-		victory_points = {
-			7175 3 
-		}
-		victory_points = {
-			12089 5 
-		}
-		victory_points = {
-			1054 3 
-		}
-		victory_points = {
-			1148 3 
-		}
-		victory_points = {
-			7021 5 
-		}
 		add_core_of = KOR
 
 	}

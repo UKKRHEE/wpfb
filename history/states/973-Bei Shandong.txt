@@ -1,9 +1,8 @@
+
 state={
 	id=973
 	name="STATE_973"
-	provinces={
-		1084 7160 7189 9987 11933 11962 12093 
-	}
+
 	history={
 		owner = SHX
 		add_core_of = SHX
@@ -11,18 +10,26 @@ state={
 		add_core_of = PRC
 		buildings = {
 			infrastructure = 2
-		}
-		victory_points = {
-			4032 5 
+
 		}
 		victory_points = {
 			4190 3 
+		}
+		victory_points = {
+			9987 3 
 		}
 		1938.10.25 = {
 			controller = JAP
 
 		}
+		1929.6.21 = {
+			set_demilitarized_zone = yes
+		}
 
+	}
+
+	provinces={
+		1084 7160 7189 9987 11933 11962 12093 
 	}
 	manpower=2434900
 	buildings_max_level_factor=1.000

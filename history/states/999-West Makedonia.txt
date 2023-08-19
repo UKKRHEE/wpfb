@@ -1,0 +1,24 @@
+state={
+	id=999
+	name="STATE_999"
+	provinces={
+		833 867 
+	}
+	history={
+		owner = YUG
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = YUG
+		add_core_of = MAC
+		add_claim_by = BUL
+		add_claim_by = ALB
+		victory_points = {
+			833 1 
+		}
+	}
+	manpower=329012
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

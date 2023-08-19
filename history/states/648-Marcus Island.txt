@@ -7,10 +7,10 @@ state=
 	local_supplies=0.0 
 	history=
 	{
-		owner = JAP
+		owner = KOR
 		add_core_of = GUM
-		add_core_of = JAP
-		add_claim_by = JAP
+		add_core_of = KOR
+		add_claim_by = KOR
 		buildings = {
 			infrastructure = 1
 			air_base = 1

@@ -6,7 +6,7 @@ state={
 		11985 
 	}
 	manpower=146893
-	state_category=city
+	state_category=rural
 	buildings_max_level_factor=1.000
 	history={
 		buildings = {
@@ -14,6 +14,9 @@ state={
 			11985 = {
 				naval_base = 8
 			}
+		}
+		victory_points = {
+			11985 3 
 		}
 		owner = JAP
 		add_core_of = JAP

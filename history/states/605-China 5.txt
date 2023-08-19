@@ -3,8 +3,10 @@ state={
 	id=605
 	name="STATE_605"
 
-	local_supplies=0.0 
 	history={
+		victory_points = {
+			6999 15 
+		}
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
@@ -22,9 +24,10 @@ state={
 	}
 
 	provinces={
-		1395 6999 7240 12705 
+		1395 6999 7240 12705 12819 
 	}
-	manpower=586000
+	manpower=14586000
 	buildings_max_level_factor=1.000
 	state_category=large_city
+	local_supplies=0.000
 }

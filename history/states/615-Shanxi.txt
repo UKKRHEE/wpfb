@@ -10,7 +10,7 @@ state={
 		add_core_of = CHI
 		add_core_of = PRC
 		victory_points = {
-			1519 3 
+			1519 10 
 		}
 		buildings = {
 			infrastructure = 2
@@ -23,7 +23,7 @@ state={
 		}
 		1938.10.25 = {
 			owner = PRC
-			controller = JAP
+			controller = KOR
 			PRC = {
 				set_province_controller = 1034
 				set_province_controller = 1531

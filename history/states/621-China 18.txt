@@ -4,9 +4,10 @@ state={
 
 	local_supplies=0.0 
 	history={
-		owner = QIN
+		owner = MON #원래 MEN
+		add_core_of = MEN
 		add_core_of = MON
-		add_core_of = QIN
+		add_core_of = MON
 		add_core_of = SHX
 		add_core_of = CHI
 		add_core_of = PRC
@@ -14,6 +15,9 @@ state={
 			infrastructure = 1
 			industrial_complex = 1
 
+		}
+		victory_points = {
+			4525 3 
 		}
 		1936.3.5 = {
 			owner = SHX
@@ -25,7 +29,7 @@ state={
 
 			}
 			owner = PRC
-			controller = JAP
+			controller = KOR
 
 		}
 
