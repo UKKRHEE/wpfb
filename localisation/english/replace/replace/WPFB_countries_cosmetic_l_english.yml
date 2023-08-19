@@ -72,10 +72,6 @@
  JAP_republic_neutrality_DEF:0 "일본 군사정부"
  JAP_republic_neutrality_ADJ:0 "일본"
  
- SHX_guominjun:0 "국민군"
- SHX_guominjun_DEF:0 "국민군"
- SHX_guominjun_ADJ:0 "국민군"
- 
  beijing_government_communism:0 "중화민국 인민정부"
  beijing_government_communism_DEF:0 "중화민국 인민정부"
  beijing_government_communism_ADJ:0 "중국"

@@ -427,8 +427,8 @@ characters = {
 	}
 	
 	### 이론가 ###
-	ROK_council_of_theorists_red={
-		name=KOR_council_of_theorists_red
+	ROK_council_of_theorists={
+		name=ROK_council_of_theorists
 		portraits = {
 			army = {
 				small = "gfx/interface/ideas/KOR/theorist/advisors_red_korea.png"
@@ -437,7 +437,7 @@ characters = {
 		advisor={
 			cost = 100
 			slot = theorist
-			idea_token = ROK_council_of_theorists_red
+			idea_token = ROK_council_of_theorists
 			ledger = military
 			visible = {
 				OR = {
@@ -459,8 +459,8 @@ characters = {
 			}
 		}
 	}
-	ROK_council_of_theorists={
-		name=KOR_council_of_theorists2
+	ROK_council_of_theorists2={
+		name=ROK_council_of_theorists2
 		portraits = {
 			army = {
 				small = "gfx/interface/ideas/KOR/theorist/advisors_korea2.png"
@@ -469,7 +469,7 @@ characters = {
 		advisor={
 			cost = 100
 			slot = theorist
-			idea_token = ROK_council_of_theorists
+			idea_token = ROK_council_of_theorists2
 			ledger = military
 			visible = {
 				OR = {

@@ -86,7 +86,7 @@ characters = {
 			}
 		}
 		country_leader={
-			desc = "KOR_lee_beom_seok_desc"
+			desc = "KOR_lee_beom_seok_leader_desc"
 			expire = "1965.1.1"
 			ideology = fascism_ideology
 			traits = {
@@ -98,7 +98,8 @@ characters = {
 			cost = 100
 			slot = army_chief
 			idea_token = KOR_lee_beom_seok
-	    	allowed = {
+	    	desc = KOR_lee_beom_seok_chief_desc
+			allowed = {
 	    		original_tag = KOR
 	    	}
 	    	traits = {

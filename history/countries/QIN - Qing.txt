@@ -130,7 +130,7 @@ recruit_character = QIN_liu_menggeng
 recruit_character = QIN_aisin_gioro_zaitao
 
 ### 해군참모총장 ###
-recruit_character = QIN_shen_honglie
+recruit_character = QIN_sa_zhenbing
 recruit_character = QIN_aisin_gioro_zaixun
 
 ### 공군참모총장 ###

@@ -65,8 +65,8 @@ recruit_character = SHX_xu_yongchang
 recruit_character = SHX_sun_yue
 
 ### 해군참모총장 ###
-recruit_character = SHX_sa_zhenbing
 recruit_character = SHX_wu_renli
+recruit_character = SHX_shen_honglie
 
 ### 공군참모총장 ###
 #염계
@@ -84,7 +84,7 @@ recruit_character = SHX_shang_zhen
 recruit_character = SHX_zhang_zizhong
 recruit_character = SHX_sun_lianzhong
 #무소속
-recruit_character = SHX_du_xigui
+recruit_character = SHX_lin_jianzhang
 
 ### 육군 장성 ###
 recruit_character = SHX_chen_changjie

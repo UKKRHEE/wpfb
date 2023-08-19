@@ -59,4 +59,10 @@ spriteTypes = {
 		name = "GFX_idea_QIN_constitutional_monarch_puyi"
 		texturefile = "gfx/interface/ideas/QIN/idea_QIN_constitutional_monarch_puyi.png"
 	}
+	
+	### 합스부르크 입헌군주 ###
+	spriteType = {
+		name = "GFX_idea_AUS_constitutional_monarch_otto"
+		texturefile = "gfx/interface/ideas/AUS/idea_AUS_constitutional_monarch_otto.png"
+	}
 }

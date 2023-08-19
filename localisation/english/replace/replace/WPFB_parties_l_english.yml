@@ -76,8 +76,6 @@
  SHX_fascism_party_long:0 "염계군벌"
  SHX_neutrality_party:0 "염계군벌"
  SHX_neutrality_party_long:0 "염계군벌"
- SHX_guominjun_party:0 "국민군"
- SHX_guominjun_party_long:0 "국민군"
  
  CHI_communism_party:0 "중국공산당"
  CHI_communism_party_long:0 "중국공산당"
@@ -87,6 +85,15 @@
  CHI_fascism_party_long:0 "남의사"
  CHI_neutrality_party:0 "중국국민당"
  CHI_neutrality_party_long:0 "중국국민당"
+ 
+ GMJ_communism_party:0 "중국공산당"
+ GMJ_communism_party_long:0 "중국공산당"
+ GMJ_democratic_party:0 "민정"
+ GMJ_democratic_party_long:0 "민정"
+ GMJ_fascism_party:0 "풍계군벌"
+ GMJ_fascism_party_long:0 "풍계군벌"
+ GMJ_neutrality_party:0 "풍계군벌"
+ GMJ_neutrality_party_long:0 "풍계군벌"
  
  SDC_communism_party:0 "중국공산당"
  SDC_communism_party_long:0 "중국공산당"
@@ -224,3 +231,11 @@
  CHI_kung_party_long:0 "만세사표손"
  CHI_yuan_party:0 "신북양군벌"
  CHI_yuan_party_long:0 "신북양군벌"
+ 
+ AUS_fascism_party:0 "조국전선"
+ AUS_fascism_party_long:0 "조국전선"
+ AUS_neutrality_party:0 "합스부르크 가문"
+ AUS_neutrality_party_long:0 "합스부르크 가문" 
+ 
+ HUN_fascism_party:0 "국민의지당"
+ HUN_fascism_party_long:0 "국민의지당"

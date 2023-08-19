@@ -706,40 +706,6 @@ characters={
 	
 	### 해군참모총장 ###
 	#무소속
-	SHX_sa_zhenbing = {
-		name=SHX_sa_zhenbing
-		portraits={
-			army={
-				large=GFX_portrait_SHX_sa_zhenbing
-				small=GFX_idea_SHX_sa_zhenbing
-			}
-		}
-		advisor={
-			cost = 100
-			slot = navy_chief
-			idea_token = SHX_sa_zhenbing
-		    allowed = {
-		    	original_tag = SHX
-	    	}
-		    traits = {
-				navy_chief_decisive_battle_2
-			}
-		}
-		navy_leader={
-			traits = {
-				gentlemanly
-				navy_career_officer
-				battleship_adherent
-				naval_lineage
-			}
-			skill = 3
-			attack_skill = 3
-			defense_skill = 2
-			maneuvering_skill = 2
-			coordination_skill = 3
-			legacy_id=-1
-		}
-	}
 	SHX_wu_renli = {
 		name=SHX_wu_renli
 		portraits={
@@ -769,6 +735,38 @@ characters={
 			defense_skill = 2
 			maneuvering_skill = 2
 			coordination_skill = 1
+			legacy_id=-1
+		}
+	}
+	SHX_shen_honglie = {
+		name=SHX_shen_honglie
+		portraits={
+			army={
+				large=GFX_portrait_SHX_shen_honglie
+				small=GFX_idea_SHX_shen_honglie
+			}
+		}
+		advisor={
+			cost = 100
+			slot = navy_chief
+			idea_token = SHX_shen_honglie
+		    allowed = {
+		    	original_tag = SHX
+	    	}
+		    traits = {
+				navy_chief_decisive_battle_2
+			}
+		}
+		navy_leader={
+			traits = {
+				old_guard_navy
+				navy_career_officer
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			maneuvering_skill = 2
+			coordination_skill = 3
 			legacy_id=-1
 		}
 	}
@@ -1125,35 +1123,35 @@ characters={
 		}
 	}
 	#무소속
-	SHX_du_xigui = {
-		name=SHX_du_xigui
+	SHX_lin_jianzhang = {
+		name=SHX_lin_jianzhang
 		portraits={
 			army={
-				large=GFX_portrait_SHX_du_xigui
-				small=GFX_idea_SHX_du_xigui
+				large=GFX_portrait_SHX_lin_jianzhang
+				small=GFX_idea_SHX_lin_jianzhang
 			}
 		}
 		advisor={
 			cost = 100
 			slot = high_command
-			idea_token = SHX_du_xigui
+			idea_token = SHX_lin_jianzhang
 			ledger = navy
 		    allowed = {
 		    	original_tag = SHX
 		    }
 		    traits = {
-				navy_capital_ship_2
+				navy_screen_2
 			}
 		}
 		navy_leader={
 			traits = {
-				old_guard_navy
+				navy_media_personality
 				navy_career_officer
 			}
-			skill = 1
+			skill = 2
 			attack_skill = 1
-			defense_skill = 1
-			maneuvering_skill = 1
+			defense_skill = 2
+			maneuvering_skill = 3
 			coordination_skill = 1
 			legacy_id=-1
 		}

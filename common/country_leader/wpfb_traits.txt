@@ -234,6 +234,22 @@ leader_traits = {
 		}
 	}
 	
+	### 러시아 ###
+	second_chance = { #두 번째 기회?
+		random = no
+		
+		stability_factor = 0.25
+		political_power_factor = 0.25
+		drift_defence_factor = 0.25
+		army_attack_factor = 0.05
+		land_reinforce_rate = 0.02
+		command_power_gain = 0.10
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
 	#############
 	### 정치고문 ###
 	#############

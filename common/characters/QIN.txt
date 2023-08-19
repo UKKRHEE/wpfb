@@ -433,18 +433,18 @@ characters={
 	}
 	
 	### 해군참모총장 ###
-	QIN_shen_honglie = {
-		name=QIN_shen_honglie
+	QIN_sa_zhenbing = {
+		name=QIN_sa_zhenbing
 		portraits={
 			army={
-				large=GFX_portrait_QIN_shen_honglie
-				small=GFX_idea_QIN_shen_honglie
+				large=GFX_portrait_QIN_sa_zhenbing
+				small=GFX_idea_QIN_sa_zhenbing
 			}
 		}
 		advisor={
 			cost = 100
 			slot = navy_chief
-			idea_token = QIN_shen_honglie
+			idea_token = QIN_sa_zhenbing
 		    allowed = {
 		    	original_tag = QIN
 	    	}
@@ -454,8 +454,10 @@ characters={
 		}
 		navy_leader={
 			traits = {
-				old_guard_navy
+				gentlemanly
 				navy_career_officer
+				battleship_adherent
+				naval_lineage
 			}
 			skill = 3
 			attack_skill = 3

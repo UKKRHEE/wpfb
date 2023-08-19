@@ -1,0 +1,903 @@
+characters={
+	### 지도자 ###
+	HUN_matyas_rakosi={
+		name=HUN_matyas_rakosi
+		portraits={
+			civilian={
+				large="GFX_Portrait_hungary_matyas_rakosi"
+			}
+		}
+		country_leader={
+			ideology=stalinism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	HUN_arpad_szakasits={
+		name=HUN_arpad_szakasits
+		portraits={
+			civilian={
+				large=GFX_portrait_HUN_arpad_szakasits
+			}
+		}
+		country_leader={
+			ideology=socialism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	HUN_ferenc_szalasi={
+		name=HUN_ferenc_szalasi
+		portraits={
+			civilian={
+				large=GFX_portrait_HUN_ferenc_szalasi
+			}
+		}
+		country_leader={
+			ideology=gen_nazism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	HUN_miklos_horthy={
+		name=HUN_miklos_horthy
+		portraits={
+			navy = { #Can become Navy leader and therefore navy advisor
+				large = "GFX_Portrait_hungary_miklos_horthy_admiral"
+				small = "GFX_idea_HUN_miklos_horthy_admiral"
+			}
+			civilian={
+				large="GFX_Portrait_hungary_miklos_horthy"
+			}
+		}
+		country_leader={
+			ideology=oligarchism
+			traits = {
+				fascist_sympathies
+				anti_communist
+			}
+			expire="1965.1.1.1"
+			id=500
+		}
+		advisor={
+			cost = 100
+			slot = navy_chief
+			idea_token = HUN_miklos_horthy
+		    visible = {
+                is_subject = no
+				NOT = {
+					has_government = communism
+				}
+            }
+			available = {
+                is_subject = no
+				NOT = {
+					has_government = communism
+				}
+            }
+			allowed = {
+		    	original_tag = HUN
+	    	}
+		    traits = {
+				navy_chief_decisive_battle_2
+			}
+		}
+		navy_leader={
+			visible = {
+                is_subject = no
+				NOT = {
+					has_government = communism
+				}
+            }
+			traits = {
+				old_guard_navy
+				bold
+				ironside
+				inshore_fighter
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			maneuvering_skill = 2
+			coordination_skill = 3
+			legacy_id=-1
+		}
+	}
+	HUN_otto_von_habsburg={
+		name=HUN_otto_von_habsburg
+		portraits={
+			civilian={
+				large="GFX_Portrait_hungary_otto_von_hapsburg"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	HUN_franz_friedrich = { #Can be given country leader roles later
+		name = HUN_franz_friedrich
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_hungary_friedrich_franz"
+			}
+		}
+	}
+	
+	### 정치고문/조건없음 ###
+	HUN_kalman_kanya={
+		name=HUN_kalman_kanya
+		portraits={
+			civilian={
+				small="GFX_idea_HUN_kalman_kanya"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = HUN_kalman_kanya
+			allowed = {
+				original_tag = HUN
+			}
+			traits = {
+				compassionate_gentleman 
+			}
+		}
+	}
+	HUN_vilmos_roder={
+		name=HUN_vilmos_roder
+		portraits={
+			civilian={
+				small="GFX_idea_HUN_vilmos_roder"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = HUN_vilmos_roder
+			allowed = {
+				original_tag = HUN
+			}
+			traits = {
+				war_industrialist 
+			}
+		}
+	}
+	HUN_kalman_daranyi={
+		name=HUN_kalman_daranyi
+		portraits={
+			civilian={
+				small="GFX_idea_HUN_kalman_daranyi"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = HUN_kalman_daranyi
+			allowed = {
+				original_tag = HUN
+			}
+			traits = {
+				smooth_talking_charmer 
+			}
+		}
+	}
+	HUN_zoltan_tildy={
+		name=HUN_zoltan_tildy
+		portraits={
+			civilian={
+				large=GFX_portrait_HUN_zoltan_tildy
+				small="GFX_idea_HUN_zoltan_tildy"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = HUN_zoltan_tildy
+			visible = {
+                NOT = {
+					has_country_leader = {
+						ruling_only = yes 
+						character = HUN_zoltan_tildy
+					}
+				}
+            }
+			available = {
+				NOT = {
+					has_country_leader = {
+						ruling_only = yes 
+						character = HUN_zoltan_tildy
+					}
+				}
+			}
+			allowed = {
+				original_tag = HUN
+			}
+			traits = {
+				silent_workhorse 
+			}
+		}
+	}
+	### 정치고문/반공주의 ###
+	HUN_lajos_remenyi_schneller={
+		name=HUN_lajos_remenyi_schneller
+		portraits={
+			civilian={
+				small="GFX_idea_HUN_lajos_remenyi_schneller"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = HUN_lajos_remenyi_schneller
+			visible = {
+                NOT = {
+					has_government = communism
+				}
+            }
+			available = {
+                NOT = {
+					has_government = communism
+				}
+            }
+			allowed = {
+				original_tag = HUN
+			}
+			traits = {
+				captain_of_industry 
+			}
+		}
+	}
+	HUN_jozsef_szell={
+		name=HUN_jozsef_szell
+		portraits={
+			civilian={
+				small="GFX_idea_HUN_jozsef_szell"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = HUN_jozsef_szell
+			visible = {
+                NOT = {
+					has_government = communism
+				}
+            }
+			available = {
+                NOT = {
+					has_government = communism
+				}
+            }
+			traits = {
+				minister_of_the_interior_abate
+			}
+		}
+	}
+	### 정치고문/공산주의 ###
+	HUN_laszlo_rajk={
+		name=HUN_laszlo_rajk
+		portraits={
+			army={
+				small="GFX_idea_HUN_laszlo_rajk"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = HUN_laszlo_rajk
+			#visible = {
+			#	has_government = communism
+			#}
+			#available = {
+			#	has_government = communism
+			#}
+			allowed = {
+				original_tag = HUN
+			}
+			available = {
+				if = {
+					limit = {
+						has_dlc = "Man the Guns"
+					}
+					NOT = {
+						has_autonomy_state = autonomy_supervised_state
+					}
+				}
+			}
+			traits = {
+				communist_revolutionary 
+			}
+			ai_will_do = {
+				base = 0
+				modifier = {
+					add = 100
+					OR = {
+						has_country_flag = HUN_AI_RANDOM_COMMUNIST
+						has_game_rule = {
+							rule = HUN_ai_behavior
+							option = COMMUNIST
+						}
+					}
+				}
+			}
+		}
+	}
+	### 정치고문/파시즘 ###
+	HUN_gyula_gombos_de_jakfa={
+		name=HUN_gyula_gombos_de_jakfa
+		portraits={
+			army={
+				small="GFX_idea_HUN_gyula_gombos_de_jakfa"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = HUN_gyula_gombos_de_jakfa
+			#visible = {
+			#	has_government = fascism
+			#}
+			#available = {
+			#	has_government = fascism
+			#}
+			allowed = {
+				original_tag = HUN
+			}
+			available = {
+				if = {
+					limit = {
+						has_dlc = "Man the Guns"
+					}
+					NOT = {
+						has_autonomy_state = autonomy_supervised_state
+					}
+				}
+			}
+			traits = {
+				fascist_demagogue 
+			}
+		}
+	}
+	### 정치고문/권위주의 ###
+	HUN_gusztav_gratz={
+		name=HUN_gusztav_gratz
+		portraits={
+			army={
+				small="GFX_idea_HUN_gusztav_gratz"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = HUN_gusztav_gratz
+			#visible = {
+			#	has_government = neutrality
+			#}
+			#available = {
+			#	has_government = neutrality
+			#}
+			allowed = {
+				original_tag = HUN
+				has_dlc = "Death or Dishonor"
+			}
+			visible = {
+				NOT = {
+					has_cosmetic_tag = vojvodina
+				}
+			}
+			available = {
+				if = {
+					limit = {
+						has_dlc = "Man the Guns"
+					}
+					NOT = {
+						has_autonomy_state = autonomy_supervised_state
+					}
+				}
+			}
+			traits = {
+				staunch_monarchist 
+			}
+		}
+	}
+	### 정치고문/정보기관 ###
+	HUN_dome_sztojay={
+		name=HUN_dome_sztojay
+		portraits={
+			army={
+				large=GFX_portrait_HUN_dome_sztojay
+				small=GFX_idea_HUN_dome_sztojay
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = HUN_dome_sztojay
+			available = {
+				has_intelligence_agency = yes
+			}
+			allowed = {
+				original_tag = HUN
+				has_dlc = "La Resistance" 
+			}
+			traits = {
+				head_of_intelligence
+			}
+		}
+		corps_commander={
+			traits = {
+				trickster
+				commando
+				trait_mountaineer
+			}
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id=-1
+		}
+	}
+	
+	### 이론가 ###
+	HUN_shvoy_kalman={
+		name=HUN_shvoy_kalman
+		portraits={
+			army={
+				small="GFX_idea_HUN_shvoy_kalman"
+			}
+		}
+		advisor={
+			cost = 100
+			slot = theorist
+			idea_token = HUN_shvoy_kalman
+			ledger = army
+			allowed = {
+				original_tag = HUN
+			}
+			
+			traits = {
+				military_theorist
+			}
+		}
+	}
+	HUN_waldemar_kenese={
+		name=HUN_waldemar_kenese
+		portraits={
+			army={
+				small="GFX_idea_HUN_waldemar_kenese"
+			}
+		}
+		advisor={
+			cost = 100
+			slot = theorist
+			idea_token = HUN_waldemar_kenese
+			ledger = air
+			allowed = {
+				original_tag = HUN
+			}
+			traits = {
+				air_warfare_theorist
+			}
+		}
+	}
+	
+	### 육군참모총장 ###
+	HUN_ferenc_szombathelyi={
+		name=HUN_ferenc_szombathelyi
+		portraits={
+			army={
+				small="GFX_idea_HUN_ferenc_szombathelyi"
+			}
+		}
+		advisor={
+			cost = 100
+			slot = army_chief
+			idea_token = HUN_ferenc_szombathelyi
+			allowed = {
+				original_tag = HUN
+			}
+			traits = {
+				army_chief_defensive_2
+			}
+		}
+	}
+	HUN_hugo_sonyi={
+		name=HUN_hugo_sonyi
+		portraits={
+			army={
+				large=GFX_portrait_HUN_hugo_sonyi
+				small="GFX_idea_HUN_hugo_sonyi"
+			}
+		}
+		advisor={
+			cost = 100
+			slot = army_chief
+			idea_token = HUN_hugo_sonyi
+			allowed = {
+				original_tag = HUN
+			}
+			traits = {
+				army_chief_offensive_2
+			}
+		}
+		corps_commander={
+			traits = {
+				brilliant_strategist
+				organizer
+				infantry_leader
+				hill_fighter
+			}
+			skill = 3
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+	HUN_jeno_ratz={
+		name=HUN_jeno_ratz
+		portraits={
+			army={
+				large=GFX_portrait_HUN_jeno_ratz
+				small="GFX_idea_HUN_jeno_ratz"
+			}
+		}
+		advisor={
+			cost = 100
+			slot = army_chief
+			idea_token = HUN_jeno_ratz
+			allowed = {
+				original_tag = HUN
+			}
+			traits = {
+				army_chief_organizational_2
+			}
+		}
+		corps_commander={
+			traits = {
+				politically_connected
+				organizer
+				skilled_staffer
+			}
+			skill = 2
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+	
+	### 해군참모총장 ###
+	HUN_kalman_hardy = {
+		name=HUN_kalman_hardy
+		portraits={
+			army={
+				large=GFX_portrait_HUN_kalman_hardy 
+				small=GFX_idea_HUN_kalman_hardy 
+			}
+		}
+		advisor={
+			slot = navy_chief
+			idea_token = HUN_kalman_hardy
+		    allowed = {
+		    	original_tag = HUN
+	    	}
+		    traits = {
+				navy_chief_maneuver_1
+			}
+		}
+		navy_leader={
+			traits = {
+				#
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			maneuvering_skill = 2
+			coordination_skill = 2
+			legacy_id=-1
+		}
+	}
+	
+	### 공군참모총장 ###
+	HUN_bela_rakosi={
+		name=HUN_bela_rakosi
+		portraits={
+			army={
+				small="GFX_idea_HUN_bela_rakosi"
+			}
+		}
+		advisor={
+			cost = 100
+			slot = air_chief
+			idea_token = HUN_bela_rakosi
+			allowed = {
+				original_tag = HUN
+			}
+			traits = {
+				air_chief_ground_support_2
+			}
+		}
+	}
+	HUN_sandor_magyarossy={
+		name=HUN_sandor_magyarossy
+		portraits={
+			army={
+				small="GFX_idea_HUN_sandor_magyarossy"
+			}
+		}
+		advisor={
+			slot = air_chief
+			idea_token = HUN_sandor_magyarossy
+			allowed = {
+				original_tag = HUN
+			}
+			traits = {
+				air_chief_safety_1
+			}
+		}
+	}
+	
+	### 최고사령부 ###
+	HUN_vilmos_nagy={
+		name=HUN_vilmos_nagy
+		portraits={
+			army={
+				large=GFX_portrait_HUN_vilmos_nagy
+				small=GFX_idea_HUN_vilmos_nagy
+			}
+		}
+		advisor={
+			cost = 200
+			slot = high_command
+			idea_token = HUN_vilmos_nagy
+			ledger = army
+		    allowed = {
+		    	original_tag = HUN
+		    }
+		    traits = {
+				army_cavalry_3
+			}
+		}
+		corps_commander={
+			traits = {
+				armor_officer
+				organizer
+				skilled_staffer
+				trickster
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+	HUN_henrik_werth={
+		name=HUN_henrik_werth
+		portraits={
+			army={
+				small="GFX_idea_HUN_henrik_werth"
+			}
+		}
+		advisor={
+			cost = 100
+			slot = high_command
+			idea_token = HUN_henrik_werth
+			ledger = army
+			allowed = {
+				original_tag = HUN
+			}
+			traits = {
+				army_artillery_2
+			}
+		}
+	}
+	HUN_dezso_laszlo={
+		name=HUN_dezso_laszlo
+		portraits={
+			army={
+				large=GFX_portrait_HUN_dezso_laszlo
+				small="GFX_idea_HUN_dezso_laszlo"
+			}
+		}
+		advisor={
+			cost = 100
+			slot = high_command
+			idea_token = HUN_dezso_laszlo
+			ledger = army
+			allowed = {
+				original_tag = HUN
+			}
+			traits = {
+				army_regrouping_2
+			}
+		}
+		corps_commander={
+			traits = {
+				infantry_officer
+				skilled_staffer
+			}
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+	HUN_ferenc_farkas={
+		name=HUN_ferenc_farkas
+		portraits={
+			army={
+				small=GFX_idea_HUN_ferenc_farkas
+			}
+		}
+		advisor={
+			cost = 100
+			slot = high_command
+			idea_token = HUN_ferenc_farkas
+			ledger = army
+			visible = {
+				NOT = {
+					has_government = communism
+				}
+			}
+			available = {
+				NOT = {
+					has_government = communism
+				}
+			}
+			allowed = {
+				original_tag = HUN
+			}
+			traits = {
+				army_commando_2
+			}
+		}
+	}
+	HUN_bela_miklos={
+		name=HUN_bela_miklos
+		portraits={
+			army={
+				large=GFX_portrait_HUN_bela_miklos
+				small=GFX_idea_HUN_bela_miklos
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = HUN_bela_miklos
+			ledger = army
+			allowed = {
+				original_tag = HUN
+			}
+			traits = {
+				army_armored_1
+			}
+		}
+		corps_commander={
+			traits = {
+				armor_officer
+				organizer
+				cavalry_leader
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+	
+	### 육군 원수 ###
+	HUN_kocsard_janky={
+		name=HUN_kocsard_janky
+		portraits={
+			army={
+				large=GFX_portrait_HUN_kocsard_janky
+				small=GFX_idea_HUN_kocsard_janky
+			}
+		}
+		field_marshal={
+			traits = {
+				old_guard
+				inflexible_strategist
+				war_hero
+				cavalry_leader
+				trickster
+				unyielding_defender
+			}
+			skill = 4
+			attack_skill = 3
+			defense_skill = 5
+			planning_skill = 3
+			logistics_skill = 4
+			legacy_id=-1
+		}
+	}
+	
+	### 육군 장성 ###
+	HUN_gusztav_jany={
+		name=HUN_gusztav_jany
+		portraits={
+			army={
+				large=GFX_portrait_HUN_gusztav_jany
+				small="GFX_idea_HUN_gusztav_jany"
+			}
+		}
+		corps_commander={
+			traits = {
+				trait_reckless
+				infantry_leader
+				skilled_staffer
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+	HUN_lajos_veress={
+		name=HUN_lajos_veress
+		portraits={
+			army={
+				large="GFX_Portrait_hungary_lajos_veress"
+				small="GFX_idea_HUN_lajos_veress"
+			}
+		}
+		corps_commander={
+			traits = {
+				trait_reckless
+				armor_officer
+				cavalry_leader
+				trickster
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+	HUN_geza_lakatos={
+		name=HUN_geza_lakatos
+		portraits={
+			army={
+				large="GFX_Portrait_hungary_geza_lakatos"
+				small="GFX_idea_HUN_geza_lakatos"
+			}
+		}
+		corps_commander={
+			traits = {
+				#
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+	HUN_karoly_beregfy={
+		name=HUN_karoly_beregfy
+		portraits={
+			army={
+				large="GFX_Portrait_hungary_karoly_beregfy"
+				small="GFX_idea_HUN_karoly_beregfy"
+			}
+		}
+		corps_commander={
+			traits = {
+				#
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id=-1
+		}
+	}
+}

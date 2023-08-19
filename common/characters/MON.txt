@@ -66,6 +66,35 @@ characters={
 	}
 	
 	### 정치고문 ###
+	MON_tserendondovyn_navaanneren={
+		name=MON_tserendondovyn_navaanneren
+		portraits={
+			civilian={
+				large=GFX_portrait_MON_tserendondovyn_navaanneren
+				small=GFX_idea_MON_tserendondovyn_navaanneren
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = MON_tserendondovyn_navaanneren
+			visible = {
+				NOT = {
+					has_government = communism
+				}
+			}
+			available = {
+				NOT = {
+					has_government = communism
+				}
+			}
+			allowed = {
+				original_tag = MON
+			}
+			traits = {
+				noble_beurocrat
+			}
+		}
+	}
 	MON_tserendorj={
 		name=MON_tserendorj
 		portraits={

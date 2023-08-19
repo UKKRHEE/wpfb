@@ -24,6 +24,7 @@ characters = {
 			}
 		}
 		country_leader={
+			desc = "JAP_ichiki_kitokuro_desc"
 			expire = "1965.1.1"
 			ideology = liberalism
 			traits = {

@@ -50,7 +50,7 @@ recruit_character = SDC_navy_research
 recruit_character = SDC_air_research
 
 ### 해군참모총장 ###
-recruit_character = SDC_lin_jianzhang
+recruit_character = SDC_navy_department
 
 ### 공군참모총장 ###
 recruit_character = SDC_air_department

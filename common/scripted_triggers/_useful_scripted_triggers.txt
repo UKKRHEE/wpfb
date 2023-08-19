@@ -1,0 +1,3 @@
+cannot_call_allies_or_join_wars = {
+	check_variable = { modifier@cannot_call_allies_or_join_wars > 0 }
+}

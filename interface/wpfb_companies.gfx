@@ -306,4 +306,112 @@ spriteTypes = {
 		name = "GFX_idea_SIA_tanin"
 		texturefile = "gfx/interface/companies/SIA/SIA_tanin.png"
 	}
+	
+	#############
+	### 오스트랴 ###
+	#############
+	
+	### 전차 ###
+	spriteType = {
+		name = "GFX_idea_AUS_simmering_graz_pauker"
+		texturefile = "gfx/interface/companies/AUS/AUS_simmering_graz.png"
+	}
+	spriteType = {
+		name = "GFX_idea_AUS_wiener_neu_lokomotiv"
+		texturefile = "gfx/interface/companies/AUS/AUS_wiener_neu_lokomotiv.png"
+	}
+	spriteType = {
+		name = "GFX_idea_AUS_graef_stift"
+		texturefile = "gfx/interface/companies/AUS/AUS_graef_stift.png"
+	}
+	
+	### 함정 ###
+	spriteType = {
+		name = "GFX_idea_AUS_stabilimento_tecnico_triestino"
+		texturefile = "gfx/interface/companies/AUS/AUS_stabilimento_tecnico_triestino.png"
+	}
+	
+	### 항공기 ###
+	spriteType = {
+		name = "GFX_idea_AUS_wiener_neu_flugzeug"
+		texturefile = "gfx/interface/companies/AUS/AUS_wiener_neu_flugzeug.png"
+	}
+	spriteType = {
+		name = "GFX_idea_AUS_lohner"
+		texturefile = "gfx/interface/companies/AUS/AUS_lohner.png"
+	}
+	spriteType = {
+		name = "GFX_idea_AUS_aviatik"
+		texturefile = "gfx/interface/companies/AUS/AUS_aviatik.png"
+	}
+	
+	### 군수품 ###
+	spriteType = {
+		name = "GFX_idea_AUS_steyr"
+		texturefile = "gfx/interface/companies/AUS/AUS_steyr.png"
+	}
+	spriteType = {
+		name = "GFX_idea_AUS_hirtenberger"
+		texturefile = "gfx/interface/companies/AUS/AUS_hirtenberger.png"
+	}
+	spriteType = {
+		name = "GFX_idea_AUS_puch"
+		texturefile = "gfx/interface/companies/AUS/AUS_puch.png"
+	}
+	
+	### 산업 ###
+	spriteType = {
+		name = "GFX_idea_AUS_montage"
+		texturefile = "gfx/interface/companies/AUS/AUS_austria_montage.png"
+	}
+	spriteType = {
+		name = "GFX_idea_AUS_kapsch"
+		texturefile = "gfx/interface/companies/AUS/AUS_kapsch.png"
+	}
+	spriteType = {
+		name = "GFX_idea_AUS_bayer_austria"
+		texturefile = "gfx/interface/companies/AUS/AUS_bayer_austria.png"
+	}
+	
+	#############
+	### 헝가리ㅡ ###
+	#############
+	
+	### 전차 ###
+	spriteType = {
+		name = "GFX_idea_HUN_haditechnikai_intezet"
+		texturefile = "gfx/interface/companies/HUN/HUN_haditechnikai_intezet.png"
+	}
+	
+	### 함정 ###
+	spriteType = {
+		name = "GFX_idea_HUN_dgt_obuda"
+		texturefile = "gfx/interface/companies/HUN/HUN_dgt_obuda.png"
+	}
+	
+	### 항공기 ###
+	spriteType = {
+		name = "GFX_idea_HUN_repulo_mernoki_intezet"
+		texturefile = "gfx/interface/companies/HUN/HUN_repulo_mernoki_intezet.png"
+	}
+	spriteType = {
+		name = "GFX_idea_HUN_dunai_repulogepgyar"
+		texturefile = "gfx/interface/companies/HUN/HUN_dunai_repulogepgyar.png"
+	}
+	
+	### 군수품 ###
+	spriteType = {
+		name = "GFX_idea_HUN_digep"
+		texturefile = "gfx/interface/companies/HUN/HUN_digep.png"
+	}
+	spriteType = {
+		name = "GFX_idea_HUN_raba"
+		texturefile = "gfx/interface/companies/HUN/HUN_raba.png"
+	}
+	
+	### 산업 ###
+	spriteType = {
+		name = "GFX_idea_HUN_haesz"
+		texturefile = "gfx/interface/companies/HUN/HUN_haesz.png"
+	}
 }

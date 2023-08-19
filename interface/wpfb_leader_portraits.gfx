@@ -387,13 +387,13 @@ spriteTypes = {
 		texturefile = "gfx/leaders/JAP/Portrait_JAP_Obata_Toshiro.png"
 	}
 	
-	### 일본 육군 장성 ###
+	### 일본 장성 ###
 	spriteType = {
 		name = "GFX_portrait_JAP_miyazaki_shigesaburo"
 		texturefile = "gfx/leaders/JAP/Portrait_JAP_Miyazaki_Shigesaburo.png"
 	}
 	
-	### 일본 해군 제독 ###
+	### 일본 제독 ###
 	spriteType = {
 		name = "GFX_portrait_JAP_kimura_masatomi"
 		texturefile = "gfx/leaders/JAP/Portrait_JAP_Kimura_Masatomi.png"
@@ -483,8 +483,8 @@ spriteTypes = {
 	
 	### 청국 제독 ###
 	spriteType = {
-		name = "GFX_portrait_QIN_shen_honglie"
-		texturefile = "gfx/leaders/QIN/Portrait_QIN_Shen_Honglie.png"
+		name = "GFX_portrait_QIN_sa_zhenbing"
+		texturefile = "gfx/leaders/QIN/Portrait_QIN_Sa_Zhenbing.png"
 	}
 	spriteType = {
 		name = "GFX_portrait_QIN_aisin_gioro_zaixun"
@@ -515,6 +515,12 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_portrait_MON_demchugdongrub"
 		texturefile = "gfx/leaders/MON/Portrait_MON_Demchugdongrub.png"
+	}
+	
+	### 몽골 정치고문 ####
+	spriteType = {
+		name = "GFX_portrait_MON_tserendondovyn_navaanneren"
+		texturefile = "gfx/leaders/MON/Portrait_MON_Tserendondovyn_Navaanneren.png"
 	}
 	
 	### 몽골 원수 ###
@@ -717,8 +723,8 @@ spriteTypes = {
 	
 	### 중화민국 북경정부/산서군벌 해군참모총장 ###
 	spriteType = {
-		name = "GFX_portrait_SHX_sa_zhenbing"
-		texturefile = "gfx/leaders/SHX/Portrait_SHX_Sa_Zhenbing.png"
+		name = "GFX_portrait_SHX_shen_honglie"
+		texturefile = "gfx/leaders/SHX/Portrait_SHX_Shen_Honglie.png"
 	}
 	spriteType = {
 		name = "GFX_portrait_SHX_wu_renli"
@@ -754,11 +760,11 @@ spriteTypes = {
 	}
 	#무소속
 	spriteType = {
-		name = "GFX_portrait_SHX_du_xigui"
-		texturefile = "gfx/leaders/SHX/Portrait_SHX_Du_Xigui.png"
+		name = "GFX_portrait_SHX_lin_jianzhang"
+		texturefile = "gfx/leaders/SHX/Portrait_SHX_Lin_Jianzhang.png"
 	}
 	
-	### 중화민국 북경정부/산서군벌 육군 장성 ###
+	### 중화민국 북경정부/산서군벌 장성 ###
 	#염계
 	spriteType = {
 		name = "GFX_portrait_SHX_chen_changjie"
@@ -864,12 +870,6 @@ spriteTypes = {
 		texturefile = "gfx/leaders/SDC/Portrait_SDC_Zhang_Fuyun.png"
 	}
 	
-	### 산동군벌 해군참모총장 ###
-	spriteType = {
-		name = "GFX_portrait_SDC_lin_jianzhang"
-		texturefile = "gfx/leaders/SDC/Portrait_SDC_Lin_Jianzhang.png"
-	}
-	
 	### 산동군벌 최고사령부 ###
 	spriteType = {
 		name = "GFX_portrait_SDC_sun_tongxuan"
@@ -942,7 +942,7 @@ spriteTypes = {
 		texturefile = "gfx/leaders/SCC/Portrait_SCC_Guo_Xunqi.png"
 	}
 	
-	### 사천군벌 육군 장성 ###
+	### 사천군벌 장성 ###
 	spriteType = {
 		name = "GFX_portrait_SCC_tang_shizun"
 		texturefile = "gfx/leaders/SCC/Portrait_SCC_Tang_Shizun.png"
@@ -988,7 +988,7 @@ spriteTypes = {
 		texturefile = "gfx/leaders/HNC/Portrait_HNC_Men_Bingyue.png"
 	}
 	
-	### 호남군벌 육군 장성 ###
+	### 호남군벌 장성 ###
 	spriteType = {
 		name = "GFX_portrait_HNC_tang_shengming"
 		texturefile = "gfx/leaders/HNC/Portrait_HNC_Tang_Shengming.png"
@@ -1098,7 +1098,7 @@ spriteTypes = {
 		texturefile = "gfx/leaders/PRC/Portrait_PRC_Chen_Geng.png"
 	}
 	
-	### 중국공산당 육군 장성 ###
+	### 중국공산당 장성 ###
 	spriteType = {
 		name = "GFX_portrait_PRC_ye_jianying"
 		texturefile = "gfx/leaders/PRC/Portrait_PRC_Ye_Jianying.png"
@@ -1163,7 +1163,7 @@ spriteTypes = {
 		texturefile = "gfx/leaders/ROC/Portrait_ROC_Li_Zhilong.png"
 	}
 	
-	### 중화공화국 육군 장성 ###
+	### 중화공화국 장성 ###
 	spriteType = {
 		name = "GFX_portrait_ROC_zhang_fakui"
 		texturefile = "gfx/leaders/ROC/Portrait_ROC_Zhang_Fakui.png"
@@ -1213,7 +1213,7 @@ spriteTypes = {
 		texturefile = "gfx/leaders/RGC/Portrait_RGC_Zhou_Yinren.png"
 	}
 	
-	### 유신정부 육군 장성 ###
+	### 유신정부 장성 ###
 	spriteType = {
 		name = "GFX_portrait_RGC_zhou_fengqi"
 		texturefile = "gfx/leaders/RGC/Portrait_RGC_Zhou_Fengqi.png"
@@ -1485,6 +1485,206 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_portrait_RAJ_navy_1"
 		texturefile = "gfx/leaders/RAJ/Portrait_RAJ_navy_1.png"
+	}
+	
+	#############
+	### 오스트랴 ###
+	#############
+	
+	### 오스트리아 지도자 ###
+	spriteType = {
+		name = "GFX_portrait_AUS_alfred_klahr2"
+		texturefile = "gfx/leaders/AUS/Portrait_AUS_Alfred_Klahr.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_AUS_karl_renner2"
+		texturefile = "gfx/leaders/AUS/Portrait_AUS_Karl_Renner.png"
+	}
+	
+	### 오스트리아 정치고문 ###
+	#조건 없음
+	spriteType = {
+		name = "GFX_portrait_AUS_leopold_figl"
+		texturefile = "gfx/leaders/AUS/Portrait_AUS_Leopold_Figl.png"
+	}
+	#반공주의
+	spriteType = {
+		name = "GFX_portrait_AUS_wilhelm_miklas"
+		texturefile = "gfx/leaders/AUS/Portrait_AUS_Wilhelm_Miklas.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_AUS_otto_ender"
+		texturefile = "gfx/leaders/AUS/Portrait_AUS_Otto_Ender.png"
+	}
+	#공산주의
+	spriteType = {
+		name = "GFX_portrait_AUS_franz_koritschoner"
+		texturefile = "gfx/leaders/AUS/Portrait_AUS_Franz_Koritschoner.png"
+	}
+	#민주주의
+	spriteType = {
+		name = "GFX_portrait_AUS_karl_seitz"
+		texturefile = "gfx/leaders/AUS/Portrait_AUS_Karl_Seitz.png"
+	}
+	#파시즘
+	spriteType = {
+		name = "GFX_portrait_AUS_arthur_seyss-inquart2"
+		texturefile = "gfx/leaders/AUS/Portrait_AUS_Arthur_Seyss-Inquart.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_AUS_ernst_kaltenbrunner"
+		texturefile = "gfx/leaders/AUS/Portrait_AUS_Ernst_Kaltenbrunner.png"
+	}
+	#정보기관
+	spriteType = {
+		name = "GFX_portrait_AUS_maximilian_ronge"
+		texturefile = "gfx/leaders/AUS/Portrait_AUS_Maximilian_Ronge.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_AUS_ernst_fischer"
+		texturefile = "gfx/leaders/AUS/Portrait_AUS_Ernst_Fischer.png"
+	}
+	
+	### 오스트리아 이론가 ###
+	spriteType = {
+		name = "GFX_portrait_AUS_otto_robert_frisch"
+		texturefile = "gfx/leaders/AUS/Portrait_AUS_Otto_Robert_Frisch.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_AUS_eugen_saenger"
+		texturefile = "gfx/leaders/AUS/Portrait_AUS_Eugen_Saenger.png"
+	}
+	
+	### 오스트리아 육군참모총장 ###
+	spriteType = {
+		name = "GFX_portrait_AUS_alfred_jansa"
+		texturefile = "gfx/leaders/AUS/Portrait_AUS_Alfred_Jansa.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_AUS_wilhelm_zehner"
+		texturefile = "gfx/leaders/AUS/Portrait_AUS_Wilhelm_Zehner.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_AUS_ludwig_von_eimannsberger"
+		texturefile = "gfx/leaders/AUS/Portrait_AUS_Ludwig_von_Eimannsberger.png"
+	}
+	
+	### 오스트리아 해군참모총장 ###
+	spriteType = {
+		name = "GFX_portrait_AUS_heinrich_pergler_von_perglas"
+		texturefile = "gfx/leaders/AUS/Portrait_AUS_Heinrich_Pergler_von_Perglas.png"
+	}
+	
+	### 오스트리아 최고사령부 ###
+	#육군
+	spriteType = {
+		name = "GFX_portrait_AUS_erhard_raus"
+		texturefile = "gfx/leaders/AUS/Portrait_AUS_Erhard_Raus.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_AUS_eduard_barger"
+		texturefile = "gfx/leaders/AUS/Portrait_AUS_Eduard_Barger.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_AUS_emil_hickmann"
+		texturefile = "gfx/leaders/AUS/Portrait_AUS_Emil_Hickmann.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_AUS_franz_bohme"
+		texturefile = "gfx/leaders/AUS/Portrait_AUS_Franz_Bohme.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_AUS_sigismund_schilhawsky"
+		texturefile = "gfx/leaders/AUS/Portrait_AUS_Sigismund_Schilhawsky.png"
+	}
+	#해군
+	spriteType = {
+		name = "GFX_portrait_AUS_maximilian_eugen_von_habsburg"
+		texturefile = "gfx/leaders/AUS/Portrait_AUS_Maximilian_Eugen_von_Habsburg.png"
+	}
+	
+	### 오스트리아 원수 ###
+	spriteType = {
+		name = "GFX_portrait_AUS_eugen_von_habsburg"
+		texturefile = "gfx/leaders/AUS/Portrait_AUS_Eugen_von_Habsburg.png"
+	}
+	
+	### 오스트리아 장성 ###
+	spriteType = {
+		name = "GFX_portrait_AUS_karl_eglseer2"
+		texturefile = "gfx/leaders/AUS/Portrait_AUS_Karl_Eglseer.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_AUS_julius_ringel"
+		texturefile = "gfx/leaders/AUS/Portrait_AUS_Julius_Ringel.png"
+	}
+	
+	#############
+	### 헝가리ㅡ ###
+	#############
+	
+	### 헝가리 지도자 ###
+	spriteType = {
+		name = "GFX_portrait_HUN_arpad_szakasits"
+		texturefile = "gfx/leaders/HUN/Portrait_HUN_Arpad_Szakasits.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_HUN_ferenc_szalasi"
+		texturefile = "gfx/leaders/HUN/Portrait_HUN_Ferenc_Szalasi.png"
+	}
+	
+	### 헝가리 정치고문 ###
+	#조건 없음
+	spriteType = {
+		name = "GFX_portrait_HUN_zoltan_tildy"
+		texturefile = "gfx/leaders/HUN/Portrait_HUN_Zoltan_Tildy.png"
+	}
+	#정보기관
+	spriteType = {
+		name = "GFX_portrait_HUN_dome_sztojay"
+		texturefile = "gfx/leaders/HUN/Portrait_HUN_Dome_Sztojay.png"
+	}
+	
+	### 헝가리 육군참모총장 ###
+	spriteType = {
+		name = "GFX_portrait_HUN_hugo_sonyi"
+		texturefile = "gfx/leaders/HUN/Portrait_HUN_Hugo_Sonyi.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_HUN_jeno_ratz"
+		texturefile = "gfx/leaders/HUN/Portrait_HUN_Jeno_Ratz.png"
+	}
+	
+	### 헝가리 해군참모총장 ###
+	spriteType = {
+		name = "GFX_portrait_HUN_kalman_hardy"
+		texturefile = "gfx/leaders/HUN/Portrait_HUN_Kalman_Hardy.png"
+	}
+	
+	### 헝가리 최고사령부 ###
+	spriteType = {
+		name = "GFX_portrait_HUN_dezso_laszlo"
+		texturefile = "gfx/leaders/HUN/Portrait_HUN_Dezso_Laszlo.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_HUN_vilmos_nagy"
+		texturefile = "gfx/leaders/HUN/Portrait_HUN_Vilmos_Nagy_de_Nagybaczon.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_HUN_bela_miklos"
+		texturefile = "gfx/leaders/HUN/Portrait_HUN_Bela_Miklos.png"
+	}
+	
+	### 헝가리 원수 ###
+	spriteType = {
+		name = "GFX_portrait_HUN_kocsard_janky"
+		texturefile = "gfx/leaders/HUN/Portrait_HUN_Kocsard_Janky.png"
+	}
+	
+	### 헝가리 장성 ###
+	spriteType = {
+		name = "GFX_portrait_HUN_gusztav_jany"
+		texturefile = "gfx/leaders/HUN/Portrait_HUN_Gusztav_Jany.png"
 	}
 	
 	#spriteType = {

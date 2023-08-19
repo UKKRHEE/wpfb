@@ -127,3 +127,51 @@
  SIA_cement:0 "시암 시멘트"
  SIA_tanin:0 "탄닌 산업회사"
  
+ #############
+ ### 오스트랴 ###
+ #############
+ 
+ ### 오스트리아 전차 ###
+ AUS_simmering_graz_pauker:0 "지메링-그라츠-파우커"
+ AUS_wiener_neu_lokomotiv:0 "비너노이슈타트 기관차 공장"
+ AUS_graef_stift:0 "그레프 & 슈티프트"
+ 
+ ### 오스트리아 함정 ###
+ AUS_stabilimento_tecnico_triestino:0 "트렌티노 기술 공장"
+ 
+ ### 오스트리아 항공기 ###
+ AUS_wiener_neu_flugzeug:0 "비너노이슈타트 항공기 제작소"
+ AUS_lohner:0 "로너"
+ AUS_aviatik:0 "오스트리아 아피아티크"
+ 
+ ### 오스트리아 군수품 ###
+ AUS_steyr:0 "슈타이어"
+ AUS_hirtenberger:0 "히르텐베르거"
+ AUS_puch:0 "푸흐"
+ 
+ ### 오스트리아 산업 ###
+ AUS_montage:0 "알펜 몬타게 회사"
+ AUS_kapsch:0 "AG 캅슈 & 죄네"
+ AUS_bayer_austria:0 "바이엘 오스트리아"
+ 
+ #############
+ ### 헝가리ㅡ ###
+ #############
+ 
+ ### 헝가리 전차 ###
+ HUN_haditechnikai_intezet:0 "허디테치니커이 인테제트"
+ HUN_mw_tank:0 "M.W."
+ 
+ ### 헝가리 함정 ###
+ HUN_dgt_obuda:0 "오부더이 조선소"
+ 
+ ### 헝가리 항공기 ###
+ HUN_repulo_mernoki_intezet:0 "레퓔뢰 메르뇌키 인테제트"
+ HUN_dunai_repulogepgyar:0 "두너이 레퓔뢰게프자르"
+ 
+ ### 헝가리 군수품 ###
+ HUN_digep:0 "디게프"
+ HUN_raba:0 "라버"
+ 
+ ### 헝가리 산업 ###
+ HUN_haesz:0 "HAESZ"

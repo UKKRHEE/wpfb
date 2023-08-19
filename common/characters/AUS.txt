@@ -1,0 +1,1069 @@
+characters={
+	### 지도자 ###
+	AUS_alfred_klahr={
+		name=AUS_alfred_klahr
+		portraits={
+			civilian={
+				large=GFX_portrait_AUS_alfred_klahr2
+			}
+		}
+		country_leader={
+			ideology=marxism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	AUS_karl_renner={
+		name=AUS_karl_renner
+		portraits={
+			civilian={
+				large=GFX_portrait_AUS_karl_renner2
+			}
+		}
+		country_leader={
+			ideology=socialism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	AUS_kurt_schuschnigg={
+		name=AUS_kurt_schuschnigg
+		portraits={
+			civilian={
+				large=GFX_portrait_AUS_kurt_schuschnigg
+			}
+		}
+		country_leader={
+			ideology=fascism_ideology
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	AUS_otto_von_habsburg={
+		name=HUN_otto_von_habsburg
+		portraits={
+			civilian={
+				large="GFX_Portrait_hungary_otto_von_hapsburg"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	
+	### 정치고문/조건없음 ###
+	AUS_leopold_figl={
+		name=AUS_leopold_figl
+		portraits={
+			civilian={
+				large=GFX_portrait_AUS_leopold_figl
+				small=GFX_idea_AUS_leopold_figl
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = AUS_leopold_figl
+			allowed = {
+				original_tag = AUS
+			}
+			traits = {
+				popular_figurehead
+			}
+		}
+	}
+	
+	### 정치고문/반공주의 ###
+	AUS_wilhelm_miklas={
+		name=AUS_wilhelm_miklas
+		portraits={
+			civilian={
+				large=GFX_portrait_AUS_wilhelm_miklas
+				small=GFX_idea_AUS_wilhelm_miklas
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = AUS_wilhelm_miklas
+			visible = {
+                NOT = {
+					has_government = communism
+				}
+            }
+			available = {
+                NOT = {
+					has_government = communism
+				}
+            }
+			allowed = {
+				original_tag = AUS
+			}
+			traits = {
+				silent_workhorse
+			}
+		}
+	}
+	AUS_julius_raab={
+		name=AUS_julius_raab
+		portraits={
+			civilian={
+				small=GFX_idea_AUS_julius_raab
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = AUS_julius_raab
+			visible = {
+                NOT = {
+					has_government = communism
+				}
+            }
+			available = {
+                NOT = {
+					has_government = communism
+				}
+            }
+			allowed = {
+				original_tag = AUS
+			}
+			traits = {
+				captain_of_industry
+			}
+		}
+	}
+	AUS_otto_ender={
+		name=AUS_otto_ender
+		portraits={
+			civilian={
+				large=GFX_portrait_AUS_otto_ender
+				small=GFX_idea_AUS_otto_ender
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = AUS_otto_ender
+			visible = {
+                NOT = {
+					has_government = communism
+					has_country_leader = {
+						ruling_only = yes 
+						character = AUS_otto_ender
+					}
+				}
+            }
+			available = {
+				NOT = {
+					has_government = communism
+					has_country_leader = {
+						ruling_only = yes 
+						character = AUS_otto_ender
+					}
+				}
+			}
+			allowed = {
+				original_tag = AUS
+			}
+			traits = {
+				man_of_the_people
+			}
+		}
+	}
+	### 정치고문/공산주의 ###
+	AUS_franz_koritschoner={
+		name=AUS_franz_koritschoner
+		portraits={
+			civilian={
+				large=GFX_portrait_AUS_franz_koritschoner
+				small=GFX_idea_AUS_franz_koritschoner
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = AUS_franz_koritschoner
+			visible = {
+				has_government = communism
+			}
+			available = {
+				has_government = communism
+			}
+			allowed = {
+				original_tag = AUS
+			}
+			traits = {
+				communist_revolutionary
+			}
+		}
+	}
+	AUS_lucien_laurat={
+		name=AUS_lucien_laurat
+		portraits={
+			civilian={
+				small=GFX_idea_AUS_lucien_laurat
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = AUS_lucien_laurat
+			visible = {
+				has_government = communism
+			}
+			available = {
+				has_government = communism
+			}
+			allowed = {
+				original_tag = AUS
+			}
+			traits = {
+				council_communist
+			}
+		}
+	}
+	
+	### 정치고문/민주주의 ###
+	AUS_karl_seitz={
+		name=AUS_karl_seitz
+		portraits={
+			civilian={
+				large=GFX_portrait_AUS_karl_seitz
+				small=GFX_idea_AUS_karl_seitz
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = AUS_karl_seitz
+			visible = {
+				has_government = democratic
+			}
+			available = {
+				has_government = democratic
+			}
+			allowed = {
+				original_tag = AUS
+			}
+			traits = {
+				democratic_reformer
+			}
+		}
+	}
+	AUS_adolf_schaerf={
+		name=AUS_adolf_schaerf
+		portraits={
+			civilian={
+				small=GFX_idea_AUS_adolf_schaerf
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = AUS_adolf_schaerf
+			visible = {
+				has_government = democratic
+			}
+			available = {
+				has_government = democratic
+			}
+			allowed = {
+				original_tag = AUS
+			}
+			traits = {
+				anti_fascist_agent
+			}
+		}
+	}
+	
+	### 정치고문/파시스트 ###
+	AUS_arthur_seyss-inquart={
+		name=AUS_arthur_seyss-inquart
+		portraits={
+			civilian={
+				large=GFX_portrait_AUS_arthur_seyss-inquart2
+				small=GFX_idea_AUS_arthur_seyss-inquart
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = AUS_arthur_seyss-inquart
+			visible = {
+				has_government = fascism
+			}
+			available = {
+				has_government = fascism
+			}
+			allowed = {
+				original_tag = AUS
+			}
+			traits = {
+				prince_of_terror 
+				nazi_sympathizer
+			}
+		}
+	}
+	AUS_ernst_kaltenbrunner={
+		name=AUS_ernst_kaltenbrunner
+		portraits={
+			civilian={
+				large=GFX_portrait_AUS_ernst_kaltenbrunner
+				small=GFX_idea_AUS_ernst_kaltenbrunner
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = AUS_ernst_kaltenbrunner
+			visible = {
+				has_government = fascism
+			}
+			available = {
+				has_government = fascism
+			}
+			allowed = {
+				original_tag = AUS
+			}
+			traits = {
+				fascist_demagogue
+			}
+		}
+	}
+	### 정치고문/권위주의 ###
+	AUS_eugen_von_habsburg={
+		name=AUS_eugen_von_habsburg
+		portraits={
+			army={
+				large=GFX_portrait_AUS_eugen_von_habsburg
+				small=GFX_idea_AUS_eugen_von_habsburg
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = AUS_eugen_von_habsburg
+			visible = {
+				OR = {
+					has_country_leader = { character = AUS_otto_von_habsburg }
+					has_country_leader = { character = HUN_otto_von_habsburg }
+					has_idea = AUS_constitutional_monarch_otto
+				}
+			}
+			available = {
+				OR = {
+					has_country_leader = { character = AUS_otto_von_habsburg }
+					has_country_leader = { character = HUN_otto_von_habsburg }
+					has_idea = AUS_constitutional_monarch_otto
+				}
+			}
+			allowed = {
+				original_tag = AUS
+			}
+			traits = {
+				staunch_monarchist
+			}
+		}
+		field_marshal={
+			visible = {
+                OR = {
+					has_country_leader = { character = AUS_otto_von_habsburg }
+					has_country_leader = { character = HUN_otto_von_habsburg }
+					has_idea = AUS_constitutional_monarch_otto
+				}
+            }
+			traits = {
+				old_guard
+				war_hero
+				skilled_staffer
+				offensive_doctrine
+				expert_delegator
+			}
+			skill = 4
+			attack_skill = 5
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id=-1
+		}
+	}
+	### 정치고문/정보기관 ###
+	AUS_maximilian_ronge={
+		name=AUS_maximilian_ronge
+		portraits={
+			army={
+				large=GFX_portrait_AUS_maximilian_ronge
+				small=GFX_idea_AUS_maximilian_ronge
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = AUS_maximilian_ronge
+			visible = {
+				NOT = {
+					has_government = communism
+				}
+			}
+			available = {
+				has_intelligence_agency = yes
+				NOT = {
+					has_government = communism
+				}
+			}
+			allowed = {
+				original_tag = AUS
+				has_dlc = "La Resistance" 
+			}
+			traits = {
+				head_of_intelligence
+			}
+		}
+	}
+	AUS_ernst_fischer={
+		name=AUS_ernst_fischer
+		portraits={
+			civilian={
+				large=GFX_portrait_AUS_ernst_fischer
+				small=GFX_idea_AUS_ernst_fischer
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = AUS_ernst_fischer
+			visible = {
+				has_government = communism
+			}
+			available = {
+				has_intelligence_agency = yes
+				has_government = communism
+			}
+			allowed = {
+				original_tag = AUS
+				has_dlc = "La Resistance" 
+			}
+			traits = {
+				head_of_intelligence
+			}
+		}
+	}
+	
+	### 이론가 ###
+	AUS_council_of_theorists={
+		name=AUS_council_of_theorists
+		portraits = {
+			army = {
+				small = "gfx/interface/ideas/AUS/theorist/advisors_austria.png"
+			}
+		}
+		advisor={
+			cost = 100
+			slot = theorist
+			idea_token = AUS_council_of_theorists
+			ledger = military
+			visible = {
+				OR = {
+					has_government = democratic
+					has_government = fascism
+				}
+				NOT = {
+					has_country_leader = { character = AUS_otto_von_habsburg }
+					has_country_leader = { character = HUN_otto_von_habsburg }
+					has_idea = AUS_constitutional_monarch_otto
+				}
+			}
+			available = {
+				OR = {
+					has_government = democratic
+					has_government = fascism
+				}
+				NOT = {
+					has_country_leader = { character = AUS_otto_von_habsburg }
+					has_country_leader = { character = HUN_otto_von_habsburg }
+					has_idea = AUS_constitutional_monarch_otto
+				}
+			}
+			allowed = {
+				original_tag = AUS
+			}
+			traits = {
+				council_of_theorists
+			}
+		}
+	}
+	AUS_council_of_theorists2={
+		name=AUS_council_of_theorists2
+		portraits = {
+			army = {
+				small = "gfx/interface/ideas/AUS/theorist/advisors_austria2.png"
+			}
+		}
+		advisor={
+			cost = 100
+			slot = theorist
+			idea_token = AUS_council_of_theorists2
+			ledger = military
+			visible = {
+				has_government = communism
+			}
+			available = {
+				has_government = communism
+			}
+			allowed = {
+				original_tag = AUS
+			}
+			traits = {
+				council_of_theorists
+			}
+		}
+	}
+	AUS_council_of_theorists3={
+		name=AUS_council_of_theorists
+		portraits = {
+			army = {
+				small = "gfx/interface/ideas/AUS/theorist/advisors_austria3.png"
+			}
+		}
+		advisor={
+			cost = 100
+			slot = theorist
+			idea_token = AUS_council_of_theorists3
+			ledger = military
+			visible = {
+				OR = {
+					has_country_leader = { character = AUS_otto_von_habsburg }
+					has_country_leader = { character = HUN_otto_von_habsburg }
+					has_idea = AUS_constitutional_monarch_otto
+				}
+			}
+			available = {
+				OR = {
+					has_country_leader = { character = AUS_otto_von_habsburg }
+					has_country_leader = { character = HUN_otto_von_habsburg }
+					has_idea = AUS_constitutional_monarch_otto
+				}
+			}
+			allowed = {
+				original_tag = AUS
+			}
+			traits = {
+				council_of_theorists
+			}
+		}
+	}
+	AUS_otto_robert_frisch={
+		name=AUS_otto_robert_frisch
+		portraits={
+			army={
+				large=GFX_portrait_AUS_otto_robert_frisch
+				small=GFX_idea_AUS_otto_robert_frisch
+			}
+		}
+		advisor={
+			cost = 100
+			slot = theorist
+			idea_token = AUS_otto_robert_frisch
+			ledger = army
+			allowed = {
+				original_tag = AUS
+			}
+			research_bonus = {
+				nuclear = 0.150
+			}
+			traits = {
+				nuclear_scientist
+			}
+		}
+	}
+	AUS_eugen_saenger={
+		name=AUS_eugen_saenger
+		portraits={
+			army={
+				large=GFX_portrait_AUS_eugen_saenger
+				small=GFX_idea_AUS_eugen_saenger
+			}
+		}
+		advisor={
+			cost = 100
+			slot = theorist
+			idea_token = AUS_eugen_saenger
+			ledger = air
+			allowed = {
+				original_tag = AUS
+			}
+			research_bonus = {
+				rocketry = 0.150
+			}
+			traits = {
+				rocket_scientist
+			}
+		}
+	}
+	
+	### 육군참모총장 ###
+	AUS_alfred_jansa={
+		name=AUS_alfred_jansa
+		portraits={
+			army={
+				large=GFX_portrait_AUS_alfred_jansa
+				small=GFX_idea_AUS_alfred_jansa
+			}
+		}
+		advisor={
+			cost = 100
+			slot = army_chief
+			idea_token = AUS_alfred_jansa
+		    allowed = {
+	    		original_tag = AUS
+		    }
+	    	traits = {
+	    		army_chief_defensive_2
+			}
+		}
+		field_marshal={
+			traits = {
+				organizer
+				skilled_staffer
+				expert_delegator
+			}
+			skill = 3
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id=-1
+		}
+	}
+	AUS_wilhelm_zehner={
+		name=AUS_wilhelm_zehner
+		portraits={
+			army={
+				large=GFX_portrait_AUS_wilhelm_zehner
+				small=GFX_idea_AUS_wilhelm_zehner
+			}
+		}
+		advisor={
+			cost = 100
+			slot = army_chief
+			idea_token = AUS_wilhelm_zehner
+	    	allowed = {
+		    	original_tag = AUS
+		    }
+	    	traits = {
+				army_chief_offensive_2
+			}
+		}
+		corps_commander={
+			traits = {
+				brilliant_strategist
+				infantry_leader
+				commando
+				urban_assault_specialist
+			}
+			skill = 3
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id=-1
+		}
+	}
+	AUS_ludwig_von_eimannsberger={
+		name=AUS_ludwig_von_eimannsberger
+		portraits={
+			army={
+				large=GFX_portrait_AUS_ludwig_von_eimannsberger
+				small=GFX_idea_AUS_ludwig_von_eimannsberger
+			}
+		}
+		advisor={
+			cost = 100
+			slot = army_chief
+			idea_token = AUS_ludwig_von_eimannsberger
+	    	allowed = {
+	    		original_tag = AUS
+	    	}
+	    	traits = {
+				army_chief_maneuver_2
+			}
+		}
+		corps_commander={
+			traits = {
+				brilliant_strategist
+				trait_engineer
+				panzer_leader
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 5
+			logistics_skill = 4
+			legacy_id=-1
+		}
+	}
+	
+	### 해군참모총장 ###
+	AUS_georg_von_trapp = {
+		name=SWI_georg_von_trapp
+		portraits={
+			army={
+				large=GFX_portrait_SWI_georg_von_trapp 
+				small=GFX_portrait_SWI_georg_von_trapp_small 
+			}
+		}
+		advisor={
+			cost = 200
+			slot = navy_chief
+			idea_token = AUS_georg_von_trapp
+		    allowed = {
+		    	original_tag = AUS
+	    	}
+		    traits = {
+				navy_chief_commerce_raiding_3
+			}
+		}
+		navy_leader={
+			traits = {
+				navy_career_officer
+				navy_media_personality
+				bold
+				seawolf
+				spotter
+				silent_hunter
+			}
+			skill = 5
+			attack_skill = 5
+			defense_skill = 3
+			maneuvering_skill = 3
+			coordination_skill = 5
+			legacy_id=-1
+		}
+	}
+	AUS_heinrich_pergler_von_perglas = {
+		name=AUS_heinrich_pergler_von_perglas
+		portraits={
+			army={
+				large=GFX_portrait_AUS_heinrich_pergler_von_perglas
+				small=GFX_idea_AUS_heinrich_pergler_von_perglas
+			}
+		}
+		advisor={
+			cost = 100
+			slot = navy_chief
+			idea_token = AUS_heinrich_pergler_von_perglas
+		    allowed = {
+		    	original_tag = AUS
+	    	}
+		    traits = {
+				navy_chief_decisive_battle_2
+			}
+		}
+		navy_leader={
+			traits = {
+				old_guard_navy
+				ironside
+				ground_pounder
+			}
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			maneuvering_skill = 3
+			coordination_skill = 3
+			legacy_id=-1
+		}
+	}
+	
+	### 공군참모총장 ###
+	AUS_otto_schobel = {
+		name=AUS_otto_schobel
+		portraits={
+			army={
+				small=GFX_idea_AUS_otto_schobel
+			}
+		}
+		advisor={
+			cost = 100
+			slot = air_chief
+			idea_token = AUS_otto_schobel
+			
+	    	allowed = {
+		    	original_tag = AUS
+		    }
+		    traits = {
+				air_chief_ground_support_2
+			}
+		}
+	}
+	
+	### 최고사령부 ###
+	AUS_erhard_raus={
+		name=AUS_erhard_raus
+		portraits={
+			army={
+				large=GFX_portrait_AUS_erhard_raus
+				small=GFX_idea_AUS_erhard_raus
+			}
+		}
+		advisor={
+			cost = 100
+			slot = high_command
+			idea_token = AUS_erhard_raus
+			ledger = army
+		    allowed = {
+		    	original_tag = AUS
+		    }
+		    traits = {
+				army_cavalry_2
+			}
+		}
+		corps_commander={
+			traits = {
+				armor_officer
+				organizer
+			}
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+	AUS_eduard_barger={
+		name=AUS_eduard_barger
+		portraits={
+			army={
+				large=GFX_portrait_AUS_eduard_barger
+				small=GFX_idea_AUS_eduard_barger
+			}
+		}
+		advisor={
+			cost = 100
+			slot = high_command
+			idea_token = 
+			ledger = army
+		    allowed = {
+		    	original_tag = AUS
+		    }
+		    traits = {
+				army_commando_2
+			}
+		}
+		corps_commander={
+			traits = {
+				trickster
+				trait_mountaineer
+			}
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id=-1
+		}
+	}
+	AUS_emil_hickmann={
+		name=AUS_emil_hickmann
+		portraits={
+			army={
+				large=GFX_portrait_AUS_emil_hickmann
+				small=GFX_idea_AUS_emil_hickmann
+			}
+		}
+		advisor={
+			cost = 100
+			slot = high_command
+			idea_token = 
+			ledger = army
+		    allowed = {
+		    	original_tag = AUS
+		    }
+		    traits = {
+				army_artillery_2
+			}
+		}
+	}
+	AUS_franz_bohme={
+		name=AUS_franz_bohme
+		portraits={
+			army={
+				large=GFX_portrait_AUS_franz_bohme
+				small=GFX_idea_AUS_franz_bohme
+			}
+		}
+		advisor={
+			cost = 100
+			slot = high_command
+			idea_token = AUS_franz_bohme
+			ledger = army
+		    visible = {
+				NOT = {
+					has_government = communism
+				}
+			}
+			available = {
+				NOT = {
+					has_government = communism
+				}
+			}
+			allowed = {
+		    	original_tag = AUS
+		    }
+		    traits = {
+				army_infantry_2
+			}
+		}
+		corps_commander={
+			visible = {
+				NOT = {
+					has_government = communism
+				}
+			}
+			traits = {
+				harsh_leader
+				infantry_officer
+				winter_specialist
+			}
+			skill = 2
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+	AUS_sigismund_schilhawsky={
+		name=AUS_sigismund_schilhawsky
+		portraits={
+			army={
+				large=GFX_portrait_AUS_sigismund_schilhawsky
+				small=GFX_idea_AUS_sigismund_schilhawsky
+			}
+		}
+		advisor={
+			cost = 100
+			slot = high_command
+			idea_token = AUS_sigismund_schilhawsky
+			ledger = army
+		    allowed = {
+		    	original_tag = AUS
+		    }
+		    traits = {
+				army_logistics_2
+			}
+		}
+		corps_commander={
+			traits = {
+				trait_cautious
+				organizer
+				infantry_leader
+				skilled_staffer
+			}
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id=-1
+		}
+	}
+	AUS_maximilian_eugen_von_habsburg = {
+		name=AUS_maximilian_eugen_von_habsburg
+		portraits={
+			army={
+				large=GFX_portrait_AUS_maximilian_eugen_von_habsburg
+				small=GFX_idea_AUS_maximilian_eugen_von_habsburg
+			}
+		}
+		advisor={
+			cost = 100
+			slot = high_command
+			idea_token = AUS_maximilian_eugen_von_habsburg
+			ledger = navy
+	    	visible = {
+				OR = {
+					has_country_leader = { character = AUS_otto_von_habsburg }
+					has_country_leader = { character = HUN_otto_von_habsburg }
+					has_idea = AUS_constitutional_monarch_otto
+				}
+			}
+			available = {
+				OR = {
+					has_country_leader = { character = AUS_otto_von_habsburg }
+					has_country_leader = { character = HUN_otto_von_habsburg }
+					has_idea = AUS_constitutional_monarch_otto
+				}
+			}
+			allowed = {
+	    		original_tag = AUS
+	    	}
+	    	traits = {
+				navy_screen_2
+			}
+		}
+		navy_leader={
+			visible = {
+                OR = {
+					has_country_leader = { character = AUS_otto_von_habsburg }
+					has_country_leader = { character = HUN_otto_von_habsburg }
+					has_idea = AUS_constitutional_monarch_otto
+				}
+            }
+			traits = {
+				fleet_protector
+				spotter
+				destroyer_leader
+				hunter_killer
+			}
+			skill = 2
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 3
+			coordination_skill = 2
+			legacy_id=-1
+		}
+	}
+	
+	### 육군 장성 ###
+	AUS_karl_eglseer={
+		name=AUS_karl_eglseer
+		portraits={
+			army={
+				large=GFX_portrait_AUS_karl_eglseer2
+				small=GFX_idea_AUS_karl_eglseer
+			}
+		}
+		corps_commander={
+			traits = {
+				trait_reckless
+				trickster
+				trait_mountaineer
+			}
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+	AUS_julius_ringel={
+		name=AUS_julius_ringel
+		portraits={
+			army={
+				large=GFX_portrait_AUS_julius_ringel
+				small=GFX_idea_AUS_julius_ringel
+			}
+		}
+		corps_commander={
+			visible = {
+				NOT = {
+					has_government = communism
+				}
+			}
+			traits = {
+				harsh_leader
+				commando
+				trait_mountaineer
+			}
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 1
+			legacy_id=-1
+		}
+	}
+}

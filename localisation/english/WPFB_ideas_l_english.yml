@@ -126,10 +126,10 @@
  ### 한국 이론가 ###
  KOR_council_of_theorists:0 "군부 군사개혁국"
  KOR_do_sang_log:0 "도상록"
- #대한민국
- KOR_council_of_theorists2:0 "국방부 군사개혁국"
  #조선인민공화국
- KOR_council_of_theorists_red:0 "인민군 이론참모위원회"
+ ROK_council_of_theorists:0 "인민군 이론참모위원회"
+ #대한민국
+ ROK_council_of_theorists2:0 "국방부 군사개혁국"
  
  ### 한국 육군참모총장 ###
  KOR_ahn_jung_geun:0 "안중근"
@@ -164,10 +164,10 @@
  KOR_kim_chaek:0 "김책"
  KOR_kim_mu_chong:0 "김무정"
  
- ### 한국 육군 원수 ###
+ ### 한국 원수 ###
  KOR_yu_dong_yeol:0 "유동열"
  
- ### 한국 육군 장성 ###
+ ### 한국 장성 ###
  KOR_kim_won_bong:0 "김원봉"
  KOR_oh_dong_jin:0 "오동진"
  KOR_hwang_byeong_gil:0 "황병길"
@@ -177,7 +177,7 @@
  #대한민국
  KOR_kim_hak_kyu:0 "김학규"
  
- ### 한국 해군 제독 ###
+ ### 한국 제독 ###
  KOR_sohn_won_yil:0 "손원일"
  KOR_yi_un:0 "이은"
  KOR_yi_jae_gak:0 "이재각"
@@ -244,7 +244,7 @@
  QIN_aisin_gioro_zaitao:0 "아이신기오로 짜이타오"
  
  ### 청국 해군참모총장 ###
- QIN_shen_honglie:0 "선훙례"
+ QIN_sa_zhenbing:0 "싸전빙"
  QIN_aisin_gioro_zaixun:0 "아이신기오로 짜이쉰"
  
  ### 청국 공군참모총장 ###
@@ -262,7 +262,7 @@
  QIN_xing_shilian:0 "싱스롄"
  QIN_lu_jin:0 "루진"
  
- ### 청국 육군 장성 ###
+ ### 청국 장성 ###
  QIN_aisin_gioro_xianyu:0 "아이신기오로 셴위"
  QIN_zhang_jinghui:0 "장징후이" 
  QIN_zhang_haipeng:0 "장하이펑"
@@ -278,6 +278,7 @@
  MON_demchugdongrub:0 "데므치그돈로브"
  
  ### 몽골 정치고문 ###
+ MON_tserendondovyn_navaanneren:0 "Tserendondovyn Navaanneren"
  MON_tserendorj:0 "체렌도리"
  MON_altanochir:0 "알탄오치르"
  MON_jamsrangiin_tseveen:0 "잠스랑긴 체베엔"
@@ -331,7 +332,7 @@
  SIK_abdullah_bughra:0 "압둘라 부그라"
  SIK_nur_ahmadjan_bughra:0 "누르 아흐마드잔 부그라"
  
- ### 신강 육군 장성 ###
+ ### 신강 장성 ###
  SIK_ma_shaowu:0 "마사오우"
  
  #############
@@ -397,7 +398,7 @@
  SHX_sun_yue:0 "쑨웨"
  
  ### 북경정부 해군참모총장 ###
- SHX_sa_zhenbing:0 "싸전빙"
+ SHX_shen_honglie:0 "선훙례"
  SHX_wu_renli:0 "우런리"
  
  ### 북경정부 공군참모총장 ###
@@ -415,9 +416,9 @@
  SHX_zhang_zizhong:0 "장쯔중"
  SHX_sun_lianzhong:0 "쑨롄중"
  #무소속
- SHX_du_xigui:0 "두시구이"
+ SHX_lin_jianzhang:0 "린젠장"
  
- ### 북경정부 육군 장성 ###
+ ### 북경정부 장성 ###
  SHX_chen_changjie:0 "천장제"
  SHX_song_zheyuan:0 "쑹저위안"
  SHX_gao_guizi:0 "가오구이쯔"
@@ -458,7 +459,7 @@
  CHI_chan_chak:0 "천처"
  CHI_mao_bangchu:0 "마오방추"
  
- ### 중국국민당 육군 장성 ###
+ ### 중국국민당 장성 ###
  CHI_zhang_zhizhong:0 "장즈중"
  
  #############
@@ -473,9 +474,6 @@
  ### 산동군벌 정치고문 ###
  SDC_kong_dechong:0 "쿵더청"
  SDC_zhang_fuyun:0 "장푸윈"
- 
- ### 산동군벌 해군참모총장 ###
- SDC_lin_jianzhang:0 "린젠장"
  
  ### 산동군벌 최고사령부 ###
  SDC_sun_tongxuan:0 "쑨퉁쉬안"
@@ -503,7 +501,7 @@
  XSM_ma_jiyuan:0 "마지위안"
  XSM_han_youwen:0 "한유웬"
  
- ### 마가군벌 육군 장성 ###
+ ### 마가군벌 장성 ###
  XSM_ma_biao:0 "마바오"
  XSM_ma_zhongying:0 "마중밍"
  XSM_ma_dunjing:0 "마둔징"
@@ -533,7 +531,7 @@
  SCC_guo_xunqi:0 "궈쉰치"
  SCC_yue_yiqin:0 "웨이친"
  
- ### 사천군벌 육군 장성 ###
+ ### 사천군벌 장성 ###
  SCC_tang_shizun:0 "탕스쭌"
  SCC_zhou_daogang:0 "저우다오강"
  
@@ -560,7 +558,7 @@
  HNC_liao_yaoxiang:0 "랴오야오샹"
  HNC_men_bingyue:0 "먼빙웨"
  
- ### 호남군벌 육군 장성 ###
+ ### 호남군벌 장성 ###
  HNC_tang_shengming:0 "탕성밍"
  
  #############
@@ -599,7 +597,7 @@
  GXC_ccp:0 "인민위원회"
  
  ### 광서군벌 정치고문 ###
- GXC_huang_xuchu:0 "황쑤추"
+ GXC_huang_xuchu:0 "황쉬추"
  GXC_lei_peihong:0 "레이페이훙"
  GXC_lei_yin:0 "레이인"
  GXC_huang_zhongyue:0 "황중웨"
@@ -676,7 +674,7 @@
  ROC_li_yangjing:0 "리양징"
  ROC_li_zhilong:0 "리즈룽"
  
- ### 중화공화국 육군 장성 ###
+ ### 중화공화국 장성 ###
  ROC_zhang_fakui:0 "장파쿠이"
  
  #############
@@ -709,7 +707,7 @@
  RGC_xuai_shuxuan:0 "샤오슈쉬안"
  RGC_zhou_yinren:0 "저우인런"
  
- ### 유신정부 육군 장성 ###
+ ### 유신정부 장성 ###
  RGC_zhou_fengqi:0 "저우펑치"
  RGC_shi_yousan:0 "스여우싼"
  
@@ -746,7 +744,7 @@
  RUS_mikhail_promtov:0 "미하일 프롬토프"
  RUS_vladimir_marushevsky:0 "블라디미르 마루솁스키"
  
- ### 러시아 육군 장성 ###
+ ### 러시아 장성 ###
  RUS_pavel_shatilov:0 "파벨 샤틸로프"
  RUS_vyacheslav_naumenko:0 "뱌체슬라프 나우멘코"
  RUS_pyotr_mashin:0 "표트르 마신"
@@ -759,7 +757,7 @@
  RUS_pyotr_popov:0 "표트르 포포프"
  RUS_anatoly_pepelyayev:0 "아나톨리 페펠랴예프"
  
- ### 러시아 해군 제독 ###
+ ### 러시아 제독 ###
  RUS_mikhail_berens:0 "미하일 베렌스"
  
  #############
@@ -801,7 +799,7 @@
  SIA_mongkol_mongkolnawin:0 "몽콘 몽콘나윈"
  SIA_munee_mahasantana:0 "무니 마하산타나"
  
- ### 시암 육군 장성 ###
+ ### 시암 장성 ###
  SIA_phin_choonhavan:0 "핀 춘하완"
  SIA_pichit_kriengsakpichit:0 "피칫 크리앙삭피칫"
  SIA_mangkorn_promyothee:0 "망꼰 프롬요티"
@@ -872,3 +870,80 @@
  RYU_nakasone_genwa:0 "나카소네 겐와"
  RYU_hiroshi_sho:0 "쇼 히로시"
  
+ #############
+ ### 오스트랴 ###
+ #############
+ 
+ ### 오스트리아 국민정신 ###
+ #국가원수
+ AUS_constitutional_monarch_otto:0 "오토 폰 합스부르크"
+ #시작 보유
+ AUS_saint-germain-en-laye:0 "생제르맹의 그림자"
+ cannot_call_allies_or_join_wars:0 "동맹을 호출하거나 전쟁에 참여할 수 없음"
+ 
+ ### 오스트리아 정치고문 ###
+ #반공주의
+ AUS_wilhelm_miklas:0 "빌헬름 미클라스"
+ AUS_otto_ender:0 "오토 엔더"
+ AUS_julius_raab:0 "율리우스 라프"
+ #공산주의
+ AUS_franz_koritschoner:0 "프란츠 코리초너"
+ AUS_lucien_laurat:0 "루친 라우라트"
+ #민주주의
+ AUS_karl_seitz:0 "카를 자이츠"
+ AUS_adolf_schaerf:0 "아돌프 셰르프"
+ #권위주의
+ AUS_eugen_von_habsburg:0 "오이겐 폰 합스부르크"
+ #정보기관
+ AUS_maximilian_ronge:0 "막시밀리안 롱게"
+ AUS_ernst_fischer:0 "에른스트 피셔"
+
+ ### 오스트리아 이론가 ###
+ AUS_council_of_theorists:0 "군사개혁위원회"
+ AUS_council_of_theorists2:0 "국방인민위원회"
+ AUS_otto_robert_frisch:0 "오토 로베르트 프리슈"
+ AUS_eugen_saenger:0 "오이겐 젱거"
+ 
+ ### 오스트리아 육군참모총장 ###
+ AUS_alfred_jansa:0 "알프레트 얀자"
+ AUS_ludwig_von_eimannsberger:0 "루트비히 폰 아이만스베르거"
+ 
+ ### 오스트리아 해군참모총장 ###
+ AUS_heinrich_pergler_von_perglas:0 "하인리히 페르글러 폰 페르글라스"
+ 
+ ### 오스트리아 최고사령부 ###
+ #육군
+ AUS_erhard_raus:0 "에르하르트 라우스"
+ AUS_eduard_barger:0 "에두아르트 바르거"
+ AUS_emil_hickmann:0 "에밀 히크만"
+ AUS_sigismund_schilhawsky:0 "지기스문트 실하브슈키"
+ #해군
+ AUS_maximilian_eugen_von_habsburg:0 "막시밀리안 오이겐 폰 합스부르크"
+ 
+ ### 오스트리아 장성 ###
+ AUS_julius_ringel:0 "율리우스 링헬"
+ 
+ #############
+ ### 헝가리ㅡ ###
+ #############
+ 
+ ### 헝가리 지도자 ###
+ HUN_ferenc_szalasi:0 "살러시 페렌츠"
+ 
+ ### 헝가리 정치고문 ###
+ #정보기관
+ HUN_dome_sztojay:0 "스토여이 되메"
+ 
+ ### 헝가리 이론가 ###
+ HUN_waldemar_kenese:0 "케네셰 벌데마르"
+ 
+ ### 헝가리 해군참모총장 ###
+ HUN_kalman_hardy:0 "허르지 칼만"
+ 
+ ### 헝가리 최고사령부 ###
+ HUN_vilmos_nagy:0 "너지 빌모시 데 너지버촌"
+ HUN_ferenc_farkas:0 "퍼르커시 페렌츠"
+ HUN_bela_miklos:0 "미클로시 벨러"
+ 
+ ### 헝가리 원수 ###
+ HUN_kocsard_janky:0 "연키 코차르드 데 불치"

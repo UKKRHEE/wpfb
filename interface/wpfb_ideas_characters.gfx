@@ -523,8 +523,8 @@ spriteTypes = {
 	
 	### 청국 해군참모총장 ###
 	spriteType = {
-		name = "GFX_idea_QIN_shen_honglie"
-		texturefile = "gfx/interface/ideas/QIN/idea_QIN_shen_honglie.png"
+		name = "GFX_idea_QIN_sa_zhenbing"
+		texturefile = "gfx/interface/ideas/QIN/idea_QIN_sa_zhenbing.png"
 	}
 	spriteType = {
 		name = "GFX_idea_QIN_aisin_gioro_zaixun"
@@ -587,6 +587,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_MON_tserendorj"
 		texturefile = "gfx/interface/ideas/MON/idea_MON_tserendorj.png"
+	}
+	spriteType = {
+		name = "GFX_idea_MON_tserendondovyn_navaanneren"
+		texturefile = "gfx/interface/ideas/MON/idea_MON_tserendondovyn_navaanneren.png"
 	}
 	spriteType = {
 		name = "GFX_idea_MON_altanochir"
@@ -849,12 +853,12 @@ spriteTypes = {
 	### 중화민국 북경정부/산서군벌 해군참모총장 ###
 	#무소속
 	spriteType = {
-		name = "GFX_idea_SHX_sa_zhenbing"
-		texturefile = "gfx/interface/ideas/SHX/idea_SHX_sa_zhenbing.png"
-	}
-	spriteType = {
 		name = "GFX_idea_SHX_wu_renli"
 		texturefile = "gfx/interface/ideas/SHX/idea_SHX_wu_renli.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SHX_shen_honglie"
+		texturefile = "gfx/interface/ideas/SHX/idea_SHX_shen_honglie.png"
 	}
 	
 	### 중화민국 북경정부/산서군벌 공군참모총장 ###
@@ -898,8 +902,8 @@ spriteTypes = {
 	}
 	#무소속
 	spriteType = {
-		name = "GFX_idea_SHX_du_xigui"
-		texturefile = "gfx/interface/ideas/SHX/idea_SHX_du_xigui.png"
+		name = "GFX_idea_SHX_lin_jianzhang"
+		texturefile = "gfx/interface/ideas/SHX/idea_SHX_lin_jianzhang.png"
 	}
 	
 	#############
@@ -1018,12 +1022,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_SDC_kong_dechong"
 		texturefile = "gfx/interface/ideas/SDC/idea_SDC_kong_dechong.png"
-	}
-	
-	### 산동군벌 해군참모총장 ###
-	spriteType = {
-		name = "GFX_idea_SDC_lin_jianzhang"
-		texturefile = "gfx/interface/ideas/SDC/idea_SDC_lin_jianzhang.png"
 	}
 	
 	### 산동군벌 최고사령부 ###
@@ -1380,7 +1378,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/PRC/idea_PRC_nie_rongzhen.png"
 	}
 	
-	### 중국공산당 육군 장성 ###
+	### 중국공산당 장성 ###
 	spriteType = {
 		name = "GFX_idea_PRC_ye_jianying"
 		texturefile = "gfx/interface/ideas/PRC/idea_PRC_ye_jianying.png"
@@ -1781,5 +1779,193 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_VIN_tran_van_don"
 		texturefile = "gfx/interface/ideas/VIN/idea_VIN_tran_van_don.png"
+	}
+	
+	#############
+	### 오스트랴 ###
+	#############
+	
+	### 오스트리아 정치고문 ###
+	#조건 없음
+	spriteType = {
+		name = "GFX_idea_AUS_leopold_figl"
+		texturefile = "gfx/interface/ideas/AUS/advisors/idea_AUS_leopold_figl.png"
+	}
+	#반공주의
+	spriteType = {
+		name = "GFX_idea_AUS_wilhelm_miklas"
+		texturefile = "gfx/interface/ideas/AUS/advisors/idea_AUS_wilhelm_miklas.png"
+	}
+	spriteType = {
+		name = "GFX_idea_AUS_otto_ender"
+		texturefile = "gfx/interface/ideas/AUS/advisors/idea_AUS_otto_ender.png"
+	}
+	spriteType = {
+		name = "GFX_idea_AUS_julius_raab"
+		texturefile = "gfx/interface/ideas/AUS/advisors/idea_AUS_julius_raab.png"
+	}
+	#공산주의
+	spriteType = {
+		name = "GFX_idea_AUS_franz_koritschoner"
+		texturefile = "gfx/interface/ideas/AUS/advisors/idea_AUS_franz_koritschoner.png"
+	}
+	spriteType = {
+		name = "GFX_idea_AUS_lucien_laurat"
+		texturefile = "gfx/interface/ideas/AUS/advisors/idea_AUS_lucien_laurat.png"
+	}
+	#민주주의
+	spriteType = {
+		name = "GFX_idea_AUS_karl_seitz"
+		texturefile = "gfx/interface/ideas/AUS/advisors/idea_AUS_karl_seitz.png"
+	}
+	spriteType = {
+		name = "GFX_idea_AUS_adolf_schaerf"
+		texturefile = "gfx/interface/ideas/AUS/advisors/idea_AUS_adolf_schaerf.png"
+	}
+	#파시스트
+	spriteType = {
+		name = "GFX_idea_AUS_arthur_seyss-inquart"
+		texturefile = "gfx/interface/ideas/AUS/advisors/idea_AUS_arthur_seyss-inquart.png"
+	}
+	spriteType = {
+		name = "GFX_idea_AUS_ernst_kaltenbrunner"
+		texturefile = "gfx/interface/ideas/AUS/advisors/idea_AUS_ernst_kaltenbrunner.png"
+	}
+	#권위주의
+	spriteType = {
+		name = "GFX_idea_AUS_eugen_von_habsburg"
+		texturefile = "gfx/interface/ideas/AUS/advisors/idea_AUS_eugen_von_habsburg.png"
+	}
+	#정보기관
+	spriteType = {
+		name = "GFX_idea_AUS_maximilian_ronge"
+		texturefile = "gfx/interface/ideas/AUS/advisors/idea_AUS_maximilian_ronge.png"
+	}
+	spriteType = {
+		name = "GFX_idea_AUS_ernst_fischer"
+		texturefile = "gfx/interface/ideas/AUS/advisors/idea_AUS_ernst_fischer.png"
+	}
+	
+	### 오스트리아 이론가 ###
+	spriteType = {
+		name = "GFX_idea_AUS_otto_robert_frisch"
+		texturefile = "gfx/interface/ideas/AUS/theorist/idea_AUS_otto_robert_frisch.png"
+	}
+	spriteType = {
+		name = "GFX_idea_AUS_eugen_saenger"
+		texturefile = "gfx/interface/ideas/AUS/theorist/idea_AUS_eugen_saenger.png"
+	}
+	
+	### 오스트리아 육군참모총장 ###
+	spriteType = {
+		name = "GFX_idea_AUS_alfred_jansa"
+		texturefile = "gfx/interface/ideas/AUS/army/idea_AUS_alfred_jansa.png"
+	}
+	spriteType = {
+		name = "GFX_idea_AUS_wilhelm_zehner"
+		texturefile = "gfx/interface/ideas/AUS/army/idea_AUS_wilhelm_zehner.png"
+	}
+	spriteType = {
+		name = "GFX_idea_AUS_ludwig_von_eimannsberger"
+		texturefile = "gfx/interface/ideas/AUS/army/idea_AUS_ludwig_von_eimannsberger.png"
+	}
+	
+	### 오스트리아 해군참모총장 ###
+	spriteType = {
+		name = "GFX_idea_AUS_heinrich_pergler_von_perglas"
+		texturefile = "gfx/interface/ideas/AUS/navy/idea_AUS_heinrich_pergler_von_perglas.png"
+	}
+	
+	### 오스트리아 공군참모총장 ###
+	spriteType = {
+		name = "GFX_idea_AUS_otto_schobel"
+		texturefile = "gfx/interface/ideas/AUS/air/idea_AUS_otto_schobel.png"
+	}
+	
+	### 오스트리아 최고사령부 ###
+	#육군
+	spriteType = {
+		name = "GFX_idea_AUS_erhard_raus"
+		texturefile = "gfx/interface/ideas/AUS/army/idea_AUS_erhard_raus.png"
+	}
+	spriteType = {
+		name = "GFX_idea_AUS_eduard_barger"
+		texturefile = "gfx/interface/ideas/AUS/army/idea_AUS_eduard_barger.png"
+	}
+	spriteType = {
+		name = "GFX_idea_AUS_emil_hickmann"
+		texturefile = "gfx/interface/ideas/AUS/army/idea_AUS_emil_hickmann.png"
+	}
+	spriteType = {
+		name = "GFX_idea_AUS_franz_bohme"
+		texturefile = "gfx/interface/ideas/AUS/army/idea_AUS_franz_bohme.png"
+	}
+	spriteType = {
+		name = "GFX_idea_AUS_sigismund_schilhawsky"
+		texturefile = "gfx/interface/ideas/AUS/army/idea_AUS_sigismund_schilhawsky.png"
+	}
+	#해군
+	spriteType = {
+		name = "GFX_idea_AUS_maximilian_eugen_von_habsburg"
+		texturefile = "gfx/interface/ideas/AUS/navy/idea_AUS_maximilian_eugen_von_habsburg.png"
+	}
+	
+	### 오스트리아 원수 ###
+	spriteType = {
+		name = "GFX_idea_AUS_eugen_von_habsburg2"
+		texturefile = "gfx/interface/ideas/AUS/army/idea_AUS_eugen_von_habsburg2.png"
+	}
+	
+	### 오스트리아 장성 ###
+	spriteType = {
+		name = "GFX_idea_AUS_karl_eglseer"
+		texturefile = "gfx/interface/ideas/AUS/army/idea_AUS_karl_eglseer.png"
+	}
+	spriteType = {
+		name = "GFX_idea_AUS_julius_ringel"
+		texturefile = "gfx/interface/ideas/AUS/army/idea_AUS_julius_ringel.png"
+	}
+	
+	#############
+	### 헝가리ㅡ ###
+	#############
+	
+	### 헝가리 정치고문 ###
+	#정보기관
+	spriteType = {
+		name = "GFX_idea_HUN_dome_sztojay"
+		texturefile = "gfx/interface/ideas/HUN/advisors/idea_HUN_dome_sztojay.png"
+	}
+	
+	### 헝가리 이론가 ###
+	spriteType = {
+		name = "GFX_idea_HUN_waldemar_kenese"
+		texturefile = "gfx/interface/ideas/HUN/theorist/idea_HUN_waldemar_kenese.png"
+	}
+	
+	### 헝가리 해군참모총장 ###
+	spriteType = {
+		name = "GFX_idea_HUN_kalman_hardy"
+		texturefile = "gfx/interface/ideas/HUN/navy/idea_HUN_kalman_hardy.png"
+	}
+	
+	### 헝가리 최고사령부 ###
+	spriteType = {
+		name = "GFX_idea_HUN_vilmos_nagy"
+		texturefile = "gfx/interface/ideas/HUN/army/idea_HUN_vilmos_nagy.png"
+	}
+	spriteType = {
+		name = "GFX_idea_HUN_ferenc_farkas"
+		texturefile = "gfx/interface/ideas/HUN/army/idea_HUN_ferenc_farkas.png"
+	}
+	spriteType = {
+		name = "GFX_idea_HUN_bela_miklos"
+		texturefile = "gfx/interface/ideas/HUN/army/idea_HUN_bela_miklos.png"
+	}
+	
+	### 헝가리 원수 ###
+	spriteType = {
+		name = "GFX_idea_HUN_kocsard_janky"
+		texturefile = "gfx/interface/ideas/HUN/army/idea_HUN_kocsard_janky.png"
 	}
 }

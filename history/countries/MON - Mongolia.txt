@@ -18,6 +18,7 @@ recruit_character = MON_7th_changkya_khutukhtu
 recruit_character = MON_demchugdongrub
 
 ### 정치고문 ###
+recruit_character = MON_tserendondovyn_navaanneren
 recruit_character = MON_tserendorj
 recruit_character = MON_altanochir
 recruit_character = MON_jamsrangiin_tseveen

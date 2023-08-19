@@ -243,36 +243,22 @@ characters={
 	}
 	
 	### 해군참모총장 ###
-	SDC_lin_jianzhang = {
-		name=SDC_lin_jianzhang
+	SDC_navy_department = {
+		name=joint_navy_department
 		portraits={
 			army={
-				large=GFX_portrait_SDC_lin_jianzhang
-				small=GFX_idea_SDC_lin_jianzhang
+				small=GFX_idea_Joint_navy_department
 			}
 		}
 		advisor={
-			cost = 100
 			slot = navy_chief
-			idea_token = SDC_lin_jianzhang
+			idea_token = SDC_navy_department
 		    allowed = {
 		    	original_tag = SDC
 	    	}
 		    traits = {
 				navy_chief_reform_1
 			}
-		}
-		navy_leader={
-			traits = {
-				navy_media_personality
-				navy_career_officer
-			}
-			skill = 2
-			attack_skill = 1
-			defense_skill = 2
-			maneuvering_skill = 3
-			coordination_skill = 1
-			legacy_id=-1
 		}
 	}
 	
