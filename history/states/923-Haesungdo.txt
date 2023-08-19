@@ -3,7 +3,6 @@ state={
 	id=923
 	name="STATE_923"
 
-	local_supplies=0.0 
 	history={
 		owner = KOR
 		buildings = {
@@ -13,17 +12,15 @@ state={
 			arms_factory = 1
 
 		}
-		victory_points = {
-			3977 5 
-		}
 		add_core_of = KOR
 
 	}
 
 	provinces={
-		810 3787 3843 3977 5427 6684 6838 6989 11750 11879 
+		887 946 1567 3913 3932 6947 7591 7663 9913 11864 
 	}
 	manpower=234560
 	buildings_max_level_factor=1.000
 	state_category=town
+	local_supplies=0.000
 }
