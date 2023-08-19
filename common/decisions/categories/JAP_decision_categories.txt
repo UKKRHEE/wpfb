@@ -1,0 +1,17 @@
+################
+#### 대일본제국 ####
+################
+JAP_test_the_soviet_union = {
+
+    icon = jap_pacific_guardian
+	
+	allowed = {
+		original_tag = JAP
+	}
+	priority = 9990
+	visible = {
+	     NOT = {
+	     has_global_flag = JAP_end_of_test
+	     }
+    }
+}

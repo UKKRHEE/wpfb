@@ -9,12 +9,12 @@ state={
 		add_core_of = JAP
 		add_core_of = JAP
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
+                        dockyard = 2
 			9859 = {
 				naval_base = 3
 
 			}
-
 		}
 
 	}

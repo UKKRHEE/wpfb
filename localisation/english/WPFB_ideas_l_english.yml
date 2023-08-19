@@ -214,6 +214,8 @@
  ### 일본 flag ###
  JAP_toseiha_out:0 "통제파가 축출됨"
  JAP_kodoha_out:0 "황도파가 축출됨"
+ JAP_end_of_test:0 "도발이 끝남"
+ JAP_testing_soviet_navys:0 "도발이 진행중에 있음"
  
  #############
  ### 대청제국 ###
@@ -947,3 +949,4 @@
  
  ### 헝가리 원수 ###
  HUN_kocsard_janky:0 "연키 코차르드 데 불치"
+ 

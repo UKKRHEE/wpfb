@@ -1,0 +1,52 @@
+﻿l_english:
+ PK_NEWS.SOV:0 "£soviet_news\n\n\n\n\n\n\n\n\n\n\n\n\n"
+ PK_NEWS.RUS:0 "£russian_news\n\n\n\n\n\n\n\n\n\n\n\n\n"
+ PK_NEWS.GER:0 "£nazi_news\n\n\n\n\n\n\n\n\n\n\n\n\n"
+ PK_NEWS.KAS:0 "£kaiser_news\n\n\n\n\n\n\n\n\n\n\n\n\n"
+ PK_NEWS.DDR:0 "£east_ger_news\n\n\n\n\n\n\n\n\n\n\n\n\n"
+ PK_NEWS.WGR:0 "£weimar_news\n\n\n\n\n\n\n\n\n\n\n\n\n"
+ PK_NEWS.FRA:0 "£france_news\n\n\n\n\n\n\n\n\n\n\n\n\n"
+ PK_NEWS.VIC:0 "£vichy_news\n\n\n\n\n\n\n\n\n\n\n\n\n"
+ PK_NEWS.USA:0 "£usa_news\n\n\n\n\n\n\n\n\n\n\n\n\n"
+ PK_NEWS.ENG:0 "£british_news\n\n\n\n\n\n\n\n\n\n\n\n\n"
+ PK_NEWS.CHI:0 "£china_news\n\n\n\n\n\n\n\n\n\n\n\n\n"
+ PK_NEWS.PRC:0 "£com_china_news\n\n\n\n\n\n\n\n\n\n\n\n\n"
+ PK_NEWS.SIK:0 "£sinkiang_news\n\n\n\n\n\n\n\n\n\n\n\n\n"
+ PK_NEWS.JAP:0 "£japanese_news\n\n\n\n\n\n\n\n\n\n\n\n\n"
+ PK_NEWS.KOR:0 "£korean_news\n\n\n\n\n\n\n\n\n\n\n\n\n"
+ PK_NEWS.ITA:0 "£italian_news\n\n\n\n\n\n\n\n\n\n\n\n\n"
+
+ PK_NEWS.MAN_NIP:0 "£man_nippon_news\n\n\n\n\n\n\n\n\n\n\n\n\n"
+ PK_NEWS.MAN_DN:0 "£man_daily_news\n\n\n\n\n\n\n\n\n\n\n\n\n"
+
+ PK_NEWS.GENERIC:0 "£generic_news\n\n\n\n\n\n\n\n\n\n\n\n\n"
+ #############
+ ### 대일본제국 ##
+ #############
+ 
+ ### 인트로 ###
+ 
+ 
+ 
+ ### 디시전 ###
+ JAP_test_the_soviet_union:0 "[SOV.GetAdjective] 도발"
+ JAP_test_the_soviet_union_desc:0 "우리는 동해와 오호츠크해에서 [SOV.GetNameDef]과 긴 영해를 접하고 있습니다. 이 길고도 긴 영해는 우리의 해군과 극동함대 간의 마찰이 생길 수 있는 잠재적인 거대한 화약고입니다. 우리는 이 긴 영해를 이용해 '사소한' 도발로 우리 해군의 실전 경험을 늘리고 나약해빠진 [SOV.GetAdjective] 극동함대의 능력을 시험해 볼 기회가 있습니다."
+ JAP_test_the_union:0 "[SOV.GetAdjective] 극동함대 시험"
+ JAP_japanese_tests_union:0 "[JAP.GetAdjective]의 극동함대 시험"
+ JAP_japanese_tests_union_desc:0 "간악하고도 비열한 [JAP.GetAdjective] 해군은 우리가 멋대로 우리 영해를 함부로 사용하지 못하게 하겠다고 엄포를 두었습니다. 하지만 우리의 극동함대는 아직 일본 해군과 비교하면 힘없고 별 볼일 없는 해군일 뿐입니다. 우리의 준비태세를 만반히 해놓지 않는다면 그 결과는 끔찍할 것입니다."
+ JAP_test_percent:0 "[JAP.GetAdjective] 측이 '신규 해군 예산' 중점을 완료하였다면 일본 측의 승리가 사실상 가정화될 것입니다."
+ 
+ 
+ ### 이벤트 ###
+ japan.50.t:0 "동해에서의 일본 도발"
+ japan.50.d:0 "우리와 [JAP.GetNameDef]간의 영해 표시선 유지를 목적으로 작업반이 동해 인근의 경계 표시선을 확인하고자 파견되었습니다.\n\n작업반이 영해에 다가갔을 때, 현지의 일본군 순양함으로부터 포격을 받았습니다. 우리는 공식적인 외교적 항의와 사과를 요구하였지만, 주일본 대사는 우리 측에서 표시선을 몰래 이동시켜 더욱이 많은 영해를 차지하고자 작업반을 파견하였다는 태도를 고수하고 있습니다.\n\n일본은 영해를 존중하되 현재의 경계에 어떠한 '간섭'도 허용하지 않을 것이며, 만일 우리가 그렇게 하려고 한다면 무력으로 대응하겠다고 장담하였습니다.\n\n이는 사실상 우리가 그 바다에서 우리 영해에 대하여 더 이상 자유롭게 움직일 수 없다는 것을 의미합니다."
+ japan.50.a:0 "그들이 감히??"
+ japan.51.t:0 "연합함대와 극동함대간 충돌 - 무승부"
+ japan.51.d:0 "몇주일 전 시작된 [JAP.GetNameDef]의 연합함대와 [SOV.GetNameDef]의 극동함대간의 충돌이 오늘부로 모두 끝났습니다. 대다수 많은 군사학자들의 예측은 연합함대가 손쉽게 극동함대를 격퇴하는 것으로 예측하였으나, 놀랍게도 극동함대의 극심한 저항과 일본 해군의 방심이 결과에 영향을 끼쳤고, 마침내 결과는 무승부로 끝났습니다.\n\n극동함대의 적은 주력함에도 불구하고 일본 해군의 방심으로 인한 구형 함선들의 투입과 불리한 상황에서 [SOV.GetNameDef] 수병들의 강력한 저항으로 그 누구도 예측하지 못한 결과를 불러왔습니다."
+ japan.51.a:0 "이런 제기랄."
+ japan.51.b:0 "영웅적인 극동함대에게는 추가 예산이 주어질 것이다!"
+ japan.52.t:0 "연합함대와 극동함대간 충돌 - 일본 승리"
+ japan.52.d:0 "몇주일 전 시작된 [JAP.GetNameDef]의 연합함대와 [SOV.GetNameDef]의 극동함대간의 충돌이 오늘부로 모두 끝났습니다. 대다수 많은 군사학자들은 연합함대가 손쉽게 극동함대를 격퇴하는 것으로 예상하였고, 당연하게도 연합함대와 극동함대간의 충돌은 극동함대의 극심한 피해와 극동함대의 후퇴로 마침내 결과는 일본의 승리로 끝났습니다.\n\n최근 일본 해군에게 주어진 추가적인 예산과 극동함대의 노후화, 일본 해군 전함의 예측할 수 없는 기동이 극동함대의 주력함에게 큰 피해를 입혔으며, 이로 인해 극동함대 사령관은 어쩔 수 없이 후퇴 명령을 내렸고, 이는 두 함대간 충돌에서 일본의 승리를 불러왔습니다."
+ japan.52.a:0 "자랑스럽게 돌아오거라, 수병들이여!"
+ japan.52.b:0 "어쩔 수 없는 일이였다."
+ 
