@@ -5,7 +5,6 @@ state={
 	resources={
 		tungsten=2.000
 	}
-	local_supplies=0.0 
 
 	history={
 		owner = YUN
@@ -25,7 +24,7 @@ state={
 			if = {
 				limit = {
 					NOT = {
-						has_dlc = "Waking the Tiger"
+						has_dlc = Waking the Tiger
 
 					}
 
@@ -42,9 +41,10 @@ state={
 	}
 
 	provinces={
-		1114 1172 1196 1319 1383 1522 1653 4501 5072 7446 7606 8023 10346 10776 10819 12262 12282 12841 
+		1114 1172 1196 1319 1383 1522 1653 4501 5072 7446 7606 8023 10346 10819 12262 12282 12841 
 	}
 	manpower=10994500
 	buildings_max_level_factor=1.000
 	state_category=town
+	local_supplies=0.000
 }
