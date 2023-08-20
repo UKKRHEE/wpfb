@@ -1,0 +1,21 @@
+state={
+	id=1010
+	name="STATE_1010"
+	provinces={
+		4937 8126 12789 
+	}
+	history={
+		owner = TIB
+		add_core_of = TIB
+		add_core_of = YUN
+		add_core_of = CHI
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 1
+		}
+	}	
+	manpower=184109
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

@@ -1,11 +1,11 @@
-
 state={
-	id=952
-	name="STATE_952"
-
+	id=1008
+	name="STATE_1008"
+	provinces={
+		4158 9937 10434 10446 12426 
+	}
 	history={
-		owner = SHX
-		add_core_of = SHX
+		owner = CHI
 		add_core_of = CHI
 		add_core_of = PRC
 		buildings = {
@@ -15,11 +15,7 @@ state={
 		}
 
 	}
-
-	provinces={
-		1004 1603 4519 4547 6932 7459 7508 7540 7568 11931 12012 
-	}
-	manpower=8578542
+	manpower=4012989
 	buildings_max_level_factor=1.000
 	state_category=town
 	local_supplies=0.000

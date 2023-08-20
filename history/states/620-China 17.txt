@@ -3,7 +3,6 @@ state={
 	id=620
 	name="STATE_620"
 
-	local_supplies=0.0 
 	history={
 		owner = SHX
 		add_core_of = SHX
@@ -42,9 +41,10 @@ state={
 	}
 
 	provinces={
-		4009 7167 7580 7625 7637 9934 9959 10462 
+		4009 7580 7625 9934 
 	}
-	manpower=12541600
+	manpower=7541600
 	buildings_max_level_factor=1.000
 	state_category=city
+	local_supplies=0.000
 }
