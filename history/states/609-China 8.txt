@@ -11,7 +11,6 @@ state={
 		add_core_of = QIN
 		buildings = {
 			infrastructure = 1
-			arms_factory = 1
 			industrial_complex = 1
 			6969 = {
 				bunker = 1
@@ -39,9 +38,9 @@ state={
 	}
 
 	provinces={
-		881 900 1052 3830 3900 6969 9905 11822 12043 
+		881 900 1052 6969 11822 12043 
 	}
-	manpower=6400000
+	manpower=3400000
 	buildings_max_level_factor=1.000
 	state_category=town
 	local_supplies=0.000

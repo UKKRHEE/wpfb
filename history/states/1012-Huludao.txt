@@ -1,0 +1,28 @@
+state={
+	id=1012
+	name="STATE_1012"
+	provinces={
+		3830 3900 9905 
+	}
+	history={
+		owner = QIN
+		add_core_of = SHX
+		add_core_of = CHI
+		add_core_of = PRC
+		add_core_of = QIN
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+
+		}
+		1936.8.1 = {
+			controller = JAP
+
+		}
+
+	}
+	manpower=2012390
+	state_category=rural
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
