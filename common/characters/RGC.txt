@@ -160,7 +160,7 @@ characters={
 				original_tag = RGC
 			}
 			traits = {
-				eager_collaborator_advisor
+				eager_collaborator2
 			}
 		}
 	}

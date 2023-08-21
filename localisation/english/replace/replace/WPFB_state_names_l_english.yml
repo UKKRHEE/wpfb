@@ -30,10 +30,6 @@
  STATE_328:0 "지린"
  ###식민지###
  STATE_743:0 "칭다오"
- #STATE_524:0 "대만"
- #STATE_528:0 "장기"
- ###보호령###
- #STATE_526:0 "류큐"
 
  ###중국###
  STATE_746:0 "이커자오"
@@ -42,7 +38,7 @@
  STATE_614:0 "바오딩"
  STATE_592:0 "포산"
  STATE_928:0 "톈진"
- STATE_929:0 "웨이하이" #웨이하이
+ STATE_929:0 "웨이하이"
  STATE_930:0 "옌타이"
  STATE_931:0 "상하이"
  STATE_932:0 "쑤저우"
@@ -123,11 +119,9 @@
  STATE_756:0 "어지나"
  
  STATE_529:0 "주고쿠"
- STATE_645:0 "황도"
- STATE_648:0 "남조도"
+ STATE_645:0 "이오지마"
  STATE_68:0 "퀴스트린"
  
- STATE_555:0 "천도 열도"
  STATE_330:0 "후레"
  
  STATE_154:0 "허이두비허르"
@@ -183,12 +177,6 @@
  
  STATE_736:0 "트리에스테"
  STATE_50:0 "바덴"
-
- STRATEGICREGION_250:0 "서강"
- STRATEGICREGION_79:0 "한국해"
- LOC_TLE_SEA_OF_KOREA_PROBLEM_1:0 "한국해"
- LOC_TLE_SEA_OF_KOREA_PROBLEM_2:0 "동해"
- STRATEGICREGION_77:0 "서해"
  
  STRATEGICREGION_143:0 "화북"
  STRATEGICREGION_245:0 "산서"

@@ -321,6 +321,11 @@ GXC = { #오얏꽃
 }
 
 SHX = { #오얏꽃
+	color = rgb { 82  2  15 }
+	color_ui = rgb { 101  30  41 }
+}
+
+GMJ = { #오얏꽃
 	color = rgb { 42 96 59 }
 	color_ui = rgb { 42 96 59 }
 }

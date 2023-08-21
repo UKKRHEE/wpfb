@@ -19,27 +19,6 @@ state={
 			industrial_complex = 2
 
 		}
-		1935.12.1 = {
-			set_demilitarized_zone = yes
-
-		}
-		1938.10.25 = {
-			if = {
-				limit = {
-					NOT = {
-						has_dlc = "Waking the Tiger"
-
-					}
-
-				}
-				CHI = {
-					transfer_state = PREV
-
-				}
-
-			}
-
-		}
 
 	}
 

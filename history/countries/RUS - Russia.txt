@@ -24,22 +24,34 @@ set_popularities = {
 }
 
 ### 지도자 ###
-recruit_character = RUS_bolsheviks
+recruit_character = RUS_vladimir_kirillovich
 recruit_character = RUS_alexander_kerensky
 recruit_character = RUS_konstantin_rodzaevsky
-recruit_character = RUS_vladimir_kirillovich
 
 ### 정치고문 ###
-recruit_character = RUS_aleksandr_verkhovsky
-recruit_character = RUS_vasily_kharlamov
+#공용
+recruit_character = RUS_aleksandr_konovalov
+#공산주의
+recruit_character = RUS_aleksandr_kazembek2
+recruit_character = RUS_vasily_shulgin2
+recruit_character = RUS_nikolay_ustryalov
+#민주주의
+recruit_character = RUS_viktor_chernov
 recruit_character = RUS_pavel_milyukov
-recruit_character = RUS_sofia_panina
+recruit_character = RUS_ivan_efremov
+recruit_character = RUS_vasily_maklakov
+#파시스트
 recruit_character = RUS_anastasy_vonsyatsky
+recruit_character = RUS_nikolay_markov
+#권위주의
 recruit_character = RUS_aleksandr_kazembek
+recruit_character = RUS_vasily_shulgin
+#정교회
 recruit_character = RUS_patriarch_sergy
 recruit_character = RUS_metropolitan_anastasy
 recruit_character = RUS_metropolitan_nikolay
 recruit_character = RUS_metropolitan_aleksy
+#정보기관
 recruit_character = RUS_klavdiy_foss
 
 ### 이론가 ###

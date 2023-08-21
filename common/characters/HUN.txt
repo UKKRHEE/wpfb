@@ -126,7 +126,7 @@ characters={
 		}
 	}
 	
-	### 정치고문/조건없음 ###
+	### 정치고문/공용 ###
 	HUN_kalman_kanya={
 		name=HUN_kalman_kanya
 		portraits={

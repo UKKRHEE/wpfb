@@ -8,6 +8,7 @@
 			add = 10
 			OR = {
 				tag = SHX
+				tag = GMJ
 				tag = SDC
 				tag = XSM
 				tag = SCC

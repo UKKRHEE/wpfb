@@ -83,6 +83,9 @@ characters={
 			id=-1
 		}
 		field_marshal={
+			visible = {
+				has_country_leader = { character = QIN_zhang_zuolin }
+			}
 			traits = {
 				old_guard
 				organizer
@@ -106,110 +109,7 @@ characters={
 		}
 	}
 	
-	### 정치고문 ###
-	QIN_aisin_gioro_pujie={
-		name=QIN_aisin_gioro_pujie
-		portraits={
-			civilian={
-				large=GFX_portrait_QIN_aisin_gioro_pujie
-				small=GFX_idea_QIN_aisin_gioro_pujie
-			}
-		}
-		advisor={
-			slot = political_advisor
-			idea_token = QIN_aisin_gioro_pujie
-			allowed = {
-				original_tag = QIN
-			}
-			traits = {
-				staunch_monarchist
-			}
-		}
-		field_marshal={
-			traits = {
-				trait_reckless
-				politically_connected
-			}
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
-			legacy_id=-1
-		}
-	}
-	QIN_aisin_gioro_zaizhen={
-		name=QIN_aisin_gioro_zaizhen
-		portraits={
-			civilian={
-				small=GFX_idea_QIN_aisin_gioro_zaizhen
-			}
-		}
-		advisor={
-			slot = political_advisor
-			idea_token = QIN_aisin_gioro_zaizhen
-			allowed = {
-				original_tag = QIN
-			}
-			traits = {
-				captain_of_industry
-			}
-		}
-	}
-	QIN_xie_jieshi={
-		name=QIN_xie_jieshi
-		portraits={
-			civilian={
-				small=GFX_idea_QIN_xie_jieshi
-			}
-		}
-		advisor={
-			slot = political_advisor
-			idea_token = QIN_xie_jieshi
-			allowed = {
-				original_tag = QIN
-			}
-			traits = {
-				smooth_talking_charmer
-			}
-		}
-	}
-	QIN_liang_shiyi={
-		name=QIN_liang_shiyi
-		portraits={
-			civilian={
-				small=GFX_idea_QIN_liang_shiyi
-			}
-		}
-		advisor={
-			slot = political_advisor
-			idea_token = QIN_liang_shiyi
-			allowed = {
-				original_tag = QIN
-			}
-			traits = {
-				financial_expert
-			}
-		}
-	}
-	QIN_luo_zhenyu={
-		name=QIN_luo_zhenyu
-		portraits={
-			civilian={
-				small=GFX_idea_QIN_luo_zhenyu
-			}
-		}
-		advisor={
-			slot = political_advisor
-			idea_token = QIN_luo_zhenyu
-			allowed = {
-				original_tag = QIN
-			}
-			traits = {
-				enlightened_academic
-			}
-		}
-	}
+	### 정치고문/공용 ###
 	QIN_feng_hanqing={
 		name=QIN_feng_hanqing
 		portraits={
@@ -232,23 +132,184 @@ characters={
 		name=QIN_kang_tongbi
 		portraits={
 			civilian={
+				large=GFX_portrait_QIN_kang_tongbi
 				small=GFX_idea_QIN_kang_tongbi
 			}
 		}
 		advisor={
 			slot = political_advisor
 			idea_token = QIN_kang_tongbi
+			allowed = {
+				original_tag = QIN
+			}
+			traits = {
+				womens_rights_activist2
+			}
+		}
+	}
+	QIN_li_shaogeng={
+		name=QIN_li_shaogeng
+		portraits={
+			civilian={
+				large=GFX_portrait_QIN_li_shaogeng
+				small=GFX_idea_QIN_li_shaogeng
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = QIN_li_shaogeng
+			allowed = {
+				original_tag = QIN
+			}
+			traits = {
+				railway_specialist
+			}
+		}
+	}
+	
+	### 정치고문/종사당 ###
+	QIN_aisin_gioro_pujie={
+		name=QIN_aisin_gioro_pujie
+		portraits={
+			civilian={
+				large=GFX_portrait_QIN_aisin_gioro_pujie
+				small=GFX_idea_QIN_aisin_gioro_pujie
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = QIN_aisin_gioro_pujie
+			visible = {
+				OR = {
+					has_country_leader = { character = QIN_aisin_gioro_puyi }
+					has_idea = QIN_constitutional_monarch_puyi
+				}
+			}
 			available = {
-				has_government = democratic
+				OR = {
+					has_country_leader = { character = QIN_aisin_gioro_puyi }
+					has_idea = QIN_constitutional_monarch_puyi
+				}
 			}
 			allowed = {
 				original_tag = QIN
 			}
 			traits = {
-				womens_rights_activist
+				flamboyant_brute
+			}
+		}
+		corps_commander={
+			visible = {
+				OR = {
+					has_country_leader = { character = QIN_aisin_gioro_puyi }
+					has_idea = QIN_constitutional_monarch_puyi
+				}
+			}
+			traits = {
+				trait_reckless
+				politically_connected
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id=-1
+		}
+	}
+	QIN_aisin_gioro_zaizhen={
+		name=QIN_aisin_gioro_zaizhen
+		portraits={
+			civilian={
+				large=GFX_portrait_QIN_aisin_gioro_zaizhen
+				small=GFX_idea_QIN_aisin_gioro_zaizhen
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = QIN_aisin_gioro_zaizhen
+			visible = {
+				OR = {
+					has_country_leader = { character = QIN_aisin_gioro_puyi }
+					has_idea = QIN_constitutional_monarch_puyi
+				}
+			}
+			available = {
+				OR = {
+					has_country_leader = { character = QIN_aisin_gioro_puyi }
+					has_idea = QIN_constitutional_monarch_puyi
+				}
+			}
+			allowed = {
+				original_tag = QIN
+			}
+			traits = {
+				captain_of_industry
 			}
 		}
 	}
+	QIN_xie_jieshi={
+		name=QIN_xie_jieshi
+		portraits={
+			civilian={
+				small=GFX_idea_QIN_xie_jieshi
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = QIN_xie_jieshi
+			visible = {
+				OR = {
+					has_country_leader = { character = QIN_aisin_gioro_puyi }
+					has_idea = QIN_constitutional_monarch_puyi
+				}
+			}
+			available = {
+				OR = {
+					has_country_leader = { character = QIN_aisin_gioro_puyi }
+					has_idea = QIN_constitutional_monarch_puyi
+				}
+			}
+			allowed = {
+				original_tag = QIN
+			}
+			traits = {
+				smooth_talking_charmer
+			}
+		}
+	}
+	QIN_luo_zhenyu={
+		name=QIN_luo_zhenyu
+		portraits={
+			civilian={
+				small=GFX_idea_QIN_luo_zhenyu
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = QIN_luo_zhenyu
+			visible = {
+				OR = {
+					has_country_leader = { character = QIN_aisin_gioro_puyi }
+					has_idea = QIN_constitutional_monarch_puyi
+				}
+			}
+			available = {
+				OR = {
+					has_country_leader = { character = QIN_aisin_gioro_puyi }
+					has_idea = QIN_constitutional_monarch_puyi
+				}
+			}
+			allowed = {
+				original_tag = QIN
+			}
+			traits = {
+				enlightened_academic
+			}
+		}
+	}
+	
+	### 정치고문/정보기관 ###
 	QIN_yu_zhishan={
 		name=QIN_yu_zhishan
 		portraits={
@@ -335,37 +396,7 @@ characters={
 	}
 	
 	### 육군참모총장 ###
-	QIN_yang_yuting = {
-		name=QIN_yang_yuting
-		portraits={
-			army={
-				large=GFX_portrait_QIN_yang_yuting
-				small=GFX_idea_QIN_yang_yuting
-			}
-		}
-		advisor={
-			cost = 100
-			slot = army_chief
-			idea_token = QIN_yang_yuting
-		    allowed = {
-		    	original_tag = QIN
-		    }
-		    traits = {
-				army_chief_organizational_2
-			}
-		}
-		corps_commander={
-			traits = {
-				career_officer
-			}
-			skill = 3
-			attack_skill = 3
-			defense_skill = 2
-			planning_skill = 3
-			logistics_skill = 2
-			legacy_id=-1
-		}
-	}
+	#공용
 	QIN_liu_menggeng={
 		name=QIN_liu_menggeng
 		portraits={
@@ -385,7 +416,7 @@ characters={
 				army_chief_reform_2
 			}
 		}
-		corps_commander={
+		field_marshal={
 			traits = {
 				career_officer
 				trait_cautious
@@ -399,6 +430,57 @@ characters={
 			legacy_id=-1
 		}
 	}
+	#봉천군벌
+	QIN_yang_yuting = {
+		name=QIN_yang_yuting
+		portraits={
+			army={
+				large=GFX_portrait_QIN_yang_yuting
+				small=GFX_idea_QIN_yang_yuting
+			}
+		}
+		advisor={
+			cost = 100
+			slot = army_chief
+			idea_token = QIN_yang_yuting
+		    visible = {
+				OR = {
+					has_country_leader = { character = QIN_zhang_zuolin }
+					has_country_leader = { character = QIN_zhang_xueliang }
+				}
+			}
+			available = {
+				OR = {
+					has_country_leader = { character = QIN_zhang_zuolin }
+					has_country_leader = { character = QIN_zhang_xueliang }
+				}
+			}
+			allowed = {
+		    	original_tag = QIN
+		    }
+		    traits = {
+				army_chief_organizational_2
+			}
+		}
+		corps_commander={
+			visible = {
+				OR = {
+					has_country_leader = { character = QIN_zhang_zuolin }
+					has_country_leader = { character = QIN_zhang_xueliang }
+				}
+			}
+			traits = {
+				career_officer
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+	#종사당
 	QIN_aisin_gioro_zaitao = {
 		name=QIN_aisin_gioro_zaitao
 		portraits={
@@ -410,7 +492,19 @@ characters={
 		advisor={
 			slot = army_chief
 			idea_token = QIN_aisin_gioro_zaitao
-		    allowed = {
+		    visible = {
+				OR = {
+					has_country_leader = { character = QIN_aisin_gioro_puyi }
+					has_idea = QIN_constitutional_monarch_puyi
+				}
+			}
+			available = {
+				OR = {
+					has_country_leader = { character = QIN_aisin_gioro_puyi }
+					has_idea = QIN_constitutional_monarch_puyi
+				}
+			}
+			allowed = {
 		    	original_tag = QIN
 		    }
 		    traits = {
@@ -418,6 +512,12 @@ characters={
 			}
 		}
 		corps_commander={
+			visible = {
+				OR = {
+					has_country_leader = { character = QIN_aisin_gioro_puyi }
+					has_idea = QIN_constitutional_monarch_puyi
+				}
+			}
 			traits = {
 				politically_connected
 				cavalry_officer
@@ -433,6 +533,7 @@ characters={
 	}
 	
 	### 해군참모총장 ###
+	#공용
 	QIN_sa_zhenbing = {
 		name=QIN_sa_zhenbing
 		portraits={
@@ -467,6 +568,7 @@ characters={
 			legacy_id=-1
 		}
 	}
+	#종사당
 	QIN_aisin_gioro_zaixun = {
 		name=QIN_aisin_gioro_zaixun
 		portraits={
@@ -478,7 +580,19 @@ characters={
 		advisor={
 			slot = navy_chief
 			idea_token = QIN_aisin_gioro_zaixun
-		    allowed = {
+		    visible = {
+				OR = {
+					has_country_leader = { character = QIN_aisin_gioro_puyi }
+					has_idea = QIN_constitutional_monarch_puyi
+				}
+			}
+			available = {
+				OR = {
+					has_country_leader = { character = QIN_aisin_gioro_puyi }
+					has_idea = QIN_constitutional_monarch_puyi
+				}
+			}
+			allowed = {
 		    	original_tag = QIN
 	    	}
 		    traits = {
@@ -486,6 +600,12 @@ characters={
 			}
 		}
 		navy_leader={
+			visible = {
+				OR = {
+					has_country_leader = { character = QIN_aisin_gioro_puyi }
+					has_idea = QIN_constitutional_monarch_puyi
+				}
+			}
 			traits = {
 				#
 			}
@@ -520,70 +640,55 @@ characters={
 	}
 	
 	### 최고사령부 ###
-	QIN_aisin_gioro_xiqia={
-		name=QIN_aisin_gioro_xiqia
+	#육군/봉천군벌
+	QIN_zhang_zuoxiang = {
+		name=QIN_zhang_zuoxiang
 		portraits={
 			army={
-				large=GFX_portrait_QIN_aisin_gioro_xiqia
-				small=GFX_idea_QIN_aisin_gioro_xiqia
+				large=GFX_portrait_QIN_zhang_zuoxiang
+				small=GFX_idea_QIN_zhang_zuoxiang
 			}
 		}
 		advisor={
+			cost = 100
 			slot = high_command
-			idea_token = QIN_aisin_gioro_xiqia
+			idea_token = QIN_zhang_zuoxiang
 			ledger = army
-	    	allowed = {
-	    		original_tag = QIN
-	    	}
-	    	traits = {
-				army_cavalry_1
+		    visible = {
+				OR = {
+					has_country_leader = { character = QIN_zhang_zuolin }
+					has_country_leader = { character = QIN_zhang_xueliang }
+				}
 			}
-		}
-		corps_commander={
-			traits = {
-				politically_connected
-				trait_reckless
-				harsh_leader
+			available = {
+				OR = {
+					has_country_leader = { character = QIN_zhang_zuolin }
+					has_country_leader = { character = QIN_zhang_xueliang }
+				}
 			}
-			skill = 1
-			attack_skill = 2
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
-			legacy_id=-1
-		}
-	}
-	QIN_gobulo_runqi = {
-		name=QIN_gobulo_runqi
-		portraits={
-			army={
-				large=GFX_portrait_QIN_gobulo_runqi
-				small=GFX_idea_QIN_gobulo_runqi
-			}
-		}
-		advisor={
-			slot = high_command
-			idea_token = QIN_gobulo_runqi
-			ledger = army
-		    allowed = {
+			allowed = {
 		    	original_tag = QIN
 		    }
 		    traits = {
-				army_armored_1
+				army_infantry_2
 			}
 		}
 		corps_commander={
-			traits = {
-				media_personality
-				trait_reckless
-				armor_officer
-				politically_connected
+			visible = {
+				OR = {
+					has_country_leader = { character = QIN_zhang_zuolin }
+					has_country_leader = { character = QIN_zhang_xueliang }
+				}
 			}
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
+			traits = {
+				old_guard
+				career_officer
+			}
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 2
 			legacy_id=-1
 		}
 	}
@@ -600,7 +705,19 @@ characters={
 			slot = high_command
 			idea_token = QIN_wan_fulin
 			ledger = army
-		    allowed = {
+		    visible = {
+				OR = {
+					has_country_leader = { character = QIN_zhang_zuolin }
+					has_country_leader = { character = QIN_zhang_xueliang }
+				}
+			}
+			available = {
+				OR = {
+					has_country_leader = { character = QIN_zhang_zuolin }
+					has_country_leader = { character = QIN_zhang_xueliang }
+				}
+			}
+			allowed = {
 		    	original_tag = QIN
 		    }
 		    traits = {
@@ -608,6 +725,12 @@ characters={
 			}
 		}
 		corps_commander={
+			visible = {
+				OR = {
+					has_country_leader = { character = QIN_zhang_zuolin }
+					has_country_leader = { character = QIN_zhang_xueliang }
+				}
+			}
 			traits = {
 				infantry_officer
 			}
@@ -631,7 +754,19 @@ characters={
 			slot = high_command
 			idea_token = QIN_zhang_xueliang
 			ledger = army
-		    allowed = {
+		    visible = {
+				OR = {
+					has_country_leader = { character = QIN_zhang_zuolin }
+					has_country_leader = { character = QIN_zhang_xueliang }
+				}
+			}
+			available = {
+				OR = {
+					has_country_leader = { character = QIN_zhang_zuolin }
+					has_country_leader = { character = QIN_zhang_xueliang }
+				}
+			}
+			allowed = {
 		    	original_tag = QIN
 		    }
 		    traits = {
@@ -639,6 +774,12 @@ characters={
 			}
 		}
 		corps_commander={
+			visible = {
+				OR = {
+					has_country_leader = { character = QIN_zhang_zuolin }
+					has_country_leader = { character = QIN_zhang_xueliang }
+				}
+			}
 			traits = {
 				trait_engineer
 				politically_connected
@@ -652,39 +793,109 @@ characters={
 			legacy_id=-1
 		}
 	}
-	QIN_zhang_zuoxiang = {
-		name=QIN_zhang_zuoxiang
+	#육군/종사당
+	QIN_aisin_gioro_jixing = {
+		name=QIN_aisin_gioro_jixing
 		portraits={
 			army={
-				large=GFX_portrait_QIN_zhang_zuoxiang
-				small=GFX_idea_QIN_zhang_zuoxiang
+				large=GFX_portrait_QIN_aisin_gioro_jixing
+				small=GFX_idea_QIN_aisin_gioro_jixing
 			}
 		}
 		advisor={
-			cost = 100
 			slot = high_command
-			idea_token = QIN_zhang_zuoxiang
+			idea_token = QIN_aisin_gioro_jixing
 			ledger = army
-		    allowed = {
-		    	original_tag = QIN
-		    }
-		    traits = {
-				army_infantry_2
+	    	visible = {
+				OR = {
+					has_country_leader = { character = QIN_aisin_gioro_puyi }
+					has_idea = QIN_constitutional_monarch_puyi
+				}
+			}
+			available = {
+				OR = {
+					has_country_leader = { character = QIN_aisin_gioro_puyi }
+					has_idea = QIN_constitutional_monarch_puyi
+				}
+			}
+			allowed = {
+	    		original_tag = QIN
+	    	}
+	    	traits = {
+				army_artillery_1
 			}
 		}
-		corps_commander={
+		field_marshal={
+			visible = {
+				OR = {
+					has_country_leader = { character = QIN_aisin_gioro_puyi }
+					has_idea = QIN_constitutional_monarch_puyi
+				}
+			}
 			traits = {
-				old_guard
+				politically_connected
 				career_officer
 			}
-			skill = 3
-			attack_skill = 2
-			defense_skill = 3
-			planning_skill = 3
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 2
 			logistics_skill = 2
 			legacy_id=-1
 		}
 	}
+	QIN_aisin_gioro_xiqia={
+		name=QIN_aisin_gioro_xiqia
+		portraits={
+			army={
+				large=GFX_portrait_QIN_aisin_gioro_xiqia
+				small=GFX_idea_QIN_aisin_gioro_xiqia
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = QIN_aisin_gioro_xiqia
+			ledger = army
+	    	visible = {
+				OR = {
+					has_country_leader = { character = QIN_aisin_gioro_puyi }
+					has_idea = QIN_constitutional_monarch_puyi
+				}
+			}
+			available = {
+				OR = {
+					has_country_leader = { character = QIN_aisin_gioro_puyi }
+					has_idea = QIN_constitutional_monarch_puyi
+				}
+			}
+			allowed = {
+	    		original_tag = QIN
+	    	}
+	    	traits = {
+				army_cavalry_1
+			}
+		}
+		corps_commander={
+			visible = {
+				OR = {
+					has_country_leader = { character = QIN_aisin_gioro_puyi }
+					has_idea = QIN_constitutional_monarch_puyi
+				}
+			}
+			traits = {
+				politically_connected
+				trait_reckless
+				harsh_leader
+			}
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id=-1
+		}
+	}
+	#육군/공용
 	QIN_xing_shilian={
 		name=QIN_xing_shilian
 		portraits={
@@ -717,37 +928,7 @@ characters={
 			legacy_id=-1
 		}
 	}
-	QIN_lu_jin = {
-		name=QIN_lu_jin
-		portraits={
-			army={
-				large=GFX_portrait_QIN_lu_jin
-				small=GFX_idea_QIN_lu_jin
-			}
-		}
-		advisor={
-			slot = high_command
-			idea_token = QIN_lu_jin
-			ledger = army
-	    	allowed = {
-	    		original_tag = QIN
-	    	}
-	    	traits = {
-				army_artillery_1
-			}
-		}
-		corps_commander={
-			traits = {
-				#
-			}
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
-			legacy_id=-1
-		}
-	}
+	#해군
 	QIN_yin_zuoqian = {
 		name=QIN_yin_zuoqian
 		portraits={
@@ -781,6 +962,7 @@ characters={
 			legacy_id=-1
 		}
 	}
+	#공군
 	QIN_tong_yanbo = {
 		name=QIN_tong_yanbo
 		portraits={
@@ -802,32 +984,13 @@ characters={
 	}
 	
 	### 육군 장성 ###
-	QIN_aisin_gioro_xianyu={
-		name=QIN_aisin_gioro_xianyu
-		portraits={
-			army={
-				large=GFX_portrait_QIN_aisin_gioro_xianyu
-			}
-		}
-		gender = female
-		corps_commander={
-			traits = { 
-				cavalry_officer
-				politically_connected
-			}
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
-			legacy_id=-1
-		}
-	}
+	#공용
 	QIN_zhang_jinghui = {
 		name=QIN_zhang_jinghui
 		portraits={
 			army={
 				large=GFX_portrait_QIN_zhang_jinghui
+				small=GFX_idea_QIN_zhang_jinghui
 			}
 		}
 		corps_commander={
@@ -849,6 +1012,7 @@ characters={
 		portraits={
 			army={
 				large=GFX_portrait_QIN_zhang_haipeng
+				small=GFX_idea_QIN_zhang_haipeng
 			}
 		}
 		corps_commander={
@@ -860,6 +1024,61 @@ characters={
 			attack_skill = 2
 			defense_skill = 2
 			planning_skill = 2
+			logistics_skill = 1
+			legacy_id=-1
+		}
+	}
+	#종사당
+	QIN_lu_jin = {
+		name=QIN_lu_jin
+		portraits={
+			army={
+				large=GFX_portrait_QIN_lu_jin
+				small=GFX_idea_QIN_lu_jin
+			}
+		}
+		corps_commander={
+			visible = {
+				OR = {
+					has_country_leader = { character = QIN_aisin_gioro_puyi }
+					has_idea = QIN_constitutional_monarch_puyi
+				}
+			}
+			traits = {
+				#
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id=-1
+		}
+	}
+	QIN_aisin_gioro_xianyu={
+		name=QIN_aisin_gioro_xianyu
+		portraits={
+			army={
+				large=GFX_portrait_QIN_aisin_gioro_xianyu
+				small=GFX_idea_QIN_aisin_gioro_xianyu
+			}
+		}
+		gender = female
+		corps_commander={
+			visible = {
+				OR = {
+					has_country_leader = { character = QIN_aisin_gioro_puyi }
+					has_idea = QIN_constitutional_monarch_puyi
+				}
+			}
+			traits = { 
+				cavalry_officer
+				politically_connected
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
 			logistics_skill = 1
 			legacy_id=-1
 		}

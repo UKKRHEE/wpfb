@@ -11,12 +11,7 @@ state={
 			infrastructure = 1
 			13277 = {
 				naval_base = 3
-
 			}
-
-		}
-		1882.3.19 = {
-			set_demilitarized_zone = yes
 		}
 		victory_points = {
 			13277 3 

@@ -300,7 +300,7 @@ leader_traits = {
 			factor = 1
 		}
 	}
-	iron_fisted_brute = {
+	iron_fisted_brute = { #무자비한 야수
 		random = no
 		sprite = 13
 		
@@ -312,7 +312,7 @@ leader_traits = {
 			factor = 1
 		}
 	}
-	man_of_the_people = {
+	man_of_the_people = { #민중의 사람
 		random = no
 		sprite = 13
 		
@@ -323,7 +323,7 @@ leader_traits = {
 			factor = 1
 		}
 	}
-	dynamic_materialist = {
+	dynamic_materialist = { #활발한 유물론자
 		random = no
 		sprite = 13
 		
@@ -335,7 +335,7 @@ leader_traits = {
 			factor = 1
 		}
 	}
-	tireless_organiser = {
+	tireless_organiser = { #지칠 줄 모르는 조직자
 		random = no
 		sprite = 13
 		
@@ -346,7 +346,7 @@ leader_traits = {
 			factor = 1
 		}
 	}
-	great_compromiser = {
+	great_compromiser = { #위대한 타협가
 		random = no
 		sprite = 13
 		
@@ -357,7 +357,7 @@ leader_traits = {
 			factor = 1
 		}
 	}
-	influential_intellectual = {
+	influential_intellectual = { #영향력 있는 지식인
 		random = no
 		sprite = 13
 		
@@ -368,7 +368,7 @@ leader_traits = {
 			factor = 1
 		}
 	}
-	war_propagandist = {
+	war_propagandist = { #전쟁 선전가
 		random = no
 		sprite = 13
 		
@@ -379,13 +379,85 @@ leader_traits = {
 			factor = 1
 		}
 	}
-	eager_collaborator_advisor = {
+	eager_collaborator2 = { #열렬한 협력자
 		random = no
 		sprite = 13
 		
 		send_volunteer_size = 2
 		improve_relations_maintain_cost_factor = -1
 		fascism_acceptance = 75
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	railway_specialist = { #철도 전문가
+		random = no
+		sprite = 13
+		
+		production_speed_rail_way_factor = 0.25
+		production_speed_supply_node_factor = 0.25
+		equipment_bonus = {
+			train_equipment = {
+				build_cost_ic = -0.10
+				instant = yes
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	womens_rights_activist2 = { #여성권 운동가
+		random = no
+		sprite = 13
+		
+		political_power_factor = 0.05
+		conscription_factor = 0.1
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	flamboyant_brute = { #화려한 야수
+		random = no
+		sprite = 13
+		
+		war_support_factor = 0.2
+		stability_factor = 0.05
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	mixed_economy_proponent = { #혼합경제 지지자
+		random = no
+		sprite = 13
+		
+		production_factory_max_efficiency_factor = 0.05
+		industrial_capacity_factory = 0.05
+		industrial_capacity_dockyard = 0.05
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	bank_president = { #은행장
+		random = no
+		sprite = 13
+		
+		production_speed_buildings_factor = 0.05
+		political_power_factor = 0.05
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	staunch_constitutionalist2 = { #충실한 입헌주의자
+		random = no
+		sprite = 13
+		
+		drift_defence_factor = 0.5
 
 		ai_will_do = {
 			factor = 1
@@ -514,6 +586,44 @@ leader_traits = {
 		political_power_factor = 0.05
 		drift_defence_factor = 0.10
 		neutrality_acceptance = 10
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	### 러시아 ###
+	democratic_cossack = { #민주주의 카자크
+		random = no
+		sprite = 13
+
+		war_support_factor = 0.05
+		democratic_drift = 0.05
+		conscription_factor = 0.05
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	mladorossi_theorist2 = { #믈라도르시 이론가
+		random = no
+		sprite = 13
+
+		stability_factor = -0.05
+		political_power_factor = 0.10
+		communism_drift = 0.15
+		neutrality_drift = 0.01
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	red_monarchist = { #붉은 군주주의자
+		random = no
+		sprite = 13
+
+		communism_drift = 0.15
+		neutrality_drift = 0.01
 		
 		ai_will_do = {
 			factor = 1

@@ -4,18 +4,13 @@ state={
 	name="STATE_612"
 
 	history={
-		owner = MON
-		add_core_of = MEN
-		add_core_of = MON
+		owner = QIN
+		add_core_of = QIN
 		add_core_of = MON
 		add_core_of = CHI
 		add_core_of = PRC
 		buildings = {
 			infrastructure = 1
-
-		}
-		1936.3.5 = {
-			owner = MON
 
 		}
 		victory_points = {

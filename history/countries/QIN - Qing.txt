@@ -110,13 +110,16 @@ recruit_character = QIN_zhang_zuolin
 recruit_character = QIN_aisin_gioro_puyi
 
 ### 정치고문 ###
+#공용
+recruit_character = QIN_feng_hanqing
+recruit_character = QIN_kang_tongbi
+recruit_character = QIN_li_shaogeng
+#종사당
 recruit_character = QIN_aisin_gioro_pujie
 recruit_character = QIN_aisin_gioro_zaizhen
 recruit_character = QIN_xie_jieshi
-recruit_character = QIN_liang_shiyi
 recruit_character = QIN_luo_zhenyu
-recruit_character = QIN_feng_hanqing
-recruit_character = QIN_kang_tongbi
+#정보기관
 recruit_character = QIN_yu_zhishan
 
 ### 이론가 ###
@@ -125,31 +128,44 @@ recruit_character = QIN_navy_research
 recruit_character = QIN_air_research
 
 ### 육군참모총장 ###
-recruit_character = QIN_yang_yuting
+#공용
 recruit_character = QIN_liu_menggeng
+#봉천군벌
+recruit_character = QIN_yang_yuting
+#종사당
 recruit_character = QIN_aisin_gioro_zaitao
 
 ### 해군참모총장 ###
+#공용
 recruit_character = QIN_sa_zhenbing
+#종사당
 recruit_character = QIN_aisin_gioro_zaixun
 
 ### 공군참모총장 ###
 recruit_character = QIN_gao_zhihang
 
 ### 최고사령부 ###
-recruit_character = QIN_aisin_gioro_xiqia
-recruit_character = QIN_gobulo_runqi
+#육군/봉천군벌
+recruit_character = QIN_zhang_zuoxiang
 recruit_character = QIN_wan_fulin
 recruit_character = QIN_zhang_xueliang
-recruit_character = QIN_zhang_zuoxiang
+#육군/종사당
+recruit_character = QIN_aisin_gioro_jixing
+recruit_character = QIN_aisin_gioro_xiqia
+#육군/공용
 recruit_character = QIN_xing_shilian
+#해군
 recruit_character = QIN_yin_zuoqian
+#공군
 recruit_character = QIN_tong_yanbo
 
 ### 육군 장성 ###
-recruit_character = QIN_aisin_gioro_xianyu
+#공용
 recruit_character = QIN_zhang_jinghui
 recruit_character = QIN_zhang_haipeng
+#종사당
+recruit_character = QIN_lu_jin
+recruit_character = QIN_aisin_gioro_xianyu
 
 if = {
 	limit = {

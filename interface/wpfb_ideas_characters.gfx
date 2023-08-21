@@ -115,7 +115,7 @@ spriteTypes = {
 	}
 	
 	### 한국 정치고문 ###
-	#조건 없음
+	#공용
 	spriteType = {
 		name = "GFX_idea_KOR_jo_wan_gu"
 		texturefile = "gfx/interface/ideas/KOR/advisors/idea_KOR_jo_wan_gu.png"
@@ -409,7 +409,7 @@ spriteTypes = {
 	#############
 	
 	### 일본 정치고문 ###
-	#조건 없음
+	#공용
 	spriteType = {
 		name = "GFX_idea_JAP_chiune_sugihara"
 		texturefile = "gfx/interface/ideas/JAP/idea_JAP_chiune_sugihara.png"
@@ -468,12 +468,31 @@ spriteTypes = {
 	### 대청제국 ###
 	#############
 	
+	### 청국 지도자 ###
+	spriteType = {
+		name = "GFX_idea_QIN_ma_zhanshan"
+		texturefile = "gfx/interface/ideas/QIN/idea_QIN_ma_zhanshan.png"
+	}
 	spriteType = {
 		name = "GFX_idea_QIN_zhang_zuolin"
 		texturefile = "gfx/interface/ideas/QIN/idea_QIN_zhang_zuolin.png"
 	}
 	
 	### 청국 정치고문 ###
+	#공용
+	spriteType = {
+		name = "GFX_idea_QIN_feng_hanqing"
+		texturefile = "gfx/interface/ideas/QIN/idea_QIN_feng_hanqing.png"
+	}
+	spriteType = {
+		name = "GFX_idea_QIN_kang_tongbi"
+		texturefile = "gfx/interface/ideas/QIN/idea_QIN_kang_tongbi.png"
+	}
+	spriteType = {
+		name = "GFX_idea_QIN_li_shaogeng"
+		texturefile = "gfx/interface/ideas/QIN/idea_QIN_li_shaogeng.png"
+	}
+	#종사당
 	spriteType = {
 		name = "GFX_idea_QIN_aisin_gioro_pujie"
 		texturefile = "gfx/interface/ideas/QIN/idea_QIN_aisin_gioro_pujie.png"
@@ -487,45 +506,39 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/QIN/idea_QIN_xie_jieshi.png"
 	}
 	spriteType = {
-		name = "GFX_idea_QIN_liang_shiyi"
-		texturefile = "gfx/interface/ideas/QIN/idea_QIN_liang_shiyi.png"
-	}
-	spriteType = {
 		name = "GFX_idea_QIN_luo_zhenyu"
 		texturefile = "gfx/interface/ideas/QIN/idea_QIN_luo_zhenyu.png"
 	}
-	spriteType = {
-		name = "GFX_idea_QIN_feng_hanqing"
-		texturefile = "gfx/interface/ideas/QIN/idea_QIN_feng_hanqing.png"
-	}
-	spriteType = {
-		name = "GFX_idea_QIN_kang_tongbi"
-		texturefile = "gfx/interface/ideas/QIN/idea_QIN_kang_tongbi.png"
-	}
+	#정보기관
 	spriteType = {
 		name = "GFX_idea_QIN_yu_zhishan"
 		texturefile = "gfx/interface/ideas/QIN/idea_QIN_yu_zhishan.png"
 	}
 	
 	### 청국 육군참모총장 ###
-	spriteType = {
-		name = "GFX_idea_QIN_yang_yuting"
-		texturefile = "gfx/interface/ideas/QIN/idea_QIN_yang_yuting.png"
-	}
+	#공용
 	spriteType = {
 		name = "GFX_idea_QIN_liu_menggeng"
 		texturefile = "gfx/interface/ideas/QIN/idea_QIN_liu_menggeng.png"
 	}
+	#봉천군벌
+	spriteType = {
+		name = "GFX_idea_QIN_yang_yuting"
+		texturefile = "gfx/interface/ideas/QIN/idea_QIN_yang_yuting.png"
+	}
+	#종사당
 	spriteType = {
 		name = "GFX_idea_QIN_aisin_gioro_zaitao"
 		texturefile = "gfx/interface/ideas/QIN/idea_QIN_aisin_gioro_zaitao.png"
 	}
 	
 	### 청국 해군참모총장 ###
+	#공용
 	spriteType = {
 		name = "GFX_idea_QIN_sa_zhenbing"
 		texturefile = "gfx/interface/ideas/QIN/idea_QIN_sa_zhenbing.png"
 	}
+	#종사당
 	spriteType = {
 		name = "GFX_idea_QIN_aisin_gioro_zaixun"
 		texturefile = "gfx/interface/ideas/QIN/idea_QIN_aisin_gioro_zaixun.png"
@@ -538,17 +551,10 @@ spriteTypes = {
 	}
 	
 	### 청국 최고사령부 ###
+	#육군/봉천군벌
 	spriteType = {
-		name = "GFX_idea_QIN_aisin_gioro_xiqia"
-		texturefile = "gfx/interface/ideas/QIN/idea_QIN_aisin_gioro_xiqia.png"
-	}
-	spriteType = {
-		name = "GFX_idea_QIN_gobulo_runqi"
-		texturefile = "gfx/interface/ideas/QIN/idea_QIN_gobulo_runqi.png"
-	}
-	spriteType = {
-		name = "GFX_idea_QIN_ma_zhanshan"
-		texturefile = "gfx/interface/ideas/QIN/idea_QIN_ma_zhanshan.png"
+		name = "GFX_idea_QIN_zhang_zuoxiang"
+		texturefile = "gfx/interface/ideas/QIN/idea_QIN_zhang_zuoxiang.png"
 	}
 	spriteType = {
 		name = "GFX_idea_QIN_wan_fulin"
@@ -558,25 +564,49 @@ spriteTypes = {
 		name = "GFX_idea_QIN_zhang_xueliang"
 		texturefile = "gfx/interface/ideas/QIN/idea_QIN_zhang_xueliang.png"
 	}
+	#육군/종사당
 	spriteType = {
-		name = "GFX_idea_QIN_zhang_zuoxiang"
-		texturefile = "gfx/interface/ideas/QIN/idea_QIN_zhang_zuoxiang.png"
+		name = "GFX_idea_QIN_aisin_gioro_jixing"
+		texturefile = "gfx/interface/ideas/QIN/idea_QIN_aisin_gioro_jixing.png"
 	}
+	spriteType = {
+		name = "GFX_idea_QIN_aisin_gioro_xiqia"
+		texturefile = "gfx/interface/ideas/QIN/idea_QIN_aisin_gioro_xiqia.png"
+	}
+	#육군/공용
 	spriteType = {
 		name = "GFX_idea_QIN_xing_shilian"
 		texturefile = "gfx/interface/ideas/QIN/idea_QIN_xing_shilian.png"
 	}
+	#해군
+	spriteType = {
+		name = "GFX_idea_QIN_yin_zuoqian"
+		texturefile = "gfx/interface/ideas/QIN/idea_QIN_yin_zuoqian.png"
+	}
+	#공군
+	spriteType = {
+		name = "GFX_idea_QIN_tong_yanbo"
+		texturefile = "gfx/interface/ideas/QIN/idea_QIN_tong_yanbo.png"
+	}
+	
+	### 청국 장성 ###
+	#봉천군벌
+	spriteType = {
+		name = "GFX_idea_QIN_zhang_haipeng"
+		texturefile = "gfx/interface/ideas/QIN/idea_QIN_zhang_haipeng.png"
+	}
+	spriteType = {
+		name = "GFX_idea_QIN_zhang_jinghui"
+		texturefile = "gfx/interface/ideas/QIN/idea_QIN_zhang_jinghui.png"
+	}
+	#종사당
 	spriteType = {
 		name = "GFX_idea_QIN_lu_jin"
 		texturefile = "gfx/interface/ideas/QIN/idea_QIN_lu_jin.png"
 	}
 	spriteType = {
-		name = "GFX_idea_QIN_yin_zuoqian"
-		texturefile = "gfx/interface/ideas/QIN/idea_QIN_yin_zuoqian.png"
-	}
-	spriteType = {
-		name = "GFX_idea_QIN_tong_yanbo"
-		texturefile = "gfx/interface/ideas/QIN/idea_QIN_tong_yanbo.png"
+		name = "GFX_idea_QIN_aisin_gioro_xianyu"
+		texturefile = "gfx/interface/ideas/QIN/idea_QIN_aisin_gioro_xianyu.png"
 	}
 	
 	#############
@@ -778,7 +808,20 @@ spriteTypes = {
 	#############
 	
 	### 중화민국 북경정부/산서군벌 정치고문 ###
-	#염계
+	#공용
+	spriteType = {
+		name = "GFX_idea_SHX_ji_gongquan"
+		texturefile = "gfx/interface/ideas/SHX/idea_SHX_ji_gongquan.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SHX_su_tiren"
+		texturefile = "gfx/interface/ideas/SHX/idea_SHX_su_tiren.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SHX_wang_xiang"
+		texturefile = "gfx/interface/ideas/SHX/idea_SHX_wang_xiang.png"
+	}
+	#반공주의
 	spriteType = {
 		name = "GFX_idea_SHX_zhao_daiwen"
 		texturefile = "gfx/interface/ideas/SHX/idea_SHX_zhao_daiwen.png"
@@ -792,118 +835,87 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/SHX/idea_SHX_liang_huazhi.png"
 	}
 	spriteType = {
-		name = "GFX_idea_SHX_sun_chu"
-		texturefile = "gfx/interface/ideas/SHX/idea_SHX_sun_chu.png"
+		name = "GFX_idea_SHX_zeng_qi"
+		texturefile = "gfx/interface/ideas/SHX/idea_SHX_zeng_qi.png"
 	}
-	#국민군
-	spriteType = {
-		name = "GFX_idea_SHX_feng_yuxiang"
-		texturefile = "gfx/interface/ideas/SHX/idea_SHX_feng_yuxiang.png"
-	}
-	spriteType = {
-		name = "GFX_idea_SHX_hu_jingtong"
-		texturefile = "gfx/interface/ideas/SHX/idea_SHX_hu_jingtong.png"
-	}
-	spriteType = {
-		name = "GFX_idea_SHX_yu_xinqing"
-		texturefile = "gfx/interface/ideas/SHX/idea_SHX_yu_xinqing.png"
-	}
-	spriteType = {
-		name = "GFX_idea_SHX_bo_yibo"
-		texturefile = "gfx/interface/ideas/SHX/idea_SHX_bo_yibo.png"
-	}
-	#무소속
 	spriteType = {
 		name = "GFX_idea_SHX_wellington_koo"
 		texturefile = "gfx/interface/ideas/SHX/idea_SHX_wellington_koo.png"
 	}
+	#정보기관
 	spriteType = {
-		name = "GFX_idea_SHX_yan_huiqing"
-		texturefile = "gfx/interface/ideas/SHX/idea_SHX_yan_huiqing.png"
-	}
-	spriteType = {
-		name = "GFX_idea_SHX_tang_shaoyi"
-		texturefile = "gfx/interface/ideas/SHX/idea_SHX_tang_shaoyi.png"
-	}
-	spriteType = {
-		name = "GFX_idea_SHX_zhao_pilian"
-		texturefile = "gfx/interface/ideas/SHX/idea_SHX_zhao_pilian.png"
-	}
-	spriteType = {
-		name = "GFX_idea_SHX_lian_tianxiang"
-		texturefile = "gfx/interface/ideas/SHX/idea_SHX_lian_tianxiang.png"
+		name = "GFX_idea_SHX_feng_sizhi"
+		texturefile = "gfx/interface/ideas/SHX/idea_SHX_feng_sizhi.png"
 	}
 	
 	### 중화민국 북경정부/산서군벌 육군참모총장 ###
-	#염계
+	#공용
 	spriteType = {
 		name = "GFX_idea_SHX_fu_zuoyi"
 		texturefile = "gfx/interface/ideas/idea_CHI_fu_zuoyi.dds"
 	}
+	#반공주의
 	spriteType = {
 		name = "GFX_idea_SHX_xu_yongchang"
 		texturefile = "gfx/interface/ideas/SHX/idea_SHX_xu_yongchang.png"
 	}
-	#국민군
-	spriteType = {
-		name = "GFX_idea_SHX_sun_yue"
-		texturefile = "gfx/interface/ideas/SHX/idea_SHX_sun_yue.png"
-	}
 	
 	### 중화민국 북경정부/산서군벌 해군참모총장 ###
-	#무소속
+	#공용
 	spriteType = {
 		name = "GFX_idea_SHX_wu_renli"
 		texturefile = "gfx/interface/ideas/SHX/idea_SHX_wu_renli.png"
 	}
+	#반공주의
 	spriteType = {
 		name = "GFX_idea_SHX_shen_honglie"
 		texturefile = "gfx/interface/ideas/SHX/idea_SHX_shen_honglie.png"
 	}
 	
 	### 중화민국 북경정부/산서군벌 공군참모총장 ###
-	#염계
-	spriteType = {
-		name = "GFX_idea_SHX_zhong_jihan"
-		texturefile = "gfx/interface/ideas/SHX/idea_SHX_zhong_jihan.png"
-	}
-	#국민군
+	#공용
 	spriteType = {
 		name = "GFX_idea_SHX_cao_baoqing"
 		texturefile = "gfx/interface/ideas/SHX/idea_SHX_cao_baoqing.png"
 	}
+	#반공주의
+	spriteType = {
+		name = "GFX_idea_SHX_zhong_jihan"
+		texturefile = "gfx/interface/ideas/SHX/idea_SHX_zhong_jihan.png"
+	}
 	
 	### 중화민국 북경정부/산서군벌 최고사령부 ###
-	#염계
+	#반공주의
 	spriteType = {
 		name = "GFX_idea_SHX_yang_aiyuan"
 		texturefile = "gfx/interface/ideas/SHX/idea_SHX_yang_aiyuan.png"
 	}
 	spriteType = {
-		name = "GFX_idea_SHX_shang_zhen"
-		texturefile = "gfx/interface/ideas/SHX/idea_SHX_shang_zhen.png"
-	}
-	spriteType = {
 		name = "GFX_idea_SHX_wang_jingguo"
 		texturefile = "gfx/interface/ideas/SHX/idea_SHX_wang_jingguo.png"
+	}
+	#공용
+	spriteType = {
+		name = "GFX_idea_SHX_shang_zhen"
+		texturefile = "gfx/interface/ideas/SHX/idea_SHX_shang_zhen.png"
 	}
 	spriteType = {
 		name = "GFX_idea_SHX_zhao_chengshou"
 		texturefile = "gfx/interface/ideas/SHX/idea_SHX_zhao_chengshou.png"
 	}
-	#국민군
-	spriteType = {
-		name = "GFX_idea_SHX_zhang_zizhong"
-		texturefile = "gfx/interface/ideas/SHX/idea_SHX_zhang_zizhong.png"
-	}
-	spriteType = {
-		name = "GFX_idea_SHX_sun_lianzhong"
-		texturefile = "gfx/interface/ideas/SHX/idea_SHX_sun_lianzhong.png"
-	}
-	#무소속
 	spriteType = {
 		name = "GFX_idea_SHX_lin_jianzhang"
 		texturefile = "gfx/interface/ideas/SHX/idea_SHX_lin_jianzhang.png"
+	}
+	
+	### 중화민국 북경정부/산서군벌 장성 ###
+	spriteType = {
+		name = "GFX_idea_SHX_sun_chu"
+		texturefile = "gfx/interface/ideas/SHX/idea_SHX_sun_chu.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SHX_chen_changjie"
+		texturefile = "gfx/interface/ideas/SHX/idea_SHX_chen_changjie.png"
 	}
 	
 	#############
@@ -998,6 +1010,60 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_CHI_mao_bangchu"
 		texturefile = "gfx/interface/ideas/CHI/idea_CHI_mao_bangchu.png"
+	}
+	
+	#############
+	### 풍계군벌 ###
+	#############
+	
+	### 국민군 지도자 ###
+	spriteType = {
+		name = "GFX_idea_GMJ_feng_yuxiang"
+		texturefile = "gfx/interface/ideas/GMJ/idea_GMJ_feng_yuxiang.png"
+	}
+	spriteType = {
+		name = "GFX_idea_GMJ_feng_yuxiang2"
+		texturefile = "gfx/interface/ideas/GMJ/idea_GMJ_feng_yuxiang2.png"
+	}
+	
+	### 국민군 정치고문 ###
+	spriteType = {
+		name = "GFX_idea_GMJ_yu_xinqing"
+		texturefile = "gfx/interface/ideas/GMJ/idea_GMJ_yu_xinqing.png"
+	}
+	spriteType = {
+		name = "GFX_idea_GMJ_lian_tianxiang"
+		texturefile = "gfx/interface/ideas/GMJ/idea_GMJ_lian_tianxiang.png"
+	}
+	spriteType = {
+		name = "GFX_idea_GMJ_zhao_pilian"
+		texturefile = "gfx/interface/ideas/GMJ/idea_GMJ_zhao_pilian.png"
+	}
+	
+	### 국민군 육군참모총장 ###
+	spriteType = {
+		name = "GFX_idea_GMJ_sun_yue"
+		texturefile = "gfx/interface/ideas/GMJ/idea_GMJ_sun_yue.png"
+	}
+	
+	### 국민군 공군참모총장 ###
+	spriteType = {
+		name = "GFX_idea_GMJ_shen_dexie"
+		texturefile = "gfx/interface/ideas/GMJ/idea_GMJ_shen_dexie.png"
+	}
+	
+	### 국민군 최고사령부 ###
+	spriteType = {
+		name = "GFX_idea_GMJ_zhang_zizhong"
+		texturefile = "gfx/interface/ideas/GMJ/idea_GMJ_zhang_zizhong.png"
+	}
+	spriteType = {
+		name = "GFX_idea_GMJ_sun_lianzhong"
+		texturefile = "gfx/interface/ideas/GMJ/idea_GMJ_sun_lianzhong.png"
+	}
+	spriteType = {
+		name = "GFX_idea_GMJ_shi_jingting"
+		texturefile = "gfx/interface/ideas/GMJ/idea_GMJ_shi_jingting.png"
 	}
 	
 	#############
@@ -1527,23 +1593,37 @@ spriteTypes = {
 	#############
 	
 	### 러시아 정치고문 ###
-	#반공주의
+	#공용
 	spriteType = {
-		name = "GFX_idea_RUS_aleksandr_verkhovsky"
-		texturefile = "gfx/interface/ideas/RUS/idea_RUS_aleksandr_verkhovsky.png"
-	}
-	spriteType = {
-		name = "GFX_idea_RUS_vasily_kharlamov"
-		texturefile = "gfx/interface/ideas/RUS/idea_RUS_vasily_kharlamov.png"
+		name = "GFX_idea_RUS_aleksandr_konovalov"
+		texturefile = "gfx/interface/ideas/RUS/idea_RUS_aleksandr_konovalov.png"
 	}
 	#민주주의
+	spriteType = {
+		name = "GFX_idea_RUS_viktor_chernov"
+		texturefile = "gfx/interface/ideas/RUS/idea_RUS_viktor_chernov.png"
+	}
 	spriteType = {
 		name = "GFX_idea_RUS_pavel_milyukov"
 		texturefile = "gfx/interface/ideas/RUS/idea_RUS_pavel_milyukov.png"
 	}
 	spriteType = {
-		name = "GFX_idea_RUS_sofia_panina"
-		texturefile = "gfx/interface/ideas/RUS/idea_RUS_sofia_panina.png"
+		name = "GFX_idea_RUS_ivan_efremov"
+		texturefile = "gfx/interface/ideas/RUS/idea_RUS_ivan_efremov.png"
+	}
+	spriteType = {
+		name = "GFX_idea_RUS_vasily_maklakov"
+		texturefile = "gfx/interface/ideas/RUS/idea_RUS_vasily_maklakov.png"
+	}
+	#파시스트
+	spriteType = {
+		name = "GFX_idea_RUS_nikolay_markov"
+		texturefile = "gfx/interface/ideas/RUS/idea_RUS_nikolay_markov.png"
+	}
+	#권위주의
+	spriteType = {
+		name = "GFX_idea_RUS_vasily_shulgin"
+		texturefile = "gfx/interface/ideas/RUS/idea_RUS_vasily_shulgin.png"
 	}
 	#정보기관
 	spriteType = {
@@ -1786,7 +1866,7 @@ spriteTypes = {
 	#############
 	
 	### 오스트리아 정치고문 ###
-	#조건 없음
+	#공용
 	spriteType = {
 		name = "GFX_idea_AUS_leopold_figl"
 		texturefile = "gfx/interface/ideas/AUS/advisors/idea_AUS_leopold_figl.png"

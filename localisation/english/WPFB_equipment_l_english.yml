@@ -1,4 +1,5 @@
 ﻿l_english:
+ #변형시 붙는 명칭 (ex. ~전차 -> ~전차 가)
  KOR_EQUIPMENT_VERSION_1:0 "가"
  KOR_EQUIPMENT_VERSION_2:0 "나"
  KOR_EQUIPMENT_VERSION_3:0 "다"
@@ -14,6 +15,7 @@
  KOR_EQUIPMENT_VERSION_13:0 "파"
  KOR_EQUIPMENT_VERSION_14:0 "하"
  
+ #전차
  KOR_gw_tank_equipment:0 "천리마"
  KOR_gw_tank_equipment_desc:0 "육군이 창설부터 전차부대 양성을 목표로 하였고 그 결과 도입되어 '천리마'로 명명된 이 전차는 뛰어나지는 않아도 전차부대의 기틀을 닦아줬다는 점에서 의의가 있습니다."
  KOR_gw_tank_equipment_short:0 "광무전차"

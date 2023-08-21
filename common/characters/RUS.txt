@@ -1,10 +1,10 @@
 characters = {
 	### 지도자 ###
-	RUS_bolsheviks={
-		name=RUS_bolsheviks
-		portraits={
-			civilian={
-				large=GFX_portrait_RUS_bolsheviks
+	RUS_vladimir_kirillovich = {
+		name = SOV_tsar_vladimir_kirillovich
+		portraits = {
+			civilian = {
+				large = GFX_portrait_SOV_vladimir_kirillovich
 			}
 		}
 		country_leader={
@@ -14,6 +14,14 @@ characters = {
 			}
 			expire="1960.1.1.1"
 			id=-1
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {
+				emperor_and_autocrat_of_all_the_russias
+			}
+			expire = "1953.3.1.1"
+			id = -1
 		}
 	}
 	RUS_alexander_kerensky={
@@ -48,86 +56,150 @@ characters = {
 			id = -1
 		}
 	}
-	RUS_vladimir_kirillovich = {
-		name = SOV_tsar_vladimir_kirillovich
-		portraits = {
-			civilian = {
-				large = GFX_portrait_SOV_vladimir_kirillovich
+	
+	### 정치고문/공용 ###
+	RUS_aleksandr_konovalov={
+		name=RUS_aleksandr_konovalov
+		portraits={
+			civilian={
+				small=GFX_idea_RUS_aleksandr_konovalov
 			}
 		}
-		country_leader = {
-			ideology = despotism
-			traits = {
-				emperor_and_autocrat_of_all_the_russias
+		advisor={
+			slot = political_advisor
+			idea_token = RUS_aleksandr_konovalov
+			allowed = {
+				original_tag = RUS
 			}
-			expire = "1953.3.1.1"
-			id = -1
+			traits = {
+				captain_of_industry
+			}
 		}
 	}
 	
-	### 정치고문/반공주의 ###
-	RUS_aleksandr_verkhovsky={
-		name=RUS_aleksandr_verkhovsky
-		portraits={
-			civilian={
-				small=GFX_idea_RUS_aleksandr_verkhovsky
+	### 정치고문/공산주의 ###
+	RUS_aleksandr_kazembek2 = {
+		name = SOV_aleksandr_kazembek
+		portraits = {
+			army = {
+				small = "GFX_idea_SOV_aleksandr_kazembek"
 			}
 		}
-		advisor={
+		advisor = {
 			slot = political_advisor
-			idea_token = RUS_aleksandr_verkhovsky
+			idea_token = RUS_aleksandr_kazembek2
 			visible = {
-                NOT = {
-					has_government = communism
-				}
-            }
+				has_government = communism
+			}
 			available = {
-                NOT = {
-					has_government = communism
-				}
+                has_government = communism
             }
 			allowed = {
 				original_tag = RUS
 			}
 			traits = {
-				quartermaster_general
+				mladorossi_theorist2
 			}
 		}
 	}
-	RUS_vasily_kharlamov={
-		name=RUS_vasily_kharlamov
+	RUS_vasily_shulgin2={
+		name=RUS_vasily_shulgin
 		portraits={
 			civilian={
-				small=GFX_idea_RUS_vasily_kharlamov
+				small=GFX_idea_RUS_vasily_shulgin
 			}
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = RUS_vasily_kharlamov
+			idea_token = RUS_vasily_shulgin2
 			visible = {
-                NOT = {
-					has_government = communism
-				}
-            }
+				has_government = communism
+			}
 			available = {
-                NOT = {
+                has_government = communism
+            }
+			allowed = {
+				original_tag = RUS
+			}
+			traits = {
+				red_monarchist
+			}
+		}
+	}
+	RUS_nikolay_ustryalov = {
+		name = SOV_nikolay_ustryalov
+		portraits = {
+			army = {
+				small = "GFX_idea_SOV_nikolay_ustryalov"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = RUS_nikolay_ustryalov
+			visible = {
+				OR = {
 					has_government = communism
+					has_government = fascism
+				}
+			}
+			available = {
+                OR = {
+					has_government = communism
+					has_government = fascism
 				}
             }
 			allowed = {
 				original_tag = RUS
 			}
 			traits = {
-				compassionate_gentleman
+				political_chameleon
 			}
-		}
+		}		
 	}
 	
 	### 정치고문/민주주의 ###
+	RUS_viktor_chernov={
+		name=RUS_viktor_chernov
+		portraits={
+			civilian={
+				large=GFX_portrait_RUS_viktor_chernov
+				small=GFX_idea_RUS_viktor_chernov
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = RUS_viktor_chernov
+			visible = {
+				has_government = democratic
+				NOT = {
+					has_country_leader = {
+						ruling_only = yes 
+						character = RUS_viktor_chernov
+					}
+				}
+			}
+			available = {
+                has_government = democratic
+				NOT = {
+					has_country_leader = {
+						ruling_only = yes 
+						character = RUS_viktor_chernov
+					}
+				}
+            }
+			allowed = {
+				original_tag = RUS
+			}
+			traits = {
+				social_reformer
+			}
+		}
+	}
 	RUS_pavel_milyukov={
 		name=RUS_pavel_milyukov
 		portraits={
 			civilian={
+				large=GFX_portrait_RUS_pavel_milyukov
 				small=GFX_idea_RUS_pavel_milyukov
 			}
 		}
@@ -136,9 +208,21 @@ characters = {
 			idea_token = RUS_pavel_milyukov
 			visible = {
 				has_government = democratic
+				NOT = {
+					has_country_leader = {
+						ruling_only = yes 
+						character = RUS_pavel_milyukov
+					}
+				}
 			}
 			available = {
                 has_government = democratic
+				NOT = {
+					has_country_leader = {
+						ruling_only = yes 
+						character = RUS_pavel_milyukov
+					}
+				}
             }
 			allowed = {
 				original_tag = RUS
@@ -148,17 +232,16 @@ characters = {
 			}
 		}
 	}
-	RUS_sofia_panina={
-		name=RUS_sofia_panina
+	RUS_ivan_efremov={
+		name=RUS_ivan_efremov
 		portraits={
 			civilian={
-				small=GFX_idea_RUS_sofia_panina
+				small=GFX_idea_RUS_ivan_efremov
 			}
 		}
-		gender = female
 		advisor={
 			slot = political_advisor
-			idea_token = RUS_sofia_panina
+			idea_token = RUS_ivan_efremov
 			visible = {
 				has_government = democratic
 			}
@@ -169,7 +252,31 @@ characters = {
 				original_tag = RUS
 			}
 			traits = {
-				education_reformer
+				democratic_cossack
+			}
+		}
+	}
+	RUS_vasily_maklakov={
+		name=RUS_vasily_maklakov
+		portraits={
+			civilian={
+				small=GFX_idea_RUS_vasily_maklakov
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = RUS_vasily_maklakov
+			visible = {
+				has_government = democratic
+			}
+			available = {
+                has_government = democratic
+            }
+			allowed = {
+				original_tag = RUS
+			}
+			traits = {
+				staunch_constitutionalist2
 			}
 		}
 	}
@@ -199,6 +306,30 @@ characters = {
 			}
 		}		
 	}
+	RUS_nikolay_markov={
+		name=RUS_nikolay_markov
+		portraits={
+			civilian={
+				small=GFX_idea_RUS_nikolay_markov
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = RUS_nikolay_markov
+			visible = {
+				has_government = fascism
+			}
+			available = {
+                has_government = fascism
+            }
+			allowed = {
+				original_tag = RUS
+			}
+			traits = {
+				fascist_demagogue
+			}
+		}
+	}
 	
 	### 정치고문/권위주의 ###
 	RUS_aleksandr_kazembek = {
@@ -222,6 +353,30 @@ characters = {
 			}
 			traits = {
 				mladorossi_theorist
+			}
+		}
+	}
+	RUS_vasily_shulgin={
+		name=RUS_vasily_shulgin
+		portraits={
+			civilian={
+				small=GFX_idea_RUS_vasily_shulgin
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = RUS_vasily_shulgin
+			visible = {
+				has_government = neutrality
+			}
+			available = {
+                has_government = neutrality
+            }
+			allowed = {
+				original_tag = RUS
+			}
+			traits = {
+				staunch_monarchist
 			}
 		}
 	}

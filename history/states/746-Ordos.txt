@@ -10,10 +10,9 @@ state={
 	
 	history=
 	{
-		owner = XSM
-		add_core_of = CHI
-		add_core_of = XSM
+		owner = SHX
 		add_core_of = SHX
+		add_core_of = CHI
 		add_core_of = PRC
 		
 		buildings = {
@@ -21,53 +20,6 @@ state={
 		}
 		victory_points = {
 			3427 1 
-		}
-		victory_points = {
-			12776 1 
-		}
-		victory_points = {
-			10817 1 
-		}
-		victory_points = {
-			9966 1 
-		}
-		victory_points = {
-			7911 3 
-		}
-		victory_points = {
-			10257 3 
-		}
-		victory_points = {
-			4066 3 
-		}
-		victory_points = {
-			7074 3 
-		}
-		victory_points = {
-			12436 1 
-		}
-		victory_points = {
-			7095 3 
-		}
-		victory_points = {
-			1018 3 
-		}
-		victory_points = {
-			7128 3 
-		}
-		victory_points = {
-			9938 1 
-		}
-
-		1938.10.25 = {
-			controller = JAP
-		}
-		
-		1939.1.1 = {
-			
-			owner = PRC
-			controller = KOR
-
 		}
 	}
 	manpower=500000

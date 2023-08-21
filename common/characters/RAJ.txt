@@ -65,7 +65,7 @@ characters={
 		}
 	}
 	
-	### 정치고문/조건없음 ###
+	### 정치고문/공용 ###
 	RAJ_john_mathai={
 		name=RAJ_john_mathai
 		portraits={

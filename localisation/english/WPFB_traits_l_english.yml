@@ -58,7 +58,13 @@
  great_compromiser:0 "위대한 타협가"
  influential_intellectual:0 "영향력 있는 지식인"
  war_propagandist:0 "전쟁 선전가"
- eager_collaborator_advisor:0 "열렬한 협력자"
+ eager_collaborator2:0 "$eager_collaborator$"
+ railway_specialist:0 "철도 전문가"
+ womens_rights_activist2:0 "$womens_rights_activist$"
+ flamboyant_brute:0 "화려한 야수"
+ mixed_economy_proponent:0 "혼합경제 지지자"
+ bank_president:0 "은행장"
+ staunch_constitutionalist2:0 "$staunch_constitutionalist$"
  
  ### 한국 ###
  three_equalities:0 "삼균주의 창시자" #조소앙
@@ -78,3 +84,8 @@
  
  ### 산동군벌 ###
  duke_yansheng_advisor:0 "연성공" #쿵더청
+ 
+ ### 러시아ㅡ ###
+ democratic_cossack:0 "민주주의 카자크"
+ mladorossi_theorist2:0 "$mladorossi_theorist$"
+ red_monarchist:0 "붉은 군주주의자"

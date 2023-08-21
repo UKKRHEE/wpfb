@@ -4,7 +4,7 @@ state={
 	name="STATE_597"
 
 	history={
-		owner = SHX
+		owner = SDC
 		add_core_of = SDC
 		add_core_of = SHX
 		add_core_of = CHI
@@ -36,14 +36,6 @@ state={
 			}
 
 		}
-		1929.6.21 = {
-			set_demilitarized_zone = yes
-		}
-		1938.10.25 = {
-			controller = JAP
-
-		}
-
 	}
 
 	provinces={

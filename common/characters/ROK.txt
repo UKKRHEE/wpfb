@@ -113,7 +113,7 @@ characters = {
 		}
 	}
 	
-	### 정치고문/조건없음 ###
+	### 정치고문/공용 ###
 	ROK_yun_il_zung={
 		name=KOR_yun_il_zung
 		portraits={

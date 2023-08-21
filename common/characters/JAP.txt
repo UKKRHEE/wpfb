@@ -74,7 +74,7 @@ characters = {
 		}
 	}
 	
-	### 정치고문/조건없음 ###
+	### 정치고문/공용 ###
 	JAP_chiune_sugihara={
 		name=JAP_chiune_sugihara
 		portraits={

@@ -1,0 +1,424 @@
+characters={
+	### 지도자 ###
+	GMJ_feng_yuxiang={
+		name=GMJ_feng_yuxiang
+		portraits={
+			army={
+				large=GFX_portrait_GMJ_feng_yuxiang
+				small=GFX_idea_GMJ_feng_yuxiang
+			}
+		}
+		country_leader={
+			ideology=marxism
+			traits = {
+				christian_general
+				traitorous_general
+			}
+			expire="1960.1.1.1"
+			id=-1
+		}
+		country_leader={
+			ideology=socialism
+			traits = {
+				christian_general
+				traitorous_general
+			}
+			expire="1960.1.1.1"
+			id=-1
+		}
+		country_leader={
+			ideology=fascism_ideology
+			traits = {
+				christian_general
+				traitorous_general
+			}
+			expire="1960.1.1.1"
+			id=-1
+		}
+		country_leader={
+			ideology=despotism
+			traits = {
+				christian_general
+				traitorous_general
+			}
+			expire="1960.1.1.1"
+			id=-1
+		}
+		field_marshal = {
+			traits = {
+				infantry_leader
+				aggressive_assaulter
+				media_personality
+			}
+			skill = 3
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 1
+			legacy_id=-1
+		}
+	}
+	
+	### 정치고문 ###
+	GMJ_yu_xinqing={
+		name = GMJ_yu_xinqing
+		portraits = {
+			civilian = {
+				small=GFX_idea_GMJ_yu_xinqing
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = GMJ_yu_xinqing
+			allowed = {
+				original_tag  = GMJ
+			}
+			traits = {
+				spiritual_leader
+			}
+		}
+	}
+	GMJ_lian_tianxiang={
+		name=GMJ_lian_tianxiang
+		portraits={
+			civilian={
+				small=GFX_idea_GMJ_lian_tianxiang
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = GMJ_lian_tianxiang
+			allowed = {
+				original_tag = GMJ
+			}
+			traits = {
+				minister_of_peasants
+			}
+		}
+	}
+	GMJ_zhao_pilian={
+		name=GMJ_zhao_pilian
+		portraits={
+			civilian={
+				small=GFX_idea_GMJ_zhao_pilian
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = GMJ_zhao_pilian
+			allowed = {
+				original_tag = GMJ
+			}
+			traits = {
+				education_reformer
+			}
+		}
+	}
+	GMJ_security = {
+		name=joint_security
+		portraits={
+			civilian = {
+				small=GFX_idea_Joint_security
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = GMJ_security
+			available = {
+				has_intelligence_agency = yes
+			}
+			allowed = {
+				original_tag = GMJ
+				has_dlc = "La Resistance" 
+			}
+			traits = {
+				head_of_intelligence
+			}
+		}
+	}
+	
+	### 이론가 ###
+	GMJ_army_research = {
+		name=joint_army_research
+		portraits={
+			army={
+				small=GFX_idea_Joint_army_research
+			}
+		}
+		advisor={
+			cost = 100
+			slot = theorist
+			idea_token = GMJ_army_research
+			ledger = army
+		    allowed = {
+		    	original_tag = GMJ
+		    }
+		    traits = {
+				military_theorist
+			}
+		}
+	}
+	GMJ_navy_research={
+		name=joint_navy_research
+		portraits={
+			army={
+				small=GFX_idea_Joint_navy_research
+			}
+		}
+		advisor={
+			cost = 100
+			slot = theorist
+			idea_token = GMJ_navy_research
+			ledger = navy
+			allowed = {
+				original_tag = GMJ
+			}
+			traits = {
+				naval_theorist
+			}
+		}
+	}
+	GMJ_air_research={
+		name=joint_air_research
+		portraits={
+			army={
+				small=GFX_idea_Joint_air_research
+			}
+		}
+		advisor={
+			cost = 100
+			slot = theorist
+			idea_token = GMJ_air_research
+			ledger = air
+			allowed = {
+				original_tag = GMJ
+			}
+			traits = {
+				air_warfare_theorist
+			}
+		}
+	}
+	
+	### 육군참모총장 ###
+	GMJ_sun_yue={
+		name=GMJ_sun_yue
+		portraits={
+			army={
+				large=GFX_portrait_GMJ_sun_yue
+				small=GFX_idea_GMJ_sun_yue
+			}
+		}
+		advisor={
+			cost = 100
+			slot = army_chief
+			idea_token = GMJ_sun_yue
+	    	allowed = {
+	    		original_tag = GMJ
+	    	}
+	    	traits = {
+				army_chief_morale_2
+			}
+		}
+		corps_commander={
+			traits = {
+				old_guard
+				politically_connected
+				hill_fighter
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+	
+	### 해군참모총장 ###
+	GMJ_navy_department = {
+		name=joint_navy_department
+		portraits={
+			army={
+				small=GFX_idea_Joint_navy_department
+			}
+		}
+		advisor={
+			slot = navy_chief
+			idea_token = GMJ_navy_department
+		    allowed = {
+		    	original_tag = GMJ
+	    	}
+		    traits = {
+				navy_chief_reform_1
+			}
+		}
+	}
+	
+	### 공군참모총장 ###
+	GMJ_shen_dexie={
+		name=GMJ_shen_dexie
+		portraits={
+			army={
+				small=GFX_idea_GMJ_shen_dexie
+			}
+		}
+		advisor={		
+			cost = 100
+			slot = air_chief
+			idea_token = GMJ_shen_dexie
+			allowed = {
+				original_tag = GMJ
+			}
+			traits = {
+				air_chief_all_weather_2
+			}
+		}
+	}
+	
+	### 최고사령부 ###
+	GMJ_zhang_zizhong={
+		name=GMJ_zhang_zizhong
+		portraits={
+			army={
+				large=GFX_portrait_GMJ_zhang_zizhong
+				small=GFX_idea_GMJ_zhang_zizhong
+			}
+		}
+		advisor={		
+			cost = 100
+			slot = high_command
+			idea_token = GMJ_zhang_zizhong
+			ledger = army
+			allowed = {
+				original_tag = GMJ
+			}
+			traits = {
+				army_entrenchment_2
+			}
+		}
+		corps_commander={
+			traits = {
+				career_officer
+				trait_reckless
+				infantry_officer
+			}
+			skill = 3
+			attack_skill = 2
+			defense_skill = 4
+			planning_skill = 1
+			logistics_skill = 3
+			legacy_id=-1
+		}
+	}
+	GMJ_sun_lianzhong={
+		name=GMJ_sun_lianzhong
+		portraits={
+			army={
+				large=GFX_portrait_GMJ_sun_lianzhong
+				small=GFX_idea_GMJ_sun_lianzhong
+			}
+		}
+		advisor={		
+			cost = 100
+			slot = high_command
+			idea_token = GMJ_sun_lianzhong
+			ledger = army
+			allowed = {
+				original_tag = GMJ
+			}
+			traits = {
+				army_artillery_2
+			}
+		}
+		corps_commander={
+			traits = {
+				organizer
+			}
+			skill = 2
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+	GMJ_shi_jingting={
+		name=GMJ_shi_jingting
+		portraits={
+			army={
+				small=GFX_idea_GMJ_shi_jingting
+			}
+		}
+		advisor={		
+			slot = high_command
+			idea_token = GMJ_shi_jingting
+			ledger = army
+			allowed = {
+				original_tag = GMJ
+			}
+			traits = {
+				army_commando_1
+			}
+		}
+	}
+	
+	### 육군 장성 ###
+	GMJ_song_zheyuan={
+		name=GMJ_song_zheyuan
+		portraits={
+			army={
+				large=GFX_portrait_GMJ_song_zheyuan
+			}
+		}
+		corps_commander={
+			traits = {
+				urban_assault_specialist
+				politically_connected
+			}
+			skill = 2
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 3
+			legacy_id=-1
+		}
+	}
+	GMJ_gao_guizi={
+		name=GMJ_gao_guizi
+		portraits={
+			army={
+				large=GFX_portrait_GMJ_gao_guizi
+			}
+		}
+		corps_commander={
+			traits = {
+				expert_improviser
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+	GMJ_yang_hucheng={
+		name=GMJ_yang_hucheng
+		portraits={
+			army={
+				large=GFX_portrait_GMJ_yang_hucheng
+			}
+		}
+		corps_commander={
+			traits = {
+				inflexible_strategist
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id=-1
+		}
+	}
+}

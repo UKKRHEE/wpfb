@@ -4,13 +4,12 @@ state={
 	name="STATE_973"
 
 	history={
-		owner = SHX
-		add_core_of = SHX
+		owner = SDC
+		add_core_of = SDC
 		add_core_of = CHI
 		add_core_of = PRC
 		buildings = {
 			infrastructure = 2
-
 		}
 		victory_points = {
 			4190 3 
@@ -18,14 +17,6 @@ state={
 		victory_points = {
 			9987 3 
 		}
-		1938.10.25 = {
-			controller = JAP
-
-		}
-		1929.6.21 = {
-			set_demilitarized_zone = yes
-		}
-
 	}
 
 	provinces={

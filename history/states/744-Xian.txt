@@ -4,18 +4,13 @@ state={
 	name="STATE_744"
 
 	history={
-		owner = SHX
-		add_core_of = PRC
+		owner = GMJ
+		add_core_of = GMJ
 		add_core_of = SHX
 		add_core_of = CHI
+		add_core_of = PRC
 		victory_points = {
 			4256 3 
-		}
-		victory_points = {
-			4167 1 
-		}
-		victory_points = {
-			7418 1 
 		}
 		buildings = {
 			infrastructure = 2

@@ -21,15 +21,10 @@ state={
 		victory_points = {
 			1200 3
 		}
-		1929.6.21 = {
-			set_demilitarized_zone = yes
-		}
-			owner = SHX
-			add_core_of = SDC
-			add_core_of = SHX
-			add_core_of = CHI
-			add_core_of = PRC
-			buildings = {
-			}
-		}
+		owner = SDC
+		add_core_of = SDC
+		add_core_of = SHX
+		add_core_of = CHI
+		add_core_of = PRC
+	}
 }

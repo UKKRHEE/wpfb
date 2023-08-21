@@ -359,6 +359,20 @@ bookmarks = {
 				CHI_invite_the_flying_tigers
 			}
 		}
+		"GMJ"={
+			minor = yes
+			history = "WARLORDS_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+				PRC_government_corruption
+				CHI_ineffective_bureaucracy_warlord
+			}
+			focuses = {
+				CHI_join_the_republican_government
+				CHI_provoke_border_clashes
+				CHI_join_the_chinese_soviet
+			}
+		}
 		"SDC"={
 			minor = yes
 			history = "WARLORDS_GATHERING_STORM_DESC"

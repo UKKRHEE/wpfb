@@ -15,12 +15,12 @@ recruit_character = KOR_lee_beom_seok
 recruit_character = KOR_yi_wu
 
 ### 정치고문 ###
-#조건 없음
+#공용
 recruit_character = KOR_jo_wan_gu
 recruit_character = KOR_kim_byung_ro
 recruit_character = KOR_kim_kyu_sik
 recruit_character = KOR_yun_il_zung
-#중점 달성
+#중점
 recruit_character = KOR_cho_bong_am
 recruit_character = KOR_hyeon_jun_ho
 #반공주의

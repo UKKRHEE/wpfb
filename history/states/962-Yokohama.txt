@@ -14,15 +14,11 @@ state={
 				naval_base = 8
 			}
 		}
-		1882.3.19 = {
-			set_demilitarized_zone = yes
-		}
 		victory_points = {
 			9998 3
 		}
 		owner = JAP
 		add_core_of = JAP
-		#add_core_of = USA
 	}
 	local_supplies=0.0 
 }

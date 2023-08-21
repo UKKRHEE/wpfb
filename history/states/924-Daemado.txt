@@ -9,9 +9,8 @@ state={
 	local_supplies=0.0 
 
 	history={
-		owner = KOR
-		add_claim_by = JAP
-		add_core_of = KOR
+		owner = JAP
+		add_core_of = JAP
 		buildings = {
 			infrastructure = 2
 			10011 = {
@@ -23,14 +22,6 @@ state={
 		victory_points = {
 			10011 1 
 		}
-		1937.6.12 = {
-			buildings = {
-				dockyard = 4
-				industrial_complex = 3
-			}
-		    owner = JAP
-		}
-
 	}
 
 	provinces={

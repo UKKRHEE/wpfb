@@ -95,11 +95,11 @@
  KOR_yi_wu:0 "이우"
  
  ### 한국 정치고문 ###
- #조건 없음
+ #공용
  KOR_jo_wan_gu:0 "조완구"
  KOR_kim_byung_ro:0 "김병로"
  KOR_yun_il_zung:0 "윤일중"
- #중점 달성
+ #중점
  KOR_cho_bong_am:0 "조봉암"
  KOR_hyeon_jun_ho:0 "현준호"
  #반공주의
@@ -226,48 +226,63 @@
  QIN_constitutional_monarch_puyi:0 "아이신기오로 푸이"
  
  ### 청국 지도자 ###
+ QIN_ma_zhanshan:0 "마잔산"
  QIN_liang_qichao:0 "량치차오"
  QIN_zhang_zuolin:0 "장쭤린"
  QIN_aisin_gioro_puyi:0 "아이신기오로 푸이"
  
  ### 청국 정치고문 ###
+ #공용
+ QIN_feng_hanqing:0 "펑한칭"
+ QIN_kang_tongbi:0 "캉퉁비"
+ QIN_li_shaogeng:0 "리사오겅"
+ #종사당
  QIN_aisin_gioro_pujie:0 "아이신기오로 푸제"
  QIN_aisin_gioro_zaizhen:0 "아이신기오로 짜이전"
  QIN_xie_jieshi:0 "셰제스"
- QIN_liang_shiyi:0 "량스이"
  QIN_luo_zhenyu:0 "뤄전위"
- QIN_feng_hanqing:0 "펑한칭"
- QIN_kang_tongbi:0 "캉통비"
+ #정보기관
  QIN_yu_zhishan:0 "위즈산"
  
  ### 청국 육군참모총장 ###
- QIN_yang_yuting:0 "양위팅"
+ #공용
  QIN_liu_menggeng:0 "류멍겅"
+ #봉천군벌
+ QIN_yang_yuting:0 "양위팅"
+ #종사당
  QIN_aisin_gioro_zaitao:0 "아이신기오로 짜이타오"
  
  ### 청국 해군참모총장 ###
+ #공용
  QIN_sa_zhenbing:0 "싸전빙"
+ #종사당
  QIN_aisin_gioro_zaixun:0 "아이신기오로 짜이쉰"
  
  ### 청국 공군참모총장 ###
  QIN_gao_zhihang:0 "가오즈항"
  
  ### 청국 최고사령부 ###
- QIN_aisin_gioro_xiqia:0 "아이신기오로 시치아"
- QIN_gobulo_runqi:0 "궈부뤄룬치"
- QIN_ma_zhanshan:0 "마잔산"
+ #육군/봉천군벌
+ QIN_zhang_zuoxiang:0 "장쭤샹"
  QIN_wan_fulin:0 "완푸린"
  QIN_zhang_xueliang:0 "장쉐량"
- QIN_zhang_zuoxiang:0 "장쭤샹"
- QIN_yin_zuoqian:0 "인쭤첸"
- QIN_tong_yanbo:0 "퉁옌보"
+ #육군/종사당
+ QIN_aisin_gioro_jixing:0 "아이신기오로 지싱"
+ QIN_aisin_gioro_xiqia:0 "아이신기오로 시치아"
+ #육군/공용
  QIN_xing_shilian:0 "싱스롄"
- QIN_lu_jin:0 "루진"
+ #해군
+ QIN_yin_zuoqian:0 "인쭤첸"
+ #공군
+ QIN_tong_yanbo:0 "퉁옌보"
  
  ### 청국 장성 ###
- QIN_aisin_gioro_xianyu:0 "아이신기오로 셴위"
+ #공용
  QIN_zhang_jinghui:0 "장징후이" 
  QIN_zhang_haipeng:0 "장하이펑"
+ #종사당
+ QIN_lu_jin:0 "루진"
+ QIN_aisin_gioro_xianyu:0 "아이신기오로 셴위"
  
  #############
  ### 대몽골국 ###
@@ -376,59 +391,41 @@
  SHX_li_huang:0 "리황"
  
  ### 북경정부 정치고문 ###
- #염계
+ #공용
+ SHX_ji_gongquan:0 "지궁취안"
+ SHX_su_tiren:0 "쑤티런"
+ SHX_wang_xiang:0 "왕샹"
+ #반공주의
  SHX_zhao_daiwen:0 "자오다이원"
  SHX_jia_jingde:0 "자징더"
  SHX_liang_huazhi:0 "량화즈"
- SHX_sun_chu:0 "쑨추"
- #국민군
- SHX_feng_yuxiang:0 "펑위샹"
- SHX_hu_jingtong:0 "후징퉁" 
- SHX_yu_xinqing:0 "위신칭"
- SHX_bo_yibo:0 "보이보"
- #무소속
+ SHX_zeng_qi:0 "청치"
  SHX_wellington_koo:0 "구웨이쥔"
- SHX_yan_huiqing:0 "옌후이칭"
- SHX_tang_shaoyi:0 "탕사오이"
- SHX_zhao_pilian:0 "자오피롄"
- SHX_lian_tianxiang:0 "롄톈샹"
+ #정보기관
+ SHX_feng_sizhi:0 "펑쓰즈"
  
  ### 북경정부 육군참모총장 ###
- #염계
  SHX_xu_yongchang:0 "쉬융창"
- #국민군
- SHX_sun_yue:0 "쑨웨"
  
  ### 북경정부 해군참모총장 ###
- SHX_shen_honglie:0 "선훙례"
  SHX_wu_renli:0 "우런리"
+ SHX_shen_honglie:0 "선훙례"
  
  ### 북경정부 공군참모총장 ###
- #염계
- SHX_zhong_jihan:0 "중지한"
- #국민군
  SHX_cao_baoqing:0 "차오바오칭"
+ SHX_zhong_jihan:0 "중지한"
  
  ### 북경정부 최고사령부 ###
- #염계
+ #반공주의
  SHX_yang_aiyuan:0 "양아이위안"
+ #공용
  SHX_shang_zhen:0 "상전"
  SHX_zhao_chengshou:0 "자오청서우"
- #국민군
- SHX_zhang_zizhong:0 "장쯔중"
- SHX_sun_lianzhong:0 "쑨롄중"
- #무소속
  SHX_lin_jianzhang:0 "린젠장"
  
  ### 북경정부 장성 ###
+ SHX_sun_chu:0 "쑨추"
  SHX_chen_changjie:0 "천장제"
- SHX_song_zheyuan:0 "쑹저위안"
- SHX_gao_guizi:0 "가오구이쯔"
- SHX_yang_hucheng:0 "양후청"
- 
- ### 북경정부 flag ###
- SHX_yan_out:0 "염계가 축출됨"
- SHX_feng_out:0 "국민군이 축출됨"
  
  #############
  ### 국민정부 ###
@@ -463,6 +460,34 @@
  
  ### 중국국민당 장성 ###
  CHI_zhang_zhizhong:0 "장즈중"
+ 
+ #############
+ ### 풍계군벌 ###
+ #############
+ 
+ ### 국민군 지도자 ###
+ GMJ_feng_yuxiang:0 "펑위샹"
+ 
+ ### 국민군 정치고문 ###
+ GMJ_yu_xinqing:0 "위신칭"
+ GMJ_lian_tianxiang:0 "롄톈샹"
+ GMJ_zhao_pilian:0 "자오피롄"
+ 
+ ### 국민군 육군참모총장 ###
+ GMJ_sun_yue:0 "쑨웨"
+ 
+ ### 국민군 공군참모총장 ###
+ GMJ_shen_dexie:0 "선더셰"
+ 
+ ### 국민군 최고사령부 ###
+ GMJ_zhang_zizhong:0 "장쯔중"
+ GMJ_sun_lianzhong:0 "쑨롄중"
+ GMJ_shi_jingting:0 "스징팅"
+ 
+ ### 국민군 장성 ###
+ GMJ_song_zheyuan:0 "쑹저위안"
+ GMJ_gao_guizi:0 "가오구이쯔"
+ GMJ_yang_hucheng:0 "양후청"
  
  #############
  ### 산동군벌 ###
@@ -714,19 +739,21 @@
  RGC_shi_yousan:0 "스여우싼"
  
  #############
- ### 러시아- ###
+ ### 러시아ㅡ ###
  #############
  
- ### 러시아 지도자 ###
- RUS_bolsheviks:0 "볼셰비키"
- 
  ### 러시아 정치고문 ###
- #반공주의
- RUS_aleksandr_verkhovsky:0 "알렉산드르 베르홉스키"
- RUS_vasily_kharlamov:0 "바실리 하를라모프"
+ #공용
+ RUS_aleksandr_konovalov:0 "알렉산드르 코노발로프"
  #민주주의
+ RUS_viktor_chernov:0 "빅토르 체르노프"
  RUS_pavel_milyukov:0 "파벨 밀류코프"
- RUS_sofia_panina:0 "소피야 파니나"
+ RUS_ivan_efremov:0 "이반 예프레모프"
+ RUS_vasily_maklakov:0 "바실리 마클라코프"
+ #파시스트
+ RUS_nikolay_markov:0 "니콜라이 마르코프"
+ #권위주의
+ RUS_vasily_shulgin:0 "바실리 슐긴"
  #정보기관
  RUS_klavdiy_foss:0 "클라브디 포스"
  

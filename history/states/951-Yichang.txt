@@ -9,7 +9,8 @@ state={
 			arms_factory = 2
 
 		}
-		owner = SHX
+		owner = GMJ
+		add_core_of = GMJ
 		add_core_of = SHX
 		add_core_of = CHI
 		add_core_of = PRC

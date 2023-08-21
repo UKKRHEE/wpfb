@@ -33,24 +33,19 @@ recruit_character = SHX_li_huang
 recruit_character = SHX_yan_xishan
 
 ### 정치고문 ###
-#염계
+#공용
+recruit_character = SHX_ji_gongquan
+recruit_character = SHX_su_tiren
+recruit_character = SHX_wang_xiang
+#반공주의
 recruit_character = SHX_zhao_daiwen
 recruit_character = SHX_jia_jingde
 recruit_character = SHX_liang_huazhi
 recruit_character = SHX_h_h_kung
-recruit_character = SHX_sun_chu
-#국민군
-recruit_character = SHX_feng_yuxiang
-recruit_character = SHX_hu_jingtong
-recruit_character = SHX_yu_xinqing
-recruit_character = SHX_bo_yibo
-recruit_character = SHX_security
-#무소속
+recruit_character = SHX_zeng_qi
 recruit_character = SHX_wellington_koo
-recruit_character = SHX_yan_huiqing
-recruit_character = SHX_tang_shaoyi
-recruit_character = SHX_zhao_pilian
-recruit_character = SHX_lian_tianxiang
+#정보기관
+recruit_character = SHX_feng_sizhi
 
 ### 이론가 ###
 recruit_character = SHX_army_research
@@ -58,42 +53,37 @@ recruit_character = SHX_navy_research
 recruit_character = SHX_air_research
 
 ### 육군참모총장 ###
-#염계
+#공용
 recruit_character = SHX_fu_zuoyi
+#반공주의
 recruit_character = SHX_xu_yongchang
-#국민군
-recruit_character = SHX_sun_yue
 
 ### 해군참모총장 ###
+#공용
 recruit_character = SHX_wu_renli
+#반공주의
 recruit_character = SHX_shen_honglie
 
 ### 공군참모총장 ###
-#염계
-recruit_character = SHX_zhong_jihan
-#국민군
+#공용
 recruit_character = SHX_cao_baoqing
+#반공주의
+recruit_character = SHX_zhong_jihan
 
 ### 최고사령부 ###
-#염계
+#반공주의
 recruit_character = SHX_yang_aiyuan
 recruit_character = SHX_wang_jingguo
-recruit_character = SHX_zhao_chengshou
+#공용
 recruit_character = SHX_shang_zhen
-#국민군
-recruit_character = SHX_zhang_zizhong
-recruit_character = SHX_sun_lianzhong
-#무소속
+recruit_character = SHX_zhao_chengshou
 recruit_character = SHX_lin_jianzhang
 
 ### 육군 장성 ###
+recruit_character = SHX_sun_chu
 recruit_character = SHX_chen_changjie
-recruit_character = SHX_song_zheyuan
-recruit_character = SHX_gao_guizi
-recruit_character = SHX_yang_hucheng
 
 add_ideas = {
-	#각료
-	SHX_feng_yuxiang
+	#
 }
 

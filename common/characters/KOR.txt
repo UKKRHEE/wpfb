@@ -140,7 +140,7 @@ characters = {
 		}
 	}
 	
-	### 정치고문/조건없음 ###
+	### 정치고문/공용 ###
 	KOR_jo_wan_gu={
 		name=KOR_jo_wan_gu
 		portraits={
@@ -218,7 +218,7 @@ characters = {
 		}
 	}
 	
-	### 정치고문/중점달성 ###
+	### 정치고문/중점 ###
 	KOR_cho_bong_am={
 		name=KOR_cho_bong_am
 		portraits={
