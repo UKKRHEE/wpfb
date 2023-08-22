@@ -42,9 +42,9 @@ recruit_character = CHI_huang_bingheng
 
 ### 육군참모총장 ###
 recruit_character = CHI_he_yingqin
-recruit_character = CHI_zhu_peide
-recruit_character = CHI_cheng_qian
 recruit_character = CHI_chen_cheng
+recruit_character = CHI_cheng_qian
+recruit_character = CHI_zhu_peide
 
 ### 해군참모총장 ###
 recruit_character = CHI_chen_shaokuan

@@ -452,37 +452,6 @@ characters={
 			}
 		}
 	}
-	PRC_luo_ronghuan={
-		name=PRC_luo_ronghuan
-		portraits={
-			army={
-				large=GFX_portrait_PRC_luo_ronghuan
-				small=GFX_idea_PRC_luo_ronghuan
-			}
-		}
-		advisor={
-			slot = high_command
-			idea_token = PRC_luo_ronghuan
-			ledger = army
-	    	allowed = {
-	    		original_tag = PRC
-	    	}
-	    	traits = {
-				army_concealment_1
-			}
-		}
-		corps_commander={
-			traits = {
-				politically_connected
-			}
-			skill = 3
-			attack_skill = 2
-			defense_skill = 3
-			planning_skill = 3
-			logistics_skill = 4
-			legacy_id=-1
-		}
-	}
 	PRC_xu_xiangqian={
 		name=PRC_xu_xiangqian
 		portraits={
@@ -586,6 +555,37 @@ characters={
 			defense_skill = 3
 			planning_skill = 3
 			logistics_skill = 3
+			legacy_id=-1
+		}
+	}
+	PRC_luo_ronghuan={
+		name=PRC_luo_ronghuan
+		portraits={
+			army={
+				large=GFX_portrait_PRC_luo_ronghuan
+				small=GFX_idea_PRC_luo_ronghuan
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = PRC_luo_ronghuan
+			ledger = army
+	    	allowed = {
+	    		original_tag = PRC
+	    	}
+	    	traits = {
+				army_concealment_1
+			}
+		}
+		corps_commander={
+			traits = {
+				politically_connected
+			}
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 4
 			legacy_id=-1
 		}
 	}

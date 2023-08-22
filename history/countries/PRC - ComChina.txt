@@ -43,11 +43,11 @@ recruit_character = PRC_liu_yalou
 ### 최고사령부 ###
 recruit_character = PRC_lin_biao
 recruit_character = PRC_chen_yi
-recruit_character = PRC_luo_ronghuan
 recruit_character = PRC_xu_xiangqian
 recruit_character = PRC_nie_rongzhen
 recruit_character = PRC_su_yu
 recruit_character = PRC_chen_geng
+recruit_character = PRC_luo_ronghuan
 
 ### 육군 장성 ###
 recruit_character = PRC_ye_jianying

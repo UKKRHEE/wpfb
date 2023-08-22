@@ -39,8 +39,8 @@ recruit_character = SDC_fu_sinian
 recruit_character = SDC_han_fuju
 
 ### 정치고문 ###
-recruit_character = SDC_kong_dechong
 recruit_character = SDC_zhang_fuyun
+recruit_character = SDC_kong_dechong
 recruit_character = SDC_industry
 recruit_character = SDC_security
 
@@ -56,8 +56,8 @@ recruit_character = SDC_navy_department
 recruit_character = SDC_air_department
 
 ### 최고사령부 ###
-recruit_character = SDC_sun_tongxuan
 recruit_character = SDC_wu_huawen
+recruit_character = SDC_sun_tongxuan
 recruit_character = SDC_infantry
 recruit_character = SDC_artillery
 recruit_character = SDC_logistics

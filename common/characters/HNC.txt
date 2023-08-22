@@ -255,6 +255,38 @@ characters={
 	}
 	
 	### 최고사령부 ###
+	HNC_men_bingyue = {
+		name=HNC_men_bingyue
+		portraits={
+			army={
+				large=GFX_portrait_HNC_men_bingyue
+				small=GFX_idea_HNC_men_bingyue
+			}
+		}
+		advisor={
+			cost = 100
+			slot = high_command
+			idea_token = HNC_men_bingyue
+			ledger = army
+		    allowed = {
+		    	original_tag = HNC
+		    }
+		    traits = {
+				army_cavalry_2
+			}
+		}
+		corps_commander={
+			traits = {
+				cavalry_leader
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
 	HNC_he_yaozu = {
 		name=HNC_he_yaozu
 		portraits={
@@ -376,38 +408,6 @@ characters={
 				panzer_leader
 			}
 			skill = 2
-			attack_skill = 3
-			defense_skill = 2
-			planning_skill = 2
-			logistics_skill = 2
-			legacy_id=-1
-		}
-	}
-	HNC_men_bingyue = {
-		name=HNC_men_bingyue
-		portraits={
-			army={
-				large=GFX_portrait_HNC_men_bingyue
-				small=GFX_idea_HNC_men_bingyue
-			}
-		}
-		advisor={
-			cost = 100
-			slot = high_command
-			idea_token = HNC_men_bingyue
-			ledger = army
-		    allowed = {
-		    	original_tag = HNC
-		    }
-		    traits = {
-				army_cavalry_2
-			}
-		}
-		corps_commander={
-			traits = {
-				cavalry_leader
-			}
-			skill = 3
 			attack_skill = 3
 			defense_skill = 2
 			planning_skill = 2

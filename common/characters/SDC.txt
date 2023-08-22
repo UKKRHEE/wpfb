@@ -91,6 +91,25 @@ characters={
 	}
 	
 	### 정치고문 ###
+	SDC_zhang_fuyun={
+		name=SDC_zhang_fuyun
+		portraits={
+			civilian={
+				large=GFX_portrait_SDC_zhang_fuyun
+				small=GFX_idea_SDC_zhang_fuyun
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = SDC_zhang_fuyun
+			allowed  = {
+				original_tag = SDC
+			}
+			traits  = {
+				financial_expert
+			}
+		}
+	}
 	SDC_kong_dechong={
 		name=SDC_kong_dechong
 		portraits={
@@ -117,25 +136,6 @@ characters={
 			}
 			traits  = {
 				duke_yansheng_advisor
-			}
-		}
-	}
-	SDC_zhang_fuyun={
-		name=SDC_zhang_fuyun
-		portraits={
-			civilian={
-				large=GFX_portrait_SDC_zhang_fuyun
-				small=GFX_idea_SDC_zhang_fuyun
-			}
-		}
-		advisor={
-			slot = political_advisor
-			idea_token = SDC_zhang_fuyun
-			allowed  = {
-				original_tag = SDC
-			}
-			traits  = {
-				financial_expert
 			}
 		}
 	}
@@ -283,37 +283,6 @@ characters={
 	}
 	
 	### 최고사령부 ###
-	SDC_sun_tongxuan = {
-		name=SDC_sun_tongxuan
-		portraits={
-			army={
-				large=GFX_portrait_SDC_sun_tongxuan
-				small=GFX_idea_SDC_sun_tongxuan
-			}
-		}
-		advisor={
-			slot = high_command
-			idea_token = SDC_sun_tongxuan
-			ledger = army
-		    allowed = {
-		    	original_tag = SDC
-		    }
-		    traits = {
-				army_regrouping_1
-			}
-		}
-		corps_commander={
-			traits = {
-				#
-			}
-			skill = 2
-			attack_skill = 2
-			defense_skill = 2
-			planning_skill = 2
-			logistics_skill = 1
-			legacy_id=-1
-		}
-	}
 	SDC_wu_huawen = {
 		name=SDC_wu_huawen
 		portraits={
@@ -342,6 +311,37 @@ characters={
 			attack_skill = 1
 			defense_skill = 1
 			planning_skill = 1
+			logistics_skill = 1
+			legacy_id=-1
+		}
+	}
+	SDC_sun_tongxuan = {
+		name=SDC_sun_tongxuan
+		portraits={
+			army={
+				large=GFX_portrait_SDC_sun_tongxuan
+				small=GFX_idea_SDC_sun_tongxuan
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = SDC_sun_tongxuan
+			ledger = army
+		    allowed = {
+		    	original_tag = SDC
+		    }
+		    traits = {
+				army_regrouping_1
+			}
+		}
+		corps_commander={
+			traits = {
+				#
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
 			logistics_skill = 1
 			legacy_id=-1
 		}

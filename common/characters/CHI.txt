@@ -314,22 +314,36 @@ characters={
 			legacy_id=-1
 		}
 	}
-	CHI_zhu_peide={
-		name=CHI_zhu_peide
+	CHI_chen_cheng={
+		name=CHI_chen_cheng
 		portraits={
 			army={
-				small=GFX_idea_CHI_zhu_peide
+				large=GFX_portrait_CHI_chen_cheng
+				small="GFX_idea_CHI_chen_cheng"
 			}
 		}
-		advisor={
+		advisor={	
+			cost = 200
 			slot = army_chief
-			idea_token = CHI_zhu_peide
+			idea_token = CHI_chen_cheng
 			allowed = {
 				original_tag = CHI
 			}
 			traits = {
-				army_chief_drill_1
+				army_chief_reform_3
 			}
+		}
+		corps_commander={
+			traits = {
+				politically_connected
+				infantry_officer
+			}
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 4
+			legacy_id=-1
 		}
 	}
 	CHI_cheng_qian={
@@ -363,36 +377,22 @@ characters={
 			legacy_id=-1
 		}
 	}
-	CHI_chen_cheng={
-		name=CHI_chen_cheng
+	CHI_zhu_peide={
+		name=CHI_zhu_peide
 		portraits={
 			army={
-				large=GFX_portrait_CHI_chen_cheng
-				small="GFX_idea_CHI_chen_cheng"
+				small=GFX_idea_CHI_zhu_peide
 			}
 		}
-		advisor={	
-			cost = 200
+		advisor={
 			slot = army_chief
-			idea_token = CHI_chen_cheng
+			idea_token = CHI_zhu_peide
 			allowed = {
 				original_tag = CHI
 			}
 			traits = {
-				army_chief_reform_3
+				army_chief_drill_1
 			}
-		}
-		corps_commander={
-			traits = {
-				politically_connected
-				infantry_officer
-			}
-			skill = 3
-			attack_skill = 2
-			defense_skill = 2
-			planning_skill = 3
-			logistics_skill = 4
-			legacy_id=-1
 		}
 	}
 	

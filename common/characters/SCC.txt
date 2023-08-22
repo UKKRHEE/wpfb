@@ -283,38 +283,6 @@ characters={
 	}
 	
 	### 최고사령부 ###
-	SCC_tian_songyao = {
-		name=SCC_tian_songyao
-		portraits={
-			army={
-				large=GFX_portrait_SCC_tian_songyao
-				small=GFX_idea_SCC_tian_songyao
-			}
-		}
-		advisor={
-			slot = high_command
-			idea_token = SCC_tian_songyao
-			ledger = army
-		    allowed = {
-		    	original_tag = SCC
-		    }
-		    traits = {
-				army_cavalry_1
-			}
-		}
-		corps_commander={
-			traits = {
-				inflexible_strategist
-				old_guard
-			}
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
-			legacy_id=-1
-		}
-	}
 	SCC_pan_wenhua = {
 		name=SCC_pan_wenhua
 		portraits={
@@ -371,6 +339,38 @@ characters={
 		corps_commander = {
 			traits = {
 				career_officer
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id=-1
+		}
+	}
+	SCC_tian_songyao = {
+		name=SCC_tian_songyao
+		portraits={
+			army={
+				large=GFX_portrait_SCC_tian_songyao
+				small=GFX_idea_SCC_tian_songyao
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = SCC_tian_songyao
+			ledger = army
+		    allowed = {
+		    	original_tag = SCC
+		    }
+		    traits = {
+				army_cavalry_1
+			}
+		}
+		corps_commander={
+			traits = {
+				inflexible_strategist
+				old_guard
 			}
 			skill = 1
 			attack_skill = 1

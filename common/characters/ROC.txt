@@ -76,8 +76,63 @@ characters={
 		}
 	}
 	
-	### 정치고문 ###
-	#왕징웨이 파벌
+	### 정치고문/공용 ###
+	ROC_eugene_chen={
+		name=ROC_eugene_chen
+		portraits={
+			civilian={
+				small=GFX_idea_ROC_eugene_chen
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = ROC_eugene_chen
+			allowed = {
+				original_tag = ROC
+			}
+			traits = {
+				SWI_diplomat
+			}
+		}
+	}
+	ROC_zhang_dongsun={
+		name=ROC_zhang_dongsun
+		portraits={
+			civilian={
+				small=GFX_idea_ROC_zhang_dongsun
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = ROC_zhang_dongsun
+			allowed = {
+				original_tag = ROC
+			}
+			traits = {
+				political_specialist
+			}
+		}
+	}
+	ROC_zou_taofen={
+		name=ROC_zou_taofen
+		portraits={
+			civilian={
+				small=GFX_idea_ROC_zou_taofen
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = ROC_zou_taofen
+			allowed  = {
+				original_tag  = ROC
+			}
+			traits = {
+				patriotism_journalist
+			}
+		}
+	}
+	
+	### 정치고문/개조파 ###
 	ROC_chen_gongbo={
 		name=ROC_chen_gongbo
 		portraits={
@@ -170,61 +225,8 @@ characters={
 			}
 		}
 	}
-	#무소속
-	ROC_eugene_chen={
-		name=ROC_eugene_chen
-		portraits={
-			civilian={
-				small=GFX_idea_ROC_eugene_chen
-			}
-		}
-		advisor={
-			slot = political_advisor
-			idea_token = ROC_eugene_chen
-			allowed = {
-				original_tag = ROC
-			}
-			traits = {
-				SWI_diplomat
-			}
-		}
-	}
-	ROC_zhang_dongsun={
-		name=ROC_zhang_dongsun
-		portraits={
-			civilian={
-				small=GFX_idea_ROC_zhang_dongsun
-			}
-		}
-		advisor={
-			slot = political_advisor
-			idea_token = ROC_zhang_dongsun
-			allowed = {
-				original_tag = ROC
-			}
-			traits = {
-				political_specialist
-			}
-		}
-	}
-	ROC_zou_taofen={
-		name=ROC_zou_taofen
-		portraits={
-			civilian={
-				small=GFX_idea_ROC_zou_taofen
-			}
-		}
-		advisor={
-			slot = political_advisor
-			idea_token = ROC_zou_taofen
-			allowed  = {
-				original_tag  = ROC
-			}
-			traits  = {
-				 liberal_journalist
-			}
-		}
-	}
+	
+	### 정치고문/정보기관 ###
 	ROC_li_zhangda={
 		name=ROC_li_zhangda
 		portraits={

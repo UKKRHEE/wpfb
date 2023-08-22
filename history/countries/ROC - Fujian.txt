@@ -39,14 +39,15 @@ recruit_character = ROC_wang_jingwei
 recruit_character = ROC_li_jishen
 
 ### 정치고문 ###
-#왕징웨이 파벌
-recruit_character = ROC_chen_gongbo
-recruit_character = ROC_zhou_fohai
-recruit_character = ROC_gu_mengyu
-#무소속
+#공용
 recruit_character = ROC_eugene_chen
 recruit_character = ROC_zhang_dongsun
 recruit_character = ROC_zou_taofen
+#개조파
+recruit_character = ROC_chen_gongbo
+recruit_character = ROC_zhou_fohai
+recruit_character = ROC_gu_mengyu
+#정보기관
 recruit_character = ROC_li_zhangda
 
 ### 이론가 ###

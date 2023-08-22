@@ -108,7 +108,7 @@ recruit_character = SCC_lu_zuofu
 recruit_character = SCC_zhou_conghua
 recruit_character = SCC_tang_chun_i
 recruit_character = SCC_yang_shukan
-recruit_character = SCC_sichuan_security
+recruit_character = SCC_security
 
 ### 이론가 ###
 recruit_character = SCC_army_research
@@ -122,9 +122,9 @@ recruit_character = SCC_navy_department
 recruit_character = SCC_zheng_shaoyu
 
 ### 최고사령부 ###
-recruit_character = SCC_tian_songyao
 recruit_character = SCC_pan_wenhua
 recruit_character = SCC_guo_xunqi
+recruit_character = SCC_tian_songyao
 recruit_character = SCC_yue_yiqin
 
 ### 육군 장성 ###
