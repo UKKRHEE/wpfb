@@ -199,6 +199,8 @@ leader_traits = {
 			factor = 1
 		}
 	}
+	
+	### 국민군 ###
 	christian_general = { #기독교도 장군
 		random = no
 
@@ -245,6 +247,17 @@ leader_traits = {
 		land_reinforce_rate = 0.02
 		command_power_gain = 0.10
 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	soviet_tsar = { #소비에트 차르
+		random = no
+		
+		resistance_growth_on_our_occupied_states = 0.1
+		required_garrison_factor = -0.15
+		war_support_factor = 0.05
+		
 		ai_will_do = {
 			factor = 1
 		}

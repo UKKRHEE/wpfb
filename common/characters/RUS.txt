@@ -10,7 +10,7 @@ characters = {
 		country_leader={
 			ideology=leninism
 			traits = {
-				#
+				soviet_tsar
 			}
 			expire="1960.1.1.1"
 			id=-1
@@ -514,16 +514,8 @@ characters = {
 		advisor={
 			slot = political_advisor
 			idea_token = RUS_klavdiy_foss
-			visible = {
-                NOT = {
-					has_government = communism
-				}
-            }
 			available = {
 				has_intelligence_agency = yes
-				NOT = {
-					has_government = communism
-				}
 			}
 			allowed = {
 				original_tag = RUS
