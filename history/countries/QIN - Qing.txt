@@ -169,13 +169,13 @@ recruit_character = QIN_aisin_gioro_xianyu
 
 set_autonomy = {
 	target = MON
-	autonomous_state = china_sheng_government
+	autonomous_state = wpfb_autonomy_government
 }
 set_autonomy = {
 	target = SIK
-	autonomous_state = china_sheng_government
+	autonomous_state = wpfb_autonomy_government
 }
 set_autonomy = {
 	target = TIB
-	autonomous_state = china_sheng_government
+	autonomous_state = wpfb_autonomy_government
 }
