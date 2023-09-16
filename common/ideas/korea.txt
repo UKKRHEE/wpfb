@@ -1794,11 +1794,11 @@ ideas = {
 		    	original_tag = KOR
 		    }
 	    		
-		    research_bonus = {
-		    	infantry_weapons = 0.1
-	    	}
+			research_bonus = {
+				artillery = 0.15
+			}
 			
-		    traits = { infantry_equipment_manufacturer }
+			traits = { artillery_manufacturer }
 	    }
 	
 		KOR_samsung = { #삼성
@@ -1815,21 +1815,6 @@ ideas = {
 	    	}
 			
 		    traits = { infantry_equipment_manufacturer }
-	    }
-		
-		KOR_anheung = { #안흥
-
-	    	picture = KOR_anheung
-            
-		    allowed = {
-		    	original_tag = KOR
-		    }
-	    		
-			research_bonus = {
-				artillery = 0.15
-			}
-			
-			traits = { artillery_manufacturer }
 	    }
 		
 		KOR_hwangseong = { #황성

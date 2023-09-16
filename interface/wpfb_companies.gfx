@@ -55,10 +55,6 @@ spriteTypes = {
 		texturefile = "gfx/interface/companies/KOR/KOR_samsung.png"
 	}
 	spriteType = {
-		name = "GFX_idea_KOR_anheung"
-		texturefile = "gfx/interface/companies/KOR/KOR_anheung.png"
-	}
-	spriteType = {
 		name = "GFX_idea_KOR_hwangseong"
 		texturefile = "gfx/interface/companies/KOR/KOR_hwangseong.png"
 	}
