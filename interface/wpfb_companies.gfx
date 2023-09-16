@@ -5,34 +5,62 @@ spriteTypes = {
 	
 	### 전차 ###
 	spriteType = {
-		name = "GFX_idea_KOR_hyundai"
-		texturefile = "gfx/interface/companies/KOR/KOR_hyundai.png"
+		name = "GFX_idea_KOR_daeseon"
+		texturefile = "gfx/interface/companies/KOR/KOR_daeseon.png"
+	}
+	spriteType = {
+		name = "GFX_idea_KOR_yeomin"
+		texturefile = "gfx/interface/companies/KOR/KOR_yeomin.png"
+	}
+	spriteType = {
+		name = "GFX_idea_KOR_dusan"
+		texturefile = "gfx/interface/companies/KOR/KOR_dusan.png"
 	}
 	
 	### 함정 ###
 	spriteType = {
-		name = "GFX_idea_KOR_daewoo"
-		texturefile = "gfx/interface/companies/KOR/KOR_daewoo.png"
+		name = "GFX_idea_KOR_daehan_dockyard"
+		texturefile = "gfx/interface/companies/KOR/KOR_daeseon.png"
+	}
+	spriteType = {
+		name = "GFX_idea_KOR_pyoahm"
+		texturefile = "gfx/interface/companies/KOR/KOR_pyoahm.png"
 	}
 	
 	### 항공기 ###
 	spriteType = {
-		name = "GFX_idea_KOR_samyang"
-		texturefile = "gfx/interface/companies/KOR/KOR_samyang.png"
+		name = "GFX_idea_KOR_keumseong_af"
+		texturefile = "gfx/interface/companies/KOR/KOR_keumseong.png"
+	}
+	spriteType = {
+		name = "GFX_idea_KOR_dusan_air"
+		texturefile = "gfx/interface/companies/KOR/KOR_dusan.png"
+	}
+	spriteType = {
+		name = "GFX_idea_KOR_haepyong_air"
+		texturefile = "gfx/interface/companies/KOR/KOR_haepyong.png"
 	}
 	
 	### 군수품 ###
+	spriteType = {
+		name = "GFX_idea_KOR_busanchobyung"
+		texturefile = "gfx/interface/companies/KOR/KOR_busanchobyung.png"
+	}
 	spriteType = {
 		name = "GFX_idea_KOR_incheon"
 		texturefile = "gfx/interface/companies/KOR/KOR_incheon.png"
 	}
 	spriteType = {
-		name = "GFX_idea_KOR_artillery_design"
-		texturefile = "gfx/interface/companies/KOR/KOR_artillery_design.png"
+		name = "GFX_idea_KOR_samsung"
+		texturefile = "gfx/interface/companies/KOR/KOR_samsung.png"
 	}
 	spriteType = {
-		name = "GFX_idea_KOR_royal_arsenal"
-		texturefile = "gfx/interface/companies/KOR/KOR_royal_arsenal.png"
+		name = "GFX_idea_KOR_anheung"
+		texturefile = "gfx/interface/companies/KOR/KOR_anheung.png"
+	}
+	spriteType = {
+		name = "GFX_idea_KOR_hwangseong"
+		texturefile = "gfx/interface/companies/KOR/KOR_hwangseong.png"
 	}
 	
 	### 산업 ###
@@ -43,6 +71,34 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_KOR_seoul_electric"
 		texturefile = "gfx/interface/companies/KOR/KOR_seoul_electric.png"
+	}
+	spriteType = {
+		name = "GFX_idea_KOR_haepyong"
+		texturefile = "gfx/interface/companies/KOR/KOR_haepyong.png"
+	}
+	spriteType = {
+		name = "GFX_idea_KOR_hanheung"
+		texturefile = "gfx/interface/companies/KOR/KOR_hanheung.png"
+	}
+	spriteType = {
+		name = "GFX_idea_KOR_samhwa_rubber"
+		texturefile = "gfx/interface/companies/KOR/KOR_samhwa.png"
+	}
+	spriteType = {
+		name = "GFX_idea_KOR_choheung"
+		texturefile = "gfx/interface/companies/KOR/KOR_choheung.png"
+	}
+	spriteType = {
+		name = "GFX_idea_KOR_taechang"
+		texturefile = "gfx/interface/companies/KOR/KOR_taechang.png"
+	}
+	spriteType = {
+		name = "GFX_idea_KOR_keumjeong"
+		texturefile = "gfx/interface/companies/KOR/KOR_keumjeong.png"
+	}
+	spriteType = {
+		name = "GFX_idea_KOR_korean_oil_company"
+		texturefile = "gfx/interface/companies/KOR/KOR_yugong.png"
 	}
 	
 	#############
