@@ -26,6 +26,10 @@ spriteTypes = {
 		name = "GFX_idea_KOR_pyoahm"
 		texturefile = "gfx/interface/companies/KOR/KOR_pyoahm.png"
 	}
+	spriteType = {
+		name = "GFX_idea_KOR_dongmyong"
+		texturefile = "gfx/interface/companies/KOR/KOR_dongmyong.png" 
+	}
 	
 	### 항공기 ###
 	spriteType = {
