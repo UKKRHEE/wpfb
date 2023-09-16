@@ -304,16 +304,6 @@ units = {
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.93
 	}
-	division = {
-		division_name = {
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 4056
-		division_template = "기동사단"
-		start_experience_factor = 0.3
-		start_equipment_factor = 0.93
-	}
 	#기병사단
 	division = {
 		division_name = {
@@ -324,76 +314,6 @@ units = {
 		division_template = "기병사단"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.7
-	}
-	division = {
-		division_name = {
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 13265
-		division_template = "기병사단"
-		start_experience_factor = 0.3
-		start_equipment_factor = 0.6
-	}
-	division = {
-		division_name = {
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 12040
-		division_template = "기병사단"
-		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-	}
-	division = {
-		division_name = {
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 9936
-		division_template = "기병사단"
-		start_experience_factor = 0.3
-		start_equipment_factor = 0.8
-	}
-	division = {
-		division_name = {
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 6981
-		division_template = "기병사단"
-		start_experience_factor = 0.3
-		start_equipment_factor = 0.6
-	}
-	division = {
-		division_name = {
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 11915
-		division_template = "기병사단"
-		start_experience_factor = 0.3
-		start_equipment_factor = 0.8
-	}
-	division = {
-		division_name = {
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 12085
-		division_template = "기병사단"
-		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-	}
-	division = {
-		division_name = {
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 4052
-		division_template = "기병사단"
-		start_experience_factor = 0.3
-		start_equipment_factor = 0.6
 	}
 	#방위사단
 	division = {
