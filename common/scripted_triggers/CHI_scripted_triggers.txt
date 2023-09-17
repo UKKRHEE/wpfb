@@ -83,6 +83,24 @@ is_literally_china = {
 	}
 }
 
+china_and_qing_tag = {
+	OR = {
+		original_tag = SHX
+		original_tag = CHI
+		original_tag = GMJ
+		original_tag = SDC
+		original_tag = XSM
+		original_tag = SCC
+		original_tag = HNC
+		original_tag = YUN
+		original_tag = GXC
+		original_tag = PRC
+		original_tag = ROC
+		original_tag = RGC
+		original_tag = QIN
+	}
+}
+
 is_chinese_warlord = {
 	OR = {		
 		original_tag = GMJ

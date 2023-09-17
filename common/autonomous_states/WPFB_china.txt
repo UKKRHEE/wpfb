@@ -1,62 +1,3 @@
-### 자치정부 ###
-autonomy_state = {
-	id = wpfb_autonomy_government
-	
-	is_puppet = yes
-	
-	use_overlord_color = yes
-	
-	min_freedom_level = 0.0
-	
-	manpower_influence = 1.0
-	
-	#Entirely diplomatically dependent on their overlord, but fairly autonomous in industry
-	rule = {
-		desc = "RULE_DESC_IS_A_SUBJECT"
-		
-		can_not_declare_war = yes
-		can_decline_call_to_war = yes
-		units_deployed_to_overlord = no
-		can_be_spymaster = yes
-		contributes_operatives = yes
-		can_create_collaboration_government = no
-	}
-	
-	modifier = {
-		autonomy_manpower_share = 0.0
-		
-		#extra_trade_to_overlord_factor = 0.5
-		#overlord_trade_cost_factor = -0.5
-		#can_master_build_for_us = 1
-	}
-	
-	ai_subject_wants_higher = {
-		factor = 10.0
-	}
-	
-	ai_overlord_wants_lower = {
-		factor = 0.0
-	}
-	
-	allowed_levels_filter = {
-		wpfb_autonomy_government
-	}
-
-	allowed = {
-		OR = {
-			is_subject = no
-			has_autonomy_state = wpfb_autonomy_government
-		}
-	}
-	
-	can_take_level = {
-		always = no
-	}
-	can_lose_level = {
-		always = no
-	}
-}
-
 ### 명목상 성정부 ###
 autonomy_state = {
 	id = wpfb_china_nominal_governorate
@@ -70,7 +11,6 @@ autonomy_state = {
 	
 	manpower_influence = 1.0
 	
-	#Entirely diplomatically dependent on their overlord, but fairly autonomous in industry
 	rule = {
 		desc = "RULE_DESC_IS_A_SUBJECT"
 		
@@ -104,11 +44,11 @@ autonomy_state = {
 	
 	allowed_levels_filter = {
 		wpfb_china_nominal_governorate
-		wpfb_china_sheng_governorate
+		wpfb_china_governorate
 	}
 
 	allowed = {
-		OVERLORD = { OR = { original_tag = SHX original_tag = QIN original_tag = CHI } }
+		overlord = { china_and_qing_tag = yes }
 	}
 	
 	can_take_level = {
@@ -120,7 +60,7 @@ autonomy_state = {
 
 ### 성정부 ###
 autonomy_state = {
-	id = wpfb_china_sheng_governorate
+	id = wpfb_china_governorate
 	
 	is_puppet = yes
 	
@@ -130,7 +70,6 @@ autonomy_state = {
 	
 	manpower_influence = 1.0
 	
-	#Entirely diplomatically dependent on their overlord, but fairly autonomous in industry
 	rule = {
 		desc = "RULE_DESC_IS_A_SUBJECT"
 		
@@ -164,11 +103,11 @@ autonomy_state = {
 	
 	allowed_levels_filter = {
 		wpfb_china_nominal_governorate
-		wpfb_china_sheng_governorate
+		wpfb_china_governorate
 	}
 
 	allowed = {
-		OVERLORD = { OR = { original_tag = SHX original_tag = QIN original_tag = CHI } }
+		overlord = { china_and_qing_tag = yes }
 	}
 	
 	can_take_level = {
