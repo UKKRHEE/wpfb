@@ -1,94 +1,13 @@
 on_actions = {	
-	on_puppet = {
+	on_daily_QIN = {
 		effect = {
-			if = {
-				limit = {
-					OR = {
-						original_tag = MON
-						original_tag = SIK
-						original_tag = TIB
-					}
-					is_subject_of = QIN
-					has_government = communism
-				}
-				set_cosmetic_tag = QIN_puppet_communism
-			}
-			if = {
-				limit = {
-					OR = {
-						original_tag = MON
-						original_tag = SIK
-						original_tag = TIB
-					}
-					is_subject_of = QIN
-					NOT = {
-						has_government = communism
-					}
-				}
-				set_cosmetic_tag = QIN_puppet
-			}
-		}
-	}
-	
-	on_release_as_puppet = {
-		effect = {
-			if = {
-				limit = {
-					OR = {
-						original_tag = MON
-						original_tag = SIK
-						original_tag = TIB
-					}
-					FROM = { tag = QIN }
-					has_government = communism
-				}
-				set_cosmetic_tag = QIN_puppet_communism
-			}
-			if = {
-				limit = {
-					OR = {
-						original_tag = MON
-						original_tag = SIK
-						original_tag = TIB
-					}
-					FROM = { tag = QIN }
-					NOT = {
-						has_government = communism
-					}
-				}
-				set_cosmetic_tag = QIN_puppet
-			}
-		}
-	}
-	
-	on_subject_free = {
-		effect = {
-			if = {
-				limit = {
-					OR = {
-						original_tag = MON
-						original_tag = SIK
-						original_tag = TIB
-					}
-					has_cosmetic_tag = QIN_puppet
-				}
-				drop_cosmetic_tag = yes
-			}
-		}
-	}
-	
-	on_ruling_party_change = {
-		effect = {
+			### 국가 색상 변경 ###
 			if = {
 				limit = {
 					original_tag = QIN
 					has_government = communism
 				}
 				set_cosmetic_tag = QIN_communism
-				if = {
-					limit = { has_idea = QIN_constitutional_monarch_puyi }
-					remove_ideas = QIN_constitutional_monarch_puyi
-				}
 			}
 			if = {
 				limit = {
@@ -98,23 +17,17 @@ on_actions = {
 					}
 				}
 				drop_cosmetic_tag = QIN_communism
-				if = {
-					limit = {
-						NOT = { has_idea = QIN_constitutional_monarch_puyi }
-					}
-					add_ideas = QIN_constitutional_monarch_puyi
-				}
 			}
-		}
-	}
-
-	on_daily_QIN = {
-		effect = {
+			
+			### 입헌군주 국민정신 ###
 			if = {
 				limit = {
 					original_tag = QIN
-					has_country_leader = { character = QIN_aisin_gioro_puyi }
 					has_idea = QIN_constitutional_monarch_puyi
+					OR = {
+						has_government = communism
+						has_country_leader = { character = QIN_aisin_gioro_puyi }
+					}
 				}
 				if = {
 					limit = { has_idea = QIN_constitutional_monarch_puyi }

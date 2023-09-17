@@ -42,16 +42,6 @@ QIN_communism = {
 	color_ui = rgb { 255 120 71 }
 }
 
-QIN_puppet = {
-	color = rgb { 8 99 156 }
-	color_ui = rgb { 8 99 156 }
-}
-
-QIN_puppet_communism = {
-	color = rgb { 255 120 71 }
-	color_ui = rgb { 255 120 71 }
-}
-
 MAL_UK = {
     color = rgb { 201 56 93 }
     color_ui = rgb { 255 73 121 }

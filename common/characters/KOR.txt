@@ -86,7 +86,7 @@ characters = {
 			}
 		}
 		country_leader={
-			desc = "KOR_lee_beom_seok_leader_desc"
+			desc = "KOR_lee_beom_seok_desc"
 			expire = "1965.1.1"
 			ideology = fascism_ideology
 			traits = {

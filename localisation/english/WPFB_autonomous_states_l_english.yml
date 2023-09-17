@@ -1,8 +1,4 @@
 ﻿l_english:
- #############
- ### 대한제국 ###
- #############
- 
- ### 지도자 ###
- china_sheng_government:0 "성 정부"
  wpfb_autonomy_government:0 "자치정부"
+ wpfb_china_governorate:0 "성정부"
+ wpfb_china_nominal_governorate:0 "명목상 성정부"

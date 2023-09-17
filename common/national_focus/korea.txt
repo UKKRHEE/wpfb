@@ -62,7 +62,7 @@
 		
 		completion_reward = {
 			custom_effect_tooltip = available_political_advisor
-			show_ideas_tooltip = cho_bong_am
+			show_ideas_tooltip = KOR_cho_bong_am
 		}
 	}
 	focus = { #토지조사사업
@@ -280,7 +280,7 @@
 		
 		completion_reward = {
 			custom_effect_tooltip = available_political_advisor
-			show_ideas_tooltip = hyeon_jun_ho
+			show_ideas_tooltip = KOR_hyeon_jun_ho
 		}
 	}
 	focus = { #실업자 구제

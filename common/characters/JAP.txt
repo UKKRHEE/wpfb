@@ -8,6 +8,7 @@ characters = {
 			}
 		}
 		country_leader={
+			desc = "JAP_kyuichi_tokuda_desc"
 			expire = "1965.1.1"
 			ideology = marxism
 			traits = {
@@ -41,6 +42,7 @@ characters = {
 			}
 		}
 		country_leader={
+			desc = "JAP_yasuhito_desc"
 			expire = "1965.1.1"
 			ideology = fascism_ideology
 			traits = {
@@ -57,6 +59,7 @@ characters = {
 			}
 		}
 		country_leader={
+			desc = "JAP_ugaki_kazushige_desc"
 			expire = "1965.1.1"
 			ideology = oligarchism
 			traits = {
