@@ -8,8 +8,8 @@ spriteTypes = {
 	
 	### 성정부 ###
 	spriteType = {
-		name = "GFX_wpfb_china_governorate_icon"
-		textureFile = "gfx/interface/autonomy/wpfb_china_governorate.png"
+		name = "GFX_wpfb_china_sheng_governorate_icon"
+		textureFile = "gfx/interface/autonomy/wpfb_china_sheng_governorate.png"
 	}
 	
 	### 명목상 성정부 ###

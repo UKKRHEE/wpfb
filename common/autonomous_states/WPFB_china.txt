@@ -61,11 +61,12 @@ autonomy_state = {
 autonomy_state = {
 	id = wpfb_china_nominal_governorate
 	
+	default = yes
 	is_puppet = yes
 	
 	use_overlord_color = yes
 	
-	min_freedom_level = 0.2
+	min_freedom_level = 0.8
 	
 	manpower_influence = 1.0
 	
@@ -96,16 +97,17 @@ autonomy_state = {
 	ai_overlord_wants_lower = {
 		factor = 0.0
 	}
+
+	ai_overlord_wants_garrison = {
+		always = no
+	}
 	
 	allowed_levels_filter = {
 		wpfb_china_nominal_governorate
+		wpfb_china_sheng_governorate
 	}
 
 	allowed = {
-		OR = {
-			is_subject = no
-			has_autonomy_state = wpfb_china_sheng_governorate
-		}
 		OVERLORD = { OR = { original_tag = SHX original_tag = QIN original_tag = CHI } }
 	}
 	
@@ -124,7 +126,7 @@ autonomy_state = {
 	
 	use_overlord_color = yes
 	
-	min_freedom_level = 0.8
+	min_freedom_level = 0.2
 	
 	manpower_influence = 1.0
 	
@@ -155,16 +157,17 @@ autonomy_state = {
 	ai_overlord_wants_lower = {
 		factor = 0.0
 	}
+
+	ai_overlord_wants_garrison = {
+		always = yes
+	}
 	
 	allowed_levels_filter = {
-		wpfb_china_nominal_governorate_1
+		wpfb_china_nominal_governorate
+		wpfb_china_sheng_governorate
 	}
 
 	allowed = {
-		OR = {
-			is_subject = no
-			has_autonomy_state = wpfb_china_nominal_governorate
-		}
 		OVERLORD = { OR = { original_tag = SHX original_tag = QIN original_tag = CHI } }
 	}
 	
