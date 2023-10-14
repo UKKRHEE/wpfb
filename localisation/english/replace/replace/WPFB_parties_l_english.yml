@@ -1,4 +1,17 @@
 ﻿l_english:
+ FRA_fascism_party:0 "프랑스 인민당"
+ FRA_fascism_party_long:0 "프랑스 인민당"
+ FRA_neutrality_party:0 "악시옹 프랑세즈"
+ FRA_neutrality_party_long:0 "악시옹 프랑세즈"
+ FRA_ARD_party:0 "민주공화동맹"
+ FRA_ARD_party_long:0 "민주공화동맹"
+ FRA_CFNL_party:0 "프랑스 국민해방위원회"
+ FRA_CFNL_party_long:0 "프랑스 국민해방위원회"
+ FRA_PSF_party:0 "프랑스 사회당"
+ FRA_PSF_party_long:0 "프랑스 사회당"
+ FRA_petain_party:0 "페탱 정권"
+ FRA_petain_party_long:0 "페탱 정권"
+ 
  KOR_communism_party:0 "한인사회당"
  KOR_communism_party_long:0 "한인사회당"
  KOR_democratic_party:0 "신한청년당"
