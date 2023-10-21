@@ -24,9 +24,9 @@ state={
 		1929.6.21 = {
 			set_demilitarized_zone = yes
 		}
-			owner = ZLC
+			owner = SHX
 			add_core_of = SND
-			add_core_of = ZLC
+			add_core_of = SHX
 			add_core_of = CHI
 			add_core_of = PRC
 			buildings = {

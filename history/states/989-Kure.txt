@@ -2,19 +2,24 @@ state={
 	id=989
 	name="STATE_989"
 	provinces={
-		13277
+		13293
 	}
 	history={
-		owner = JAP
-		add_core_of = JAP
+		owner = DKG
+		add_core_of = DKG
 		buildings = {
 			infrastructure = 1
 			13277 = {
 				naval_base = 3
+
 			}
+
+		}
+		1882.3.19 = {
+			set_demilitarized_zone = yes
 		}
 		victory_points = {
-			13277 3 
+			13293 3 
 		}
 
 	}

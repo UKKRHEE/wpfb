@@ -4,6 +4,9 @@ state={
 	name="STATE_976"
 
 	history={
+		victory_points = {
+			3393 3 
+		}
 		owner = POL
 		add_core_of = POL
 		add_core_of = BLR
@@ -19,6 +22,6 @@ state={
 	}
 	manpower=310428
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=rural
 	local_supplies=0.000
 }
