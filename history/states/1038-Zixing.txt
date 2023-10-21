@@ -6,7 +6,7 @@ state={
 	history={
 		owner = AHC
 		add_core_of = AHC
-		add_core_of = WZC
+		add_core_of = CHI
 		add_core_of = CHI
 		add_core_of = PRC
 		buildings = {
@@ -25,7 +25,7 @@ state={
 			7120 3 
 		}
 		1938.10.25 = {
-			controller = DKG
+			controller = JAP
 
 		}
 

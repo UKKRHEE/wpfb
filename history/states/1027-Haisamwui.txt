@@ -2,35 +2,22 @@
 state={
 	id=1027
 	name="STATE_1027"
-	manpower = 680184
+	manpower = 80184
 	local_supplies=0.0 
 	resources={
-		chromium=20 # was: 28
 	}
 	
-	state_category = town
+	state_category = rural
 
 	history={
-		owner = KOR
-		victory_points = {
-			957 20
-		}
+		owner = QIN
 		buildings = {
-			infrastructure = 3
-			air_base = 1
-			arms_factory = 1
-			957 = {
-				naval_base = 8
-				coastal_bunker = 3
-			}
+			infrastructure = 1
 		}
-		1936.5.1 = {
-			owner = KOR
-		}
-		add_core_of = KOR
+		add_core_of = QIN
 	}
 
 	provinces={
-		957
+		4551 10521
 	}
 }
