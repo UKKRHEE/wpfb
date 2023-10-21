@@ -8,9 +8,6 @@ state={
 		buildings = {
 			infrastructure = 2
 		}
-		1929.6.21 = {
-			set_demilitarized_zone = yes
-		}
 		victory_points = {
 			13296 3 
 		}
