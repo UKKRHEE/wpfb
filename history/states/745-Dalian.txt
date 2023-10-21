@@ -8,8 +8,9 @@ state={
 	state_category = large_town
 	history=
 	{
-		owner = QIN
+		owner = JAP
 		add_core_of = QIN
+		add_claim_by = JAP
 		victory_points = {
 			1150 1 
 		}
