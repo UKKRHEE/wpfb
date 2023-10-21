@@ -13256,32 +13256,50 @@
 13254;242;234;234;land;true;forest;6
 13255;243;229;190;land;true;plains;1
 13256;226;59;117;land;true;plains;1
-13257;124;74;12;lake;false;lakes;6 #강원38
-13258;233;179;100;land;false;plains;6 #경기
-13259;67;79;100;land;false;plains;6
-13260;12;55;44;land;false;mountain;6 #강원
-13261;66;66;66;land;false;forest;6 #충북
-13262;111;111;111;land;false;mountain;6 
-13263;213;31;15;land;false;hills;6 #충남
-13264;61;31;15;land;true;hills;6 #전북
-13265;33;131;125;land;false;forest;6 
-13266;72;96;22;land;true;plains;6 #경북-울릉
-13267;123;99;53;land;true;hills;6 #황해38
-13268;42;153;76;land;true;plains;6 
-13269;75;23;115;land;false;plains;6 #경기38 개성
-13270;65;241;63;land;false;hills;6 
-13271;54;23;154;land;false;mountain;6 #강원38
 
-13272;98;72;19;land;true;hills;6 #강원38
+13257;227;205;176;land;true;plains;1
+13258;220;102;66;land;true;plains;1
+13259;14;196;85;land;true;plains;1
+13260;205;35;60;land;true;plains;1
+13261;134;85;243;land;true;plains;1
+13262;152;100;218;land;true;plains;1
+13263;88;5;48;land;true;plains;1
+13264;54;209;196;land;false;plains;1
+13265;48;223;1;land;false;plains;1
+13266;2;106;96;land;true;mountain;1
+13267;209;16;185;land;true;mountain;1
+13268;7;153;169;land;true;mountain;1
+13269;134;147;38;land;true;mountain;1
+13270;11;143;125;land;true;plains;1
+13271;239;45;233;land;true;mountain;1
+13272;26;125;215;land;true;mountain;1
+
+13273;124;74;12;lake;false;lakes;6 #강원38
+13274;233;179;100;land;false;plains;6 #경기
+13275;67;79;100;land;false;plains;6
+13276;12;55;44;land;false;mountain;6 #강원
+13277;66;66;66;land;false;forest;6 #충북
+13278;111;111;111;land;false;mountain;6 
+13279;213;31;15;land;false;hills;6 #충남
+13280;61;31;15;land;true;hills;6 #전북
+13281;33;131;125;land;false;forest;6 
+13282;72;96;22;land;true;plains;6 #경북-울릉
+13283;123;99;53;land;true;hills;6 #황해38
+13284;42;153;76;land;true;plains;6 
+13285;75;23;115;land;false;plains;6 #경기38 개성
+13286;65;241;63;land;false;hills;6 
+13287;54;23;154;land;false;mountain;6 #강원38
+
+13288;98;72;19;land;true;hills;6 #강원38
 
 
-13273;112;54;99;land;true;plains;1
-13274;7;135;116;land;false;hills;1
-13275;151;54;168;land;false;plains;1
+13289;112;54;99;land;true;plains;1
+13290;7;135;116;land;false;hills;1
+13291;151;54;168;land;false;plains;1
 
-13276;117;67;67;land;false;urban;6
-13277;95;152;163;land;true;urban;6
-13278;143;27;97;land;false;plains;6
+13292;117;67;67;land;false;urban;6
+13293;95;152;163;land;true;urban;6
+13294;143;27;97;land;false;plains;6
 
-13279;137;135;52;land;true;plains;6
-13280;80;157;135;land;true;plains;6
+13295;137;135;52;land;true;plains;6
+13296;80;157;135;land;true;plains;6

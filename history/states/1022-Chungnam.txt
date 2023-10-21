@@ -1,0 +1,34 @@
+
+state={
+	id=1022
+	name="STATE_1022"
+
+	history={
+		victory_points = {
+			13279 10 
+		}
+		victory_points = {
+			7175 3 
+		}
+		owner = KOR
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			11992 = {
+				naval_base = 3
+
+			}
+
+		}
+		add_core_of = KOR
+
+	}
+
+	provinces={
+		7175 7204 11992 13279
+	}
+	manpower=2673000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

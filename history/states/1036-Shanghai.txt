@@ -1,0 +1,34 @@
+
+state={
+	id=1036
+	name="STATE_1036"
+
+	history={
+		victory_points = {
+			7014 30 
+		}
+		buildings = {
+			infrastructure = 3
+			dockyard = 2
+			industrial_complex = 2
+			7014 = {
+				naval_base = 3
+
+			}
+
+		}
+		owner = AHC
+		add_core_of = AHC
+		add_core_of = WZC
+		add_core_of = CHI
+		add_core_of = PRC
+	}
+
+	provinces={
+		7014 10034 12052 12076 
+	}
+	manpower=6727000
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
+}

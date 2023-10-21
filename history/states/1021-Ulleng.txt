@@ -1,0 +1,27 @@
+
+state={
+	id=1021
+	name="STATE_1021"
+
+	history={
+		owner = KOR
+		buildings = {
+			infrastructure = 1
+			13282 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = KOR
+
+	}
+
+	provinces={
+		13282 
+	}
+	manpower=13800
+	buildings_max_level_factor=1.000
+	state_category=small_island
+	local_supplies=0.000
+}

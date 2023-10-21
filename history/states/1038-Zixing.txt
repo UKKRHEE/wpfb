@@ -1,0 +1,41 @@
+
+state={
+	id=1038
+	name="STATE_1038"
+
+	history={
+		owner = AHC
+		add_core_of = AHC
+		add_core_of = WZC
+		add_core_of = CHI
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			air_base = 6
+			7014 = {
+				naval_base = 6
+				coastal_bunker = 1
+				bunker = 1
+
+			}
+
+		}
+		victory_points = {
+			7120 3 
+		}
+		1938.10.25 = {
+			controller = DKG
+
+		}
+
+	}
+
+	provinces={
+		996 7120 11982 13142 
+	}
+	manpower=8575100
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
+}

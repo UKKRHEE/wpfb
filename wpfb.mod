@@ -11,5 +11,5 @@ tags={
 	"Gameplay"
 }
 name="When Plum Flowers Bloom"
-supported_version="1.12.*"
+supported_version="1.13.*"
 path="mod/wpfb"

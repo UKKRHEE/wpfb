@@ -1,0 +1,35 @@
+state={
+	id=1035
+	name="STATE_1035"
+	provinces={
+		1104 1200 4186 7105 13295
+	}
+	local_supplies=0.0 
+	manpower=7000000
+	state_category=city
+	buildings_max_level_factor=1.000
+	history={
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+
+		}
+		victory_points = {
+			13295 5
+		}
+		victory_points = {
+			1200 3
+		}
+		1929.6.21 = {
+			set_demilitarized_zone = yes
+		}
+			owner = ZLC
+			add_core_of = SND
+			add_core_of = ZLC
+			add_core_of = CHI
+			add_core_of = PRC
+			buildings = {
+			}
+		}
+}

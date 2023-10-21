@@ -1,0 +1,31 @@
+state={
+	id=1034
+	name="STATE_1034"
+	provinces={
+		4205
+	}
+	local_supplies=0.0 
+	manpower=222000
+	state_category=town
+	buildings_max_level_factor=1.000
+	history={
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			4205 = {
+				naval_base = 3
+
+			}
+
+		}
+		victory_points = {
+			4205 5 
+		}
+		owner = KOR
+		add_core_of = SND
+		add_core_of = KOR
+		add_core_of = ZLC
+		add_core_of = CHI
+		add_core_of = PRC
+	}
+}
