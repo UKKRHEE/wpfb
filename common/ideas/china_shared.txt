@@ -188,7 +188,6 @@ ideas = {
 		wusong_locomotive_works = {
 
 			allowed = {
-				has_dlc = "Waking the Tiger"
 				OR = {
 					is_literally_china = yes
 					tag = QIN
@@ -197,26 +196,23 @@ ideas = {
 			
 			available = {
 				OR = {
-					controls_state = 608
-					controls_state = 613
+					controls_state = 608 #베이징
+					controls_state = 613 #난징
 				}
 			}
-			
-			cost = 150
-			removal_cost = 10
 			
 			research_bonus = {
 				armor = 0.15
 			}
 			
 			traits = { tank_manufacturer }
-			
 		}
 		
-		hip_tung_wo_machinery_factory = {
+		taiyuan_arsenal_tank = {
 
+			picture = taiyuan_arsenal
+			
 			allowed = {
-				has_dlc = "Waking the Tiger"
 				OR = {
 					is_literally_china = yes
 					tag = QIN
@@ -224,24 +220,61 @@ ideas = {
 			}
 			
 			available = {
-				controls_state = 941
+				controls_state = 615 #타이위안
 			}
 			
-			cost = 150
-			removal_cost = 10
+			research_bonus = {
+				armor = 0.15
+			}
+			
+			traits = { tank_manufacturer }
+		}
+		
+		jinan_car_plant = {
+
+			picture = jinan_arsenal
+			
+			allowed = {
+				OR = {
+					is_literally_china = yes
+					tag = QIN
+				}
+			}
+			
+			available = {
+				controls_state = 597 #지난
+			}
+			
+			research_bonus = {
+				armor = 0.15
+			}
+			
+			traits = { tank_manufacturer }
+		}
+		
+		hip_tung_wo_machinery_factory = {
+
+			allowed = {
+				OR = {
+					is_literally_china = yes
+					tag = QIN
+				}
+			}
+			
+			available = {
+				controls_state = 941 #광저우
+			}
 			
 			research_bonus = {
 				armor = 0.15
 			}
 			
 			traits = { fast_tank_manufacturer }
-			
 		}
 		
 		chongqing_tank_plant = {
 
 			allowed = {
-				has_dlc = "Waking the Tiger"
 				OR = {
 					is_literally_china = yes
 					tag = QIN
@@ -249,18 +282,14 @@ ideas = {
 			}
 			
 			available = {
-				controls_state = 605
+				controls_state = 605 #충칭
 			}
-			
-			cost = 150
-			removal_cost = 10
 			
 			research_bonus = {
 				armor = 0.15
 			}
 			
 			traits = { tank_manufacturer }
-			
 		}
 	}
 	
@@ -275,11 +304,10 @@ ideas = {
 					is_literally_china = yes
 					tag = QIN
 				}
-				has_dlc = "Waking the Tiger"
 			}
 
 			available = {
-				controls_state = 716
+				controls_state = 716 #랴오둥 잉커우
 			}
 			
 			research_bonus = {
@@ -297,13 +325,13 @@ ideas = {
 					is_literally_china = yes
 					tag = QIN
 				}
-				has_dlc = "Waking the Tiger"
 			}
 
 			available = {
 				OR = {
-					controls_state = 608
-					controls_state = 931
+					controls_state = 608 #베이징
+					controls_state = 613 #난징
+					controls_state = 1036 #상하이
 				}
 			}
 			
@@ -324,12 +352,10 @@ ideas = {
 					is_literally_china = yes
 					tag = QIN
 				}
-				has_dlc = "Waking the Tiger"
 			}
 
 			available = {
-				controls_state = 931
-				controls_state = 596
+				controls_state = 1036 #상하이
 			}
 			
 			research_bonus = {
@@ -347,11 +373,10 @@ ideas = {
 					is_literally_china = yes
 					tag = QIN
 				}
-				has_dlc = "Waking the Tiger"
 			}
 
 			available = {
-				controls_state = 941
+				controls_state = 941 #광저우
 			}
 			
 			research_bonus = {
@@ -369,11 +394,10 @@ ideas = {
 					is_literally_china = yes
 					tag = QIN
 				}
-				has_dlc = "Waking the Tiger"
 			}
 
 			available = {
-				controls_state = 605
+				controls_state = 605 #충칭
 			}
 			
 			research_bonus = {
@@ -396,11 +420,10 @@ ideas = {
 					is_literally_china = yes
 					tag = QIN
 				}
-				has_dlc = "Waking the Tiger"
 			}
 
 			available = {
-				controls_state = 716
+				controls_state = 716 #랴오둥
 			}
 			
 			research_bonus = {
@@ -418,11 +441,10 @@ ideas = {
 					is_literally_china = yes
 					tag = QIN
 				}
-				has_dlc = "Waking the Tiger"
 			}
 
 			available = {
-				controls_state = 716
+				controls_state = 716 #랴오둥
 			}
 			
 			research_bonus = {
@@ -440,7 +462,14 @@ ideas = {
 					is_literally_china = yes
 					tag = QIN
 				}
-				has_dlc = "Waking the Tiger"
+			}
+			
+			available = {
+				OR = {
+					controls_state = 608 #베이징
+					controls_state = 613 #난징
+					controls_state = 1036 #상하이
+				}
 			}
 			
 			research_bonus = {
@@ -451,6 +480,46 @@ ideas = {
 			
 		}
 		
+		taiyuan_arsenal_air = {
+
+			allowed = {
+				OR = {
+					is_literally_china = yes
+					tag = QIN
+				}
+			}
+
+			available = {
+				controls_state = 615 #타이위안
+			}
+			
+			research_bonus = {
+				air_equipment = 0.15
+			}
+			
+			traits = { light_aircraft_manufacturer }
+		}
+		
+		central_aircraft_manufacturing_company = {
+
+			allowed = {
+				OR = {
+					is_literally_china = yes
+					tag = QIN
+				}
+			}
+
+			available = {
+				controls_state = 937 #항저우
+			}
+			
+			research_bonus = {
+				air_equipment = 0.15
+			}
+			
+			traits = { light_aircraft_manufacturer }
+		}
+		
 		liuzhou_aviation_machinery_factory = {
 
 			allowed = {
@@ -458,11 +527,10 @@ ideas = {
 					is_literally_china = yes
 					tag = QIN
 				}
-				has_dlc = "Waking the Tiger"
 			}
 
 			available = {
-				controls_state = 599
+				controls_state = 599 #류저우
 			}
 			
 			research_bonus = {
@@ -480,11 +548,10 @@ ideas = {
 					is_literally_china = yes
 					tag = QIN
 				}
-				has_dlc = "Waking the Tiger"
 			}
 
 			available = {
-				controls_state = 605
+				controls_state = 605 #충칭
 			}
 			
 			research_bonus = {
@@ -507,11 +574,10 @@ ideas = {
 					is_literally_china = yes
 					tag = QIN
 				}
-				has_dlc = "Waking the Tiger"
 			}
 
 			available = {
-				controls_state = 716
+				controls_state = 716 #랴오둥 묵던
 			}
 			
 			research_bonus = {
@@ -529,11 +595,10 @@ ideas = {
 					is_literally_china = yes
 					tag = QIN
 				}
-				has_dlc = "Waking the Tiger"
 			}
 
 			available = {
-				controls_state = 716
+				controls_state = 716 #랴오둥
 			}
 			
 			research_bonus = {
@@ -543,6 +608,28 @@ ideas = {
 			traits = { artillery_manufacturer }
 			
 		}
+		
+		taiyuan_arsenal = {
+			
+			picture = taiyuan_arsenal
+			
+			allowed = {
+				OR = {
+					is_literally_china = yes
+					tag = QIN
+				}
+			}
+
+			available = {
+				controls_state = 615 #타이위안
+			}
+			
+			research_bonus = {
+				infantry_weapons = 0.15
+			}
+			
+			traits = { infantry_equipment_manufacturer }
+		}
 
 		gongxian_arsenal = {
 			
@@ -551,11 +638,81 @@ ideas = {
 					is_literally_china = yes
 					tag = QIN
 				}
-				has_dlc = "Waking the Tiger"
 			}
 
 			available = {
-				controls_state = 607
+				OR = {
+					controls_state = 607 #카이펑
+					controls_state = 952 #뤄양
+					controls_state = 969 #허비
+				}	
+			}
+			
+			research_bonus = {
+				infantry_weapons = 0.15
+			}
+			
+			traits = { infantry_equipment_manufacturer }
+			
+		}
+		
+		northwestern_car_company = {
+			
+			picture = northwestern_company
+			
+			allowed = {
+				OR = {
+					is_literally_china = yes
+					tag = QIN
+				}
+			}
+			
+			available = {
+				OR = {
+					controls_state = 615 #타이위안
+					controls_state = 622 #옌안
+					controls_state = 958 #장예
+				}
+			}
+			
+			research_bonus = {
+				motorized_equipment = 0.15
+			}
+			
+			traits = { motorized_equipment_manufacturer }
+		}
+		
+		jinan_arsenal = {
+			
+			allowed = {
+				OR = {
+					is_literally_china = yes
+					tag = QIN
+				}
+			}
+
+			available = {
+				controls_state = 597 #지난
+			}
+			
+			research_bonus = {
+				infantry_weapons = 0.15
+			}
+			
+			traits = { infantry_equipment_manufacturer }
+		}
+		
+		jingling_arsenal = {
+			
+			allowed = {
+				OR = {
+					is_literally_china = yes
+					tag = QIN
+				}
+			}
+
+			available = {
+				controls_state = 613 #난징
 			}
 			
 			research_bonus = {
@@ -573,11 +730,10 @@ ideas = {
 					is_literally_china = yes
 					tag = QIN
 				}
-				has_dlc = "Waking the Tiger"
 			}
 
 			available = {
-				controls_state = 943
+				controls_state = 943 #우한
 			}
 			
 			research_bonus = {
@@ -595,11 +751,10 @@ ideas = {
 					is_literally_china = yes
 					tag = QIN
 				}
-				has_dlc = "Waking the Tiger"
 			}
 
 			available = {
-				controls_state = 593
+				controls_state = 593 #선전
 			}
 			
 			research_bonus = {
@@ -617,11 +772,10 @@ ideas = {
 					is_literally_china = yes
 					tag = QIN
 				}
-				has_dlc = "Waking the Tiger"
 			}
 
 			available = {
-				controls_state = 605
+				controls_state = 605 #충칭
 			}
 			
 			research_bonus = {
@@ -639,11 +793,10 @@ ideas = {
 					is_literally_china = yes
 					tag = QIN
 				}
-				has_dlc = "Waking the Tiger"
 			}
 
 			available = {
-				controls_state = 748
+				controls_state = 748 #루저우
 			}
 			
 			research_bonus = {
@@ -661,11 +814,10 @@ ideas = {
 					is_literally_china = yes
 					tag = QIN
 				}
-				has_dlc = "Waking the Tiger"
 			}
 
 			available = {
-				controls_state = 325
+				controls_state = 325 #쿤밍
 			}
 			
 			research_bonus = {
@@ -683,11 +835,10 @@ ideas = {
 					is_literally_china = yes
 					tag = QIN
 				}
-				has_dlc = "Waking the Tiger"
 			}
 
 			available = {
-				controls_state = 325
+				controls_state = 325 #쿤밍
 			}
 			
 			research_bonus = {
@@ -705,11 +856,10 @@ ideas = {
 					is_literally_china = yes
 					tag = QIN
 				}
-				has_dlc = "Waking the Tiger"
 			}
 
 			available = {
-				controls_state = 602
+				controls_state = 949 #천저우
 			}
 			
 			research_bonus = {
@@ -727,11 +877,10 @@ ideas = {
 					is_literally_china = yes
 					tag = QIN
 				}
-				has_dlc = "Waking the Tiger"
 			}
 
 			available = {
-				controls_state = 949
+				controls_state = 602 #창사
 			}
 			
 			research_bonus = {
@@ -749,11 +898,10 @@ ideas = {
 					is_literally_china = yes
 					tag = QIN
 				}
-				has_dlc = "Waking the Tiger"
 			}
 
 			available = {
-				controls_state = 283
+				controls_state = 958 #장예
 			}
 			
 			research_bonus = {
@@ -771,11 +919,10 @@ ideas = {
 					is_literally_china = yes
 					tag = QIN
 				}
-				has_dlc = "Waking the Tiger"
 			}
 
 			available = {
-				controls_state = 283
+				controls_state = 283 #톈수이
 			}
 			
 			research_bonus = {
@@ -783,28 +930,6 @@ ideas = {
 			}
 			
 			traits = { artillery_manufacturer }
-			
-		}
-		
-		jingling_arsenal = {
-			
-			allowed = {
-				OR = {
-					is_literally_china = yes
-					tag = QIN
-				}
-				has_dlc = "Waking the Tiger"
-			}
-
-			available = {
-				controls_state = 613
-			}
-			
-			research_bonus = {
-				infantry_weapons = 0.15
-			}
-			
-			traits = { infantry_equipment_manufacturer }
 			
 		}
 	}
@@ -816,18 +941,19 @@ ideas = {
 				OR = {
 					is_literally_china = yes
 					tag = QIN
+					tag = KOR
 				}
-				has_dlc = "Waking the Tiger"
 			}
 
 			available = {
-				controls_state = 716
+				controls_state = 1032 #심요도
 			}
 			
-			modifier = {
-				local_resources_factor = 0.1
+			research_bonus = {
+				excavation_tech = 0.15
 			}
 			
+			traits = { mining_company }
 		}
 		
 		south_manchuria_railway = {
@@ -836,12 +962,16 @@ ideas = {
 				OR = {
 					is_literally_china = yes
 					tag = QIN
+					tag = KOR
 				}
-				has_dlc = "Waking the Tiger"
 			}
 
 			available = {
-				controls_state = 716
+				OR = {
+					controls_state = 328 #지린
+					controls_state = 1031 #환길도
+					controls_state = 1032 #심요도
+				}
 			}
 			
 			research_bonus = {
@@ -852,6 +982,26 @@ ideas = {
 			
 		}
 		
+		peking_university = {
+			
+			allowed = {
+				OR = {
+					is_literally_china = yes
+					tag = QIN
+				}
+			}
+
+			available = {
+				controls_state = 608 #베이징
+			}
+			
+			research_bonus = {
+				electronics = 0.15
+			}
+			
+			traits = { electronics_concern }
+		}
+		
 		kaiping_mines = {
 			
 			allowed = {
@@ -859,11 +1009,10 @@ ideas = {
 					is_literally_china = yes
 					tag = QIN
 				}
-				has_dlc = "Waking the Tiger"
 			}
 
 			available = {
-				controls_state = 608
+				controls_state = 609 #탕산
 			}
 			
 			research_bonus = {
@@ -874,6 +1023,83 @@ ideas = {
 			
 		}
 		
+		shanxi_university = {
+			
+			picture = jap_supremacy_of_technology
+			
+			allowed = {
+				OR = {
+					is_literally_china = yes
+					tag = QIN
+				}
+			}
+
+			available = {
+				controls_state = 615 #타이위안
+			}
+			
+			research_bonus = {
+				electronics = 0.15
+			}
+			
+			traits = { electronics_concern }
+		}
+		
+		northwestern_industrial_company = {
+			
+			picture = northwestern_company
+			
+			allowed = {
+				OR = {
+					is_literally_china = yes
+					tag = QIN
+				}
+			}
+
+			available = {
+				OR = {
+					controls_state = 615 #타이위안
+					controls_state = 622 #옌안
+					controls_state = 958 #장예
+				}
+			}
+			
+			research_bonus = {
+				industry = 0.15
+			}
+			
+			traits = { industrial_concern }
+		}
+		
+		luda_mining_company = {
+			
+			allowed = {
+				OR = {
+					is_literally_china = yes
+					tag = QIN
+				}
+			}
+
+			available = {
+				OR = {
+					controls_state = 597
+					controls_state = 743
+					controls_state = 944
+					controls_state = 945
+					controls_state = 973
+					controls_state = 1004
+					controls_state = 1034
+					controls_state = 1035
+				}
+			}
+			
+			research_bonus = {
+				excavation_tech = 0.15
+			}
+			
+			traits = { mining_company }
+		}
+		
 		zhejiang_iron_works = {
 			
 			allowed = {
@@ -881,11 +1107,10 @@ ideas = {
 					is_literally_china = yes
 					tag = QIN
 				}
-				has_dlc = "Waking the Tiger"
 			}
 
 			available = {
-				controls_state = 596
+				controls_state = 596 #사오싱
 			}
 			
 			research_bonus = {
@@ -903,11 +1128,10 @@ ideas = {
 					is_literally_china = yes
 					tag = QIN
 				}
-				has_dlc = "Waking the Tiger"
 			}
 
 			available = {
-				controls_state = 941
+				controls_state = 941 #광저우
 			}
 			
 			research_bonus = {
@@ -925,11 +1149,10 @@ ideas = {
 					is_literally_china = yes
 					tag = QIN
 				}
-				has_dlc = "Waking the Tiger"
 			}
 
 			available = {
-				controls_state = 941
+				controls_state = 941 #광저우
 			}
 			
 			research_bonus = {
@@ -947,11 +1170,10 @@ ideas = {
 					is_literally_china = yes
 					tag = QIN
 				}
-				has_dlc = "Waking the Tiger"
 			}
 
 			available = {
-				controls_state = 605
+				controls_state = 605 #충칭
 			}
 			
 			research_bonus = {
@@ -970,11 +1192,10 @@ ideas = {
 					is_literally_china = yes
 					tag = QIN
 				}
-				has_dlc = "Waking the Tiger"
 			}
 
 			available = {
-				controls_state = 942
+				controls_state = 942 #청두
 			}
 			
 			research_bonus = {
@@ -992,17 +1213,17 @@ ideas = {
 					is_literally_china = yes
 					tag = QIN
 				}
-				has_dlc = "Waking the Tiger"
 			}
 
 			available = {
-				controls_state = 942
+				controls_state = 942 #청두
 			}
 			
-			modifier = {
-				local_resources_factor = 0.1
+			research_bonus = {
+				excavation_tech = 0.15
 			}
 			
+			traits = { mining_company }
 		}
 		
 		yumen_oil = {
@@ -1012,11 +1233,10 @@ ideas = {
 					is_literally_china = yes
 					tag = QIN
 				}
-				has_dlc = "Waking the Tiger"
 			}
 
 			available = {
-				controls_state = 958
+				controls_state = 958 #장예
 			}
 			
 			research_bonus = {
@@ -1035,11 +1255,10 @@ ideas = {
 					is_literally_china = yes
 					tag = QIN
 				}
-				has_dlc = "Waking the Tiger"
 			}
 
 			available = {
-				controls_state = 283
+				controls_state = 283 #톈수이
 			}
 			
 			research_bonus = {
@@ -1047,7 +1266,66 @@ ideas = {
 			}
 			
 			traits = { industrial_concern }
+		}
+		
+		shuikoushan_mining = {
 			
+			allowed = {
+				OR = {
+					is_literally_china = yes
+					tag = QIN
+				}
+			}
+
+			available = {
+				controls_state = 949 #천저우 헝양 남쪽
+			}
+			
+			research_bonus = {
+				industry = 0.15
+			}
+			
+			traits = { industrial_concern }
+		}
+		
+		kunhu_power_plant = {
+			
+			allowed = {
+				OR = {
+					is_literally_china = yes
+					tag = QIN
+				}
+			}
+
+			available = {
+				controls_state = 325 #쿤밍
+			}
+			
+			research_bonus = {
+				electronics = 0.15
+			}
+			
+			traits = { electronics_concern }
+		}
+		
+		yunnan_mining_corporation = {
+			
+			allowed = {
+				OR = {
+					is_literally_china = yes
+					tag = QIN
+				}
+			}
+
+			available = {
+				controls_state = 325 #쿤밍
+			}
+			
+			research_bonus = {
+				excavation_tech = 0.15
+			}
+			
+			traits = { mining_company }
 		}
 	}
 }

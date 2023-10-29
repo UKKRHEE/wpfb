@@ -1145,8 +1145,16 @@
 		available_if_capitulated = no
 
 		completion_reward = {
-			custom_effect_tooltip = available_designer
-			show_ideas_tooltip = FRA_hotchkiss
+			IF = {
+				limit = { has_dlc = "Arms Against Tyranny" }
+				mio:FRA_renault_organization = {
+					add_mio_funds = 2000
+				}
+			}
+			ELSE = {
+				custom_effect_tooltip = available_designer
+				show_ideas_tooltip = FRA_hotchkiss
+			}
 		}
 	}
 	focus = {
@@ -1474,8 +1482,19 @@
 				uses = 2
 				category = land_doctrine
 			}
-			custom_effect_tooltip = available_designer
-			show_ideas_tooltip = FRA_AMX
+			IF = {
+				limit = {
+					has_dlc = "Arms Against Tyranny"
+				}
+				mio:FRA_hotchkiss_organization = {
+					add_mio_funds = 1500
+					add_mio_research_bonus = 0.02
+				}
+			}
+			ELSE = {
+				custom_effect_tooltip = available_designer
+				show_ideas_tooltip = FRA_AMX
+			}
 		}
 	}	
 
@@ -4249,11 +4268,30 @@
 			268 = {
 				is_owned_or_subject_trigger = yes
 			}
-			ITA = {
-				owns_state = 550
-				owns_state = 559
+			
+			AND = {
+				OR = {
+					ITA = { 
+						controls_state = 550 
+					}					
+					any_country = {
+						is_subject_of = ITA
+						controls_state = 550 
+						}
+				}
+				OR = {
+					ITA = { 
+						controls_state = 559 
+					}					
+					any_country = {
+						is_subject_of = ITA
+						controls_state = 559 
+					}
+				}
 			}
 		}
+	
+
 		
 		bypass = {
 			ITA = { 
@@ -4299,9 +4337,25 @@
 				}
 				exists = yes
 			}
-			ITA = {
-				owns_state = 550
-				owns_state = 559
+			AND = {
+				OR = {
+					ITA = { 
+						controls_state = 550 
+					}					
+					any_country = {
+						is_subject_of = ITA
+						controls_state = 550 
+						}
+				}
+				OR = {
+					ITA = { 
+						controls_state = 559 
+					}					
+					any_country = {
+						is_subject_of = ITA
+						controls_state = 559 
+					}
+				}
 			}
 			has_country_flag = lar_france_stresa_front_italy_agreed
 		}
@@ -6857,7 +6911,7 @@
 		completion_reward = {
 			if = {
 				limit = {
-					date < 1936.1.2 #1940.8.25
+					date < 1940.8.25
 				}
 				add_country_leader_role = { #변경
 					character = FRA_jean_iii
@@ -7165,7 +7219,7 @@
 		completion_reward = {
 			if = {
 				limit = {
-					date < 1936.1.2 #1941.2.21 TODO_GABRIEL: coordinate with Drikus for death events
+					date < 1941.2.21 #TODO_GABRIEL: coordinate with Drikus for death events
 				}
 				add_country_leader_role = { #변경
 					character = FRA_alphonse_i

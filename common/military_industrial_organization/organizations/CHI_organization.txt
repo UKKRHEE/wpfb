@@ -1,0 +1,563 @@
+#############
+### 전차업체 ###
+#############
+
+wusong_locomotive_works_organization = {
+	include = generic_tank_organization
+	name = wusong_locomotive_works
+	icon = GFX_idea_wusong_locomotive_works
+	allowed = {	
+		OR = {
+			is_literally_china = yes
+			tag = QIN
+		}
+	}
+	available = {
+		owner = {
+			OR = {
+				controls_state = 608 #베이징
+				controls_state = 613 #난징
+				controls_state = 1036 #상하이
+			}
+		}
+	}
+}
+
+taiyuan_arsenal_tank_organization = {
+	include = generic_tank_organization
+	name = taiyuan_arsenal_tank
+	icon = GFX_idea_taiyuan_arsenal
+	allowed = {	
+		OR = {
+			is_literally_china = yes
+			tag = QIN
+		}
+	}
+	available = {
+		owner = {
+			controls_state = 615 #타이위안
+		}
+	}
+}
+
+jinan_car_plant_organization = {
+	include = generic_tank_organization
+	name = jinan_car_plant
+	icon = GFX_idea_jinan_arsenal
+	allowed = {	
+		OR = {
+			is_literally_china = yes
+			tag = QIN
+		}
+	}
+	available = {
+		owner = {
+			controls_state = 597 #지난
+		}
+	}
+}
+
+hip_tung_wo_machinery_factory_organization = {
+	include = generic_mobile_tank_organization
+	name = hip_tung_wo_machinery_factory
+	icon = GFX_idea_hip_tung_wo_machinery_factory
+	allowed = {	
+		OR = {
+			is_literally_china = yes
+			tag = QIN
+		}
+	}
+	available = {
+		owner = { controls_state = 941 } #광저우
+	}
+}
+
+chongqing_tank_plant_organization = {
+	include = generic_tank_organization
+	name = chongqing_tank_plant
+	icon = GFX_idea_chongqing_tank_plant
+	allowed = {	
+		OR = {
+			is_literally_china = yes
+			tag = QIN
+		}
+	}
+	available = {
+		owner = { controls_state = 605 } #충칭
+	}
+}
+
+#############
+### 조선업체 ###
+#############
+
+yingkou_naval_yard_organization = {
+	include = generic_raider_ship_organization
+	name = yingkou_naval_yard
+	icon = GFX_idea_yingkou_naval_yard
+	allowed = {	
+		OR = {
+			is_literally_china = yes
+			tag = QIN
+		}
+	}
+	available = {
+		owner = { controls_state = 716 } #랴오둥 잉커우
+	}
+}
+
+china_merchants_steam_navigation_company_organization = {
+	include = generic_raider_ship_organization
+	name = china_merchants_steam_navigation_company
+	icon = GFX_idea_china_merchants_steam_navigation_company
+	allowed = {	
+		OR = {
+			is_literally_china = yes
+			tag = QIN
+		}
+	}
+	available = {
+		owner = {
+			OR = {
+				controls_state = 608 #베이징
+				controls_state = 613 #난징
+				controls_state = 1036 #상하이
+			}
+		}
+	}
+}
+
+jiangnan_shipyard_organization = {
+	include = generic_raider_ship_organization
+	name = jiangnan_shipyard
+	icon = GFX_idea_generic_naval_manufacturer_3
+	allowed = {	
+		OR = {
+			is_literally_china = yes
+			tag = QIN
+		}
+	}
+	available = {
+		owner = { controls_state = 1036 } #상하이
+	}
+}
+
+whampoa_dock_company_organization = {
+	include = generic_raider_ship_organization
+	name = whampoa_dock_company
+	icon = GFX_idea_whampoa_dock_company
+	allowed = {	
+		OR = {
+			is_literally_china = yes
+			tag = QIN
+		}
+	}
+	available = {
+		owner = { controls_state = 941 } #광저우
+	}
+}
+
+minsheng_shipping_organization = {
+	include = generic_refurbishment_repair_organization
+	name = minsheng_shipping
+	icon = GFX_idea_minsheng_shipping
+	allowed = {	
+		OR = {
+			is_literally_china = yes
+			tag = QIN
+		}
+	}
+	available = {
+		owner = { controls_state = 605 } #충칭
+	}
+}
+
+#############
+### 항공업체 ###
+#############
+
+dongbei_airplane_manufacturing_company_organization = {
+	include = generic_light_aircraft_organization
+	name = dongbei_airplane_manufacturing_company
+	icon = GFX_idea_dongbei_airplane_manufacturing_company
+	allowed = {	
+		OR = {
+			is_literally_china = yes
+			tag = QIN
+		}
+	}
+	available = {
+		owner = { controls_state = 716 } #랴오둥
+	}
+}
+
+manchuria_aviation_company_organization = {
+	include = generic_cas_aircraft_organization
+	name = manchuria_aviation_company
+	icon = GFX_idea_manchuria_aviation_company
+	allowed = {	
+		OR = {
+			is_literally_china = yes
+			tag = QIN
+		} 
+	}
+	available = {
+		owner = { controls_state = 716 } #랴오둥
+	}
+}
+
+china_national_aviation_corporation_organization = {
+	include = generic_multi_role_aircraft_organization
+	name = china_national_aviation_corporation
+	icon = GFX_idea_china_national_aviation_corporation
+	allowed = {	
+		OR = {
+			is_literally_china = yes
+			tag = QIN
+		} 
+	}
+	available = {
+		owner = { 
+			OR = {
+				controls_state = 608 #베이징
+				controls_state = 613 #난징
+				controls_state = 1036 #상하이
+			}
+		}
+	}
+}
+
+taiyuan_arsenal_air_organization = {
+	include = generic_multi_role_aircraft_organization
+	name = taiyuan_arsenal_air
+	icon = GFX_idea_taiyuan_arsenal
+	allowed = {	
+		OR = {
+			is_literally_china = yes
+			tag = QIN
+		} 
+	}
+	available = {
+		owner = { 
+			controls_state = 615 #타이위안
+		}
+	}
+}
+
+central_aircraft_manufacturing_company_organization = {
+	include = generic_general_aircraft_organization
+	name = central_aircraft_manufacturing_company
+	icon = GFX_idea_central_aircraft_manufacturing_company
+	allowed = {	
+		OR = {
+			is_literally_china = yes
+			tag = QIN
+		} 
+	}
+	available = {
+		owner = { 
+			controls_state = 937 #항저우
+		}
+	}
+}
+
+liuzhou_aviation_machinery_factory_organization = {
+	include = generic_light_aircraft_organization
+	name = liuzhou_aviation_machinery_factory
+	icon = GFX_idea_liuzhou_aviation_machinery_factory
+	allowed = {	
+		OR = {
+			is_literally_china = yes
+			tag = QIN
+		} 
+	}
+	available = {
+		owner = { controls_state = 599 } #류저우
+	}
+}
+
+nanchuan_aircraft_manufacturing_plant_organization = {
+	include = generic_light_aircraft_organization
+	name = nanchuan_aircraft_manufacturing_plant
+	icon = GFX_idea_nanchuan_aircraft_manufacturing_plant
+	allowed = {	
+		OR = {
+			is_literally_china = yes
+			tag = QIN
+		} 
+	}
+	available = {
+		owner = { controls_state = 605 } #충칭
+	}
+}
+
+#############
+### 군수업체 ###
+#############
+
+shenyang_arsenal_organization = {
+	include = generic_infantry_equipment_organization
+	name = shenyang_arsenal
+	icon = GFX_idea_shenyang_arsenal
+	allowed = {	
+		OR = {
+			is_literally_china = yes
+			tag = QIN
+		} 
+	}
+	available = {
+		owner = { controls_state = 716 } #랴오둥 묵던
+	}
+}
+
+dadong_artillery_complex_organization = {
+	include = generic_artillery_organization
+	name = dadong_artillery_complex
+	icon = GFX_idea_dadong_artillery_complex
+	allowed = {	
+		OR = {
+			is_literally_china = yes
+			tag = QIN
+		} 
+	}
+	available = {
+		owner = { controls_state = 716 } #랴오둥
+	}
+}
+
+taiyuan_arsenal_organization = {
+	include = generic_infantry_equipment_organization
+	name = taiyuan_arsenal
+	icon = GFX_idea_taiyuan_arsenal
+	allowed = {	
+		OR = {
+			is_literally_china = yes
+			tag = QIN
+		} 
+	}
+	available = {
+		owner = { controls_state = 615 } #타이위안
+	}
+}
+
+northwestern_car_company_organization = {
+	include = generic_motorized_mechanized_organization
+	name = northwestern_car_company
+	icon = GFX_idea_northwestern_company
+	allowed = {	
+		OR = {
+			is_literally_china = yes
+			tag = QIN
+		} 
+	}
+	available = {
+		owner = {
+			OR = {
+				controls_state = 615 #타이위안
+				controls_state = 622 #옌안
+				controls_state = 958 #장예
+			}	
+		}
+	}
+}
+
+gongxian_arsenal_organization = {
+	include = generic_infantry_equipment_organization
+	name = gongxian_arsenal
+	icon = GFX_idea_gongxian_arsenal
+	allowed = {	
+		OR = {
+			is_literally_china = yes
+			tag = QIN
+		} 
+	}
+	available = {
+		owner = {
+			OR = {
+				controls_state = 607 #카이펑
+				controls_state = 952 #뤄양
+				controls_state = 969 #허비
+			}	
+		}
+	}
+}
+
+jinan_arsenal_organization = {
+	include = generic_infantry_equipment_organization
+	name = jinan_arsenal
+	icon = GFX_idea_jinan_arsenal
+	allowed = {	
+		OR = {
+			is_literally_china = yes
+			tag = QIN
+		} 
+	}
+	available = {
+		owner = { controls_state = 597 } #지난
+	}
+}
+
+hanyang_arsenal_organization = {
+	include = generic_artillery_organization
+	name = hanyang_arsenal
+	icon = GFX_idea_hanyang_arsenal
+	allowed = {	
+		OR = {
+			is_literally_china = yes
+			tag = QIN
+		} 
+	}
+	available = {
+		owner = { controls_state = 943 } #우한
+	}
+}
+
+guangdong_arsenal_organization = {
+	include = generic_infantry_equipment_organization
+	name = guangdong_arsenal
+	icon = GFX_idea_guangdong_arsenal
+	allowed = {	
+		OR = {
+			is_literally_china = yes
+			tag = QIN
+		} 
+	}
+	available = {
+		owner = { controls_state = 593 } #선전
+	}
+}
+
+chongqing_arsenal_organization = {
+	include = generic_infantry_equipment_organization
+	name = chongqing_arsenal
+	icon = GFX_idea_chongqing_arsenal
+	allowed = {	
+		OR = {
+			is_literally_china = yes
+			tag = QIN
+		} 
+	}
+	available = {
+		owner = { controls_state = 605 } #충칭
+	}
+}
+
+hejiang_artillery_arsenal_organization = {
+	include = generic_artillery_organization
+	name = hejiang_artillery_arsenal
+	icon = GFX_idea_hejiang_artillery_arsenal
+	allowed = {	
+		OR = {
+			is_literally_china = yes
+			tag = QIN
+		} 
+	}
+	available = {
+		owner = { controls_state = 748 } #류저우
+	}
+}
+
+kunming_arsenal_organization = {
+	include = generic_infantry_equipment_organization
+	name = kunming_arsenal
+	icon = GFX_idea_kunming_arsenal
+	allowed = {	
+		OR = {
+			is_literally_china = yes
+			tag = QIN
+		} 
+	}
+	available = {
+		owner = { controls_state = 325 } #쿤밍
+	}
+}
+
+yunnan_machine_bureau_organization = {
+	include = generic_artillery_organization
+	name = yunnan_machine_bureau
+	icon = GFX_idea_yunnan_machine_bureau
+	allowed = {	
+		OR = {
+			is_literally_china = yes
+			tag = QIN
+		} 
+	}
+	available = {
+		owner = { controls_state = 325 } #쿤밍
+	}
+}
+
+hengyang_arsernal_organization = {
+	include = generic_infantry_equipment_organization
+	name = hengyang_arsernal
+	icon = GFX_idea_hengyang_arsernal
+	allowed = {	
+		OR = {
+			is_literally_china = yes
+			tag = QIN
+		} 
+	}
+	available = {
+		owner = { controls_state = 949 } #천저우
+	}
+}
+
+zhuzhou_artillery_technical_research_division_organization = {
+	include = generic_artillery_organization
+	name = zhuzhou_artillery_technical_research_division
+	icon = GFX_idea_zhuzhou_artillery_technical_research_division
+	allowed = {	
+		OR = {
+			is_literally_china = yes
+			tag = QIN
+		} 
+	}
+	available = {
+		owner = { controls_state = 602 } #창사
+	}
+}
+
+gansu_manufacturing_bureau_organization = {
+	include = generic_infantry_equipment_organization
+	name = gansu_manufacturing_bureau
+	icon = GFX_idea_gansu_manufacturing_bureau
+	allowed = {	
+		OR = {
+			is_literally_china = yes
+			tag = QIN
+		} 
+	}
+	available = {
+		owner = { controls_state = 958 } #장예
+	}
+}
+
+lanzhou_arsenal_organization = {
+	include = generic_artillery_organization
+	name = lanzhou_arsenal
+	icon = GFX_idea_lanzhou_arsenal
+	allowed = {	
+		OR = {
+			is_literally_china = yes
+			tag = QIN
+		} 
+	}
+	available = {
+		owner = { controls_state = 283 } #톈수이
+	}
+}
+
+jingling_arsenal_organization = {
+	include = generic_infantry_equipment_organization
+	name = jingling_arsenal
+	icon = GFX_idea_jingling_arsenal
+	allowed = {	
+		OR = {
+			is_literally_china = yes
+			tag = QIN
+		} 
+	}
+	available = {
+		owner = { controls_state = 613 } #난징
+	}
+}

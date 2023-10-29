@@ -32,11 +32,6 @@ china_monarchist = {
 	color_ui = rgb { 255  244  190 }
 }
 
-ROK_right = {
-	color = rgb { 0 0 220 }
-	color_ui = rgb { 0 0 220 }
-}
-
 QIN_communism = {
 	color = rgb { 255 120 71 }
 	color_ui = rgb { 255 120 71 }

@@ -1624,8 +1624,6 @@ ideas = {
 	tank_manufacturer = {
 		KOR_daeseon = { #대선중공업
 			
-		    picture = KOR_daeseon
-
 		    allowed = {
 		    	original_tag = KOR
 		    }
@@ -1639,8 +1637,6 @@ ideas = {
 		
 		KOR_yeomin = { #여민
 			
-		    picture = KOR_yeomin
-
 		    allowed = {
 		    	original_tag = KOR
 		    }
@@ -1654,8 +1650,6 @@ ideas = {
 		
 		KOR_dusan = { #두산중공업
 			
-		    picture = KOR_kyungil
-
 		    allowed = {
 				original_tag = KOR
 		    }
@@ -1672,9 +1666,9 @@ ideas = {
 	
 		KOR_daehan_dockyard = { #대한조선
 			
-		    picture = KOR_anheung
-		
-		    allowed = {
+		    picture = KOR_daeseon
+			
+			allowed = {
 		    	original_tag = KOR
 		    }
 				
@@ -1687,8 +1681,6 @@ ideas = {
 		
 		KOR_dongmyong = { #동명조선
 			
-		    picture = kor_daewoo
-    
 		    allowed = {
 		    	original_tag = KOR
 		    }
@@ -1700,10 +1692,8 @@ ideas = {
 		    traits = { pacific_fleet_naval_manufacturer }
 	    }
 		
-		KOR_pyoahm = { #현대_중공업
+		KOR_pyoahm = { #표암조선
 			
-		    picture = kor_hyundai
-    
 		    allowed = {
 		    	original_tag = KOR
 		    }
@@ -1718,10 +1708,8 @@ ideas = {
 	
 	aircraft_manufacturer = {
 	
-		KOR_keumseong_af = { #금성항공기
+		KOR_keumseong = { #금성항공
 			
-		    picture = kor_kai
-				
 		    allowed = {
 		    	original_tag = KOR
 		    }
@@ -1735,9 +1723,9 @@ ideas = {
 		    traits = { light_aircraft_manufacturer }
 	    }
 		
-		KOR_dusan_air = { #두산항공기
+		KOR_dusan_air = { #두산항공
 					
-		    picture = kor_kai
+		    picture = KOR_dusan
 				
 		    allowed = {
 		    	original_tag = KOR
@@ -1752,10 +1740,8 @@ ideas = {
 		    traits = { medium_aircraft_manufacturer }
 	    }
 		
-		KOR_haepyong_air = { #한국항공우주산업
+		KOR_haepyong = { #해평항공
 					
-		    picture = kor_kai
-				
 		    allowed = {
 		    	original_tag = KOR
 		    }
@@ -1772,40 +1758,9 @@ ideas = {
 	
 	materiel_manufacturer = { 
 	
-		KOR_incheon = {
-			
-			allowed = {
-				original_tag = KOR
-			}
-			
-			research_bonus = {
-				infantry_weapons = 0.15
-			}
-			
-			traits = { infantry_equipment_manufacturer }
-			
-		}
-		
-		KOR_busanchobyung = { #삼성
-
-	    	picture = KOR_busanchobyung
-            
-		    allowed = {
-		    	original_tag = KOR
-		    }
-	    		
-			research_bonus = {
-				artillery = 0.15
-			}
-			
-			traits = { artillery_manufacturer }
-	    }
-	
 		KOR_samsung = { #삼성
 
-	    	picture = KOR_samsung
-            
-		    allowed = {
+	    	allowed = {
 		    	original_tag = KOR
 		    }
 	    		
@@ -1817,10 +1772,21 @@ ideas = {
 		    traits = { infantry_equipment_manufacturer }
 	    }
 		
+		KOR_busanchobyung = { #부산조병창
+
+	    	allowed = {
+		    	original_tag = KOR
+		    }
+	    		
+			research_bonus = {
+				artillery = 0.15
+			}
+			
+			traits = { artillery_manufacturer }
+	    }
+		
 		KOR_hwangseong = { #황성
 		
-			picture = KOR_hwangseong_
-			
 			allowed = {
 				original_tag = KOR
 			}
@@ -1835,101 +1801,26 @@ ideas = {
 	
 	industrial_concern = {
 	
-		KOR_samhwa_rubber = { #삼화고무
-
-		    picture = KOR_samhwa_rubber
-			
-		    allowed = {
-		    	original_tag = KOR
-		    }
-			
-		    research_bonus = {
-		    	industry = 0.05
-				synth_resources = 0.05
-		    }
-			
-		    traits = { industrial_concern }
-	    }
-		KOR_choheung = { #조흥은행
-
-		    picture = KOR_choheung
-			
-		    allowed = {
-		    	original_tag = KOR
-		    }
-			
-		    research_bonus = {
-		    	industry = 0.05
-		    }
-			modifier = {
-				consumer_goods_factor = -0.05
-			}
-			
-		    traits = { industrial_concern }
-	    }
-		KOR_hanheung = { #한흥상회
-
-		    picture = KOR_hanheung
-			
-		    allowed = {
-		    	original_tag = KOR
-		    }
-			
-		    research_bonus = {
-		    	industry = -0.05
-		    }
-			modifier = {
-				consumer_goods_factor = -0.1
-			}
-			
-		    traits = { industrial_concern }
-	    }
 		KOR_bank_of_korea = {
-			
-			visible = {
-				NOT = {
-					has_completed_focus = KOR_bm_city4
-				}
-			}
-			
-			allowed = {
-				original_tag = KOR
-			}
-			
-			research_bonus = {
-				industry = 0.15
-			}
-			
-			modifier = {
-				economy_cost_factor = -0.25
-			}
-
+			visible = { NOT = { has_completed_focus = KOR_bm_city4 } }
+			allowed = { original_tag = KOR }
+			research_bonus = { industry = 0.15 }
+			modifier = { economy_cost_factor = -0.25 }
 			traits = { industrial_concern }
 		}
 		KOR_bank_of_korea_2 = {
 			name = KOR_bank_of_korea
-
 			picture = KOR_bank_of_korea
-			
-			visible = {
-				has_completed_focus = KOR_bm_city4
-			}
-			
-			allowed = {
-				original_tag = KOR
-			}
-			
-			research_bonus = {
-				industry = 0.20
-			}
-			
+			visible = { has_completed_focus = KOR_bm_city4 }
+			allowed = { original_tag = KOR }
+			research_bonus = { industry = 0.20 }
 			modifier = {
 				consumer_goods_factor = -0.02
 				economy_cost_factor = -0.50
 			}
-
 			traits = { industrial_concern }
 		}
+		
 		KOR_seoul_electric = {
 			
 			allowed = {
@@ -1941,42 +1832,10 @@ ideas = {
 			}
 			
 			traits = { electronics_concern }
-			
 		}
-		KOR_taechang = { #태창무역
-
-		    picture = KOR_taechang
-			
-		    allowed = {
-		    	original_tag = KOR
-		    }
-			
-		    research_bonus = {
-		    	industry = 0.15
-		    }
-			
-		    traits = { industrial_concern }
-	    }
-		KOR_keumjeong = { #금정 그룹
-					
-		    picture = KOR_keumjeong
-				
-		    allowed = {
-				original_tag = KOR
-		    }
-			
-		    research_bonus = {
-		    	electronics = 0.15
-		    }
-
-		    cost = 150
-			
-		    traits = { electronics_developer }
-	    }
+		
 		KOR_korean_oil_company = { #대한석유공사
 					
-		    picture = KOR_korean_oil_company
-				
 		    allowed = {
 		    	original_tag = KOR
 		    }
@@ -1984,26 +1843,8 @@ ideas = {
 		    research_bonus = {
 				synth_resources = 0.1
 		    }
-
-		    cost = 150
 			
 		    traits = { refinery_concern }
 	    }
-		KOR_south_manchuria_railway = {
-			name = south_manchuria_railway
-			
-			picture = south_manchuria_railway
-			
-			allowed = {
-				original_tag = KOR
-			}
-			
-			research_bonus = {
-				train_tech = 0.15
-			}
-			
-			traits = { railway_company }
-			
-		}
 	}
 }

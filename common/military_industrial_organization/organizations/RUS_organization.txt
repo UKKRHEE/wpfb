@@ -1,0 +1,151 @@
+#############
+### 전차업체 ###
+#############
+
+RUS_avtomobilnoe_moskovskoe_organisation = {
+	include = generic_mobile_tank_organization
+	name = RUS_avtomobilnoe_moskovskoe
+	icon = GFX_idea_RUS_avtomobilnoe_moskovskoe
+	allowed = {
+		original_tag = RUS
+	}
+	available = {
+		owner = {
+			controls_state = 219 #모스크바
+		}
+	}
+}
+
+RUS_chelyabinskiy_traktornyy_organisation = {
+	include = generic_tank_refurbishment_plant_organization
+	name = RUS_chelyabinskiy_traktornyy
+	icon = GFX_idea_RUS_chelyabinskiy_traktornyy
+	allowed = {
+		original_tag = RUS
+	}
+	available = {
+		owner = {
+			controls_state = 572 #첼랴빈스크
+		}
+	}
+}
+
+RUS_uralvagonzavod_organisation = {
+	include = generic_medium_tank_organization
+	name = RUS_uralvagonzavod
+	icon = GFX_idea_RUS_uralvagonzavod
+	allowed = {
+		original_tag = RUS
+	}
+	available = {
+		owner = {
+			controls_state = 653 #스베들롭스크/예카테린부르크
+		}
+	}
+}
+
+RUS_uralmash_organisation = {
+	include = generic_heavy_tank_organization
+	name = RUS_uralmash
+	icon = GFX_idea_RUS_uralmash
+	allowed = {
+		original_tag = RUS
+	}
+	available = {
+		owner = {
+			controls_state = 653 #스베들롭스크/예카테린부르크
+		}
+	}
+}
+
+#############
+### 조선업체 ###
+#############
+
+RUS_baltiysky_verfi_organisation = {
+	include = generic_battle_line_ship_organization
+	name = RUS_baltiysky_verfi
+	icon = GFX_idea_RUS_baltiysky_verfi
+	allowed = {
+		original_tag = RUS
+	}
+	available = {
+		owner = {
+			controls_state = 195 #레닌그라드/페트로그라드
+		}
+	}
+}
+
+RUS_admiralteiskie_verfi_organisation = {
+	include = generic_raider_ship_organization
+	name = RUS_admiralteiskie_verfi
+	icon = GFX_idea_RUS_admiralteiskie_verfi
+	allowed = {
+		original_tag = RUS
+	}
+	available = {
+		owner = {
+			controls_state = 195 #레닌그라드/페트로그라드
+		}
+	}
+}
+
+RUS_rubin_organisation = {
+	include = generic_escort_ship_organization
+	name = RUS_rubin
+	icon = GFX_idea_SOV_rubin_design_bureau
+	allowed = {
+		original_tag = RUS
+	}
+	available = {
+		owner = {
+			controls_state = 195 #레닌그라드/페트로그라드
+		}
+	}
+}
+
+#############
+### 항공업체 ###
+#############
+
+RUS_dux_organisation = {
+	include = generic_multi_role_aircraft_organization
+	name = RUS_dux
+	icon = GFX_idea_RUS_dux
+	allowed = {
+		original_tag = RUS
+	}
+}
+
+#############
+### 군수업체 ###
+#############
+
+RUS_degtyaryov_organisation = {
+	include = generic_infantry_equipment_organization
+	name = RUS_degtyaryov
+	icon = GFX_idea_RUS_degtyaryov
+	allowed = {
+		original_tag = RUS
+	}
+}
+
+RUS_tula_arms_plant_organisation = {
+	include = generic_artillery_organization
+	name = tula_arms_plant
+	icon = GFX_idea_tula_arms_plant
+	allowed = {
+		original_tag = RUS
+	}
+}
+
+RUS_nizhegorodsky_avtomobilny_organisation = {
+	include = generic_motorized_mechanized_organization
+	name = RUS_nizhegorodsky_avtomobilny
+	icon = GFX_idea_RUS_nizhegorodsky_avtomobilny
+	allowed = {
+		original_tag = RUS
+	}
+}
+
+

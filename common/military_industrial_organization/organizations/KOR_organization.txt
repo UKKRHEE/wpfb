@@ -1,0 +1,125 @@
+#############
+### 전차업체 ###
+#############
+
+KOR_daeseon_organisation = {
+	include = generic_mobile_tank_organization
+	name = KOR_daeseon
+	icon = GFX_idea_KOR_daeseon
+	allowed = {
+		original_tag = KOR
+	}
+}
+
+KOR_yeomin_organisation = {
+	include = generic_medium_tank_organization
+	name = KOR_yeomin
+	icon = GFX_idea_KOR_yeomin
+	allowed = {
+		original_tag = KOR
+	}
+}
+
+KOR_dusan_organisation = {
+	include = generic_heavy_tank_organization
+	name = KOR_dusan
+	icon = GFX_idea_KOR_dusan
+	allowed = {
+		original_tag = KOR
+	}
+}
+
+#############
+### 조선업체 ###
+#############
+
+KOR_daehan_dockyard_organisation = {
+	include = generic_raider_ship_organization
+	name = KOR_daehan_dockyard
+	icon = GFX_idea_KOR_daeseon
+	allowed = {
+		original_tag = KOR
+	}
+}
+
+KOR_dongmyong_organisation = {
+	include = generic_task_force_ship_organization
+	name = KOR_dongmyong
+	icon = GFX_idea_KOR_dongmyong
+	allowed = {
+		original_tag = KOR
+	}
+}
+
+KOR_pyoahm_organisation = {
+	include = generic_escort_ship_organization
+	name = KOR_pyoahm
+	icon = GFX_idea_KOR_pyoahm
+	allowed = {
+		original_tag = KOR
+	}
+}
+
+#############
+### 항공업체 ###
+#############
+
+KOR_keumseong_organisation = {
+	include = generic_light_aircraft_organization
+	name = KOR_keumseong
+	icon = GFX_idea_KOR_keumseong
+	allowed = {
+		original_tag = KOR
+	}
+}
+
+KOR_dusan_air_organisation = {
+	include = generic_multi_role_aircraft_organization
+	name = KOR_dusan_air
+	icon = GFX_idea_KOR_dusan
+	allowed = {
+		original_tag = KOR
+	}
+}
+
+KOR_haepyong_organisation = {
+	include = generic_heavy_aircraft_organization
+	name = KOR_haepyong
+	icon = GFX_idea_KOR_haepyong
+	allowed = {
+		original_tag = KOR
+	}
+}
+
+#############
+### 군수업체 ###
+#############
+
+KOR_samsung_organisation = {
+	include = generic_infantry_equipment_organization
+	name = KOR_samsung
+	icon = GFX_idea_KOR_samsung
+	allowed = {
+		original_tag = KOR
+	}
+}
+
+KOR_busanchobyung_organisation = {
+	include = generic_artillery_organization
+	name = KOR_busanchobyung
+	icon = GFX_idea_KOR_busanchobyung
+	allowed = {
+		original_tag = KOR
+	}
+}
+
+KOR_hwangseong_organisation = {
+	include = generic_motorized_mechanized_organization
+	name = KOR_hwangseong
+	icon = GFX_idea_KOR_hwangseong
+	allowed = {
+		original_tag = KOR
+	}
+}
+
+

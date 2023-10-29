@@ -3,7 +3,7 @@ spriteTypes = {
 	### 대한제국 ###
 	#############
 	
-	### 전차 ###
+	### 전차업체 ###
 	spriteType = {
 		name = "GFX_idea_KOR_daeseon"
 		texturefile = "gfx/interface/companies/KOR/KOR_daeseon.png"
@@ -17,7 +17,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/companies/KOR/KOR_dusan.png"
 	}
 	
-	### 함정 ###
+	### 조선업체 ###
 	spriteType = {
 		name = "GFX_idea_KOR_daehan_dockyard"
 		texturefile = "gfx/interface/companies/KOR/KOR_daeseon.png"
@@ -31,39 +31,31 @@ spriteTypes = {
 		texturefile = "gfx/interface/companies/KOR/KOR_dongmyong.png" 
 	}
 	
-	### 항공기 ###
+	### 항공업체 ###
 	spriteType = {
-		name = "GFX_idea_KOR_keumseong_af"
+		name = "GFX_idea_KOR_keumseong"
 		texturefile = "gfx/interface/companies/KOR/KOR_keumseong.png"
 	}
 	spriteType = {
-		name = "GFX_idea_KOR_dusan_air"
-		texturefile = "gfx/interface/companies/KOR/KOR_dusan.png"
-	}
-	spriteType = {
-		name = "GFX_idea_KOR_haepyong_air"
+		name = "GFX_idea_KOR_haepyong"
 		texturefile = "gfx/interface/companies/KOR/KOR_haepyong.png"
 	}
 	
-	### 군수품 ###
-	spriteType = {
-		name = "GFX_idea_KOR_busanchobyung"
-		texturefile = "gfx/interface/companies/KOR/KOR_busanchobyung.png"
-	}
-	spriteType = {
-		name = "GFX_idea_KOR_incheon"
-		texturefile = "gfx/interface/companies/KOR/KOR_incheon.png"
-	}
+	### 군수업체 ###
 	spriteType = {
 		name = "GFX_idea_KOR_samsung"
 		texturefile = "gfx/interface/companies/KOR/KOR_samsung.png"
+	}
+	spriteType = {
+		name = "GFX_idea_KOR_busanchobyung"
+		texturefile = "gfx/interface/companies/KOR/KOR_busanchobyung.png"
 	}
 	spriteType = {
 		name = "GFX_idea_KOR_hwangseong"
 		texturefile = "gfx/interface/companies/KOR/KOR_hwangseong.png"
 	}
 	
-	### 산업 ###
+	### 산업체 ###
 	spriteType = {
 		name = "GFX_idea_KOR_bank_of_korea"
 		texturefile = "gfx/interface/companies/KOR/KOR_bank_of_korea.png"
@@ -71,30 +63,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_KOR_seoul_electric"
 		texturefile = "gfx/interface/companies/KOR/KOR_seoul_electric.png"
-	}
-	spriteType = {
-		name = "GFX_idea_KOR_haepyong"
-		texturefile = "gfx/interface/companies/KOR/KOR_haepyong.png"
-	}
-	spriteType = {
-		name = "GFX_idea_KOR_hanheung"
-		texturefile = "gfx/interface/companies/KOR/KOR_hanheung.png"
-	}
-	spriteType = {
-		name = "GFX_idea_KOR_samhwa_rubber"
-		texturefile = "gfx/interface/companies/KOR/KOR_samhwa.png"
-	}
-	spriteType = {
-		name = "GFX_idea_KOR_choheung"
-		texturefile = "gfx/interface/companies/KOR/KOR_choheung.png"
-	}
-	spriteType = {
-		name = "GFX_idea_KOR_taechang"
-		texturefile = "gfx/interface/companies/KOR/KOR_taechang.png"
-	}
-	spriteType = {
-		name = "GFX_idea_KOR_keumjeong"
-		texturefile = "gfx/interface/companies/KOR/KOR_keumjeong.png"
 	}
 	spriteType = {
 		name = "GFX_idea_KOR_korean_oil_company"
@@ -105,7 +73,7 @@ spriteTypes = {
 	### 중국공용 ###
 	#############
 	
-	### 전차 ###
+	### 전차업체 ###
 	spriteType = {
 		name = "GFX_idea_wusong_locomotive_works"
 		texturefile = "gfx/interface/companies/China/wusong_locomotive_works.png"
@@ -118,8 +86,12 @@ spriteTypes = {
 		name = "GFX_idea_chongqing_tank_plant"
 		texturefile = "gfx/interface/companies/China/chongqing_tank_plant.png"
 	}
+	spriteType = {
+		name = "GFX_idea_jinan_arsenal"
+		texturefile = "gfx/interface/companies/China/jinan_arsenal.png"
+	}
 	
-	### 함정 ###
+	### 조선업체 ###
 	spriteType = {
 		name = "GFX_idea_yingkou_naval_yard"
 		texturefile = "gfx/interface/companies/China/yingkou_naval_yard.png"
@@ -137,7 +109,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/companies/China/minsheng_shipping.png"
 	}
 	
-	### 항공기 ###
+	### 항공업체 ###
 	spriteType = {
 		name = "GFX_idea_dongbei_airplane_manufacturing_company"
 		texturefile = "gfx/interface/companies/China/dongbei_airplane_manufacturing_company.png"
@@ -158,8 +130,12 @@ spriteTypes = {
 		name = "GFX_idea_nanchuan_aircraft_manufacturing_plant"
 		texturefile = "gfx/interface/companies/China/nanchuan_aircraft_manufacturing_plant.png"
 	}
+	spriteType = {
+		name = "GFX_idea_central_aircraft_manufacturing_company"
+		texturefile = "gfx/interface/companies/China/central_aircraft_manufacturing_company.png"
+	}
 	
-	### 군수품 ###
+	### 군수업체 ###
 	spriteType = {
 		name = "GFX_idea_shenyang_arsenal"
 		texturefile = "gfx/interface/companies/China/shenyang_arsenal.png"
@@ -213,11 +189,15 @@ spriteTypes = {
 		texturefile = "gfx/interface/companies/China/lanzhou_arsenal.png"
 	}
 	spriteType = {
+		name = "GFX_idea_taiyuan_arsenal"
+		texturefile = "gfx/interface/companies/China/taiyuan_arsenal.png"
+	}
+	spriteType = {
 		name = "GFX_idea_jingling_arsenal"
 		texturefile = "gfx/interface/companies/China/jingling_arsenal.png"
 	}
 	
-	### 산업 ###
+	### 산업체 ###
 	spriteType = {
 		name = "GFX_idea_anshan_iron_steel"
 		texturefile = "gfx/interface/companies/China/anshan_iron_steel.png"
@@ -262,30 +242,54 @@ spriteTypes = {
 		name = "GFX_idea_lanzhou_general_machinery_plant"
 		texturefile = "gfx/interface/companies/China/lanzhou_general_machinery_plant.png"
 	}
+	spriteType = {
+		name = "GFX_idea_luda_mining_company"
+		texturefile = "gfx/interface/companies/China/luda_mining_company.png"
+	}
+	spriteType = {
+		name = "GFX_idea_shuikoushan_mining"
+		texturefile = "gfx/interface/companies/China/shuikoushan_mining.png"
+	}
+	spriteType = {
+		name = "GFX_idea_kunhu_power_plant"
+		texturefile = "gfx/interface/companies/China/kunhu_power_plant.png"
+	}
+	spriteType = {
+		name = "GFX_idea_yunnan_mining_corporation"
+		texturefile = "gfx/interface/companies/China/yunnan_mining_corporation.png"
+	}
+	spriteType = {
+		name = "GFX_idea_peking_university"
+		texturefile = "gfx/interface/companies/China/peking_university.png"
+	}
+	spriteType = {
+		name = "GFX_idea_northwestern_company"
+		texturefile = "gfx/interface/companies/China/northwestern_company.png"
+	}
 	
 	#############
 	### 러시아ㅡ ###
 	#############
 	
-	### 전차 ###
+	### 전차업체 ###
 	spriteType = {
-		name = "GFX_idea_RUS_uralmash"
-		texturefile = "gfx/interface/companies/RUS/RUS_uralmash.png"
-	}
-	spriteType = {
-		name = "GFX_idea_RUS_uralvagonzavod"
-		texturefile = "gfx/interface/companies/RUS/RUS_uralvagonzavod.png"
+		name = "GFX_idea_RUS_avtomobilnoe_moskovskoe"
+		texturefile = "gfx/interface/companies/RUS/RUS_avtomobilnoe_moskovskoe.png"
 	}
 	spriteType = {
 		name = "GFX_idea_RUS_chelyabinskiy_traktornyy"
 		texturefile = "gfx/interface/companies/RUS/RUS_chelyabinskiy_traktornyy.png"
 	}
 	spriteType = {
-		name = "GFX_idea_RUS_avtomobilnoe_moskovskoe"
-		texturefile = "gfx/interface/companies/RUS/RUS_avtomobilnoe_moskovskoe.png"
+		name = "GFX_idea_RUS_uralvagonzavod"
+		texturefile = "gfx/interface/companies/RUS/RUS_uralvagonzavod.png"
+	}
+	spriteType = {
+		name = "GFX_idea_RUS_uralmash"
+		texturefile = "gfx/interface/companies/RUS/RUS_uralmash.png"
 	}
 	
-	### 함정 ###
+	### 조선업체 ###
 	spriteType = {
 		name = "GFX_idea_RUS_baltiysky_verfi"
 		texturefile = "gfx/interface/companies/RUS/RUS_baltiysky_verfi.png"
@@ -295,23 +299,23 @@ spriteTypes = {
 		texturefile = "gfx/interface/companies/RUS/RUS_admiralteiskie_verfi.png"
 	}
 	
-	### 항공기 ###
+	### 항공업체 ###
 	spriteType = {
 		name = "GFX_idea_RUS_dux"
 		texturefile = "gfx/interface/companies/RUS/RUS_dux.png"
 	}
 	
-	### 군수품 ###
+	### 군수업체 ###
 	spriteType = {
-		name = "GFX_idea_RUS_izjevskij_mekhanitsjeskij"
-		texturefile = "gfx/interface/companies/RUS/RUS_izjevskij_mekhanitsjeskij.png"
+		name = "GFX_idea_RUS_degtyaryov"
+		texturefile = "gfx/interface/companies/RUS/RUS_degtyaryov.png"
 	}
 	spriteType = {
-		name = "GFX_idea_RUS_motovilikha"
-		texturefile = "gfx/interface/companies/RUS/RUS_motovilikha.png"
+		name = "GFX_idea_RUS_nizhegorodsky_avtomobilny"
+		texturefile = "gfx/interface/companies/RUS/RUS_nizhegorodsky_avtomobilny.png"
 	}
 	
-	### 산업 ###
+	### 산업체 ###
 	spriteType = {
 		name = "GFX_idea_RUS_putilovsky"
 		texturefile = "gfx/interface/companies/RUS/RUS_putilovsky.png"
@@ -331,19 +335,19 @@ spriteTypes = {
 		texturefile = "gfx/interface/companies/SIA/SIA_state_railway.png"
 	}
 	
-	### 함정 ###
+	### 조선업체 ###
 	spriteType = {
 		name = "GFX_idea_SIA_bangkok_dock"
 		texturefile = "gfx/interface/companies/SIA/SIA_bangkok_dock.png"
 	}
 	
-	### 항공기 ###
+	### 항공업체 ###
 	spriteType = {
 		name = "GFX_idea_SIA_aeronautics"
 		texturefile = "gfx/interface/companies/SIA/SIA_aeronautics.png"
 	}
 	
-	### 군수품 ###
+	### 군수업체 ###
 	spriteType = {
 		name = "GFX_idea_SIA_small_arms"
 		texturefile = "gfx/interface/companies/SIA/SIA_small_arms.png"
@@ -353,7 +357,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/companies/SIA/SIA_military_explosives_factory.png"
 	}
 	
-	### 산업 ###
+	### 산업체 ###
 	spriteType = {
 		name = "GFX_idea_SIA_cement"
 		texturefile = "gfx/interface/companies/SIA/SIA_cement.png"
@@ -367,7 +371,7 @@ spriteTypes = {
 	### 오스트랴 ###
 	#############
 	
-	### 전차 ###
+	### 전차업체 ###
 	spriteType = {
 		name = "GFX_idea_AUS_simmering_graz_pauker"
 		texturefile = "gfx/interface/companies/AUS/AUS_simmering_graz.png"
@@ -381,13 +385,13 @@ spriteTypes = {
 		texturefile = "gfx/interface/companies/AUS/AUS_graef_stift.png"
 	}
 	
-	### 함정 ###
+	### 조선업체 ###
 	spriteType = {
 		name = "GFX_idea_AUS_stabilimento_tecnico_triestino"
 		texturefile = "gfx/interface/companies/AUS/AUS_stabilimento_tecnico_triestino.png"
 	}
 	
-	### 항공기 ###
+	### 항공업체 ###
 	spriteType = {
 		name = "GFX_idea_AUS_wiener_neu_flugzeug"
 		texturefile = "gfx/interface/companies/AUS/AUS_wiener_neu_flugzeug.png"
@@ -401,7 +405,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/companies/AUS/AUS_aviatik.png"
 	}
 	
-	### 군수품 ###
+	### 군수업체 ###
 	spriteType = {
 		name = "GFX_idea_AUS_steyr"
 		texturefile = "gfx/interface/companies/AUS/AUS_steyr.png"
@@ -415,7 +419,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/companies/AUS/AUS_puch.png"
 	}
 	
-	### 산업 ###
+	### 산업체 ###
 	spriteType = {
 		name = "GFX_idea_AUS_montage"
 		texturefile = "gfx/interface/companies/AUS/AUS_austria_montage.png"
@@ -433,19 +437,19 @@ spriteTypes = {
 	### 헝가리ㅡ ###
 	#############
 	
-	### 전차 ###
+	### 전차업체 ###
 	spriteType = {
 		name = "GFX_idea_HUN_haditechnikai_intezet"
 		texturefile = "gfx/interface/companies/HUN/HUN_haditechnikai_intezet.png"
 	}
 	
-	### 함정 ###
+	### 조선업체 ###
 	spriteType = {
 		name = "GFX_idea_HUN_dgt_obuda"
 		texturefile = "gfx/interface/companies/HUN/HUN_dgt_obuda.png"
 	}
 	
-	### 항공기 ###
+	### 항공업체 ###
 	spriteType = {
 		name = "GFX_idea_HUN_repulo_mernoki_intezet"
 		texturefile = "gfx/interface/companies/HUN/HUN_repulo_mernoki_intezet.png"
@@ -455,7 +459,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/companies/HUN/HUN_dunai_repulogepgyar.png"
 	}
 	
-	### 군수품 ###
+	### 군수업체 ###
 	spriteType = {
 		name = "GFX_idea_HUN_digep"
 		texturefile = "gfx/interface/companies/HUN/HUN_digep.png"
@@ -465,7 +469,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/companies/HUN/HUN_raba.png"
 	}
 	
-	### 산업 ###
+	### 산업체 ###
 	spriteType = {
 		name = "GFX_idea_HUN_haesz"
 		texturefile = "gfx/interface/companies/HUN/HUN_haesz.png"

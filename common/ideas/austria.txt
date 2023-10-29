@@ -1,5 +1,4 @@
 ideas = {
-	
 	country = {
 		############# 
 		### 입헌군주 ###
@@ -65,7 +64,7 @@ ideas = {
 		
 		designer = yes
 		
-		AUS_simmering_graz_pauker = {
+		AUS_graef_stift = {
 
 			allowed = {
 				original_tag = AUS
@@ -78,7 +77,7 @@ ideas = {
 				armor = 0.15
 			}
 			
-			traits = { heavy_tank_manufacturer }
+			traits = { fast_tank_manufacturer }
 			
 		}
 		
@@ -99,7 +98,7 @@ ideas = {
 			
 		}
 		
-		AUS_graef_stift = {
+		AUS_simmering_graz_pauker = {
 
 			allowed = {
 				original_tag = AUS
@@ -112,7 +111,7 @@ ideas = {
 				armor = 0.15
 			}
 			
-			traits = { fast_tank_manufacturer }
+			traits = { heavy_tank_manufacturer }
 			
 		}
 	}

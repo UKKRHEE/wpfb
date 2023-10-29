@@ -1,6 +1,3 @@
-###한국계###
-ROK = "countries/RedKorea.txt" #조선인민공화국
-
 ###일본계###
 RYU = "countries/Ryukyu.txt" #류큐
 

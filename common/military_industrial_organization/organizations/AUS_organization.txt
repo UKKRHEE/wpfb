@@ -1,0 +1,112 @@
+#############
+### 전차업체 ###
+#############
+
+AUS_graef_stift_organisation = {
+	include = generic_mobile_tank_organization
+	name = AUS_graef_stift
+	icon = GFX_idea_AUS_graef_stift
+	allowed = {
+		original_tag = AUS
+	}
+}
+
+AUS_wiener_neu_lokomotiv_organisation = {
+	include = generic_medium_tank_organization
+	name = AUS_wiener_neu_lokomotiv
+	icon = GFX_idea_AUS_wiener_neu_lokomotiv
+	allowed = {
+		original_tag = AUS
+	}
+}
+
+AUS_simmering_graz_pauker_organisation = {
+	include = generic_heavy_tank_organization
+	name = AUS_simmering_graz_pauker
+	icon = GFX_idea_AUS_simmering_graz_pauker
+	allowed = {
+		original_tag = AUS
+	}
+}
+
+#############
+### 조선업체 ###
+#############
+
+AUS_stabilimento_tecnico_triestino_organisation = {
+	include = generic_battle_line_ship_organization
+	name = AUS_stabilimento_tecnico_triestino
+	icon = GFX_idea_AUS_stabilimento_tecnico_triestino
+	allowed = {
+		original_tag = AUS
+	}
+	available = {
+		owner = {
+			controls_state = 736 #트리에스테/트리에스트
+		}
+	}
+}
+
+#############
+### 항공업체 ###
+#############
+
+AUS_wiener_neu_flugzeug_organisation = {
+	include = generic_light_aircraft_organization
+	name = AUS_wiener_neu_flugzeug
+	icon = GFX_idea_AUS_wiener_neu_flugzeug
+	allowed = {
+		original_tag = AUS
+	}
+}
+
+AUS_lohner_organisation = {
+	include = generic_multi_role_aircraft_organization
+	name = AUS_lohner
+	icon = GFX_idea_AUS_lohner
+	allowed = {
+		original_tag = AUS
+	}
+}
+
+AUS_aviatik_organisation = {
+	include = generic_heavy_aircraft_organization
+	name = AUS_aviatik
+	icon = GFX_idea_AUS_aviatik
+	allowed = {
+		original_tag = AUS
+	}
+}
+
+#############
+### 군수업체 ###
+#############
+
+AUS_steyr_organisation = {
+	include = generic_infantry_equipment_organization
+	name = AUS_steyr
+	icon = GFX_idea_AUS_steyr
+	allowed = {
+		original_tag = AUS
+	}
+}
+
+AUS_hirtenberger_organisation = {
+	include = generic_artillery_organization
+	name = AUS_hirtenberger
+	icon = GFX_idea_AUS_hirtenberger
+	allowed = {
+		original_tag = AUS
+	}
+}
+
+AUS_puch_organisation = {
+	include = generic_motorized_mechanized_organization
+	name = AUS_puch
+	icon = GFX_idea_AUS_puch
+	allowed = {
+		original_tag = AUS
+	}
+}
+
+

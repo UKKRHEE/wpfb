@@ -1632,14 +1632,42 @@ DIPLOMACY_JOIN_ALLY_ENABLE_TRIGGER = {
 			always = no
 		}
 	}
-	else_if = {
+	if = { 
+		limit = {
+			has_dlc = "Arms Against Tyranny"
+			ROOT = {
+				original_tag = ICE
+				has_idea = neutrality_idea
+				is_subject = yes 
+			}
+		}
+		custom_trigger_tooltip = {
+			tooltip = ICELAND_HAS_DECLARED_NEUTRALITY_JOIN
+			always = no
+		}
+	}
+	if = { 
+		limit = {
+			has_dlc = "Arms Against Tyranny"
+			ROOT = {
+				original_tag = DEN
+				has_country_flag = DEN_is_protectorate_flag
+				is_subject = yes 
+			}
+		}
+		custom_trigger_tooltip = {
+			tooltip = DENMARK_IS_A_PUPPET_JOIN
+			always = no
+		}
+	}
+	else_if = { #변경
 		limit = { check_variable = { modifier@cannot_call_allies_or_join_wars > 0 } }
 		custom_trigger_tooltip = {
 			tooltip = cannot_call_allies_or_join_wars_warning
 			always = no
 		}
 	}
-	else_if = {
+	else_if = { #변경
 		limit = { check_variable = { FROM.modifier@cannot_call_allies_or_join_wars > 0 } }
 		custom_trigger_tooltip = {
 			tooltip = cannot_call_allies_or_join_wars_warning_FROM
@@ -1648,7 +1676,7 @@ DIPLOMACY_JOIN_ALLY_ENABLE_TRIGGER = {
 	}
 }
 DIPLOMACY_CALL_ALLY_ENABLE_TRIGGER = {
-	if = { # TODO_TA make more generic trigger
+	if = { 
 		limit = {
 			NOT = { has_global_flag = ethiopia_recognized_flag }
 			ROOT = {
@@ -1661,14 +1689,42 @@ DIPLOMACY_CALL_ALLY_ENABLE_TRIGGER = {
 			always = no
 		}
 	}
-	else_if = {
+	if = { 
+		limit = {
+			has_dlc = "Arms Against Tyranny"
+			FROM = {
+				original_tag = ICE
+				has_idea = neutrality_idea
+				is_subject = yes 
+			}
+		}
+		custom_trigger_tooltip = {
+			tooltip = ICELAND_HAS_DECLARED_NEUTRALITY_CALL
+			always = no
+		}
+	}
+	if = { 
+		limit = {
+			has_dlc = "Arms Against Tyranny"
+			FROM = {
+				original_tag = DEN
+				has_country_flag = DEN_is_protectorate_flag
+				is_subject = yes 
+			}
+		}
+		custom_trigger_tooltip = {
+			tooltip = DENMARK_IS_A_PUPPET_CALL
+			always = no
+		}
+	}
+	else_if = { #변경
 		limit = { check_variable = { modifier@cannot_call_allies_or_join_wars > 0 } }
 		custom_trigger_tooltip = {
 			tooltip = cannot_call_allies_or_join_wars_warning
 			always = no
 		}
 	}
-	else_if = {
+	else_if = { #변경
 		limit = { check_variable = { FROM.modifier@cannot_call_allies_or_join_wars > 0 } }
 		custom_trigger_tooltip = {
 			tooltip = cannot_call_allies_or_join_wars_warning_FROM

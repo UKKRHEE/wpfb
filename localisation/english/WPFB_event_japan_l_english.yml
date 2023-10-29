@@ -1,25 +1,4 @@
 ﻿l_english:
- PK_NEWS.SOV:0 "£soviet_news\n\n\n\n\n\n\n\n\n\n\n\n\n"
- PK_NEWS.RUS:0 "£russian_news\n\n\n\n\n\n\n\n\n\n\n\n\n"
- PK_NEWS.GER:0 "£nazi_news\n\n\n\n\n\n\n\n\n\n\n\n\n"
- PK_NEWS.KAS:0 "£kaiser_news\n\n\n\n\n\n\n\n\n\n\n\n\n"
- PK_NEWS.DDR:0 "£east_ger_news\n\n\n\n\n\n\n\n\n\n\n\n\n"
- PK_NEWS.WGR:0 "£weimar_news\n\n\n\n\n\n\n\n\n\n\n\n\n"
- PK_NEWS.FRA:0 "£france_news\n\n\n\n\n\n\n\n\n\n\n\n\n"
- PK_NEWS.VIC:0 "£vichy_news\n\n\n\n\n\n\n\n\n\n\n\n\n"
- PK_NEWS.USA:0 "£usa_news\n\n\n\n\n\n\n\n\n\n\n\n\n"
- PK_NEWS.ENG:0 "£british_news\n\n\n\n\n\n\n\n\n\n\n\n\n"
- PK_NEWS.CHI:0 "£china_news\n\n\n\n\n\n\n\n\n\n\n\n\n"
- PK_NEWS.PRC:0 "£com_china_news\n\n\n\n\n\n\n\n\n\n\n\n\n"
- PK_NEWS.SIK:0 "£sinkiang_news\n\n\n\n\n\n\n\n\n\n\n\n\n"
- PK_NEWS.JAP:0 "£japanese_news\n\n\n\n\n\n\n\n\n\n\n\n\n"
- PK_NEWS.KOR:0 "£korean_news\n\n\n\n\n\n\n\n\n\n\n\n\n"
- PK_NEWS.ITA:0 "£italian_news\n\n\n\n\n\n\n\n\n\n\n\n\n"
-
- PK_NEWS.MAN_NIP:0 "£man_nippon_news\n\n\n\n\n\n\n\n\n\n\n\n\n"
- PK_NEWS.MAN_DN:0 "£man_daily_news\n\n\n\n\n\n\n\n\n\n\n\n\n"
-
- PK_NEWS.GENERIC:0 "£generic_news\n\n\n\n\n\n\n\n\n\n\n\n\n"
  #############
  ### 대일본제국 ##
  #############

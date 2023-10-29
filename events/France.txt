@@ -230,6 +230,14 @@ country_event = {
 				}
 			}
 		}
+		# PLEASE Don't fire if this will end the war (No other ally is a major)
+		FRA = {
+			any_allied_country = {
+				is_major = yes 
+				has_capitulated = no 
+				has_war_with = GER 
+			}
+		}
 	}
 	mean_time_to_happen = { days = 2 }
 	immediate = {
@@ -1470,7 +1478,7 @@ country_event = {
 				promote_leader = yes				
 			}		
 		}
-		set_party_name = {
+		set_party_name = { #변경
 			ideology = democratic
 			long_name = FRA_CFNL_party_long
 			name = FRA_CFNL_party
@@ -2001,7 +2009,7 @@ country_event = {
 			promote_leader = yes
 		}
 		set_country_flag = daladier_resigned
-		set_party_name = {
+		set_party_name = { #변경
 			ideology = democratic
 			long_name = FRA_ARD_party_long
 			name = FRA_ARD_party

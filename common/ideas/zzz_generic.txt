@@ -993,7 +993,7 @@ ideas = {
 			picture = generic_production_bonus
 			
 			modifier = {
-				consumer_goods_factor = 0.2
+				consumer_goods_factor = 0.4
 				local_resources_factor = -0.2
 				industrial_capacity_factory = -0.2
 				industrial_capacity_dockyard = -0.2
@@ -1014,7 +1014,7 @@ ideas = {
 			picture = generic_production_bonus
 			
 			modifier = {
-				consumer_goods_factor = 0.3
+				consumer_goods_factor = 0.6
 				local_resources_factor = -0.3
 				industrial_capacity_factory = -0.3
 				industrial_capacity_dockyard = -0.3
@@ -1035,7 +1035,7 @@ ideas = {
 			picture = generic_production_bonus
 			
 			modifier = {
-				consumer_goods_factor = 0.5
+				consumer_goods_factor = 0.8
 				local_resources_factor = -0.5
 				industrial_capacity_factory = -0.5
 				industrial_capacity_dockyard = -0.5
@@ -1255,9 +1255,9 @@ ideas = {
 			picture = generic_tank_manufacturer_1
 			
 			allowed = {
-				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = KOR tag = ROK tag = RUS tag = AUS tag = HUN tag = SIA tag = USA tag = BEL tag = CZE } }
+				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = KOR tag = QIN tag = AUS tag = USA tag = BEL tag = CZE tag = FIN } }
 				NOT = {
-					has_available_idea_with_traits = { idea = tank_manufacturer limit = 1 }
+					has_allowed_idea_with_traits = { idea = tank_manufacturer limit = 1 }
 				}
 				NOT = {
 					AND = {
@@ -1269,7 +1269,7 @@ ideas = {
 					AND = {
 						OR = {
 							is_literally_china = yes
-							tag = QIN
+							tag = MAN
 						}
 						has_dlc = "Waking the Tiger"
 					}
@@ -1314,9 +1314,9 @@ ideas = {
 			picture = generic_naval_manufacturer_1
 
 			allowed = {
-				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = KOR tag = ROK tag = RUS tag = AUS tag = SIA tag = USA tag = SWE tag = HUN tag = CZE } }
+				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = KOR tag = QIN tag = AUS tag = USA tag = SWE tag = HUN tag = CZE tag = FIN } }
 				NOT = {
-					has_available_idea_with_traits = { idea = naval_manufacturer limit = 1 }
+					has_allowed_idea_with_traits = { idea = naval_manufacturer limit = 1 }
 				}
 				NOT = {
 					AND = {
@@ -1326,10 +1326,7 @@ ideas = {
 				}
 				NOT = {
 					AND = {
-						OR = {
-							is_literally_china = yes
-							tag = QIN
-						}
+						OR = { tag = CHI tag = PRC tag = MAN tag = SHX tag = XSM tag = GXC tag = YUN tag = SIK tag = MEN }
 						has_dlc = "Waking the Tiger"
 					}
 				}
@@ -1379,9 +1376,9 @@ ideas = {
 			picture = generic_air_manufacturer_1
 
 			allowed = {
-				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = KOR tag = ROK tag = RUS tag = AUS tag = SIA tag = USA } }
+				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = KOR tag = QIN tag = AUS tag = USA tag = FIN } }
 				NOT = {
-					has_available_idea_with_traits = { idea = light_aircraft_manufacturer limit = 1 }
+					has_allowed_idea_with_traits = { idea = light_aircraft_manufacturer limit = 1 }
 				}
 				if = {
 					limit = {
@@ -1391,10 +1388,7 @@ ideas = {
 				}
 				NOT = {
 					AND = {
-						OR = {
-							is_literally_china = yes
-							tag = QIN
-						}
+						OR = { tag = CHI tag = PRC tag = MAN tag = SHX tag = XSM tag = GXC tag = YUN tag = SIK tag = MEN }
 						has_dlc = "Waking the Tiger"
 					}
 				}
@@ -1439,9 +1433,9 @@ ideas = {
 			picture = generic_air_manufacturer_3
 
 			allowed = {
-				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = KOR tag = ROK tag = RUS tag = AUS tag = SIA tag = USA tag = ROM } }
+				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = KOR tag = QIN tag = AUS tag = USA tag = ROM tag = FIN } }
 				NOT = {
-					has_available_idea_with_traits = { idea = medium_aircraft_manufacturer limit = 1 }
+					has_allowed_idea_with_traits = { idea = medium_aircraft_manufacturer limit = 1 }
 				}
 				if = {
 					limit = {
@@ -1451,10 +1445,7 @@ ideas = {
 				}
 				NOT = {
 					AND = {
-						OR = {
-							is_literally_china = yes
-							tag = QIN
-						}
+						OR = { tag = CHI tag = PRC tag = MAN tag = SHX tag = XSM tag = GXC tag = YUN tag = SIK tag = MEN }
 						has_dlc = "Waking the Tiger"
 					}
 				}
@@ -1499,9 +1490,9 @@ ideas = {
 			picture = generic_air_manufacturer_2
 			
 			allowed = {
-				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = KOR tag = ROK tag = RUS tag = AUS tag = SIA tag = USA tag = CAN tag = ROM } }
+				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = KOR tag = QIN tag = AUS tag = USA tag = CAN tag = ROM tag = FIN } }
 				NOT = {
-					has_available_idea_with_traits = { idea = heavy_aircraft_manufacturer limit = 1 }
+					has_allowed_idea_with_traits = { idea = heavy_aircraft_manufacturer limit = 1 }
 				}
 				if = {
 					limit = {
@@ -1511,11 +1502,8 @@ ideas = {
 				}
 				NOT = {
 					AND = {
-						OR = {
-							is_literally_china = yes
-							tag = QIN
-						}
-						has_dlc = "Waking the Tiger"
+						OR = { tag = CHI tag = PRC tag = MAN tag = SHX tag = XSM tag = GXC tag = YUN tag = SIK tag = MEN }
+						
 					}
 				}
 				NOT = {
@@ -1559,17 +1547,16 @@ ideas = {
 			picture = generic_naval_manufacturer_2
 
 			allowed = {
-				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = KOR tag = ROK tag = RUS tag = AUS tag = HUN tag = SIA tag = USA tag = CAN tag = ROM tag = YUG } }
+				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = KOR tag = QIN tag = AUS tag = USA tag = CAN tag = ROM tag = YUG tag = FIN } }
 				NOT = {
-					has_available_idea_with_traits = { idea = naval_aircraft_manufacturer limit = 1 }
+					has_allowed_idea_with_traits = { idea = naval_aircraft_manufacturer limit = 1 }
 				}
-				NOT = {
-					AND = {
-						OR = {
-							is_literally_china = yes
-							tag = QIN
-						}
+				if = {
+					limit = {
 						has_dlc = "Waking the Tiger"
+					}
+					NOT = {
+						OR = { tag = CHI tag = PRC tag = MAN tag = SHX tag = XSM tag = GXC tag = YUN tag = SIK tag = MEN }
 					}
 				}
 				NOT = {
@@ -1616,16 +1603,13 @@ ideas = {
 			picture = generic_industrial_concern_1
 
 			allowed = {
-				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = KOR tag = ROK tag = RUS tag = AUS tag = SIA tag = USA tag = HUN } }
+				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = KOR tag = QIN tag = AUS tag = USA tag = HUN tag = FIN } }
 				NOT = {
-					has_available_idea_with_traits = { idea = industrial_concern limit = 1 }
+					has_allowed_idea_with_traits = { idea = industrial_concern limit = 1 }
 				}
 				NOT = {
 					AND = {
-						OR = {
-							is_literally_china = yes
-							tag = QIN
-						}
+						OR = { tag = CHI tag = PRC tag = MAN tag = SHX tag = XSM tag = GXC tag = YUN tag = SIK tag = MEN }
 						has_dlc = "Waking the Tiger"
 					}
 				}
@@ -1649,8 +1633,14 @@ ideas = {
 				}
 				NOT = {
 					AND = {
-						OR = { tag = ETH }
+						tag = ETH
 						has_dlc = "By Blood Alone"
+					}
+				}
+				NOT = {
+					AND = {
+						OR = { tag = ICE tag = DEN }
+						has_dlc = "Arms Against Tyranny"
 					}
 				}
 			}
@@ -1670,15 +1660,15 @@ ideas = {
 			picture = generic_electronics_concern_1
 
 			allowed = {
-				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = KOR tag = ROK tag = RUS tag = AUS tag = HUN tag = SIA tag = USA } }
+				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = KOR tag = QIN tag = AUS tag = USA tag = FIN } }
 				NOT = {
-					has_available_idea_with_traits = { idea = electronics_concern limit = 1 }
+					has_allowed_idea_with_traits = { idea = electronics_concern limit = 1 }
 				}
 				NOT = {
 					AND = {
 						has_DLC = "Waking the Tiger"
 						OR = {
-							original_tag = QIN
+							original_tag = MAN
 							is_literally_china = yes
 						}
 					}
@@ -1707,6 +1697,12 @@ ideas = {
 						has_dlc = "By Blood Alone"
 					}
 				}
+				NOT = {
+					AND = {
+						OR = { tag = FIN tag = ICE tag = SWE }
+						has_dlc = "Arms Against Tyranny"
+					}
+				}
 			}
 			
 			cost = 150
@@ -1729,16 +1725,13 @@ ideas = {
 			picture = generic_motorized_equipment_manufacturer_3
 
 			allowed = {
-				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = KOR tag = ROK tag = RUS tag = AUS tag = HUN tag = SIA tag = USA } }
+				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = KOR tag = QIN tag = AUS tag = USA tag = FIN } }
 				NOT = {
-					has_available_idea_with_traits = { idea = motorized_equipment_manufacturer limit = 1 }
+					has_allowed_idea_with_traits = { idea = motorized_equipment_manufacturer limit = 1 }
 				}
 				NOT = {
 					AND = {
-						OR = {
-							is_literally_china = yes
-							tag = QIN
-						}
+						OR = { tag = CHI tag = PRC tag = MAN tag = SHX tag = XSM tag = GXC tag = YUN tag = SIK tag = MEN }
 						has_dlc = "Waking the Tiger"
 					}
 				}
@@ -1762,7 +1755,7 @@ ideas = {
 				}
 				NOT = {
 					AND = {
-						OR = { tag = ETH }
+						tag = ETH
 						has_dlc = "By Blood Alone"
 					}
 				}
@@ -1783,16 +1776,13 @@ ideas = {
 			picture = generic_infantry_equipment_manufacturer_2
 
 			allowed = {
-				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = KOR tag = ROK tag = RUS tag = AUS tag = SIA tag = USA tag = HUN } }
+				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = KOR tag = QIN tag = AUS tag = USA tag = HUN tag = FIN } }
 				NOT = {
-					has_available_idea_with_traits = { idea = infantry_equipment_manufacturer limit = 1 }
+					has_allowed_idea_with_traits = { idea = infantry_equipment_manufacturer limit = 1 }
 				}
 				NOT = {
 					AND = {
-						OR = {
-							is_literally_china = yes
-							tag = QIN
-						}
+						OR = { tag = CHI tag = PRC tag = MAN tag = SHX tag = XSM tag = GXC tag = YUN tag = SIK tag = MEN }
 						has_dlc = "Waking the Tiger"
 					}
 				}
@@ -1816,7 +1806,7 @@ ideas = {
 				}
 				NOT = {
 					AND = {
-						OR = { tag = ETH }
+						tag = ETH
 						has_dlc = "By Blood Alone"
 					}
 				}
@@ -1837,16 +1827,13 @@ ideas = {
 			picture = generic_artillery_manufacturer_2
 
 			allowed = {
-				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = KOR tag = ROK tag = RUS tag = AUS tag = AUS tag = SIA tag = USA } }
+				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = KOR tag = QIN tag = AUS tag = USA tag = FIN } }
 				NOT = {
-					has_available_idea_with_traits = { idea = artillery_manufacturer limit = 1 }
+					has_allowed_idea_with_traits = { idea = artillery_manufacturer limit = 1 }
 				}
 				NOT = {
 					AND = {
-						OR = {
-							is_literally_china = yes
-							tag = QIN
-						}
+						OR = { tag = CHI tag = PRC tag = MAN tag = SHX tag = XSM tag = GXC tag = YUN tag = SIK tag = MEN }
 						has_dlc = "Waking the Tiger"
 					}
 				}
@@ -1870,7 +1857,7 @@ ideas = {
 				}
 				NOT = {
 					AND = {
-						OR = { tag = ETH }
+						tag = ETH
 						has_dlc = "By Blood Alone"
 					}
 				}
