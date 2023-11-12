@@ -188,6 +188,10 @@
  VICTORY_POINTS_4142:0 "스즈카"
  VICTORY_POINTS_1136:0 "마이즈루"
  VICTORY_POINTS_11985:0 "시모노세키"
+ VICTORY_POINTS_1063:0 "아키타"
+ VICTORY_POINTS_4153:0 "고리야마"
+ VICTORY_POINTS_4172:0 "기후"
+ VICTORY_POINTS_10128:0 "나가노"
  
  VICTORY_POINTS_3547:0 "본"
  VICTORY_POINTS_11407:0 "바스토뉴"
@@ -344,6 +348,12 @@
  south_garafuto:0 "남부 가라후토"
  qixima_ryoto:0 "치시마 열도"
  toyohara:0 "도요하라"
+ akita:0 "아키타"
+ chujeon:0 "추전"
+ kifu:0 "기후"
+ gibu:0 "기부"
+ nagano:0 "나가노"
+ jangya:0 "장야"
  
  haisanwei:0 "하이산웨이"
  yanhaizhou:0 "옌하이저우"
