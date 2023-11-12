@@ -1,0 +1,8 @@
+spriteTypes = {	
+	
+	### WPBF 북마크 ###
+	spriteType = {
+		name = "GFX_frontend_logo_WPFB"
+		texturefile = "gfx/interface/new_frontend_logo_WPFB.png"
+	}
+}

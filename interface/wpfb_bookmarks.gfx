@@ -1,0 +1,12 @@
+spriteTypes = {	
+	
+	### WPBF 북마크 ###
+	spriteType = {
+		name = "GFX_bookmark_scenario_1936_wpbf"
+		texturefile = "gfx/interface/WPBF1936.png"
+	}
+	spriteType = {
+		name = "GFX_bookmark_scenario_1939_none"
+		texturefile = "gfx/interface/WPBF1939.png"
+	}
+}
