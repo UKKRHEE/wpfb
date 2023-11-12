@@ -5,6 +5,10 @@ spriteTypes = {
 	
 	### 전차업체 ###
 	spriteType = {
+		name = "GFX_idea_KOR_kia"
+		texturefile = "gfx/interface/companies/KOR/KOR_kia.png"
+	}
+	spriteType = {
 		name = "GFX_idea_KOR_daeseon"
 		texturefile = "gfx/interface/companies/KOR/KOR_daeseon.png"
 	}
@@ -18,6 +22,14 @@ spriteTypes = {
 	}
 	
 	### 조선업체 ###
+	spriteType = {
+		name = "GFX_idea_KOR_korea_mechanical_works"
+		texturefile = "gfx/interface/companies/KOR/KOR_korea_mechanical_works.png"
+	}
+	spriteType = {
+		name = "GFX_idea_KOR_korea_mechanical_works2"
+		texturefile = "gfx/interface/companies/KOR/KOR_korea_mechanical_works2.png"
+	}
 	spriteType = {
 		name = "GFX_idea_KOR_daehan_dockyard"
 		texturefile = "gfx/interface/companies/KOR/KOR_daeseon.png"
@@ -33,6 +45,14 @@ spriteTypes = {
 	
 	### 항공업체 ###
 	spriteType = {
+		name = "GFX_idea_KOR_korea_aircraft_industry"
+		texturefile = "gfx/interface/companies/KOR/KOR_korea_aircraft_industry.png"
+	}
+	spriteType = {
+		name = "GFX_idea_KOR_korea_aircraft_industry2"
+		texturefile = "gfx/interface/companies/KOR/KOR_korea_aircraft_industry2.png"
+	}
+	spriteType = {
 		name = "GFX_idea_KOR_keumseong"
 		texturefile = "gfx/interface/companies/KOR/KOR_keumseong.png"
 	}
@@ -43,12 +63,24 @@ spriteTypes = {
 	
 	### 군수업체 ###
 	spriteType = {
-		name = "GFX_idea_KOR_samsung"
-		texturefile = "gfx/interface/companies/KOR/KOR_samsung.png"
-	}
-	spriteType = {
 		name = "GFX_idea_KOR_busanchobyung"
 		texturefile = "gfx/interface/companies/KOR/KOR_busanchobyung.png"
+	}
+	spriteType = {
+		name = "GFX_idea_KOR_hanwha"
+		texturefile = "gfx/interface/companies/KOR/KOR_hanwha.png"
+	}
+	spriteType = {
+		name = "GFX_idea_KOR_hanwha2"
+		texturefile = "gfx/interface/companies/KOR/KOR_hanwha2.png"
+	}
+	spriteType = {
+		name = "GFX_idea_KOR_hyundai"
+		texturefile = "gfx/interface/companies/KOR/KOR_hyundai.png"
+	}
+	spriteType = {
+		name = "GFX_idea_KOR_samsung"
+		texturefile = "gfx/interface/companies/KOR/KOR_samsung.png"
 	}
 	spriteType = {
 		name = "GFX_idea_KOR_hwangseong"
@@ -61,8 +93,24 @@ spriteTypes = {
 		texturefile = "gfx/interface/companies/KOR/KOR_bank_of_korea.png"
 	}
 	spriteType = {
+		name = "GFX_idea_KOR_bank_of_korea2"
+		texturefile = "gfx/interface/companies/KOR/KOR_bank_of_korea2.png"
+	}
+	spriteType = {
 		name = "GFX_idea_KOR_seoul_electric"
 		texturefile = "gfx/interface/companies/KOR/KOR_seoul_electric.png"
+	}
+	spriteType = {
+		name = "GFX_idea_KOR_seoul_electric2"
+		texturefile = "gfx/interface/companies/KOR/KOR_seoul_electric2.png"
+	}
+	spriteType = {
+		name = "GFX_idea_KOR_seoul_electric3"
+		texturefile = "gfx/interface/companies/KOR/KOR_seoul_electric3.png"
+	}
+	spriteType = {
+		name = "GFX_idea_KOR_seoul_electric4"
+		texturefile = "gfx/interface/companies/KOR/KOR_seoul_electric4.png"
 	}
 	spriteType = {
 		name = "GFX_idea_KOR_korean_oil_company"

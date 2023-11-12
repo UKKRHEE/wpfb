@@ -1622,86 +1622,69 @@ ideas = {
 	
 	#설계사
 	tank_manufacturer = {
-		KOR_daeseon = { #대선중공업
-			
-		    allowed = {
-		    	original_tag = KOR
-		    }
-
-		    research_bonus = {
-		    	armor = 0.10
-		    }
-			
+		KOR_kia = { #기아
+		    allowed = { original_tag = KOR }
+		    research_bonus = { armor = 0.10 }
 		    traits = { fast_tank_manufacturer }
 	    }
 		
 		KOR_yeomin = { #여민
-			
-		    allowed = {
-		    	original_tag = KOR
-		    }
-
-		    research_bonus = {
-		    	armor = 0.10
-		    }
-			
+		    visible = {
+			    OR = {
+					has_country_leader = { character = KOR_yi_wu }
+					has_idea = KOR_constitutional_monarch_yi_wu
+					has_idea = KOR_constitutional_monarch_yi_cheong
+				}
+			}
+			allowed = { original_tag = KOR }
+		    research_bonus = { armor = 0.10 }
 		    traits = { medium_tank_manufacturer }
 	    }	
 		
 		KOR_dusan = { #두산중공업
-			
-		    allowed = {
-				original_tag = KOR
-		    }
-
-		    research_bonus = {
-		    	armor = 0.10
-		    }
-			
+		    allowed = { original_tag = KOR }
+		    research_bonus = { armor = 0.10 }
 		    traits = { heavy_tank_manufacturer }
 	    }
 	}
 	
 	naval_manufacturer = {
 	
-		KOR_daehan_dockyard = { #대한조선
-			
-		    picture = KOR_daeseon
-			
-			allowed = {
-		    	original_tag = KOR
-		    }
-				
-		    research_bonus = {
-		    	naval_equipment = 0.10
-		    }
-			
+		KOR_korea_mechanical_works = { #대한기계제작소
+		    allowed = { original_tag = KOR }
+		    research_bonus = { naval_equipment = 0.10 }
 		    traits = { coastal_defence_naval_manufacturer }
     	}
 		
+		#KOR_korea_mechanical_works2 = { #조선기계제작소
+		#   allowed = { original_tag = KOR }
+		#   research_bonus = { naval_equipment = 0.10 }
+		#   traits = { coastal_defence_naval_manufacturer }
+    	#}
+		
 		KOR_dongmyong = { #동명조선
-			
-		    allowed = {
-		    	original_tag = KOR
-		    }
-
-		    research_bonus = {
-		    	naval_equipment = 0.10
-		    }
-			
+			visible = {
+			    OR = {
+					has_country_leader = { character = KOR_yi_wu }
+					has_idea = KOR_constitutional_monarch_yi_wu
+					has_idea = KOR_constitutional_monarch_yi_cheong
+				}
+			}
+		    allowed = { original_tag = KOR }
+		    research_bonus = { naval_equipment = 0.10 }
 		    traits = { pacific_fleet_naval_manufacturer }
 	    }
 		
 		KOR_pyoahm = { #표암조선
-			
-		    allowed = {
-		    	original_tag = KOR
-		    }
-
-		    research_bonus = {
-		    	naval_equipment = 0.10
-		    }
-			
+			visible = {
+			    OR = {
+					has_country_leader = { character = KOR_yi_wu }
+					has_idea = KOR_constitutional_monarch_yi_wu
+					has_idea = KOR_constitutional_monarch_yi_cheong
+				}
+			}
+		    allowed = { original_tag = KOR }
+		    research_bonus = { naval_equipment = 0.10 }
 		    traits = { convoy_escort_naval_manufacturer }
 	    }
 	}
@@ -1709,92 +1692,64 @@ ideas = {
 	aircraft_manufacturer = {
 	
 		KOR_keumseong = { #금성항공
-			
-		    allowed = {
-		    	original_tag = KOR
-		    }
-			
-		    research_bonus = {
-		    	air_equipment = 0.05
-		    }
-
+		    allowed = { original_tag = KOR }
+		    research_bonus = { air_equipment = 0.05 }
 		    cost = 150
-			
 		    traits = { light_aircraft_manufacturer }
 	    }
 		
-		KOR_dusan_air = { #두산항공
-					
-		    picture = KOR_dusan
-				
-		    allowed = {
-		    	original_tag = KOR
-		    }
-			
-		    research_bonus = {
-		    	air_equipment = 0.05
-		    }
-
+		KOR_korea_aircraft_industry = { #대한비행기공업
+			allowed = { original_tag = KOR }
+		    research_bonus = { air_equipment = 0.05 }
 		    cost = 150
-			
 		    traits = { medium_aircraft_manufacturer }
 	    }
 		
+		#KOR_korea_aircraft_industry2 = { #조선비행기공업
+		#	allowed = { original_tag = KOR }
+		#   research_bonus = { air_equipment = 0.05 }
+		#   cost = 150
+		#   traits = { medium_aircraft_manufacturer }
+	    #}
+		
 		KOR_haepyong = { #해평항공
-					
-		    allowed = {
-		    	original_tag = KOR
-		    }
-			
-		    research_bonus = {
-		    	air_equipment = 0.05
-		    }
-
+			visible = {
+			    OR = {
+					has_country_leader = { character = KOR_yi_wu }
+					has_idea = KOR_constitutional_monarch_yi_wu
+					has_idea = KOR_constitutional_monarch_yi_cheong
+				}
+			}		
+		    allowed = { original_tag = KOR }
+		    research_bonus = { air_equipment = 0.05 }
 		    cost = 150
-			
 		    traits = { heavy_aircraft_manufacturer }
 	    }
 	}
 	
 	materiel_manufacturer = { 
 	
-		KOR_samsung = { #삼성
-
-	    	allowed = {
-		    	original_tag = KOR
-		    }
-	    		
-		    research_bonus = {
-		    	infantry_weapons = 0.05
-				radar_tech = 0.05
-	    	}
-			
+		KOR_busanchobyung = { #부산조병창
+	    	allowed = { original_tag = KOR }
+		    research_bonus = { infantry_weapons = 0.15 }
 		    traits = { infantry_equipment_manufacturer }
 	    }
 		
-		KOR_busanchobyung = { #부산조병창
-
-	    	allowed = {
-		    	original_tag = KOR
-		    }
-	    		
-			research_bonus = {
-				artillery = 0.15
-			}
-			
+		KOR_hanwha = { #한국화약
+	    	allowed = { original_tag = KOR }
+			research_bonus = { artillery = 0.15 }
 			traits = { artillery_manufacturer }
 	    }
 		
-		KOR_hwangseong = { #황성
+		#KOR_hanwha2 = { #조선화약
+	    #	allowed = { original_tag = KOR }
+		#	research_bonus = { artillery = 0.15 }
+		#	traits = { artillery_manufacturer }
+	    #}
 		
-			allowed = {
-				original_tag = KOR
-			}
-			
-			research_bonus = {
-				motorized_equipment = 0.1
-			}
-			
+		KOR_hyundai = { #현대
+			allowed = { original_tag = KOR }
+			research_bonus = { motorized_equipment = 0.1 }	
 			traits = { motorized_equipment_manufacturer }
 		}
 	}
@@ -1822,28 +1777,14 @@ ideas = {
 		}
 		
 		KOR_seoul_electric = {
-			
-			allowed = {
-				original_tag = KOR
-			}
-			
-			research_bonus = {
-				electronics = 0.15
-			}
-			
+			allowed = { original_tag = KOR }
+			research_bonus = { electronics = 0.15 }
 			traits = { electronics_concern }
 		}
 		
 		KOR_korean_oil_company = { #대한석유공사
-					
-		    allowed = {
-		    	original_tag = KOR
-		    }
-			
-		    research_bonus = {
-				synth_resources = 0.1
-		    }
-			
+		    allowed = { original_tag = KOR }
+		    research_bonus = { synth_resources = 0.1 }
 		    traits = { refinery_concern }
 	    }
 	}

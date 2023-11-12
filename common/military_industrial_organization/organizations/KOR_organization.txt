@@ -2,10 +2,10 @@
 ### 전차업체 ###
 #############
 
-KOR_daeseon_organisation = {
+KOR_kia_organisation = {
 	include = generic_mobile_tank_organization
-	name = KOR_daeseon
-	icon = GFX_idea_KOR_daeseon
+	name = KOR_kia
+	icon = GFX_idea_KOR_kia
 	allowed = {
 		original_tag = KOR
 	}
@@ -17,6 +17,24 @@ KOR_yeomin_organisation = {
 	icon = GFX_idea_KOR_yeomin
 	allowed = {
 		original_tag = KOR
+	}
+	visible = {
+		FROM = {
+			OR = {
+				has_country_leader = { character = KOR_yi_wu }
+				has_idea = KOR_constitutional_monarch_yi_wu
+				has_idea = KOR_constitutional_monarch_yi_cheong
+			}
+		}
+	}
+	available = {
+		FROM = {
+			OR = {
+				has_country_leader = { character = KOR_yi_wu }
+				has_idea = KOR_constitutional_monarch_yi_wu
+				has_idea = KOR_constitutional_monarch_yi_cheong
+			}
+		}
 	}
 }
 
@@ -33,10 +51,10 @@ KOR_dusan_organisation = {
 ### 조선업체 ###
 #############
 
-KOR_daehan_dockyard_organisation = {
+KOR_korea_mechanical_works_organisation = {
 	include = generic_raider_ship_organization
-	name = KOR_daehan_dockyard
-	icon = GFX_idea_KOR_daeseon
+	name = KOR_korea_mechanical_works
+	icon = GFX_idea_KOR_korea_mechanical_works
 	allowed = {
 		original_tag = KOR
 	}
@@ -49,6 +67,24 @@ KOR_dongmyong_organisation = {
 	allowed = {
 		original_tag = KOR
 	}
+	visible = {
+		FROM = {
+			OR = {
+				has_country_leader = { character = KOR_yi_wu }
+				has_idea = KOR_constitutional_monarch_yi_wu
+				has_idea = KOR_constitutional_monarch_yi_cheong
+			}
+		}
+	}
+	available = {
+		FROM = {
+			OR = {
+				has_country_leader = { character = KOR_yi_wu }
+				has_idea = KOR_constitutional_monarch_yi_wu
+				has_idea = KOR_constitutional_monarch_yi_cheong
+			}
+		}
+	}
 }
 
 KOR_pyoahm_organisation = {
@@ -57,6 +93,24 @@ KOR_pyoahm_organisation = {
 	icon = GFX_idea_KOR_pyoahm
 	allowed = {
 		original_tag = KOR
+	}
+	visible = {
+		FROM = {
+			OR = {
+				has_country_leader = { character = KOR_yi_wu }
+				has_idea = KOR_constitutional_monarch_yi_wu
+				has_idea = KOR_constitutional_monarch_yi_cheong
+			}
+		}
+	}
+	available = {
+		FROM = {
+			OR = {
+				has_country_leader = { character = KOR_yi_wu }
+				has_idea = KOR_constitutional_monarch_yi_wu
+				has_idea = KOR_constitutional_monarch_yi_cheong
+			}
+		}
 	}
 }
 
@@ -73,10 +127,10 @@ KOR_keumseong_organisation = {
 	}
 }
 
-KOR_dusan_air_organisation = {
+KOR_korea_aircraft_industry_organisation = {
 	include = generic_multi_role_aircraft_organization
-	name = KOR_dusan_air
-	icon = GFX_idea_KOR_dusan
+	name = KOR_korea_aircraft_industry
+	icon = GFX_idea_KOR_korea_aircraft_industry
 	allowed = {
 		original_tag = KOR
 	}
@@ -89,23 +143,32 @@ KOR_haepyong_organisation = {
 	allowed = {
 		original_tag = KOR
 	}
+	visible = {
+		FROM = {
+			OR = {
+				has_country_leader = { character = KOR_yi_wu }
+				has_idea = KOR_constitutional_monarch_yi_wu
+				has_idea = KOR_constitutional_monarch_yi_cheong
+			}
+		}
+	}
+	available = {
+		FROM = {
+			OR = {
+				has_country_leader = { character = KOR_yi_wu }
+				has_idea = KOR_constitutional_monarch_yi_wu
+				has_idea = KOR_constitutional_monarch_yi_cheong
+			}
+		}
+	}
 }
 
 #############
 ### 군수업체 ###
 #############
 
-KOR_samsung_organisation = {
-	include = generic_infantry_equipment_organization
-	name = KOR_samsung
-	icon = GFX_idea_KOR_samsung
-	allowed = {
-		original_tag = KOR
-	}
-}
-
 KOR_busanchobyung_organisation = {
-	include = generic_artillery_organization
+	include = generic_infantry_equipment_organization
 	name = KOR_busanchobyung
 	icon = GFX_idea_KOR_busanchobyung
 	allowed = {
@@ -113,10 +176,19 @@ KOR_busanchobyung_organisation = {
 	}
 }
 
-KOR_hwangseong_organisation = {
+KOR_hanwha_organisation = {
+	include = generic_artillery_organization
+	name = KOR_hanwha
+	icon = GFX_idea_KOR_hanwha
+	allowed = {
+		original_tag = KOR
+	}
+}
+
+KOR_hyundai_organisation = {
 	include = generic_motorized_mechanized_organization
-	name = KOR_hwangseong
-	icon = GFX_idea_KOR_hwangseong
+	name = KOR_hyundai
+	icon = GFX_idea_KOR_hyundai
 	allowed = {
 		original_tag = KOR
 	}
