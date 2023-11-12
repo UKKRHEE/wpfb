@@ -1,12 +1,13 @@
+
 state={
 	id=966
 	name="STATE_966"
-	provinces={
-		1024 1165 7169 
-	}
+
 	history={
+		victory_points = {
+			7169 15 
+		}
 		owner = JAP
-		add_core_of = SDJ
 		add_core_of = JAP
 		buildings = {
 			arms_factory = 1
@@ -14,14 +15,15 @@ state={
 			infrastructure = 1
 			9859 = {
 				naval_base = 3
-
 			}
-
 		}
-
 	}
-	state_category=town
+
+	provinces={
+		1165 7169 
+	}
 	manpower=2127893
 	buildings_max_level_factor=1.000
+	state_category=town
 	local_supplies=0.000
 }

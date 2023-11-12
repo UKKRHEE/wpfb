@@ -13,10 +13,12 @@ state={
 		buildings = {
 			infrastructure = 1
 			dockyard = 1
-
 		}
 		victory_points = {
-			10032 15 
+			4172 3 
+		}
+		victory_points = {
+			10128 5 
 		}
 
 	}
