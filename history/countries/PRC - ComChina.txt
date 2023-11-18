@@ -4,9 +4,17 @@ oob = "PRC_1936"
 
 # Starting tech
 set_technology = {
+	### Infantry ###
 	infantry_weapons = 1
-	tech_trucks = 1
-	mass_assault = 1
+	tech_irregulars = 1
+	tech_mountaineers = 1
+
+	### Support ###
+	tech_support = 1
+	tech_recon = 1
+
+	### Artillery ###
+	gw_artillery = 1
 }
 set_stability = 0.3
 set_war_support = 0.5

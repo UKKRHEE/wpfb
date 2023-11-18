@@ -1,6 +1,6 @@
 ﻿capital = 597
 
-oob = "ROC_1936"
+oob = "SDC_1936"
 
 set_stability = 0.2
 set_war_support = 0.4
@@ -8,12 +8,17 @@ set_war_support = 0.4
 set_research_slots = 3
 
 set_technology = {
+	### Infantry ###
 	infantry_weapons = 1
+	tech_irregulars = 1
+	tech_mountaineers = 1
+
+	### Support ###
+	tech_support = 1
+	tech_recon = 1
+
+	### Artillery ###
 	gw_artillery = 1
-	interwar_antiair = 1
-	mass_assault = 1
-	fleet_in_being = 1
-	basic_train = 1
 }
 
 add_ideas = {

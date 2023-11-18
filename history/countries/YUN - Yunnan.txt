@@ -2,17 +2,17 @@
 oob = "YUN_1936"
 
 set_technology = {
+	### Infantry ###
 	infantry_weapons = 1
-}
+	tech_irregulars = 1
+	tech_mountaineers = 1
 
-if = {
-	limit = {
-		has_dlc = "Waking the Tiger"
-	}
-	add_ideas = {
-		PRC_government_corruption
-		CHI_ineffective_bureaucracy_warlord
-	}
+	### Support ###
+	tech_support = 1
+	tech_recon = 1
+
+	### Artillery ###
+	gw_artillery = 1
 }
 
 ### 지도자 ###

@@ -4,8 +4,17 @@ oob = "XSM_1936"
 
 # Starting tech
 set_technology = {
+	### Infantry ###
 	infantry_weapons = 1
-	mass_assault = 1
+	tech_irregulars = 1
+	tech_mountaineers = 1
+
+	### Support ###
+	tech_support = 1
+	tech_recon = 1
+
+	### Artillery ###
+	gw_artillery = 1
 }
 
 ### 지도자 ###
@@ -44,17 +53,6 @@ recruit_character = XSM_han_youwen
 recruit_character = XSM_ma_biao
 recruit_character = XSM_ma_zhongying
 recruit_character = XSM_ma_dunjing
-
-
-if = {
-	limit = {
-		has_dlc = "Waking the Tiger"
-	}
-	add_ideas = {
-		PRC_government_corruption
-		CHI_ineffective_bureaucracy_warlord
-	}
-}
 
 set_politics = {
 	ruling_party = neutrality
