@@ -401,7 +401,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 13271
+		location = 3947
 		division_template = "방위사단"
 		start_experience_factor = 0.15
 		start_equipment_factor = 0.75
@@ -421,7 +421,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 13268
+		location = 4052
 		division_template = "방위사단"
 		start_experience_factor = 0.15
 		start_equipment_factor = 0.75
