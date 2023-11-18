@@ -256,8 +256,8 @@ spriteTypes = {
 	
 	### 한국 장성 ###
 	spriteType = {
-		name = "GFX_portrait_KOR_yi_won"
-		texturefile = "gfx/leaders/KOR/army/Portrait_KOR_Yi_Won.png"
+		name = "GFX_portrait_KOR_yi_wuyong"
+		texturefile = "gfx/leaders/KOR/army/Portrait_KOR_yi_wuyong.png"
 	}
 	spriteType = {
 		name = "GFX_portrait_KOR_kim_won_bong"
