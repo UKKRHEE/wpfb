@@ -1,0 +1,39 @@
+
+state={
+	id=852
+	name="STATE_852"
+
+	history={
+		owner = ITA
+		victory_points = {
+			11564 1 
+		}
+		buildings = {
+			infrastructure = 3
+			dockyard = 1
+			11564 = {
+				naval_base = 2
+
+			}
+
+		}
+		add_core_of = ITA
+		add_core_of = YUG
+		add_core_of = CRO
+		add_core_of = LBV
+		set_province_name = {
+			id = 11564
+			name = VICTORY_POINTS_11564_ITA
+
+		}
+
+	}
+
+	provinces={
+		599 11564 11595 11735 
+	}
+	manpower=885850
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}
