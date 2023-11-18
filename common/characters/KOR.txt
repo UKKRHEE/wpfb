@@ -1222,24 +1222,24 @@ characters = {
 	}
 	
 	### 육군 장성 ###
-	KOR_yi_won={
-		name=KOR_yi_won
+	KOR_yi_wuyong={
+		name=KOR_yi_wuyong
 		portraits={
 			army={
-				large=GFX_portrait_KOR_yi_won
-				small=GFX_idea_KOR_yi_won
+				large=GFX_portrait_KOR_yi_wuyong
+				small=GFX_idea_KOR_yi_wuyong
 			}
 		}
 		corps_commander={
 			traits = {
+				KOR_imperial_family
 				politically_connected
 				old_guard
 				inflexible_strategist
-				KOR_imperial_family
 			}
 			skill = 2
 			attack_skill = 2
-			defense_skill = 4
+			defense_skill = 2
 			planning_skill = 3
 			logistics_skill = 2
 			legacy_id=-1

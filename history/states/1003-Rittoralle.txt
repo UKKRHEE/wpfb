@@ -1,14 +1,14 @@
+
 state={
 	id=1003
 	name="STATE_1003"
-	provinces={
-		599 11595 
-	}
+
 	history={
 		owner = ITA
 		buildings = {
 			infrastructure = 1
 			arms_factory = 1
+
 		}
 		victory_points = {
 			11595 3 
@@ -19,7 +19,11 @@ state={
 		add_core_of = LBV
 
 	}
-	manpower=613563
+
+	provinces={
+		628 3657 6656 9613 
+	}
+	manpower=1429890
 	buildings_max_level_factor=1.000
 	state_category=town
 	local_supplies=0.000

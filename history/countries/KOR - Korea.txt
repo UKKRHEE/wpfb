@@ -76,7 +76,7 @@ recruit_character = KOR_jang_duk_chang
 recruit_character = KOR_yu_dong_yeol
 
 ### 육군 장성 ###
-recruit_character = KOR_yi_won
+recruit_character = KOR_yi_wuyong
 recruit_character = KOR_kim_won_bong
 recruit_character = KOR_oh_dong_jin
 recruit_character = KOR_hwang_byeong_gil
