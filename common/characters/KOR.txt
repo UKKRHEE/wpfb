@@ -305,6 +305,7 @@ characters = {
 		advisor={
 			slot = political_advisor
 			idea_token = KOR_syngman_rhee
+			desc = KOR_syngman_rhee_advisor_desc
 			visible = {
                 NOT = {
 					has_government = communism
