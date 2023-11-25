@@ -1,6 +1,13 @@
 on_actions = {
 	on_startup = {
 		effect = {
+			# Setup up a player array
+			every_country = {
+				limit = { is_ai = no }
+				set_country_flag = show_welcome_splash
+			}
+		}
+		effect = {
 			every_country = {
 			
 				# Top tabs
@@ -59,7 +66,11 @@ on_actions = {
 				
 				if = {
 					limit = {
-						original_tag = KOR
+						OR = {
+							original_tag = KOR
+							original_tag = DKG
+							original_tag = JAP
+						}
 					}
 					add_to_array = { CountryInfo_array_main = 101 }
 					add_to_array = { CountryInfo_array_main = 1 }
@@ -84,6 +95,66 @@ on_actions = {
 					add_to_array = { CountryInfo_folder_country_102 = 7 }
 					add_to_array = { CountryInfo_folder_country_102 = 8 }
 					add_to_array = { CountryInfo_folder_country_102 = 9 }
+				}
+
+				if = {
+					limit = {
+						OR = {
+							original_tag = CHI
+						}
+					}
+					add_to_array = { CountryInfo_array_main = 101 }
+					add_to_array = { CountryInfo_array_main = 1 }
+					add_to_array = { CountryInfo_array_main = 2 }
+					add_to_array = { CountryInfo_array_main = 3 }
+					add_to_array = { CountryInfo_array_main = 4 }
+					
+					add_to_array = { CountryInfo_folder_country_101 = 1 }
+					add_to_array = { CountryInfo_folder_country_101 = 2 }
+					add_to_array = { CountryInfo_folder_country_101 = 3 }
+					add_to_array = { CountryInfo_folder_country_101 = 4 }
+					# add_to_array = { CountryInfo_folder_country_101 = 5 }
+					
+					add_to_array = { CountryInfo_array_main = 102 }
+					add_to_array = { CountryInfo_array_main = 5 }
+					add_to_array = { CountryInfo_array_main = 6 }
+					add_to_array = { CountryInfo_array_main = 7 }
+					add_to_array = { CountryInfo_array_main = 8 }
+					
+					add_to_array = { CountryInfo_folder_country_102 = 5 }
+					add_to_array = { CountryInfo_folder_country_102 = 6 }
+					add_to_array = { CountryInfo_folder_country_102 = 7 }
+					add_to_array = { CountryInfo_folder_country_102 = 8 }
+				}
+
+				if = {
+					limit = {
+						OR = {
+							original_tag = GER
+							original_tag = SOV
+							original_tag = USA
+							original_tag = ENG
+							original_tag = FRA
+							original_tag = ITA
+						}
+					}
+					add_to_array = { CountryInfo_array_main = 101 }
+					add_to_array = { CountryInfo_array_main = 1 }
+					add_to_array = { CountryInfo_array_main = 2 }
+					add_to_array = { CountryInfo_array_main = 3 }
+					
+					add_to_array = { CountryInfo_folder_country_101 = 1 }
+					add_to_array = { CountryInfo_folder_country_101 = 2 }
+					add_to_array = { CountryInfo_folder_country_101 = 3 }
+					
+					add_to_array = { CountryInfo_array_main = 102 }
+					add_to_array = { CountryInfo_array_main = 4 }
+					add_to_array = { CountryInfo_array_main = 5 }
+					add_to_array = { CountryInfo_array_main = 6 }
+					
+					add_to_array = { CountryInfo_folder_country_102 = 4 }
+					add_to_array = { CountryInfo_folder_country_102 = 5 }
+					add_to_array = { CountryInfo_folder_country_102 = 6 }
 				}
 
 				## Ignore parts after this ##
