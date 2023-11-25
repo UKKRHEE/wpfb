@@ -67,7 +67,28 @@ spriteTypes = {
 		texturefile = "gfx/interface/country_info_screen/fix_entry_folder_2.png"
 		noofframes = 2
 	}
-
+	
+	spriteType = {
+		name = "GFX_CountryInfo_entry_folder2"
+		texturefile = "gfx/interface/country_info_screen/fix_entry_folder.png"
+		noofframes = 2
+	}
+	frameanimatedspritetype = {
+		name = "GFX_CountryInfo_entry_content_glow2"
+		texturefile = "gfx/interface/country_info_screen/fix_entry_folder.png" 
+		noofframes = 2
+		animation_rate_fps = 1.25
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0
+		effectfile = "gfx/FX/buttonstate_blendframes.lua"
+	}
+	spriteType = {
+		name = "GFX_CountryInfo_entry_content2"
+		texturefile = "gfx/interface/country_info_screen/fix_entry_folder.png"
+		noofframes = 2
+	}
+	
 	# Buttons
 	spriteType = {
 		name = "GFX_opening_button_next_page"
@@ -106,6 +127,38 @@ spriteTypes = {
 	# Posters
 	spriteType = { 
 		name = "GFX_TNO_OpeningScreen_Poster_Korea"
-		textureFile = "gfx/interface/opening_screen/TNO_OpeningScreen_Poster_Japan.dds"
+		textureFile = "gfx/interface/opening_screen/TNO_OpeningScreen_Poster_Korea.dds"
+	}
+	spriteType = { 
+		name = "GFX_TNO_OpeningScreen_Poster_japan"
+		textureFile = "gfx/interface/opening_screen/TNO_OpeningScreen_Poster_Japan_3.png" 
+	}
+	spriteType = { 
+		name = "GFX_TNO_OpeningScreen_Poster_south_china"
+		textureFile = "gfx/interface/opening_screen/TNO_OpeningScreen_Poster_South_China.dds" 
+	}
+	spriteType = { 
+		name = "GFX_TNO_OpeningScreen_Poster_germany"
+		textureFile = "gfx/interface/opening_screen/TNO_OpeningScreen_Poster_Germany.png"
+	}
+	spriteType = { 
+		name = "GFX_TNO_OpeningScreen_Poster_soviet_union"
+		textureFile = "gfx/interface/opening_screen/TNO_OpeningScreen_Poster_soviet_union.png" 
+	}
+	spriteType = { 
+		name = "GFX_TNO_OpeningScreen_Poster_united_states"
+		textureFile = "gfx/interface/opening_screen/TNO_OpeningScreen_Poster_united_states.png" 
+	}
+	spriteType = { 
+		name = "GFX_TNO_OpeningScreen_Poster_united_kingdom"
+		textureFile = "gfx/interface/opening_screen/TNO_OpeningScreen_Poster_united_kingdom.png" 
+	}
+	spriteType = { 
+		name = "GFX_TNO_OpeningScreen_Poster_france"
+		textureFile = "gfx/interface/opening_screen/TNO_OpeningScreen_Poster_france.png" 
+	}
+	spriteType = { 
+		name = "GFX_TNO_OpeningScreen_Poster_italy"
+		textureFile = "gfx/interface/opening_screen/TNO_OpeningScreen_Poster_italy.png" 
 	}
 }

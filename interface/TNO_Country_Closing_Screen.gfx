@@ -1,0 +1,64 @@
+spriteTypes = {
+	
+	###########################
+	# // Main GUI Elements // #
+	###########################
+	spriteType = {
+		name = "GFX_CountryClosing_picture_frame"
+		texturefile = "gfx/interface/country_closing_screen/picture_frame.png"
+	}
+	spriteType = {
+		name = "GFX_CountryClosing_picture_frame_dark"
+		texturefile = "gfx/interface/country_closing_screen/picture_frame_dark.png"
+	}
+	spriteType = {
+		name = "GFX_CountryClosing_select_btn"
+		texturefile = "gfx/interface/country_closing_screen/select_btn.png"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_CountryClosing_close_btn"
+		texturefile = "gfx/interface/country_closing_screen/close_btn.png"
+	}
+	spriteType = {
+		name = "GFX_CountryClosing_divider"
+		texturefile = "gfx/interface/country_closing_screen/divider.png"
+	}
+	spriteType = {
+		name = "GFX_CountryClosing_page_btn"
+		texturefile = "gfx/interface/country_closing_screen/page_btn.png"
+		noOfFrames = 2
+	}
+
+	##################
+	# // Pictures // #
+	##################
+	###############
+	# / Generic / #
+	###############
+	spriteType = {
+		name = "GFX_TNO_CountryClosing_picture_generic"
+		texturefile = "gfx/interface/country_closing_screen/picture/generic.png"
+	}
+	
+	spriteType = {
+		name = "GFX_TNO_CountryClosing_picture_chep_success"
+		texturefile = "gfx/interface/country_closing_screen/picture/GFX_TNO_CountryClosing_picture_chep_success.png"
+	}
+	spriteType = {
+		name = "GFX_TNO_CountryClosing_picture_chep_failure"
+		texturefile = "gfx/interface/country_closing_screen/picture/GFX_TNO_CountryClosing_picture_chep_failure.png"
+	}
+	spriteType = {
+		name = "GFX_TLE_CountryClosing_epilogue_KOR_the_last_empire"
+		texturefile = "gfx/interface/country_closing_screen/picture/korea_lastempire.png"
+	}
+	spriteType = {
+		name = "GFX_TLE_CountryClosing_epilogue_KOR_new_order"
+		texturefile = "gfx/interface/country_closing_screen/picture/korea_neworder.png"
+	}
+	spriteType = {
+		name = "GFX_TLE_CountryClosing_epilogue_JAP_the_last_empire"
+		texturefile = "gfx/interface/country_closing_screen/picture/japan_lastempire.png"
+	}
+}

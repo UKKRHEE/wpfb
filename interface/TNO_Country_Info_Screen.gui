@@ -11,7 +11,7 @@ guiTypes = {
 			Orientation = "UPPER_RIGHT"
 			scale = 0.75
 		}
-	}
+	} 
 
 	containerwindowtype = {
 		name = "TNO_Country_Info_Screen"
@@ -21,6 +21,9 @@ guiTypes = {
 		moveable = yes
 		click_to_front = yes
 		clipping = no
+		fade_time = 15000
+		fade_type = linear
+		
 		background = {
 			name = "bg"
 			quadtexturesprite = "GFX_tiled_window_transparent"
@@ -51,12 +54,12 @@ guiTypes = {
 
 		iconType = {
 			name = "flag"
-			position = { x = 10 y = 13 }
+			position = { x = 10 y = 16 }
 			spriteType = "GFX_flag_small"
 		}
 		instantTextBoxType = {
 			name = "country_name"
-			position = { x = 43 y = 5 }
+			position = { x = 43 y = 8 }
 			text = "[ROOT.GetName]"
 			font = "Bomb_16"
 			maxwidth = 150
@@ -85,12 +88,12 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "center_title"
 			position = { x = 195 y = 15 }
-			text = "==[CountryInfo_GET_Content_Country]=="
-			font = "aldrich_32_outline"
+			text = "== [CountryInfo_GET_Content_Country] =="
+			font = "hoi_36header"
 			maxwidth = 545
 			maxheight = 32
 			format = left
-			text_color_code = G
+			text_color_code = W
 			format = center
 		}
 		instantTextBoxType = {
@@ -105,22 +108,22 @@ guiTypes = {
 
 		### First screen ###
 
-		iconType = {
-			name = "animated_logo"
-			#position = { x = 211 y = 102 }
-			position = { x = 200 y = 160 }
-			spriteType = "GFX_NEW_TLE_logo_game_tno"
-		}
-		instantTextBoxType = {
-			name = "pls_click_on_entry_text"
-			position = { x = 195 y = 300 }
-			text = CountryInfo_pls_click_on_entry
-			font = "aldrich_36_outline"
-			maxwidth = 545
-			maxheight = 36
-			text_color_code = G
-			format = center
-		}
+		# iconType = {
+		# 	name = "animated_logo"
+		# 	#position = { x = 211 y = 102 }
+		# 	position = { x = 200 y = 160 }
+		# 	spriteType = "GFX_NEW_TLE_logo_game_tno"
+		# }
+		# instantTextBoxType = {
+		# 	name = "pls_click_on_entry_text"
+		# 	position = { x = 195 y = 300 }
+		# 	text = CountryInfo_pls_click_on_entry
+		# 	font = "aldrich_36_outline"
+		# 	maxwidth = 545
+		# 	maxheight = 36
+		# 	text_color_code = G
+		# 	format = center
+		# }
 
 		### Close button ###
 
@@ -139,7 +142,7 @@ guiTypes = {
 			name = "TNO_discord_button"
 			quadTextureSprite = "GFX_discord_button"
 			position = { x = 207 y = 180 }
-			web_link = "https://discordapp.com/invite/TheNewOrder"
+			web_link = "https://discord.gg/KfWPUTgqGz"
 		}
 		buttonType = {
 			name = "TNO_reddit_button"
@@ -170,6 +173,49 @@ guiTypes = {
 			quadTextureSprite = "GFX_tvtropes_button"
 			position = { x = 563 y = 230 }
 			web_link = "https://jwiki.kr/wiki/index.php/%EB%A7%88%EC%A7%80%EB%A7%89_%EC%A0%9C%EA%B5%AD"
+		}
+	}
+
+	containerWindowType = {
+		name = "TNO_Country_Info_Screen_Opening_Logo"
+		position = { x = 195 y = 90 }
+		size = { width = 545 height = 246 }
+		clipping = yes
+		
+		containerWindowType = {
+			name = "cursed_1"
+			size = { width = 545 height = 246 }
+			position = { x = -545 y = 0 }
+			show_position = { x = 0 y = 0 }
+			show_animation_type = linear
+			hide_animation_type = linear
+			animation_time = 2000
+			clipping = yes
+
+			containerWindowType = {
+				name = "cursed_2"
+				size = { width = 545 height = 246 }
+				position = { x = 545 y = 0 }
+				show_position = { x = 0 y = 0 }
+				show_animation_type = linear
+				hide_animation_type = linear
+				animation_time = 2000
+				iconType = {
+					name = "animated_logo"
+					position = { x = 4 y = 70 }
+					spriteType = "GFX_NEW_TLE_logo_game_tno"
+				}
+				instantTextBoxType = {
+					name = "pls_click_on_entry_text"
+					position = { x = 0 y = 210 }
+					text = CountryInfo_pls_click_on_entry
+					font = "hoi_36header"
+					maxwidth = 545
+					maxheight = 36
+					text_color_code = W
+					format = center
+				}
+			}
 		}
 	}
 
@@ -208,9 +254,9 @@ guiTypes = {
 		}
 		instantTextBoxType = {
 			name = "tab_text"
-			position = { x = 42 y = 9 }
+			position = { x = 48 y = 9 }
 			text = [CountryInfo_GET_tab_name]
-			font = "aldrich_18_outline"
+			font = "aldrich_20_outline"
 			maxwidth = 137
 			maxheight = 32
 			vertical_alignment = center
@@ -247,13 +293,13 @@ guiTypes = {
 		buttonType = {
 			name = "Content_button"
 			position = { x = 14 y = -1 }
-			spriteType = "GFX_CountryInfo_entry_content"
+			spriteType = "GFX_CountryInfo_entry_content2"
 			pdx_tooltip = CountryInfo_Content_button_tt
 		}
 		iconType = {
 			name = "Content_glow"
 			position = { x = 14 y = -1 }
-			spriteType = "GFX_CountryInfo_entry_content_glow"
+			spriteType = "GFX_CountryInfo_entry_content_glow2"
 			alwaystransparent = yes
 		}
 		instantTextBoxType = {

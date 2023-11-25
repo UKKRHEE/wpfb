@@ -6,7 +6,18 @@ scripted_gui = {
 
 		visible = {
 			NOT = { has_global_flag = TNO_my_world_is_on_fire_how_about_yours }
-			tag = KOR
+			OR = {
+				tag = KOR
+				tag = DKG
+				tag = JAP
+				tag = CHI
+				tag = GER
+				tag = SOV
+				tag = USA
+				tag = ENG
+				tag = FRA
+				tag = ITA
+			}
 		}
 
 		effects = {
@@ -33,7 +44,18 @@ scripted_gui = {
 		window_name = "TNO_Country_Info_Screen"
 		visible = { 
 			has_country_flag = TNO_Country_Info_Screen_Visible
-			tag = KOR
+			OR = {
+				tag = KOR
+				tag = DKG
+				tag = JAP
+				tag = CHI
+				tag = GER
+				tag = SOV
+				tag = USA
+				tag = ENG
+				tag = FRA
+				tag = ITA
+			}
 		}
 		dynamic_lists = {
 			top_tabs = {
@@ -395,6 +417,16 @@ scripted_gui = {
 			}
 		}
 	}
+	
+	TNO_Country_Info_Screen_Opening_Logo = {
+		window_name = TNO_Country_Info_Screen_Opening_Logo
+		context_type = player_context
+		parent_window_name = TNO_Country_Info_Screen
+		visible = {
+			NOT = { has_variable = CountryInfo_Selected }
+		}
+	}
+
 	TNO_Country_Info_Screen_Economic_Data = {
 		parent_window_name = TNO_Country_Info_Screen
 		window_name = "TNO_Country_Info_Screen_Economic_Data"
