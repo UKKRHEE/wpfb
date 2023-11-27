@@ -150,4 +150,35 @@
 		generic_pattern = AIR_WING_NAME_KOR_GENERIC
 		unique = {}
 	}
+	
+	cv_small_plane_airframe = {
+		prefix = ""
+		generic = { "항공단" }
+		generic_pattern = AIR_WING_NAME_KOR_GENERIC
+		unique = {
+		}	
+	}
+
+	large_plane_maritime_patrol_plane_airframe = {
+		prefix = ""
+		generic = { "항공단" }
+		generic_pattern = AIR_WING_NAME_KOR_GENERIC
+		unique = {
+		}	
+	}
+
+	cv_small_plane_cas_airframe = {
+		prefix = ""
+		generic = { "항공단" }
+		generic_pattern = AIR_WING_NAME_KOR_GENERIC
+		unique = {
+		}	
+	}
+	cv_small_plane_naval_bomber_airframe = {
+		prefix = ""
+		generic = { "항공단" }
+		generic_pattern = AIR_WING_NAME_KOR_GENERIC
+		unique = {
+		}	
+	}
 }

@@ -135,6 +135,154 @@ country_event = { #
 	}
 }
 
+
+### 이벤트체인 100~ ### 
+#대구 총파업
+country_event = { #3.1, 원산에서 무슨 일이 있었나? /2.8
+	id = korea.100
+	title = korea.100.t
+	desc = korea.100.d
+	picture = GFX_report_event_KOR_heonjong
+
+	is_triggered_only = yes
+
+	option = {
+		name = korea.100.a #그날 원산은 지옥이었다.
+	}
+}
+country_event = { #중추원 노동법 '일부' 가결 (실질적 부결) /2.14
+	id = korea.101
+	title = korea.101.t
+	desc = korea.101.d
+	picture = GFX_report_event_KOR_heonjong
+
+	is_triggered_only = yes
+
+	option = {
+		name = korea.101.a #결국 부결과 가까웠을 것이다.
+	}
+}
+country_event = { #연정체제의 종말? /2.17
+	id = korea.102
+	title = korea.102.t
+	desc = korea.102.d
+	picture = GFX_report_event_KOR_heonjong
+
+	is_triggered_only = yes
+
+	option = {
+		name = korea.102.a #위태위태하나, 그래도 아직까진 버틸 수 있다...
+	}
+}
+country_event = { #브나로드 운동 이후... /2.26
+	id = korea.103
+	title = korea.103.t
+	desc = korea.103.d
+	picture = GFX_report_event_KOR_heonjong
+
+	is_triggered_only = yes
+
+	option = {
+		name = korea.103.a #신민이 아니라 국민으로 향하는 길이다.
+	}
+}
+country_event = { #단체 봉기 준비 /3.1
+	id = korea.104
+	title = korea.104.t
+	desc = korea.104.d
+	picture = GFX_report_event_KOR_heonjong
+
+	is_triggered_only = yes
+
+	option = {
+		name = korea.104.a #절대 공산당이 뒤에 있음을 들키면 안된다.
+	}
+}
+country_event = { #의화대원왕과 황상이 독대를 하다 /3.8
+	id = korea.105
+	title = korea.105.t
+	desc = korea.105.d
+	picture = GFX_report_event_KOR_heonjong
+
+	is_triggered_only = yes
+
+	option = {
+		name = korea.105.a #아마도 문제는 없을 것입니다, 폐하
+	}
+}
+country_event = { #노덕술의 꼬리잡기 /3.15
+	id = korea.106
+	title = korea.106.t
+	desc = korea.106.d
+	picture = GFX_report_event_KOR_heonjong
+
+	is_triggered_only = yes
+
+	option = {
+		name = korea.106.a #이건... 한번 상부에 보고해야겠군.
+	}
+}
+country_event = { #황후의 해산달 /3.24
+	id = korea.107
+	title = korea.107.t
+	desc = korea.107.d
+	picture = GFX_report_event_KOR_heonjong
+
+	is_triggered_only = yes
+
+	option = {
+		name = korea.107.a #
+	}
+}
+country_event = { #익문사의 국내 치안 보고 /3.30
+	id = korea.108
+	title = korea.108.t
+	desc = korea.108.d
+	picture = GFX_report_event_KOR_heonjong
+
+	is_triggered_only = yes
+
+	option = {
+		name = korea.108.a #
+	}
+}
+country_event = { #외무대신의 중원대륙 동향에 대한 보고 /4.10
+	id = korea.109
+	title = korea.109.t
+	desc = korea.109.d
+	picture = GFX_report_event_KOR_heonjong
+
+	is_triggered_only = yes
+
+	option = {
+		name = korea.109.a #
+	}
+}
+country_event = { #황자 출생 /4.23
+	id = korea.110
+	title = korea.110.t
+	desc = korea.110.d
+	picture = GFX_report_event_KOR_heonjong
+
+	is_triggered_only = yes
+
+	option = {
+		name = korea.110.a #
+	}
+}
+country_event = { #황자의 이름 /4.25
+	id = korea.111
+	title = korea.111.t
+	desc = korea.111.d
+	picture = GFX_report_event_KOR_heonjong
+
+	is_triggered_only = yes
+
+	option = {
+		name = korea.111.a #
+	}
+}
+
 ###############
 ###############
 ###         ###
