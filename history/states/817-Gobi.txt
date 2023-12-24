@@ -9,28 +9,12 @@ state={
 			infrastructure = 1
 
 		}
-		victory_points = {
-			12612 1 
-		}
 		add_core_of = MON
-		add_core_of = MON
-		add_core_of = MEN
-		1935.12.6 = {
-			MON = {
-				set_province_controller = 12544
-				set_province_controller = 10695
-				set_province_controller = 10634
-				set_province_controller = 1855
-				set_province_controller = 12614
-
-			}
-
-		}
 
 	}
 
 	provinces={
-		1725 1781 1855 4729 4786 4858 7752 7806 7864 10560 10634 10689 10695 10704 12541 12544 12614 12686 
+		1725 1781 4729 4786 4858 7752 7806 7864 10560 10634 10689 10695 10704 12541 12544 12614 12686 
 	}
 	manpower=8000
 	buildings_max_level_factor=1.000

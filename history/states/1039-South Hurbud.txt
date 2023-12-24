@@ -1,0 +1,24 @@
+state={
+	id=1039
+	name="STATE_1039"
+	provinces={
+		1774 1855 4751 7808 7870 10539 
+	}
+	history={
+		owner = SIK
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = MON
+		add_core_of = CHI
+		add_core_of = PRC
+		add_core_of = SHX
+		add_core_of = SIK
+
+	}
+	manpower=20190
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}
