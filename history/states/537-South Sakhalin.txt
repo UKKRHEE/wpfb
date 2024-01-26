@@ -12,7 +12,7 @@ state= {
 	history= {
 		owner = JAP
 		add_core_of = JAP
-		add_core_of = SOV
+		add_claim_by = SOV
 		
 		buildings = {
 			infrastructure = 1

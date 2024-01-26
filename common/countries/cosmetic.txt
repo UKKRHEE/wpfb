@@ -993,4 +993,9 @@ SWI_helvetic_republic = {
 	color_ui = rgb { 140 140 140 }
 }
 
+### WPBF ###
 
+GMJ_gongbaidi = {
+	color = rgb { 0 0 0 } 
+	color_ui = rgb { 0 0 0 } 
+}	

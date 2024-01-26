@@ -1,0 +1,30 @@
+
+GMJ_after_the_end = {
+	icon = border_conflicts
+	priority = 1000
+	allowed = {
+		OR = {
+			original_tag = SHX
+			original_tag = CHI
+		}
+	}
+	visible = {
+		always = yes
+	}
+	visible_when_empty = yes
+	on_map_area = {
+		target_array = global.states
+		target_trigger = {
+			FROM = {
+				OR = {
+					state = 607
+					state = 952
+					state = 951
+					state = 744
+				}
+			}
+		}
+		name = GMJ_after_the_end_ERA
+		zoom = 250
+	}
+}

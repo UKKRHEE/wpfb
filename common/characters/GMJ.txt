@@ -58,6 +58,14 @@ characters={
 			legacy_id=-1
 		}
 	}
+	GMJ_military_junta={
+		name=GMJ_military_junta
+		portraits={
+			army={
+				large=GFX_portrait_GMJ_military_junta
+			}
+		}
+	}
 	
 	### 정치고문 ###
 	GMJ_yu_xinqing={

@@ -31,6 +31,7 @@ set_popularities = {
 
 ### 지도자 ###
 recruit_character = GMJ_feng_yuxiang
+recruit_character = GMJ_military_junta
 
 ### 정치고문 ###
 recruit_character = GMJ_yu_xinqing

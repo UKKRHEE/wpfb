@@ -847,6 +847,10 @@ spriteTypes = {
 		name = "GFX_portrait_GMJ_feng_yuxiang"
 		texturefile = "gfx/leaders/GMJ/Portrait_GMJ_Feng_Yuxiang.png"
 	}
+	spriteType = {
+		name = "GFX_portrait_GMJ_military_junta"
+		texturefile = "gfx/leaders/GMJ/Portrait_GMJ_military_junta.png"
+	}
 	
 	### 국민군 육군참모총장 ###
 	spriteType = {

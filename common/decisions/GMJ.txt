@@ -1,0 +1,241 @@
+GMJ_after_the_end = {
+	GMJ_march_to_xi_an = {
+
+		icon = hol_draw_up_staff_plans
+
+		allowed = {
+			OR = {
+				original_tag = CHI
+				original_tag = SHX
+			}
+		}
+
+		available = {
+			NOT = {
+				has_decision = GMJ_march_to_luoyang
+				has_decision = GMJ_march_to_kaifeng
+				has_decision = GMJ_march_to_yichang
+				has_decision = GMJ_march_to_xi_an
+			}
+		}
+
+		highlight_states = {
+	 		highlight_state_targets = { state = 744 } 
+			highlight_color_before_active = 3
+			highlight_color_while_active = 2
+		}
+
+		#on_map_mode = map_only
+
+		cost = 0
+
+		#fire_only_once = yes
+
+		days_remove = 3
+
+		modifier = {
+			
+		}
+
+		visible = {
+		}
+
+		complete_effect = {
+		}
+
+		remove_effect = {
+		}
+
+		ai_will_do = {
+		}
+	}
+	GMJ_march_to_luoyang = {
+
+		icon = hol_draw_up_staff_plans
+
+		allowed = {
+			OR = {
+				original_tag = CHI
+				original_tag = SHX
+			}
+		}
+
+		available = {
+			NOT = {
+				has_decision = GMJ_march_to_luoyang
+				has_decision = GMJ_march_to_kaifeng
+				has_decision = GMJ_march_to_yichang
+				has_decision = GMJ_march_to_xi_an
+			}
+		}
+
+		highlight_states = {
+	 		highlight_state_targets = { state = 952 } 
+			highlight_color_before_active = 3
+			highlight_color_while_active = 2
+		}
+
+		#on_map_mode = map_only
+
+		cost = 0
+
+		#fire_only_once = yes
+
+		days_remove = 3
+
+		modifier = {
+			
+		}
+
+		visible = {
+		}
+
+		complete_effect = {
+		}
+
+		remove_effect = {
+		}
+
+		ai_will_do = {
+		}
+	}
+	GMJ_march_to_kaifeng = {
+
+		icon = hol_draw_up_staff_plans
+
+		allowed = {
+			OR = {
+				original_tag = CHI
+				original_tag = SHX
+			}
+		}
+
+		available = {
+			NOT = {
+				has_decision = GMJ_march_to_luoyang
+				has_decision = GMJ_march_to_kaifeng
+				has_decision = GMJ_march_to_yichang
+				has_decision = GMJ_march_to_xi_an
+			}
+		}
+
+		highlight_states = {
+	 		highlight_state_targets = { state = 607 } 
+			highlight_color_before_active = 3
+			highlight_color_while_active = 2
+		}
+
+		#on_map_mode = map_only
+
+		cost = 0
+
+		#fire_only_once = yes
+
+		days_remove = 3
+
+		modifier = {
+			
+		}
+
+		visible = {
+		}
+
+		complete_effect = {
+		}
+
+		remove_effect = {
+		}
+
+		ai_will_do = {
+		}
+	}
+	GMJ_march_to_yichang = {
+
+		icon = hol_draw_up_staff_plans
+
+		allowed = {
+			OR = {
+				original_tag = CHI
+				original_tag = SHX
+			}
+		}
+
+		available = {
+			NOT = {
+				has_decision = GMJ_march_to_luoyang
+				has_decision = GMJ_march_to_kaifeng
+				has_decision = GMJ_march_to_yichang
+				has_decision = GMJ_march_to_xi_an
+			}
+		}
+
+		highlight_states = {
+	 		highlight_state_targets = { state = 951 } 
+			highlight_color_before_active = 3
+			highlight_color_while_active = 2
+		}
+
+		#on_map_mode = map_only
+
+		cost = 0
+
+		#fire_only_once = yes
+
+		days_remove = 3
+
+		modifier = {
+			
+		}
+
+		visible = {
+		}
+
+		complete_effect = {
+		}
+
+		remove_effect = {
+		}
+
+		ai_will_do = {
+		}
+	}
+	#################
+ 	GMJ_timeout_to_go = {
+
+		icon = generic_form_nation
+
+		allowed = {	
+			OR = {
+				original_tag = CHI
+				original_tag = SHX
+			}
+		}
+
+		available = {
+			hidden_trigger = { always = no }
+		}
+
+		fire_only_once = yes
+
+		days_mission_timeout = 60
+
+		is_good = no
+
+		cancel_if_not_visible = yes
+
+		activation = {
+			#always = no
+		}
+
+		visible = {
+		}
+
+		timeout_effect = {
+			if = {
+				limit = {
+					
+				}
+			}
+		}
+	}
+}

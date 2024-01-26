@@ -1,0 +1,146 @@
+add_namespace = guominjun
+
+country_event = { #국민
+	id = guominjun.1
+	title = guominjun.1.t
+	desc = guominjun.1.d
+	picture = GFX_report_event_KOR_heonjong
+
+	is_triggered_only = yes
+
+	option = {
+		name = guominjun.1.a
+	}
+}
+########
+country_event = { #국민군 바로 펑~
+	id = guominjun.1000
+	title = guominjun.1000.t
+	desc = guominjun.1000.d
+	picture = GFX_report_event_KOR_heonjong
+
+	is_triggered_only = yes
+
+	option = {
+		name = guominjun.1000.a
+		GMJ = {
+			set_cosmetic_tag = GMJ_gongbaidi
+			retire_character = GMJ_feng_yuxiang
+			add_country_leader_role = {
+				character = GMJ_military_junta
+				country_leader = {
+					expire = "1965.1.1"
+					ideology = despotism
+					desc=""
+					traits = {
+					}
+				}
+				promote_leader = yes
+			}
+			add_country_leader_role = {
+				character = fascism_ideology
+				country_leader = {
+					expire = "1965.1.1"
+					ideology = despotism
+					desc=""
+					traits = {
+					}
+				}
+				promote_leader = yes
+			}		
+			add_country_leader_role = {
+				character = socialism
+				country_leader = {
+					expire = "1965.1.1"
+					ideology = despotism
+					desc=""
+					traits = {
+					}
+				}
+				promote_leader = yes
+			}			
+			add_country_leader_role = {
+				character = marxism
+				country_leader = {
+					expire = "1965.1.1"
+					ideology = despotism
+					desc=""
+					traits = {
+					}
+				}
+				promote_leader = yes
+			}			
+		}
+		XSM = {
+			transfer_state = 283
+		}
+		SHX = {
+			transfer_state = 622
+			transfer_state = 996
+		}
+		CHI = {
+			transfer_state = 620
+		}
+		283 = {
+			set_demilitarized_zone = yes
+		}
+		622 = {
+			set_demilitarized_zone = yes
+		}
+		996 = {
+			set_demilitarized_zone = yes
+		}
+		620 = {
+			set_demilitarized_zone = yes
+		}
+		#
+		607 = {
+			set_demilitarized_zone = yes
+		}
+		744 = {
+			set_demilitarized_zone = yes
+		}
+		951 = {
+			set_demilitarized_zone = yes
+		}
+		952 = {
+			set_demilitarized_zone = yes
+		}
+	}
+	option = {
+		name = guominjun.1000.b
+		SHX = {
+			transfer_state = 744
+			transfer_state = 952
+			transfer_state = 607
+		}
+		CHI = {
+			transfer_state = 951
+		}
+		283 = {
+			set_demilitarized_zone = no
+		}
+		622 = {
+			set_demilitarized_zone = no
+		}
+		996 = {
+			set_demilitarized_zone = no
+		}
+		620 = {
+			set_demilitarized_zone = no
+		}
+		#
+		607 = {
+			set_demilitarized_zone = no
+		}
+		744 = {
+			set_demilitarized_zone = no
+		}
+		951 = {
+			set_demilitarized_zone = no
+		}
+		952 = {
+			set_demilitarized_zone = no
+		}
+	}
+}

@@ -1,0 +1,13 @@
+spriteTypes = {	
+	
+	###########
+	# WPBF 결정 #
+	###########
+	
+	### 국민군 ###  
+	spriteType = {
+		name = "GFX_decision_guominjun"
+		texturefile = "gfx/interface/decision/GMJ/decision_guominjun.png"
+		legacy_lazy_load = no
+	}
+}
