@@ -1,0 +1,16 @@
+add_namespace = WPBF_news
+
+news_event = { #국민
+	id = WPBF_news.1
+	title = WPBF_news.1.t
+	desc = WPBF_news.1.d
+	picture = GFX_news_guominjun_collapsed
+
+	is_triggered_only = yes
+	
+	major = yes
+
+	option = {
+		name = WPBF_news.1.a
+	}
+}

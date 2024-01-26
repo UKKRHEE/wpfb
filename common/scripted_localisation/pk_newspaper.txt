@@ -86,26 +86,22 @@ defined_text = {
 		}
 		localization_key = PK_NEWS.VIC
 	}
-	# text = {
-	# 	trigger = {
-	# 		OR = {
-	# 			is_warlord = yes
-	# 			AND = {
-	# 				tag = MAN
-	# 				has_completed_focus = MAN_assertiveness
-	# 				is_puppet = no
-	# 			}
-	# 			tag = event_target:WTT_current_china_leader
-	# 		}
-	# 		NOT = {
-	# 			OR = {
-	# 				is_subject_of = JAP
-	# 				has_government = communism
-	# 			}
-	# 		}
-	# 	}
-	# 	localization_key = PK_NEWS.CHI
-	# }
+	text = {
+	 	trigger = {
+	 		OR = {
+				tag = SHX
+				tag = CHI
+				tag = XSM
+				tag = SCC
+				tag = YUN
+				tag = GXC
+				tag = HNC
+				tag = PRC
+				tag = ROC
+			}
+	 	}
+	 	localization_key = PK_NEWS.CHI
+	}
 	# text = {
 	# 	trigger = {
 	# 		AND = {

@@ -17,4 +17,9 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/KOR/yi_wu.png"
 	}
 	
+	### 국민군 ###
+	spriteType = {
+		name = "GFX_news_guominjun_collapsed"
+		texturefile = "gfx/event_pictures/GMJ/news_guominjun_collapsed.png"
+	}
 }
