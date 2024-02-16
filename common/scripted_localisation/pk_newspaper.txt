@@ -173,6 +173,12 @@ defined_text = {
 		}
 		localization_key = PK_NEWS.ITA
 	}
+	text = {
+		trigger = {
+			TAG = QIN
+		}
+		localization_key = PK_NEWS.QIN
+	}
 	#text = {
 	#	trigger = {
 	#		TAG = SWE
