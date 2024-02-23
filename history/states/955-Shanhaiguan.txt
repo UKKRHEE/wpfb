@@ -4,6 +4,9 @@ state={
 	name="STATE_955"
 
 	history={
+		victory_points = {
+			6837 3 
+		}
 		owner = QIN
 		add_core_of = QIN
 		add_core_of = CHI
@@ -24,7 +27,7 @@ state={
 	}
 
 	provinces={
-		3814 6837 6898 9835 11886 
+		846 3934 6837 6852 6893 6951 9788 9831 9835 9927 11815 11836 11886 
 	}
 	manpower=312457
 	buildings_max_level_factor=1.000

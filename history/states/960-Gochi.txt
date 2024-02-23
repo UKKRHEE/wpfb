@@ -1,29 +1,32 @@
 
 state={
 	id=960
-	local_supplies=0.0 
 	name="STATE_960"
-
+	resources={
+		aluminium=3.000
+	}
 	history={
+		victory_points = {
+			13299 5 
+		}
+		victory_points = {
+			13300 3 
+		}
 		buildings = {
 			infrastructure = 3
-			7197 = {
-				naval_base = 8
-
-			}
-
+			air_base = 1
+			industrial_complex = 1
 		}
 		owner = JAP
 		add_core_of = JAP
-		add_core_of = FJP
-		#add_core_of = FRA
 
 	}
 
 	provinces={
-		7197 
+		1067 9985 12031 13292 13299 13300 
 	}
-	manpower=125201
+	manpower=2525201
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=town
+	local_supplies=0.000
 }

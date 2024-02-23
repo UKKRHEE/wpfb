@@ -13303,3 +13303,8 @@
 
 13295;137;135;52;land;true;plains;6
 13296;80;157;135;land;true;plains;6
+13297;184;142;127;land;true;hills;6 #류큐 남쪽
+
+13298;105;131;140;land;false;mountain;6 #쪽발이
+13299;55;79;85;land;true;hills;6 #쪽발이
+13300;103;41;52;land;true;hills;6 #쪽발이

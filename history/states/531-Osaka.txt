@@ -2,16 +2,10 @@
 state={
 	id=531
 	name="STATE_531"
-	resources={
-		aluminium=3.000
-	}
 
 	history={
 		victory_points = {
-			7072 20 
-		}
-		victory_points = {
-			1133 3
+			7072 15 
 		}
 		owner = JAP
 		add_core_of = JAP
@@ -42,10 +36,10 @@ state={
 	}
 
 	provinces={
-		1133 7072 7113 9985 12031 13292 13294
+		7072 
 	}
-	manpower=2115000
+	manpower=1115000
 	buildings_max_level_factor=1.000
-	state_category=large_city
+	state_category=large_town
 	local_supplies=0.000
 }

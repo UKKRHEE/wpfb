@@ -1,25 +1,34 @@
+
 state={
 	id=961
 	name="STATE_961"
-	local_supplies=0.0 
-	provinces={
-		11985 
-	}
-	manpower=146893
-	state_category=rural
-	buildings_max_level_factor=1.000
+
 	history={
 		buildings = {
 			infrastructure = 3
 			11985 = {
-				naval_base = 8
+				naval_base = 2
 			}
 		}
 		victory_points = {
 			11985 3 
 		}
+		victory_points = {
+			7212 5 
+		}
+		victory_points = {
+			7145 3 
+		}
 		owner = JAP
 		add_core_of = JAP
-		#add_core_of = ENG
+
 	}
+
+	provinces={
+		1167 1191 4197 7050 7145 7212 9968 10052 10055 11946 11985 
+	}
+	manpower=4232190
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
 }

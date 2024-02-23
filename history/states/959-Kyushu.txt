@@ -1,7 +1,6 @@
 
 state={
 	id=959
-	local_supplies=0.0 
 	name="STATE_959"
 	resources={
 		chromium=52.000
@@ -32,7 +31,7 @@ state={
 
 		}
 		victory_points = {
-			1025 3
+			1025 3 
 		}
 		victory_points = {
 			4102 5 
@@ -49,9 +48,10 @@ state={
 	}
 
 	provinces={
-		1020 1025 1183 4027 4102 4164 4198 7178 10020 10092 11925 11949 12006 12032 
+		1020 1183 4102 4198 7178 11949 12032 
 	}
 	manpower=7769000
 	buildings_max_level_factor=1.000
 	state_category=large_town
+	local_supplies=0.000
 }

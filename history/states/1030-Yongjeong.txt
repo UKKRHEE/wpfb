@@ -3,10 +3,9 @@ state={
 	id=1030
 	name="STATE_1030"
 
-	local_supplies=0.0 
 	history={
 		victory_points = {
-			944 5
+			944 5 
 		}
 		victory_points = {
 			3947 3 
@@ -17,18 +16,14 @@ state={
 			infrastructure = 2
 
 		}
-		#set_demilitarized_zone = yes
-		#1936.3.7 = {
-		#	set_demilitarized_zone = no
-		#
-		#}
 
 	}
 
 	provinces={
-		783 927 944 973 3929 3944 3947 6806 6964 9766 9883 9897 11823 11862 
+		927 944 973 3929 3944 3947 6806 6964 9841 9897 11823 11862 
 	}
 	manpower=1324174
 	buildings_max_level_factor=1.000
 	state_category=pastoral
+	local_supplies=0.000
 }

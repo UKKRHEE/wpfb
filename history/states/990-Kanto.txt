@@ -7,6 +7,12 @@ state={
 	}
 
 	history={
+		victory_points = {
+			1097 3 
+		}
+		victory_points = {
+			7016 3 
+		}
 		owner = JAP
 		add_core_of = JAP
 		buildings = {
@@ -21,24 +27,6 @@ state={
 			}
 
 		}
-		victory_points = {
-			4179 5 
-		}
-		victory_points = {
-			7212 5 
-		}
-		victory_points = {
-			7145 3
-		}
-		victory_points = {
-			1133 3
-		}
-		victory_points = {
-			1097 3
-		}
-		victory_points = {
-			7016 3
-		}
 		1939.1.1 = {
 			buildings = {
 				arms_factory = 4
@@ -52,10 +40,10 @@ state={
 	}
 
 	provinces={
-		993 1097 1113 4000 4100 7016 11908 11989 
+		993 1097 1113 4000 4100 7016 11908 
 	}
 	manpower=9773000
 	buildings_max_level_factor=1.000
-	state_category=metropolis
+	state_category=large_city
 	local_supplies=0.000
 }

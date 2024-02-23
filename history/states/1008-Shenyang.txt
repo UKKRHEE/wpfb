@@ -1,19 +1,26 @@
+
 state={
 	id=1008
 	name="STATE_1008"
-	provinces={
-		4158 9937 10434 10446 12426 
-	}
+
 	history={
+		victory_points = {
+			10446 5 
+		}
 		owner = CHI
 		add_core_of = CHI
+		add_core_of = SHX
 		add_core_of = PRC
 		buildings = {
 			infrastructure = 2
-			industrial_complex = 2
+			industrial_complex = 1
 
 		}
 
+	}
+
+	provinces={
+		4158 10434 10446 12426 
 	}
 	manpower=4012989
 	buildings_max_level_factor=1.000

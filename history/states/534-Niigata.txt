@@ -5,7 +5,6 @@ state={
 
 	history={
 		owner = JAP
-		add_core_of = TBJ
 		add_core_of = JAP
 		buildings = {
 			infrastructure = 2
@@ -18,10 +17,10 @@ state={
 	}
 
 	provinces={
-		1117 9952 11930 12007 
+		1117 9952 11930 11989 12007 
 	}
 	manpower=1933000
 	buildings_max_level_factor=1.000
-	state_category=large_town
+	state_category=town
 	local_supplies=0.000
 }

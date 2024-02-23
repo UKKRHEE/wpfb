@@ -1,11 +1,18 @@
+
 state={
 	id=991
 	name="STATE_991"
-	provinces={
-		1051 4054 4142 
-	}
 
 	history={
+		victory_points = {
+			4142 3 
+		}
+		victory_points = {
+			13294 5 
+		}
+		victory_points = {
+			1133 3 
+		}
 		owner = JAP
 		add_core_of = JAP
 		buildings = {
@@ -13,13 +20,14 @@ state={
 			infrastructure = 3
 
 		}
-		victory_points = {
-			4142 3 
-		}
 
+	}
+
+	provinces={
+		1051 1133 4054 4142 7113 13294 
 	}
 	manpower=2412389
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=large_town
 	local_supplies=0.000
 }

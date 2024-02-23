@@ -15,9 +15,6 @@ state={
 			}
 
 		}
-		1882.3.19 = {
-			set_demilitarized_zone = yes
-		}
 		victory_points = {
 			13293 3 
 		}

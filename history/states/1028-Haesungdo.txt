@@ -3,7 +3,6 @@ state={
 	id=1028
 	name="STATE_1028"
 
-	local_supplies=0.0 
 	history={
 		owner = KOR
 		buildings = {
@@ -21,9 +20,10 @@ state={
 	}
 
 	provinces={
-		9928 11893 10376 3791 11906 6811
+		783 3791 6811 9766 9928 10376 11893 11906 
 	}
 	manpower=234560
 	buildings_max_level_factor=1.000
 	state_category=rural
+	local_supplies=0.000
 }

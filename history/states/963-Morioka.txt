@@ -1,10 +1,12 @@
+
 state={
 	id=963
 	name="STATE_963"
-	provinces={
-		6870 6873 6994 9807 9859 11847 
-	}
+
 	history={
+		victory_points = {
+			6994 5 
+		}
 		owner = JAP
 		add_core_of = NBJ
 		add_core_of = JAP
@@ -19,8 +21,12 @@ state={
 		}
 
 	}
-	state_category=town
+
+	provinces={
+		6873 6994 9859 11847 
+	}
 	manpower=1589867
 	buildings_max_level_factor=1.000
+	state_category=rural
 	local_supplies=0.000
 }

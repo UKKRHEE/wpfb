@@ -3,12 +3,15 @@ state={
 	id=1016
 	name="STATE_1016"
 	resources={
-		steel=13.000
+		steel=3.000
 	}
 
 	history={
 		victory_points = {
 			4056 20 
+		}
+		victory_points = {
+			12060 5 
 		}
 		victory_points = {
 			1054 3 
@@ -37,7 +40,7 @@ state={
 	provinces={
 		1054 4056 10085 12060 
 	}
-	manpower=4438610
+	manpower=4838610
 	buildings_max_level_factor=1.000
 	state_category=large_city
 	local_supplies=0.000
