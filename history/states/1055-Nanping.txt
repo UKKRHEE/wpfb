@@ -11,9 +11,9 @@ state={
 		victory_points = {
 			10010 1 
 		}
-		owner = CHI
+		owner = ROC
 		add_core_of = CHI
-		add_core_of = CHI #나중에 핵심주 개편하면서 제거했다가 중점으로 붙일 것
+		add_core_of = ROC #나중에 핵심주 개편하면서 제거했다가 중점으로 붙일 것
 		add_core_of = PRC
 		buildings = {
 			infrastructure = 2
