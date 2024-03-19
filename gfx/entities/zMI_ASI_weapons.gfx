@@ -28,28 +28,6 @@ objectTypes = {
 	}
 }
 
-objectTypes = {		
-	pdxmesh = {
-		name = "MI_PRK_unit_artillery_1_mesh"
-		file = "gfx/models/buildings/PRK_artillery_01.mesh"
-		
-		animation = { id = "idle"  			type = "artillery_idle_animation" }
-		animation = { id = "move"  			type = "artillery_moving_animation" }
-		animation = { id = "attack"  		type = "artillery_attack_animation" }
-	}
-}
-
-objectTypes = {		
-	pdxmesh = {
-		name = "MI_PRK_unit_artillery_2_mesh"
-		file = "gfx/models/buildings/PRK_artillery_02.mesh"
-		
-		animation = { id = "idle"  			type = "artillery_idle_animation" }
-		animation = { id = "move"  			type = "artillery_moving_animation" }
-		animation = { id = "attack"  		type = "artillery_attack_animation" }
-	}
-}
-
 #############
 ### CHINA ###
 #############
@@ -79,39 +57,48 @@ objectTypes = {
 	}
 }
 
-##############
-### GERMAN ###
-##############
 
-objectTypes = {	
-	pdxmesh = {
-		name = "MI_INS_infantry_weapon_mg_MP28_mesh"
-		file = "gfx/models/units/weapon_INS_mg_MP28.mesh"
+#####################
+### GERMAN - MP28 ###
+#####################
+
+entity = {
+	name = "MI_INS_infantry_weapon_mg_MP28_left_entity"
+	pdxmesh = "MI_INS_infantry_weapon_mg_MP28_mesh"
+	scale = 1.0
+}
+	
+entity = {
+	name = "MI_INS_infantry_weapon_mg_MP28_right_entity"
+	pdxmesh = "MI_INS_infantry_weapon_mg_MP28_mesh"
+	scale = 1.0
+	
+	get_state_from_parent = yes
+	default_state = "idle"
+	state = { name = "idle" }
+	state = { name = "move"	}
+	
+	state = { name = "attack"	animation = "attack" 
+		event = { time = 0.5 node="muzzle" particle = "mg_muzzle_particle"  keep_particle = yes   light = "mg_muzzle_flash" sound = { soundeffect = infantry_mg_attack } } 
+		event = { time = 0.5 node="muzzle" particle = "mg_muzzle_smoke_particle"  keep_particle = yes   light = "mg_muzzle_flash" sound = { soundeffect = infantry_mg_attack } } 
+		event = { time = 0.5 node="cartridge" particle = "mg_cartridge_particle"  keep_particle = yes } 
+	}
+	
+	state = { name = "defend"
+		event = { time = 0 node="muzzle" particle = "mg_muzzle_particle"  keep_particle = yes   light = "mg_muzzle_flash" sound = { soundeffect = infantry_mg_attack } } 
+		event = { time = 0 node="muzzle" particle = "mg_muzzle_smoke_particle"  keep_particle = yes   light = "mg_muzzle_flash" sound = { soundeffect = infantry_mg_attack } } 
+		event = { time = 0 node="cartridge" particle = "mg_cartridge_particle"  keep_particle = yes } 
+	}
+	
+	state = { name = "support_attack"	animation = "support_attack" 
+		event = { time = 0 node="muzzle" particle = "mg_muzzle_particle"  keep_particle = yes   light = "mg_muzzle_flash" sound = { soundeffect = infantry_mg_attack } } 
+		event = { time = 0 node="muzzle" particle = "mg_muzzle_smoke_particle"  keep_particle = yes   light = "mg_muzzle_flash" sound = { soundeffect = infantry_mg_attack } } 
+		event = { time = 0 node="cartridge" particle = "mg_cartridge_particle"  keep_particle = yes }
 	}
 }
 
-##############
-### SOVIET ###
-##############
-
-objectTypes = {	
-	pdxmesh = {
-		name = "MI_PRK_infantry_weapon_rifle_STV-40_mesh"
-		file = "gfx/models/units/weapon_PRK_rifle_STV-40.mesh"
-	}
-}
-
-###########################
-### ANTI TANK ARTILLERY ###
-###########################
-
-objectTypes = {		
-	pdxmesh = {
-		name = "MI_INS_unit_antitank_mesh"
-		file = "gfx/models/buildings/INS_antitank_01.mesh"
-		
-		animation = { id = "idle"  			type = "artillery_idle_animation" }
-		animation = { id = "move"  			type = "artillery_moving_animation" }
-		animation = { id = "attack"  		type = "artillery_attack_animation" }
-	}
+entity = {
+	name = "MI_INS_infantry_weapon_mg_MP28_long_idle_entity"
+	pdxmesh = "MI_INS_infantry_weapon_mg_MP28_mesh"
+	scale = 1.0
 }
