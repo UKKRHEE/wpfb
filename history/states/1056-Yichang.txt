@@ -1,0 +1,31 @@
+
+state={
+	id=1056
+	name="STATE_1056"
+
+	history={
+		victory_points = {
+			1612 5 
+		}
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+		owner = GMJ
+		add_core_of = GMJ
+		add_core_of = SHX
+		add_core_of = CHI
+		add_core_of = PRC
+
+	}
+
+	provinces={
+		1612 4130 7019 7596 7609 8072 10474 12408 
+	}
+	manpower=13126899
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

@@ -2,7 +2,7 @@ state={
 	id=989
 	name="STATE_989"
 	provinces={
-		13293
+		13383
 	}
 	history={
 		owner = JAP
@@ -16,7 +16,7 @@ state={
 
 		}
 		victory_points = {
-			13293 3 
+			13383 3 
 		}
 
 	}

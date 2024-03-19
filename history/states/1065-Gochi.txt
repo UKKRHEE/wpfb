@@ -1,0 +1,32 @@
+
+state={
+	id=1065
+	name="STATE_1065"
+	resources={
+		aluminium=3.000
+	}
+	history={
+		victory_points = {
+			13389 5 
+		}
+		victory_points = {
+			13390 3 
+		}
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			industrial_complex = 1
+		}
+		owner = JAP
+		add_core_of = JAP
+
+	}
+
+	provinces={
+		1067 9985 12031 13382 13389 13390 
+	}
+	manpower=2525201
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

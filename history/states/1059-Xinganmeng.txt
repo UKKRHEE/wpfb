@@ -1,0 +1,36 @@
+
+state={
+	id=1059
+	name="STATE_1059"
+	resources={
+		oil=12.000
+	}
+
+	history={
+		victory_points = {
+			1502 1 
+		}
+		owner = QIN
+		add_core_of = CHI
+		add_core_of = QIN
+		add_core_of = KOR
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 2
+
+		}
+		1936.8.1 = {
+			owner = KOR
+
+		}
+
+	}
+
+	provinces={
+		1502 1588 1645 1847 4506 4592 4876 7526 7582 7613 7832 7873 7894 7897 10567 12485 12618 
+	}
+	manpower=1124783
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

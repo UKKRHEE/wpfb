@@ -1,0 +1,38 @@
+
+state={
+	id=1060
+	name="STATE_1060"
+
+	history={
+		victory_points = {
+			6837 3 
+		}
+		owner = QIN
+		add_core_of = QIN
+		add_core_of = CHI
+		add_core_of = QIN
+		add_core_of = KOR
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 2
+			6837 = {
+				naval_base = 3
+
+			}
+
+		}
+		1936.8.1 = {
+			owner = KOR
+
+		}
+
+	}
+
+	provinces={
+		846 3934 6837 6852 6893 6951 9788 9831 9835 9927 11815 11836 11886 
+	}
+	manpower=312457
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

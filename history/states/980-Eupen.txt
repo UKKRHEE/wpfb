@@ -2,13 +2,13 @@ state={
 	id=980
 	name="STATE_980"
 	provinces={
-		13290
+		13380
 	}
 	history={
 		owner = BEL
 		add_core_of = BEL
 		victory_points = {
-			13290 1 
+			13380 1 
 		}
 		buildings = {
 			infrastructure = 2

@@ -1,0 +1,27 @@
+state={
+	id=1044
+	name="STATE_1044"
+	provinces={
+		7071 
+	}
+	local_supplies=0.0 
+	manpower=210000
+	state_category=city
+	buildings_max_level_factor=1.000
+	history={
+		victory_points = {
+			7071 1 
+		}
+		buildings = {
+			infrastructure = 2
+			7071 = {
+				naval_base = 3
+
+			}
+		}
+		owner = CHI
+		add_core_of = CHI
+		add_core_of = CHI #나중에 핵심주 개편하면서 제거했다가 중점으로 붙일 것
+		add_core_of = PRC
+	}
+}

@@ -1,0 +1,33 @@
+
+state={
+	id=1055
+	name="STATE_1055"
+	local_supplies=0.0 
+
+	history={
+		victory_points = {
+			7099 5 
+		}
+		victory_points = {
+			10010 1 
+		}
+		owner = CHI
+		add_core_of = CHI
+		add_core_of = CHI #나중에 핵심주 개편하면서 제거했다가 중점으로 붙일 것
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			industrial_complex = 1
+
+		}
+
+	}
+
+	provinces={
+		1006 4053 7099 7131 10010 10054 10093 11986 12057 12084 
+	}
+	manpower=4688987
+	buildings_max_level_factor=1.000
+	state_category=city
+}

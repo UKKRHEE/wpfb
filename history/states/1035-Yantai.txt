@@ -2,7 +2,7 @@ state={
 	id=1035
 	name="STATE_1035"
 	provinces={
-		1104 1200 4186 7105 13295
+		1104 1200 4186 7105 13385
 	}
 	local_supplies=0.0 
 	manpower=7000000
@@ -16,7 +16,7 @@ state={
 
 		}
 		victory_points = {
-			13295 5
+			13385 5
 		}
 		victory_points = {
 			1200 3

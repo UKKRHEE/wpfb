@@ -1,0 +1,26 @@
+state={
+	id=1041
+	name="STATE_1041"
+	provinces={
+		9974 
+	}
+	local_supplies=0.0 
+	manpower=1600000
+	buildings_max_level_factor=1.000
+	state_category=city
+	history={
+		victory_points = {
+			9974 1 
+		}
+		buildings = {
+			infrastructure = 2
+			9974 = {
+				naval_base = 3
+
+			}
+		}
+		owner = CHI
+		add_core_of = CHI
+		add_core_of = PRC
+	}
+}

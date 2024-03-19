@@ -1,0 +1,36 @@
+
+state={
+	id=1052
+	name="STATE_1052"
+	local_supplies=0.0 
+	history={
+		owner = SHX
+		add_core_of = SHX
+		add_core_of = SHX
+		add_core_of = CHI
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			10367 3 
+		}
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 2
+				infrastructure = 2
+
+			}
+
+		}
+
+	}
+	provinces={
+		1034 1531 4074 4174 10367 10507 12300 12432 
+	}
+	manpower=4121896
+	buildings_max_level_factor=1.000
+	state_category=town
+}

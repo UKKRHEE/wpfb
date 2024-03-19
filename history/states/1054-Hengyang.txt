@@ -1,0 +1,33 @@
+
+state={
+	id=1054
+	name="STATE_1054"
+
+	history={
+		victory_points = {
+			11918 3 
+		}
+		victory_points = {
+			7502 3 
+		}
+		owner = HNC
+		add_core_of = HNC
+		add_core_of = CHI
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			arms_factory = 1
+
+		}
+
+	}
+
+	provinces={
+		1448 4125 7159 7502 9982 10377 11918 12350 12378 
+	}
+	manpower=1368987
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}
