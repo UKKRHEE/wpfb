@@ -1,6 +1,6 @@
-#############
+################
 ### 전차업체 ###
-#############
+################
 
 KOR_kia_organisation = {
 	include = generic_mobile_tank_organization
@@ -47,9 +47,9 @@ KOR_dusan_organisation = {
 	}
 }
 
-#############
+################
 ### 조선업체 ###
-#############
+################
 
 KOR_korea_mechanical_works_organisation = {
 	include = generic_raider_ship_organization
@@ -114,9 +114,9 @@ KOR_pyoahm_organisation = {
 	}
 }
 
-#############
+################
 ### 항공업체 ###
-#############
+################
 
 KOR_keumseong_organisation = {
 	include = generic_light_aircraft_organization
@@ -163,9 +163,9 @@ KOR_haepyong_organisation = {
 	}
 }
 
-#############
+################
 ### 군수업체 ###
-#############
+################
 
 KOR_busanchobyung_organisation = {
 	include = generic_infantry_equipment_organization

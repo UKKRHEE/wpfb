@@ -1,7 +1,7 @@
 ﻿l_english:
- #############
- ### 국가형성 ###
- #############
+ ##########################################
+ ############# 형성 국가 관련 #############
+ ##########################################
  
  KOR_haedong_communism:0 "해동민주주의인민공화국"
  KOR_haedong_communism_DEF:0 "해동민주주의인민공화국"
@@ -128,13 +128,15 @@
  china_ming_neutrality_DEF:0 "명나라"
  china_ming_neutrality_ADJ:0 "명나라"
 
- china_monarchist_neutrality:0 "중화제국"
- china_monarchist_neutrality_DEF:0 "중화제국"
- china_monarchist_neutrality_ADJ:0 "중화제국"
+ china_monarchism_neutrality:0 "중화제국"
+ china_monarchism_neutrality_DEF:0 "중화제국"
+ china_monarchism_neutrality_ADJ:0 "중화제국"
  
- #############
- ### 청나라ㅡ ###
- #############
+ 
+ 
+ #######################################
+ ############# 청나라 관련 #############
+ #######################################
  
  MON_QIN_communism_subject:0 "몽골 자치공화국"
  MON_QIN_communism_subject_DEF:0 "몽골 자치공화국"
@@ -174,6 +176,12 @@
  TIB_QIN_neutrality_subject:0 "티베트"
  TIB_QIN_neutrality_subject_DEF:0 "티베트"
  TIB_QIN_neutrality_subject_ADJ:0 "티베트"
+ 
+ 
+ 
+ #######################################
+ ############# 국민군 관련 #############
+ #######################################
  
  GMJ_gongbaidi_communism:0 ""
  GMJ_gongbaidi_communism_DEF:0 ""

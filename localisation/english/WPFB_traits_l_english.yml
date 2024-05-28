@@ -1,95 +1,146 @@
 ﻿l_english:
- #############
- ### 지도자ㅡ ###
- #############
  
+ #############################################
+ ############## 오얏꽃 - 지도자 ##############
+ #############################################
+ 
+ ############
  ### 공용 ###
- social_reformer_leader:0 "사회개혁가"
- resolute_social_democrat_leader:0 "확고한 사민주의자"
- linguistic_genius:0 "어학의 천재"
- backroom_backstabber_leader:0 "밀실 모략가"
- nationalist_historian:0 "민족주의 사학자"
- academic_genius:0 "학문학의 제일류"
+ ############
  
- ### 한국 ###
- daemagliji:0 "대막리지"
- daemagliji2:0 "대막리지"
- geonheung_emperor:0 "건흥제" #이우
- geonheung_emperor2:0 "건흥제" #이우
- underage_emperor:0 "유제" #이청
+ social_reformer_leader: "사회개혁가"
+ resolute_social_democrat_leader: "확고한 사민주의자"
+ linguistic_genius: "어학의 천재"
+ backroom_backstabber_leader: "밀실 모략가"
+ nationalist_historian: "민족주의 사학자"
+ academic_genius: "학문학의 제일류"
  
+ ##################
+ ###### 한국 ######
+ ##################
+ 
+ daemagliji: "대막리지"
+ daemagliji2: "대막리지"
+ geonheung_emperor: "건흥제" #이우
+ geonheung_emperor2: "건흥제" #이우
+ underage_emperor: "유제" #이청
+ 
+ ##############
  ### 청나라 ###
- xuantong_emperor:0 "선통제" #푸이
- second_hongzhang:0 "두 번째 이홍장?" #장쭤린
- second_hongzhang_tt:0 "안정도: §R-5%§!\n  - 소비재 공장: §Y5%§!\n  - 정치력 획득: §G+5%§!\n  - §Y군수공장§! 건설 속도: §G+5%§!\n  - §Y조선소§! 건설 속도: §G+5%§!\n  - §Y요새§! 건설 속도: §G+5%§!\n  - §Y해안요새§! 건설 속도: §G+5%§!\n  - §Y해군기지§! 건설 속도: §G+5%§!"
- second_hongzhang2:0 "두 번째 이홍장" #장쭤린
- second_hongzhang2_tt:0 "정치력 획득: §G+10%§!\n  - §Y군수공장§! 건설 속도: §G+10%§!\n  - §Y조선소§! 건설 속도: §G+10%§!\n  - §Y요새§! 건설 속도: §G+10%§!\n  - §Y해안요새§! 건설 속도: §G+10%§!\n  - §Y해군기지§! 건설 속도: §G+10%§!"
+ ##############
  
+ xuantong_emperor: "선통제" #푸이
+ 
+ second_hongzhang: "두 번째 이홍장?" #장쭤린
+ second_hongzhang_tt: "안정도: §R-5%§!\n  - 소비재 공장: §Y5%§!\n  - 정치력 획득: §G+5%§!\n  - §Y군수공장§! 건설 속도: §G+5%§!\n  - §Y조선소§! 건설 속도: §G+5%§!\n  - §Y요새§! 건설 속도: §G+5%§!\n  - §Y해안요새§! 건설 속도: §G+5%§!\n  - §Y해군기지§! 건설 속도: §G+5%§!"
+ 
+ second_hongzhang2: "두 번째 이홍장" #장쭤린
+ second_hongzhang2_tt: "정치력 획득: §G+10%§!\n  - §Y군수공장§! 건설 속도: §G+10%§!\n  - §Y조선소§! 건설 속도: §G+10%§!\n  - §Y요새§! 건설 속도: §G+10%§!\n  - §Y해안요새§! 건설 속도: §G+10%§!\n  - §Y해군기지§! 건설 속도: §G+10%§!"
+ 
+ ############
  ### 몽골 ###
- spirit_of_genghis_tt:0 "기병 공격: §G+5%§!\n  - 뇌격기 항속거리: §G+10%§!\n  - 뇌격기 해상 공격: §G+10%§!"
+ ############
  
- ### 신강/쿠물 ###
- kumul_khan:0 "쿠물 칸"
+ spirit_of_genghis_tt: "기병 공격: §G+5%§!\n  - 뇌격기 항속거리: §G+10%§!\n  - 뇌격기 해상 공격: §G+10%§!"
  
+ ############
+ ### 신강 ###
+ ############
+ 
+ kumul_khan: "쿠물 칸" #쿠물
+ 
+ ##################################
  ### 중화민국 북경정부/산서군벌 ###
- model_chairmen:0 "모범총통" #옌시산
+ ##################################
  
+ model_chairmen: "모범총통" #옌시산
+ 
+ ##############
  ### 국민군 ###
- christian_general:0 "기독교도 장군" #펑위샹
- traitorous_general:0 "배신자 장군" #펑위샹
+ ##############
  
+ christian_general: "기독교도 장군" #펑위샹
+ traitorous_general: "배신자 장군" #펑위샹
+ 
+ ################
  ### 산동군벌 ###
- duke_yansheng:0 "연성공" #쿵더청
+ ################
+ 
+ duke_yansheng: "연성공" #쿵더청
 
+ ##############
  ### 러시아 ###
- second_chance:0 "두 번째 기회?"
- soviet_tsar:0 "소비에트 차르"
+ ##############
  
- #############
- ### 정치고문 ###
- #############
+ second_chance: "두 번째 기회?"
+ soviet_tsar: "소비에트 차르"
  
+ ###############################################
+ ############## 오얏꽃 - 정치고문 ##############
+ ###############################################
+ 
+ ############
  ### 공용 ###
- political_specialist:0 "정치적 전문가"
- spiritual_leader:0 "정신적 지주"
- efficient_propagandist:0 "효율적 선전가"
- enlightened_academic:0 "계몽된 학자"
- iron_fisted_brute:0 "무자비한 야수"
- man_of_the_people:0 "민중의 사람"
- dynamic_materialist:0 "활발한 유물론자"
- tireless_organiser:0 "지칠 줄 모르는 조직자"
- great_compromiser:0 "위대한 타협가"
- influential_intellectual:0 "영향력 있는 지식인"
- war_propagandist:0 "전쟁 선전가"
- eager_collaborator2:0 "$eager_collaborator$"
- railway_specialist:0 "철도 전문가"
- womens_rights_activist2:0 "$womens_rights_activist$"
- flamboyant_brute:0 "화려한 야수"
- mixed_economy_proponent:0 "혼합경제 지지자"
- bank_president:0 "은행장"
- staunch_constitutionalist2:0 "$staunch_constitutionalist$"
- patriotism_journalist:0 "애국주의 언론인"
+ ############
  
+ political_specialist: "정치적 전문가"
+ spiritual_leader: "정신적 지주"
+ efficient_propagandist: "효율적 선전가"
+ enlightened_academic: "계몽된 학자"
+ iron_fisted_brute: "무자비한 야수"
+ man_of_the_people: "민중의 사람"
+ dynamic_materialist: "활발한 유물론자"
+ tireless_organiser: "지칠 줄 모르는 조직자"
+ great_compromiser: "위대한 타협가"
+ influential_intellectual: "영향력 있는 지식인"
+ war_propagandist: "전쟁 선전가"
+ eager_collaborator2: "$eager_collaborator$"
+ railway_specialist: "철도 전문가"
+ womens_rights_activist2: "$womens_rights_activist$"
+ flamboyant_brute: "화려한 야수"
+ mixed_economy_proponent: "혼합경제 지지자"
+ bank_president: "은행장"
+ staunch_constitutionalist2: "$staunch_constitutionalist$"
+ patriotism_journalist: "애국주의 언론인"
+ 
+ ############
  ### 한국 ###
- three_equalities:0 "삼균주의 창시자" #조소앙
- ilminist:0 "일민주의 창시자" #안호상
- shadow_emperor:0 "의화대원왕\n그림자 황제" #이강
- shadow_emperor2:0 "의화대원왕\n그림자 황제" #이강
+ ############
  
- ### 신강/쿠물 ###
- kumul_khan_advisor:0 "쿠물 칸"
+ three_equalities: "삼균주의 창시자" #조소앙
+ ilminist: "일민주의 창시자" #안호상
+ shadow_emperor: "의화대원왕\n그림자 황제" #이강
+ shadow_emperor2: "의화대원왕\n그림자 황제" #이강
  
+ ############
+ ### 신강 ###
+ ############
+ 
+ kumul_khan_advisor: "쿠물 칸" #쿠물
+ 
+ ##################################
  ### 중화민국 북경정부/산서군벌 ###
- christian_general_advisor:0 "기독교도 장군" #펑위샹
- traitorous_general_advisor:0 "배신자 장군" #펑위샹
+ ##################################
  
+ christian_general_advisor: "기독교도 장군" #펑위샹
+ traitorous_general_advisor: "배신자 장군" #펑위샹
+ 
+ ####################################
  ### 중화민국 국민정부/중국국민당 ###
- president_of_examination_yuan:0 "고시원장"
+ ####################################
  
+ president_of_examination_yuan: "고시원장"
+ 
+ ################
  ### 산동군벌 ###
- duke_yansheng_advisor:0 "연성공" #쿵더청
+ ################
  
- ### 러시아ㅡ ###
- democratic_cossack:0 "민주주의 카자크"
- mladorossi_theorist2:0 "$mladorossi_theorist$"
- red_monarchist:0 "붉은 군주주의자"
+ duke_yansheng_advisor: "연성공" #쿵더청
+ 
+ ##############
+ ### 러시아 ###
+ ##############
+ 
+ democratic_cossack: "민주주의 카자크"
+ mladorossi_theorist2: "$mladorossi_theorist$"
+ red_monarchist: "붉은 군주주의자"

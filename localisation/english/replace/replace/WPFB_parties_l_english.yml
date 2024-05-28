@@ -18,14 +18,21 @@
  KOR_democratic_party_long:0 "신한청년당"
  KOR_liberalism_party:0 "신민회"
  KOR_liberalism_party_long:0 "신민회"
- KOR_conservatives_party:0 "황국협회"
- KOR_conservatives_party_long:0 "황국협회 군민공치파"
+ KOR_conservatives_party:0 "개화당"
+ KOR_conservatives_party_long:0 "개화당"
  KOR_fascism_party:0 "혁명일심회"
  KOR_fascism_party_long:0 "혁명일심회"
  KOR_neutrality_party:0 "건흥대연정"
  KOR_neutrality_party_long:0 "건흥원년 개화당-신민회-신한청년당 대연정"
- KOR_monarchism_party:0 "황국협회"
- KOR_monarchism_party_long:0 "황국협회 충군애국파"
+ KOR_left_monarchism_party:0 "황국협회"
+ KOR_left_monarchism_party_long:0 "황국협회 군민공치파"
+ KOR_right_monarchism_party:0 "황국협회"
+ KOR_right_monarchism_party_long:0 "황국협회 충군애국파"
+ 
+ #개화당, 입헌개화당
+ #신민회, 신민당
+ #노농개벽회
+ #신한청년당
  
  ROK_communism_party:0 "조선공산당"
  ROK_communism_party_long:0 "조선공산당"
@@ -180,8 +187,8 @@
  ROC_neutrality_party:0 "중국국민당"
  ROC_neutrality_party_long:0 "중국국민당"
  
- RGC_communism_party:0 "공산주의 반군"
- RGC_communism_party_long:0 "공산주의 반군"
+ RGC_communism_party:0 "혁명위원회"
+ RGC_communism_party_long:0 "혁명위원회"
  RGC_democratic_party:0 "왕커민 정권"
  RGC_democratic_party_long:0 "왕커민 정권"
  RGC_fascism_party:0 "치셰위안 정권"
@@ -238,12 +245,10 @@
  RYU_neutrality_party:0 "완고당"
  RYU_neutrality_party_long:0 "완고당" 
  
- CHI_ming_party:0 "황사회"
- CHI_ming_party_long:0 "황사회"
- CHI_kung_party:0 "만세사표손"
- CHI_kung_party_long:0 "만세사표손"
- CHI_yuan_party:0 "신북양군벌"
- CHI_yuan_party_long:0 "신북양군벌"
+ china_monarchism_party:0 "황한회"
+ china_monarchism_party_long:0 "황한회"
+ china_ming_party:0 "황사회"
+ china_ming_party_long:0 "황사회"
  
  AUS_fascism_party:0 "조국전선"
  AUS_fascism_party_long:0 "조국전선"
