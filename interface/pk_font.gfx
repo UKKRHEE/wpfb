@@ -1,5 +1,100 @@
 bitmapfonts = {
 
+	# PK 폰트 (자체제작)
+		bitmapfont = {
+			name = "pk_18"
+			path = "gfx/fonts/pk_18"
+			color = 0xffffffff
+		}
+		bitmapfont = {
+			name = "pk_18b"
+			path = "gfx/fonts/pk_18"
+			color = 0xff000000
+		}
+		bitmapfont = {
+			name = "pk_20"
+			path = "gfx/fonts/pk_20"
+			color = 0xffffffff
+		}
+		bitmapfont = {
+			name = "pk_20b"
+			path = "gfx/fonts/pk_20"
+			color = 0xff000000
+		}
+		# bitmapfont = {
+		# 	name = "pk_20bs"
+		# 	fontfiles = {
+		# 		"gfx/fonts/ald_20"
+		# 		"gfx/fonts/gm_16"
+		# 	}
+		# 	color = 0xffffffff
+		# }
+		bitmapfont = {
+			name = "pk_22"
+			path = "gfx/fonts/pk_22"
+			color = 0xffffffff
+		}
+		bitmapfont = {
+			name = "pk_22b"
+			path = "gfx/fonts/pk_22"
+			color = 0xff000000
+		}
+		bitmapfont = {
+			name = "pk_36"
+			path = "gfx/fonts/pk_36"
+			color = 0xffffffff
+		}
+	#
+
+	# PK 폰트 덮어쓰기 #
+		bitmapfont = {
+			name = "hoi_16mbs"
+			fontfiles = { "gfx/fonts/pk_18" }
+			color = 0xffffffff
+		}
+
+		bitmapfont = {
+			name = "hoi_18"
+			fontfiles = { "gfx/fonts/pk_18" }
+			color = 0xffffffff
+		}
+		bitmapfont = {
+			name = "hoi_18b"
+			fontfiles = { "gfx/fonts/pk_18" }
+			color = 0xffffffff
+		}
+		bitmapfont = {
+			name = "hoi_18mbs"
+			fontfiles = { "gfx/fonts/pk_18" }
+			color = 0xffffffff
+		}
+		bitmapfont = {
+			name = "hoi_20b"
+			fontfiles = { "gfx/fonts/pk_20" }
+			color = 0xffffffff
+		}
+		bitmapfont = {
+			name = "hoi_20bs"
+			path = "gfx/fonts/hoi_20bs1"
+			color = 0xffffffff
+		}
+		bitmapfont = {
+			name = "hoi_24header"
+			path = "gfx/fonts/aldrich_24_outline"
+			color = 0xffffffff
+		}
+		bitmapfont = {
+			name = "hoi_30header"
+			path = "gfx/fonts/aldrich_24_outline"
+			color = 0xffffffff
+		}
+		bitmapfont = {
+			name = "hoi_36header"
+			path = "gfx/fonts/aldrich_36_outline"
+			color = 0xffffffff
+		}
+	#
+
 	bitmapfont = {
 		name = "nnmj_16"
 		path = "gfx/fonts/nnmj_16"

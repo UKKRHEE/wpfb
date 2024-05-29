@@ -27,7 +27,8 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_portrait_KOR_yi_wu"
-		texturefile = "gfx/leaders/KOR/Portrait_KOR_Yi_Wu.png"
+		# texturefile = "gfx/leaders/KOR/Portrait_KOR_Yi_Wu.png"
+		texturefile = "gfx/leaders/KOR/Portrait_Yi_U.png"
 	}
 	
 	### 정치고문 ###
