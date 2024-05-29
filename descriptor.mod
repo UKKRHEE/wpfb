@@ -1,4 +1,4 @@
-version="1"
+version="0.1 Kwangmyong"
 dependencies={
 	"Korean Language"
 	"Good Country Name and Good Flag"
