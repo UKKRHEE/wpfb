@@ -75,7 +75,7 @@ bitmapfonts = {
 		}
 		bitmapfont = {
 			name = "hoi_20bs"
-			path = "gfx/fonts/hoi_20bs1"
+			fontfiles = { "gfx/fonts/pk_20" }
 			color = 0xffffffff
 		}
 		bitmapfont = {

@@ -1,24 +1,15 @@
 ideologies = {
 	
-	# 마르크스-레닌주의(구 공산주의)
+	# 레닌주의(구 공산주의)
 	communism = {
 
 		types = {
+			leninism = { }
 
-			marxism = {
-			}
-
-			leninism = {
-			}
-
-			stalinism = {
-			}
-
-			anti_revisionism = {
-			}
-
-			anarchist_communism = {
-			}
+			marxism = { }
+			stalinism = { }
+			anti_revisionism = { }
+			anarchist_communism = { }
 		}
 
 		dynamic_faction_names = {
@@ -231,21 +222,12 @@ ideologies = {
 	# 파시즘
 	fascism = {
 		types = {
-
-			nazism = {
-			}
-
-			gen_nazism = {
-			}
-
-			fascism_ideology = {
-			}
-
-			falangism = {
-			}
-
-			rexism = {
-			}
+			fascism_ideology = { }
+			
+			nazism = { }
+			gen_nazism = { }
+			falangism = { }
+			rexism = { }
 		}
 
 		dynamic_faction_names = {
