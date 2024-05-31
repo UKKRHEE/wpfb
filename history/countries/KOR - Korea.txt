@@ -117,10 +117,16 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 31
-	fascism = 30
-	communism = 4
-	neutrality = 35
+	communism = 1
+	rev_socialism = 2
+	dem_socialism = 4
+	soc_liberalism = 23
+	old_liberalism = 12
+	democratic = 15
+	soc_conservatism = 24
+	neutrality = 9
+	despotism = 0
+	fascism = 2
 }
 set_technology = {
 	### 보병 ###
