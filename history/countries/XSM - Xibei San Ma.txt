@@ -1,7 +1,7 @@
 ﻿capital = 958
 
 oob = "XSM_1936"
-
+set_cosmetic_tag = XSM_QIN
 # Starting tech
 set_technology = {
 	### Infantry ###

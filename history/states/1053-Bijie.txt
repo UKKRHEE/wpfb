@@ -10,7 +10,7 @@ state={
 		victory_points = {
 			10763 1 
 		}
-		owner = YUN
+		owner = CHI
 		add_core_of = GXC
 		add_core_of = YUN
 		add_core_of = CHI

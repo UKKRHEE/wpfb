@@ -167,15 +167,22 @@ create_import = {
 set_convoys = 400
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = neutrality
 	last_election = "1932.2.20"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 50
-	fascism = 27
-	neutrality = 23
+	communism = 0
+	rev_socialism = 1
+	dem_socialism = 5
+	soc_liberalism = 14
+	old_liberalism = 27
+	democratic = 23
+	soc_conservatism = 8
+	neutrality = 5
+	despotism = 17
+	fascism = 0
 }
 
 ### 지도자 ###

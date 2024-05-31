@@ -5,7 +5,7 @@ state={
 		1590 3955 6904 9776 
 	}
 	history={
-		owner = SHX
+		owner = CHI
 		add_core_of = MEN
 		add_core_of = MON
 		add_core_of = MON
