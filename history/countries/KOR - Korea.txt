@@ -120,11 +120,11 @@ set_popularities = {
 	communism = 1
 	rev_socialism = 2
 	dem_socialism = 4
-	soc_liberalism = 23
-	old_liberalism = 12
-	democratic = 15
-	soc_conservatism = 24
-	neutrality = 9
+	soc_liberalism = 25
+	old_liberalism = 13
+	democratic = 16
+	soc_conservatism = 26
+	neutrality = 11
 	despotism = 0
 	fascism = 2
 }
