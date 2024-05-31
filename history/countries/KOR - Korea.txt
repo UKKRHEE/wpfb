@@ -8,6 +8,12 @@ set_technology = {
 	mass_assault = 1
 }
 
+COALITION_add_soclib = yes
+COALITION_add_oldlib = yes
+COALITION_add_libcon = yes
+COALITION_add_soccon = yes
+
+
 ### 지도자 ###
 recruit_character = KOR_yi_dong_hwi
 recruit_character = KOR_lyuh_woon_hyung

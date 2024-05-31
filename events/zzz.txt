@@ -120,3 +120,25 @@ country_event = { #
 		}
 	}
 }
+
+country_event = { #
+	id = zzz.3
+	title = zzz.3.t
+	desc = zzz.3.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = zzz.3.a
+		COALITION_add_com = yes
+		COALITION_add_revsoc = yes
+		COALITION_add_demsoc = yes
+		COALITION_add_soclib = yes
+		COALITION_add_oldlib = yes
+		COALITION_add_libcon = yes
+		COALITION_add_soccon = yes
+		COALITION_add_autdem = yes
+		COALITION_add_autdes = yes
+		COALITION_add_fas = yes
+	}
+}

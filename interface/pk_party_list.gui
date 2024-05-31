@@ -1,0 +1,135 @@
+guiTypes = {
+	@X_FRAME = 338
+
+	@Y_COM = 146
+	@Y_REVSOC = 162
+	@Y_DEMSOC = 178
+	@Y_SOCLIB = 194
+	@Y_OLDLIB = 210
+	@Y_LIBCON = 226
+	@Y_SOCCON = 242
+	@Y_AUTDEM = 258
+	@Y_AUTDES = 274
+	@Y_FAS = 290
+
+	containerWindowType = {
+		name = "frame_com"
+		position = { x = @X_FRAME y = @Y_COM }
+		iconType ={
+			name = "frame_com_icon"
+			spriteType = "GFX_party_background"
+			position = { x= 0 y = 0 }
+			Orientation = "UPPER_LEFT"
+			pdx_tooltip = "frame_com_tooltip"
+			scale = 1
+		}
+	}
+	containerWindowType = {
+		name = "frame_revsoc"
+		position = { x = @X_FRAME y = @Y_REVSOC }
+		iconType ={
+			name = "frame_revsoc_icon"
+			spriteType = "GFX_party_background"
+			position = { x= 0 y = 0 }
+			Orientation = "UPPER_LEFT"
+			pdx_tooltip = "frame_revsoc_tooltip"
+			scale = 1
+		}
+	}
+	containerWindowType = {
+		name = "frame_demsoc"
+		position = { x = @X_FRAME y = @Y_DEMSOC }
+		iconType ={
+			name = "frame_demsoc_icon"
+			spriteType = "GFX_party_background"
+			position = { x= 0 y = 0 }
+			Orientation = "UPPER_LEFT"
+			pdx_tooltip = "frame_demsoc_tooltip"
+			scale = 1
+		}
+	}
+	containerWindowType = {
+		name = "frame_soclib"
+		position = { x = @X_FRAME y = @Y_SOCLIB }
+		iconType ={
+			name = "frame_soclib_icon"
+			spriteType = "GFX_party_background"
+			position = { x= 0 y = 0 }
+			Orientation = "UPPER_LEFT"
+			pdx_tooltip = "frame_soclib_tooltip"
+			scale = 1
+		}
+	}
+	containerWindowType = {
+		name = "frame_oldlib"
+		position = { x = @X_FRAME y = @Y_OLDLIB }
+		iconType ={
+			name = "frame_oldlib_icon"
+			spriteType = "GFX_party_background"
+			position = { x= 0 y = 0 }
+			Orientation = "UPPER_LEFT"
+			pdx_tooltip = "frame_oldlib_tooltip"
+			scale = 1
+		}
+	}
+	containerWindowType = {
+		name = "frame_libcon"
+		position = { x = @X_FRAME y = @Y_LIBCON }
+		iconType ={
+			name = "frame_libcon_icon"
+			spriteType = "GFX_party_background"
+			position = { x= 0 y = 0 }
+			Orientation = "UPPER_LEFT"
+			pdx_tooltip = "frame_libcon_tooltip"
+			scale = 1
+		}
+	}
+	containerWindowType = {
+		name = "frame_soccon"
+		position = { x = @X_FRAME y = @Y_SOCCON }
+		iconType ={
+			name = "frame_soccon_icon"
+			spriteType = "GFX_party_background"
+			position = { x= 0 y = 0 }
+			Orientation = "UPPER_LEFT"
+			pdx_tooltip = "frame_soccon_tooltip"
+			scale = 1
+		}
+	}
+	containerWindowType = {
+		name = "frame_autdem"
+		position = { x = @X_FRAME y = @Y_AUTDEM }
+		iconType ={
+			name = "frame_autdem_icon"
+			spriteType = "GFX_party_background"
+			position = { x= 0 y =0 }
+			Orientation = "UPPER_LEFT"
+			pdx_tooltip = "frame_autdem_tooltip"
+			scale = 1
+		}
+	}
+	containerWindowType = {
+		name = "frame_autdes"
+		position = { x = @X_FRAME y = @Y_AUTDES }
+		iconType ={
+			name = "frame_autdes_icon"
+			spriteType = "GFX_party_background"
+			position = { x= 0 y = 0 }
+			Orientation = "UPPER_LEFT"
+			pdx_tooltip = "frame_autdes_tooltip"
+			scale = 1
+		}
+	}
+	containerWindowType = {
+		name = "frame_fas"
+		position = { x = @X_FRAME y = @Y_FAS }
+		iconType ={
+			name = "frame_fas_icon"
+			spriteType = "GFX_party_background"
+			position = { x= 0 y = 0 }
+			Orientation = "UPPER_LEFT"
+			pdx_tooltip = "frame_fas_tooltip"
+			scale = 1
+		}
+	}
+}

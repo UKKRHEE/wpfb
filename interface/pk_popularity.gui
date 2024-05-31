@@ -1,0 +1,157 @@
+guiTypes = {
+    containerWindowType = {
+        name = "CBTS_Popularity_Topbar"
+        position = { x = 173 y = 0 }
+        # s_team's popularity gui
+		iconType ={
+			name ="popularity_vapopcomlue_bg"
+			spriteType = "GFX_generic_box_smallest"
+			position = { x = 0 y = 5 }
+			Orientation = "UPPER_LEFT"
+		}
+		instantTextBoxType = {
+			name ="popularity"
+			position = { x = 9 y = 9 }
+			font = "hoi_18mbs"
+			text = "[?total_party_pop|0]%"
+			format = right
+			maxWidth = 57
+			maxHeight = 24
+			fixedsize = yes
+			Orientation = "LOWER_LEFT"
+			pdx_tooltip = "popularity_tooltip"
+		}
+	}
+	containerWindowType = {
+		name = "popcom"
+		position = { x = 175 y = 5 }
+		iconType ={
+			name = "popcom_icon"
+			spriteType = "GFX_ideology_communism_group"
+			position = { x = 1 y = 2 }
+			Orientation = "UPPER_LEFT"
+			scale = 0.3
+		}
+	}
+	containerWindowType = {
+		name = "popdem"
+		position = { x = 175 y = 5 }
+		iconType ={
+			name = "popdem_icon"
+			spriteType = "GFX_ideology_democratic_group"
+			position = { x = 1 y = 2 }
+			Orientation = "UPPER_LEFT"
+			scale = 0.3
+		}
+	}
+	containerWindowType = {
+		name = "popneu"
+		position = { x = 175 y = 5 }
+		iconType ={
+			name = "popneu_icon"
+			spriteType = "GFX_ideology_neutrality_group"
+			position = { x = 1 y = 2 }
+			Orientation = "UPPER_LEFT"
+			scale = 0.3
+		}
+	}
+	containerWindowType = {
+		name = "popfas"
+		position = { x = 175 y = 5 }
+		iconType ={
+			name = "popfas_icon"
+			spriteType = "GFX_ideology_fascism_group"
+			position = { x = 1 y = 2 }
+			Orientation = "UPPER_LEFT"
+			scale = 0.3
+		}
+	}
+	# containerWindowType = {
+	# 	name = "popsoc"
+	# 	position = { x = 175 y = 5 }
+	# 	iconType ={
+	# 		name = "popsoc_icon"
+	# 		spriteType = "GFX_ideology_n_socialism_group"
+	# 		position = { x = 1 y = 2 }
+	# 		Orientation = "UPPER_LEFT"
+	# 		scale = 0.3
+	# 	}
+	# }
+	# containerWindowType = {
+	# 	name = "popradsoc"
+	# 	position = { x = 175 y = 5 }
+	# 	iconType ={
+	# 		name = "popradsoc_icon"
+	# 		spriteType = "GFX_ideology_radical_socialism_group"
+	# 		position = { x = 1 y = 2 }
+	# 		Orientation = "UPPER_LEFT"
+	# 		scale = 0.3
+	# 	}
+	# }
+	# containerWindowType = {
+	# 	name = "popsocdem"
+	# 	position = { x = 175 y = 5 }
+	# 	iconType ={
+	# 		name = "popsocdem_icon"
+	# 		spriteType = "GFX_ideology_social_democracy_group"
+	# 		position = { x = 1 y = 2 }
+	# 		Orientation = "UPPER_LEFT"
+	# 		scale = 0.3
+	# 	}
+	# }
+	# containerWindowType = {
+	# 	name = "popsoclib"
+	# 	position = { x = 175 y = 5 }
+	# 	iconType ={
+	# 		name = "popsoclib_icon"
+	# 		spriteType = "GFX_ideology_social_liberalism_group"
+	# 		position = { x = 1 y = 2 }
+	# 		Orientation = "UPPER_LEFT"
+	# 		scale = 0.3
+	# 	}
+	# }
+	# containerWindowType = {
+	# 	name = "popnatlib"
+	# 	position = { x = 175 y = 5 }
+	# 	iconType ={
+	# 		name = "popnatlib_icon"
+	# 		spriteType = "GFX_ideology_national_liberalism_group"
+	# 		position = { x = 1 y = 2 }
+	# 		Orientation = "UPPER_LEFT"
+	# 		scale = 0.3
+	# 	}
+	# }
+	# containerWindowType = {
+	# 	name = "poplibcon"
+	# 	position = { x = 175 y = 5 }
+	# 	iconType ={
+	# 		name = "poplibcon_icon"
+	# 		spriteType = "GFX_ideology_liberal_conservatism_group"
+	# 		position = { x = 1 y = 2 }
+	# 		Orientation = "UPPER_LEFT"
+	# 		scale = 0.3
+	# 	}
+	# }
+	# containerWindowType = {
+	# 	name = "popnatcon"
+	# 	position = { x = 175 y = 5 }
+	# 	iconType ={
+	# 		name = "popnatcon_icon"
+	# 		spriteType = "GFX_ideology_national_conservatism_group"
+	# 		position = { x = 1 y = 2 }
+	# 		Orientation = "UPPER_LEFT"
+	# 		scale = 0.3
+	# 	}
+	# }
+	# containerWindowType = {
+	# 	name = "popautdes"
+	# 	position = { x = 175 y = 5 }
+	# 	iconType ={
+	# 		name = "popautdes_icon"
+	# 		spriteType = "GFX_ideology_neutrality_group"
+	# 		position = { x = 1 y = 2 }
+	# 		Orientation = "UPPER_LEFT"
+	# 		scale = 0.3
+	# 	}
+	# }
+}

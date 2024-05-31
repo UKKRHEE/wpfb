@@ -155,7 +155,7 @@ ideologies = {
 			soc_conservatism_ideology = { }
 		}
 
-		color = { 0 40 220 }
+		color = { 75 97 209 }
 	}
 	
 	# 권위민주주의(구 비동맹주의)
@@ -209,13 +209,13 @@ ideologies = {
 		ai_ideology_wanted_units_factor = 1.15
 	}
 
-	# 후견전제주의
+	# 전제독재주의
 	despotism = {
 		types = {
 			despotism_ideology = {}
 		}
 		
-		color = { 40 35 70 }
+		color = { 34 34 34 }
 
 	}
 

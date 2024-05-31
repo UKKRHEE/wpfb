@@ -1,0 +1,18 @@
+on_actions = {
+	#Not run on a specific country.
+	on_startup = {
+        effect = {
+			every_country = { COALITION_set_up_array = yes }
+        }
+	}
+	on_daily = {
+		effect = {
+			COALITION_POP_NUMBER = yes
+		}
+	}
+	on_monthly = {
+		effect = {
+			first_every_month_script = yes #Re-checks popularity and assigns idea accordingly. See common>scripted_effects>MtM_pulse_effects.txt
+		}
+	}
+}
