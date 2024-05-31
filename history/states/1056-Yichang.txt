@@ -13,7 +13,7 @@ state={
 			industrial_complex = 1
 
 		}
-		owner = GMJ
+		owner = CHI
 		add_core_of = GMJ
 		add_core_of = SHX
 		add_core_of = CHI

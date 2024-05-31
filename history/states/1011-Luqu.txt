@@ -5,7 +5,7 @@ state={
 		4313 
 	}
 	history={
-		owner = XSM
+		owner = CHI
 		add_core_of = XSM
 		add_core_of = CHI
 		add_core_of = PRC

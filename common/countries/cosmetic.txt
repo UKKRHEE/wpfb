@@ -1284,3 +1284,8 @@ QIN_communism = {
 	color = rgb { 255 120 71 }
 	color_ui = rgb { 255 120 71 }
 }
+
+XSM_QIN = {
+	color = rgb { 8 99 156 }
+	color_ui = rgb { 8 99 156 }
+}

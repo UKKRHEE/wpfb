@@ -11,7 +11,7 @@ state={
 		victory_points = {
 			13386 3 
 		}
-		owner = SDC
+		owner = CHI
 		add_core_of = SDC
 		add_core_of = SHX
 		add_core_of = CHI
