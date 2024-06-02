@@ -1,0 +1,61 @@
+has_coalition = {
+	has_variable = coalition_partners^num
+}
+
+# requires a temp variable coalition_target
+has_coalition_with_target = {
+	custom_trigger_tooltip = {
+		tooltip = has_coalition_with_target
+		has_variable = is_in_coalition_with_@var:coalition_target
+	}
+}
+
+is_in_coalition_with_communism = {
+	set_temp_variable = { coalition_target = token:communism }
+	has_coalition_with_target = yes
+}
+
+is_in_coalition_with_rev_socialism = {
+	set_temp_variable = { coalition_target = token:rev_socialism }
+	has_coalition_with_target = yes
+}
+
+is_in_coalition_with_dem_socialism = {
+	set_temp_variable = { coalition_target = token:dem_socialism }
+	has_coalition_with_target = yes
+}
+
+is_in_coalition_with_soc_liberalism = {
+	set_temp_variable = { coalition_target = token:soc_liberalism }
+	has_coalition_with_target = yes
+}
+
+is_in_coalition_with_old_liberalism = {
+	set_temp_variable = { coalition_target = token:old_liberalism }
+	has_coalition_with_target = yes
+}
+
+is_in_coalition_with_democratic = {
+	set_temp_variable = { coalition_target = token:democratic }
+	has_coalition_with_target = yes
+}
+
+is_in_coalition_with_soc_conservatism = {
+	set_temp_variable = { coalition_target = token:soc_conservatism }
+	has_coalition_with_target = yes
+}
+
+is_in_coalition_with_neutrality = {
+	set_temp_variable = { coalition_target = token:neutrality }
+	has_coalition_with_target = yes
+}
+
+is_in_coalition_with_despotism = {
+	set_temp_variable = { coalition_target = token:despotism }
+	has_coalition_with_target = yes
+}
+
+is_in_coalition_with_fascism = {
+	set_temp_variable = { coalition_target = token:fascism }
+	has_coalition_with_target = yes
+}

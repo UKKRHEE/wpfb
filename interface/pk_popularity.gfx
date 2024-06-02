@@ -7,4 +7,8 @@ spriteTypes = {
 		name = "GFX_button_right"
 		texturefile = "gfx/interface/button_right.dds"
 	}
+	spriteType = {
+		name = "GFX_coalition_pol_party_bg"
+		textureFile = "gfx/interface/coalition_pol_party_bg.png"
+	}
 }

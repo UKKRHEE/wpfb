@@ -253,4 +253,28 @@ scripted_gui = {
 			}
 		}
 	}
+
+	## Kaiserreich ## 
+	coalition_indicator = {
+		context_type = player_context
+		parent_window_name = coalition_pol_party_bg_anchor
+		window_name = "coalition_pol_party_bg"
+
+		ai_enabled = {
+			always = no
+		}
+
+		triggers = {
+			coalition_pol_party_bg_tot_visible = { is_in_coalition_with_communism = yes }
+			coalition_pol_party_bg_synd_visible = { is_in_coalition_with_rev_socialism = yes }
+			coalition_pol_party_bg_radsoc_visible = { is_in_coalition_with_dem_socialism = yes }
+			coalition_pol_party_bg_socdem_visible = { is_in_coalition_with_soc_liberalism = yes }
+			coalition_pol_party_bg_soclib_visible = { is_in_coalition_with_old_liberalism = yes }
+			coalition_pol_party_bg_marlib_visible = { is_in_coalition_with_democratic = yes }
+			coalition_pol_party_bg_soccon_visible = { is_in_coalition_with_soc_conservatism = yes }
+			coalition_pol_party_bg_authdem_visible = { is_in_coalition_with_neutrality = yes }
+			coalition_pol_party_bg_pataut_visible = { is_in_coalition_with_despotism = yes }
+			coalition_pol_party_bg_natpop_visible = { is_in_coalition_with_fascism = yes }
+		}
+	}
 }

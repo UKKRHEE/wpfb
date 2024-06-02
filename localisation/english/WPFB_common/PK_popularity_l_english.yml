@@ -161,3 +161,9 @@
  autdem_in_coal:0 "§g권위민주주의 정당§!은 §G연정에 참여§! 중입니다."
  autdes_in_coal:0 "§P전제독재주의 정당§!은 §G연정에 참여§! 중입니다."
  fas_in_coal:0 "§N파시즘 정당§!은 §G연정에 참여§! 중입니다."
+
+ add_to_coalition: "§[GetCoalitionTooltipColour][?coalition_partner_var.GetTokenLocalizedKey]§! 정당의 연정 참여."
+ remove_from_coalition: "§[GetCoalitionTooltipColour][?coalition_partner_var.GetTokenLocalizedKey]§! 정당의 연정 탈퇴."
+ has_coalition_with_target: "§H[?coalition_target.GetTokenLocalizedKey]§! 측과 연정 중임."
+ has_coalition_with_target_NOT: "§H[?coalition_target.GetTokenLocalizedKey]§! 측과 연정 중이지 않음."
+ coalition_stability_tooltip: "연정 구성원은 현재 그들의 지지도인 $RIGHT|G%0$ 만큼 추가적인 §H정치력§!을 제공합니다."

@@ -8,10 +8,12 @@ set_technology = {
 	mass_assault = 1
 }
 
+## coalition ##
 COALITION_add_soclib = yes
 COALITION_add_oldlib = yes
 COALITION_add_libcon = yes
 COALITION_add_soccon = yes
+# Kaiserreich coalition system -> KOR_on_actions.txt
 
 
 ### 지도자 ###
