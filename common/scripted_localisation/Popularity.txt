@@ -449,3 +449,66 @@ defined_text = {
 		localization_key = one_party
 	}
 }
+defined_text = {
+	name = GetCoalitionTooltipColour
+	text = {
+		trigger = {
+			check_variable = { coalition_partner_var = token:communism }
+		}
+		localization_key = colour_totalist
+	}
+	text = {
+		trigger = {
+			check_variable = { coalition_partner_var = token:rev_socialism }
+		}
+		localization_key = colour_syndicalist
+	}
+	text = {
+		trigger = {
+			check_variable = { coalition_partner_var = token:dem_socialism }
+		}
+		localization_key = colour_radsoc
+	}
+	text = {
+		trigger = {
+			check_variable = { coalition_partner_var = token:soc_liberalism }
+		}
+		localization_key = colour_socdem
+	}
+	text = {
+		trigger = {
+			check_variable = { coalition_partner_var = token:old_liberalism }
+		}
+		localization_key = colour_soclib
+	}
+	text = {
+		trigger = {
+			check_variable = { coalition_partner_var = token:democratic }
+		}
+		localization_key = colour_marlib
+	}
+	text = {
+		trigger = {
+			check_variable = { coalition_partner_var = token:soc_conservatism }
+		}
+		localization_key = colour_soccon
+	}
+	text = {
+		trigger = {
+			check_variable = { coalition_partner_var = token:neutrality }
+		}
+		localization_key = colour_autdem
+	}
+	text = {
+		trigger = {
+			check_variable = { coalition_partner_var = token:despotism }
+		}
+		localization_key = colour_pataut
+	}
+	text = {
+		trigger = {
+			check_variable = { coalition_partner_var = token:fascism }
+		}
+		localization_key = colour_natpop
+	}
+}
