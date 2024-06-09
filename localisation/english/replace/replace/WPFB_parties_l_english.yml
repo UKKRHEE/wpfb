@@ -1,294 +1,2877 @@
 ﻿l_english:
- FRA_fascism_party:0 "프랑스 인민당"
- FRA_fascism_party_long:0 "프랑스 인민당"
- FRA_neutrality_party:0 "악시옹 프랑세즈"
- FRA_neutrality_party_long:0 "악시옹 프랑세즈"
- FRA_ARD_party:0 "민주공화동맹"
- FRA_ARD_party_long:0 "민주공화동맹"
- FRA_CFNL_party:0 "프랑스 국민해방위원회"
- FRA_CFNL_party_long:0 "프랑스 국민해방위원회"
- FRA_PSF_party:0 "프랑스 사회당"
- FRA_PSF_party_long:0 "프랑스 사회당"
- FRA_petain_party:0 "페탱 정권"
- FRA_petain_party_long:0 "페탱 정권"
- 
-#  KOR_communism_party:0 "한인사회당"
-#  KOR_communism_party_long:0 "한인사회당"
-#  KOR_democratic_party:0 "신한청년당"
-#  KOR_democratic_party_long:0 "신한청년당"
-#  KOR_liberalism_party:0 "신민회"
-#  KOR_liberalism_party_long:0 "신민회"
-#  KOR_conservatives_party:0 "개화당"
-#  KOR_conservatives_party_long:0 "개화당"
-#  KOR_fascism_party:0 "혁명일심회"
-#  KOR_fascism_party_long:0 "혁명일심회"
-#  KOR_neutrality_party:0 "건흥대연정"
-#  KOR_neutrality_party_long:0 "건흥원년 개화당-신민회-신한청년당 대연정"
-#  KOR_left_monarchism_party:0 "황국협회"
-#  KOR_left_monarchism_party_long:0 "황국협회 군민공치파"
-#  KOR_right_monarchism_party:0 "황국협회"
-#  KOR_right_monarchism_party_long:0 "황국협회 충군애국파"
+ #수정 필요
+ #조건에 따라 변경
 
-  KOR_communism_party: "고려공산당"
-  KOR_communism_party_long: "고려공산당\n§g1917년의 러시아 10월 혁명 이후, 러시아에 거주중이던 몇몇 고려인들은 혁명에 동참하여 한민족 최초의 공산주의자가 되었습니다. 1922년의 동양공산당 수립으로 동양공산당의 하위지부로서 그 위치를 다진 고려공산당은 마르크스-레닌주의의 기치 아래 한반도에 혁명을 전파하는 것을 그 목표로 하고 있습니다.§!"
-  KOR_rev_socialism_party: "한성 트로이카"
-  KOR_rev_socialism_party_long: "대한공산당재건 한성준비그룹\n§g대한공산당 제3차 사건 이후 이재유는 기존의 대한공산당의 전위당 이론을 거부하고, ‘트로이카 운동’이라는 조직론을 제창하여 대중운동에 기반한 ‘대한공산당 재건운동’을 주장했습니다. 이들은 전위가 노동자로써 노동대중 속에 파고들어 대중적 지지 기반을 마련하고, 이를 바탕으로 당 조직을 창설하여 전위와 노동대중이 분리되는 폐단을 막고자 합니다.§!"
-  KOR_dem_socialism_party: "신한청년당"
-  KOR_dem_socialism_party_long: "신한청년당\n§g1929년의 원산 총파업 이후 한국에서의 노동문제는 지속적으로 제기되어 왔으나, 제도권 내에서의 노동자 정당은 국가보안법에 의한 탄압의 대상이 되어왔습니다. 1931년의 대한대중당 해체 사건 이후 여운형은 강령에서 사회주의를 삭제하고 ‘체제 내의 개혁‘을 주장하는 신한청년당을 창당하여 제도권 내의 편입을 목표로 하고 있습니다.§!"
-  KOR_soc_liberalism_party: "신민당"
-  KOR_soc_liberalism_party_long: "신민당 - 동우회\n§g1907년의 신민회를 그 뿌리로 하는 신민당은 1912년의 창당 이후 제1야당으로서의 입지를 다졌으며, 1930년 총선에서 승리하면서 처음으로 총리를 배출해냈습니다.\n도산 안창호가 이끄는 진보주의 파벌은 입헌정치와 사회정의를 옹호하며, 장기적으로는 한국을 영국과 같은 진정한 입헌군주제 국가로 탈바꿈시키는 것을 목표로 합니다.§!"
-  KOR_old_liberalism_party: "신민당"
-  KOR_old_liberalism_party_long: "신민당 - 연정회\n§g1907년의 신민회를 그 뿌리로 하는 신민당은 1912년의 창당 이후 제1야당으로서의 입지를 다졌으며, 1930년 총선에서 승리하면서 처음으로 총리를 배출해냈습니다.\n고당 조만식을 대표로 하는 평양 기반 대자본가 세력은 신민당을 재정적으로 후원하고 있으며, 자유로운 경제활동을 옹호하여 정부의 시장개입에 부정적인 태도를 취합니다.§!"
-  KOR_democratic_party: "입헌개화당"
-  KOR_democratic_party_long: "입헌개화당 - 독립파\n§g한때 한국의 급진적인 개혁을 이끌었던 개화당은 의회정치의 시작과 함께 입헌개화당이라는 이름의 보수적, 관료주의적 수권정당으로 변모하였습니다.\n송재 서재필은 독립협회 시절부터 이어온 개화당 내 온건파를 대표하며, 이승만의 당권장악을 우려하는 동시에 개화당의 엘리트주의적 주도권 유지를 옹호하고 있습니다.§!"
-  KOR_soc_conservatism_party: "입헌개화당"
-  KOR_soc_conservatism_party_long: "입헌개화당 - 우남파\n§g한때 한국의 급진적인 개혁을 이끌었던 개화당은 의회정치의 시작과 함께 입헌개화당이라는 이름의 보수적, 관료주의적 수권정당으로 변모하였습니다.\n우남 이승만과 그의 파벌은 현재 개화당의 당권을 장악하고 있으며, 이들은 미국과 같은 근대국가의 완성을 위해 민중의 지지에 기반한 ‘국민보수주의‘를 통한 총체적 개혁이 필요하다고 믿습니다.§!"
-  KOR_neutrality_party: "거국내각/입헌개화당"
-  KOR_neutrality_party_long: "이상설 내각\n§g커져가는 중국의 정세 불안에 대한 외교적 해법을 모색하기 위해 황제 폐하의 명으로 조직된 이상설 내각은 입헌개화당의 대다수 계파와 신민당 소수파의 지지를 바탕으로 세워진 거국내각입니다. 개화당 일당독재에 대한 국민의 반감과 신민당 ‘빨갱이들‘에 대한 황실의 반감이 합쳐져 만들어진 이 내각은 다가올 1936년 총선거까지 버티기 위한 ‘선거내각‘으로도 여겨지고 있습니다.§!\n입헌개화당 - 수구파\n§g한때 한국의 급진적인 개혁을 이끌었던 개화당은 의회정치의 시작과 함께 입헌개화당이라는 이름의 보수적, 관료주의적 수권정당으로 변모하였습니다.\n입헌제정당의 붕괴 이후 대다수의 보수인사들은 개화당에 합류하였으며, 이들은 모든 야당에 극히 적대적인 태도를 취하는 동시에 대다수의 개혁을 반대합니다.§!"
-  KOR_despotism_party: "대한민족당"
-  KOR_despotism_party_long: "대한민족당\n§g한때 대한제국의 수구파를 대표했던 입헌제정당의 후신인 대한민족당은 1929년 황국협회라는 이름으로 연명하던 당을 이승만과의 갈등으로 개화당에서 탈당한 박용만이 개혁한 정당입니다.\n민족당은 국가의 총체적 개혁과 민족계몽을 통한 ‘민족혁명’을 부르짖으나, 그 실체는 아직 불분명합니다.§!"
-  KOR_fascism_party: "일심회"
-  KOR_fascism_party_long: "일심회\n§g1922년, 시베리아 출병으로 인한 희생과 무력한 정부에 분노한 군부 내 인사들은 ‘일심회’라고 불리는 군내 사조직을 결성하였으며, 이들은 문민정치인에 대한 혐오와 황제의 친정을 요구하며 결집해 있습니다.\n이러한 움직임은 아직 군 내 파벌의 형태로만 남아있지만, 커져가는 청년장교들의 불만은 앞으로의 미래를 불확실하게 만듭니다.§!"
+ ##########################################################
+ ########################## 독일 ##########################
+ ##########################################################
+
+ GER_communism_party: "독일 공산당"
+ GER_communism_party_long: "독일 공산당"
+
+ GER_rev_socialism_party: "독일 공산당 (반대파)"
+ GER_rev_socialism_party_long: "독일 공산당 (반대파)"
  
- #개화당, 입헌개화당
- #신민회, 신민당
- #노농개벽회
- #신한청년당
+ GER_dem_socialism_party: "독일 사회민주당"
+ GER_dem_socialism_party_long: "독일 사회민주당"
  
- ROK_communism_party:0 "조선공산당"
- ROK_communism_party_long:0 "조선공산당"
- ROK_democratic_party:0 "조선인민당"
- ROK_democratic_party_long:0 "조선인민당"
- ROK_fascism_party:0 "군사혁명위원회"
- ROK_fascism_party_long:0 "군사혁명위원회"
- ROK_neutrality_party:0 "자유당"
- ROK_neutrality_party_long:0 "자유당"
+ GER_soc_liberalism_party: "독일 국가당"
+ GER_soc_liberalism_party_long: "독일 국가당"
  
-#  JAP_communism_party:0 "일본공산당"
-#  JAP_communism_party_long:0 "일본공산당"
-#  JAP_democratic_party:0 "입헌정우회-입헌민정당 연정"
-#  JAP_democratic_party_long:0 "입헌정우회-입헌민정당 연정"
-#  JAP_fascism_party:0 "황도파"
-#  JAP_fascism_party_long:0 "황도파"
-#  JAP_neutrality_party:0 "통제파"
-#  JAP_neutrality_party_long:0 "통제파"
-  JAP_communism_party: "일본공산당"
-  JAP_communism_party_long: "일본공산당"
-  JAP_n_socialism_party: "사회대중당"
-  JAP_n_socialism_party_long: "사회대중당"
-  JAP_democratic_party: "입헌정우회"
-  JAP_democratic_party_long: "입헌정우회"
-  JAP_neutrality_party: "거국일치내각"
-  JAP_neutrality_party_long: "거국일치내각"
-  JAP_fascism_party: "파시즘"
-  JAP_fascism_party_long: "입헌양정회"
-  JAP_fascism_party1: "입헌양정회"
-  JAP_fascism_party1_long: "입헌양정회"
+ GER_old_liberalism_party: "인민정의당"
+ GER_old_liberalism_party_long: "인민정의당"
  
- QIN_communism_party:0 "만주공산당"
- QIN_communism_party_long:0 "만주공산당"
- QIN_democratic_party:0 "협화회"
- QIN_democratic_party_long:0 "협화회"
- QIN_fascism_party:0 "장계군벌"
- QIN_fascism_party_long:0 "장계군벌"
- QIN_neutrality_party:0 "장계군벌"
- QIN_neutrality_party_long:0 "장계군벌"
+ GER_democratic_party: "독일 인민당"
+ GER_democratic_party_long: "독일 인민당"
  
- MON_communism_party:0 "몽골 인민혁명당"
- MON_communism_party_long:0 "몽골 인민혁명당"
- MON_democratic_party:0 "보수민주당"
- MON_democratic_party_long:0 "보수민주당"
- MON_fascism_party:0 "불교의회"
- MON_fascism_party_long:0 "불교의회"
- MON_neutrality_party:0 "왕공회의"
- MON_neutrality_party_long:0 "왕공회의"
+ GER_soc_conservatism_party: "독일 중앙당"
+ GER_soc_conservatism_party_long: "독일 중앙당"
  
- SIK_communism_party:0 "민중반제연합회"
- SIK_communism_party_long:0 "민중반제연합회"
- SIK_democratic_party:0 "동튀르기스탄 독립운동"
- SIK_democratic_party_long:0 "동튀르기스탄 독립운동"
- SIK_fascism_party:0 "김계군벌"
- SIK_fascism_party_long:0 "김계군벌"
- SIK_neutrality_party:0 "양계군벌"
- SIK_neutrality_party_long:0 "양계군벌"
+ GER_neutrality_party: "보수인민당"
+ GER_neutrality_party_long: "보수인민당"
  
- TIB_communism_party:0 "티베트 공산당"
- TIB_communism_party_long:0 "티베트 공산당"
- TIB_democratic_party:0 "키이초 쿤툰"
- TIB_democratic_party_long:0 "키이초 쿤툰"
- TIB_fascism_party:0 "전통주의 강경파"
- TIB_fascism_party_long:0 "전통주의 강경파"
- TIB_neutrality_party:0 "간덴 포드랑"
- TIB_neutrality_party_long:0 "간덴 포드랑"
+ GER_despotism_party: "독일 국가인민당"
+ GER_despotism_party_long: "독일 국가인민당"
  
- SHX_communism_party:0 "중국공산당"
- SHX_communism_party_long:0 "중국공산당"
- SHX_democratic_party:0 "중국청년당"
- SHX_democratic_party_long:0 "중국청년당"
- SHX_fascism_party:0 "염계군벌"
- SHX_fascism_party_long:0 "염계군벌"
- SHX_neutrality_party:0 "염계군벌"
- SHX_neutrality_party_long:0 "염계군벌"
+ GER_fascism_party: "국가사회주의 독일 노동자당"
+ GER_fascism_party_long: "국가사회주의 독일 노동자당"
  
- CHI_communism_party:0 "중국공산당"
- CHI_communism_party_long:0 "중국공산당"
- CHI_democratic_party:0 "중국국민당"
- CHI_democratic_party_long:0 "중국국민당"
- CHI_fascism_party:0 "남의사"
- CHI_fascism_party_long:0 "남의사"
- CHI_neutrality_party:0 "중국국민당"
- CHI_neutrality_party_long:0 "중국국민당"
+ GER_neutrality_party_civil_war: "군사정부"
+ GER_neutrality_party_kaiserreich: "독일 국가인민당"
+ GER_neutrality_party_kaiserreich_long: "독일 국가인민당"
  
- GMJ_communism_party:0 "중국공산당"
- GMJ_communism_party_long:0 "중국공산당"
- GMJ_democratic_party:0 "민정"
- GMJ_democratic_party_long:0 "민정"
- GMJ_fascism_party:0 "풍계군벌"
- GMJ_fascism_party_long:0 "풍계군벌"
- GMJ_neutrality_party:0 "풍계군벌"
- GMJ_neutrality_party_long:0 "풍계군벌"
+ ############################################################
+ ########################## 폴란드 ##########################
+ ############################################################
+
+ POL_communism_party: "폴란드 공산당 (친소파)"
+ POL_communism_party_long: "폴란드 공산당 (친소파)"
+
+ POL_rev_socialism_party: "폴란드 공산당 (반소파)"
+ POL_rev_socialism_party_long: "폴란드 공산당 (반소파)"
  
- SDC_communism_party:0 "중국공산당"
- SDC_communism_party_long:0 "중국공산당"
- SDC_democratic_party:0 "민정"
- SDC_democratic_party_long:0 "민정"
- SDC_fascism_party:0 "노계군벌"
- SDC_fascism_party_long:0 "노계군벌"
- SDC_neutrality_party:0 "노계군벌"
- SDC_neutrality_party_long:0 "노계군벌"
+ POL_dem_socialism_party: "폴란드 사회당"
+ POL_dem_socialism_party_long: "폴란드 사회당"
  
- XSM_communism_party:0 "중국공산당"
- XSM_communism_party_long:0 "중국공산당"
- XSM_democratic_party:0 "민정"
- XSM_democratic_party_long:0 "민정"
- XSM_fascism_party:0 "마가군벌"
- XSM_fascism_party_long:0 "마가군벌"
- XSM_neutrality_party:0 "마가군벌"
- XSM_neutrality_party_long:0 "마가군벌"
+ POL_soc_liberalism_party: "폴란드 인민당 '좌파'"
+ POL_soc_liberalism_party_long: "폴란드 인민당 '좌파'"
  
- SCC_communism_party:0 "중국공산당"
- SCC_communism_party_long:0 "중국공산당"
- SCC_democratic_party:0 "중국민주전단연맹"
- SCC_democratic_party_long:0 "중국민주전단연맹"
- SCC_fascism_party:0 "천계군벌"
- SCC_fascism_party_long:0 "천계군벌"
- SCC_neutrality_party:0 "천계군벌"
- SCC_neutrality_party_long:0 "천계군벌"
+ POL_old_liberalism_party: "폴란드 인민당 '해방'"
+ POL_old_liberalism_party_long: "폴란드 인민당 '해방'"
  
- HNC_communism_party:0 "중국공산당"
- HNC_communism_party_long:0 "중국공산당"
- HNC_democratic_party:0 "민정"
- HNC_democratic_party_long:0 "민정"
- HNC_fascism_party:0 "상계군벌"
- HNC_fascism_party_long:0 "상계군벌"
- HNC_neutrality_party:0 "상계군벌"
- HNC_neutrality_party_long:0 "상계군벌"
+ POL_democratic_party: "폴란드 인민당 '피아스트'"
+ POL_democratic_party_long: "폴란드 인민당 '피아스트'"
  
- YUN_communism_party:0 "중국공산당"
- YUN_communism_party_long:0 "중국공산당"
- YUN_democratic_party:0 "민정"
- YUN_democratic_party_long:0 "민정"
- YUN_fascism_party:0 "전계군벌"
- YUN_fascism_party_long:0 "전계군벌"
- YUN_neutrality_party:0 "전계군벌"
- YUN_neutrality_party_long:0 "전계군벌"
+ POL_soc_conservatism_party: "폴란드 국민당-기독민주당"
+ POL_soc_conservatism_party_long: "폴란드 국민당-기독민주당"
  
- GXC_communism_party:0 "중국공산당"
- GXC_communism_party_long:0 "중국공산당"
- GXC_democratic_party:0 "민정"
- GXC_democratic_party_long:0 "민정"
- GXC_fascism_party:0 "신계계군벌"
- GXC_fascism_party_long:0 "신계계군벌"
- GXC_neutrality_party:0 "신계계군벌"
- GXC_neutrality_party_long:0 "신계계군벌"
+ POL_neutrality_party: "사나차 (성채)"
+ POL_neutrality_party_long: "사나차 (성채)"
  
- PRC_communism_party:0 "중국공산당"
- PRC_communism_party_long:0 "중국공산당"
- PRC_democratic_party:0 "민정"
- PRC_democratic_party_long:0 "민정"
- PRC_fascism_party:0 "군정"
- PRC_fascism_party_long:0 "군정"
- PRC_neutrality_party:0 "정무위원회"
- PRC_neutrality_party_long:0 "정무위원회"
+ POL_despotism_party: "사나차 (우파)" #조건에 따라 변경 -> 섭정의회, 베틴 가문, 합스부르크 가문, 호엔촐레른-지크마링겐 가문, 로마노프 가문, 보이텍 가문
+ POL_despotism_party_long: "사나차 (우파)"
  
- ROC_communism_party:0 "생산인민당"
- ROC_communism_party_long:0 "생산인민당"
- ROC_democratic_party:0 "중국국민당"
- ROC_democratic_party_long:0 "중국국민당"
- ROC_fascism_party:0 "군정"
- ROC_fascism_party_long:0 "군정"
- ROC_neutrality_party:0 "중국국민당"
- ROC_neutrality_party_long:0 "중국국민당"
+ POL_fascism_party: "국민급진기지 팔랑가" #조건에 따라 변경 -> 국민협동기지, 베르몬트당
+ POL_fascism_party_long: "국민급진기지 팔랑가"
  
- RGC_communism_party:0 "혁명위원회"
- RGC_communism_party_long:0 "혁명위원회"
- RGC_democratic_party:0 "왕커민 정권"
- RGC_democratic_party_long:0 "왕커민 정권"
- RGC_fascism_party:0 "치셰위안 정권"
- RGC_fascism_party_long:0 "치셰위안 정권"
- RGC_neutrality_party:0 "량훙즈 정권"
- RGC_neutrality_party_long:0 "량훙즈 정권"
+ POL_natdem_party: "국민민주당"
+ POL_natdem_party_long: "국민민주당"
+ POL_OZON_party: "국민협동기지"
+ POL_OZON_party_long: "국민협동기지"
+ POL_POS_party: "사회공동조직"
+ POL_POS_party_long: "사회공동조직"
+ POL_exile_democratic_party: "자유민주당"
+ POL_exile_democratic_party_long: "자유민주당"
+ bermontian_party: "베르몬트당"
+ POL_hohenzollern_sigmaringen_long: "호엔촐레른-지크마링겐 가문"
+ POL_hohenzollern_sigmaringen: "호엔촐레른 가문"
+ POL_wettin_party: "베틴 가문"
+ romanov_party: "로마노프 가문"
+ POL_habsburg_party: "합스부르크 가문"
  
- RUS_communism_party:0 "믈라도르시"
- RUS_communism_party_long:0 "믈라도르시"
- RUS_democratic_party:0 "트루도비키"
- RUS_democratic_party_long:0 "트루도비키"
- RUS_fascism_party:0 "러시아 파시스트당"
- RUS_fascism_party_long:0 "러시아 파시스트당"
- RUS_neutrality_party:0 "10월당"
- RUS_neutrality_party_long:0 "10월 17일 연합"
+ ##########################################################
+ ########################## 영국 ##########################
+ ##########################################################
+
+ ENG_communism_party: "영국 공산당"
+ ENG_communism_party_long: "영국 공산당"
+
+ ENG_rev_socialism_party: "독립노동당"
+ ENG_rev_socialism_party_long: "독립노동당"
  
- SIA_communism_party:0 "시암 공산당"
- SIA_communism_party_long:0 "시암 공산당"
- SIA_democratic_party:0 "인민당"
- SIA_democratic_party_long:0 "인민당"
- SIA_fascism_party:0 "인민당"
- SIA_fascism_party_long:0 "인민당"
- SIA_neutrality_party:0 "인민당"
- SIA_neutrality_party_long:0 "인민당"
+ ENG_dem_socialism_party: "노동당"
+ ENG_dem_socialism_party_long: "노동당"
  
- VIN_communism_party:0 "베트남 공산당"
- VIN_communism_party_long:0 "베트남 공산당"
- VIN_democratic_party:0 "대월민정당"
- VIN_democratic_party_long:0 "대월민정당"
- VIN_fascism_party:0 "끄엉데 운동"
- VIN_fascism_party_long:0 "끄엉데 운동"
- VIN_neutrality_party:0 "보황파"
- VIN_neutrality_party_long:0 "보황파"
+ ENG_soc_liberalism_party: "자유당 (새자유주의)"
+ ENG_soc_liberalism_party_long: "자유당 (새자유주의)"
  
- RAJ_communism_party:0 "인도 공산당"
- RAJ_communism_party_long:0 "인도 공산당"
- RAJ_democratic_party:0 "인도 국민회의"
- RAJ_democratic_party_long:0 "인도 국민회의"
- RAJ_fascism_party:0 "전인도 힌두 대의회"
- RAJ_fascism_party_long:0 "전인도 힌두 대의회"
- RAJ_fascism_party2:0 "전인도 진보연합"
- RAJ_fascism_party2_long:0 "전인도 진보연합"
- RAJ_neutrality_party:0 "총독부"
- RAJ_neutrality_party_long:0 "총독부"
- RAJ_neutrality_party2:0 "토후회의"
- RAJ_neutrality_party2_long:0 "토후회의"
+ ENG_old_liberalism_party: "자유당 (글래드스턴주의)"
+ ENG_old_liberalism_party_long: "자유당 (글래드스턴주의)"
  
- RYU_communism_party:0 "류큐 인민당"
- RYU_communism_party_long:0 "류큐 인민당"
- RYU_democratic_party:0 "류큐 민주동맹"
- RYU_democratic_party_long:0 "류큐 민주동맹"
- RYU_fascism_party:0 "완고당"
- RYU_fascism_party_long:0 "완고당"
- RYU_neutrality_party:0 "완고당"
- RYU_neutrality_party_long:0 "완고당" 
+ ENG_democratic_party: "국민자유당"
+ ENG_democratic_party_long: "국민자유당"
  
- china_monarchism_party:0 "황한회"
- china_monarchism_party_long:0 "황한회"
- china_ming_party:0 "황사회"
- china_ming_party_long:0 "황사회"
+ ENG_soc_conservatism_party: "보수당 (일국보수주의)"
+ ENG_soc_conservatism_party_long: "보수당 (일국보수주의)"
  
- AUS_fascism_party:0 "조국전선"
- AUS_fascism_party_long:0 "조국전선"
- AUS_neutrality_party:0 "합스부르크 가문"
- AUS_neutrality_party_long:0 "합스부르크 가문" 
+ ENG_neutrality_party: "보수당 (하이 토리)"
+ ENG_neutrality_party_long: "보수당 (하이 토리)"
  
- HUN_fascism_party:0 "국민의지당"
- HUN_fascism_party_long:0 "국민의지당"
- HUN_neutrality_party:0 "호르티 정부"
- HUN_neutrality_party_long:0 "호르티 정부"
+ ENG_despotism_party: "영국 추밀원"
+ ENG_despotism_party_long: "영국 추밀원"
+ 
+ ENG_fascism_party: "영국 파시스트 연합"
+ ENG_fascism_party_long: "영국 파시스트 연합"
+ 
+ ENG_neutrality_party_kings_party: "국왕당"
+ ENG_neutrality_party_kings_party_long: "국왕당"
+ ENG_neutrality_party_queens_party: "여왕당"
+ ENG_neutrality_party_queens_party_long: "여왕당"
+ 
+ ##############################################################
+ ########################## 이탈리아 ##########################
+ ##############################################################
+
+ ITA_communism_party: "이탈리아 공산당"
+ ITA_communism_party_long: "이탈리아 공산당"
+
+ ITA_rev_socialism_party: "이탈리아 사회당"
+ ITA_rev_socialism_party_long: "이탈리아 사회당"
+ 
+ ITA_dem_socialism_party: "이탈리아 사회당"
+ ITA_dem_socialism_party_long: "이탈리아 사회당"
+ 
+ ITA_soc_liberalism_party: "이탈리아 노동민주당"
+ ITA_soc_liberalism_party_long: "이탈리아 노동민주당"
+ 
+ ITA_old_liberalism_party: "이탈리아 자유당"
+ ITA_old_liberalism_party_long: "이탈리아 자유당"
+ 
+ ITA_democratic_party: "이탈리아 인민당"
+ ITA_democratic_party_long: "이탈리아 인민당"
+ 
+ ITA_soc_conservatism_party: "이탈리아 인민당"
+ ITA_soc_conservatism_party_long: "이탈리아 인민당"
+ 
+ ITA_neutrality_party: "국가 군주주의당"
+ ITA_neutrality_party_long: "국가 군주주의당"
+ 
+ ITA_despotism_party: "국가 군주주의당"
+ ITA_despotism_party_long: "국가 군주주의당"
+ 
+ ITA_fascism_party: "국가 파시스트당"
+ ITA_fascism_party_long: "국가 파시스트당"
+ 
+ #ITA_communism_party_long: "이탈리아 공산당"
+ #ITA_democratic_party_long: "이탈리아 인민당"
+ #ITA_fascism_party_long: "국가 파시스트당"
+ #ITA_neutrality_party_long: "국가 군주주의당"
+ ITA_partito_socialista_italiano: "이탈리아 사회당"
+ ITA_partito_socialista_italiano_long: "이탈리아 사회당"
+ ITA_partito_democratico_del_lavoro: "노동민주당"
+ ITA_partito_democratico_del_lavoro_long: "노동민주당"
+ ITA_democrazia_cristiana: "기독교민주당"
+ ITA_democrazia_cristiana_long: "기독교민주당"
+ 
+ ##########################################################
+ ########################## 일본 ##########################
+ ##########################################################
+
+ JAP_communism_party: "일본공산당 (강좌파)"
+ JAP_communism_party_long: "일본공산당 (강좌파)"
+
+ JAP_rev_socialism_party: "일본공산당 (노농파)"
+ JAP_rev_socialism_party_long: "일본공산당 (노농파)"
+ 
+ JAP_dem_socialism_party: "사회대중당"
+ JAP_dem_socialism_party_long: "사회대중당"
+ 
+ JAP_soc_liberalism_party: "국민동지회"
+ JAP_soc_liberalism_party_long: "국민동지회"
+ 
+ JAP_old_liberalism_party: "헌정회"
+ JAP_old_liberalism_party_long: "헌정회"
+ 
+ JAP_democratic_party: "입헌정우회 (정통파)"
+ JAP_democratic_party_long: "입헌정우회 (정통파)"
+ 
+ JAP_soc_conservatism_party: "입헌정우회 (혁신파)"
+ JAP_soc_conservatism_party_long: "입헌정우회 (혁신파)"
+ 
+ JAP_neutrality_party: "스즈키 내각"
+ JAP_neutrality_party_long: "스즈키 내각"
+ 
+ JAP_despotism_party: "국민동맹" #조건에 따라 변경 -> 우가키 내각
+ JAP_despotism_party_long: "국민동맹"
+ 
+ JAP_fascism_party: "입헌양정회" #조건에 따라 변경 -> 대일본제국 육군 (강경파)
+ JAP_fascism_party_long: "입헌양정회"
+ 
+ JAP_neutrality_party_kodoha_long: "황도파"
+ JAP_neutrality_party_kodoha: "황도파"
+ 
+ ##########################################################
+ ########################## 미국 ##########################
+ ##########################################################
+
+ USA_communism_party: "미국 공산당 (친소파)"
+ USA_communism_party_long: "미국 공산당 (친소파)"
+
+ USA_rev_socialism_party: "미국 사회당 (신파)" #조건에 따라 변경 -> 미국 공산당 (반소파)
+ USA_rev_socialism_party_long: "미국 사회당 (신파)"
+ 
+ USA_dem_socialism_party: "민주당 (진보파)" #조건에 따라 변경 -> 미국 사회당 (구파)
+ USA_dem_socialism_party_long: "민주당 (진보파)"
+ 
+ USA_soc_liberalism_party: "민주당 (뉴딜 민주당)" #조건에 따라 변경 -> 공화당 (진보파)
+ USA_soc_liberalism_party_long: "민주당 (뉴딜 민주당)"
+ 
+ USA_old_liberalism_party: "공화당 (자유파)"
+ USA_old_liberalism_party_long: "공화당 (자유파)"
+ 
+ USA_democratic_party: "공화당 (보수파)"
+ USA_democratic_party_long: "공화당 (보수파)"
+ 
+ USA_soc_conservatism_party: "민주당 (딕시크랫)"
+ USA_soc_conservatism_party_long: "민주당 (딕시크랫)"
+ 
+ USA_neutrality_party: "연방당"
+ USA_neutrality_party_long: "연방당"
+ 
+ USA_despotism_party: "금주당"
+ USA_despotism_party_long: "금주당"
+ 
+ USA_fascism_party: "독일계 미국인 동맹"
+ USA_fascism_party_long: "독일계 미국인 동맹"
+ 
+ ############################################################
+ ########################## 프랑스 ##########################
+ ############################################################
+
+ FRA_communism_party: "프랑스 공산당 (친소파)"
+ FRA_communism_party_long: "프랑스 공산당 (친소파)"
+
+ FRA_rev_socialism_party: "프랑스 공산당 (반소파)"
+ FRA_rev_socialism_party_long: "프랑스 공산당 (반소파)"
+ 
+ FRA_dem_socialism_party: "노동자 인터내셔널 프랑스 지부"
+ FRA_dem_socialism_party_long: "노동자 인터내셔널 프랑스 지부"
+ 
+ FRA_soc_liberalism_party: "급진당"
+ FRA_soc_liberalism_party_long: "급진당"
+ 
+ FRA_old_liberalism_party: "민주공화동맹"
+ FRA_old_liberalism_party_long: "민주공화동맹"
+ 
+ FRA_democratic_party: "공화연합"
+ FRA_democratic_party_long: "공화연합"
+ 
+ FRA_soc_conservatism_party: "라발 내각" #조건에 따라 변경 -> 프랑스 사회당
+ FRA_soc_conservatism_party_long: "라발 내각"
+ 
+ FRA_neutrality_party: "보나파르트파"
+ FRA_neutrality_party_long: "보나파르트파"
+ 
+ FRA_despotism_party: "악시옹 프랑세즈" #조건에 따라 변경 -> 프랑스 군사정부
+ FRA_despotism_party_long: "악시옹 프랑세즈"
+ 
+ FRA_fascism_party: "프랑스 인민당" #조건에 따라 변경 -> 페탱 정권, 프랑스 사회당
+ FRA_fascism_party_long: "프랑스 인민당"
+ 
+ FRA_orleanist_party_long: "오를레앙파"
+ FRA_orleanist_party: "오를레앙파"
+ FRA_legitimist_party_long: "정통왕당파"
+ FRA_legitimist_party: "정통왕당파"
+ FRA_bonepartist_party_long: "보나파르트파"
+ FRA_bonepartist_party: "보나파르트파"
+ FRA_union_populaire_long: "프랑스 인민연합"
+ FRA_union_populaire: "프랑스 인민연합"
+ 
+ ##########################################################
+ ########################## 소련 ##########################
+ ##########################################################
+
+ SOV_communism_party: "전연방공산당 (볼셰비키)"
+ SOV_communism_party_long: "전연방공산당 (볼셰비키)"
+
+ SOV_rev_socialism_party: "사회혁명당 (좌파)"
+ SOV_rev_socialism_party_long: "사회혁명당 (좌파)"
+ 
+ SOV_dem_socialism_party: "러시아 사회민주노동당 (연합)"
+ SOV_dem_socialism_party_long: "러시아 사회민주노동당 (연합)"
+ 
+ SOV_soc_liberalism_party: "사회혁명당 (우파)"
+ SOV_soc_liberalism_party_long: "사회혁명당 (우파)"
+ 
+ SOV_old_liberalism_party: "입헌민주당"
+ SOV_old_liberalism_party_long: "입헌민주당"
+ 
+ SOV_democratic_party: "진보당"
+ SOV_democratic_party_long: "진보당"
+ 
+ SOV_soc_conservatism_party: "국민민주연합"
+ SOV_soc_conservatism_party_long: "국민민주연합"
+ 
+ SOV_neutrality_party: "10월당"
+ SOV_neutrality_party_long: "10월 17일 연합"
+ 
+ SOV_despotism_party: "검은 백인단"
+ SOV_despotism_party_long: "검은 백인단"
+ 
+ SOV_fascism_party: "러시아 파시스트당"
+ SOV_fascism_party_long: "러시아 파시스트당"
+ 
+ #SOV_communism_party: "전연방 공산당"
+ #SOV_communism_russian: "전연방 공산당 (볼셰비키)"
+ #SOV_communism_russian_long: "전연방 공산당 (볼셰비키)"
+ #SOV_democratic_party: "트루도비키"
+ #SOV_fascism_party: "러시아 파시스트당"
+ #SOV_fascism_party_russian: "전러시아 파시스트당"
+ #SOV_fascism_party_russian_long: "전러시아 파시스트당"
+ 
+ ################################################################
+ ########################## 오스트리아 ##########################
+ ################################################################
+
+ AUS_communism_party: "오스트리아 공산당 (친소파)"
+ AUS_communism_party_long: "오스트리아 공산당 (친소파)"
+
+ AUS_rev_socialism_party: "오스트리아 공산당 (반소파)"
+ AUS_rev_socialism_party_long: "오스트리아 공산당 (반소파)"
+ 
+ AUS_dem_socialism_party: "오스트리아 사회민주노동당" #조건에 따라 변경(패전) -> 오스트리아 사회당 (용공)
+ AUS_dem_socialism_party_long: "오스트리아 사회민주노동당"
+ 
+ AUS_soc_liberalism_party: "조국전선 (농민연맹)" #조건에 따라 변경(패전) -> 오스트리아 사회당 (반공)
+ AUS_soc_liberalism_party_long: "조국전선 (농민연맹)"
+ 
+ AUS_old_liberalism_party: "대독일인민당" #조건에 따라 변경(패전) -> 오스트리아 자유당 (좌파)
+ AUS_old_liberalism_party_long: "대독일인민당"
+ 
+ AUS_democratic_party: "조국전선 (좌파)" #조건에 따라 변경(패전) -> 오스트리아 인민당 (좌파)
+ AUS_democratic_party_long: "조국전선 (좌파)"
+ 
+ AUS_soc_conservatism_party: "조국전선 (중도파)" #조건에 따라 변경(패전) -> 오스트리아 인민당 (우파)
+ AUS_soc_conservatism_party_long: "조국전선 (중도파)" #조건에 따라 변경(복벽) -> 합스부르크 가문 / 흑황동맹 / 정통주의자
+ 
+ AUS_neutrality_party: "조국전선 (우파)" #조건에 따라 변경(패전) -> 오스트리아 자유당 (우파)
+ AUS_neutrality_party_long: "조국전선 (우파)"
+ 
+ AUS_despotism_party: "조국전선 (극우파)"
+ AUS_despotism_party_long: "조국전선 (극우파)"
+ 
+ AUS_fascism_party: "오스트리아 나치당"
+ AUS_fascism_party_long: "국가사회주의 오스트리아 노동자당"
+ 
+ ##########################################################
+ ########################## 중국 ##########################
+ ##########################################################
+
+ CHI_communism_party: "중국공산당"
+ CHI_communism_party_long: "중국공산당"
+
+ CHI_rev_socialism_party: "중화혁명당 (세계사)"
+ CHI_rev_socialism_party_long: "중화혁명당 (세계사)"
+ 
+ CHI_dem_socialism_party: "중화혁명당 (주류파)"
+ CHI_dem_socialism_party_long: "중화혁명당 (주류파)"
+ 
+ CHI_soc_liberalism_party: "국민당 (민우사)"
+ CHI_soc_liberalism_party_long: "국민당 (민우사)"
+ 
+ CHI_old_liberalism_party: "국민당 (헌정회)"
+ CHI_old_liberalism_party_long: "국민당 (헌정회)"
+ 
+ CHI_democratic_party: "국민당 (객려파)"
+ CHI_democratic_party_long: "국민당 (객려파)"
+ 
+ CHI_soc_conservatism_party: "진보당"
+ CHI_soc_conservatism_party_long: "진보당"
+ 
+ CHI_neutrality_party: "공화당"
+ CHI_neutrality_party_long: "공화당"
+ 
+ CHI_despotism_party: "중화민국 군부"
+ CHI_despotism_party_long: "중화민국 군부"
+ 
+ CHI_fascism_party: "CC단"
+ CHI_fascism_party_long: "CC단"
+ 
+ #수정 필요
+ XSM_neutrality_party: "마가군벌"
+ XSM_communism_party: "중국공산당"
+ XSM_communism_party_long: "중국공산당"
+ 
+ ############################################################
+ ########################## 스페인 ##########################
+ ############################################################
+
+ SPR_communism_party: "스페인 공산당"
+ SPR_communism_party_long: "스페인 공산당"
+
+ SPR_rev_socialism_party: "마르크스주의 통일노동자당" #조건에 따라 변경 -> 전국노동연맹
+ SPR_rev_socialism_party_long: "마르크스주의 통일노동자당"
+ 
+ SPR_dem_socialism_party: "스페인 사회노동당"
+ SPR_dem_socialism_party_long: "스페인 사회노동당"
+ 
+ SPR_soc_liberalism_party: "공화좌파"
+ SPR_soc_liberalism_party_long: "공화좌파"
+ 
+ SPR_old_liberalism_party: "공화연맹"
+ SPR_old_liberalism_party_long: "공화연맹"
+ 
+ SPR_democratic_party: "급진공화당" #조건에 따라 변경 -> 민주중도당
+ SPR_democratic_party_long: "급진공화당"
+ 
+ SPR_soc_conservatism_party: "스페인 자치우익연합"
+ SPR_soc_conservatism_party_long: "스페인 자치우익연합"
+ 
+ SPR_neutrality_party: "스페인 혁신"
+ SPR_neutrality_party_long: "스페인 혁신"
+ 
+ SPR_despotism_party: "스페인 군부" #조건에 따라 변경 -> 전통적 교우회
+ SPR_despotism_party_long: "스페인 군부"
+ 
+ SPR_fascism_party: "팔랑헤" #조건에 따라 변경 -> 통합 팔랑헤, 
+ SPR_fascism_party_long: "국민생디칼리슴 공세평의회 에스파냐 팔랑헤"
+ 
+ #SPR_neutrality_party: "전통적 교우회"
+ #SPR_neutrality_party_long: "전통적 교우회"
+ #SPR_fascism_francoist_party: "통합 팔랑헤"
+ #SPR_fascism_francoist_party_long: "국민생디칼리슴 공세평의회 에스파냐 전통주의자 팔랑헤"
+ #SPR_communism_independent_party: "마르크스주의통일노동자당"
+ #SPR_communism_independent_party_long: "마르크스주의통일노동자당"
+ SPR_neutrality_anarchism_party: "전국노동연맹"
+ SPR_neutrality_anarchism_party_long: "전국노동연맹"
+ SPR_neutrality_military_junta_party: "군사위원회"
+ SPR_neutrality_military_junta_party_long: "군사위원회"
+ 
+ ##############################################################
+ ########################## 포르투갈 ##########################
+ ##############################################################
+
+ POR_communism_party: "포르투갈 공산당 (친소파)"
+ POR_communism_party_long: "포르투갈 공산당 (친소파)"
+
+ POR_rev_socialism_party: "포르투갈 공산당 (반소파)"
+ POR_rev_socialism_party_long: "포르투갈 공산당 (반소파)"
+ 
+ POR_dem_socialism_party: "공화사회연맹"
+ POR_dem_socialism_party_long: "공화사회연맹"
+ 
+ POR_soc_liberalism_party: "민주좌파공화당"
+ POR_soc_liberalism_party_long: "민주좌파공화당"
+ 
+ POR_old_liberalism_party: "민주당"
+ POR_old_liberalism_party_long: "민주당"
+ 
+ POR_democratic_party: "공화자유당"
+ POR_democratic_party_long: "공화자유당"
+ 
+ POR_soc_conservatism_party: "국민연합 (국민공화당)"
+ POR_soc_conservatism_party_long: "국민연합 (국민공화당)"
+ 
+ POR_neutrality_party: "국민연합 (카르모나파)"
+ POR_neutrality_party_long: "국민연합 (카르모나파)"
+ 
+ POR_despotism_party: "국민연합 (살라자르파)" #조건에 따라 변경 -> 군주대의당
+ POR_despotism_party_long: "국민연합 (살라자르파)"
+ 
+ POR_fascism_party: "국민생디칼리슴 운동"
+ POR_fascism_party_long: "국민생디칼리슴 운동"
+ 
+ POR_monarchy_party: "군주대의당"
+ POR_monarchy_party_long: "군주대의당"
+ 
+ POR_communism2_party: "인민전선"
+ POR_communism2_party_long: "인민전선"
+ 
+ ############################################################
+ ########################## 그리스 ##########################
+ ############################################################
+
+ GRE_communism_party: "그리스 공산당 (스탈린주의)"
+ GRE_communism_party_long: "그리스 공산당 (스탈린주의)"
+
+ GRE_rev_socialism_party: "그리스 공산당 (청년공산동맹)"
+ GRE_rev_socialism_party_long: "그리스 공산당 (청년공산동맹)"
+ 
+ GRE_dem_socialism_party: "농업과 노동당"
+ GRE_dem_socialism_party_long: "농업과 노동당"
+ 
+ GRE_soc_liberalism_party: "그리스 진보당"
+ GRE_soc_liberalism_party_long: "그리스 진보당"
+ 
+ GRE_old_liberalism_party: "그리스 자유당"
+ GRE_old_liberalism_party_long: "그리스 자유당"
+ 
+ GRE_democratic_party: "그리스 인민당"
+ GRE_democratic_party_long: "그리스 인민당"
+ 
+ GRE_soc_conservatism_party: "보편대중급진연합"
+ GRE_soc_conservatism_party_long: "보편대중급진연합"
+ 
+ GRE_neutrality_party: "국가개혁당"
+ GRE_neutrality_party_long: "국가개혁당"
+ 
+ GRE_despotism_party: "자유사상가당" #조건에 따라 변경 -> 메탁사스 정권
+ GRE_despotism_party_long: "자유사상가당"
+ 
+ GRE_fascism_party: "그리스 국민연합" #조건에 따라 변경 -> 헬라스국 협력정부 내각
+ GRE_fascism_party_long: "그리스 국민연합"
+ 
+ GRE_monarchist_party: "바실리키 자문위원회"
+ GRE_monarchist_party_long: "바실리키 자문위원회"
+ GRE_metaxas_party: "메탁사스 정권"
+ GRE_metaxas_party_long: "메탁사스 정권"
+ 
+ #GRE_fascism_party: "그리스 국가사회주의당"
+ #GRE_fascism_party_long: "그리스 국가사회주의당"
+ #GRE_byzantine_party: "그리스 국민연합"
+ #GRE_byzantine_party_long: "그리스 국민연합"
+ 
+ #수정 필요
+ LIT_neutrality_party: "리투아니아 민족주의 연합"
+ LIT_neutrality_party_long: "리투아니아 민족주의 연합"
+ LIT_fascism_party: "강철 늑대단"
+ LIT_democratic_party: "리투아니아 기독교민주당"
+ LIT_democratic_party_long: "리투아니아 기독교민주당"
+ LIT_communism_party: "리투아니아 공산당"
+ LIT_communism_party_long: "리투아니아 공산당"
+ LIT_von_urach_party: "우라흐 가문"
+ 
+ #수정 필요
+ LAT_neutrality_party: "인민위원회"
+ LAT_fascism_party: "천둥십자당"
+ LAT_democratic_party: "라트비아 사회민주노동자당"
+ LAT_democratic_party_long: "라트비아 사회민주노동자당"
+ LAT_communism_party: "라트비아 공산당"
+ LAT_communism_party_long: "라트비아 공산당"
+ 
+ #수정 필요
+ EST_neutrality_party: "애국연맹"
+ EST_democratic_party: "국가중앙당"
+ EST_democratic_party_long: "국가중앙당"
+ EST_fascism_party: "밥스 운동"
+ EST_fascism_party_long: "밥스 운동"
+ EST_communism_party: "에스토니아 공산당"
+ EST_communism_party_long: "에스토니아 공산당"
+ 
+ ############################################################
+ ########################## 이라크 ##########################
+ ############################################################
+ 
+ #수정 필요
+ IRQ_communism_party: "이라크 공산당"
+ IRQ_communism_party_long: "이라크 공산당"
+
+ IRQ_rev_socialism_party: "이라크 공산당"
+ IRQ_rev_socialism_party_long: "이라크 공산당"
+ 
+ IRQ_dem_socialism_party: "민주사회주의"
+ IRQ_dem_socialism_party_long: "민주사회주의"
+ 
+ IRQ_soc_liberalism_party: "사회자유주의"
+ IRQ_soc_liberalism_party_long: "사회자유주의"
+ 
+ IRQ_old_liberalism_party: "고전자유주의"
+ IRQ_old_liberalism_party_long: "고전자유주의"
+ 
+ IRQ_democratic_party: "자유보수주의"
+ IRQ_democratic_party_long: "자유보수주의"
+ 
+ IRQ_soc_conservatism_party: "사회보수주의"
+ IRQ_soc_conservatism_party_long: "사회보수주의"
+ 
+ IRQ_neutrality_party: "하심 가문"
+ IRQ_neutrality_party_long: "하심 가문"
+ 
+ IRQ_despotism_party: "하심 가문"
+ IRQ_despotism_party_long: "하심 가문"
+ 
+ IRQ_fascism_party: "황금 사인조"
+ IRQ_fascism_party_long: "황금 사인조"
+ 
+ ############################################################
+ ########################## 스웨덴 ##########################
+ ############################################################
+
+ SWE_communism_party: "스웨덴 공산당"
+ SWE_communism_party_long: "스웨덴 공산당"
+
+ SWE_rev_socialism_party: "스웨덴 사회당"
+ SWE_rev_socialism_party_long: "스웨덴 사회당"
+ 
+ SWE_dem_socialism_party: "스웨덴 사회민주노동당"
+ SWE_dem_socialism_party_long: "스웨덴 사회민주노동당"
+ 
+ SWE_soc_liberalism_party: "농민연합"
+ SWE_soc_liberalism_party_long: "농민연합"
+ 
+ SWE_old_liberalism_party: "스웨덴 인민당"
+ SWE_old_liberalism_party_long: "스웨덴 인민당"
+ 
+ SWE_democratic_party: "총선동맹 (온건파)"
+ SWE_democratic_party_long: "총선동맹 (온건파)"
+ 
+ SWE_soc_conservatism_party: "총선동맹 (강경파)"
+ SWE_soc_conservatism_party_long: "총선동맹 (강경파)"
+ 
+ SWE_neutrality_party: "중앙당"
+ SWE_neutrality_party_long: "중앙당"
+ 
+ SWE_despotism_party: "국민연맹"
+ SWE_despotism_party_long: "국민연맹"
+ 
+ SWE_fascism_party: "스웨덴 나치당"
+ SWE_fascism_party_long: "국가사회주의 스웨덴 노동자당"
+ 
+ SWE_kings_party: "왕당파"
+ SWE_kings_party_long: "왕당파"
+ SWE_aat_communism_party: "사회당"
+ SWE_aat_communism_party_long: "사회당"
+ SWE_aat_farmers_union: "농민연합"
+ SWE_aat_farmers_union_long: "농민연합"
+ SWE_aat_hogern: "전국우익기구"
+ SWE_aat_hogern_long: "전국우익기구"
+ 
+ ############################################################
+ ########################## 핀란드 ##########################
+ ############################################################
+
+ FIN_communism_party: "핀란드 공산당"
+ FIN_communism_party_long: "핀란드 공산당"
+
+ FIN_rev_socialism_party: "핀란드 사회민주당 (용공)"
+ FIN_rev_socialism_party_long: "핀란드 사회민주당 (용공)"
+ 
+ FIN_dem_socialism_party: "핀란드 사회민주당 (반공)"
+ FIN_dem_socialism_party_long: "핀란드 사회민주당 (반공)"
+ 
+ FIN_soc_liberalism_party: "농업동맹"
+ FIN_soc_liberalism_party_long: "농업동맹"
+ 
+ FIN_old_liberalism_party: "국민진보당"
+ FIN_old_liberalism_party_long: "국민진보당"
+ 
+ FIN_democratic_party: "스웨덴인당"
+ FIN_democratic_party_long: "스웨덴인당"
+ 
+ FIN_soc_conservatism_party: "국민연합당 (온건파)"
+ FIN_soc_conservatism_party_long: "국민연합당 (온건파)"
+ 
+ FIN_neutrality_party: "국민연합당 (강경파)"
+ FIN_neutrality_party_long: "국민연합당 (강경파)"
+ 
+ FIN_despotism_party: "인민당-소농당"
+ FIN_despotism_party_long: "인민당-소농당"
+ 
+ FIN_fascism_party: "애국인민당"
+ FIN_fascism_party_long: "애국인민당"
+ 
+ FIN_neutrality_party_kokoomus: "국민연합당"
+ FIN_neutrality_party_kokoomus_long: "국민연합당"
+ FIN_neutrality_party_progressive: "국민진보당"
+ FIN_neutrality_party_progressive_long: "국민진보당"
+ FIN_neutrality_party_military: "비당파 군사정부"
+ FIN_neutrality_party_military_long: "비당파 군사정부"
+ FIN_neutrality_party_monarchist: "헤센 가문"
+ FIN_neutrality_party_monarchist_long: "헤센 가문"
+ FIN_communism_skdl: "핀란드 인민민주동맹"
+ FIN_communism_skdl_long: "핀란드 인민민주동맹"
+ 
+ ############################################################
+ ########################## 덴마크 ##########################
+ ############################################################
+
+ DEN_communism_party: "덴마크 공산당 (친소파)"
+ DEN_communism_party_long: "덴마크 공산당 (친소파)"
+
+ DEN_rev_socialism_party: "덴마크 공산당 (반소파)"
+ DEN_rev_socialism_party_long: "덴마크 공산당 (반소파)"
+ 
+ DEN_dem_socialism_party: "덴마크 사회민주당"
+ DEN_dem_socialism_party_long: "덴마크 사회민주당"
+ 
+ DEN_soc_liberalism_party: "덴마크 사회자유당"
+ DEN_soc_liberalism_party_long: "덴마크 사회자유당"
+ 
+ DEN_old_liberalism_party: "자유인민당-정의당"
+ DEN_old_liberalism_party_long: "자유인민당-정의당"
+ 
+ DEN_democratic_party: "덴마크 좌파당"
+ DEN_democratic_party_long: "덴마크 좌파당"
+ 
+ DEN_soc_conservatism_party: "덴마크 보수인민당 (반독파)"
+ DEN_soc_conservatism_party_long: "덴마크 보수인민당 (반독파)"
+ 
+ DEN_neutrality_party: "덴마크 보수인민당 (친독파)"
+ DEN_neutrality_party_long: "덴마크 보수인민당 (친독파)"
+ 
+ DEN_despotism_party: "덴마크 단결당"
+ DEN_despotism_party_long: "덴마크 단결당"
+ 
+ DEN_fascism_party: "국가사회주의 덴마크 노동자당"
+ DEN_fascism_party_long: "국가사회주의 덴마크 노동자당"
+ 
+ DEN_democratic_venstre_party: "좌파당"
+ DEN_democratic_venstre_party_long: "좌파당"
+ DEN_democratic_konservative_party: "보수인민당"
+ DEN_democratic_konservative_party_long: "보수인민당"
+ DEN_neutrality_freedom_council_party: "덴마크 자유위원회"
+ DEN_neutrality_freedom_council_party_long: "덴마크 자유위원회"
+ DEN_neutrality_monarchist_party: "글뤽스부르크 가문"
+ DEN_neutrality_monarchist_party_long: "글뤽스부르크 가문"
+ 
+ ############################################################
+ ########################## 캐나다 ##########################
+ ############################################################
+
+ CAN_communism_party: "캐나다 공산당"
+ CAN_communism_party_long: "캐나다 공산당"
+
+ CAN_rev_socialism_party: "사회행동연맹"
+ CAN_rev_socialism_party_long: "사회행동연맹"
+ 
+ CAN_dem_socialism_party: "협동연방당"
+ CAN_dem_socialism_party_long: "협동연방당"
+ 
+ CAN_soc_liberalism_party: "캐나다 자유당"
+ CAN_soc_liberalism_party_long: "캐나다 자유당"
+ 
+ CAN_old_liberalism_party: "캐나다 재건당"
+ CAN_old_liberalism_party_long: "캐나다 재건당"
+ 
+ CAN_democratic_party: "캐나다 보수당 (레드 토리)"
+ CAN_democratic_party_long: "캐나다 보수당 (레드 토리)"
+ 
+ CAN_soc_conservatism_party: "캐나다 보수당 (블루 토리)"
+ CAN_soc_conservatism_party_long: "캐나다 보수당 (블루 토리)"
+ 
+ CAN_neutrality_party: "신민주당"
+ CAN_neutrality_party_long: "신민주당"
+ 
+ CAN_despotism_party: "사회신용당"
+ CAN_despotism_party_long: "사회신용당"
+ 
+ CAN_fascism_party: "캐나다 국민연합당"
+ CAN_fascism_party_long: "캐나다 국민연합당"
+ 
+ #수정 필요
+ AST_neutrality_party: "오스트레일리아 국가당"
+ AST_neutrality_party_long: "오스트레일리아 국가당"
+ AST_democratic_party: "오스트레일리아 노동당"
+ AST_democratic_party_long: "오스트레일리아 노동당"
+ AST_fascism_party: "중앙당"
+ AST_fascism_party_long: "중앙당"
+ AST_communism_party: "오스트레일리아 공산당"
+ AST_communism_party_long: "오스트레일리아 공산당"
+ 
+ ############################################################
+ ########################## 멕시코 ##########################
+ ############################################################
+
+ MEX_communism_party: "멕시코 공산당"
+ MEX_communism_party_long: "멕시코 공산당"
+
+ MEX_rev_socialism_party: "좌파사회당"
+ MEX_rev_socialism_party_long: "좌파사회당"
+ 
+ MEX_dem_socialism_party: "제도혁명당 (좌파)"
+ MEX_dem_socialism_party_long: "제도혁명당 (좌파)"
+ 
+ MEX_soc_liberalism_party: "제도혁명당 (좌파)"
+ MEX_soc_liberalism_party_long: "제도혁명당 (좌파)"
+ 
+ MEX_old_liberalism_party: "제도혁명당 (좌파)"
+ MEX_old_liberalism_party_long: "제도혁명당 (좌파)"
+ 
+ MEX_democratic_party: "독립혁명당연맹" #조건에 따라 변경 -> 국민행동당
+ MEX_democratic_party_long: "독립혁명당연맹"
+ 
+ MEX_soc_conservatism_party: "국가통합혁명당"
+ MEX_soc_conservatism_party_long: "국가통합혁명당"
+ 
+ MEX_neutrality_party: "제도혁명당 (우파)"
+ MEX_neutrality_party_long: "제도혁명당 (우파)"
+ 
+ MEX_despotism_party: "제도혁명당 (우파)"
+ MEX_despotism_party_long: "제도혁명당 (우파)"
+ 
+ MEX_fascism_party: "국민공동통치연합"
+ MEX_fascism_party_long: "국민공동통치연합"
+ 
+ ################################################################
+ ########################## 아르헨티나 ##########################
+ ################################################################
+
+ ARG_communism_party: "아르헨티나 공산당"
+ ARG_communism_party_long: "아르헨티나 공산당"
+
+ ARG_rev_socialism_party: "아르헨티나 노조연합" #조건에 따라 변경 -> 정의당 (노조주의)
+ ARG_rev_socialism_party_long: "아르헨티나 노조연합"
+ 
+ ARG_dem_socialism_party: "아르헨티나 사회당"
+ ARG_dem_socialism_party_long: "아르헨티나 사회당"
+ 
+ ARG_soc_liberalism_party: "급진시민연합 (좌파)"
+ ARG_soc_liberalism_party_long: "급진시민연합 (좌파)"
+ 
+ ARG_old_liberalism_party: "아르헨티나 민주진보당"
+ ARG_old_liberalism_party_long: "아르헨티나 민주진보당"
+ 
+ ARG_democratic_party: "반개인숭배 급진시민연합"
+ ARG_democratic_party_long: "반개인숭배 급진시민연합"
+ 
+ ARG_soc_conservatism_party: "아르헨티나 국민민주당"
+ ARG_soc_conservatism_party_long: "아르헨티나 국민민주당"
+ 
+ ARG_neutrality_party: "노동당" #조건에 따라 변경 -> 정의당 (페론주의)
+ ARG_neutrality_party_long: "노동당"
+ 
+ ARG_despotism_party: "급진시민연합 (우파)"
+ ARG_despotism_party_long: "급진시민연합 (우파)"
+ 
+ ARG_fascism_party: "아르헨티나 시민군단" #조건에 따라 변경 -> 국민해방동맹
+ ARG_fascism_party_long: "아르헨티나 시민군단"
+ 
+ ############################################################
+ ########################## 브라질 ##########################
+ ############################################################
+
+ BRA_communism_party: "브라질 공산당"
+ BRA_communism_party_long: "브라질 공산당"
+
+ BRA_rev_socialism_party: "국민해방동맹"
+ BRA_rev_socialism_party_long: "국민해방동맹"
+ 
+ BRA_dem_socialism_party: "상파울루 공화당 (급진파)" #조건에 따라 변경 -> 국가민주연합 (좌파)
+ BRA_dem_socialism_party_long: "상파울루 공화당 (급진파)"
+ 
+ BRA_soc_liberalism_party: "상파울루 공화당 (온건파)" #조건에 따라 변경 -> 국가민주연합 (중도파)
+ BRA_soc_liberalism_party_long: "상파울루 공화당 (온건파)"
+ 
+ BRA_old_liberalism_party: "산타카타리나 자유당" #조건에 따라 변경 -> 브라질 사회민주당
+ BRA_old_liberalism_party_long: "산타카타리나 자유당"
+ 
+ BRA_democratic_party: "해방당"
+ BRA_democratic_party_long: "해방당"
+ 
+ BRA_soc_conservatism_party: "미나스제라이스 공화당" #조건에 따라 변경 -> 국가민주연합 (우파)
+ BRA_soc_conservatism_party_long: "미나스제라이스 공화당"
+ 
+ BRA_neutrality_party: "바르가스 임시정부" #조건에 따라 변경 -> 브라질 노동당
+ BRA_neutrality_party_long: "바르가스 임시정부"
+ 
+ BRA_despotism_party: "브라질 신제국행동"
+ BRA_despotism_party_long: "브라질 신제국행동"
+ 
+ BRA_fascism_party: "브라질 통합주의 행동"
+ BRA_fascism_party_long: "브라질 통합주의 행동"
+ 
+ BRA_monarchy_party: "브라질 신제국행동"
+ BRA_monarchy_party_long: "브라질 신제국행동"
+ BRA_antimonarchist_coalition: "브라질 반군주주의 연정"
+ BRA_antimonarchist_coalition_long: "브라질 반군주주의 연정"
+ 
+ #수정 필요
+ TUR_fascism_party: "파시즘 평의회"
+ TUR_fascism_party_long: "파시즘 평의회"
+ TUR_communism_party: "터키 공산당"
+ TUR_communism_party_long: "터키 공산당"
+ TUR_democratic_party: "민주당"
+ TUR_democratic_party_long: "민주당"
+ TUR_cakmak_party: "차크마크 정권"
+ TUR_cakmak_party_long: "차크마크 정권"
+ TUR_democratic_party_proto_islamist: "전통파"
+ TUR_democratic_party_proto_islamist_long: "전통파"
+ TUR_democratic_party_islamist: "민주당"
+ TUR_democratic_party_islamist_long: "민주당"
+ TUR_neutrality_party: "공화인민당"
+ TUR_neutrality_party_long: "공화인민당"
+ TUR_sultanate_precursor_party_long: "임시정부"
+ TUR_sultanate_party_long: "불멸의 제국"
+ 
+ ############################################################
+ ########################## 헝가리 ##########################
+ ############################################################
+
+ HUN_communism_party: "헝가리 공산당 (소련파)"
+ HUN_communism_party_long: "헝가리 공산당 (소련파)"
+
+ HUN_rev_socialism_party: "헝가리 공산당 (국내파)"
+ HUN_rev_socialism_party_long: "헝가리 공산당 (국내파)"
+ 
+ HUN_dem_socialism_party: "헝가리 사회민주당"
+ HUN_dem_socialism_party_long: "헝가리 사회민주당"
+ 
+ HUN_soc_liberalism_party: "국민자유당"
+ HUN_soc_liberalism_party_long: "국민자유당"
+ 
+ HUN_old_liberalism_party: "독립48년당"
+ HUN_old_liberalism_party_long: "독립48년당"
+ 
+ HUN_democratic_party: "소지주당"
+ HUN_democratic_party_long: "소지주당"
+ 
+ HUN_soc_conservatism_party: "기독경제사회당"
+ HUN_soc_conservatism_party_long: "기독경제사회당"
+ 
+ HUN_neutrality_party: "호르티 정부" #조건에 따라 변경 -> 정통주의자
+ HUN_neutrality_party_long: "호르티 정부"
+ 
+ HUN_despotism_party: "국민단결당" #조건에 따라 변경 -> 헝가리 민생당, 정통주의자
+ HUN_despotism_party_long: "국민단결당"
+ 
+ HUN_fascism_party: "국민의지당" #조건에 따라 변경 -> 화살십자당
+ HUN_fascism_party_long: "국민의지당"
+ 
+ HUN_arrow_cross_party: "화살십자당"
+ HUN_arrow_cross_party_long: "화살십자당-헝가리주의 운동"
+ 
+ HUN_legitimists_party: "정통주의자"
+ HUN_legitimists_party_long: "정통주의자"
+ 
+ ##############################################################
+ ########################## 루마니아 ##########################
+ ##############################################################
+
+ ROM_communism_party: "루마니아 공산당"
+ ROM_communism_party_long: "루마니아 공산당"
+
+ ROM_rev_socialism_party: "루마니아 연합사회당"
+ ROM_rev_socialism_party_long: "루마니아 연합사회당"
+ 
+ ROM_dem_socialism_party: "루마니아 사회민주당"
+ ROM_dem_socialism_party_long: "루마니아 사회민주당"
+ 
+ ROM_soc_liberalism_party: "루마니아 국가농민당"
+ ROM_soc_liberalism_party_long: "루마니아 국가농민당"
+ 
+ ROM_old_liberalism_party: "루마니아 국가자유당 (좌파)"
+ ROM_old_liberalism_party_long: "루마니아 국가자유당 (좌파)"
+ 
+ ROM_democratic_party: "루마니아 국가자유당 (우파)"
+ ROM_democratic_party_long: "루마니아 국가자유당 (우파)"
+ 
+ ROM_soc_conservatism_party: "보수당"
+ ROM_soc_conservatism_party_long: "보수당"
+ 
+ ROM_neutrality_party: "국가기독당"
+ ROM_neutrality_party_long: "국가기독당"
+ 
+ ROM_despotism_party: "루마니아 전선" #조건에 따라 변경 -> 국가부흥전선
+ ROM_despotism_party_long: "루마니아 전선"
+ 
+ ROM_fascism_party: "대천사 미카엘 군단" #조건에 따라 변경 -> 철위단 운동
+ ROM_fascism_party_long: "대천사 미카엘 군단"
+ 
+ ##################################################################
+ ########################## 유고슬라비아 ##########################
+ ##################################################################
+
+ YUG_communism_party: "유고 공산당 (친소파)"
+ YUG_communism_party_long: "유고슬라비아 공산당 (친소파)"
+
+ YUG_rev_socialism_party: "유고 공산당 (티토파)"
+ YUG_rev_socialism_party_long: "유고슬라비아 공산당 (티토파)"
+ 
+ YUG_dem_socialism_party: "유고 사회당"
+ YUG_dem_socialism_party_long: "유고슬라비아 사회당"
+ 
+ YUG_soc_liberalism_party: "크로아티아 농민당"
+ YUG_soc_liberalism_party_long: "크로아티아 농민당"
+ 
+ YUG_old_liberalism_party: "유고 민주당"
+ YUG_old_liberalism_party_long: "유고슬라비아 민주당"
+ 
+ YUG_democratic_party: "인민급진당"
+ YUG_democratic_party_long: "인민급진당"
+ 
+ YUG_soc_conservatism_party: "유고 국민당"
+ YUG_soc_conservatism_party_long: "유고슬라비아 국민당"
+ 
+ YUG_neutrality_party: "유고 급진연합"
+ YUG_neutrality_party_long: "유고슬라비아 급진연합"
+ 
+ YUG_despotism_party: "카라조르제비치 가문"
+ YUG_despotism_party_long: "카라조르제비치 가문"
+ 
+ YUG_fascism_party: "유고 국민운동"
+ YUG_fascism_party_long: "유고슬라비아 국민운동"
+ 
+ ##############################################################
+ ########################## 세르비아 ##########################
+ ##############################################################
+ 
+ #수정 필요
+ SER_communism_party: "공산주의"
+ SER_communism_party_long: "공산주의"
+
+ SER_rev_socialism_party: "혁명사회주의"
+ SER_rev_socialism_party_long: "혁명사회주의"
+ 
+ SER_dem_socialism_party: "민주사회주의"
+ SER_dem_socialism_party_long: "민주사회주의"
+ 
+ SER_soc_liberalism_party: "사회자유주의"
+ SER_soc_liberalism_party_long: "사회자유주의"
+ 
+ SER_old_liberalism_party: "고전자유주의"
+ SER_old_liberalism_party_long: "고전자유주의"
+ 
+ SER_democratic_party: "자유보수주의"
+ SER_democratic_party_long: "자유보수주의"
+ 
+ SER_soc_conservatism_party: "사회보수주의"
+ SER_soc_conservatism_party_long: "사회보수주의"
+ 
+ SER_neutrality_party: "권위민주주의"
+ SER_neutrality_party_long: "권위민주주의"
+ 
+ SER_despotism_party: "카라조르제비치 가문"
+ SER_despotism_party_long: "카라조르제비치 가문"
+ 
+ SER_fascism_party: "유고 국민운동"
+ SER_fascism_party_long: "유고슬라비아 국민운동"
+ 
+ #SER_communism_party: "공산주의자 동맹"
+ #SER_communism_party_long: "공산주의자 동맹"
+ #SER_democratic_party: "미하일로비치의 체트니크"
+ #SER_democratic_party_long: "미하일로비치의 체트니크"
+ #SER_fascism_party: "구국정부"
+ #SER_fascism_party_long: "구국정부"
+ #SER_neutrality_party: "왕당파"
+ #SER_neutrality_party_long: "왕당파"
+ 
+ ##############################################################
+ ########################## 불가리아 ##########################
+ ##############################################################
+
+ BUL_communism_party: "불가리아 공산당 (스탈린주의)"
+ BUL_communism_party_long: "불가리아 공산당 (스탈린주의)"
+
+ BUL_rev_socialism_party: "불가리아 공산당 (협소사회주의)"
+ BUL_rev_socialism_party_long: "불가리아 공산당 (협소사회주의)"
+ 
+ BUL_dem_socialism_party: "불가리아 사회민주노동당"
+ BUL_dem_socialism_party_long: "불가리아 사회민주노동당"
+ 
+ BUL_soc_liberalism_party: "불가리아 농민연합 '참새 1'"
+ BUL_soc_liberalism_party_long: "불가리아 농민연합 '참새 1'"
+ 
+ BUL_old_liberalism_party: "불가리아 농민연합 '정오'"
+ BUL_old_liberalism_party_long: "불가리아 농민연합 '정오'"
+ 
+ BUL_democratic_party: "불가리아 국민자유당"
+ BUL_democratic_party_long: "불가리아 국민자유당"
+ 
+ BUL_soc_conservatism_party: "연합인민진보당"
+ BUL_soc_conservatism_party_long: "연합인민진보당"
+ 
+ BUL_neutrality_party: "무당파 내각"
+ BUL_neutrality_party_long: "무당파 내각"
+ 
+ BUL_despotism_party: "즈베노"
+ BUL_despotism_party_long: "즈베노"
+ 
+ BUL_fascism_party: "국가사회운동" #조건에 따라 변경 -> 라트니크
+ BUL_fascism_party_long: "국가사회운동"
+ 
+ #BUL_democratic_party_bftb: "민주당"
+ #BUL_democratic_party_bftb_long: "민주당"
+ #BUL_democratic_party_bftb_bulgarian_long: "민주당"
+ #BUL_fascism_party: "불가리아 국민군단연합"
+ #BUL_fascism_party_long: "불가리아 국민군단연합"
+ #BUL_fascism_party_bulgarian: "국민군단연합"
+ #BUL_fascism_party_bulgarian_long: "국민군단연합"
+ 
+ BUL_zveno_bulgaria_neutrality_party: "즈베노"
+ BUL_zveno_bulgaria_neutrality_party_long: "군사연합부"
+ BUL_fatherland_front_party: "조국전선"
+ BUL_fatherland_front_party_long: "조국전선"
+ BUL_ferdinand_loyalists_party: "차르 페르디난트 충성파"
+ BUL_ferdinand_loyalists_party_long: "차르 페르디난트 1세 충성파"
+ BUL_national_social_movement_party: "국가사회주의 운동"
+ BUL_national_social_movement_party_long: "국가사회주의 운동"
+ 
+ #수정 필요
+ SAF_neutrality_party: "아프리카 국민회의"
+ SAF_neutrality_party_long: "아프리카 국민회의"
+ SAF_communism_party: "남아프리카 공산당"
+ SAF_communism_party_long: "남아프리카 공산당"
+ SAF_democratic_party: "남아프리카 연합당"
+ SAF_democratic_party_long: "남아프리카 연합당"
+ SAF_fascism_party: "순수국민당"
+ SAF_fascism_party_long: "순수국민당"
+ 
+ #수정 필요
+ NZL_neutrality_party: "뉴질랜드 국민당"
+ NZL_neutrality_party_long: "뉴질랜드 국민당"
+ NZL_democratic_party: "뉴질랜드 노동당"
+ NZL_democratic_party_long: "뉴질랜드 노동당"
+ NZL_fascism_party: "뉴질랜드 군단"
+ NZL_fascism_party_long: "뉴질랜드 군단"
+ NZL_communism_party: "뉴질랜드 공산당"
+ NZL_communism_party_long: "뉴질랜드 공산당"
+ 
+ ##############################################################
+ ########################## 노르웨이 ##########################
+ ##############################################################
+
+ NOR_communism_party: "노르웨이 공산당"
+ NOR_communism_party_long: "노르웨이 공산당"
+
+ NOR_rev_socialism_party: "노동계급단결당"
+ NOR_rev_socialism_party_long: "노동계급단결당"
+ 
+ NOR_dem_socialism_party: "노르웨이 노동당 (반공파)"
+ NOR_dem_socialism_party_long: "노르웨이 노동당 (반공파)"
+ 
+ NOR_soc_liberalism_party: "노르웨이 자유당"
+ NOR_soc_liberalism_party_long: "노르웨이 자유당"
+ 
+ NOR_old_liberalism_party: "노르웨이 기독민주당"
+ NOR_old_liberalism_party_long: "노르웨이 기독민주당"
+ 
+ NOR_democratic_party: "노르웨이 농민당"
+ NOR_democratic_party_long: "노르웨이 농민당"
+ 
+ NOR_soc_conservatism_party: "노르웨이 보수당"
+ NOR_soc_conservatism_party_long: "노르웨이 보수당"
+ 
+ NOR_neutrality_party: "공동체당"
+ NOR_neutrality_party_long: "공동체당"
+ 
+ NOR_despotism_party: "조국동맹"
+ NOR_despotism_party_long: "조국동맹"
+ 
+ NOR_fascism_party: "국민연합"
+ NOR_fascism_party_long: "국민연합"
+ 
+ NOR_Wedel-Jarlsberg_regency_name: "베델-야를스베르그 섭정"
+ NOR_Wedel-Jarlsberg_regency_long_name: "국왕 호콘 7세 폐하께서 임명한 베델-야를스베르그 가문의 섭정"
+ NOR_hoyre_name: "보수당"
+ NOR_hoyre_long: "보수당"
+ NOR_arbeiderklassen_name: "노동자계급 징수당"
+ NOR_arbeiderklassen_long: "노동자계급 징수당"
+ NOR_nkp_name: "노르웨이 공산당"
+ NOR_nkp_long: "노르웨이 공산당"
+ 
+ ##############################################################
+ ########################## 네덜란드 ##########################
+ ##############################################################
+
+ HOL_communism_party: "네덜란드 공산당"
+ HOL_communism_party_long: "네덜란드 공산당"
+
+ HOL_rev_socialism_party: "혁명사회당"
+ HOL_rev_socialism_party_long: "혁명사회당"
+ 
+ HOL_dem_socialism_party: "사회민주노동당"
+ HOL_dem_socialism_party_long: "사회민주노동당"
+ 
+ HOL_soc_liberalism_party: "자유사상민주연맹"
+ HOL_soc_liberalism_party_long: "자유사상민주연맹"
+ 
+ HOL_old_liberalism_party: "자유국가당"
+ HOL_old_liberalism_party_long: "자유국가당"
+ 
+ HOL_democratic_party: "반혁명당-기독교역사연합"
+ HOL_democratic_party_long: "반혁명당-기독교역사연합"
+ 
+ HOL_soc_conservatism_party: "로마가톨릭국가당"
+ HOL_soc_conservatism_party_long: "로마가톨릭국가당"
+ 
+ HOL_neutrality_party: "혁신정치당"
+ HOL_neutrality_party_long: "혁신정치당"
+ 
+ HOL_despotism_party: "국가재건동맹"
+ HOL_despotism_party_long: "국가재건동맹"
+ 
+ HOL_fascism_party: "네덜란드 국가사회주의 운동"
+ HOL_fascism_party_long: "네덜란드 국가사회주의 운동"
+ 
+ ############################################################
+ ########################## 벨기에 ##########################
+ ############################################################
+
+ BEL_communism_party: "벨기에 공산당"
+ BEL_communism_party_long: "벨기에 공산당"
+
+ BEL_rev_socialism_party: "벨기에 노동당 (좌파)"
+ BEL_rev_socialism_party_long: "벨기에 노동당 (좌파)"
+ 
+ BEL_dem_socialism_party: "벨기에 노동당 (우파)"
+ BEL_dem_socialism_party_long: "벨기에 노동당 (우파)"
+ 
+ BEL_soc_liberalism_party: "벨기에 자유당 (좌파)"
+ BEL_soc_liberalism_party_long: "벨기에 자유당 (좌파)"
+ 
+ BEL_old_liberalism_party: "벨기에 자유당 (우파)"
+ BEL_old_liberalism_party_long: "벨기에 자유당 (우파)"
+ 
+ BEL_democratic_party: "가톨릭당 (당권파)"
+ BEL_democratic_party_long: "가톨릭당 (당권파)"
+ 
+ BEL_soc_conservatism_party: "가톨릭당 (가톨릭 연합)"
+ BEL_soc_conservatism_party_long: "가톨릭당 (가톨릭 연합)"
+ 
+ BEL_neutrality_party: "플람스 국민연맹 (온건파)"
+ BEL_neutrality_party_long: "플람스 국민연맹 (온건파)"
+ 
+ BEL_despotism_party: "플람스 국민연맹 (강경파)"
+ BEL_despotism_party_long: "플람스 국민연맹 (강경파)"
+ 
+ BEL_fascism_party: "렉스당"
+ BEL_fascism_party_long: "렉스당"
+ 
+ ############################################################
+ ########################## 스위스 ##########################
+ ############################################################
+
+ SWI_communism_party: "스위스 공산당 (당권파)"
+ SWI_communism_party_long: "스위스 공산당 (당권파)"
+
+ SWI_rev_socialism_party: "스위스 공산당 (반대파)"
+ SWI_rev_socialism_party_long: "스위스 공산당 (반대파)"
+ 
+ SWI_dem_socialism_party: "스위스 사회민주당"
+ SWI_dem_socialism_party_long: "스위스 사회민주당"
+ 
+ SWI_soc_liberalism_party: "스위스 자유당"
+ SWI_soc_liberalism_party_long: "스위스 자유당"
+ 
+ SWI_old_liberalism_party: "스위스 자유민주당"
+ SWI_old_liberalism_party_long: "스위스 자유민주당"
+ 
+ SWI_democratic_party: "스위스 기독민주인민당"
+ SWI_democratic_party_long: "스위스 기독민주인민당"
+ 
+ SWI_soc_conservatism_party: "스위스 복음인민당"
+ SWI_soc_conservatism_party_long: "스위스 복음인민당"
+ 
+ SWI_neutrality_party: "농민, 상인과 시민당"
+ SWI_neutrality_party_long: "농민, 상인과 시민당"
+ 
+ SWI_despotism_party: "국민연합"
+ SWI_despotism_party_long: "국민연합"
+ 
+ SWI_fascism_party: "국민전선"
+ SWI_fascism_party_long: "국민전선"
+ 
+ ##########################################################
+ ########################## 인도 ##########################
+ ##########################################################
+ 
+ #수정 필요
+ RAJ_communism_party: "인도 공산당"
+ RAJ_communism_party_long: "인도 공산당"
+
+ RAJ_rev_socialism_party: "혁명사회주의"
+ RAJ_rev_socialism_party_long: "혁명사회주의"
+ 
+ RAJ_dem_socialism_party: "인도 국민회의"
+ RAJ_dem_socialism_party_long: "인도 국민회의"
+ 
+ RAJ_soc_liberalism_party: "인도 국민회의"
+ RAJ_soc_liberalism_party_long: "인도 국민회의"
+ 
+ RAJ_old_liberalism_party: "인도 국민회의"
+ RAJ_old_liberalism_party_long: "인도 국민회의"
+ 
+ RAJ_democratic_party: "인도 국민회의"
+ RAJ_democratic_party_long: "인도 국민회의"
+ 
+ RAJ_soc_conservatism_party: "인도 국민회의"
+ RAJ_soc_conservatism_party_long: "인도 국민회의"
+ 
+ RAJ_neutrality_party: "인도 국민회의"
+ RAJ_neutrality_party_long: "인도 국민회의"
+ 
+ RAJ_despotism_party: "총독부" #조건에 따라 변경 -> 인도 군부, 번왕회의
+ RAJ_despotism_party_long: "총독부"
+ 
+ RAJ_fascism_party: "전인도 힌두 대의회" #조건에 따라 변경 -> 전인도 진보연합
+ RAJ_fascism_party_long: "전인도 힌두 대의회"
+ 
+ ##########################################################
+ ########################## 이란 ##########################
+ ##########################################################
+ 
+ #수정 필요
+ PER_communism_party: "공산주의"
+ PER_communism_party_long: "공산주의"
+
+ PER_rev_socialism_party: "혁명사회주의"
+ PER_rev_socialism_party_long: "혁명사회주의"
+ 
+ PER_dem_socialism_party: "민주사회주의"
+ PER_dem_socialism_party_long: "민주사회주의"
+ 
+ PER_soc_liberalism_party: "사회자유주의"
+ PER_soc_liberalism_party_long: "사회자유주의"
+ 
+ PER_old_liberalism_party: "고전자유주의"
+ PER_old_liberalism_party_long: "고전자유주의"
+ 
+ PER_democratic_party: "자유보수주의"
+ PER_democratic_party_long: "자유보수주의"
+ 
+ PER_soc_conservatism_party: "사회보수주의"
+ PER_soc_conservatism_party_long: "사회보수주의"
+ 
+ PER_neutrality_party: "팔라비 가문"
+ PER_neutrality_party_long: "팔라비 가문"
+ 
+ PER_despotism_party: "팔라비 가문"
+ PER_despotism_party_long: "팔라비 가문"
+ 
+ PER_fascism_party: "이슬람 근본주의"
+ PER_fascism_party_long: "이슬람 근본주의"
+ 
+ #PER_communism_party: "이란 민중당"
+ #PER_communism_party_long: "이란 민중당"
+ 
+ ##############################################################
+ ########################## 콜롬비아 ##########################
+ ##############################################################
+
+ COL_communism_party: "콜롬비아 공산당 (친소파)"
+ COL_communism_party_long: "콜롬비아 공산당 (친소파)"
+
+ COL_rev_socialism_party: "콜롬비아 공산당 (혁명사회당)"
+ COL_rev_socialism_party_long: "콜롬비아 공산당 (혁명사회당)"
+ 
+ COL_dem_socialism_party: "콜롬비아 자유당 (급진파)"
+ COL_dem_socialism_party_long: "콜롬비아 자유당 (급진파)"
+ 
+ COL_soc_liberalism_party: "콜롬비아 자유당 (온건파)"
+ COL_soc_liberalism_party_long: "콜롬비아 자유당 (온건파)"
+ 
+ COL_old_liberalism_party: "콜롬비아 자유당 (국민집중)"
+ COL_old_liberalism_party_long: "콜롬비아 자유당 (국민집중)"
+ 
+ COL_democratic_party: "콜롬비아 보수당 (국민집중)"
+ COL_democratic_party_long: "콜롬비아 보수당 (국민집중)"
+ 
+ COL_soc_conservatism_party: "콜롬비아 보수당 (보수파)"
+ COL_soc_conservatism_party_long: "콜롬비아 보수당 (보수파)"
+ 
+ COL_neutrality_party: "콜롬비아 보수당 (극우파)"
+ COL_neutrality_party_long: "콜롬비아 보수당 (극우파)"
+ 
+ COL_despotism_party: "콜롬비아 군부"
+ COL_despotism_party_long: "콜롬비아 군부"
+ 
+ COL_fascism_party: "콜롬비아 보수당 (극단분자)"
+ COL_fascism_party_long: "콜롬비아 보수당 (극단분자)"
+ 
+ ####################################################################
+ ########################## 체코슬로바키아 ##########################
+ ####################################################################
+
+ CZE_communism_party: "체코슬로바키아 공산당"
+ CZE_communism_party_long: "체코슬로바키아 공산당"
+
+ CZE_rev_socialism_party: "체코슬로바키아 공산당"
+ CZE_rev_socialism_party_long: "체코슬로바키아 공산당"
+ 
+ CZE_dem_socialism_party: "사회민주노동당"
+ CZE_dem_socialism_party_long: "사회민주노동당"
+ 
+ CZE_soc_liberalism_party: "체코슬로바키아 국민사회당"
+ CZE_soc_liberalism_party_long: "체코슬로바키아 국민사회당"
+ 
+ CZE_old_liberalism_party: "농민소농공화당"
+ CZE_old_liberalism_party_long: "농민소농공화당"
+ 
+ CZE_democratic_party: "인민당"
+ CZE_democratic_party_long: "인민당"
+ 
+ CZE_soc_conservatism_party: "국민통일당"
+ CZE_soc_conservatism_party_long: "국민통일당"
+ 
+ CZE_neutrality_party: "자치 블록 (슬로바키아)"
+ CZE_neutrality_party_long: "자치 블록 (슬로바키아)"
+ 
+ CZE_despotism_party: "체코슬로바키아 군부"
+ CZE_despotism_party_long: "체코슬로바키아 군부"
+ 
+ CZE_fascism_party: "국가 파시스트 공동체"
+ CZE_fascism_party_long: "국가 파시스트 공동체"
+ 
+ #수정 필요
+ CHL_fascism_party: "국가사회주의 운동"
+ CHL_fascism_party_long: "국가사회주의 운동"
+ CHL_democratic_party: "자유당"
+ CHL_communism_party: "칠레 공산당"
+ CHL_communism_party_long: "칠레 공산당"
+ 
+ #수정 필요
+ ETH_neutrality_party: "솔로몬 가문"
+ ETH_democratic_party: "에티오피아 민주연합"
+ 
+ #수정 필요
+ ALB_neutrality_party: "조구 가문"
+ ALB_neutrality_party_long: "조구 가문"
+ ALB_fascism_party: "알바니아 파시스트당"
+ ALB_fascism_party_long: "알바니아 파시스트당"
+ ALB_democratic_party: "알바니아 독립당"
+ ALB_democratic_party_long: "알바니아 독립당"
+ ALB_communism_party: "알바니아 노동당"
+ ALB_communism_party_long: "알바니아 노동당"
+ 
+ #수정 필요
+ BOL_democratic_party: "자유당"
+ BOL_democratic_party_long: "자유당"
+ BOL_fascism_party: "볼리비아 사회주의 팔랑헤"
+ BOL_fascism_party_long: "볼리비아 사회주의 팔랑헤"
+ BOL_neutrality_party: "사회군사정부"
+ 
+ #수정 필요
+ NIC_democratic_party: "국민자유당"
+ NIC_democratic_party_long: "국민자유당"
+ 
+ #수정 필요
+ COS_democratic_party: "공화당"
+ COS_democratic_party_long: "공화당"
+ COS_communism_party: "인민선봉당"
+ COS_communism_party_long: "인민선봉당"
+ 
+ #수정 필요
+ ELS_fascism_party: "국민당"
+ ELS_fascism_party_long: "국민당"
+ 
+ #수정 필요
+ GUA_democratic_party: "진보자유당"
+ GUA_democratic_party_long: "진보자유당"
+ 
+ ##########################################################
+ ########################## 시암 ##########################
+ ##########################################################
+ 
+ #수정 필요
+ SIA_communism_party: "시암 공산당"  #조건에 따라 변경 -> 태국 공산당
+ SIA_communism_party_long: "시암 공산당"
+
+ SIA_rev_socialism_party: "혁명사회주의"
+ SIA_rev_socialism_party_long: "혁명사회주의"
+ 
+ SIA_dem_socialism_party: "인민당"
+ SIA_dem_socialism_party_long: "인민당"
+ 
+ SIA_soc_liberalism_party: "인민당"
+ SIA_soc_liberalism_party_long: "인민당"
+ 
+ SIA_old_liberalism_party: "인민당"
+ SIA_old_liberalism_party_long: "인민당"
+ 
+ SIA_democratic_party: "인민당"
+ SIA_democratic_party_long: "인민당"
+ 
+ SIA_soc_conservatism_party: "인민당"
+ SIA_soc_conservatism_party_long: "인민당"
+ 
+ SIA_neutrality_party: "인민당"
+ SIA_neutrality_party_long: "인민당"
+ 
+ SIA_despotism_party: "인민당"
+ SIA_despotism_party_long: "인민당"
+ 
+ SIA_fascism_party: "인민당"
+ SIA_fascism_party_long: "인민당"
+ 
+ ##############################################################
+ ########################## 우루과이 ##########################
+ ##############################################################
+
+ URG_communism_party: "우루과이 공산당"
+ URG_communism_party_long: "우루과이 공산당"
+
+ URG_rev_socialism_party: "우루과이 사회당"
+ URG_rev_socialism_party_long: "우루과이 사회당"
+ 
+ URG_dem_socialism_party: "콜로라도당 (리스타 14)"
+ URG_dem_socialism_party_long: "콜로라도당 (리스타 14)"
+ 
+ URG_soc_liberalism_party: "콜로라도당 (리스타 15)"
+ URG_soc_liberalism_party_long: "콜로라도당 (리스타 15)"
+ 
+ URG_old_liberalism_party: "독립국민당"
+ URG_old_liberalism_party_long: "독립국민당"
+ 
+ URG_democratic_party: "국민당 (리스타 400)"
+ URG_democratic_party_long: "국민당 (리스타 400)"
+ 
+ URG_soc_conservatism_party: "국민당 (에레라주의)"
+ URG_soc_conservatism_party_long: "국민당 (에레라주의)"
+ 
+ URG_neutrality_party: "콜로라도당 (3월주의자)"
+ URG_neutrality_party_long: "콜로라도당 (3월주의자)"
+ 
+ URG_despotism_party: "디아스 데 사라비아 애국집중"
+ URG_despotism_party_long: "디아스 데 사라비아 애국집중"
+ 
+ URG_fascism_party: "우루과이 수정주의 행동"
+ URG_fascism_party_long: "우루과이 수정주의 행동"
+ 
+ ################################################################
+ ########################## 베네수엘라 ##########################
+ ################################################################
+
+ VEN_communism_party: "베네수엘라 공산당"
+ VEN_communism_party_long: "베네수엘라 공산당"
+
+ VEN_rev_socialism_party: "혁명좌익그룹" #조건에 따라 변경 -> 민주행동 (급진파)
+ VEN_rev_socialism_party_long: "혁명좌익그룹"
+ 
+ VEN_dem_socialism_party: "국민민주당" #조건에 따라 변경 -> 민주행동 (온건파)
+ VEN_dem_socialism_party_long: "국민민주당"
+ 
+ VEN_soc_liberalism_party: "민주공화연합"
+ VEN_soc_liberalism_party_long: "민주공화연합"
+ 
+ VEN_old_liberalism_party: "베네수엘라 자유당"
+ VEN_old_liberalism_party_long: "베네수엘라 자유당"
+ 
+ VEN_democratic_party: "국민행동당" #조건에 따라 변경 -> 베네수엘라 사회기독당
+ VEN_democratic_party_long: "국민행동당"
+ 
+ VEN_soc_conservatism_party: "베네수엘라 민주당"
+ VEN_soc_conservatism_party_long: "베네수엘라 민주당"
+ 
+ VEN_neutrality_party: "베네수엘라 군부 (문치파)"
+ VEN_neutrality_party_long: "베네수엘라 군부 (문치파)"
+ 
+ VEN_despotism_party: "베네수엘라 군부 (무단파)"
+ VEN_despotism_party_long: "베네수엘라 군부 (무단파)"
+ 
+ VEN_fascism_party: "베네수엘라 나치당"
+ VEN_fascism_party_long: "국가사회주의 베네수엘라 노동자당"
+ 
+ #수정 필요
+ PRU_fascism_party: "제헌의회"
+ PRU_fascism_party_long: "제헌의회"
+ PRU_communism_party: "페루 공산당"
+ PRU_communism_party_long: "페루 공산당"
+ 
+ ##############################################################
+ ########################## 아일랜드 ##########################
+ ##############################################################
+
+ IRE_communism_party: "아일랜드 공산당 (친소파)"
+ IRE_communism_party_long: "아일랜드 공산당 (친소파)"
+
+ IRE_rev_socialism_party: "아일랜드 공산당 (혁명노동그룹)"
+ IRE_rev_socialism_party_long: "아일랜드 공산당 (혁명노동그룹)"
+ 
+ IRE_dem_socialism_party: "아일랜드 노동당 (용공파)"
+ IRE_dem_socialism_party_long: "아일랜드 노동당 (용공파)"
+ 
+ IRE_soc_liberalism_party: "아일랜드 노동당 (반공파)"
+ IRE_soc_liberalism_party_long: "아일랜드 노동당 (반공파)"
+ 
+ IRE_old_liberalism_party: "피너 게일 (국민중도당)"
+ IRE_old_liberalism_party_long: "피너 게일 (국민중도당)"
+ 
+ IRE_democratic_party: "피어너 팔 (온건파)"
+ IRE_democratic_party_long: "피어너 팔 (온건파)"
+ 
+ IRE_soc_conservatism_party: "피어너 팔 (강경파)"
+ IRE_soc_conservatism_party_long: "피어너 팔 (강경파)"
+ 
+ IRE_neutrality_party: "피너 게일 (게일인협회)"
+ IRE_neutrality_party_long: "피너 게일 (게일인협회)"
+ 
+ IRE_despotism_party: "피너 게일 (푸른 셔츠단)"
+ IRE_despotism_party_long: "피너 게일 (푸른 셔츠단)"
+ 
+ IRE_fascism_party: "국민협동조합당"
+ IRE_fascism_party_long: "국민협동조합당"
+ 
+ ##################################################################
+ ########################## 아프가니스탄 ##########################
+ ##################################################################
+ 
+ #수정 필요
+ AFG_communism_party: "공산주의"
+ AFG_communism_party_long: "공산주의"
+
+ AFG_rev_socialism_party: "혁명사회주의"
+ AFG_rev_socialism_party_long: "혁명사회주의"
+ 
+ AFG_dem_socialism_party: "민주사회주의"
+ AFG_dem_socialism_party_long: "민주사회주의"
+ 
+ AFG_soc_liberalism_party: "사회자유주의"
+ AFG_soc_liberalism_party_long: "사회자유주의"
+ 
+ AFG_old_liberalism_party: "고전자유주의"
+ AFG_old_liberalism_party_long: "고전자유주의"
+ 
+ AFG_democratic_party: "자유보수주의"
+ AFG_democratic_party_long: "자유보수주의"
+ 
+ AFG_soc_conservatism_party: "사회보수주의"
+ AFG_soc_conservatism_party_long: "사회보수주의"
+ 
+ AFG_neutrality_party: "바라크자이 가문"
+ AFG_neutrality_party_long: "바라크자이 가문"
+ 
+ AFG_despotism_party: "바라크자이 가문"
+ AFG_despotism_party_long: "바라크자이 가문"
+ 
+ AFG_fascism_party: "이슬람 근본주의"
+ AFG_fascism_party_long: "이슬람 근본주의"
+ 
+ #수정 필요
+ LUX_democratic_party: "우파당"
+ LUX_communism_party: "룩셈부르크 공산당"
+ LUX_communism_party_long: "룩셈부르크 공산당"
+ LUX_fascism_party: "독립국가당"
+ LUX_fascism_party_long: "독립국가당"
+ 
+ ##########################################################
+ ########################## 부탄 ##########################
+ ##########################################################
+ 
+ #수정 필요?
+ BHU_communism_party: "공산주의"
+ BHU_communism_party_long: "공산주의"
+
+ BHU_rev_socialism_party: "혁명사회주의"
+ BHU_rev_socialism_party_long: "혁명사회주의"
+ 
+ BHU_dem_socialism_party: "민주사회주의"
+ BHU_dem_socialism_party_long: "민주사회주의"
+ 
+ BHU_soc_liberalism_party: "사회자유주의"
+ BHU_soc_liberalism_party_long: "사회자유주의"
+ 
+ BHU_old_liberalism_party: "고전자유주의"
+ BHU_old_liberalism_party_long: "고전자유주의"
+ 
+ BHU_democratic_party: "자유보수주의"
+ BHU_democratic_party_long: "자유보수주의"
+ 
+ BHU_soc_conservatism_party: "사회보수주의"
+ BHU_soc_conservatism_party_long: "사회보수주의"
+ 
+ BHU_neutrality_party: "왕축 가문"
+ BHU_neutrality_party_long: "왕축 가문"
+ 
+ BHU_despotism_party: "왕축 가문"
+ BHU_despotism_party_long: "왕축 가문"
+ 
+ BHU_fascism_party: "잡드룽 충성파"
+ BHU_fascism_party_long: "잡드룽 충성파"
+ 
+ #수정 필요
+ SLO_fascism_party: "흘린카의 슬로바키아 인민당"
+ SLO_fascism_party_long: "흘린카의 슬로바키아 인민당"
+ SLO_communism_party: "슬로바키아 공산당"
+ SLO_communism_party_long: "슬로바키아 공산당"\
+ 
+ ##############################################################
+ ########################## 에콰도르 ##########################
+ ##############################################################
+
+ ECU_communism_party: "에콰도르 공산당 (친소파)"
+ ECU_communism_party_long: "에콰도르 공산당 (친소파)"
+
+ ECU_rev_socialism_party: "에콰도르 공산당 (온건파)"
+ ECU_rev_socialism_party_long: "에콰도르 공산당 (온건파)"
+ 
+ ECU_dem_socialism_party: "에콰도르 사회당 (치리보가파)"
+ ECU_dem_socialism_party_long: "에콰도르 사회당 (치리보가파)"
+ 
+ ECU_soc_liberalism_party: "에콰도르 급진자유당 (나바에스파)"
+ ECU_soc_liberalism_party_long: "에콰도르 급진자유당 (나바에스파)"
+ 
+ ECU_old_liberalism_party: "에콰도르 급진자유당 (델 리오파)"
+ ECU_old_liberalism_party_long: "에콰도르 급진자유당 (델 리오파)"
+ 
+ ECU_democratic_party: "에콰도르 급진자유당 (코르도바파)"
+ ECU_democratic_party_long: "에콰도르 급진자유당 (코르도바파)"
+ 
+ ECU_soc_conservatism_party: "에콰도르 보수당 (온건파)"
+ ECU_soc_conservatism_party_long: "에콰도르 보수당 (온건파)"
+ 
+ ECU_neutrality_party: "에콰도르 보수당 (강경파)"
+ ECU_neutrality_party_long: "에콰도르 보수당 (강경파)"
+ 
+ ECU_despotism_party: "에콰도르 사회당 (갈로파)"
+ ECU_despotism_party_long: "에콰도르 사회당 (갈로파)"
+ 
+ ECU_fascism_party: "에콰도르 국민혁명동맹"
+ ECU_fascism_party_long: "에콰도르 국민혁명동맹"
+ 
+ #수정 필요
+ HON_democratic_party: "온두라스 자유당"
+ HON_communism_party: "온두라스 공산당"
+ HON_communism_party_long: "온두라스 공산당"
+ 
+ ##########################################################
+ ########################## 네팔 ##########################
+ ##########################################################
+
+ NEP_communism_party: "공산주의"
+ NEP_communism_party_long: "공산주의"
+
+ NEP_rev_socialism_party: "혁명사회주의"
+ NEP_rev_socialism_party_long: "혁명사회주의"
+ 
+ NEP_dem_socialism_party: "민주사회주의"
+ NEP_dem_socialism_party_long: "민주사회주의"
+ 
+ NEP_soc_liberalism_party: "사회자유주의"
+ NEP_soc_liberalism_party_long: "사회자유주의"
+ 
+ NEP_old_liberalism_party: "고전자유주의"
+ NEP_old_liberalism_party_long: "고전자유주의"
+ 
+ NEP_democratic_party: "자유보수주의"
+ NEP_democratic_party_long: "자유보수주의"
+ 
+ NEP_soc_conservatism_party: "사회보수주의"
+ NEP_soc_conservatism_party_long: "사회보수주의"
+ 
+ NEP_neutrality_party: "샤 가문"
+ NEP_neutrality_party_long: "샤 가문"
+ 
+ NEP_despotism_party: "라나 가문"
+ NEP_despotism_party_long: "라나 가문"
+ 
+ NEP_fascism_party: "라나 가문"
+ NEP_fascism_party_long: "라나 가문"
+ 
+ #수정 필요
+ PAN_democratic_party: "독립자유당"
+ PAN_democratic_party_long: "독립자유당"
+ PAN_communism_party: "파나마 인민당"
+ PAN_communism_party_long: "파나마 인민당"
+ 
+  #수정 필요
+ PHI_fascism_party: "가납당"
+ PHI_fascism_party_long: "가납당"
+ PHI_democratic_party: "국민당"
+ PHI_democratic_party_long: "국민당"
+ PHI_communism_party: "필리핀 공산당"
+ PHI_communism_party_long: "필리핀 공산당"
+ 
+ ####################################################################
+ ########################## 사우디아라비아 ##########################
+ ####################################################################
+ 
+ #수정 필요?
+ SAU_communism_party: "공산주의"
+ SAU_communism_party_long: "공산주의"
+
+ SAU_rev_socialism_party: "혁명사회주의"
+ SAU_rev_socialism_party_long: "혁명사회주의"
+ 
+ SAU_dem_socialism_party: "민주사회주의"
+ SAU_dem_socialism_party_long: "민주사회주의"
+ 
+ SAU_soc_liberalism_party: "사회자유주의"
+ SAU_soc_liberalism_party_long: "사회자유주의"
+ 
+ SAU_old_liberalism_party: "고전자유주의"
+ SAU_old_liberalism_party_long: "고전자유주의"
+ 
+ SAU_democratic_party: "자유보수주의"
+ SAU_democratic_party_long: "자유보수주의"
+ 
+ SAU_soc_conservatism_party: "사회보수주의"
+ SAU_soc_conservatism_party_long: "사회보수주의"
+ 
+ SAU_neutrality_party: "사우드 가문"
+ SAU_neutrality_party_long: "사우드 가문"
+ 
+ SAU_despotism_party: "사우드 가문"
+ SAU_despotism_party_long: "사우드 가문"
+ 
+ SAU_fascism_party: "이슬람 근본주의"
+ SAU_fascism_party_long: "이슬람 근본주의"
+ 
+ ##########################################################
+ ########################## 예멘 ##########################
+ ##########################################################
+
+ #수정 필요?
+ YEM_communism_party: "공산주의"
+ YEM_communism_party_long: "공산주의"
+
+ YEM_rev_socialism_party: "혁명사회주의"
+ YEM_rev_socialism_party_long: "혁명사회주의"
+ 
+ YEM_dem_socialism_party: "민주사회주의"
+ YEM_dem_socialism_party_long: "민주사회주의"
+ 
+ YEM_soc_liberalism_party: "사회자유주의"
+ YEM_soc_liberalism_party_long: "사회자유주의"
+ 
+ YEM_old_liberalism_party: "고전자유주의"
+ YEM_old_liberalism_party_long: "고전자유주의"
+ 
+ YEM_democratic_party: "자유보수주의"
+ YEM_democratic_party_long: "자유보수주의"
+ 
+ YEM_soc_conservatism_party: "사회보수주의"
+ YEM_soc_conservatism_party_long: "사회보수주의"
+ 
+ YEM_neutrality_party: "라시드 가문"
+ YEM_neutrality_party_long: "라시드 가문"
+ 
+ YEM_despotism_party: "라시드 가문"
+ YEM_despotism_party_long: "라시드 가문"
+ 
+ YEM_fascism_party: "이슬람 근본주의"
+ YEM_fascism_party_long: "이슬람 근본주의"
+
+ ##########################################################
+ ########################## 오만 ##########################
+ ##########################################################
+
+ #수정 필요?
+ OMA_communism_party: "공산주의"
+ OMA_communism_party_long: "공산주의"
+
+ OMA_rev_socialism_party: "혁명사회주의"
+ OMA_rev_socialism_party_long: "혁명사회주의"
+ 
+ OMA_dem_socialism_party: "민주사회주의"
+ OMA_dem_socialism_party_long: "민주사회주의"
+ 
+ OMA_soc_liberalism_party: "사회자유주의"
+ OMA_soc_liberalism_party_long: "사회자유주의"
+ 
+ OMA_old_liberalism_party: "고전자유주의"
+ OMA_old_liberalism_party_long: "고전자유주의"
+ 
+ OMA_democratic_party: "자유보수주의"
+ OMA_democratic_party_long: "자유보수주의"
+ 
+ OMA_soc_conservatism_party: "사회보수주의"
+ OMA_soc_conservatism_party_long: "사회보수주의"
+ 
+ OMA_neutrality_party: "사이드 가문"
+ OMA_neutrality_party_long: "사이드 가문"
+ 
+ OMA_despotism_party: "사이드 가문"
+ OMA_despotism_party_long: "사이드 가문"
+ 
+ OMA_fascism_party: "이슬람 근본주의"
+ OMA_fascism_party_long: "이슬람 근본주의"
+ 
+ ##########################################################
+ ########################## 신강 ##########################
+ ##########################################################
+
+ SIK_communism_party: "동튀르키스탄 공산당"
+ SIK_communism_party_long: "동튀르키스탄 공산당"
+
+ SIK_rev_socialism_party: "위구르 혁명당"
+ SIK_rev_socialism_party_long: "위구르 혁명당"
+ 
+ SIK_dem_socialism_party: "중화혁명당 서북지부"
+ SIK_dem_socialism_party_long: "중화혁명당 서북지부"
+ 
+ SIK_soc_liberalism_party: "국민당 서북지부"
+ SIK_soc_liberalism_party_long: "국민당 서북지부"
+ 
+ SIK_old_liberalism_party: "국민당 서북지부"
+ SIK_old_liberalism_party_long: "국민당 서북지부"
+ 
+ SIK_democratic_party: "국민당 서북지부"
+ SIK_democratic_party_long: "국민당 서북지부"
+ 
+ SIK_soc_conservatism_party: "우루무치 임시성정부" #조건에 따라 변경 -> 진보당 서북지부
+ SIK_soc_conservatism_party_long: "우루무치 임시성정부"
+ 
+ SIK_neutrality_party: "이번부 신강아문"
+ SIK_neutrality_party_long: "이번부 신강아문"
+ 
+ SIK_despotism_party: "신강토적군"
+ SIK_despotism_party_long: "신강토적군"
+ 
+ SIK_fascism_party: "마중잉 병단"
+ SIK_fascism_party_long: "마중잉 병단"
+ 
+ ############################################################
+ ########################## 티베트 ##########################
+ ############################################################
+ 
+ #수정 필요, 혁명사회주의
+ TIB_communism_party: "티베트 공산당"
+ TIB_communism_party_long: "티베트 공산당"
+
+ TIB_rev_socialism_party: "신해구락부"
+ TIB_rev_socialism_party_long: "신해구락부"
+ 
+ TIB_dem_socialism_party: "티베트 혁명당"
+ TIB_dem_socialism_party_long: "티베트 혁명당"
+ 
+ TIB_soc_liberalism_party: "끼초 뀐튄"
+ TIB_soc_liberalism_party_long: "끼초 뀐튄"
+ 
+ TIB_old_liberalism_party: "끼초 뀐튄"
+ TIB_old_liberalism_party_long: "끼초 뀐튄"
+ 
+ TIB_democratic_party: "청년 티베트당"
+ TIB_democratic_party_long: "청년 티베트당"
+ 
+ TIB_soc_conservatism_party: "청년 티베트당"
+ TIB_soc_conservatism_party_long: "청년 티베트당"
+ 
+ TIB_neutrality_party: "청년 티베트당"
+ TIB_neutrality_party_long: "청년 티베트당"
+ 
+ TIB_despotism_party: "간덴 포드랑"
+ TIB_despotism_party_long: "간덴 포드랑"
+ 
+ TIB_fascism_party: "간덴 포드랑"
+ TIB_fascism_party_long: "간덴 포드랑"
+ 
+ #수정 필요?
+ YUN_neutrality_party: "국민당"
+ 
+ ##########################################################
+ ########################## 몽골 ##########################
+ ##########################################################
+
+ MON_communism_party: "몽골 인민당"
+ MON_communism_party_long: "몽골 인민당"
+
+ MON_rev_socialism_party: "몽골 인민당"
+ MON_rev_socialism_party_long: "몽골 인민당"
+ 
+ MON_dem_socialism_party: "몽골 인민당"
+ MON_dem_socialism_party_long: "몽골 인민당"
+ 
+ MON_soc_liberalism_party: "후랄"
+ MON_soc_liberalism_party_long: "후랄"
+ 
+ MON_old_liberalism_party: "후랄"
+ MON_old_liberalism_party_long: "후랄"
+ 
+ MON_democratic_party: "후랄"
+ MON_democratic_party_long: "후랄"
+ 
+ MON_soc_conservatism_party: "후랄"
+ MON_soc_conservatism_party_long: "후랄"
+ 
+ MON_neutrality_party: "왕공회의"
+ MON_neutrality_party_long: "왕공회의"
+ 
+ MON_despotism_party: "왕공회의"
+ MON_despotism_party_long: "왕공회의"
+ 
+ MON_fascism_party: "불교의회"
+ MON_fascism_party_long: "불교의회"
+ 
+ #수정 필요?
+ TAN_communism_party: "소련 공산당"
+ TAN_communism_party_long: "소련 공산당"
+ 
+ #수정 필요
+ PAR_communism_party: "2월 혁명당"
+ PAR_communism_party_long: "2월 혁명당"
+ 
+ #수정 필요
+ CUB_democratic_party: "국민연합"
+ CUB_democratic_party_long: "국민연합"
+ CUB_communism_party: "쿠바 공산당"
+ CUB_communism_party_long: "쿠바 공산당"
+ 
+ #수정 필요
+ DOM_fascism_party: "도미니카당"
+ DOM_fascism_party_long: "도미니카당"
+ 
+ #수정 필요
+ HAI_democratic_party: "스테니오 뱅상 대통령"
+ HAI_democratic_party_long: "스테니오 뱅상 대통령"
+ HAI_communism_party: "아이티 공산당"
+ HAI_communism_party_long: "아이티 공산당"
+ 
+ ##########################################################
+ ########################## 한국 ##########################
+ ##########################################################
+
+ KOR_communism_party: "고려공산당"
+ KOR_communism_party_long: "고려공산당"
+
+ KOR_rev_socialism_party: "한성 트로이카"
+ KOR_rev_socialism_party_long: "한성 트로이카"
+ 
+ KOR_dem_socialism_party: "신한청년당"
+ KOR_dem_socialism_party_long: "신한청년당"
+ 
+ KOR_soc_liberalism_party: "신민당 (동우회)"
+ KOR_soc_liberalism_party_long: "신민당 (동우회)"
+ 
+ KOR_old_liberalism_party: "신민당 (연정회)"
+ KOR_old_liberalism_party_long: "신민당 (연정회)"
+ 
+ KOR_democratic_party: "입헌개화당 (독립파)"
+ KOR_democratic_party_long: "입헌개화당 (독립파)"
+ 
+ KOR_soc_conservatism_party: "입헌개화당 (우남파)"
+ KOR_soc_conservatism_party_long: "입헌개화당 (우남파)"
+ 
+ KOR_neutrality_party: "건흥대연정" #조건에 따라 변경 -> 황국협회 (군민공치파)
+ KOR_neutrality_party_long: "건흥대연정"
+ 
+ KOR_despotism_party: "황국협회 (충군애국파)"
+ KOR_despotism_party_long: "황국협회 (충군애국파)"
+ 
+ KOR_fascism_party: "대한민족당" #조건에 따라 변경 -> 일심회
+ KOR_fascism_party_long: "대한민족당"
+ 
+ #수정 필요
+ ICE_democratic_party: "진보당"
+ ICE_communism_party: "아이슬란드 공산당"
+ ICE_communism_party_long: "아이슬란드 공산당"
+ ICE_fascism_party: "범국민당"
+ ICE_fascism_party_long: "범국민당"
+ ICE_neutrality_party: "독립당"
+ 
+ #수정 필요
+ SYR_fascism_party: "시리아 사회민족당"
+ SYR_fascism_party_long: "시리아 사회민족당"
+ SYR_communism_party: "시리아 공산당"
+ SYR_democratic_party: "국민연합"
+ SYR_neutrality_party: "왕당파"
+ 
+ #수정 필요
+ LEB_fascism_party: "카타이브"
+ LEB_neutrality_party: "야라디"
+ LEB_communism_party: "공산주의자 동맹"
+ LEB_democratic_party: "입헌연합"
+ 
+ #수정 필요
+ JOR_fascism_party: "요르단 팔랑헤"
+ JOR_neutrality_party: "하심 가문"
+ JOR_democratic_party: "국민자유당"
+ JOR_communism_party: "요르단 노동자회"
+ 
+ #수정 필요
+ EGY_communism_party: "이집트 공산당"
+ EGY_fascism_party: "청년 이집트당"
+ EGY_democratic_party: "자유 행진"
+ EGY_neutrality_party: "왕당파"
+ 
+ #수정 필요
+ PAL_fascism_party: "알무카다스"
+ PAL_communism_party: "민족해방동맹"
+ PAL_communism_party_long: "민족해방동맹"
+ PAL_democratic_party: "최고 무슬림 위원회"
+ PAL_democratic_party_long: "최고 무슬림 위원회"
+ PAL_neutrality_party: "충성파"
+ 
+ #수정 필요
+ ISR_communism_party: "마키"
+ ISR_democratic_party: "마파이"
+ ISR_fascism_party: "헬팜"
+ ISR_neutrality_party: "중앙위원회"
+ 
+ ##############################################################
+ ########################## 북베트남 ##########################
+ ##############################################################
+
+ VNM_communism_party: "베트남 공산당"
+ VNM_communism_party_long: "베트남 공산당"
+
+ VNM_rev_socialism_party: "베트남 공산당"
+ VNM_rev_socialism_party_long: "베트남 공산당"
+ 
+ ##############################################################
+ ########################## 남베트남 ##########################
+ ##############################################################
+
+ VIN_communism_party: "베트남 공산당"
+ VIN_communism_party_long: "베트남 공산당"
+
+ VIN_rev_socialism_party: "베트남 공산당"
+ VIN_rev_socialism_party_long: "베트남 공산당"
+ 
+ VIN_dem_socialism_party: "베트남 국민당 (민주파)"
+ VIN_dem_socialism_party_long: "베트남 국민당 (민주파)"
+ 
+ VIN_soc_liberalism_party: "베트남 국민당 (민주파)"
+ VIN_soc_liberalism_party_long: "베트남 국민당 (민주파)"
+ 
+ VIN_old_liberalism_party: "부흥당"
+ VIN_old_liberalism_party_long: "부흥당"
+ 
+ VIN_democratic_party: "부흥당"
+ VIN_democratic_party_long: "부흥당"
+ 
+ VIN_soc_conservatism_party: "베트남 복국동맹회"
+ VIN_soc_conservatism_party_long: "베트남 복국동맹회"
+ 
+ VIN_neutrality_party: "베트남 국민당 (군국파)"
+ VIN_neutrality_party_long: "베트남 국민당 (군국파)"
+ 
+ VIN_despotism_party: "군주주의"
+ VIN_despotism_party_long: "군주주의"
+ 
+ VIN_fascism_party: "까오다이"
+ VIN_fascism_party_long: "대도삼기보도"
+ 
+ ##############################################################
+ ########################## 캄보디아 ##########################
+ ##############################################################
+
+ CAM_communism_party: "캄푸치아 인민혁명당"
+ CAM_communism_party_long: "캄푸치아 인민혁명당"
+
+ CAM_rev_socialism_party: "캄푸치아 인민혁명당"
+ CAM_rev_socialism_party_long: "캄푸치아 인민혁명당"
+ 
+ CAM_dem_socialism_party: "민주당"
+ CAM_dem_socialism_party_long: "민주당"
+ 
+ CAM_soc_liberalism_party: "민주당"
+ CAM_soc_liberalism_party_long: "민주당"
+ 
+ CAM_old_liberalism_party: "민주당"
+ CAM_old_liberalism_party_long: "민주당"
+ 
+ CAM_democratic_party: "민주당"
+ CAM_democratic_party_long: "민주당"
+ 
+ CAM_soc_conservatism_party: "민주당"
+ CAM_soc_conservatism_party_long: "민주당"
+ 
+ CAM_neutrality_party: "자유당"
+ CAM_neutrality_party_long: "자유당"
+ 
+ CAM_despotism_party: "캄보디아 추밀원"
+ CAM_despotism_party_long: "캄보디아 추밀원"
+ 
+ CAM_fascism_party: "자유 크메르"
+ CAM_fascism_party_long: "자유 크메르"
+ 
+ #수정 필요
+ INS_fascism_party: "신질서"
+ INS_democratic_party: "인도네시아 국민당"
+ INS_communism_party: "인도네시아 공산당"
+ INS_neutrality_party: "민주당"
+ 
+ #수정 필요
+ MAL_fascism_party: "범오세아시아 연합주의자"
+ MAL_democratic_party: "통일말레이국민조직"
+ MAL_communism_party: "말라야 공산당"
+ MAL_neutrality_party: "말레이 청년연맹"
+ 
+ ############################################################
+ ########################## 라오스 ##########################
+ ############################################################
+
+ LAO_communism_party: "파테트라오"
+ LAO_communism_party_long: "파테트라오"
+
+ LAO_rev_socialism_party: "파테트라오"
+ LAO_rev_socialism_party_long: "파테트라오"
+ 
+ LAO_dem_socialism_party: "파테트라오"
+ LAO_dem_socialism_party_long: "파테트라오"
+ 
+ LAO_soc_liberalism_party: "중립파"
+ LAO_soc_liberalism_party_long: "중립파"
+ 
+ LAO_old_liberalism_party: "중립파"
+ LAO_old_liberalism_party_long: "중립파"
+ 
+ LAO_democratic_party: "중립파"
+ LAO_democratic_party_long: "중립파"
+ 
+ LAO_soc_conservatism_party: "중립파"
+ LAO_soc_conservatism_party_long: "중립파"
+ 
+ LAO_neutrality_party: "왕당파"
+ LAO_neutrality_party_long: "왕당파"
+ 
+ LAO_despotism_party: "왕당파"
+ LAO_despotism_party_long: "왕당파"
+ 
+ LAO_fascism_party: "라오스 군부"
+ LAO_fascism_party_long: "라오스 군부"
+ 
+ #수정 필요
+ MNT_fascism_party: "녹색당"
+ MNT_democratic_party: "민주연맹"
+ MNT_communism_party: "몬테네그로 공산당"
+ MNT_neutrality_party: "연방당"
+ 
+ #수정 필요
+ UKR_fascism_party: "우크라이나 민족주의자 단체"
+ UKR_democratic_party: "우크라이나 민족민주동맹"
+ UKR_communism_party: "우크라이나 공산당"
+ UKR_neutrality_party: "우크라이나 진보당"
+ 
+ #수정 필요
+ GEO_fascism_party: "트빌리시 의회"
+ GEO_democratic_party: "조지아 사회민주당"
+ GEO_communism_party: "조지아 공산당"
+ GEO_neutrality_party: "조지아 대회"
+ 
+ #수정 필요
+ KAZ_fascism_party: "부족주의 연합"
+ KAZ_democratic_party: "알라시당"
+ KAZ_communism_party: "카자흐스탄 공산당"
+ KAZ_neutrality_party: "왕당파"
+ 
+ #수정 필요
+ AZR_fascism_party: "화마군벌"
+ AZR_democratic_party: "평등당"
+ AZR_communism_party: "아제르바이잔 공산당"
+ AZR_neutrality_party: "에티하드"
+ 
+ #수정 필요
+ ARM_fascism_party: "아르메니아 군단"
+ ARM_democratic_party: "아르메니아 혁명연맹"
+ ARM_communism_party: "아르메니아 공산당"
+ ARM_neutrality_party: "중앙집권주의자"
+ 
+ #수정 필요
+ BLR_fascism_party: "벨라루스 중앙 라다"
+ BLR_democratic_party: "벨라루스 기독교민주당"
+ BLR_communism_party: "벨라루스 공산당"
+ BLR_neutrality_party: "벨라루스 사회주의 회의"
+ 
+ #수정 필요
+ PAK_democratic_party: "가나탄트리 달"
+ PAK_communism_party: "파키스탄 사회당"
+ PAK_neutrality_party: "무슬림 연맹"
+ 
+ #수정 필요?
+ PRC_democratic_party: "국민당 혁명위원회"
+ PRC_democratic_party_long: "국민당 혁명위원회"
+ PRC_communism_party: "중국 공산당"
+ PRC_communism_party_long: "중국 공산당"
+ 
+ #수정 필요?
+ SHX_neutrality_party: "국민당"
+ SHX_communism_party: "중국 공산당"
+ SHX_communism_party_long: "중국 공산당"
+ GXC_neutrality_party: "신광서군벌"
+ GXC_communism_party: "중국 공산당"
+ GXC_communism_party_long: "중국 공산당"
+ YUN_communism_party: "중국 공산당"
+ YUN_communism_party_long: "중국 공산당"
+ MAN_fascism_party: "만주국 협화회"
+ MAN_fascism_party_long: "만주국 협화회"
+ 
+ #수정 필요
+ TAH_fascism_party: "푸바나 아 우파"
+ TAH_fascism_party_long: "푸바나 아 우파"
+ TAH_neutrality_party: "마이라우 가문"
+ TAH_neutrality_party_long: "마이라우 가문"
+ TAH_democratic_party: "민주연합"
+ TAH_democratic_party_long: "민주연합"
+ TAH_communism_party: "폴리네시아 사회단결당"
+ TAH_communism_party_long: "폴리네시아 사회단결당"
+ 
+ #수정 필요
+ FSM_fascism_party: "사우델레우르 복원당"
+ FSM_fascism_party_long: "사우델레우르 복원당"
+ FSM_democratic_party: "미크로네시아 민주연합"
+ FSM_democratic_party_long: "미크로네시아 민주연합"
+ FSM_communism_party: "폰페이 공산주의 조합"
+ FSM_communism_party_long: "폰페이 공산주의 조합"
+ 
+ #수정 필요
+ GUM_fascism_party: "마리아나 독립결사단"
+ GUM_fascism_party_long: "마리아나 독립결사단"
+ GUM_democratic_party: "마리아나 공화당"
+ GUM_democratic_party_long: "마리아나 공화당"
+ GUM_communism_party: "마리아나 레닌주의당"
+ GUM_communism_party_long: "마리아나 레닌주의당"
+ 
+ #수정 필요
+ SOL_fascism_party: "솔로몬 기독당"
+ SOL_fascism_party_long: "솔로몬 기독당"
+ SOL_neutrality_party: "솔로몬 중립당"
+ SOL_neutrality_party_long: "솔로몬 중립당"
+ SOL_democratic_party: "솔로몬 제도 자유당"
+ SOL_democratic_party_long: "솔로몬 제도 자유당"
+ SOL_communism_party: "인민연합당"
+ SOL_communism_party_long: "인민연합당"
+ 
+ #수정 필요
+ HAW_fascism_party: "하와이 제국연맹"
+ HAW_fascism_party_long: "하와이 제국연맹"
+ HAW_neutrality_party: "카메하메하 기사단"
+ HAW_neutrality_party_long: "카메하메하 기사단"
+ HAW_democratic_party: "하와이 민주당"
+ HAW_democratic_party_long: "하와이 민주당"
+ HAW_communism_party: "하와이 공산당"
+ HAW_communism_party_long: "하와이 공산당"
+ 
+ #수정 필요
+ BRI_fascism_party: "브르타뉴 국민당"
+ BRI_fascism_party_long: "브르타뉴 국민당"
+ BRI_neutrality_party: "브르타뉴 지역주의 연합"
+ BRI_neutrality_party_long: "브르타뉴 지역주의 연합"
+ BRI_democratic_party: "브르타뉴 연방주의자 동맹"
+ BRI_democratic_party_long: "브르타뉴 연방주의자 동맹"
+ BRI_communism_party: "브르타뉴 공산당"
+ BRI_communism_party_long: "브르타뉴 공산당"
+ 
+ #수정 필요
+ GLC_fascism_party: "갈리시아 민족주의 우파"
+ GLC_fascism_party_long: "갈리시아 민족주의 우파"
+ GLC_neutrality_party: "갈리시아 공화자치협회"
+ GLC_neutrality_party_long: "갈리시아 공화자치협회"
+ GLC_democratic_party: "갈리시아당"
+ GLC_democratic_party_long: "갈리시아당"
+ GLC_communism_party: "갈리시아 혁명독립위원회"
+ GLC_communism_party_long: "갈리시아 혁명독립위원회"
+ 
+ #수정 필요
+ CAT_fascism_party: "우리 스스로!"
+ CAT_fascism_party_long: "우리 스스로!"
+ CAT_neutrality_party: "카탈루냐 연맹"
+ CAT_neutrality_party_long: "카탈루냐 연맹"
+ CAT_democratic_party: "카탈루냐 공화좌파당"
+ CAT_democratic_party_long: "카탈루냐 공화좌파당"
+ CAT_communism_party: "마르크스주의통일노동자당"
+ CAT_communism_party_long: "마르크스주의통일노동자당"
+ 
+ #수정 필요
+ NAV_fascism_party: "국가당"
+ NAV_fascism_party_long: "국가당"
+ NAV_neutrality_party: "바스크 국민당"
+ NAV_neutrality_party_long: "바스크 국민당"
+ NAV_democratic_party: "바스크 국민행동"
+ NAV_democratic_party_long: "바스크 국민행동"
+ NAV_communism_party: "바스크 공산당"
+ NAV_communism_party_long: "바스크 공산당"
+ 
+ #수정 필요
+ KUR_democratic_party: "데르심 운동"
+ KUR_democratic_party_long: "데르심 운동"
+ KUR_communism_party: "쿠르디스탄 민주당"
+ KUR_communism_party_long: "쿠르디스탄 민주당"
+ KUR_neutrality_party: "바르잔지 가문"
+ KUR_neutrality_party_long: "바르잔지 가문"
+ KUR_fascism_party: "호이분"
+ KUR_fascism_party_long: "호이분 중앙위원회"
+ 
+ #수정 필요
+ CRO_fascism_party: "우스타샤"
+ CRO_fascism_party_long: "우스타샤-크로아티아 혁명운동"
+ CRO_communism_party: "크로아티아 공산주의자 동맹"
+ CRO_communism_party_long: "크로아티아 공산주의자 동맹"
+ CRO_democratic_party: "크로아티아 농민당"
+ CRO_democratic_party_long: "크로아티아 농민당"
+ 
+ #수정 필요
+ TRA_fascism_party: "드라큘라당"
+ TRA_fascism_party_long: "드라큘라당"
+ 
+ #수정 필요
+ DNZ_fascism_party: "국가사회주의 독일 노동자당"
+ DNZ_fascism_party_long: "국가사회주의 독일 노동자당 단치히 지부"
+ DNZ_democratic_party: "단치히 사회민주당"
+ DNZ_democratic_party_long: "단치히 자유시 사회민주당"
+ DNZ_communism_party: "단치히 공산당"
+ DNZ_communism_party_long: "단치히 공산당"
+ DNZ_neutrality_party: "단치히 국가인민당"
+ DNZ_neutrality_party_long: "단치히 자유시 국가인민당"
+ 
+ #수정 필요
+ ALT_communism_party: "고르노-알타이 지역 볼셰비키당"
+ ALT_communism_party_long: "고르노-알타이 지역 볼셰비키당"
+ ALT_fascism_party: "알타이 민족우월당"
+ ALT_fascism_party_long: "알타이 민족우월당"
+ ALT_democratic_party: "엘 쿠릴타이"
+ ALT_democratic_party_long: "엘 쿠릴타이"
+ ALT_neutrality_party: "카라코룸 정부"
+ ALT_neutrality_party_long: "카라코룸 정부"
+ 
+ #수정 필요
+ KAL_communism_party: "칼미크 인민 볼셰비키 연맹"
+ KAL_communism_party_long: "칼미크 인민 볼셰비키 연맹"
+ KAL_fascism_party: "칼미크 군단"
+ KAL_fascism_party_long: "칼미크 군단"
+ KAL_democratic_party: "인민회의"
+ KAL_democratic_party_long: "인민회의"
+ KAL_neutrality_party: "칸국파"
+ 
+ #수정 필요
+ KAR_communism_party: "카렐리야-핀란드 볼셰비키당"
+ KAR_communism_party_long: "카렐리야-핀란드 볼셰비키당"
+ KAR_fascism_party: "범핀란드 의회"
+ KAR_fascism_party_long: "범핀란드 의회"
+ KAR_democratic_party: "배이내뫼이넨 지지파"
+ KAR_neutrality_party: "카렐리야 국민대중주의 군부"
+ KAR_neutrality_party_long: "카렐리야 국민대중주의 군부"
+ 
+ #수정 필요
+ CRI_communism_party: "크림 볼세비키"
+ CRI_communism_party_long: "크림 볼세비키"
+ CRI_fascism_party: "크림 국수주의 연합"
+ CRI_fascism_party_long: "크림 국수주의 연합"
+ CRI_democratic_party: "크림 민주파"
+ CRI_democratic_party_long: "크림 민주파"
+ CRI_neutrality_party: "크림군"
+ CRI_neutrality_party_long: "크림군"
+ 
+ #수정 필요
+ TAT_communism_party: "타타르 볼셰비키당"
+ TAT_communism_party_long: "타타르 볼셰비키당"
+ TAT_fascism_party: "타타르 국수주의 연합"
+ TAT_fascism_party_long: "타타르 국수주의 연합"
+ TAT_democratic_party: "통합 타타르스탄"
+ TAT_democratic_party_long: "통합 타타르스탄"
+ TAT_neutrality_party: "카잔-타타르 구원전선"
+ TAT_neutrality_party_long: "카잔-타타르 구원전선"
+ 
+ #수정 필요
+ CIN_communism_party: "체첸-인구시 ASSR 최고 소비에트"
+ CIN_communism_party_long: "체첸-인구시 ASSR 최고 소비에트"
+ CIN_fascism_party: "체첸-인구시 임시국민혁명정부"
+ CIN_fascism_party_long: "체첸-인구시 임시국민혁명정부"
+ CIN_democratic_party: "체첸 국민대회"
+ CIN_democratic_party_long: "체첸 국민대회"
+ CIN_neutrality_party: "체첸-인구시 구국통일전선"
+ CIN_neutrality_party_long: "체첸-인구시 구국통일전선"
+ 
+ #수정 필요
+ DAG_communism_party: "다게스탄 볼셰비키당"
+ DAG_communism_party_long: "다게스탄 볼셰비키당"
+ DAG_fascism_party: "다게스탄 구국전선"
+ DAG_fascism_party_long: "다게스탄 구국전선"
+ DAG_democratic_party: "다게스탄 인민회의"
+ DAG_democratic_party_long: "다게스탄 인민회의"
+ DAG_neutrality_party: "북캅카스 토후국 지지파"
+ 
+ #수정 필요
+ BYA_communism_party: "부랴티아 볼셰비키 지역위원회"
+ BYA_communism_party_long: "부랴티아 볼셰비키 지역위원회"
+ BYA_fascism_party: "부랴티아 국수주의당"
+ BYA_fascism_party_long: "부랴티아 국수주의당"
+ BYA_democratic_party: "인민회의"
+ BYA_democratic_party_long: "인민회의"
+ BYA_neutrality_party: "전륜성왕 복벽파"
+ 
+ #수정 필요
+ FER_communism_party: "극동 볼셰비키 의회"
+ FER_communism_party_long: "극동 볼셰비키 의회"
+ FER_fascism_party: "극동 대안파"
+ FER_fascism_party_long: "극동 대안파"
+ FER_democratic_party: "치타 민주국민의회"
+ FER_democratic_party_long: "치타 민주국민의회"
+ FER_neutrality_party: "극동 독립당"
+ FER_neutrality_party_long: "극동 독립당"
+ 
+ #수정 필요
+ CKK_communism_party: "추콧카 볼셰비키 연맹"
+ CKK_communism_party_long: "추콧카 볼셰비키 연맹"
+ CKK_fascism_party: "축치 전선"
+ CKK_fascism_party_long: "축치 전선"
+ CKK_democratic_party: "아나디르 두마"
+ CKK_democratic_party_long: "아나디르 두마"
+ CKK_neutrality_party: "추콧카 독립당"
+ CKK_neutrality_party_long: "추콧카 독립당"
+ 
+ #수정 필요
+ YAK_communism_party: "야쿠트 지역 볼셰비키 의회"
+ YAK_communism_party_long: "야쿠트 지역 볼셰비키 의회"
+ YAK_fascism_party: "시베리아 연합 운동"
+ YAK_fascism_party_long: "시베리아 연합 운동"
+ YAK_democratic_party: "사하 지역의회"
+ YAK_democratic_party_long: "사하 지역의회"
+ YAK_neutrality_party: "러시아 백군"
+ 
+ #수정 필요
+ VLA_communism_party: "블라디보스토크 전공산당 의회"
+ VLA_communism_party_long: "블라디보스토크 전공산당 의회"
+ VLA_fascism_party: "러시아-일본 통일당"
+ VLA_fascism_party_long: "러시아-일본 통일당"
+ VLA_democratic_party: "블라디보스토크 두마"
+ VLA_democratic_party_long: "블라디보스토크 두마"
+ VLA_neutrality_party: "백군 잔당"
+ VLA_neutrality_party_long: "백군 잔당"
+ 
+ #수정 필요
+ KKP_communism_party: "카라칼파크 볼셰비키당"
+ KKP_communism_party_long: "카라칼파크 볼셰비키당"
+ KKP_fascism_party: "카라칼파크 국민우월당"
+ KKP_fascism_party_long: "카라칼파크 국민우월당"
+ KKP_democratic_party: "카라칼파크 입헌파"
+ KKP_democratic_party_long: "카라칼파크 입헌파"
+ KKP_neutrality_party: "카라칼파크스탄 연합전선"
+ KKP_neutrality_party_long: "카라칼파크스탄 통일전선"
+ 
+ #수정 필요
+ YAM_communism_party: "동네네츠 볼셰비키당"
+ YAM_communism_party_long: "동네네츠 볼셰비키당"
+ YAM_fascism_party: "사모예드 통일당"
+ YAM_fascism_party_long: "사모예드 통일당"
+ YAM_democratic_party: "야말로-네네츠 국가두마"
+ YAM_democratic_party_long: "야말로-네네츠 국가두마"
+ YAM_neutrality_party: "동네네츠 독립당"
+ YAM_neutrality_party_long: "동네네츠 독립당"
+ 
+ #수정 필요
+ TAY_communism_party: "타이마르 볼셰비키 연합"
+ TAY_communism_party_long: "타이마르 볼셰비키 연합"
+ TAY_fascism_party: "북시베리아 통일 운동"
+ TAY_fascism_party_long: "북시베리아 통일 운동"
+ TAY_democratic_party: "타이미르 국가두마"
+ TAY_democratic_party_long: "타이미르 국가두마"
+ TAY_neutrality_party: "돌가노-네네츠 지역위원회"
+ TAY_neutrality_party_long: "돌가노-네네츠 지역위원회"
+ 
+ #수정 필요
+ OVO_communism_party: "오스탸크-보굴 볼셰비키당"
+ OVO_communism_party_long: "오스탸크-보굴 볼셰비키당"
+ OVO_fascism_party: "시비르 복고주의자"
+ OVO_fascism_party_long: "시비르 복고주의자"
+ OVO_democratic_party: "오스탸크-보굴 두마"
+ OVO_democratic_party_long: "오스탸크-보굴 두마"
+ OVO_neutrality_party: "동우그리아 해방당"
+ OVO_neutrality_party_long: "동우그리아 해방당"
+ 
+ #수정 필요
+ NEN_communism_party: "네네츠 볼셰비키당"
+ NEN_communism_party_long: "네네츠 볼셰비키당"
+ NEN_fascism_party: "네네츠 통일운동"
+ NEN_fascism_party_long: "네네츠 통일운동"
+ NEN_democratic_party: "네네츠 하원의회"
+ NEN_democratic_party_long: "네네츠 하원의회"
+ NEN_neutrality_party: "네네츠 지역위원회"
+ NEN_neutrality_party_long: "네네츠 지역위원회"
+ 
+ #수정 필요
+ KOM_communism_party: "코미 연방 코뮌"
+ KOM_communism_party_long: "코미 연방 코뮌"
+ KOM_fascism_party: "페름 국수주의자"
+ KOM_fascism_party_long: "페름 국수주의자"
+ KOM_democratic_party: "코미 공화국 국가의회"
+ KOM_democratic_party_long: "코미 공화국 국가의회"
+ KOM_neutrality_party: "코미 인민의회"
+ KOM_neutrality_party_long: "코미 인민의회"
+ 
+ #수정 필요
+ ABK_communism_party: "압하지야 공산당"
+ ABK_communism_party_long: "압하지야 공산당"
+ ABK_fascism_party: "압하지야 정교회 연합"
+ ABK_fascism_party_long: "압하지야 정교회 연합"
+ ABK_democratic_party: "압하지야 인민회의"
+ ABK_democratic_party_long: "압하지야 인민회의"
+ ABK_neutrality_party: "압하스군"
+ 
+ #수정 필요
+ KBK_communism_party: "카바르디노-발카르 지역 볼셰비키 위원회"
+ KBK_communism_party_long: "카바르디노-발카르 지역 볼셰비키 위원회"
+ KBK_fascism_party: "전체르케스당"
+ KBK_fascism_party_long: "전체르케스당"
+ KBK_democratic_party: "카바르다 국민의회"
+ KBK_democratic_party_long: "카바르다 국민의회"
+ KBK_neutrality_party: "날치크 자치의회"
+ KBK_neutrality_party_long: "날치크 자치의회"
+ 
+ #수정 필요
+ NOA_communism_party: "북오세티야 공산당"
+ NOA_communism_party_long: "북오세티야 공산당"
+ NOA_fascism_party: "알라니야 복고주의자"
+ NOA_fascism_party_long: "알라니야 복고주의자"
+ NOA_democratic_party: "오르조니키제 의회"
+ NOA_democratic_party_long: "오르조니키제 의회"
+ NOA_neutrality_party: "북오세티야 정교회"
+ NOA_neutrality_party_long: "북오세티야 정교회"
+ 
+ #수정 필요
+ VGE_communism_party: "볼가 독일 노동조합"
+ VGE_communism_party_long: "볼가 독일 노동조합"
+ VGE_fascism_party: "볼가 독일 형제단"
+ VGE_fascism_party_long: "볼가 독일 형제단"
+ VGE_democratic_party: "볼가 독일 민주연합"
+ VGE_democratic_party_long: "볼가 독일 민주연합"
+ VGE_neutrality_party: "볼가 독일 군사정부"
+ VGE_neutrality_party_long: "볼가 독일 군사정부"
+ 
+ #수정 필요
+ BSK_communism_party: "바시키르 볼셰비키당"
+ BSK_communism_party_long: "바시키르 볼셰비키당"
+ BSK_fascism_party: "바시키르 국민통일당"
+ BSK_fascism_party_long: "바시키르 국민통일당"
+ BSK_democratic_party: "바시코르토스탄 연방주의 연맹"
+ BSK_democratic_party_long: "바시코르토스탄 연방주의 연맹"
+ BSK_neutrality_party: "바시키르 우파 협회"
+ BSK_neutrality_party_long: "바시키르 우파 협회"
+ 
+ #수정 필요
+ BUK_communism_party: "부하라 인민의회"
+ BUK_communism_party_long: "부하라 인민의회"
+ BUK_fascism_party: "부하라 수피 기구"
+ BUK_fascism_party_long: "부하라 수피 기구"
+ BUK_democratic_party: "청년 부하라당"
+ BUK_democratic_party_long: "청년 부하라당"
+ BUK_neutrality_party: "만구트 가문"
+ 
+ #수정 필요
+ KHI_communism_party: "호라즘 인민 소비에트"
+ KHI_communism_party_long: "호라즘 인민 소비에트"
+ KHI_fascism_party: "히바 바스마치 운동"
+ KHI_fascism_party_long: "히바 바스마치 운동"
+ KHI_democratic_party: "히바 인민 자디드 평의회"
+ KHI_democratic_party_long: "히바 인민 자디드 평의회"
+ KHI_neutrality_party: "칸국 복벽파"
+ 
+ #수정 필요
+ UDM_communism_party: "공산당 지역위원회"
+ UDM_communism_party_long: "우드무르트 공산당 지역위원회"
+ UDM_fascism_party: "급진파 대사제들"
+ UDM_fascism_party_long: "우드무르트 내 급진파 대사제들"
+ UDM_democratic_party: "우드무르트 주의회"
+ UDM_democratic_party_long: "우드무르트 주의회"
+ UDM_neutrality_party: "우드무르트 국회"
+ UDM_neutrality_party_long: "우드무르트 국회"
+ 
+ #수정 필요
+ MEL_communism_party: "마리 공산당"
+ MEL_communism_party_long: "마리 공산당"
+ MEL_fascism_party: "쿠구 유모"
+ MEL_fascism_party_long: "쿠구 유모 (위대한 신)"
+ MEL_democratic_party: "스텝 마리 주의회"
+ MEL_democratic_party_long: "마리 스텝 주의회"
+ MEL_neutrality_party: "국민해방통일당"
+ MEL_neutrality_party_long: "마리옐 국민해방과 통일당"
+ 
+ #수정 필요
+ CHU_communism_party: "추바시 볼셰비키당"
+ CHU_communism_party_long: "추바시 볼셰비키당"
+ CHU_fascism_party: "추바시 국가지도부"
+ CHU_fascism_party_long: "추바시 국가지도부"
+ CHU_democratic_party: "추바시-튀르크 주의회"
+ CHU_democratic_party_long: "추바시-튀르크 주의회"
+ CHU_neutrality_party: "추바시 정교회 연합"
+ CHU_neutrality_party_long: "추바시 정교회 연합"
+ 
+ #수정 필요
+ ETH_democratic_party_long: "에티오피아 민주연합"
+ ETH_fascism_party_long: "솔로몬 가문 구그사파"
+ ETH_fascism_party: "구그사파"
+ ETH_communism_party: "흑사자단"
+ ETH_communism_party_long: "흑사자단"
+ ETH_provisonal_government_long: "임시정부"
+ ETH_provisonal_government: "임시정부"
+ ETH_provisonal_military_admin_long: "임시군사행정위원회"
+ ETH_provisonal_military_admin: "임시군사행정위원회"
+ ETH_workers_party_long: "에티오피아 노동자당"
+ ETH_workers_party: "노동자당"
+ ETH_anarcho_communist_long: "아나르코공산주의 동맹"
+ ETH_anarcho_communist: "아나르코공산주의자"
+ ETH_jimma_jofir_fascism_party_long: "아바 조피르 지지파"
+ ETH_jimma_jofir_fascism_party: "조피르 지지파"
+ ETH_gojjam_haymanot_fascism_party_long: "고잠 왕당파"
+ ETH_gojjam_haymanot_fascism_party: "고잠 왕당파"
+ 
+ #수정 필요
+ KHA_communism_party: "하카스 볼셰비키 지역위원회"
+ KHA_communism_party_long: "하카스 볼셰비키 지역위원회"
+ KHA_fascism_party: "신 예니세이-키르기스당"
+ KHA_fascism_party_long: "신 예니세이-키르기스당"
+ KHA_democratic_party: "인민의 후랄"
+ KHA_democratic_party_long: "인민의 후랄"
+ KHA_neutrality_party: "하카스 지역위원회"
+ 
+ #수정 필요
+ AFA_communism_party: "아파르 혁명민주통일전선"
+ AFA_communism_party_long: "아파르 혁명민주통일전선"
+ AFA_fascism_party: "다나킬 단일당"
+ AFA_fascism_party_long: "다나킬 단일당"
+ AFA_democratic_party: "아파르 국민민주당"
+ AFA_democratic_party_long: "아파르 국민민주당"
+ AFA_neutrality_party: "칸다포 가문"
+ AFA_neutrality_party_long: "칸다포 가문"
+ 
+ #수정 필요
+ AOI_communism_party: "이탈리아 공산당"
+ AOI_democratic_party: "이탈리아 인민당"
+ AOI_fascism_party: "국가 파시스트당"
+ AOI_neutrality_party: "국가 군주주의당"
+ 
+ #수정 필요
+ LBV_communism_party: "트란스파다나 인민당"
+ LBV_democratic_party: "베네치아 민중당"
+ LBV_fascism_party: "치살피나 단일당"
+ LBV_neutrality_party: "왕당파"
+ 
+ #수정 필요
+ PAP_communism_party: "로마 인민당"
+ PAP_democratic_party: "로마 공화당"
+ PAP_fascism_party: "십자군당"
+ PAP_neutrality_party: "교황 지지파"
+ 
+ #수정 필요
+ TOS_communism_party: "토스카나 볼셰비키당"
+ TOS_democratic_party: "토스카나 민주연합"
+ TOS_fascism_party: "에트루리아 연합"
+ TOS_neutrality_party: "공작 지지파"
+ 
+ #수정 필요
+ SPM_communism_party: "치살피나 인민당"
+ SPM_democratic_party: "사보이아 민주당"
+ SPM_fascism_party: "사보이아 복벽파"
+ SPM_neutrality_party: "피에몬테 군주주의자"
+ 
+ #수정 필요
+ TTS_communism_party: "메초조르노 연방당"
+ TTS_democratic_party: "나폴리 공화당"
+ TTS_fascism_party: "파르테노페아 파시스트당"
+ TTS_neutrality_party: "국왕당"
+ 
+ #수정 필요
+ transylvania_fascism_party_long: "파시스트당"
+ transylvania_fascism_party: "파시즘"
+ 
+ #수정 필요
+ SMI_neutrality_party: "사미"
+ SMI_neutrality_party_long: "사미"
+ SMI_democratic_party: "사미 의회"
+ SMI_democratic_party_long: "사미 의회"
+ SMI_communism_party: "사미 인민위원회"
+ SMI_communism_party_long: "사미 인민위원회"
+ SMI_fascism_party: "사미 지역연합당"
+ SMI_fascism_party_long: "사미 지역연합당"
+ 
+ #수정 필요
+ GRN_neutrality_party: "전진당"
+ GRN_neutrality_party_long: "전진당"
+ GRN_democratic_party: "동지당"
+ GRN_democratic_party_long: "동지당"
+ GRN_communism_party: "공동체"
+ GRN_communism_party_long: "인민의 공동체"
+ GRN_fascism_party: "날라라크"
+ GRN_fascism_party_long: "날라라크당"
+ 
+ #수정 필요
+ ARG_gen_nazism_party: "국가방위군"
+ ARG_gen_nazism_party_long: "국가방위군"
+ ARG_militarist_party: "연합장교단"
+ ARG_militarist_party_long: "연합장교단"
+ ARG_peronist_party: "정의주의당"
+ ARG_peronist_party_long: "정의주의당"
+ 
+ #수정 필요
+ YUC_democratic_party: "입헌자유당"
+ YUC_democratic_party_long: "입헌자유당"
+ YUC_fascism_party: "국민공동통치연합"
+ YUC_fascism_party_long: "국민공동통치연합"
+ YUC_communism_party: "사파티스타당"
+ YUC_communism_party_long: "사파티스타당"
+ YUC_neutrality_party: "국가혁명당"
+ YUC_neutrality_party_long: "국가혁명당"
+ 
+ #수정 필요
+ RIG_democratic_party: "입헌자유당"
+ RIG_democratic_party_long: "입헌자유당"
+ RIG_fascism_party: "국민공동통치연합"
+ RIG_fascism_party_long: "국민공동통치연합"
+ RIG_communism_party: "사파티스타당"
+ RIG_communism_party_long: "사파티스타당"
+ RIG_neutrality_party: "국가혁명당"
+ RIG_neutrality_party_long: "국가혁명당"
+ 
+ #수정 필요
+ CHL_neutrality_party: "이바니스타당"
+ CHL_frente_popular_party: "인민전선"
+ CHL_frente_popular_party_long: "인민전선"
+ CHL_liberal_party: "자유당"
+ CHL_liberal_party_long: "자유당"
+ CHL_communist_but_democratic_party: "민주공산당"
+ CHL_communist_but_democratic_party_long: "민주공산당"
+ CHL_democratic_alliance_party: "민주동맹"
+ CHL_democratic_alliance_party_long: "민주동맹"
+ CHL_conservative_party: "보수당"
+ CHL_conservative_party_long: "보수당"
+ CHL_radical_party: "급진당"
+ CHL_radical_party_long: "급진당"
+ CHL_popular_freedom_alliance_party: "인민자유동맹"
+ CHL_popular_freedom_alliance_party_long: "인민자유동맹"
+ CHL_popular_socialist_vanguard: "대중사회주의 전위대"
+ CHL_popular_socialist_vanguard_long: "대중사회주의 전위대"
+ CHL_socialist_party: "사회당"
+ CHL_socialist_party_long: "사회당"
+ CHL_izquierda_communist_party: "좌파공산주의"
+ CHL_izquierda_communist_party_long: "좌파공산주의 - 혁명노동자당"
+ CHL_communist_socialist_party: "사회당"
+ CHL_communist_socialist_party_long: "칠라 사회당"
+ CHL_mapuche_party: "카우폴리칸 협회"
+ CHL_mapuche_party_long: "아라우카니아 카우폴리칸 옹호자협회"
+ CHL_house_of_orelie: "오렐리 가문"
+ CHL_house_of_orelie_long: "오렐리 가문의 앙투안 1세, 아라우카니아 파타고니아 왕국의 초대 국왕"
+ CHL_straight_line_party: "직선"
+ CHL_straight_line_party_long: "파트리아 누에바의 직선"
+ 
+ #수정 필요
+ BOL_communism_party: "혁명노동자당"
+ BOL_communism_party_long: "혁명노동자당"
+ 
+ #수정 필요
+ PAR_democratic_party: "청색당"
+ PAR_fascism_party: "적기대"
+ PAR_neutrality_party: "모리니고 정부"
+ 
+ #수정 필요
+ QUE_communism_party: "퀘벡 공산당"
+ QUE_democratic_party: "급진당"
+ QUE_fascism_party: "국민운동"
+ QUE_neutrality_party: "퀘벡 운동"
+ 
+ #수정 필요
+ BRA_military_party: "군부"
+ BRA_military_party_long: "군부"
+ BRA_provisional_government: "임시정부"
+ BRA_provisional_government_long: "임시정부"
+ BRA_democratic_union: "브라질 민주연합"
+ BRA_democratic_union_long: "브라질 민주연합"
+ populism: "대중주의"
+ populism_desc: "명확한 이념적 틀이 거의 없는 정치적 운동. 대중주의자들은 유권자에게 인기가 있거나 정치적 '엘리트'의 선호와 상충되는 것으로 인식되는 다양한 범주의 정책을 옹호합니다."
+ BRA_imperial_house: "제정복고운동"
+ BRA_imperial_house_long: "제정복고운동"
+ BRA_cangaco_party_long: "캉가수 운동"
+ BRA_cangaco_party: "캉가수"
+ 
+ ###############################################################
+ ########################## 괴뢰 중국 ##########################
+ ###############################################################
+
+ RGC_communism_party: "혁명위원회"
+ RGC_communism_party_long: "혁명위원회"
+
+ RGC_rev_socialism_party: "인민위원회"
+ RGC_rev_socialism_party_long: "인민위원회"
+ 
+ RGC_dem_socialism_party: "행정위원회"
+ RGC_dem_socialism_party_long: "행정위원회"
+ 
+ RGC_soc_liberalism_party: "행정위원회"
+ RGC_soc_liberalism_party_long: "행정위원회"
+ 
+ RGC_old_liberalism_party: "행정위원회"
+ RGC_old_liberalism_party_long: "행정위원회"
+ 
+ RGC_democratic_party: "행정위원회"
+ RGC_democratic_party_long: "행정위원회"
+ 
+ RGC_soc_conservatism_party: "행정위원회"
+ RGC_soc_conservatism_party_long: "행정위원회"
+ 
+ RGC_neutrality_party: "정무위원회" #조건에 따라 변경 -> 군정, 황한회, 황사회
+ RGC_neutrality_party_long: "정무위원회"
+ 
+ RGC_despotism_party: "정무위원회" #조건에 따라 변경 -> 군정, 황한회, 황사회
+ RGC_despotism_party_long: "정무위원회"
+ 
+ RGC_fascism_party: "정무위원회" #조건에 따라 변경 -> 군정, 황한회, 황사회
+ RGC_fascism_party_long: "정무위원회"
