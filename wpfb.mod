@@ -1,4 +1,4 @@
-version="1"
+version="0.1 Kwangmyong"
 replace_path="gfx/flags"
 dependencies={
 	"Korean Language"
